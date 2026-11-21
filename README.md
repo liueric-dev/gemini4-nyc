@@ -127,7 +127,8 @@ The full media set is not in this repository (licences and size), so the evaluat
 
 | Path | What |
 |---|---|
-| `web/index.html`, `web/public/app.js` | The app's screens. The design is the team's Tenard prototype ([hey-niia/tenard](https://github.com/hey-niia/tenard)), connected to the live backend |
+| `web/live/`, `web/assemble.py` | The source of the app's screens and the script that builds them |
+| `web/index.html`, `web/public/app.js` | The app's screens (generated). The design is the team's Tenard prototype ([hey-niia/tenard](https://github.com/hey-niia/tenard)), connected to the live backend |
 | `web/proof.html` | The test results page |
 | `app/pipeline.py` | The pipeline: propose, confirm, decide, explain, check |
 | `app/db.py`, `app/rule_conditions.json` | The decision matrix lookups and the conditions that select a row |

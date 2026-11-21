@@ -1,0 +1,37 @@
+  /* ---------- added for the live app ---------- */
+  .kit { flex-shrink: 0; }
+  .prod .prodimg { overflow: hidden; }
+  .prod .prodimg img { width: 100%; height: 100%; object-fit: contain; }
+  .prod .ttl { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 38px; }
+  .prod .prodact { display: flex; align-items: center; gap: 8px; margin: 12px 6px 0; }
+  .prod .buy { flex: 1; height: 36px; border-radius: 18px; background: var(--yellow); color: #111; font-size: 14px; font-weight: 600; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+  .prod .have { border: 0; background: none; padding: 0; font-size: 12px; font-weight: 600; color: var(--muted); text-decoration: underline; }
+  .prod.owned .prodimg, .prod.owned .prodname, .prod.owned .prodsub, .prod.owned .prodprice { opacity: .35; }
+  .prod.owned .buy { background: #EEEEEE; color: var(--muted); pointer-events: none; }
+  .letter { padding: 10px 12px; font-size: 13px; line-height: 1.5; color: var(--soft); white-space: pre-line; max-height: 240px; overflow-y: auto; overflow-wrap: anywhere; }
+  .btnrow .primary-link { flex: 1.4; height: 44px; display: flex; align-items: center; justify-content: center; background: var(--yellow); color: #111; font-size: 14px; font-weight: 600; text-decoration: none; }
+  .card { flex-shrink: 0; }
+  .samples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .samples button { padding: 0; border: 1px solid #D6D6D6; border-radius: 12px; overflow: hidden; aspect-ratio: 1; background: #F2F2F2; }
+  .samples img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .quote { margin: 0; padding: 10px 12px; border-left: 3px solid var(--yellow); background: #F4F4F4; border-radius: 0 10px 10px 0; font-size: 14px; line-height: 1.45; }
+  .quote footer { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 12px; }
+  .quote footer a { font-weight: 600; }
+  .checked { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); }
+  .rulep { margin: 0; font-size: 15px; line-height: 1.45; }
+  .ruleh { font-size: 13px; margin-top: 4px; }
+  .md { padding: 8px 20px 24px; font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; }
+  .md h2 { font-size: 20px; margin: 14px 0 6px; letter-spacing: -.3px; } .md h3 { font-size: 16px; margin: 18px 0 6px; } .md h4, .md h5 { font-size: 14px; margin: 12px 0 4px; }
+  .md p { margin: 6px 0; } .md ul, .md ol { margin: 6px 0; padding-left: 20px; } .md li { margin: 3px 0; }
+  .md hr { border: 0; border-top: 1px solid var(--line2); margin: 14px 0; }
+  .md code { font-family: ui-monospace, Menlo, monospace; font-size: 12px; background: var(--cream); padding: 1px 4px; border-radius: 4px; }
+  .mdtable { overflow-x: auto; margin: 8px 0; } .md table { border-collapse: collapse; font-size: 12px; }
+  .md th, .md td { border: 1px solid var(--line2); padding: 5px 7px; text-align: left; vertical-align: top; min-width: 70px; } .md th { background: var(--cream); }
+  .prooflink { position: fixed; right: 18px; bottom: 16px; font-size: 13px; font-weight: 600; color: var(--ink); background: var(--bg); border: 1px solid var(--line2); border-radius: 999px; padding: 8px 14px; text-decoration: none; }
+  @media (max-width: 500px) { .prooflink { display: none; } }
+  .stepline { display: flex; gap: 10px; align-items: flex-start; padding: 9px 12px; border-top: 1px solid #EEEEEE; font-size: 14px; }
+  .stepline .dot { width: 22px; height: 22px; flex-shrink: 0; border-radius: 11px; background: var(--yellow); color: #111; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .stepline b { display: block; font-size: 14px; } .stepline .sub { display: block; font-size: 12px; line-height: 1.35; margin-top: 2px; }
+  .fcard .letter { padding: 0; margin: 0 2px; }
+  a.fbtn { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; flex: 1; }
+  .fcard .ph { flex-shrink: 0; }
