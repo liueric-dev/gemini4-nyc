@@ -29,7 +29,7 @@ function guessType(text) {
 const FRESH = { type: null, step: 0, desc: null, typedFirst: false,
   photo: null, isVideo: false, file: null, photoId: null,
   address: null, building: null, addrError: null, addrSkipped: false,
-  analysis: null, answers: {}, qa: [], explained: false, error: null, busy: null,
+  analysis: null, answers: {}, qa: [], explained: false, error: null, busy: null, attachMenu: false,
   asked: false, letter: null, chat: [], notes: [], diyChoice: null, kit: null, owned: {}, packet: null,
   fixed: false, verified: false, awaitVerify: false, afterPhoto: null, insp: null, missed: false, exported: false };
 const S = Object.assign({ view: 'chat', typing: false, samples: null, showKit: false }, FRESH);
@@ -159,6 +159,12 @@ async function buildPacket() {
       } catch (e) { /* a dropped poll is fine; the next one retries */ }
     }, 5000);
   } catch (e) { if (mine === run) { S.packet = { error: String(e.message || e) }; render(); } }
+}
+
+function showAttachMenu(open) {
+  const box = document.getElementById('msg'), typed = box ? box.value : '';
+  S.attachMenu = open; render();
+  if (typed && document.getElementById('msg')) document.getElementById('msg').value = typed; // keep what was being typed
 }
 
 async function openSamples() {
@@ -526,6 +532,10 @@ function chatView(conv) {
     </div>
     <div class="chips${chips.every((c) => c.label.length <= 18) ? ' inline' : ''}">${S.typing ? '' : chips.map((c, i) => `<button class="chip${c.dark ? ' dark' : ''}" data-chip="${i}"><span>${esc(c.label)}</span>${ICON.arrowNE}</button>`).join('')}</div>`}
     <form class="composer" id="composer">
+      ${S.attachMenu ? `<div role="menu" aria-label="Add a photo or video" style="display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-left:-8px">
+        <button type="button" class="cbtn wide" role="menuitem" data-act="pick-file">${ICON.cam}<span>Take or upload a photo or video</span></button>
+        <button type="button" class="cbtn wide" role="menuitem" data-act="pick-sample">${ICON.plus(20)}<span>Use a sample photo</span></button>
+      </div>` : ''}
       <input type="text" id="msg" aria-label="Message" placeholder="${esc(placeholder)}" autocomplete="off">
       <div class="composer-row">
         ${attachLabel
@@ -726,6 +736,8 @@ document.addEventListener('click', (e) => {
   const sample = e.target.closest('[data-sample]');
   if (sample) {
     const id = sample.dataset.sample;
+    if (!S.type) { run++; Object.assign(S, { type: 'other', typedFirst: false, addrSkipped: true }); }
+    if (!S.building && !S.addrSkipped) S.addrSkipped = true;
     Object.assign(S, { view: 'chat', photo: '/api/photos/' + id, photoId: id, file: null, isVideo: false, analysis: null, answers: {}, qa: [], diyChoice: null, kit: null, owned: {}, step: 2 });
     analyse(); return;
   }
@@ -751,7 +763,12 @@ document.addEventListener('click', (e) => {
   else if (act === 'rule') set({ view: 'rule' });
   else if (act === 'packet') set({ view: 'packet' });
   else if (act === 'new') reset();
-  else if (act === 'attach') { S.awaitVerify = !!(S.fixed && !S.verified); document.getElementById('file').click(); }
+  else if (act === 'attach') {
+    // a photo of the finished repair goes straight to the camera; otherwise offer a sample as well
+    if (S.fixed && !S.verified) { S.awaitVerify = true; document.getElementById('file').click(); } else showAttachMenu(!S.attachMenu);
+  }
+  else if (act === 'pick-file') { S.awaitVerify = false; document.getElementById('file').click(); showAttachMenu(false); }
+  else if (act === 'pick-sample') { S.attachMenu = false; openSamples(); }
   else if (act === 'copy-letter') { if (S.letter && S.letter.letter) copyText(S.letter.letter, a); }
   else if (act === 'copy-311') { if (S.letter && S.letter.complaint_311) copyText(S.letter.complaint_311, a); }
   else if (act === 'mail') { if (S.letter && S.letter.letter) window.location.href = 'mailto:?subject=' + encodeURIComponent('Repair request') + '&body=' + encodeURIComponent(S.letter.letter); }
