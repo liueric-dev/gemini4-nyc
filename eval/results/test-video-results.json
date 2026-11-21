@@ -1,0 +1,283 @@
+{
+ "set": "test-video",
+ "items": 22,
+ "skipped": {
+  "dropped_or_pending": [
+   "med-0856",
+   "med-0859"
+  ]
+ },
+ "run_at": "2026-11-21T14:30:59-0500",
+ "video_settings": {
+  "seconds_per_frame": 3,
+  "max_frames": 16,
+  "min_frames": 4,
+  "min_confirming_frames": 2
+ },
+ "system": {
+  "detection": {
+   "items_scored": 22,
+   "calls_failed": 0,
+   "exact_match": [
+    17,
+    22
+   ],
+   "precision": [
+    8,
+    8
+   ],
+   "recall": [
+    8,
+    13
+   ],
+   "false_alarms": {
+    "no-problem": [
+     0,
+     7
+    ],
+    "look-alike": [
+     0,
+     3
+    ]
+   },
+   "per_type": {
+    "leak": {
+     "found": [
+      1,
+      3
+     ],
+     "false_reports": 0
+    },
+    "mold": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    },
+    "peeling-paint": {
+     "found": [
+      1,
+      1
+     ],
+     "false_reports": 0
+    },
+    "wall-ceiling-damage": {
+     "found": [
+      2,
+      3
+     ],
+     "false_reports": 0
+    },
+    "pests": {
+     "found": [
+      2,
+      2
+     ],
+     "false_reports": 0
+    },
+    "smoke-co-detector": {
+     "found": [
+      2,
+      4
+     ],
+     "false_reports": 0
+    },
+    "window": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    },
+    "heat-hot-water": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    }
+   }
+  },
+  "timestamps": [
+   7,
+   8
+  ],
+  "any_one_frame_variant": {
+   "items_scored": 22,
+   "calls_failed": 0,
+   "exact_match": [
+    18,
+    22
+   ],
+   "precision": [
+    11,
+    13
+   ],
+   "recall": [
+    11,
+    13
+   ],
+   "false_alarms": {
+    "no-problem": [
+     1,
+     7
+    ],
+    "look-alike": [
+     0,
+     3
+    ]
+   },
+   "per_type": {
+    "leak": {
+     "found": [
+      2,
+      3
+     ],
+     "false_reports": 1
+    },
+    "mold": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    },
+    "peeling-paint": {
+     "found": [
+      1,
+      1
+     ],
+     "false_reports": 0
+    },
+    "wall-ceiling-damage": {
+     "found": [
+      3,
+      3
+     ],
+     "false_reports": 0
+    },
+    "pests": {
+     "found": [
+      2,
+      2
+     ],
+     "false_reports": 0
+    },
+    "smoke-co-detector": {
+     "found": [
+      3,
+      4
+     ],
+     "false_reports": 1
+    },
+    "window": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    },
+    "heat-hot-water": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    }
+   }
+  },
+  "errors": {}
+ },
+ "baseline": {
+  "detection": {
+   "items_scored": 22,
+   "calls_failed": 0,
+   "exact_match": [
+    14,
+    22
+   ],
+   "precision": [
+    10,
+    15
+   ],
+   "recall": [
+    10,
+    13
+   ],
+   "false_alarms": {
+    "no-problem": [
+     3,
+     7
+    ],
+    "look-alike": [
+     1,
+     3
+    ]
+   },
+   "per_type": {
+    "leak": {
+     "found": [
+      3,
+      3
+     ],
+     "false_reports": 1
+    },
+    "mold": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    },
+    "peeling-paint": {
+     "found": [
+      1,
+      1
+     ],
+     "false_reports": 0
+    },
+    "wall-ceiling-damage": {
+     "found": [
+      3,
+      3
+     ],
+     "false_reports": 1
+    },
+    "pests": {
+     "found": [
+      2,
+      2
+     ],
+     "false_reports": 0
+    },
+    "smoke-co-detector": {
+     "found": [
+      1,
+      4
+     ],
+     "false_reports": 2
+    },
+    "window": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 0
+    },
+    "heat-hot-water": {
+     "found": [
+      0,
+      0
+     ],
+     "false_reports": 1
+    }
+   }
+  },
+  "timestamps": [
+   9,
+   10
+  ],
+  "errors": {}
+ }
+}

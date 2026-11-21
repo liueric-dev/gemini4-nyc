@@ -14,6 +14,7 @@ Team: [add names]
 |---|---|---|
 | Propose | Gemini 4 **Argon** | Looks at the photo and says which of eight housing problems it shows, with a description of each |
 | Confirm | **Decisions API** | Gives a probability for each problem. A problem is reported only if Argon proposed it and the probability clears a cut-off. The same request reads facts from the photo, such as mould size and which pest |
+| Video | Code | A clip is cut into stills, about one every 3 seconds. Each goes through the steps above, and a problem is reported only if two or more frames confirm it, with the time it was clearest |
 | Photo quality | **Decisions API** | Is the photo sharp, close enough, and showing scale? If not, the tenant is asked for a better one |
 | Building facts | Code, NYC Open Data | The address gives year built, units, building type and open HPD violations |
 | Decide | Code, no model | The problem type and the facts select a row of a 92-row decision matrix: class, deadline, law sections. If a fact is missing, the app asks the tenant |
@@ -51,6 +52,19 @@ No model writes the class or the deadline. Code reads them from the decision mat
 
 The baseline agreed with the reviewer more often. The system declines half the time and asks the tenant for the size or a clearer photo; when it does answer it is right more often, and it never guessed on a photo the reviewer couldn't judge.
 
+**Video.** 22 reviewed test clips, 9 to 385 seconds long. The system samples a still about every 3 seconds and reports a problem only if two or more frames confirm it. The baseline is one Argon call given the whole clip.
+
+| | Baseline: one model call | This system |
+|---|---|---|
+| Clips answered exactly right | 14 of 22 | 17 of 22 |
+| Real problems found | 10 of 13 | 8 of 13 |
+| Wrong reports | 5 | 0 |
+| False alarms on clips with no problem | 3 of 7 | 0 of 7 |
+| False alarms on look-alike clips | 1 of 3 | 0 of 3 |
+| Timestamp inside the reviewer's range | 9 of 10 | 7 of 8 |
+
+On video the system is ahead: every problem it reported was real, and it raised no false alarms, while the baseline raised one on four of the ten clean or look-alike clips. It found fewer real problems (8 of 13 against 10). Had one confirming frame been enough, it would have found 11 of 13 with one false alarm; we kept the two-frame rule because it was set before the test run.
+
 Full results, with every photo's answer from both sides, are in [`eval/results/`](eval/results/). The scoring rules are in [`data/media/review/scoring-rules.md`](data/media/review/scoring-rules.md).
 
 ### What we changed after seeing failures
@@ -67,12 +81,12 @@ Full results, with every photo's answer from both sides, are in [`eval/results/`
 - **Mid-sized mould.** Of six photos the reviewer put at 10 to under 30 square feet, the system got none right (two called smaller, four declined). The baseline got one.
 - **Missed problems.** It found 85 of 98 real problems. The confirm step that removes false alarms also removes some real ones, mostly detectors and leaks.
 - **Leaks and wall damage have no predicted class.** HPD issues them in more than one class and the rule for choosing is not published online, so the app says the inspector decides.
-- **Video is not supported.** The 22 test videos were not attempted.
+- **Video misses short moments.** The system found 8 of 13 problems in the test clips. A problem on screen for only a few seconds can fall between sampled frames, or be confirmed in one frame only. Sound is ignored.
 
 ### Limits of the test
 
 - The photos are public images, not NYC tenants' own photos.
-- 175 photos is a small set. Differences of a few photos are noise.
+- 175 photos and 22 clips are small sets. Differences of a few items are noise.
 - The law step was scored for the baseline (its citations were a real section 90 of 91 times, and law for that problem 84 of 91). The system's citations were not scored the same way; they are constrained by code to the sections for the matched rule and checked word for word.
 - The decision matrix is a draft. Nobody with legal training has reviewed it.
 
@@ -99,6 +113,7 @@ The evaluation:
 uv run python eval/run.py --set dev --limit 220    # practice photos
 uv run python eval/tune.py                         # show the cut-offs each rule would pick
 uv run python eval/run.py --set test               # the frozen test set
+uv run python eval/run_video.py --set test         # the reviewed test clips
 uv run python eval/report.py                       # write eval/results/
 ```
 

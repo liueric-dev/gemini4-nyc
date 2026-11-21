@@ -68,15 +68,16 @@ def client() -> genai.Client:
     return _client
 
 
-def _retry(fn, attempts: int = 2):
-    """The venue network drops requests now and then; one retry covers most of it."""
+def _retry(fn, attempts: int = 4):
+    """The venue network drops requests now and then, more so with many in flight (video frames).
+    Retry with a growing pause: 0.5 s, 1 s, 2 s."""
     for i in range(attempts):
         try:
             return fn()
         except Exception:
             if i == attempts - 1:
                 raise
-            time.sleep(0.5)
+            time.sleep(0.5 * 2**i)
 
 
 # ---------------------------------------------------------------- detect (Decisions API)
