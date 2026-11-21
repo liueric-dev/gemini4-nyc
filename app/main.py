@@ -1,10 +1,11 @@
 """The web API. Run with `make dev`."""
+import hashlib
 import json
 from typing import Annotated
 
 from fastapi import Body, FastAPI, File, Form, HTTPException, Response, UploadFile
 
-from app import building, case_agent, config, media, pipeline
+from app import building, case_agent, config, letter, media, pipeline
 
 app = FastAPI(title="Tenant advocate")
 
@@ -50,6 +51,7 @@ def analyze(
     photo_id: Annotated[str | None, Form()] = None,
     address: Annotated[str | None, Form()] = None,
     answers: Annotated[str | None, Form()] = None,
+    explain: Annotated[bool, Form()] = True,
 ) -> dict:
     """A photo to findings. Send an uploaded photo or the id of a test photo, plus an optional address
     and answers (a JSON object of fact name to value) to questions from an earlier response."""
@@ -72,9 +74,30 @@ def analyze(
         raise HTTPException(400, "answers must be a JSON object") from None
     if not isinstance(parsed, dict):
         raise HTTPException(400, "answers must be a JSON object")
-    result = pipeline.analyze(found[0], found[1], address=address or None, answers=parsed)
+    key = hashlib.sha256(json.dumps([photo_id, address or "", parsed, explain], sort_keys=True).encode()).hexdigest()[:16]
+    saved = config.VAR / "cache" / "analyze" / f"{key}.json"
+    try:
+        result = pipeline.analyze(found[0], found[1], address=address or None, answers=parsed, with_explanation=explain)
+    except Exception as e:  # noqa: BLE001 - the venue network drops calls; fall back to the last good answer if there is one
+        if saved.exists():
+            return {**json.loads(saved.read_text()), "from_cache": True,
+                    "cache_note": "The live call failed, so this is the answer saved from the last successful run."}
+        raise HTTPException(503, f"The model service did not respond ({type(e).__name__}). Try again.") from None
     result["photo"] = {"id": photo_id, "url": f"/api/photos/{photo_id}"}
+    result["from_cache"] = False
+    saved.parent.mkdir(parents=True, exist_ok=True)
+    saved.write_text(json.dumps(result))
     return result
+
+
+@app.post("/api/explain")
+def explain_findings(analysis: Annotated[dict, Body(embed=True)]) -> dict:
+    """Add the written explanation and checked citations to an analysis made with explain=false.
+    Lets a screen show the class and deadline first, then fill this in when it arrives."""
+    try:
+        return pipeline.add_explanations(analysis)
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(503, f"The model service did not respond ({type(e).__name__}). Try again.") from None
 
 
 @app.post("/api/case-file")
@@ -103,8 +126,21 @@ def get_case_file(case_id: str) -> dict:
 @app.get("/api/results")
 def get_results() -> dict:
     """The evaluation numbers for the proof screen: the frozen test set if it has been run, else the dev run."""
-    for name in ("test", "dev"):
-        path = config.VAR / "eval" / f"{name}-results.json"
+    for path in (config.ROOT / "eval/results/test-results.json", config.VAR / "eval/test-results.json",
+                 config.VAR / "eval/dev-results.json"):
         if path.exists():
             return json.loads(path.read_text())
     raise HTTPException(404, "No evaluation has been run yet")
+
+
+@app.post("/api/letter")
+def draft_letter(
+    analysis: Annotated[dict, Body(embed=True)],
+    tenant_name: Annotated[str | None, Body(embed=True)] = None,
+    apartment: Annotated[str | None, Body(embed=True)] = None,
+) -> dict:
+    """Draft the letter to the landlord and the 311 complaint text from an /api/analyze response."""
+    try:
+        return letter.draft(analysis, tenant_name, apartment)
+    except ValueError as e:
+        raise HTTPException(400, str(e)) from None

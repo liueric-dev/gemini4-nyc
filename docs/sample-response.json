@@ -120,6 +120,18 @@
       "request": "Take a closer photo of the paint in good light, at an angle that shows it lifting from the surface."
     }
   ],
+  "photo_quality": {
+    "scores": {
+      "sharp_and_lit": 0.91,
+      "close_enough": 0.84,
+      "shows_location": 0.77,
+      "has_scale_reference": 0.12
+    },
+    "good_for_evidence": false,
+    "retake_requests": [
+      "Nothing in the photo shows scale. Put a sheet of paper or a ruler beside it and retake."
+    ]
+  },
   "out_of_scope": null,
   "_notes_for_designers": {
     "outcome_values": {
@@ -138,6 +150,7 @@
     "out_of_scope": "When the photo shows something outside the decision tree, this is {description, tenant_responsibility}. It is where a Shopify suggestion would attach.",
     "no_boxes": "The models describe where a problem is in words (the where field). They don't return coordinates, so don't design boxes drawn on the photo.",
     "arrival_order": "Parts arrive at different times: detection at about 1 second, description at about 6, the law explanation at about 13. Design each part to appear when ready.",
-    "unclear": "Problems the app thought it saw but couldn't confirm. Not reported as problems. Show the request and let the tenant add another photo."
+    "unclear": "Problems the app thought it saw but couldn't confirm. Not reported as problems. Show the request and let the tenant add another photo.",
+    "photo_quality": "Advice about the photo as evidence. The problem is still reported. Show retake_requests when good_for_evidence is false."
   }
 }

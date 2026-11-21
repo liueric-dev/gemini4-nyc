@@ -82,3 +82,16 @@ def test_detection_cut_off_and_photo_facts(monkeypatch):
     assert facts["mold_area_sqft"][0] == 15 and facts["mold_on_tile_grout_caulk_only"][0] is False
     unsure = p.photo_facts("mold", {"f_mold_size": {"choice": "under_10_sqft", "confidence": 0.4}})
     assert "mold_area_sqft" not in unsure  # below the cut-off: ask the tenant instead of guessing
+
+
+def test_quality_report_asks_for_scale_only_when_size_matters(monkeypatch):
+    monkeypatch.setitem(p.THRESHOLDS, "quality", 0.5)
+    scores = {"sharp_and_lit": 0.9, "close_enough": 0.8, "shows_location": 0.7, "has_scale_reference": 0.1}
+    mould = p.quality_report(scores, ["mold"])
+    assert mould["good_for_evidence"] is False and len(mould["retake_requests"]) == 1
+    assert "scale" in mould["retake_requests"][0]
+    pests = p.quality_report(scores, ["pests"])
+    assert pests["good_for_evidence"] is True and "has_scale_reference" not in pests["scores"]
+    dark = p.quality_report({**scores, "sharp_and_lit": 0.2}, ["pests"])
+    assert dark["good_for_evidence"] is False and "blurry or too dark" in dark["retake_requests"][0]
+    assert p.quality_report(scores, []) is None  # nothing reported, nothing to document

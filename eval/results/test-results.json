@@ -1,0 +1,400 @@
+{
+ "set": "test",
+ "items": 175,
+ "skipped": {
+  "dropped": 5,
+  "pending": [
+   "med-0820"
+  ],
+  "videos_not_attempted": 22,
+  "unmapped": []
+ },
+ "run_at": "2026-11-21T14:02:54-0500",
+ "thresholds": {
+  "_about": "Cut-offs used by app/pipeline.py. `confirm` is the Decisions API probability a model-proposed problem must reach to be reported; `detect` is the old detector-alone cut-off, kept for comparison. Untuned defaults until eval/tune.py sets them from dev-split photos by a rule fixed in advance.",
+  "detect": {
+   "default": 0.5
+  },
+  "fact": 0.5,
+  "confidence": {
+   "high": 0.8,
+   "medium": 0.6
+  },
+  "max_questions": 3,
+  "confirm": {
+   "default": 0.5,
+   "leak": 0.05,
+   "mold": 0.05,
+   "peeling-paint": 0.65,
+   "wall-ceiling-damage": 0.85,
+   "pests": 0.05,
+   "smoke-co-detector": 0.05,
+   "window": 0.35,
+   "heat-hot-water": 0.05
+  },
+  "_tuned": {
+   "rule": "per-type",
+   "dev_photos": 220,
+   "proposer": "system-gemini-4-argon-p1",
+   "cross_validated_exact_match": [
+    169,
+    220
+   ]
+  }
+ },
+ "models": {
+  "detect": "gemini-decision-1",
+  "baseline": "gemini-4-argon"
+ },
+ "detector_only_v1": {
+  "detection": {
+   "items_scored": 175,
+   "calls_failed": 0,
+   "exact_match": [
+    110,
+    175
+   ],
+   "precision": [
+    88,
+    171
+   ],
+   "recall": [
+    88,
+    98
+   ],
+   "false_alarms": {
+    "no-problem": [
+     6,
+     66
+    ],
+    "look-alike": [
+     5,
+     24
+    ]
+   },
+   "per_type": {
+    "leak": {
+     "found": [
+      10,
+      12
+     ],
+     "false_reports": 31
+    },
+    "mold": {
+     "found": [
+      29,
+      29
+     ],
+     "false_reports": 3
+    },
+    "peeling-paint": {
+     "found": [
+      12,
+      12
+     ],
+     "false_reports": 18
+    },
+    "wall-ceiling-damage": {
+     "found": [
+      9,
+      10
+     ],
+     "false_reports": 22
+    },
+    "pests": {
+     "found": [
+      10,
+      10
+     ],
+     "false_reports": 2
+    },
+    "smoke-co-detector": {
+     "found": [
+      5,
+      9
+     ],
+     "false_reports": 4
+    },
+    "window": {
+     "found": [
+      10,
+      10
+     ],
+     "false_reports": 2
+    },
+    "heat-hot-water": {
+     "found": [
+      3,
+      6
+     ],
+     "false_reports": 1
+    }
+   }
+  }
+ },
+ "system": {
+  "detection": {
+   "items_scored": 175,
+   "calls_failed": 0,
+   "exact_match": [
+    147,
+    175
+   ],
+   "precision": [
+    85,
+    112
+   ],
+   "recall": [
+    85,
+    98
+   ],
+   "false_alarms": {
+    "no-problem": [
+     4,
+     66
+    ],
+    "look-alike": [
+     3,
+     24
+    ]
+   },
+   "per_type": {
+    "leak": {
+     "found": [
+      8,
+      12
+     ],
+     "false_reports": 13
+    },
+    "mold": {
+     "found": [
+      25,
+      29
+     ],
+     "false_reports": 0
+    },
+    "peeling-paint": {
+     "found": [
+      12,
+      12
+     ],
+     "false_reports": 5
+    },
+    "wall-ceiling-damage": {
+     "found": [
+      9,
+      10
+     ],
+     "false_reports": 4
+    },
+    "pests": {
+     "found": [
+      10,
+      10
+     ],
+     "false_reports": 2
+    },
+    "smoke-co-detector": {
+     "found": [
+      6,
+      9
+     ],
+     "false_reports": 1
+    },
+    "window": {
+     "found": [
+      10,
+      10
+     ],
+     "false_reports": 2
+    },
+    "heat-hot-water": {
+     "found": [
+      5,
+      6
+     ],
+     "false_reports": 0
+    }
+   }
+  },
+  "mold": {
+   "reviewer_bin_by_system_bin": {
+    "A": {
+     "A": 6,
+     "cant-tell": 4
+    },
+    "C": {
+     "C": 3,
+     "cant-tell": 4
+    },
+    "cant-tell": {
+     "cant-tell": 5
+    },
+    "B": {
+     "cant-tell": 4,
+     "A": 2
+    },
+    "tile-grout": {
+     "tile-grout": 1
+    }
+   },
+   "exact_agreement": [
+    10,
+    24
+   ],
+   "within_one_bin": [
+    12,
+    24
+   ],
+   "abstained_when_reviewer_could_not_tell": [
+    5,
+    5
+   ],
+   "abstained_when_reviewer_judged": [
+    12,
+    24
+   ]
+  },
+  "errors": {},
+  "median_seconds": 6.23
+ },
+ "baseline": {
+  "detection": {
+   "items_scored": 175,
+   "calls_failed": 0,
+   "exact_match": [
+    145,
+    175
+   ],
+   "precision": [
+    91,
+    132
+   ],
+   "recall": [
+    91,
+    98
+   ],
+   "false_alarms": {
+    "no-problem": [
+     3,
+     66
+    ],
+    "look-alike": [
+     7,
+     24
+    ]
+   },
+   "per_type": {
+    "leak": {
+     "found": [
+      9,
+      12
+     ],
+     "false_reports": 9
+    },
+    "mold": {
+     "found": [
+      27,
+      29
+     ],
+     "false_reports": 3
+    },
+    "peeling-paint": {
+     "found": [
+      11,
+      12
+     ],
+     "false_reports": 9
+    },
+    "wall-ceiling-damage": {
+     "found": [
+      9,
+      10
+     ],
+     "false_reports": 11
+    },
+    "pests": {
+     "found": [
+      10,
+      10
+     ],
+     "false_reports": 3
+    },
+    "smoke-co-detector": {
+     "found": [
+      9,
+      9
+     ],
+     "false_reports": 1
+    },
+    "window": {
+     "found": [
+      10,
+      10
+     ],
+     "false_reports": 3
+    },
+    "heat-hot-water": {
+     "found": [
+      6,
+      6
+     ],
+     "false_reports": 2
+    }
+   }
+  },
+  "mold": {
+   "reviewer_bin_by_system_bin": {
+    "A": {
+     "A": 8,
+     "cant-tell": 2
+    },
+    "C": {
+     "C": 5,
+     "B": 1,
+     "cant-tell": 1
+    },
+    "cant-tell": {
+     "A": 2,
+     "cant-tell": 3
+    },
+    "B": {
+     "B": 1,
+     "A": 5
+    },
+    "tile-grout": {
+     "tile-grout": 1
+    }
+   },
+   "exact_agreement": [
+    15,
+    24
+   ],
+   "within_one_bin": [
+    21,
+    24
+   ],
+   "abstained_when_reviewer_could_not_tell": [
+    3,
+    5
+   ],
+   "abstained_when_reviewer_judged": [
+    3,
+    24
+   ]
+  },
+  "citations": {
+   "correct_detections_with_a_citation": 91,
+   "citation_is_a_real_section": [
+    90,
+    91
+   ],
+   "citation_is_law_for_that_problem": [
+    84,
+    91
+   ]
+  },
+  "errors": {},
+  "median_seconds": 5.6
+ }
+}

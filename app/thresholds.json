@@ -1,5 +1,5 @@
 {
-  "_about": "Cut-offs used by app/pipeline.py. `confirm` is the Decisions API probability a model-proposed problem must reach to be reported; `detect` is the old detector-alone cut-off, kept for comparison. Untuned defaults until eval/tune.py sets them from dev-split photos by a rule fixed in advance.",
+  "_about": "Cut-offs used by app/pipeline.py. `confirm` is the Decisions API probability a model-proposed problem must reach to be reported; `detect` is the old detector-alone cut-off, kept for comparison. Untuned defaults until eval/tune.py sets them from dev-split photos by a rule fixed in advance. `quality` and `support` are untuned (0.5): no photos are labelled for evidence quality.",
   "detect": {
     "default": 0.5
   },
@@ -28,5 +28,7 @@
       169,
       220
     ]
-  }
+  },
+  "support": 0.5,
+  "quality": 0.5
 }

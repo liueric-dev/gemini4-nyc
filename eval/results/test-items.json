@@ -1,0 +1,5679 @@
+[
+ {
+  "id": "med-0586",
+  "category": "problem",
+  "answer": [
+   "heat-hot-water"
+  ],
+  "system": [
+   "heat-hot-water"
+  ],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "heat-hot-water"
+  ],
+  "probabilities": {
+   "leak": 0.15,
+   "mold": 0.21,
+   "peeling-paint": 0.21,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.11,
+   "smoke-co-detector": 0.13,
+   "window": 0.17,
+   "heat-hot-water": 0.74
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u00a7 27-2029",
+    "class": "C",
+    "deadline": "immediately (within 24 hours)"
+   }
+  ]
+ },
+ {
+  "id": "med-0240",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "leak",
+   "mold",
+   "wall-ceiling-damage",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.94,
+   "mold": 0.93,
+   "peeling-paint": 0.92,
+   "wall-ceiling-damage": 0.93,
+   "pests": 0.11,
+   "smoke-co-detector": 0.12,
+   "window": 0.11,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u0000a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u0000a7 27-2013(a)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u0000a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0815",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.79,
+   "mold": 0.92,
+   "peeling-paint": 0.66,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.15,
+   "smoke-co-detector": 0.1,
+   "window": 0.18,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0814",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [],
+  "system_right": false,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.18,
+   "mold": 0.64,
+   "peeling-paint": 0.21,
+   "wall-ceiling-damage": 0.16,
+   "pests": 0.16,
+   "smoke-co-detector": 0.12,
+   "window": 0.34,
+   "heat-hot-water": 0.19
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0659",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.16,
+   "peeling-paint": 0.77,
+   "wall-ceiling-damage": 0.22,
+   "pests": 0.11,
+   "smoke-co-detector": 0.14,
+   "window": 0.92,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0825",
+  "category": "problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak",
+   "peeling-paint"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.26,
+   "peeling-paint": 0.76,
+   "wall-ceiling-damage": 0.78,
+   "pests": 0.13,
+   "smoke-co-detector": 0.14,
+   "window": 0.13,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013",
+    "class": "A",
+    "deadline": "90 days (or 21 days as a Class C violation if a child under 6 lives in a pre-1960 building)"
+   }
+  ]
+ },
+ {
+  "id": "med-0824",
+  "category": "problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.4,
+   "mold": 0.26,
+   "peeling-paint": 0.67,
+   "wall-ceiling-damage": 0.72,
+   "pests": 0.23,
+   "smoke-co-detector": 0.14,
+   "window": 0.13,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; \u00a7 27-2056.6 (if pre-1960 and child under 6 lives there)",
+    "class": "B",
+    "deadline": "30 days (21 days if Class C lead-paint hazard)"
+   }
+  ]
+ },
+ {
+  "id": "med-0601",
+  "category": "problem",
+  "answer": [
+   "heat-hot-water"
+  ],
+  "system": [
+   "heat-hot-water"
+  ],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "heat-hot-water"
+  ],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.09,
+   "peeling-paint": 0.08,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.07,
+   "smoke-co-detector": 0.06,
+   "window": 0.1,
+   "heat-hot-water": 0.47
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u000027-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0834",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold",
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "mold",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold",
+   "wall-ceiling-damage",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.92,
+   "mold": 0.92,
+   "peeling-paint": 0.36,
+   "wall-ceiling-damage": 0.93,
+   "pests": 0.16,
+   "smoke-co-detector": 0.1,
+   "window": 0.18,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000A7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days to correct, plus 14 days for HPD to mail the notice"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u0000A7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days to correct, plus 5 days for HPD to mail the notice"
+   }
+  ]
+ },
+ {
+  "id": "med-0126",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak",
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.9,
+   "mold": 0.91,
+   "peeling-paint": 0.34,
+   "wall-ceiling-damage": 0.29,
+   "pests": 0.11,
+   "smoke-co-detector": 0.18,
+   "window": 0.17,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "C",
+   "baseline": "C"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3(a)(3)",
+    "class": "C",
+    "deadline": "21 days"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0639",
+  "category": "problem",
+  "answer": [
+   "leak"
+  ],
+  "system": [
+   "leak"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.94,
+   "mold": 0.22,
+   "peeling-paint": 0.21,
+   "wall-ceiling-damage": 0.25,
+   "pests": 0.1,
+   "smoke-co-detector": 0.64,
+   "window": 0.12,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005; \u00a7 27-2026; \u00a7 27-2027",
+    "class": "B",
+    "deadline": "30 days (Class B) or 24 hours if severe/immediately hazardous (Class C)"
+   }
+  ]
+ },
+ {
+  "id": "med-0804",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.14,
+   "peeling-paint": 0.2,
+   "wall-ceiling-damage": 0.18,
+   "pests": 0.93,
+   "smoke-co-detector": 0.13,
+   "window": 0.1,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.4",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0254",
+  "category": "problem",
+  "answer": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "wall-ceiling-damage",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.5,
+   "mold": 0.16,
+   "peeling-paint": 0.89,
+   "wall-ceiling-damage": 0.9,
+   "pests": 0.14,
+   "smoke-co-detector": 0.11,
+   "window": 0.12,
+   "heat-hot-water": 0.16
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013 and/or \u00a7 27-2056.6",
+    "class": "A",
+    "deadline": "21 days (Class C if lead paint) or 90 days (Class A)"
+   }
+  ]
+ },
+ {
+  "id": "med-0614",
+  "category": "problem",
+  "answer": [
+   "heat-hot-water"
+  ],
+  "system": [],
+  "system_right": false,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.15,
+   "mold": 0.19,
+   "peeling-paint": 0.21,
+   "wall-ceiling-damage": 0.25,
+   "pests": 0.1,
+   "smoke-co-detector": 0.17,
+   "window": 0.11,
+   "heat-hot-water": 0.24
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u00a7 27-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0835",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold",
+   "window"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.44,
+   "mold": 0.82,
+   "peeling-paint": 0.61,
+   "wall-ceiling-damage": 0.34,
+   "pests": 0.21,
+   "smoke-co-detector": 0.12,
+   "window": 0.39,
+   "heat-hot-water": 0.21
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0007 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   },
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u0007 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0565",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": true,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.09,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.07,
+   "smoke-co-detector": 0.83,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7 27-2045 (Smoke) and \u00a7 27-2046.1 (Carbon Monoxide)",
+    "class": "B",
+    "deadline": "30 days (note: tenants are generally responsible for replacing batteries during tenancy, while landlords must provide an operational detector with a sealed 10-year battery upon installation or replacement)"
+   }
+  ]
+ },
+ {
+  "id": "med-0655",
+  "category": "problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.23,
+   "mold": 0.13,
+   "peeling-paint": 0.91,
+   "wall-ceiling-damage": 0.5,
+   "pests": 0.15,
+   "smoke-co-detector": 0.11,
+   "window": 0.14,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; NYC Admin. Code \u00a7 27-2056.6",
+    "class": "A",
+    "deadline": "90 days (or 21 days if lead-paint rules apply)"
+   }
+  ]
+ },
+ {
+  "id": "med-0555",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": true,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.16,
+   "mold": 0.21,
+   "peeling-paint": 0.14,
+   "wall-ceiling-damage": 0.31,
+   "pests": 0.15,
+   "smoke-co-detector": 0.91,
+   "window": 0.08,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7 27-2045(a)(1) (smoke detector) or \u00a7 27-2046.1(a)(1) (carbon monoxide detector)",
+    "class": "B",
+    "deadline": "30 days (note: tenants are responsible for replacing batteries and maintaining detectors after the landlord installs them)"
+   }
+  ]
+ },
+ {
+  "id": "med-0557",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [],
+  "system_right": false,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.18,
+   "mold": 0.25,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.58,
+   "smoke-co-detector": 0.44,
+   "window": 0.1,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7 27-2045 (Smoke) / \u00a7 27-2046.1 (CO)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0046",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.13,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.89,
+   "smoke-co-detector": 0.15,
+   "window": 0.08,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin Code \u0007 27-2017.4 / HMC \u0007 27-2018",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0841",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.62,
+   "mold": 0.84,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.29,
+   "smoke-co-detector": 0.17,
+   "window": 0.12,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0007 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0291",
+  "category": "problem",
+  "answer": [
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "wall-ceiling-damage"
+  ],
+  "system_right": true,
+  "baseline": [
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "wall-ceiling-damage"
+  ],
+  "probabilities": {
+   "leak": 0.19,
+   "mold": 0.12,
+   "peeling-paint": 0.2,
+   "wall-ceiling-damage": 0.89,
+   "pests": 0.21,
+   "smoke-co-detector": 0.13,
+   "window": 0.09,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0831",
+  "category": "problem",
+  "answer": [
+   "mold",
+   "peeling-paint"
+  ],
+  "system": [
+   "leak",
+   "peeling-paint"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "leak",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.93,
+   "mold": 0.69,
+   "peeling-paint": 0.89,
+   "wall-ceiling-damage": 0.78,
+   "pests": 0.15,
+   "smoke-co-detector": 0.16,
+   "window": 0.11,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": {
+   "reviewer": "cant-tell",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u0000 27-2005; Multiple Dwelling Law \u0000 78",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u0000 27-2013(b)(2) (painted walls/ceilings); \u0000 27-2056.6 (lead paint hazard if pre-1960 building and child under 6 resides there)",
+    "class": "B",
+    "deadline": "30 days (Class B) or 21 days (Class C lead paint violation)"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u0000 27-2005(a) & (c); Multiple Dwelling Law \u0000 78",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0526",
+  "category": "problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.09,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.09,
+   "smoke-co-detector": 0.16,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0495",
+  "category": "problem",
+  "answer": [
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "wall-ceiling-damage"
+  ],
+  "system_right": true,
+  "baseline": [
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "wall-ceiling-damage"
+  ],
+  "probabilities": {
+   "leak": 0.26,
+   "mold": 0.17,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.94,
+   "pests": 0.15,
+   "smoke-co-detector": 0.23,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u000027-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0125",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "peeling-paint"
+  ],
+  "system": [
+   "leak",
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "leak",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.91,
+   "mold": 0.48,
+   "peeling-paint": 0.89,
+   "wall-ceiling-damage": 0.91,
+   "pests": 0.1,
+   "smoke-co-detector": 0.15,
+   "window": 0.09,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005; \u00a7 27-2017.3",
+    "class": "B",
+    "deadline": "30 days (24 hours if active leak constitute a Class C emergency)"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005(c)",
+    "class": "B",
+    "deadline": "30 days (24 hours if ceiling is in imminent danger of falling as a Class C violation)"
+   }
+  ]
+ },
+ {
+  "id": "med-0818",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": false,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.85,
+   "peeling-paint": 0.34,
+   "wall-ceiling-damage": 0.45,
+   "pests": 0.18,
+   "smoke-co-detector": 0.11,
+   "window": 0.18,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0096",
+  "category": "problem",
+  "answer": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "wall-ceiling-damage",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.3,
+   "mold": 0.15,
+   "peeling-paint": 0.87,
+   "wall-ceiling-damage": 0.9,
+   "pests": 0.13,
+   "smoke-co-detector": 0.13,
+   "window": 0.09,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005; NY Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; \u00a7 27-2056.6 (Local Law 1 of 2004, if pre-1960 building with child under 6)",
+    "class": "B",
+    "deadline": "30 days (Class B) or 21 days (Class C lead paint hazard in pre-1960 building with child under 6)"
+   }
+  ]
+ },
+ {
+  "id": "med-0314",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.6,
+   "mold": 0.8,
+   "peeling-paint": 0.24,
+   "wall-ceiling-damage": 0.29,
+   "pests": 0.2,
+   "smoke-co-detector": 0.14,
+   "window": 0.11,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": {
+   "reviewer": "cant-tell",
+   "system": "cant-tell",
+   "baseline": "cant-tell"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3 (Local Law 55 of 2018)",
+    "class": "A",
+    "deadline": "90 days (if under 10 sq ft), 30 days (Class B if 10-30 sq ft), or 21 days (Class C if 30+ sq ft)"
+   }
+  ]
+ },
+ {
+  "id": "med-0249",
+  "category": "problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak",
+   "peeling-paint"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.9,
+   "mold": 0.45,
+   "peeling-paint": 0.89,
+   "wall-ceiling-damage": 0.9,
+   "pests": 0.19,
+   "smoke-co-detector": 0.15,
+   "window": 0.1,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013 or \u00a7 27-2056.6 (if pre-1960 building with child under 6)",
+    "class": "C",
+    "deadline": "21 days (Class C lead paint) or 30 days (Class B non-lead)"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005; MDL \u00a7 78",
+    "class": "B",
+    "deadline": "30 days (Class B) or 24 hours (Class C)"
+   }
+  ]
+ },
+ {
+  "id": "med-0789",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.12,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.22,
+   "pests": 0.93,
+   "smoke-co-detector": 0.14,
+   "window": 0.14,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.8; \u00a7 27-2018",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0201",
+  "category": "problem",
+  "answer": [
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "leak",
+   "wall-ceiling-damage",
+   "window"
+  ],
+  "system_right": false,
+  "baseline": [
+   "mold",
+   "wall-ceiling-damage",
+   "window"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "wall-ceiling-damage",
+   "window",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.92,
+   "mold": 0.91,
+   "peeling-paint": 0.54,
+   "wall-ceiling-damage": 0.94,
+   "pests": 0.2,
+   "smoke-co-detector": 0.34,
+   "window": 0.59,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "C",
+    "deadline": "24 hours"
+   },
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "C",
+    "deadline": "24 hours"
+   },
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0760",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.59,
+   "mold": 0.37,
+   "peeling-paint": 0.71,
+   "wall-ceiling-damage": 0.41,
+   "pests": 0.18,
+   "smoke-co-detector": 0.2,
+   "window": 0.92,
+   "heat-hot-water": 0.16
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u0000a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0724",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [],
+  "system_right": false,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.11,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.12,
+   "smoke-co-detector": 0.28,
+   "window": 0.1,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7 27-2045",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0410",
+  "category": "problem",
+  "answer": [
+   "mold",
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "leak",
+   "mold",
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "wall-ceiling-damage",
+   "mold",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.91,
+   "mold": 0.91,
+   "peeling-paint": 0.5,
+   "wall-ceiling-damage": 0.92,
+   "pests": 0.16,
+   "smoke-co-detector": 0.18,
+   "window": 0.14,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "C",
+   "baseline": "C"
+  },
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u000027-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u000027-2017.3; \u000027-2017.4",
+    "class": "C",
+    "deadline": "21 days"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u000027-2005(a); Multiple Dwelling Law \u000078(1)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u000027-2013; \u000027-2056.6",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0764",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.17,
+   "mold": 0.31,
+   "peeling-paint": 0.92,
+   "wall-ceiling-damage": 0.3,
+   "pests": 0.15,
+   "smoke-co-detector": 0.12,
+   "window": 0.93,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00167-2005; Multiple Dwelling Law x",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0566",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": true,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.08,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.06,
+   "pests": 0.11,
+   "smoke-co-detector": 0.84,
+   "window": 0.08,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7\u00a7 27-2045 & 27-2046.1",
+    "class": "B",
+    "deadline": "30 days (Tenant typically responsible for replacing removable batteries once installed; since 2019 replacement units must use sealed 10-year batteries)"
+   }
+  ]
+ },
+ {
+  "id": "med-0674",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.15,
+   "peeling-paint": 0.23,
+   "wall-ceiling-damage": 0.33,
+   "pests": 0.07,
+   "smoke-co-detector": 0.13,
+   "window": 0.87,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005(a); Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days (Class B) or 24 hours if shattered glass creates an immediate hazard (Class C)"
+   }
+  ]
+ },
+ {
+  "id": "med-0113",
+  "category": "problem",
+  "answer": [
+   "leak"
+  ],
+  "system": [
+   "leak"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.92,
+   "mold": 0.3,
+   "peeling-paint": 0.37,
+   "wall-ceiling-damage": 0.26,
+   "pests": 0.15,
+   "smoke-co-detector": 0.17,
+   "window": 0.09,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0671",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.09,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.18,
+   "pests": 0.12,
+   "smoke-co-detector": 0.09,
+   "window": 0.95,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005(b); MDL \u00a7 78",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0780",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.18,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.93,
+   "smoke-co-detector": 0.08,
+   "window": 0.08,
+   "heat-hot-water": 0.07
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin Code \u00a7 27-2017.4 / \u00a7 27-2018",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0499",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold",
+   "peeling-paint"
+  ],
+  "system_right": false,
+  "baseline": [
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold",
+   "peeling-paint",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.91,
+   "mold": 0.92,
+   "peeling-paint": 0.69,
+   "wall-ceiling-damage": 0.73,
+   "pests": 0.17,
+   "smoke-co-detector": 0.19,
+   "window": 0.14,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": {
+   "reviewer": "B",
+   "system": "cant-tell",
+   "baseline": "B"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000 27-2017.3",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u0000 27-2013",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u0000 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0530",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": true,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.1,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.1,
+   "smoke-co-detector": 0.3,
+   "window": 0.11,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u0000A7 27-2045",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0670",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.1,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.08,
+   "smoke-co-detector": 0.11,
+   "window": 0.92,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0497",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "leak",
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.66,
+   "peeling-paint": 0.64,
+   "wall-ceiling-damage": 0.77,
+   "pests": 0.18,
+   "smoke-co-detector": 0.22,
+   "window": 0.15,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "cant-tell",
+   "baseline": "B"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0809",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.16,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.93,
+   "smoke-co-detector": 0.13,
+   "window": 0.21,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.2",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0406",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.91,
+   "peeling-paint": 0.27,
+   "wall-ceiling-damage": 0.18,
+   "pests": 0.14,
+   "smoke-co-detector": 0.12,
+   "window": 0.17,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "cant-tell",
+   "baseline": "C"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3(a)(3)(c)",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0817",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.93,
+   "mold": 0.6,
+   "peeling-paint": 0.25,
+   "wall-ceiling-damage": 0.55,
+   "pests": 0.17,
+   "smoke-co-detector": 0.21,
+   "window": 0.09,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "A",
+   "baseline": "cant-tell"
+  },
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005; \u00a7 27-2026; \u00a7 27-2027",
+    "class": "B",
+    "deadline": "30 days (Class B) or 24 hours if severe/active leak (Class C)"
+   }
+  ]
+ },
+ {
+  "id": "med-0594",
+  "category": "problem",
+  "answer": [
+   "heat-hot-water"
+  ],
+  "system": [
+   "heat-hot-water"
+  ],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "heat-hot-water"
+  ],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.11,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.08,
+   "smoke-co-detector": 0.13,
+   "window": 0.1,
+   "heat-hot-water": 0.24
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u00a7 27-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0768",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.28,
+   "mold": 0.16,
+   "peeling-paint": 0.86,
+   "wall-ceiling-damage": 0.66,
+   "pests": 0.36,
+   "smoke-co-detector": 0.16,
+   "window": 0.89,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0411",
+  "category": "problem",
+  "answer": [
+   "mold",
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.91,
+   "mold": 0.89,
+   "peeling-paint": 0.47,
+   "wall-ceiling-damage": 0.38,
+   "pests": 0.27,
+   "smoke-co-detector": 0.18,
+   "window": 0.21,
+   "heat-hot-water": 0.17
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "C",
+   "baseline": "C"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3 (Local Law 55 of 2018)",
+    "class": "C",
+    "deadline": "21 days"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005 / \u00a7 27-2017.3",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0772",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.09,
+   "peeling-paint": 0.08,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.95,
+   "smoke-co-detector": 0.07,
+   "window": 0.1,
+   "heat-hot-water": 0.08
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u0000A7 27-2017.2",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0832",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.7,
+   "mold": 0.93,
+   "peeling-paint": 0.17,
+   "wall-ceiling-damage": 0.33,
+   "pests": 0.14,
+   "smoke-co-detector": 0.11,
+   "window": 0.1,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "tile-grout",
+   "system": "tile-grout",
+   "baseline": "tile-grout"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7\u00a7 27-2017.1 to 27-2017.12 (Local Law 55 of 2018)",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0676",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.21,
+   "mold": 0.2,
+   "peeling-paint": 0.89,
+   "wall-ceiling-damage": 0.36,
+   "pests": 0.1,
+   "smoke-co-detector": 0.23,
+   "window": 0.94,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0758",
+  "category": "problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.13,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.34,
+   "pests": 0.13,
+   "smoke-co-detector": 0.17,
+   "window": 0.92,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005; NY Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days (or 24 hours if HPD deems the broken glass an immediately hazardous Class C violation)"
+   }
+  ]
+ },
+ {
+  "id": "med-0667",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.37,
+   "mold": 0.72,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.22,
+   "smoke-co-detector": 0.11,
+   "window": 0.12,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": {
+   "reviewer": "cant-tell",
+   "system": "cant-tell",
+   "baseline": "cant-tell"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000 27-2017.3",
+    "class": "unknown",
+    "deadline": "21 to 90 days depending on area affected (Class A: under 10 sq ft, 90 days; Class B: 10 to under 30 sq ft, 30 days; Class C: 30 sq ft or more, 21 days)"
+   }
+  ]
+ },
+ {
+  "id": "med-0593",
+  "category": "problem",
+  "answer": [
+   "heat-hot-water"
+  ],
+  "system": [
+   "heat-hot-water"
+  ],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "heat-hot-water"
+  ],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.08,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.07,
+   "smoke-co-detector": 0.14,
+   "window": 0.09,
+   "heat-hot-water": 0.76
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u0007 27-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0071",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold",
+   "leak",
+   "wall-ceiling-damage"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.92,
+   "peeling-paint": 0.27,
+   "wall-ceiling-damage": 0.47,
+   "pests": 0.11,
+   "smoke-co-detector": 0.09,
+   "window": 0.08,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "cant-tell",
+   "system": "cant-tell",
+   "baseline": "cant-tell"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3; MDL \u00a7 78",
+    "class": "unknown",
+    "deadline": "90 days (Class A if < 10 sq ft), 30 days (Class B if 10\u201330 sq ft), or 21 days (Class C if >= 30 sq ft)"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005; MDL \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005; MDL \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0250",
+  "category": "problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.73,
+   "mold": 0.21,
+   "peeling-paint": 0.92,
+   "wall-ceiling-damage": 0.9,
+   "pests": 0.17,
+   "smoke-co-detector": 0.17,
+   "window": 0.13,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; NYC Admin. Code \u00a7 27-2056.6 (lead paint hazard if pre-1960 building with child under 6)",
+    "class": "A",
+    "deadline": "90 days (or Class C / 21 days if presumed lead paint hazard with child under 6)"
+   }
+  ]
+ },
+ {
+  "id": "med-0156",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.93,
+   "mold": 0.92,
+   "peeling-paint": 0.24,
+   "wall-ceiling-damage": 0.16,
+   "pests": 0.12,
+   "smoke-co-detector": 0.11,
+   "window": 0.23,
+   "heat-hot-water": 0.17
+  },
+  "mold_bin": {
+   "reviewer": "B",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0649",
+  "category": "problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.37,
+   "mold": 0.16,
+   "peeling-paint": 0.92,
+   "wall-ceiling-damage": 0.92,
+   "pests": 0.17,
+   "smoke-co-detector": 0.16,
+   "window": 0.16,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2056.6 (if pre-1960 building with child under 6) or \u00a7 27-2013",
+    "class": "C",
+    "deadline": "21 days (Class C lead paint violation) or 30 days (Class B general paint violation)"
+   }
+  ]
+ },
+ {
+  "id": "med-0405",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "mold"
+  ],
+  "system": [
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "wall-ceiling-damage",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.62,
+   "mold": 0.59,
+   "peeling-paint": 0.64,
+   "wall-ceiling-damage": 0.9,
+   "pests": 0.16,
+   "smoke-co-detector": 0.16,
+   "window": 0.11,
+   "heat-hot-water": 0.17
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "cant-tell",
+   "baseline": "cant-tell"
+  },
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u000027-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u000027-2013(a)",
+    "class": "A",
+    "deadline": "90 days"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u000027-2005(a)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0191",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "probabilities": {
+   "leak": 0.91,
+   "mold": 0.19,
+   "peeling-paint": 0.7,
+   "wall-ceiling-damage": 0.94,
+   "pests": 0.12,
+   "smoke-co-detector": 0.15,
+   "window": 0.12,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; NYC Admin. Code \u00a7 27-2056.6 (lead paint presumption if pre-1960 building with child under 6)",
+    "class": "A",
+    "deadline": "90 days (Class A) or 21 days (if Class C lead paint violation)"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0637",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.86,
+   "mold": 0.92,
+   "peeling-paint": 0.32,
+   "wall-ceiling-damage": 0.19,
+   "pests": 0.14,
+   "smoke-co-detector": 0.11,
+   "window": 0.13,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7\u00a7 27-2017.3, 27-2017.4",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0806",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.11,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.92,
+   "smoke-co-detector": 0.12,
+   "window": 0.13,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin Code \u0007 27-2017.4 / HMC \u0007 27-2018",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0407",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold",
+   "peeling-paint"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.76,
+   "mold": 0.93,
+   "peeling-paint": 0.29,
+   "wall-ceiling-damage": 0.19,
+   "pests": 0.19,
+   "smoke-co-detector": 0.12,
+   "window": 0.17,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": {
+   "reviewer": "B",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u0000 27-2013",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0241",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": false,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.6,
+   "mold": 0.87,
+   "peeling-paint": 0.31,
+   "wall-ceiling-damage": 0.22,
+   "pests": 0.28,
+   "smoke-co-detector": 0.17,
+   "window": 0.15,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": {
+   "reviewer": "B",
+   "system": "A",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7\u00a7 27-2017.1 to 27-2017.12",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0723",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": true,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.11,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.12,
+   "smoke-co-detector": 0.4,
+   "window": 0.12,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u0000 27-2045",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0729",
+  "category": "problem",
+  "answer": [
+   "heat-hot-water"
+  ],
+  "system": [
+   "heat-hot-water"
+  ],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "heat-hot-water"
+  ],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.13,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.08,
+   "smoke-co-detector": 0.14,
+   "window": 0.12,
+   "heat-hot-water": 0.62
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u00a7 27-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0492",
+  "category": "problem",
+  "answer": [
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "wall-ceiling-damage"
+  ],
+  "system_right": true,
+  "baseline": [
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "wall-ceiling-damage"
+  ],
+  "probabilities": {
+   "leak": 0.3,
+   "mold": 0.31,
+   "peeling-paint": 0.16,
+   "wall-ceiling-damage": 0.89,
+   "pests": 0.2,
+   "smoke-co-detector": 0.17,
+   "window": 0.22,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0819",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.77,
+   "mold": 0.9,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.28,
+   "smoke-co-detector": 0.16,
+   "window": 0.1,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": {
+   "reviewer": "A",
+   "system": "cant-tell",
+   "baseline": "cant-tell"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.3 (Local Law 55 of 2018)",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0188",
+  "category": "problem",
+  "answer": [
+   "leak"
+  ],
+  "system": [],
+  "system_right": false,
+  "baseline": [
+   "peeling-paint"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.47,
+   "mold": 0.13,
+   "peeling-paint": 0.39,
+   "wall-ceiling-damage": 0.64,
+   "pests": 0.15,
+   "smoke-co-detector": 0.1,
+   "window": 0.1,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; NYC Admin. Code \u00a7 27-2056.6 (if pre-1960 building with child under 6)",
+    "class": "A",
+    "deadline": "90 days (21 days if Class C lead-paint hazard)"
+   }
+  ]
+ },
+ {
+  "id": "med-0294",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [],
+  "system_right": false,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.12,
+   "peeling-paint": 0.53,
+   "wall-ceiling-damage": 0.16,
+   "pests": 0.08,
+   "smoke-co-detector": 0.73,
+   "window": 0.09,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u0007 27-2045",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0493",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "peeling-paint"
+  ],
+  "system": [
+   "leak",
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak",
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "peeling-paint",
+   "leak",
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.87,
+   "mold": 0.59,
+   "peeling-paint": 0.92,
+   "wall-ceiling-damage": 0.91,
+   "pests": 0.13,
+   "smoke-co-detector": 0.38,
+   "window": 0.29,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005; \u00a7 27-2026; \u00a7 27-2027",
+    "class": "B",
+    "deadline": "30 days (Class B) or 24 hours if severe/active leak causing hazardous condition (Class C)"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013 (paint maintenance) / \u00a7 27-2056.6 (Local Law 1 of 2004 if pre-1960 and child under 6 resides there)",
+    "class": "B",
+    "deadline": "30 days (Class B) or 21 days if presumed lead paint hazard with child under 6 (Class C)"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005(a) & (c); Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7 27-2017.1 et seq. (Local Law 55 of 2018)",
+    "class": "B",
+    "deadline": "30 days (or 21 days if Class C over 30 sq ft)"
+   }
+  ]
+ },
+ {
+  "id": "med-0496",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold"
+  ],
+  "system_right": false,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold",
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.91,
+   "peeling-paint": 0.3,
+   "wall-ceiling-damage": 0.29,
+   "pests": 0.22,
+   "smoke-co-detector": 0.17,
+   "window": 0.13,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": {
+   "reviewer": "B",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u00a7\u00a7 27-2017.1 to 27-2017.12 (Local Law 55 of 2018)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0568",
+  "category": "problem",
+  "answer": [
+   "smoke-co-detector"
+  ],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": true,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.12,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.11,
+   "smoke-co-detector": 0.54,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7 27-2045",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0196",
+  "category": "problem",
+  "answer": [
+   "leak"
+  ],
+  "system": [
+   "leak"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.19,
+   "mold": 0.08,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.08,
+   "smoke-co-detector": 0.11,
+   "window": 0.12,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u0007 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0259",
+  "category": "problem",
+  "answer": [
+   "leak",
+   "wall-ceiling-damage"
+  ],
+  "system": [
+   "pests",
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "pests",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "wall-ceiling-damage",
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.9,
+   "mold": 0.41,
+   "peeling-paint": 0.35,
+   "wall-ceiling-damage": 0.93,
+   "pests": 0.65,
+   "smoke-co-detector": 0.71,
+   "window": 0.15,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005; Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.3; \u00a7 27-2017.4",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0792",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.16,
+   "peeling-paint": 0.22,
+   "wall-ceiling-damage": 0.26,
+   "pests": 0.9,
+   "smoke-co-detector": 0.1,
+   "window": 0.14,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.3 / \u00a7 27-2018",
+    "class": "C",
+    "deadline": "21 days to resolve"
+   }
+  ]
+ },
+ {
+  "id": "med-0498",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "leak",
+   "mold",
+   "peeling-paint"
+  ],
+  "system_right": false,
+  "baseline": [
+   "leak",
+   "mold",
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "mold",
+   "leak",
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.89,
+   "mold": 0.95,
+   "peeling-paint": 0.76,
+   "wall-ceiling-damage": 0.59,
+   "pests": 0.15,
+   "smoke-co-detector": 0.16,
+   "window": 0.19,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": {
+   "reviewer": "C",
+   "system": "cant-tell",
+   "baseline": "C"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin Code \u00a7 27-2017.3",
+    "class": "C",
+    "deadline": "21 days"
+   },
+   {
+    "problem": "leak",
+    "law": "NYC Admin Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin Code \u00a7 27-2013; \u00a7 27-2056.6 (if pre-1960 and child under 6)",
+    "class": "B",
+    "deadline": "30 days (21 days if Class C lead hazard)"
+   }
+  ]
+ },
+ {
+  "id": "med-0072",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.81,
+   "mold": 0.89,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.46,
+   "pests": 0.22,
+   "smoke-co-detector": 0.16,
+   "window": 0.23,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": {
+   "reviewer": "cant-tell",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin. Code \u0000a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0122",
+  "category": "problem",
+  "answer": [
+   "leak"
+  ],
+  "system": [
+   "leak"
+  ],
+  "system_right": true,
+  "baseline": [
+   "leak"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "leak"
+  ],
+  "probabilities": {
+   "leak": 0.93,
+   "mold": 0.72,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.92,
+   "pests": 0.16,
+   "smoke-co-detector": 0.12,
+   "window": 0.12,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "leak",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0801",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.12,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.93,
+   "smoke-co-detector": 0.11,
+   "window": 0.13,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.2",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0812",
+  "category": "problem",
+  "answer": [
+   "mold"
+  ],
+  "system": [
+   "mold"
+  ],
+  "system_right": true,
+  "baseline": [
+   "mold"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "mold"
+  ],
+  "probabilities": {
+   "leak": 0.87,
+   "mold": 0.92,
+   "peeling-paint": 0.28,
+   "wall-ceiling-damage": 0.18,
+   "pests": 0.12,
+   "smoke-co-detector": 0.14,
+   "window": 0.11,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": {
+   "reviewer": "B",
+   "system": "cant-tell",
+   "baseline": "A"
+  },
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Administrative Code \u00a7 27-2017.3",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0808",
+  "category": "problem",
+  "answer": [
+   "pests"
+  ],
+  "system": [
+   "pests"
+  ],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.08,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.93,
+   "smoke-co-detector": 0.12,
+   "window": 0.11,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2017.3 / \u00a7 27-2017.4",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0334",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.07,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.05,
+   "smoke-co-detector": 0.09,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0309",
+  "category": "no-problem",
+  "answer": [
+   "peeling-paint"
+  ],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": true,
+  "baseline": [
+   "peeling-paint",
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.52,
+   "mold": 0.26,
+   "peeling-paint": 0.85,
+   "wall-ceiling-damage": 0.84,
+   "pests": 0.12,
+   "smoke-co-detector": 0.24,
+   "window": 0.13,
+   "heat-hot-water": 0.17
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin. Code \u00a7 27-2013; \u00a7 27-2056.6 (if pre-1960 and child under 6 lives or spends 10+ hrs/week there)",
+    "class": "B",
+    "deadline": "30 days (Class B) or 21 days (Class C lead paint)"
+   },
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005; Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0166",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.11,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.08,
+   "smoke-co-detector": 0.12,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0630",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.09,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.05,
+   "pests": 0.07,
+   "smoke-co-detector": 0.09,
+   "window": 0.08,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0207",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.1,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.08,
+   "smoke-co-detector": 0.15,
+   "window": 0.12,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0548",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.15,
+   "peeling-paint": 0.38,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.1,
+   "smoke-co-detector": 0.13,
+   "window": 0.16,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0439",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.07,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.07,
+   "smoke-co-detector": 0.2,
+   "window": 0.09,
+   "heat-hot-water": 0.08
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0461",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.08,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.09,
+   "smoke-co-detector": 0.16,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0167",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.07,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.09,
+   "smoke-co-detector": 0.15,
+   "window": 0.19,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0474",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.07,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.08,
+   "smoke-co-detector": 0.13,
+   "window": 0.1,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "other",
+    "law": "NYC Admin. Code \u00a7 27-2013",
+    "class": "A",
+    "deadline": "90 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0770",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.17,
+   "mold": 0.46,
+   "peeling-paint": 0.16,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.15,
+   "smoke-co-detector": 0.33,
+   "window": 0.09,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0488",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.09,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.1,
+   "smoke-co-detector": 0.13,
+   "window": 0.11,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0501",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.13,
+   "peeling-paint": 0.17,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.12,
+   "smoke-co-detector": 0.18,
+   "window": 0.08,
+   "heat-hot-water": 0.08
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0694",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.14,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.09,
+   "smoke-co-detector": 0.23,
+   "window": 0.12,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0561",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.12,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.16,
+   "smoke-co-detector": 0.27,
+   "window": 0.09,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0691",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.08,
+   "peeling-paint": 0.07,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.08,
+   "smoke-co-detector": 0.17,
+   "window": 0.1,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0292",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.16,
+   "mold": 0.1,
+   "peeling-paint": 0.21,
+   "wall-ceiling-damage": 0.69,
+   "pests": 0.14,
+   "smoke-co-detector": 0.62,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0598",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.34,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.14,
+   "smoke-co-detector": 0.14,
+   "window": 0.12,
+   "heat-hot-water": 0.58
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u00a7 27-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0211",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.12,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.18,
+   "pests": 0.09,
+   "smoke-co-detector": 0.14,
+   "window": 0.13,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0459",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.11,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.11,
+   "smoke-co-detector": 0.16,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0277",
+  "category": "look-alike",
+  "answer": [],
+  "system": [
+   "pests"
+  ],
+  "system_right": false,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "pests"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.13,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.2,
+   "smoke-co-detector": 0.11,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u0000a7 27-2017.8; 27-2017.3",
+    "class": "C",
+    "deadline": "21 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0179",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.09,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.07,
+   "smoke-co-detector": 0.42,
+   "window": 0.12,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0468",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.1,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.1,
+   "smoke-co-detector": 0.16,
+   "window": 0.13,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0481",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.09,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.12,
+   "smoke-co-detector": 0.13,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0234",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.11,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.1,
+   "smoke-co-detector": 0.14,
+   "window": 0.14,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0562",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.44,
+   "peeling-paint": 0.18,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.26,
+   "smoke-co-detector": 0.31,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0574",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [
+   "mold",
+   "peeling-paint"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.15,
+   "mold": 0.33,
+   "peeling-paint": 0.85,
+   "wall-ceiling-damage": 0.16,
+   "pests": 0.12,
+   "smoke-co-detector": 0.11,
+   "window": 0.23,
+   "heat-hot-water": 0.18
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "mold",
+    "law": "NYC Admin Code \u0015 27-2017.3",
+    "class": "B",
+    "deadline": "30 days"
+   },
+   {
+    "problem": "peeling-paint",
+    "law": "NYC Admin Code \u0015 27-2013",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0436",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.09,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.07,
+   "smoke-co-detector": 0.11,
+   "window": 0.1,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0084",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.15,
+   "peeling-paint": 0.08,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.09,
+   "smoke-co-detector": 0.11,
+   "window": 0.11,
+   "heat-hot-water": 0.17
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0085",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.1,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.08,
+   "smoke-co-detector": 0.15,
+   "window": 0.14,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0627",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.11,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.1,
+   "smoke-co-detector": 0.18,
+   "window": 0.13,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0748",
+  "category": "look-alike",
+  "answer": [],
+  "system": [
+   "window"
+  ],
+  "system_right": false,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.11,
+   "peeling-paint": 0.16,
+   "wall-ceiling-damage": 0.22,
+   "pests": 0.11,
+   "smoke-co-detector": 0.13,
+   "window": 0.9,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005; Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0282",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [
+   "pests"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.1,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.11,
+   "smoke-co-detector": 0.1,
+   "window": 0.14,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "pests",
+    "law": "NYC Admin. Code \u00a7 27-2018",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0312",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.09,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.11,
+   "smoke-co-detector": 0.26,
+   "window": 0.14,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0771",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.15,
+   "mold": 0.2,
+   "peeling-paint": 0.25,
+   "wall-ceiling-damage": 0.2,
+   "pests": 0.15,
+   "smoke-co-detector": 0.59,
+   "window": 0.2,
+   "heat-hot-water": 0.16
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0749",
+  "category": "no-problem",
+  "answer": [
+   "window"
+  ],
+  "system": [
+   "window"
+  ],
+  "system_right": true,
+  "baseline": [
+   "window"
+  ],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "window"
+  ],
+  "probabilities": {
+   "leak": 0.27,
+   "mold": 0.2,
+   "peeling-paint": 0.32,
+   "wall-ceiling-damage": 0.3,
+   "pests": 0.08,
+   "smoke-co-detector": 0.08,
+   "window": 0.93,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "window",
+    "law": "NYC Admin. Code \u00a7 27-2005; Multiple Dwelling Law \u00a7 78",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0155",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.16,
+   "mold": 0.15,
+   "peeling-paint": 0.2,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.14,
+   "smoke-co-detector": 0.14,
+   "window": 0.12,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0486",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.11,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.1,
+   "smoke-co-detector": 0.15,
+   "window": 0.13,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0205",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.1,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.1,
+   "smoke-co-detector": 0.18,
+   "window": 0.1,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0490",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.1,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.09,
+   "smoke-co-detector": 0.15,
+   "window": 0.1,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0177",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.07,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.08,
+   "pests": 0.06,
+   "smoke-co-detector": 0.2,
+   "window": 0.08,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0572",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.13,
+   "peeling-paint": 0.14,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.13,
+   "smoke-co-detector": 0.13,
+   "window": 0.2,
+   "heat-hot-water": 0.18
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0533",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.09,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.11,
+   "smoke-co-detector": 0.42,
+   "window": 0.14,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0628",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.08,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.07,
+   "smoke-co-detector": 0.15,
+   "window": 0.11,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0582",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.07,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.09,
+   "smoke-co-detector": 0.11,
+   "window": 0.1,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0638",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.29,
+   "mold": 0.38,
+   "peeling-paint": 0.25,
+   "wall-ceiling-damage": 0.24,
+   "pests": 0.18,
+   "smoke-co-detector": 0.17,
+   "window": 0.15,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0629",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.08,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.09,
+   "smoke-co-detector": 0.12,
+   "window": 0.15,
+   "heat-hot-water": 0.16
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0168",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.08,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.1,
+   "smoke-co-detector": 0.18,
+   "window": 0.08,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0549",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.17,
+   "mold": 0.23,
+   "peeling-paint": 0.63,
+   "wall-ceiling-damage": 0.3,
+   "pests": 0.1,
+   "smoke-co-detector": 0.13,
+   "window": 0.22,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0634",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.12,
+   "peeling-paint": 0.16,
+   "wall-ceiling-damage": 0.14,
+   "pests": 0.11,
+   "smoke-co-detector": 0.13,
+   "window": 0.16,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0438",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.11,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.09,
+   "smoke-co-detector": 0.18,
+   "window": 0.16,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0632",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.08,
+   "peeling-paint": 0.14,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.09,
+   "smoke-co-detector": 0.12,
+   "window": 0.09,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0178",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.08,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.08,
+   "smoke-co-detector": 0.16,
+   "window": 0.12,
+   "heat-hot-water": 0.17
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0429",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.08,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.09,
+   "smoke-co-detector": 0.13,
+   "window": 0.13,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0090",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.18,
+   "mold": 0.49,
+   "peeling-paint": 0.23,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.13,
+   "smoke-co-detector": 0.1,
+   "window": 0.17,
+   "heat-hot-water": 0.19
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0631",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.11,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.09,
+   "smoke-co-detector": 0.14,
+   "window": 0.09,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0457",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.09,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.08,
+   "smoke-co-detector": 0.14,
+   "window": 0.11,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0600",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.09,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.11,
+   "smoke-co-detector": 0.18,
+   "window": 0.09,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0504",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.12,
+   "mold": 0.1,
+   "peeling-paint": 0.14,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.1,
+   "smoke-co-detector": 0.14,
+   "window": 0.13,
+   "heat-hot-water": 0.22
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0532",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.09,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.09,
+   "smoke-co-detector": 0.32,
+   "window": 0.09,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0328",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.33,
+   "peeling-paint": 0.09,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.12,
+   "smoke-co-detector": 0.13,
+   "window": 0.08,
+   "heat-hot-water": 0.2
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "other",
+    "law": "NYC Admin Code \u00a7 27-2024; \u00a7 27-2026 (maintenance of water supply and drainage systems)",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0465",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.08,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.11,
+   "smoke-co-detector": 0.13,
+   "window": 0.11,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0769",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.2,
+   "mold": 0.23,
+   "peeling-paint": 0.46,
+   "wall-ceiling-damage": 0.2,
+   "pests": 0.21,
+   "smoke-co-detector": 0.31,
+   "window": 0.23,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0539",
+  "category": "no-problem",
+  "answer": [],
+  "system": [
+   "smoke-co-detector"
+  ],
+  "system_right": false,
+  "baseline": [
+   "smoke-co-detector"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "smoke-co-detector"
+  ],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.1,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.08,
+   "smoke-co-detector": 0.26,
+   "window": 0.09,
+   "heat-hot-water": 0.08
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "smoke-co-detector",
+    "law": "NYC Admin. Code \u00a7 27-2046.1",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0464",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.08,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.12,
+   "smoke-co-detector": 0.33,
+   "window": 0.19,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0204",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.08,
+   "peeling-paint": 0.13,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.08,
+   "smoke-co-detector": 0.13,
+   "window": 0.12,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0324",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.1,
+   "peeling-paint": 0.08,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.14,
+   "smoke-co-detector": 0.08,
+   "window": 0.09,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0692",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.16,
+   "mold": 0.13,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.14,
+   "pests": 0.13,
+   "smoke-co-detector": 0.2,
+   "window": 0.13,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0311",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.07,
+   "peeling-paint": 0.08,
+   "wall-ceiling-damage": 0.07,
+   "pests": 0.06,
+   "smoke-co-detector": 0.22,
+   "window": 0.09,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0558",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.16,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.22,
+   "smoke-co-detector": 0.29,
+   "window": 0.11,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0482",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.14,
+   "peeling-paint": 0.16,
+   "wall-ceiling-damage": 0.13,
+   "pests": 0.1,
+   "smoke-co-detector": 0.2,
+   "window": 0.11,
+   "heat-hot-water": 0.12
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0338",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.17,
+   "mold": 0.15,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.34,
+   "pests": 0.13,
+   "smoke-co-detector": 0.12,
+   "window": 0.1,
+   "heat-hot-water": 0.21
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0583",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.1,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.08,
+   "smoke-co-detector": 0.11,
+   "window": 0.09,
+   "heat-hot-water": 0.21
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0327",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.11,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.18,
+   "smoke-co-detector": 0.1,
+   "window": 0.08,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0444",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.08,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.08,
+   "smoke-co-detector": 0.27,
+   "window": 0.13,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0570",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.16,
+   "mold": 0.16,
+   "peeling-paint": 0.14,
+   "wall-ceiling-damage": 0.14,
+   "pests": 0.12,
+   "smoke-co-detector": 0.33,
+   "window": 0.16,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0235",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.07,
+   "mold": 0.07,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.09,
+   "smoke-co-detector": 0.12,
+   "window": 0.11,
+   "heat-hot-water": 0.11
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0317",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.09,
+   "mold": 0.09,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.07,
+   "smoke-co-detector": 0.14,
+   "window": 0.11,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0216",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.19,
+   "mold": 0.17,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.27,
+   "pests": 0.18,
+   "smoke-co-detector": 0.28,
+   "window": 0.17,
+   "heat-hot-water": 0.18
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0140",
+  "category": "no-problem",
+  "answer": [],
+  "system": [
+   "peeling-paint"
+  ],
+  "system_right": false,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [
+   "peeling-paint"
+  ],
+  "probabilities": {
+   "leak": 0.13,
+   "mold": 0.13,
+   "peeling-paint": 0.84,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.13,
+   "smoke-co-detector": 0.13,
+   "window": 0.26,
+   "heat-hot-water": 0.2
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0550",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.55,
+   "mold": 0.2,
+   "peeling-paint": 0.15,
+   "wall-ceiling-damage": 0.22,
+   "pests": 0.14,
+   "smoke-co-detector": 0.16,
+   "window": 0.28,
+   "heat-hot-water": 0.15
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0579",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [
+   "heat-hot-water"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.07,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.07,
+   "smoke-co-detector": 0.09,
+   "window": 0.1,
+   "heat-hot-water": 0.48
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "heat-hot-water",
+    "law": "NYC Admin. Code \u00a7 27-2029",
+    "class": "C",
+    "deadline": "24 hours"
+   }
+  ]
+ },
+ {
+  "id": "med-0213",
+  "category": "look-alike",
+  "answer": [],
+  "system": [
+   "wall-ceiling-damage"
+  ],
+  "system_right": false,
+  "baseline": [
+   "wall-ceiling-damage"
+  ],
+  "baseline_right": false,
+  "proposed_by_model": [
+   "wall-ceiling-damage"
+  ],
+  "probabilities": {
+   "leak": 0.15,
+   "mold": 0.17,
+   "peeling-paint": 0.47,
+   "wall-ceiling-damage": 0.91,
+   "pests": 0.13,
+   "smoke-co-detector": 0.12,
+   "window": 0.09,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": [
+   {
+    "problem": "wall-ceiling-damage",
+    "law": "NYC Admin. Code \u00a7 27-2005",
+    "class": "B",
+    "deadline": "30 days"
+   }
+  ]
+ },
+ {
+  "id": "med-0597",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.08,
+   "peeling-paint": 0.1,
+   "wall-ceiling-damage": 0.07,
+   "pests": 0.06,
+   "smoke-co-detector": 0.11,
+   "window": 0.12,
+   "heat-hot-water": 0.2
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0206",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.1,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.12,
+   "pests": 0.1,
+   "smoke-co-detector": 0.25,
+   "window": 0.13,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0383",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.14,
+   "mold": 0.1,
+   "peeling-paint": 0.24,
+   "wall-ceiling-damage": 0.15,
+   "pests": 0.09,
+   "smoke-co-detector": 0.1,
+   "window": 0.1,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0479",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.16,
+   "mold": 0.11,
+   "peeling-paint": 0.12,
+   "wall-ceiling-damage": 0.09,
+   "pests": 0.11,
+   "smoke-co-detector": 0.12,
+   "window": 0.09,
+   "heat-hot-water": 0.14
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0633",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.1,
+   "mold": 0.12,
+   "peeling-paint": 0.11,
+   "wall-ceiling-damage": 0.1,
+   "pests": 0.11,
+   "smoke-co-detector": 0.1,
+   "window": 0.1,
+   "heat-hot-water": 0.1
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0176",
+  "category": "no-problem",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.11,
+   "mold": 0.08,
+   "peeling-paint": 0.19,
+   "wall-ceiling-damage": 0.17,
+   "pests": 0.09,
+   "smoke-co-detector": 0.11,
+   "window": 0.08,
+   "heat-hot-water": 0.09
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ },
+ {
+  "id": "med-0615",
+  "category": "look-alike",
+  "answer": [],
+  "system": [],
+  "system_right": true,
+  "baseline": [],
+  "baseline_right": true,
+  "proposed_by_model": [],
+  "probabilities": {
+   "leak": 0.08,
+   "mold": 0.1,
+   "peeling-paint": 0.08,
+   "wall-ceiling-damage": 0.11,
+   "pests": 0.08,
+   "smoke-co-detector": 0.09,
+   "window": 0.12,
+   "heat-hot-water": 0.13
+  },
+  "mold_bin": null,
+  "baseline_citations": []
+ }
+]

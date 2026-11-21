@@ -197,6 +197,49 @@ def photo_facts(problem_type: str, answers: dict) -> dict[str, tuple]:
     return out
 
 
+# ---------------------------------------------------------------- photo quality (Decisions API)
+
+QUALITY_QUESTIONS = {
+    "sharp_and_lit": ("Is the photo in focus and lit well enough that surface details are clearly visible?",
+                      "It is blurry or too dark to show detail. Retake it in focus, with the light on or a flash."),
+    "close_enough": ("Is the photo taken close enough that the condition of the surfaces can be seen clearly?",
+                     "It is taken from too far away. Add a closer photo of the problem."),
+    "shows_location": ("Does the photo show enough of the surroundings to tell where in the room it was taken?",
+                       "It doesn't show where in the room this is. Add a photo from further back."),
+    "has_scale_reference": (("Is there an object of known size in the photo, such as a door, a light switch, an outlet, "
+                            "a sheet of paper, a ruler or a hand, that could be used to judge the size of things?"),
+                            "Nothing in the photo shows scale. Put a sheet of paper or a ruler beside it and retake."),
+}
+
+
+def photo_quality(image: bytes, mime_type: str) -> dict[str, float]:
+    """Is this photo good evidence? A separate Decisions API request, so it can't affect detection.
+
+    The detection probability says whether a problem is present, not whether the picture is a good record
+    of it: on dev photos, reports at 0.8 and above were right no more often than those below 0.6.
+    """
+    r = _retry(lambda: client().decisions.create(
+        model=config.MODEL_DECIDE,
+        api_version=config.DECISIONS_API_VERSION,
+        input=[{"type": "image", "data": base64.b64encode(image).decode(), "mime_type": mime_type}],
+        questions={k: {"type": "noul", "instructions": q} for k, (q, _) in QUALITY_QUESTIONS.items()},
+        timeout=config.DECISIONS_TIMEOUT_S,
+    ))
+    return {k: v.model_dump()["noul"] for k, v in (r.answers or {}).items()}
+
+
+def quality_report(scores: dict[str, float] | None, found: list[str]) -> dict | None:
+    """Turn the quality scores into requests. Scale only matters where size sets the outcome (mould)."""
+    if not scores or not found:
+        return None
+    cut = THRESHOLDS["quality"]
+    checks = [k for k in QUALITY_QUESTIONS if k != "has_scale_reference" or "mold" in found]
+    weak = [k for k in checks if scores.get(k, 1.0) < cut]
+    return {"scores": {k: round(scores[k], 2) for k in checks if k in scores},
+            "good_for_evidence": not weak,
+            "retake_requests": [QUALITY_QUESTIONS[k][1] for k in weak]}
+
+
 # ---------------------------------------------------------------- describe (Hydrogen)
 
 DESCRIBE_SCHEMA = {
@@ -480,7 +523,8 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
             timings[name] = round(time.perf_counter() - t, 2)
 
     bld, bld_error = None, None
-    with ThreadPoolExecutor(max_workers=3) as pool:  # detection, description and building lookup side by side
+    with ThreadPoolExecutor(max_workers=4) as pool:  # detection, description, quality and building side by side
+        f_qual = pool.submit(photo_quality, image, mime_type)
         f_det = pool.submit(timed, "detect_s", detect, image, mime_type)
         f_desc = pool.submit(timed, "describe_s", propose, image, mime_type)
         f_bld = pool.submit(timed, "building_s", building_mod.lookup, address) if address else None
@@ -490,6 +534,10 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
                 bld = f_bld.result()
             except building_mod.AddressNotFound:
                 bld_error = f"No NYC address found for: {address}"
+        try:
+            quality = f_qual.result()
+        except Exception:  # noqa: BLE001 - the quality note is optional; never fail an answer over it
+            quality = None
     proposed = [f["problem_type"] for f in desc.get("findings", [])]
     found = confirmed_types(proposed, det["probabilities"])
     # Proposed by the model but not confirmed: not reported as a problem. The tenant is asked for a clearer photo.
@@ -562,34 +610,89 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
     finally:
         conn.close()
 
-    if with_explanation and to_explain:
-        t = time.perf_counter()
-        written: dict[str, dict] = {}
-        with ThreadPoolExecutor(max_workers=4) as pool:  # one call per finding, side by side
-            for part in pool.map(lambda it: explain([it]), to_explain):
-                written.update(part)
-        timings["explain_s"] = round(time.perf_counter() - t, 2)
-        for it in to_explain:
-            w = written.get(it["problem_type"])
-            if not w:
-                continue
-            by_id = {s["id"]: s for s in it["sections"]}
-            kept, dropped = check_citations(w.get("citations", []), by_id)
-            it["finding"]["citations"] = kept
-            it["finding"]["citations_dropped"] = dropped
-            it["finding"]["explanation"] = {k: w.get(k, "") for k in
-                                            ("summary", "landlord_duties", "tenant_rights", "tenant_responsibilities")}
-
     timings["total_s"] = round(time.perf_counter() - t0, 2)
-    return {
+    result = {
         "status": "ok",
         "timings": timings,
         "nothing_found": not findings,
         "probabilities": {k: round(v, 3) for k, v in det["probabilities"].items()},
         "proposed": proposed,
         "unclear": unclear,
+        "photo_quality": quality_report(quality, found),
         "building": bld,
         "building_error": bld_error,
         "findings": findings,
         "out_of_scope": desc.get("other_condition") if not findings else None,
     }
+    if with_explanation:
+        add_explanations(result)
+        result["timings"]["total_s"] = round(time.perf_counter() - t0, 2)
+    return result
+
+
+def check_support(citations: list[dict]) -> list[float]:
+    """Does each quote support the statement it is attached to? One Decisions API request for all of them.
+
+    A quote can be real and still not support the claim; that is the failure legal research tools show most.
+    Returns one probability per citation.
+    """
+    if not citations:
+        return []
+    text = "\n\n".join(f"Quote {i + 1} (from {c['citation']}): \"{c['quote']}\"" for i, c in enumerate(citations))
+    r = _retry(lambda: client().decisions.create(
+        model=config.MODEL_DECIDE,
+        api_version=config.DECISIONS_API_VERSION,
+        input=text,
+        questions={f"q{i + 1}": {"type": "noul",
+                                 "instructions": f"Does quote {i + 1} support this statement: {c['supports']}"}
+                   for i, c in enumerate(citations)},
+        timeout=config.DECISIONS_TIMEOUT_S,
+    ))
+    answers = {k: v.model_dump() for k, v in (r.answers or {}).items()}
+    return [answers.get(f"q{i + 1}", {}).get("noul", 0.0) for i in range(len(citations))]
+
+
+def add_explanations(result: dict) -> dict:
+    """Fill in the explanation and citations for every finding that has a rule. Changes result in place.
+
+    Split from analyze() so a screen can show the class and deadline first and fetch this part after.
+    A citation is kept only if its quote is in the cited section (check_citations) and the Decisions API
+    agrees the quote supports the statement (check_support).
+    """
+    t = time.perf_counter()
+    conn = dbm.connect()
+    try:
+        items = []
+        for f in result.get("findings", []):
+            if f.get("rule_id") and not f.get("explanation"):
+                items.append({"problem_type": f["problem_type"],
+                              "description": f.get("description") or DEFINITIONS[f["problem_type"]],
+                              "rule": dbm.get_rule(conn, f["rule_id"]),
+                              "sections": dbm.sections_for(conn, f["rule_id"]), "finding": f})
+    finally:
+        conn.close()
+    if not items:
+        return result
+
+    def one(it):
+        w = explain([it]).get(it["problem_type"])
+        if not w:
+            return
+        kept, dropped = check_citations(w.get("citations", []), {s["id"]: s for s in it["sections"]})
+        try:
+            support = check_support(kept)
+        except Exception:  # noqa: BLE001 - if the support check itself fails, say so instead of dropping quotes
+            support = [None] * len(kept)
+        for c, p in zip(kept, support, strict=True):
+            c["support"] = None if p is None else round(p, 2)
+        cut = THRESHOLDS["support"]
+        f = it["finding"]
+        f["citations"] = [c for c in kept if c["support"] is None or c["support"] >= cut]
+        f["citations_dropped"] = dropped
+        f["citations_unsupported"] = len(kept) - len(f["citations"])
+        f["explanation"] = {k: w.get(k, "") for k in ("summary", "landlord_duties", "tenant_rights", "tenant_responsibilities")}
+
+    with ThreadPoolExecutor(max_workers=4) as pool:  # one finding per thread, side by side
+        list(pool.map(one, items))
+    result.setdefault("timings", {})["explain_s"] = round(time.perf_counter() - t, 2)
+    return result

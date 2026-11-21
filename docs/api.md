@@ -11,10 +11,12 @@ A filled-in example of the main response is in [sample-response.json](sample-res
 | `GET /api/health` | Working | Says whether the API, the keys and the database are ready |
 | `GET /api/building?address=...` | Working | Address to building facts: year built, units, building type, rent-stabilized, open HPD violations |
 | `POST /api/analyze` | Working | Photo (plus optional address and answers) to findings. This is the main one |
+| `POST /api/explain` | Working | Adds the written explanation and checked quotes to an analysis made with `explain=false`. Takes `{"analysis": ...}` and returns it filled in |
 | `GET /api/test-items` | Working | The held-out test photos, for the "pick a photo" grid. No labels are included |
 | `GET /api/photos/{id}` | Working | The image for a test photo or an upload |
 | `POST /api/case-file` | Working | Starts the case file agent. Returns a `case_id` at once |
 | `GET /api/case-file/{case_id}` | Working | `status` is `in_progress` until the agent finishes (about 1 to 2 minutes); then `markdown` holds the case file |
+| `POST /api/letter` | Working | Drafts the letter to the landlord and the 311 complaint text. Takes `{"analysis": <the /api/analyze response>, "tenant_name": ..., "apartment": ...}`; returns `letter`, `complaint_311` and `notes`. Instant: code fills it in, no model call |
 | `GET /api/results` | Working | The evaluation numbers for the proof screen |
 
 `POST /api/analyze` takes a form with `photo` (a file) or `photo_id` (a test photo's id), and optionally `address` and `answers` (a JSON object such as `{"child_under_6_resides": true}`).
@@ -40,6 +42,7 @@ Other states the screens need:
 - **Nothing found:** `nothing_found` is true and `findings` is empty.
 - **Unclear, another photo needed:** `unclear` lists problems the app thought it saw but couldn't confirm. Each has `what_was_seen` and a `request` saying what photo to take next (for mould: closer, in good light, with something of known size in frame). These are not reported as problems. Show the request and let the tenant add a photo. A finding can also carry a `retake_request` next to its `questions`, when a clearer photo could answer the question (mould size is the main case).
 - **Outside the decision tree:** `out_of_scope` describes what the photo shows and whether it looks like the tenant's responsibility. A product suggestion would attach here.
+- **A weak photo:** `photo_quality` is present whenever a problem is reported. `good_for_evidence` is false when the photo is blurry or dark, too far away, shows no surroundings, or (for mould) has nothing to show scale. `retake_requests` lists what to fix, in plain words. The problem is still reported; this is advice for the tenant's own records.
 - **Address not found:** the building call returns a 404 with a message.
 
 ## Things the backend can't give you
@@ -49,6 +52,12 @@ Other states the screens need:
 - **One overall confidence.** There is a probability for each problem type.
 
 ## Timing
+
+**To show the answer in two stages:** call `POST /api/analyze` with the form field `explain=false`. It returns the findings with class, deadline, questions and next steps, but no written explanation or quotes. Show that, then send the whole response to `POST /api/explain` and fill in each finding's `explanation` and `citations` when it returns.
+
+**If the network fails:** for test photos, `/api/analyze` returns the last good answer for that photo with `from_cache: true` and a `cache_note`. Show the note when it's present.
+
+Each citation has a `support` score (0 to 1) from a second check that the quote supports the statement. Quotes that fail it are removed before you see them.
 
 A full answer takes about 10 to 15 seconds. The parts arrive at different times: detection in about 1 second, the description in about 6, the building facts in 1 to 5, and the law explanation last. Design each part to appear when it is ready.
 
