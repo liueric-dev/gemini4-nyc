@@ -10,3 +10,11 @@ data/media/videos/
 data/open-data/raw/od-ncei-ghcnh-usw00094728-2026.psv
 # Local transfer bundles (contain media; not for the repo)
 .claude-transfer/
+# App build outputs and dependencies
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+web/dist/
+var/

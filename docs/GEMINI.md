@@ -59,3 +59,19 @@ Video details: about 100 tokens/s at default resolution, 1 FPS default (custom u
 - Decisions API price and latency
 - Live API session limits
 - Whether Google DeepMind provides credits on the day ("coming soon" in the guide)
+
+## Measured on Nov 21 (`scripts/smoke.py`)
+
+One call each, from a laptop at the venue. Single samples, not averages.
+
+| Call | Time | Notes |
+|---|---|---|
+| Hydrogen, one photo in, two sentences out | 6.5 s | 1,158 input tokens for a 254 KB photo; 385 thinking tokens at the default level |
+| Carbon, text only, one word out | 5.1 s | Mostly fixed overhead at the default thinking level |
+| Decisions API, one photo, 3 questions | 1.1–1.3 s | About 1,100 tokens per photo; zero output tokens; each answer has probabilities |
+| Managed Agents (Antigravity), fetch one row from NYC Open Data | 20 s | 11,620 tokens; the sandbox reached `data.cityofnewyork.us` with default network settings |
+
+Things the SDK (google-genai 3.6.1) needs that the docs didn't make obvious:
+- **The Decisions API and agent environments work only on `v1beta`.** Pass `api_version="v1beta"`; the default version returns 404 for decisions and 400 for an agent's `environment`.
+- **Decisions call:** `client.decisions.create(model="gemini-decision-1", api_version="v1beta", input=[{"type": "image", "data": <base64>, "mime_type": "image/jpeg"}], questions={id: {"type": "noul" | "choice" | "score", "instructions": ...}})`. A `choice` question takes `criteria` as a map of option id to description.
+- **Agent run:** `client.interactions.create(agent="antigravity-preview-09-2026", input=..., environment={"type": "remote"}, api_version="v1beta")`. `environment` is required.
