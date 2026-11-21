@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 26: Housing and Buildings > Chapter 2: Relocation Services > § 26-302 Supervision of relocation activities of developers.
+
+§ 26-302 Supervision of relocation activities of developers.
+The commissioner of housing preservation and development shall supervise the tenant relocation activities of any party to the contract with the city which requires such party to develop any real property in accordance with the terms of such contract, in any case where the contract provides that the commissioner shall exercise such supervision.

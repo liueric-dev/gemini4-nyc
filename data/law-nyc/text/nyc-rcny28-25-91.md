@@ -1,0 +1,8 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 25: Multiple Dwellings > Subchapter G: Requirement That Owners of Multiple Dwellings File a '24-Hour' Telephone Number with the Department of Housing Preservation and Development > § 25-91 Rules for Enforcement of Subdivision (4) of § 27-2098 of the Administrative Code of the City of New York.
+
+§ 25-91 Rules for Enforcement of Subdivision (4) of § 27-2098 of the Administrative Code of the City of New York.
+(a) The words "may be reached at all hours and time" within the meaning of subdivision (4) of § 27-2098 of the Administrative Code shall be construed to mean a telephone number at or through which in the normal course of events a person might reasonably be expected to be reached at all times and this shall be deemed to include:
+(1) the telephone number of the residence of such person; or
+(2) the telephone number of an agent fully authorized to act on behalf of the owner; or
+(3) the telephone number of a person, firm or corporation, including an answering service, which has in its possession at all times a telephone number at which the person or agent can be reached at all times. A corporation may comply with this subdivision by any of the means as hereinabove set forth.
+(b) The term "emergency repairs" within the meaning of this subdivision shall be construed to designate a condition in a multiple dwelling which, in the opinion of the department, constitutes, or if not properly corrected, will constitute, a fire hazard or a serious threat to the life, health or safety of occupants thereof.

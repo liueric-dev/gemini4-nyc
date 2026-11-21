@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 120 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "120",
+    "title" : "Use of dwelling units in a class A multiple dwelling for other than permanent residence purposes",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "120",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 120. Use of dwelling units in a class A multiple dwelling for other\\nthan permanent residence purposes. 1. Notwithstanding any other\\nprovision of law to the contrary, within a class A multiple dwelling to\\nwhich this article is applicable the use of dwelling units as a hotel\\nfor other than permanent residence purposes, as defined in paragraph a\\nof subdivision eight of section four of this chapter, that would\\notherwise be prohibited shall be permitted to continue for a period of\\ntwo years after the effective date of this section provided that:\\n  a. such dwelling units were used for other than permanent residence\\npurposes on January first, two thousand nine and on the effective date\\nof this subdivision and fifty-one percent or more of the total number of\\ndwelling units in such dwelling were used for other than permanent\\nresidence purposes on such dates;\\n  b. (1) such dwelling was initially constructed as and identified on\\nits initial certificate of occupancy as \"apartment hotel\" or \"class A\\nhotel\" and occupied as a hotel for other than permanent residence\\npurposes on December fifteenth, nineteen hundred sixty-one or, if such\\ndwelling was under construction and not yet complete on such date, was\\noccupied as a hotel for other than permanent residence purposes at the\\ntime the dwelling was completed, or (2) such dwelling is in zoning\\ndistrict C5 as designated in the New York city zoning resolution and was\\ninitially constructed as a hotel for other than permanent residence\\npurposes prior to December fifteenth, nineteen hundred sixty-one and\\noccupied as a hotel for other than permanent residence purposes on\\nDecember fifteenth, nineteen hundred sixty-one, or (3) such dwelling (A)\\nis within twelve hundred feet of zoning district C5 as designated in the\\nNew York city zoning resolution, (B) was initially constructed as a\\nhotel for other than permanent residence purposes in accordance with a\\npermit that was issued prior to December fifteenth, nineteen hundred\\nsixty-one, and (C) was completed after December fifteenth, nineteen\\nhundred sixty-one and was initially occupied as a hotel for other than\\npermanent residence purposes;\\n  c. such dwelling is of fireproof construction and was of fireproof\\nconstruction on January first, two thousand nine;\\n  d. such dwelling units used for other than permanent residence\\npurposes have at least two lawful means of egress, including exit\\nstairs, fire towers or exterior stairs but excluding fire escapes and\\nhad such lawful means of egress on January first, two thousand nine;\\n  e. such dwelling has operational exist signs and a fire alarm system\\ncomplying with the provisions for existing transient occupancies in\\naccordance with local law and had such exit signs and fire alarm system\\non January first, two thousand nine; and\\n  f. such dwelling units used for other than permanent residence\\npurposes are registered with the department within one hundred eighty\\ndays after the effective date of this section in a form and manner to be\\nprovided by such department, including a requirement that the applicant\\nsubmit certification of compliance with paragraphs d and e of this\\nsubdivision, signed and sealed by a registered architect or licensed\\nprofessional engineer in good standing under the education law. The\\ndepartment may assess fees to cover all costs associated with such\\nregistration. The department may refuse to register dwelling units or\\nmay revoke such registration if it determines such dwelling units or\\ndwelling do not comply with the conditions for registration set forth in\\nparagraphs a through e of this subdivision.\\n  2. The owner shall obtain a certificate of occupancy for the use of\\nregistered dwelling units for other than permanent residence purposes\\nwithin two years after the effective date of this section. Upon\\napplication prior to the expiration of such two year period, the\\ndepartment may, for good cause, extend such time for up to one\\nadditional year but no such extension shall be granted unless the\\ndepartment finds that:\\n  a. the owner has obtained the necessary permit or permits for all work\\nnecessary to bring such dwelling into compliance with the requirements\\nof this chapter and all local housing, building and fire codes for the\\nuse of dwelling units for other than permanent residence purposes;\\n  b. all construction authorized by such permit or permits has been\\nsubstantially completed; and\\n  c. there are no considerations of public safety, health and welfare\\nthat have become apparent since the issuance of the above described\\npermit or permits that indicate an overriding benefit to the public in\\nenforcing the requirement that the applicant obtain a certificate of\\noccupancy for the use of registered dwelling units for other than\\npermanent residence purposes within two years after the effective date\\nof this section.\\n  3. Upon application prior to the expiration of the time for obtaining\\na certificate of occupancy, as extended by the department pursuant to\\nsubdivision two of this section, the board of standards and appeals may\\ngrant a further extension of time to obtain a certificate of occupancy\\nin a case where there are circumstances beyond the applicant's control\\nor hardship in the way of obtaining such certificate within the time\\nallowed by the department but no more than one such extension of fifteen\\nmonths shall be granted for a building and no such extension shall be\\ngranted unless the board finds that there are no outstanding building or\\nfire code violations of record at the property.\\n  4. The department shall issue such certificate of occupancy upon proof\\nthat said dwelling conforms in all respects to the requirements of this\\nchapter and all local housing, building and fire codes for the use of\\ndwelling units for other than permanent residence purposes. If no such\\ncertificate of occupancy is issued within two years after the effective\\ndate of this section or, if applicable, within the time as extended by\\nthe department or as further extended by the board of standards and\\nappeals, all use of dwelling units for other than permanent residence\\npurposes shall thereafter cease.\\n  5. If after a certificate of occupancy is issued pursuant to\\nsubdivision four of this section, the use of such dwelling units for\\nother than permanent residence purposes is discontinued, nothing in this\\nsection shall be construed to limit the application of the local zoning\\nresolution with respect to such discontinuance.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T3",
+      "title" : "Certain Class a Multiple Dwellings Erected Prior to December 15, 1961",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "121",
+      "title" : "Prohibiting advertising that promotes the use of dwelling units in a class A multiple dwelling for other than permanent residence purposes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2016-10-28" ],
+      "docLevelId" : "121",
+      "activeDate" : "2016-10-28"
+    }
+  }
+}

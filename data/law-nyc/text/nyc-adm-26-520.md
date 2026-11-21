@@ -1,0 +1,5 @@
+# NYC Administrative Code > Title 26: Housing and Buildings > Chapter 4: Rent Stabilization > § 26-520 Expiration date.
+
+§ 26-520 Expiration date.
+This chapter shall expire on April 1, 2027 unless rent control shall sooner terminate as provided in subdivision three of section one of the local emergency housing rent control law.
+(Am. L.L. 2015/026, 3/30/2015, eff. 3/30/2015; Am. L.L. 2018/085, 3/27/2018, eff. 3/27/2018; Am. L.L. 2020/113, 11/15/2020, eff. 11/15/2020; Am. L.L. 2022/055, 3/30/2022, eff. 3/30/2022; Am. L.L. 2022/069, 6/27/2022, eff. 6/27/2022; Am. L.L. 2024/047, 3/25/2024, eff. 3/25/2024)

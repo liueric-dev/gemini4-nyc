@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 296-C in EXC law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "EXC",
+    "lawName" : "Executive",
+    "locationId" : "296-C",
+    "title" : "Unlawful discriminatory practices relating to interns",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-05-20", "2022-12-30", "2023-08-25" ],
+    "docLevelId" : "296-C",
+    "activeDate" : "2023-08-25",
+    "text" : "  § 296-c. Unlawful discriminatory practices relating to interns. 1. As\\nused in this section, \"Intern\" means a person who performs work for an\\nemployer for the purpose of training under the following circumstances:\\n  a. the employer is not committed to hire the person performing the\\nwork at the conclusion of the training period;\\n  b. the employer and the person performing the work agree that the\\nperson performing the work is not entitled to wages for the work\\nperformed; and\\n  c. the work performed:\\n  (1) provides or supplements training that may enhance the\\nemployability of the intern;\\n  (2) provides experience for the benefit of the person performing the\\nwork;\\n  (3) does not displace regular employees; and\\n  (4) is performed under the close supervision of existing staff.\\n  2. It shall be an unlawful discriminatory practice for an employer to:\\n  a. refuse to hire or employ or to bar or to discharge from internship\\nan intern or to discriminate against such intern in terms, conditions or\\nprivileges of employment as an intern because of the intern's age, race,\\ncreed, color, national origin, citizenship or immigration status, sexual\\norientation, gender identity or expression, military status, sex,\\ndisability, predisposing genetic characteristics, marital status, or\\nstatus as a victim of domestic violence;\\n  b. discriminate against an intern in receiving, classifying, disposing\\nor otherwise acting upon applications for internships because of the\\nintern's age, race, creed, color, national origin, citizenship or\\nimmigration status, sexual orientation, gender identity or expression,\\nmilitary status, sex, disability, predisposing genetic characteristics,\\nmarital status, or status as a victim of domestic violence;\\n  c. print or circulate or cause to be printed or circulated any\\nstatement, advertisement or publication, or to use any form of\\napplication for employment as an intern or to make any inquiry in\\nconnection with prospective employment, which expresses directly or\\nindirectly, any limitation, specification or discrimination as to age,\\nrace, creed, color, national origin, citizenship or immigration status,\\nsexual orientation, gender identity or expression, military status, sex,\\ndisability, predisposing genetic characteristics, marital status or\\nstatus as a victim of domestic violence, or any intent to make any such\\nlimitation, specification or discrimination, unless based upon a bona\\nfide occupational qualification; provided, however, that neither this\\nparagraph nor any provision of this chapter or other law shall be\\nconstrued to prohibit the department of civil service or the department\\nof personnel of any city containing more than one county from requesting\\ninformation from applicants for civil service internships or\\nexaminations concerning any of the aforementioned characteristics, other\\nthan sexual orientation, for the purpose of conducting studies to\\nidentify and resolve possible problems in recruitment and testing of\\nmembers of minority groups to ensure the fairest possible and equal\\nopportunities for employment in the civil service for all persons,\\nregardless of age, race, creed, color, national origin, citizenship or\\nimmigration status, sexual orientation, military status, sex,\\ndisability, predisposing genetic characteristics, marital status or\\nstatus as a victim of domestic violence;\\n  d. to discharge, expel or otherwise discriminate against any person\\nbecause he or she has opposed any practices forbidden under this article\\nor because he or she has filed a complaint, testified or assisted in any\\nproceeding under this article; or\\n  e. to compel an intern who is pregnant to take a leave of absence,\\nunless the intern is prevented by such pregnancy from performing the\\nactivities involved in the job or occupation in a reasonable manner.\\n  3. It shall be an unlawful discriminatory practice for an employer to:\\n  a. engage in unwelcome sexual advances, requests for sexual favors, or\\nother verbal or physical conduct of a sexual nature to an intern when:\\n  (1) submission to such conduct is made either explicitly or implicitly\\na term or condition of the intern's employment;\\n  (2) submission to or rejection of such conduct by the intern is used\\nas the basis for employment decisions affecting such intern; or\\n  (3) such conduct has the purpose or effect of unreasonably interfering\\nwith the intern's work performance by creating an intimidating, hostile,\\nor offensive working environment; or\\n  b. subject an intern to unwelcome harassment based on age, sex, race,\\ncreed, color, sexual orientation, gender identity or expression,\\nmilitary status, disability, predisposing genetic characteristics,\\nmarital status, status as a victim of domestic violence, national\\norigin, or citizenship or immigration status, or where such harassment\\nhas the purpose or effect of unreasonably interfering with the intern's\\nwork performance by creating an intimidating, hostile, or offensive\\nworking environment.\\n  4. Nothing in this section shall affect any restrictions upon the\\nactivities of persons licensed by the state liquor authority with\\nrespect to persons under twenty-one years of age.\\n  5. Nothing in this section shall create an employment relationship\\nbetween an employer and an intern for the purposes of articles six,\\nseven, eighteen or nineteen of the labor law.\\n",
+    "parentLocationIds" : [ "-CH18", "A15" ],
+    "parents" : [ {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "-CH18",
+      "title" : "Executive",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2014-11-28", "2015-01-23", "2015-07-10", "2015-11-13", "2015-11-27", "2017-04-21", "2017-04-28", "2018-11-09", "2019-01-11", "2019-07-19", "2019-08-02", "2019-12-27", "2020-06-19", "2020-10-16", "2020-12-18", "2021-01-29", "2021-04-02", "2021-04-23", "2021-07-30", "2021-10-29", "2021-11-19", "2022-02-11", "2022-04-08", "2022-06-10", "2022-07-08", "2022-12-09", "2022-12-30", "2023-04-07", "2023-05-12", "2023-10-27", "2024-01-19", "2024-05-03", "2024-10-11", "2025-02-21", "2026-05-29", "2026-06-12" ],
+      "docLevelId" : "18",
+      "activeDate" : "2026-06-12"
+    }, {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "A15",
+      "title" : "Human Rights Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2018-04-20", "2019-08-16", "2022-01-07", "2022-12-02", "2023-11-26", "2025-04-11" ],
+      "docLevelId" : "15",
+      "activeDate" : "2025-04-11"
+    } ],
+    "prevSibling" : {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "296-A",
+      "title" : "Unlawful discriminatory practices in relation to credit",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-02-01", "2019-03-01", "2022-05-20", "2022-12-30" ],
+      "docLevelId" : "296-A",
+      "activeDate" : "2022-12-30"
+    },
+    "nextSibling" : {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "296-D",
+      "title" : "Unlawful discriminatory practices relating to non-employees",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2018-04-20", "2019-08-16", "2019-10-18" ],
+      "docLevelId" : "296-D",
+      "activeDate" : "2019-10-18"
+    }
+  }
+}

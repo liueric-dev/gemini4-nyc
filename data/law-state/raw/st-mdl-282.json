@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 282 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "282",
+    "title" : "Establishment of special loft unit",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+    "docLevelId" : "282",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 282. Establishment of special loft unit. 1. In order to resolve\\ncomplaints of owners of interim multiple dwellings and of residential\\noccupants of such buildings qualified for the protection of this\\narticle, and to act upon hardship applications made pursuant to this\\narticle, a special loft unit referred to herein as the \"loft board\"\\nshall be established which shall consist of from four to nine members\\nrepresentative of the public, the real estate industry, loft residential\\ntenants, and loft manufacturing interests, and a chairperson, all to be\\nappointed by the mayor of the municipality and to serve such terms as he\\nmay designate. The compensation of the members of the loft board shall\\nbe fixed by the mayor. The members of the loft board shall not be\\nconsidered employees of the state or the municipality, provided,\\nhowever, that state or municipal employees or officers may be named to\\nthe loft board. The mayor shall establish the loft board within ninety\\ndays of the effective date of chapter three hundred forty-nine of the\\nlaws of nineteen hundred eighty-two. The loft board shall have such\\noffice and staff as shall be necessary to carry out functions conferred\\nupon it and may request and receive assistance from any state or\\nmunicipal agency or department. The loft board shall have the following\\nduties: (i) the determination of interim multiple dwelling status and\\nother issues of coverage pursuant to this article; (ii) the resolution\\nof all hardship appeals brought under this article; (iii) the\\ndetermination of any claim for rent adjustment under this article by an\\nowner or tenant; (iv) the issuance, after a public hearing, and the\\nenforcement of rules and regulations governing minimum housing\\nmaintenance standards in interim multiple dwellings (subject to the\\nprovisions of this chapter and any local building code), rent\\nadjustments prior to legalization, compliance with this article and the\\nhearing of complaints and applications made to it pursuant to this\\narticle; and (v) determination of controversies arising over the fair\\nmarket value of a residential tenant's fixtures or reasonable moving\\nexpenses.\\n  2. The violation of any rule or regulation promulgated by the loft\\nboard shall be punishable by a civil penalty determined by the loft\\nboard not to exceed twenty-five thousand dollars which may be recovered\\nby the municipality by a proceeding in any court of competent\\njurisdiction. The corporation counsel may bring and maintain a civil\\nproceeding in the name of the city in the supreme court of the county in\\nwhich the building, erection or place is located to enjoin violations of\\nthis article. The loft board may designate provisions of such rules and\\nregulations for enforcement in proceedings before the environmental\\ncontrol board of such municipality. Notices of violation returnable to\\nsuch environmental control board may be issued by officers and employees\\nof the department of buildings of such municipality and served in the\\nsame manner as violations returnable to such board within the\\njurisdiction of such department. The environmental control board, when\\nacting as the designee of the loft board, shall have the power to impose\\ncivil penalties, not to exceed twenty-five thousand dollars for each\\nviolation, and to issue judgments, which may be docketed and enforced as\\nset forth in section one thousand forty-nine-a of the New York city\\ncharter.\\n  3. The loft board may charge and collect reasonable fees in the\\nexecution of its responsibilities. The loft board may administer oaths,\\ntake affidavits, hear testimony, and take proof under oath at public or\\nprivate hearings.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-C",
+      "title" : "Legalization of Interim Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-07-03" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2015-07-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "281",
+      "title" : "Definition of \"interim multiple dwelling\"",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "281",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "282-A",
+      "title" : "Applications for coverage of interim multiple dwellings and residential units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28", "2021-12-03" ],
+      "docLevelId" : "282-A",
+      "activeDate" : "2021-12-03"
+    }
+  }
+}

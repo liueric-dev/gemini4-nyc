@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 285 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "285",
+    "title" : "Owner protection",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "285",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 285. Owner protection. 1. Notwithstanding the provisions of section\\nthree hundred two or three hundred twenty-five of this chapter, the\\nowner of an interim multiple dwelling may recover rent payable from\\nresidential occupants qualified for the protection of this article on or\\nafter April first, nineteen hundred eighty, and maintain an action or\\nproceeding for possession of such premises for non-payment of rent,\\nprovided that he is in compliance with this article.\\n  2. Notwithstanding any other provision of this article, an owner may\\napply to the loft board for exemption of a building or portion thereof\\nfrom this article on the basis that compliance with this article in\\nobtaining a legal residential certificate of occupancy would cause an\\nunjustifiable hardship either because: (i) it would cause an\\nunreasonably adverse impact on a non-residential conforming use tenant\\nwithin the building or (ii) the cost of compliance renders legal\\nresidential conversion infeasible. Residential and other tenants shall\\nbe given not less than sixty days notice in advance of the hearing date\\nfor such application. If the loft board approves such application, the\\nbuilding or portion thereof shall be exempt from this article, and may\\nbe converted to non-residential conforming uses, provided, however, that\\nthe owner shall, as a condition of approval of such application, agree\\nto file an irrevocable recorded covenant in form satisfactory to the\\nloft board enforceable for fifteen years by the municipality, that the\\nbuilding will not be re-converted to residential uses during such time.\\nThe standard for granting such hardship application for a building or\\nportion thereof shall be as follows: (a) the loft board shall only grant\\nthe minimum relief necessary to relieve any alleged hardship with the\\nunderstanding if compliance is reasonably possible it should be achieved\\neven if it requires alteration of units, relocation of tenants to vacant\\nspace within the building, re-design of space or application for a\\nnon-use-related variance, special permit, minor modification or\\nadministrative certification; (b) self-created hardship shall not be\\nallowed; (c) the test for cost infeasibility shall be that of a\\nreasonable return on the owner's investment not maximum return on\\ninvestment; (d) the test for unreasonably adverse impact on a\\nnon-residential conforming use tenant shall be whether residential\\nconversion would necessitate displacement. Such hardship applications\\nshall be submitted to the loft board within nine months of the\\nestablishment of the loft board (or, in the case of interim multiple\\ndwellings referred to in subdivision four of section two hundred\\neighty-one of this article, within nine months of July twenty-seventh,\\nnineteen hundred eighty-seven or in the case of interim multiple\\ndwellings made subject to this article by subdivision five of section\\ntwo hundred eighty-one of this article, within nine months of the\\neffective date of such subdivision five, or, for units that became\\nsubject to this article pursuant to the chapter of the laws of two\\nthousand thirteen which amended this paragraph, within nine months of\\nthe promulgation of all necessary rules and regulations pursuant to\\nsection two hundred eighty-two-a of this article, but shall not be\\nconsidered, absent a waiver by the loft board, unless the owner has also\\nfiled an alteration application. In determination of any such hardship\\napplication, the loft board may demand such information as it deems\\nnecessary. In approving any such hardship application, the loft board\\nmay fix reasonable terms and conditions for the vacating of residential\\noccupancy.\\n  3. An owner of an interim multiple dwelling shall be exempt from\\npaying a conversion contribution required by the zoning resolution of\\nthe city of New York for that portion of any building or structure\\ndetermined by the loft board to be an interim multiple dwelling.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-C",
+      "title" : "Legalization of Interim Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-07-03" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2015-07-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "284",
+      "title" : "Owner obligations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "284",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "286",
+      "title" : "Tenant protection",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "286",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

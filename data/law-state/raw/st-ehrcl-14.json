@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 14 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "14",
+    "title" : "Intent",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "14",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 14. Intent. 1. It is the intention of this act to subject to control\\nonly those housing accommodations, as that term is defined herein, which\\nwere subject to rent control and for which a maximum rent was in effect\\non March first, nineteen hundred fifty, pursuant to federal or local\\nlaws, and in the discretion of the commission those housing\\naccommodations for which a maximum rent was thereafter established,\\npursuant to the provisions of section four hereof.\\n  2. Any reference made in this act to the local laws specified in\\nchapter one of the laws of nineteen hundred fifty shall be deemed to be\\nsolely for the purposes of identification, and if any of such laws shall\\nbe held invalid, the reference made herein and any maximum rent\\nestablished hereunder shall not be affected thereby.\\n  3. The provisions of this section shall be deemed to supersede any\\nother inconsistent provisions of this act.\\n  4. Notwithstanding the decontrol of housing accommodations therein\\npursuant to this act, unless otherwise provided herein, no municipality\\nshall have the power to adopt local laws with respect to the\\nregistration or control of rents or evictions or otherwise to the\\nsubject matter of this act.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "13",
+      "title" : "Pending proceedings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "13",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "15",
+      "title" : "Separability",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "15",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

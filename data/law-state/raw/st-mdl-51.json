@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 51 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "51",
+    "title" : "Shafts, elevators and dumbwaiters",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "51",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 51. Shafts, elevators and dumbwaiters.  1. Every shaft constructed\\nafter April eighteenth, nineteen hundred twenty-nine, in any multiple\\ndwelling shall be enclosed on all sides with fireproof walls and shall\\nhave fireproof doors and assemblies at all openings, with the doors\\nself-closing. Dumbwaiter shafts, except those adjoining public halls,\\nmay be constructed with walls of gypsum plaster blocks approved by the\\ndepartment, at least two inches thick if solid and at least three inches\\nthick if hollow.\\n  2. All dumbwaiter doors constructed after such date shall be fastened\\nby an interior lock in the shaft operated and controlled from a central\\npoint in the cellar or lowest story if there be no cellar.\\n  3. The doors of every elevator shaft constructed after such date shall\\nbe provided with an automatic device approved by the department to\\nprevent the normal operation of the elevator unless the hoistway door at\\nwhich the car is standing is closed and locked, or unless all hoistway\\ndoors are locked in a closed position. Such doors may have a vision\\npanel of wire glass not exceeding one square foot in area.\\n  4. Every elevator installed after such date shall be equipped with a\\ngate with an automatic device approved by the department to prevent the\\nnormal operation of such elevator unless such gate is closed.\\n  5. When any elevator or dumbwaiter constructed after such date opens\\ninto more than one stair, elevator vestibule or other public hall on any\\nfloor, such elevator or dumbwaiter shall be placed in a separate shaft.\\nNot more than three elevators or two dumbwaiters shall ever be placed in\\nthe same shaft.\\n  6. Every dwelling erected after such date which exceeds six stories or\\nsixty feet in height shall be equipped with one or more passenger\\nelevators, operative at all times, at least one of which shall be\\naccessible to every apartment above the entrance story.\\n  7. In every multiple dwelling, elevator shafts, not previously\\nenclosed to the satisfaction of the department, shall be enclosed with\\nfireproof walls and shall have fireproof doors and assemblies, with the\\ndoors self-closing.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "50-C",
+      "title" : "Rights of tenants to operate and maintain a lobby attendant service",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "50-C",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "51-A",
+      "title" : "Peepholes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "51-A",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

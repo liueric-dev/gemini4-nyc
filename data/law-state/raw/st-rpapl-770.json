@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 770 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "770",
+    "title" : "Grounds for the proceeding",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "770",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 770. Grounds for the proceeding. 1. One-third or more of the tenants\\noccupying a dwelling located in the city of New York or the commissioner\\nof the department of the city of New York charged with enforcement of\\nthe housing maintenance code of such city, or in the counties of Nassau,\\nSuffolk, Rockland and Westchester may maintain a special proceeding as\\nprovided in this article, upon the ground that there exists in such\\ndwellings or in any part thereof a lack of heat or of running water or\\nof light or of electricity or of adequate sewage disposal facilities, or\\nany other condition dangerous to life, health or safety, which has\\nexisted for five days, or an infestation by rodents, or any combination\\nof such conditions; or course of conduct by the owner or the owner's\\nagents of harassment, illegal eviction, continued deprivation of\\nservices or other acts dangerous to life, health or safety, or the\\nissuance of an order to the owner of such dwelling by the commissioner\\nof such department of the city of New York pursuant to the alternative\\nenforcement program under section 27-2153 of the administrative code of\\nthe city of New York, provided that such dwelling has not been\\ndischarged from the program pursuant to such section and there has not\\nbeen a determination that the owner has substantially complied with such\\norder.\\n  2. If the proceeding is instituted by the commissioner of the\\ndepartment of the city of New York charged with enforcement of the\\nhousing maintenance code of such city, one-third or more of the tenants\\nmay, at any time thereafter during the pendency of the proceeding or\\nafter final judgment pursuant to section seven hundred seventy-six or\\nseven hundred seventy-seven of this article, petition for substitution\\nof themselves in place and stead of such commissioner of such\\ndepartment. Such substitution shall be ordered by the court unless good\\nreason to the contrary shall be shown.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "769",
+      "title" : "Jurisdiction; court; venue",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "769",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "771",
+      "title" : "Commencement; notice of petition; time and manner of service",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "771",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

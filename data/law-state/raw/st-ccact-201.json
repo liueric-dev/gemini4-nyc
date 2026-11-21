@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 201 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "201",
+    "title" : "Jurisdiction; in general",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+    "docLevelId" : "201",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 201. Jurisdiction; in general. The court shall have jurisdiction as\\nset forth in this article and as elsewhere provided by law. The phrase\\n\"$50,000\", whenever it appears herein, shall be taken to mean \"$50,000\\nexclusive of interest and costs\".\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "202",
+      "title" : "Money actions and actions involving chattels",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "202",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

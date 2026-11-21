@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 775 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "775",
+    "title" : "Defenses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "775",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 775. Defenses. It shall be a sufficient defense to the proceeding,\\nif the owner or any mortgagee or lienor of record establish that:\\n  a. The condition or conditions alleged in the petition did not in fact\\nexist or that such condition or conditions have been removed or\\nremedied; or\\n  b. Such condition or conditions has been caused by a petitioning\\ntenant or tenants or members of the family or families of such\\npetitioner or petitioners or of their guests or by other residents of\\nthe dwelling or their families or guests; or\\n  c. Any tenant or resident of the dwelling has refused entry to the\\nowner or his agent to a portion of the premises for the purpose of\\ncorrecting such condition or conditions.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "774",
+      "title" : "Trial",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "774",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "776",
+      "title" : "Judgment",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "776",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 278 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "278",
+    "title" : "Application of other provisions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+    "docLevelId" : "278",
+    "activeDate" : "2026-08-28",
+    "text" : "  § 278. Application of other provisions. 1. The provisions of this\\narticle apply to buildings with residential, mixed or joint living-work\\nquarters or artists' occupancy as herein provided and to such buildings\\nonly. In addition to the provisions of this article, the following\\nenumerated articles and sections of this chapter shall, to the extent\\nrequired therein, apply to such buildings:\\n  Article  1.        Introductory provisions: definitions\\n           2.        Miscellaneous application provisions except sub-\\n                     division two of section nine\\n           8.        Requirements and remedies\\n           9.        Registry of names and service of papers\\n           10.       Prostitution\\n           11.       Laws repealed; saving clause; effect\\n  Section  28.       Two or more buildings on same lot\\n           29.       Painting of courts and shafts\\n           31.       Size of rooms, subdivision six only\\n           37.       Artificial hall lighting\\n           53.       Fire-escapes\\n           55.       Wainscoting, subdivision two only\\n           56.       Frame buildings and extensions\\n           57.       Bells; mail receptacles\\n           58.       Incombustible materials\\n           59.       Bakeries and fat boiling\\n           60.       Motor vehicle storage\\n           61.       Business uses (except paragraph c of subdivision\\n                     one and subdivision three)\\n           62.       Parapets, guard railings and wires\\n  2. Failure to comply with any provision of this chapter other than\\nthis article and the above enumerated articles and sections shall not be\\ngrounds for refusal of a certificate of occupancy or compliance.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-B" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-B",
+      "title" : "Joint Living-work Quarters For Artists, or General Residential Occupancy of Loft, Commercial or Manufacturing Buildings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-B",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "277",
+      "title" : "Occupancy permitted",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "277",
+      "activeDate" : "2026-08-28"
+    },
+    "nextSibling" : null
+  }
+}

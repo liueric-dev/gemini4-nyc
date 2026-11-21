@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 242 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "242",
+    "title" : "Cellar and basement stairs in non-fireproof tenements",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "242",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 242. Cellar and basement stairs in non-fireproof tenements. 1.\\nCellar stairs in non-fireproof tenements erected after April twelfth,\\nnineteen hundred one, which are occupied by three families or more on\\nany story or which are five stories or more in height, shall be governed\\nby the provisions of section one hundred fifty for non-fireproof\\nmultiple dwellings erected after April eighteenth, nineteen hundred\\ntwenty-nine. In all other non-fireproof tenements erected after April\\ntwelfth, nineteen hundred one, any stair leading to a cellar may be\\nlocated inside the building, provided it is enclosed with fireproof\\nwalls and is provided with fireproof doors and assemblies at both the\\ntop and bottom, with the doors self-closing.\\n  2. In old-law tenements exceeding a basement and three other stories\\nin height and provided with an inside cellar stair communicating between\\nthe entrance story and a cellar or lower story, the opening to such\\nstair if located underneath the main stair leading to the upper stories\\nshall be enclosed from the level of the entrance story up to the\\nunderside of the first flight of such main stairs. The soffit of such\\nfirst flight of main stairs and the partitions forming such enclosure\\nshall be fire-retarded or covered with twenty-six gauge metal.  The\\nopening to such enclosure shall be provided with a fireproof door and\\nassembly with the door self-closing.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "241",
+      "title" : "Partitions; fire-stopping",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "241",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "243",
+      "title" : "Cellar and basement stairs in fireproof tenements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "243",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

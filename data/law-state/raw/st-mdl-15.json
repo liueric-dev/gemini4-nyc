@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 15 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "15",
+    "title" : "Multiple dwelling emergency information",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-11-26", "2024-02-02", "2024-02-16" ],
+    "docLevelId" : "15",
+    "activeDate" : "2024-02-16",
+    "text" : "  § 15. Multiple dwelling emergency information. 1. In the case of an\\nemergency affecting a multiple dwelling, the owner or agent of such\\nmultiple dwelling shall provide emergency service personnel, upon the\\nrequest of such emergency service personnel, including but not limited\\nto local police and fire departments, with the names and contact\\ninformation of all affected residents or occupants as listed in the\\nlease of such multiple dwelling as is required to ascertain the safety\\nof such residents or occupants. For the purposes of this section, an\\nemergency shall include but not be limited to fires, gas leaks, building\\ncollapses, natural disasters, acts of terrorism and other events where\\nthe physical safety of residents must be accounted for by ascertaining\\ntheir whereabouts.\\n  2. The owner or agent of such multiple dwelling shall update the list\\nof names and contact information of all affected residents or occupants\\nof such multiple dwelling upon the execution of a new lease, lease\\nrenewal or lease amendment, or where such owner is an authority as such\\nterm is defined in section three of the public housing law, including\\nall such authorities established after the first day of January,\\nnineteen hundred thirty-nine, upon annual recertification. Specific and\\ninformed written consent shall be obtained by the owner or agent of the\\nmultiple dwelling from each occupant or resident each time the list is\\nupdated and no occupant's or resident's name or contact information\\nshall be included in such list without their specific and informed\\nwritten consent.  Written notice shall be provided to the occupant or\\nresident about the contact list and shall include but not be limited to\\nthat such list is maintained by the owner and the potential impact of\\nopting-out.\\n  3. Such list of names and contact information shall only be maintained\\nfor the purpose of an emergency evacuation and shall not be\\ndisseminated, used or accessed by emergency services personnel or\\ndisseminated, used or accessed by the owner or agent of such multiple\\ndwelling for any other purposes.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A2",
+      "title" : "Miscellaneous Application Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-11-26" ],
+      "docLevelId" : "2",
+      "activeDate" : "2023-11-26"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "14",
+      "title" : "Application of chapter to uncompleted dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "14",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

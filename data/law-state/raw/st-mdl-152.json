@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 152 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "152",
+    "title" : "Fire-stopping",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "152",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 152. Fire-stopping. 1. In every wall where wooden furring is used\\nevery course of masonry from the under side to the top of any floor\\nbeams shall project a distance of at least two inches beyond each face\\nof the wall that is not on the outside of the dwelling; and whenever\\nfloor beams run parallel to a wall and wooden furring is used, every\\nsuch beam shall always be kept at least two inches away from the wall,\\nand the space between the beams and the wall shall be built up solidly\\nwith brickwork from the under side to the top of the floor beams.\\n  2. Whenever a wall is studded off, the space between an inside face of\\nthe wall and the studding at any floor level shall be fire-stopped.\\nEvery space between beams directly over a studded-off space shall be\\nfire-stopped by covering the bottom of the beams with metal lath and\\nplaster and placing a loose fill of incombustible material at least four\\ninches thick on the plaster between the beams, or hollow-burned clay\\ntile or gypsum plaster partition blocks, at least four inches thick in\\neither case and supported by cleats, shall be used to fill the spaces\\nbetween beams.\\n  3. Partitions which are not parallel with the wood floor beams and\\nwhich separate one apartment or suite from another or any part of an\\napartment or suite from a public hall or other part of the dwelling\\noutside the apartment or suite shall be filled in solidly with\\nincombustible material between the floor beams from the plate of the\\npartition below to the full depth of the floor beams.\\n  4. If a dwelling is within ten feet of another non-fireproof building\\nor of a side lot line, such dwelling shall have its eaves or cornices\\nbuilt up solidly with masonry.\\n  5. The wooden frames in any cornice on any row of buildings shall be\\nseparated between buildings by a complete fire-stop.\\n  6. Every space between stair carriages of any non-fireproof stair\\nshall be fire-stopped by a header beam at top and bottom. Where a stair\\nrun is not all in one room or open space, the stair carriages shall have\\nan intermediate firestop, so located as to cut off communication between\\nportions of the stair in different rooms or open spaces. The underside\\nand stringers of every unenclosed stair of combustible material shall be\\nfire-retarded.\\n  7. All partitions required to be fire-retarded shall be fire-stopped\\nwith incombustible material at floors, ceilings and roofs.\\nFire-stopping over partitions shall extend from the ceiling to the\\nunderside of any roofing above. Any space between the top of a partition\\nand the underside of roof boarding shall be completely fire-stopped.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "151",
+      "title" : "Spaces under stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "151",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

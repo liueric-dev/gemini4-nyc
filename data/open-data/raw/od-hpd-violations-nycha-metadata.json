@@ -1,0 +1,2646 @@
+{
+  "id" : "im9z-53hg",
+  "name" : "Housing Maintenance Code Violations NYCHA properties",
+  "assetType" : "dataset",
+  "attribution" : "Department of Housing Preservation and Development (HPD)",
+  "attributionLink" : "https://hpdonline.nyc.gov/hpdonline/",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1752683967,
+  "description" : "This dataset displays violations of the New York City Housing Maintenance Code or New York State Multiple Dwelling Law issued by Housing Inspectors pursuant to inspections of NYCHA buildings at the request of the NYC Housing Court.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 2401,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locale" : "en_US",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41642844,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1758724269,
+  "publicationGroup" : 19965699,
+  "publicationStage" : "published",
+  "rowIdentifierColumnId" : 618131558,
+  "rowsUpdatedAt" : 1795183972,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 20104704,
+  "totalTimesRated" : 0,
+  "viewCount" : 8983,
+  "viewLastModified" : 1795183955,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1757602293,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 7135498,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1757602275,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1757602293,
+      "failureCount" : 0,
+      "startedAt" : 1757602293,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 618131558,
+    "name" : "Violation ID",
+    "dataTypeName" : "number",
+    "description" : "Unique identifier of Violation",
+    "fieldName" : "viol_seq_no",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008860,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "19213385",
+      "null" : "0",
+      "top" : [ {
+        "item" : "18217475",
+        "count" : "1"
+      }, {
+        "item" : "18217476",
+        "count" : "1"
+      }, {
+        "item" : "18217477",
+        "count" : "1"
+      }, {
+        "item" : "18217478",
+        "count" : "1"
+      }, {
+        "item" : "18217479",
+        "count" : "1"
+      }, {
+        "item" : "18217480",
+        "count" : "1"
+      }, {
+        "item" : "18220066",
+        "count" : "1"
+      }, {
+        "item" : "18220067",
+        "count" : "1"
+      }, {
+        "item" : "18220068",
+        "count" : "1"
+      }, {
+        "item" : "18220149",
+        "count" : "1"
+      }, {
+        "item" : "18220150",
+        "count" : "1"
+      }, {
+        "item" : "18220151",
+        "count" : "1"
+      }, {
+        "item" : "18220152",
+        "count" : "1"
+      }, {
+        "item" : "18220153",
+        "count" : "1"
+      }, {
+        "item" : "18220154",
+        "count" : "1"
+      }, {
+        "item" : "18223815",
+        "count" : "1"
+      }, {
+        "item" : "18223816",
+        "count" : "1"
+      }, {
+        "item" : "18223817",
+        "count" : "1"
+      }, {
+        "item" : "18223818",
+        "count" : "1"
+      }, {
+        "item" : "18217474",
+        "count" : "1"
+      } ],
+      "smallest" : "18217474",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 618131559,
+    "name" : "Primary Building Identifier",
+    "dataTypeName" : "number",
+    "description" : "Unique identifier of a building assigned by HPD",
+    "fieldName" : "bldg_id",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008861,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "996714",
+      "null" : "0",
+      "top" : [ {
+        "item" : "807999",
+        "count" : "87"
+      }, {
+        "item" : "805285",
+        "count" : "74"
+      }, {
+        "item" : "810254",
+        "count" : "64"
+      }, {
+        "item" : "807881",
+        "count" : "62"
+      }, {
+        "item" : "804633",
+        "count" : "54"
+      }, {
+        "item" : "804997",
+        "count" : "49"
+      }, {
+        "item" : "215609",
+        "count" : "47"
+      }, {
+        "item" : "809271",
+        "count" : "46"
+      }, {
+        "item" : "804658",
+        "count" : "45"
+      }, {
+        "item" : "864101",
+        "count" : "44"
+      }, {
+        "item" : "379743",
+        "count" : "41"
+      }, {
+        "item" : "942630",
+        "count" : "41"
+      }, {
+        "item" : "811642",
+        "count" : "41"
+      }, {
+        "item" : "809336",
+        "count" : "40"
+      }, {
+        "item" : "805002",
+        "count" : "39"
+      }, {
+        "item" : "809705",
+        "count" : "39"
+      }, {
+        "item" : "807996",
+        "count" : "39"
+      }, {
+        "item" : "989840",
+        "count" : "38"
+      }, {
+        "item" : "806350",
+        "count" : "37"
+      }, {
+        "item" : "810267",
+        "count" : "36"
+      } ],
+      "smallest" : "126",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 618131560,
+    "name" : "Primary Boro Identifier",
+    "dataTypeName" : "number",
+    "description" : "Borough code of the primary address identified by HPD",
+    "fieldName" : "boro",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008862,
+    "width" : 148,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "2411"
+      }, {
+        "item" : "3",
+        "count" : "1701"
+      }, {
+        "item" : "4",
+        "count" : "599"
+      }, {
+        "item" : "2",
+        "count" : "473"
+      }, {
+        "item" : "5",
+        "count" : "86"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131561,
+    "name" : "Primary Borough Name",
+    "dataTypeName" : "text",
+    "description" : "The borough of the primary address where the building is located",
+    "fieldName" : "boro_nm",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008863,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "STATEN ISLAND",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MANHATTAN",
+        "count" : "2411"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "1701"
+      }, {
+        "item" : "QUEENS",
+        "count" : "599"
+      }, {
+        "item" : "BRONX",
+        "count" : "473"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "86"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131562,
+    "name" : "Primary House Number",
+    "dataTypeName" : "text",
+    "description" : "The street number in the building's primary address. E.g.: the house number is '100' in '100 Gold Street'",
+    "fieldName" : "phn",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008864,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "950",
+      "null" : "0",
+      "top" : [ {
+        "item" : "466",
+        "count" : "93"
+      }, {
+        "item" : "2370",
+        "count" : "90"
+      }, {
+        "item" : "80",
+        "count" : "81"
+      }, {
+        "item" : "50",
+        "count" : "80"
+      }, {
+        "item" : "430",
+        "count" : "73"
+      }, {
+        "item" : "27-25",
+        "count" : "64"
+      }, {
+        "item" : "35",
+        "count" : "59"
+      }, {
+        "item" : "1815",
+        "count" : "51"
+      }, {
+        "item" : "218",
+        "count" : "50"
+      }, {
+        "item" : "70",
+        "count" : "50"
+      }, {
+        "item" : "30",
+        "count" : "50"
+      }, {
+        "item" : "1536",
+        "count" : "49"
+      }, {
+        "item" : "495",
+        "count" : "47"
+      }, {
+        "item" : "135",
+        "count" : "46"
+      }, {
+        "item" : "2385",
+        "count" : "44"
+      }, {
+        "item" : "2201",
+        "count" : "43"
+      }, {
+        "item" : "60",
+        "count" : "42"
+      }, {
+        "item" : "442",
+        "count" : "42"
+      }, {
+        "item" : "180",
+        "count" : "42"
+      }, {
+        "item" : "67-43",
+        "count" : "41"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131563,
+    "name" : "Primary Low House Number",
+    "dataTypeName" : "text",
+    "description" : "If there is a range for a building, the lowest house number in the building’s primary address.",
+    "fieldName" : "low_hus_no",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008865,
+    "width" : 220,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "950",
+      "null" : "0",
+      "top" : [ {
+        "item" : "70",
+        "count" : "123"
+      }, {
+        "item" : "50",
+        "count" : "100"
+      }, {
+        "item" : "2370",
+        "count" : "90"
+      }, {
+        "item" : "466",
+        "count" : "87"
+      }, {
+        "item" : "27-25",
+        "count" : "64"
+      }, {
+        "item" : "35",
+        "count" : "59"
+      }, {
+        "item" : "430",
+        "count" : "54"
+      }, {
+        "item" : "435",
+        "count" : "52"
+      }, {
+        "item" : "1815",
+        "count" : "51"
+      }, {
+        "item" : "30",
+        "count" : "50"
+      }, {
+        "item" : "218",
+        "count" : "50"
+      }, {
+        "item" : "200",
+        "count" : "49"
+      }, {
+        "item" : "2201",
+        "count" : "49"
+      }, {
+        "item" : "1536",
+        "count" : "49"
+      }, {
+        "item" : "493",
+        "count" : "47"
+      }, {
+        "item" : "135",
+        "count" : "46"
+      }, {
+        "item" : "2385",
+        "count" : "44"
+      }, {
+        "item" : "442",
+        "count" : "42"
+      }, {
+        "item" : "180",
+        "count" : "42"
+      }, {
+        "item" : "405",
+        "count" : "41"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131564,
+    "name" : "Primary High House Number",
+    "dataTypeName" : "text",
+    "description" : "If there is a range for a building, the highest house number in the building’s primary address.",
+    "fieldName" : "high_hus_no",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008866,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "955",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2370",
+        "count" : "90"
+      }, {
+        "item" : "472",
+        "count" : "87"
+      }, {
+        "item" : "27-25",
+        "count" : "64"
+      }, {
+        "item" : "80",
+        "count" : "62"
+      }, {
+        "item" : "300",
+        "count" : "57"
+      }, {
+        "item" : "220",
+        "count" : "54"
+      }, {
+        "item" : "434",
+        "count" : "54"
+      }, {
+        "item" : "1839",
+        "count" : "51"
+      }, {
+        "item" : "1538",
+        "count" : "49"
+      }, {
+        "item" : "495",
+        "count" : "47"
+      }, {
+        "item" : "135",
+        "count" : "46"
+      }, {
+        "item" : "2385",
+        "count" : "44"
+      }, {
+        "item" : "437",
+        "count" : "41"
+      }, {
+        "item" : "67-47",
+        "count" : "41"
+      }, {
+        "item" : "2229",
+        "count" : "41"
+      }, {
+        "item" : "130",
+        "count" : "40"
+      }, {
+        "item" : "50",
+        "count" : "40"
+      }, {
+        "item" : "192",
+        "count" : "40"
+      }, {
+        "item" : "70",
+        "count" : "40"
+      }, {
+        "item" : "164",
+        "count" : "39"
+      } ],
+      "smallest" : "10",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131565,
+    "name" : "Primary Street Name",
+    "dataTypeName" : "text",
+    "description" : "The name of the street in the building's address. E.g.: the street name is 'Gold Street' in '100 Gold Street' ",
+    "fieldName" : "str_nm",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008867,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "YORK STREET",
+      "null" : "0",
+      "top" : [ {
+        "item" : "COLUMBIA STREET",
+        "count" : "244"
+      }, {
+        "item" : "EAST 105 STREET",
+        "count" : "160"
+      }, {
+        "item" : "EAST 115 STREET",
+        "count" : "145"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "129"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "118"
+      }, {
+        "item" : "AVENUE D",
+        "count" : "109"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "106"
+      }, {
+        "item" : "SANDS STREET",
+        "count" : "89"
+      }, {
+        "item" : "COLUMBUS AVENUE",
+        "count" : "88"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "87"
+      }, {
+        "item" : "HICKS STREET",
+        "count" : "80"
+      }, {
+        "item" : "BUSH STREET",
+        "count" : "78"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "75"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "73"
+      }, {
+        "item" : "12 STREET",
+        "count" : "71"
+      }, {
+        "item" : "SURF AVENUE",
+        "count" : "70"
+      }, {
+        "item" : "LORRAINE STREET",
+        "count" : "70"
+      }, {
+        "item" : "EAST 120 STREET",
+        "count" : "68"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "64"
+      }, {
+        "item" : "FREDERICK DOUGLASS BOULEVARD",
+        "count" : "64"
+      } ],
+      "smallest" : "10 AVENUE",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131566,
+    "name" : "Primary Postcode",
+    "dataTypeName" : "text",
+    "description" : "The postcode where the building is located",
+    "fieldName" : "zip",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008868,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "11693",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10029",
+        "count" : "705"
+      }, {
+        "item" : "11231",
+        "count" : "637"
+      }, {
+        "item" : "10002",
+        "count" : "328"
+      }, {
+        "item" : "10009",
+        "count" : "299"
+      }, {
+        "item" : "10035",
+        "count" : "291"
+      }, {
+        "item" : "11206",
+        "count" : "183"
+      }, {
+        "item" : "10025",
+        "count" : "144"
+      }, {
+        "item" : "11212",
+        "count" : "133"
+      }, {
+        "item" : "11224",
+        "count" : "132"
+      }, {
+        "item" : "10473",
+        "count" : "118"
+      }, {
+        "item" : "11101",
+        "count" : "115"
+      }, {
+        "item" : "11102",
+        "count" : "114"
+      }, {
+        "item" : "10027",
+        "count" : "113"
+      }, {
+        "item" : "11201",
+        "count" : "107"
+      }, {
+        "item" : "10037",
+        "count" : "95"
+      }, {
+        "item" : "10472",
+        "count" : "90"
+      }, {
+        "item" : "10456",
+        "count" : "86"
+      }, {
+        "item" : "11213",
+        "count" : "78"
+      }, {
+        "item" : "11367",
+        "count" : "76"
+      }, {
+        "item" : "11354",
+        "count" : "73"
+      } ],
+      "smallest" : "10001",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131567,
+    "name" : "Development Name",
+    "dataTypeName" : "text",
+    "description" : "The NYCHA development name. ",
+    "fieldName" : "development_name",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008869,
+    "width" : 292,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "WYCKOFF GARDENS",
+      "null" : "0",
+      "top" : [ {
+        "item" : "RED HOOK WEST",
+        "count" : "417"
+      }, {
+        "item" : "WAGNER",
+        "count" : "291"
+      }, {
+        "item" : "RED HOOK EAST",
+        "count" : "220"
+      }, {
+        "item" : "JEFFERSON",
+        "count" : "158"
+      }, {
+        "item" : "BARUCH",
+        "count" : "143"
+      }, {
+        "item" : "EAST RIVER",
+        "count" : "130"
+      }, {
+        "item" : "WALD",
+        "count" : "128"
+      }, {
+        "item" : "ASTORIA",
+        "count" : "114"
+      }, {
+        "item" : "FARRAGUT",
+        "count" : "107"
+      }, {
+        "item" : "LINCOLN",
+        "count" : "95"
+      }, {
+        "item" : "JOHNSON",
+        "count" : "95"
+      }, {
+        "item" : "GRANT",
+        "count" : "92"
+      }, {
+        "item" : "POMONOK",
+        "count" : "89"
+      }, {
+        "item" : "CASTLE HILL",
+        "count" : "86"
+      }, {
+        "item" : "WASHINGTON",
+        "count" : "85"
+      }, {
+        "item" : "DOUGLASS I",
+        "count" : "83"
+      }, {
+        "item" : "QUEENSBRIDGE SOUTH",
+        "count" : "81"
+      }, {
+        "item" : "LEXINGTON",
+        "count" : "74"
+      }, {
+        "item" : "MARCY",
+        "count" : "73"
+      }, {
+        "item" : "ALBANY",
+        "count" : "73"
+      } ],
+      "smallest" : "303 VERNON AVENUE",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131568,
+    "name" : "TDS Number",
+    "dataTypeName" : "number",
+    "description" : "The Tenant Data System number is a unique identifier generated by NYCHA for each development.",
+    "fieldName" : "tds_no",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008870,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "582",
+      "null" : "0",
+      "top" : [ {
+        "item" : "79",
+        "count" : "417"
+      }, {
+        "item" : "74",
+        "count" : "291"
+      }, {
+        "item" : "4",
+        "count" : "220"
+      }, {
+        "item" : "64",
+        "count" : "158"
+      }, {
+        "item" : "60",
+        "count" : "143"
+      }, {
+        "item" : "9",
+        "count" : "130"
+      }, {
+        "item" : "23",
+        "count" : "128"
+      }, {
+        "item" : "26",
+        "count" : "114"
+      }, {
+        "item" : "29",
+        "count" : "107"
+      }, {
+        "item" : "20",
+        "count" : "95"
+      }, {
+        "item" : "17",
+        "count" : "95"
+      }, {
+        "item" : "87",
+        "count" : "92"
+      }, {
+        "item" : "53",
+        "count" : "89"
+      }, {
+        "item" : "80",
+        "count" : "86"
+      }, {
+        "item" : "62",
+        "count" : "85"
+      }, {
+        "item" : "82",
+        "count" : "83"
+      }, {
+        "item" : "5",
+        "count" : "81"
+      }, {
+        "item" : "50",
+        "count" : "74"
+      }, {
+        "item" : "31",
+        "count" : "73"
+      }, {
+        "item" : "21",
+        "count" : "73"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131569,
+    "name" : "Stairhall Number",
+    "dataTypeName" : "text",
+    "description" : "The NYCHA Stairhall number.",
+    "fieldName" : "stairhall_no",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008871,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "92",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2",
+        "count" : "427"
+      }, {
+        "item" : "4",
+        "count" : "320"
+      }, {
+        "item" : "1",
+        "count" : "309"
+      }, {
+        "item" : "3",
+        "count" : "303"
+      }, {
+        "item" : "5",
+        "count" : "282"
+      }, {
+        "item" : "6",
+        "count" : "268"
+      }, {
+        "item" : "9",
+        "count" : "223"
+      }, {
+        "item" : "11",
+        "count" : "196"
+      }, {
+        "item" : "7",
+        "count" : "195"
+      }, {
+        "item" : "16",
+        "count" : "177"
+      }, {
+        "item" : "8",
+        "count" : "172"
+      }, {
+        "item" : "13",
+        "count" : "114"
+      }, {
+        "item" : "17",
+        "count" : "114"
+      }, {
+        "item" : "15",
+        "count" : "108"
+      }, {
+        "item" : "12",
+        "count" : "102"
+      }, {
+        "item" : "27",
+        "count" : "89"
+      }, {
+        "item" : "25",
+        "count" : "88"
+      }, {
+        "item" : "28",
+        "count" : "87"
+      }, {
+        "item" : "19",
+        "count" : "83"
+      }, {
+        "item" : "14",
+        "count" : "81"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131570,
+    "name" : "NYCHA Address Section BoroID",
+    "dataTypeName" : "number",
+    "description" : "Borough code of the section address identified by NYCHA",
+    "fieldName" : "sctn_boro",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008872,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "5",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "2411"
+      }, {
+        "item" : "3",
+        "count" : "1701"
+      }, {
+        "item" : "4",
+        "count" : "599"
+      }, {
+        "item" : "2",
+        "count" : "473"
+      }, {
+        "item" : "5",
+        "count" : "86"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131571,
+    "name" : "NYCHA Address Section Borough",
+    "dataTypeName" : "text",
+    "description" : "The borough of the section address where the building is located",
+    "fieldName" : "sctn_boro_nm",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008873,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "STATEN ISLAND",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MANHATTAN",
+        "count" : "2411"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "1701"
+      }, {
+        "item" : "QUEENS",
+        "count" : "599"
+      }, {
+        "item" : "BRONX",
+        "count" : "473"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "86"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131572,
+    "name" : "NYCHA Address Section House Number",
+    "dataTypeName" : "text",
+    "description" : "The street number in the building's section address identified by NYCHA. E.g.: the house number is '100' in '100 Gold Street'",
+    "fieldName" : "sctn_hus_no",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008874,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "953",
+      "null" : "0",
+      "top" : [ {
+        "item" : "70",
+        "count" : "106"
+      }, {
+        "item" : "2370",
+        "count" : "90"
+      }, {
+        "item" : "50",
+        "count" : "80"
+      }, {
+        "item" : "466",
+        "count" : "68"
+      }, {
+        "item" : "27-25",
+        "count" : "64"
+      }, {
+        "item" : "505",
+        "count" : "62"
+      }, {
+        "item" : "430",
+        "count" : "52"
+      }, {
+        "item" : "1536",
+        "count" : "49"
+      }, {
+        "item" : "30",
+        "count" : "46"
+      }, {
+        "item" : "2385",
+        "count" : "44"
+      }, {
+        "item" : "180",
+        "count" : "42"
+      }, {
+        "item" : "2945",
+        "count" : "41"
+      }, {
+        "item" : "67-47",
+        "count" : "41"
+      }, {
+        "item" : "405",
+        "count" : "41"
+      }, {
+        "item" : "130",
+        "count" : "40"
+      }, {
+        "item" : "192",
+        "count" : "40"
+      }, {
+        "item" : "303",
+        "count" : "39"
+      }, {
+        "item" : "162",
+        "count" : "39"
+      }, {
+        "item" : "1815",
+        "count" : "37"
+      }, {
+        "item" : "41-06",
+        "count" : "36"
+      } ],
+      "smallest" : "10",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131573,
+    "name" : "NYCHA Address Section Street Name",
+    "dataTypeName" : "text",
+    "description" : "The name of the street in the building's section address identified by NYCHA. E.g.: the street name is 'Gold Street' in '100 Gold Street' ",
+    "fieldName" : "sctn_str_nm",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008875,
+    "width" : 232,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "YORK STREET",
+      "null" : "0",
+      "top" : [ {
+        "item" : "COLUMBIA STREET",
+        "count" : "288"
+      }, {
+        "item" : "2ND AVENUE",
+        "count" : "134"
+      }, {
+        "item" : "EAST 105 STREET",
+        "count" : "124"
+      }, {
+        "item" : "FDR DRIVE",
+        "count" : "121"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "118"
+      }, {
+        "item" : "AVENUE D",
+        "count" : "109"
+      }, {
+        "item" : "EAST 115 STREET",
+        "count" : "108"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "90"
+      }, {
+        "item" : "SANDS STREET",
+        "count" : "89"
+      }, {
+        "item" : "COLUMBUS AVENUE",
+        "count" : "86"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "81"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "76"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "76"
+      }, {
+        "item" : "HICKS STREET",
+        "count" : "73"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "72"
+      }, {
+        "item" : "12TH STREET",
+        "count" : "71"
+      }, {
+        "item" : "LORRAINE STREET",
+        "count" : "70"
+      }, {
+        "item" : "EAST 120 STREET",
+        "count" : "68"
+      }, {
+        "item" : "1ST STREET",
+        "count" : "64"
+      }, {
+        "item" : "FREDERICK DOUGLASS BOULEVARD",
+        "count" : "64"
+      } ],
+      "smallest" : "10 AVENUE",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131574,
+    "name" : "NYCHA Address Section PostCode",
+    "dataTypeName" : "text",
+    "description" : "The postcode of the section address where the building is located",
+    "fieldName" : "sctn_zip",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008876,
+    "width" : 196,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "11693",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10029",
+        "count" : "706"
+      }, {
+        "item" : "11231",
+        "count" : "649"
+      }, {
+        "item" : "10002",
+        "count" : "328"
+      }, {
+        "item" : "10009",
+        "count" : "299"
+      }, {
+        "item" : "10035",
+        "count" : "291"
+      }, {
+        "item" : "11206",
+        "count" : "183"
+      }, {
+        "item" : "10025",
+        "count" : "144"
+      }, {
+        "item" : "11212",
+        "count" : "133"
+      }, {
+        "item" : "11224",
+        "count" : "132"
+      }, {
+        "item" : "10473",
+        "count" : "118"
+      }, {
+        "item" : "11101",
+        "count" : "115"
+      }, {
+        "item" : "11102",
+        "count" : "114"
+      }, {
+        "item" : "10027",
+        "count" : "113"
+      }, {
+        "item" : "11201",
+        "count" : "107"
+      }, {
+        "item" : "10037",
+        "count" : "95"
+      }, {
+        "item" : "10472",
+        "count" : "90"
+      }, {
+        "item" : "10456",
+        "count" : "86"
+      }, {
+        "item" : "11213",
+        "count" : "78"
+      }, {
+        "item" : "11367",
+        "count" : "76"
+      }, {
+        "item" : "11354",
+        "count" : "73"
+      } ],
+      "smallest" : "10001",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131575,
+    "name" : "Apartment",
+    "dataTypeName" : "text",
+    "description" : "Apartment in violation, if applicable",
+    "fieldName" : "actl_unit_insp",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008877,
+    "width" : 268,
+    "cachedContents" : {
+      "non_null" : "5146",
+      "largest" : "PVT",
+      "null" : "78",
+      "top" : [ {
+        "item" : "1B",
+        "count" : "190"
+      }, {
+        "item" : "2A",
+        "count" : "174"
+      }, {
+        "item" : "4A",
+        "count" : "163"
+      }, {
+        "item" : "1A",
+        "count" : "143"
+      }, {
+        "item" : "3C",
+        "count" : "131"
+      }, {
+        "item" : "4D",
+        "count" : "116"
+      }, {
+        "item" : "5D",
+        "count" : "115"
+      }, {
+        "item" : "11E",
+        "count" : "109"
+      }, {
+        "item" : "3A",
+        "count" : "108"
+      }, {
+        "item" : "6C",
+        "count" : "107"
+      }, {
+        "item" : "3B",
+        "count" : "106"
+      }, {
+        "item" : "2E",
+        "count" : "101"
+      }, {
+        "item" : "2C",
+        "count" : "97"
+      }, {
+        "item" : "2B",
+        "count" : "94"
+      }, {
+        "item" : "1D",
+        "count" : "92"
+      }, {
+        "item" : "1C",
+        "count" : "82"
+      }, {
+        "item" : "4C",
+        "count" : "78"
+      }, {
+        "item" : "6D",
+        "count" : "76"
+      }, {
+        "item" : "5B",
+        "count" : "75"
+      }, {
+        "item" : "5E",
+        "count" : "75"
+      } ],
+      "smallest" : "1026C",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131576,
+    "name" : "Story",
+    "dataTypeName" : "text",
+    "description" : "Floor of violation",
+    "fieldName" : "actl_stry",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008878,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "-999",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "789"
+      }, {
+        "item" : "2",
+        "count" : "722"
+      }, {
+        "item" : "4",
+        "count" : "641"
+      }, {
+        "item" : "3",
+        "count" : "544"
+      }, {
+        "item" : "5",
+        "count" : "463"
+      }, {
+        "item" : "7",
+        "count" : "441"
+      }, {
+        "item" : "6",
+        "count" : "342"
+      }, {
+        "item" : "8",
+        "count" : "190"
+      }, {
+        "item" : "11",
+        "count" : "156"
+      }, {
+        "item" : "10",
+        "count" : "146"
+      }, {
+        "item" : "12",
+        "count" : "143"
+      }, {
+        "item" : "9",
+        "count" : "135"
+      }, {
+        "item" : "13",
+        "count" : "135"
+      }, {
+        "item" : "14",
+        "count" : "129"
+      }, {
+        "item" : "15",
+        "count" : "59"
+      }, {
+        "item" : "17",
+        "count" : "57"
+      }, {
+        "item" : "-1",
+        "count" : "37"
+      }, {
+        "item" : "16",
+        "count" : "32"
+      }, {
+        "item" : "18",
+        "count" : "29"
+      }, {
+        "item" : "20",
+        "count" : "23"
+      } ],
+      "smallest" : "0",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131577,
+    "name" : "Block",
+    "dataTypeName" : "text",
+    "description" : "Tax block for building",
+    "fieldName" : "blk",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008879,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "8174",
+      "null" : "0",
+      "top" : [ {
+        "item" : "00538",
+        "count" : "367"
+      }, {
+        "item" : "00533",
+        "count" : "223"
+      }, {
+        "item" : "01797",
+        "count" : "167"
+      }, {
+        "item" : "00323",
+        "count" : "151"
+      }, {
+        "item" : "01696",
+        "count" : "130"
+      }, {
+        "item" : "00356",
+        "count" : "128"
+      }, {
+        "item" : "01808",
+        "count" : "124"
+      }, {
+        "item" : "00490",
+        "count" : "114"
+      }, {
+        "item" : "01757",
+        "count" : "95"
+      }, {
+        "item" : "01640",
+        "count" : "95"
+      }, {
+        "item" : "01662",
+        "count" : "94"
+      }, {
+        "item" : "06792",
+        "count" : "89"
+      }, {
+        "item" : "00362",
+        "count" : "85"
+      }, {
+        "item" : "00465",
+        "count" : "81"
+      }, {
+        "item" : "01352",
+        "count" : "78"
+      }, {
+        "item" : "01626",
+        "count" : "74"
+      }, {
+        "item" : "01688",
+        "count" : "72"
+      }, {
+        "item" : "00111",
+        "count" : "67"
+      }, {
+        "item" : "01684",
+        "count" : "64"
+      }, {
+        "item" : "01836",
+        "count" : "59"
+      } ],
+      "smallest" : "00051",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131578,
+    "name" : "Lot",
+    "dataTypeName" : "text",
+    "description" : "Tax lot for building",
+    "fieldName" : "lot",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008880,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "9078",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0001",
+        "count" : "3752"
+      }, {
+        "item" : "0101",
+        "count" : "138"
+      }, {
+        "item" : "0002",
+        "count" : "122"
+      }, {
+        "item" : "0020",
+        "count" : "110"
+      }, {
+        "item" : "0021",
+        "count" : "102"
+      }, {
+        "item" : "0100",
+        "count" : "86"
+      }, {
+        "item" : "0080",
+        "count" : "79"
+      }, {
+        "item" : "0030",
+        "count" : "79"
+      }, {
+        "item" : "0008",
+        "count" : "73"
+      }, {
+        "item" : "0010",
+        "count" : "70"
+      }, {
+        "item" : "0023",
+        "count" : "59"
+      }, {
+        "item" : "0024",
+        "count" : "45"
+      }, {
+        "item" : "0012",
+        "count" : "41"
+      }, {
+        "item" : "0003",
+        "count" : "39"
+      }, {
+        "item" : "0014",
+        "count" : "39"
+      }, {
+        "item" : "0022",
+        "count" : "34"
+      }, {
+        "item" : "1001",
+        "count" : "33"
+      }, {
+        "item" : "0016",
+        "count" : "30"
+      }, {
+        "item" : "0075",
+        "count" : "25"
+      }, {
+        "item" : "0042",
+        "count" : "23"
+      } ],
+      "smallest" : "0001",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131579,
+    "name" : "Violation Description",
+    "dataTypeName" : "text",
+    "description" : "Description of the violation",
+    "fieldName" : "viol_desc",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008881,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "HMC ADM CODE: § 27-2017.4 ABATE THE INFESTATION CONSISTING OF ROACHES IN THE  KITCHEN  LOCATED AT APT 12F, 12th STORY, 1st APARTMENT FROM WEST AT NORTH",
+      "null" : "0",
+      "top" : [ {
+        "item" : "§ 27-2005, 27-2007, 27-2041.1 HMC, §238, § 309; § 107 (2) ( C) MDL AND 28 RCNY §25-171: REPLACE OR REPAIR THE SELF-CLOSING DOORS THAT IS MISSING OR DEFECTIVE  LATCH, AT BUILDING FRONT ENTRANCE",
+        "count" : "5"
+      }, {
+        "item" : "§ 27-2005, 27-2007, 27-2041.1 HMC, §238, § 309; § 107 (2) ( C) MDL AND 28 RCNY §25-171: REPLACE OR REPAIR THE SELF-CLOSING DOORS THAT IS MISSING OR DEFECTIVE  LATCH, BUILDING FRONT ENTRANCE",
+        "count" : "3"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR CEILING   IN THE  BATHROOM  LOCATED AT APT 2A, 2nd STORY, 1st APARTMENT FROM SOUTH AT WEST",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROPERLY REPAIR WITH SIMILAR MATERIAL THE BROKEN OR DEFECTIVE VINYL FLOOR TILES   IN THE  KITCHEN  LOCATED AT APT 5D, 5th STORY, 1st APARTMENT FROM SOUTH AT WEST",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR AT CEILING   IN THE  BATHROOM  LOCATED AT APT 2A, 2nd STORY, 1st APARTMENT FROM WEST AT NORTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR AT THE CEILING AND ALL WALLS  IN THE  BATHROOM  LOCATED AT APT 7D, 7th STORY, 2nd APARTMENT FROM NORTH AT EAST",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROPERLY REPAIR WITH SIMILAR MATERIAL THE BROKEN OR DEFECTIVE CERAMIC FLOOR TILES   IN THE  BATHROOM  LOCATED AT APT 6A, 6th STORY, 1st APARTMENT FROM EAST AT SOUTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005, 27-2007, 27-2041.1 HMC, §238, § 309; § 107 (2) ( C) MDL AND 28 RCNY §25-171: REPLACE OR REPAIR THE SELF-CLOSING DOORS THAT IS MISSING OR DEFECTIVE  HINGES, AT BUILDING FRONT ENTRANCE",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROPERLY REPAIR WITH SIMILAR MATERIAL THE BROKEN OR DEFECTIVE VINYL FLOOR TILES   IN THE  KITCHEN  LOCATED AT APT 1A, 1st STORY, 1st APARTMENT FROM WEST AT NORTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROPERLY REPAIR WITH SIMILAR MATERIAL THE BROKEN OR DEFECTIVE VINYL FLOOR TILES   IN THE  KITCHEN  LOCATED AT APT 3D, 3rd STORY, 1st APARTMENT FROM SOUTH AT WEST",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR ALL WALLS AND CEILING   IN THE  BATHROOM  LOCATED AT APT 4C, 4th STORY, 1st APARTMENT FROM WEST AT NORTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR AT CEILING   IN THE  BATHROOM  LOCATED AT APT 1A, 1st STORY, 1st APARTMENT FROM EAST AT SOUTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR AT NORTH WALL   IN THE  PRIVATE HALLWAY  LOCATED AT APT 12B, 12th STORY, 4th APARTMENT FROM WEST AT NORTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR AT SOUTH WALL  IN THE  KITCHEN  LOCATED AT APT 3B, 3rd STORY, 1st APARTMENT FROM NORTH AT EAST",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROPERLY REPAIR WITH SIMILAR MATERIAL THE BROKEN OR DEFECTIVE CERAMIC TILE BASEBOARD BEHIND WATERCLOSET AT NORTH WALL  IN THE  BATHROOM  LOCATED AT APT 12E, 12th STORY, 3rd APARTMENT FROM EAST AT SOUTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROVIDE 2 ESCUTCHEON PLATE AT TOP AND BOTTOM OF RISER  IN THE  KITCHEN  LOCATED AT APT 5D, 5th STORY, 2nd APARTMENT FROM SOUTH AT WEST , SECTION \"SOUTH\"",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005, 27-2007, 27-2041.1 HMC, §238, § 309; § 107 (2) ( C) MDL AND 28 RCNY §25-171: REPLACE OR REPAIR THE SELF-CLOSING DOORS THAT IS MISSING OR DEFECTIVE  LATCH SET AT BUILDING ENTRANCE DOOR   AT PUBLIC HALL, 1st STORY",
+        "count" : "2"
+      }, {
+        "item" : "§  27-2005 ADM CODE  PAINT METAL IN ACCORDANCE WITH DEPT. REGULATION METAL RISERS  IN THE  KITCHEN  LOCATED AT APT 7D, 7th STORY, 2nd APARTMENT FROM NORTH AT EAST",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  PROPERLY REPAIR WITH SIMILAR MATERIAL THE BROKEN OR DEFECTIVE VINYL FLOOR TILES  IN THE  FOYER  LOCATED AT APT 4A, 4th STORY, 2nd APARTMENT FROM WEST AT NORTH",
+        "count" : "2"
+      }, {
+        "item" : "§ 27-2005 ADM CODE  REPAIR THE BROKEN OR DEFECTIVE PLASTERED SURFACES AND PAINT IN A UNIFORM COLOR THE CEILING   IN THE  2nd BATHROOM  FROM EAST LOCATED AT APT 5D, 5th STORY, 1st APARTMENT FROM WEST AT NORTH , SECTION \"SECTION117\"",
+        "count" : "2"
+      } ],
+      "smallest" : "§ 26-1103 ADMIN. CODE: POST AND MAINTAIN A PROPER NOTICE ON WALL OF THE ENTRANCE STORY IN ENGLISH AND SPANISH ON THE AVAILABILITY OF THE AGENCY’S HOUSING INFORMATION GUIDE. A SAMPLE NOTICE CAN BE FOUND AT WWW.NYC.GOV/HPD. AT PUBLIC HALL",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131580,
+    "name" : "Class",
+    "dataTypeName" : "text",
+    "description" : "The class of a violation describes it’s degree of hazard.  In the Housing Maintenance Code, there are three classes of violation: class A (non-hazardous), class B (hazardous) and class C (immediately hazardous). The period in which a landlord is required to correct the condition depends on the class of violation and, for class C violations, the type of violation.   A class A violation has a correction period of 90 days.  A class B violation has a correction period of 30 days.  Class C immediately hazardous violations have the following correction periods based on the type of violation: Lead-Based Paint, Window Guards, Mold, Mice/ Cockroaches, and Rats all have 21 Day correction periods;   Self-Closing Doors have a correction period of 14 Days;  Heat and hot water Violations must be corrected immediately; all other class C violations have a correction period of 24 hours.  The timeperiod for correction begins from the date that service of the violation is considered to have been completed.",
+    "fieldName" : "hzrd_clas",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008882,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "C",
+      "null" : "0",
+      "top" : [ {
+        "item" : "B",
+        "count" : "3293"
+      }, {
+        "item" : "A",
+        "count" : "1120"
+      }, {
+        "item" : "C",
+        "count" : "857"
+      } ],
+      "smallest" : "A",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131593,
+    "name" : "Inspection Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date when the violating condition was physically observed by a uniformed HPD Housing Inspector. ",
+    "fieldName" : "insp_dt",
+    "position" : 24,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 162039186,
+    "width" : 184,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "2026-09-09T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2025-09-22T00:00:00.000",
+        "count" : "84"
+      }, {
+        "item" : "2026-05-13T00:00:00.000",
+        "count" : "75"
+      }, {
+        "item" : "2026-04-28T00:00:00.000",
+        "count" : "73"
+      }, {
+        "item" : "2026-04-29T00:00:00.000",
+        "count" : "68"
+      }, {
+        "item" : "2025-11-05T00:00:00.000",
+        "count" : "68"
+      }, {
+        "item" : "2026-08-17T00:00:00.000",
+        "count" : "57"
+      }, {
+        "item" : "2025-10-15T00:00:00.000",
+        "count" : "57"
+      }, {
+        "item" : "2025-10-03T00:00:00.000",
+        "count" : "57"
+      }, {
+        "item" : "2026-02-04T00:00:00.000",
+        "count" : "55"
+      }, {
+        "item" : "2026-05-08T00:00:00.000",
+        "count" : "54"
+      }, {
+        "item" : "2026-01-28T00:00:00.000",
+        "count" : "53"
+      }, {
+        "item" : "2026-07-17T00:00:00.000",
+        "count" : "53"
+      }, {
+        "item" : "2026-09-09T00:00:00.000",
+        "count" : "52"
+      }, {
+        "item" : "2026-05-18T00:00:00.000",
+        "count" : "52"
+      }, {
+        "item" : "2026-07-27T00:00:00.000",
+        "count" : "50"
+      }, {
+        "item" : "2026-06-02T00:00:00.000",
+        "count" : "49"
+      }, {
+        "item" : "2025-09-19T00:00:00.000",
+        "count" : "49"
+      }, {
+        "item" : "2026-05-14T00:00:00.000",
+        "count" : "49"
+      }, {
+        "item" : "2026-07-07T00:00:00.000",
+        "count" : "49"
+      }, {
+        "item" : "2025-09-18T00:00:00.000",
+        "count" : "48"
+      } ],
+      "smallest" : "2025-09-10T00:00:00.000",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 618131594,
+    "name" : "Approved Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "Date when the violation was approved to be issued according to HPD's procedures for reviewing/approving violations. ",
+    "fieldName" : "viol_appr_dt",
+    "position" : 25,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 162039187,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "2026-09-09T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2026-04-29T00:00:00.000",
+        "count" : "108"
+      }, {
+        "item" : "2025-09-22T00:00:00.000",
+        "count" : "80"
+      }, {
+        "item" : "2026-05-08T00:00:00.000",
+        "count" : "66"
+      }, {
+        "item" : "2025-09-24T00:00:00.000",
+        "count" : "61"
+      }, {
+        "item" : "2026-05-14T00:00:00.000",
+        "count" : "59"
+      }, {
+        "item" : "2026-09-02T00:00:00.000",
+        "count" : "56"
+      }, {
+        "item" : "2026-07-17T00:00:00.000",
+        "count" : "56"
+      }, {
+        "item" : "2025-09-19T00:00:00.000",
+        "count" : "56"
+      }, {
+        "item" : "2025-11-06T00:00:00.000",
+        "count" : "53"
+      }, {
+        "item" : "2026-04-21T00:00:00.000",
+        "count" : "52"
+      }, {
+        "item" : "2026-07-07T00:00:00.000",
+        "count" : "52"
+      }, {
+        "item" : "2025-10-30T00:00:00.000",
+        "count" : "51"
+      }, {
+        "item" : "2026-07-09T00:00:00.000",
+        "count" : "50"
+      }, {
+        "item" : "2026-06-01T00:00:00.000",
+        "count" : "47"
+      }, {
+        "item" : "2026-02-04T00:00:00.000",
+        "count" : "47"
+      }, {
+        "item" : "2026-09-10T00:00:00.000",
+        "count" : "46"
+      }, {
+        "item" : "2026-09-03T00:00:00.000",
+        "count" : "46"
+      }, {
+        "item" : "2025-10-08T00:00:00.000",
+        "count" : "44"
+      }, {
+        "item" : "2026-05-03T00:00:00.000",
+        "count" : "43"
+      }, {
+        "item" : "2025-09-30T00:00:00.000",
+        "count" : "41"
+      } ],
+      "smallest" : "2025-09-15T00:00:00.000",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 618131583,
+    "name" : "Order Number",
+    "dataTypeName" : "text",
+    "description" : "Reference to the abstract description of the violation condition which cites a specific section of the law which is in violation",
+    "fieldName" : "viol_typ_ordr_no",
+    "position" : 26,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008885,
+    "width" : 292,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "868",
+      "null" : "0",
+      "top" : [ {
+        "item" : "508",
+        "count" : "1535"
+      }, {
+        "item" : "502",
+        "count" : "629"
+      }, {
+        "item" : "501",
+        "count" : "555"
+      }, {
+        "item" : "583",
+        "count" : "496"
+      }, {
+        "item" : "556",
+        "count" : "354"
+      }, {
+        "item" : "550",
+        "count" : "228"
+      }, {
+        "item" : "568",
+        "count" : "197"
+      }, {
+        "item" : "506",
+        "count" : "148"
+      }, {
+        "item" : "554",
+        "count" : "139"
+      }, {
+        "item" : "530",
+        "count" : "93"
+      }, {
+        "item" : "702",
+        "count" : "81"
+      }, {
+        "item" : "1503",
+        "count" : "78"
+      }, {
+        "item" : "569",
+        "count" : "74"
+      }, {
+        "item" : "579",
+        "count" : "67"
+      }, {
+        "item" : "529",
+        "count" : "62"
+      }, {
+        "item" : "509",
+        "count" : "51"
+      }, {
+        "item" : "598",
+        "count" : "42"
+      }, {
+        "item" : "649",
+        "count" : "40"
+      }, {
+        "item" : "624",
+        "count" : "35"
+      }, {
+        "item" : "790",
+        "count" : "31"
+      } ],
+      "smallest" : "006",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131584,
+    "name" : "Issued in Error",
+    "dataTypeName" : "text",
+    "description" : "\"Y\" indicates that HPD issued the violation in error. These violation are not considered on record.  ",
+    "fieldName" : "issued_in_err",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008886,
+    "width" : 256,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "Y",
+      "null" : "0",
+      "top" : [ {
+        "item" : "N",
+        "count" : "5146"
+      }, {
+        "item" : "Y",
+        "count" : "124"
+      } ],
+      "smallest" : "N",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131585,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Latitude of the site's location",
+    "fieldName" : "latitude",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008887,
+    "width" : 196,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "40.875278",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.675796",
+        "count" : "87"
+      }, {
+        "item" : "40.800359",
+        "count" : "74"
+      }, {
+        "item" : "40.774993",
+        "count" : "64"
+      }, {
+        "item" : "40.674827",
+        "count" : "62"
+      }, {
+        "item" : "40.788458",
+        "count" : "54"
+      }, {
+        "item" : "40.787324",
+        "count" : "49"
+      }, {
+        "item" : "40.675587",
+        "count" : "47"
+      }, {
+        "item" : "40.677201",
+        "count" : "46"
+      }, {
+        "item" : "40.796972",
+        "count" : "45"
+      }, {
+        "item" : "40.799946",
+        "count" : "44"
+      }, {
+        "item" : "40.780625",
+        "count" : "41"
+      }, {
+        "item" : "40.57426",
+        "count" : "41"
+      }, {
+        "item" : "40.734338",
+        "count" : "41"
+      }, {
+        "item" : "40.699757",
+        "count" : "40"
+      }, {
+        "item" : "40.796762",
+        "count" : "39"
+      }, {
+        "item" : "40.673975",
+        "count" : "39"
+      }, {
+        "item" : "40.677638",
+        "count" : "39"
+      }, {
+        "item" : "40.797582",
+        "count" : "38"
+      }, {
+        "item" : "40.825724",
+        "count" : "37"
+      }, {
+        "item" : "40.754716",
+        "count" : "36"
+      } ],
+      "smallest" : "40.572751",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131586,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "Longitude of the site's location",
+    "fieldName" : "longitude",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008888,
+    "width" : 208,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "-73.750276",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-74.007163",
+        "count" : "87"
+      }, {
+        "item" : "-73.935217",
+        "count" : "74"
+      }, {
+        "item" : "-73.936448",
+        "count" : "64"
+      }, {
+        "item" : "-74.005988",
+        "count" : "62"
+      }, {
+        "item" : "-73.939411",
+        "count" : "54"
+      }, {
+        "item" : "-73.94988",
+        "count" : "49"
+      }, {
+        "item" : "-74.007239",
+        "count" : "47"
+      }, {
+        "item" : "-74.010351",
+        "count" : "46"
+      }, {
+        "item" : "-73.939869",
+        "count" : "45"
+      }, {
+        "item" : "-73.932541",
+        "count" : "44"
+      }, {
+        "item" : "-73.946405",
+        "count" : "41"
+      }, {
+        "item" : "-73.81476",
+        "count" : "41"
+      }, {
+        "item" : "-73.988841",
+        "count" : "41"
+      }, {
+        "item" : "-73.982603",
+        "count" : "40"
+      }, {
+        "item" : "-74.007138",
+        "count" : "39"
+      }, {
+        "item" : "-73.942968",
+        "count" : "39"
+      }, {
+        "item" : "-73.93623",
+        "count" : "39"
+      }, {
+        "item" : "-73.931095",
+        "count" : "38"
+      }, {
+        "item" : "-73.864015",
+        "count" : "37"
+      }, {
+        "item" : "-73.944097",
+        "count" : "36"
+      } ],
+      "smallest" : "-74.16482",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131587,
+    "name" : "Community Board",
+    "dataTypeName" : "number",
+    "description" : "Community Boards are volunteer-run neighborhood organizations that work on all kinds of issues pertinent to their communities, often working with elected city officials in doing so. Community Board members, ﻿who can be as young as 16﻿, are appointed by Borough Presidents and City Council representatives. They serve two-year terms. There are 59 Community Boards in NYC, each of which represents a unique geographical area, known as a Community District. Note: as a column header, “Community Board” (which refers to a group of Board members) is often used to mean “Community District” (the geographical area) instead.",
+    "fieldName" : "community_board",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008889,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "502",
+      "null" : "0",
+      "top" : [ {
+        "item" : "111",
+        "count" : "1092"
+      }, {
+        "item" : "103",
+        "count" : "694"
+      }, {
+        "item" : "306",
+        "count" : "672"
+      }, {
+        "item" : "303",
+        "count" : "304"
+      }, {
+        "item" : "401",
+        "count" : "285"
+      }, {
+        "item" : "107",
+        "count" : "237"
+      }, {
+        "item" : "209",
+        "count" : "208"
+      }, {
+        "item" : "313",
+        "count" : "182"
+      }, {
+        "item" : "110",
+        "count" : "176"
+      }, {
+        "item" : "302",
+        "count" : "158"
+      }, {
+        "item" : "316",
+        "count" : "134"
+      }, {
+        "item" : "109",
+        "count" : "92"
+      }, {
+        "item" : "408",
+        "count" : "89"
+      }, {
+        "item" : "412",
+        "count" : "84"
+      }, {
+        "item" : "308",
+        "count" : "82"
+      }, {
+        "item" : "201",
+        "count" : "77"
+      }, {
+        "item" : "407",
+        "count" : "73"
+      }, {
+        "item" : "414",
+        "count" : "68"
+      }, {
+        "item" : "315",
+        "count" : "65"
+      }, {
+        "item" : "318",
+        "count" : "65"
+      } ],
+      "smallest" : "103",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131588,
+    "name" : "Council District",
+    "dataTypeName" : "number",
+    "description" : "The City Council is the lawmaking body of NYC, on equal footing with the mayor in terms of governing power. Besides legislating, the Council has sole approval power over the city budget, and is the final decision-maker in land use matters. There are 51 City Council members in total, each representing a unique geographical area, called a Council District.",
+    "fieldName" : "council_district",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008890,
+    "width" : 292,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "50",
+      "null" : "0",
+      "top" : [ {
+        "item" : "8",
+        "count" : "1120"
+      }, {
+        "item" : "38",
+        "count" : "649"
+      }, {
+        "item" : "2",
+        "count" : "477"
+      }, {
+        "item" : "36",
+        "count" : "328"
+      }, {
+        "item" : "9",
+        "count" : "271"
+      }, {
+        "item" : "7",
+        "count" : "234"
+      }, {
+        "item" : "1",
+        "count" : "225"
+      }, {
+        "item" : "18",
+        "count" : "183"
+      }, {
+        "item" : "41",
+        "count" : "183"
+      }, {
+        "item" : "47",
+        "count" : "182"
+      }, {
+        "item" : "26",
+        "count" : "171"
+      }, {
+        "item" : "35",
+        "count" : "158"
+      }, {
+        "item" : "22",
+        "count" : "114"
+      }, {
+        "item" : "6",
+        "count" : "95"
+      }, {
+        "item" : "24",
+        "count" : "89"
+      }, {
+        "item" : "16",
+        "count" : "88"
+      }, {
+        "item" : "49",
+        "count" : "79"
+      }, {
+        "item" : "28",
+        "count" : "76"
+      }, {
+        "item" : "42",
+        "count" : "73"
+      }, {
+        "item" : "20",
+        "count" : "73"
+      } ],
+      "smallest" : "1",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  }, {
+    "id" : 618131589,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "description" : "The BIN (Building Identification Number) is a unique 7-digit number assigned to every known building by the Department of City Planning (DCP), the first digit of which is the borough code. BINs allow city agencies to process and match building-related data easily and in a consistent manner. ",
+    "fieldName" : "bin",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008891,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5192",
+      "largest" : "5113114",
+      "null" : "32",
+      "top" : [ {
+        "item" : "3326977",
+        "count" : "87"
+      }, {
+        "item" : "1081276",
+        "count" : "74"
+      }, {
+        "item" : "4430784",
+        "count" : "64"
+      }, {
+        "item" : "3332223",
+        "count" : "62"
+      }, {
+        "item" : "1083947",
+        "count" : "54"
+      }, {
+        "item" : "1078912",
+        "count" : "49"
+      }, {
+        "item" : "3332222",
+        "count" : "47"
+      }, {
+        "item" : "3323704",
+        "count" : "46"
+      }, {
+        "item" : "1080706",
+        "count" : "45"
+      }, {
+        "item" : "1081278",
+        "count" : "44"
+      }, {
+        "item" : "1085246",
+        "count" : "41"
+      }, {
+        "item" : "3189543",
+        "count" : "41"
+      }, {
+        "item" : "4455435",
+        "count" : "41"
+      }, {
+        "item" : "3325920",
+        "count" : "40"
+      }, {
+        "item" : "1087213",
+        "count" : "39"
+      }, {
+        "item" : "3324617",
+        "count" : "39"
+      }, {
+        "item" : "3326974",
+        "count" : "39"
+      }, {
+        "item" : "1081286",
+        "count" : "38"
+      }, {
+        "item" : "2092808",
+        "count" : "37"
+      }, {
+        "item" : "4433416",
+        "count" : "36"
+      } ],
+      "smallest" : "1003142",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 618131590,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "he BBL (Borough, Block, and Lot) is a combination of three numeric codes - a 1-digit borough number, a block number (up to 5 digits) and a lot number (up to 4 digits) - designated and modified by the Department of Finance (DOF). BBLs are used by various city agencies to identify real estate for taxes, zoning, construction, and other purposes.",
+    "fieldName" : "bbl",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008892,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5192",
+      "largest" : "5035320500",
+      "null" : "32",
+      "top" : [ {
+        "item" : "3005380001",
+        "count" : "367"
+      }, {
+        "item" : "3005330001",
+        "count" : "229"
+      }, {
+        "item" : "1017970001",
+        "count" : "167"
+      }, {
+        "item" : "1003230001",
+        "count" : "151"
+      }, {
+        "item" : "1016960001",
+        "count" : "130"
+      }, {
+        "item" : "1003560001",
+        "count" : "128"
+      }, {
+        "item" : "1018080001",
+        "count" : "124"
+      }, {
+        "item" : "4004900101",
+        "count" : "114"
+      }, {
+        "item" : "1016620001",
+        "count" : "94"
+      }, {
+        "item" : "4004650001",
+        "count" : "78"
+      }, {
+        "item" : "3013520080",
+        "count" : "73"
+      }, {
+        "item" : "4067920030",
+        "count" : "71"
+      }, {
+        "item" : "1001110100",
+        "count" : "67"
+      }, {
+        "item" : "1016840001",
+        "count" : "64"
+      }, {
+        "item" : "1018360001",
+        "count" : "59"
+      }, {
+        "item" : "1016260001",
+        "count" : "58"
+      }, {
+        "item" : "3017400001",
+        "count" : "57"
+      }, {
+        "item" : "1016400001",
+        "count" : "56"
+      }, {
+        "item" : "3000900001",
+        "count" : "55"
+      }, {
+        "item" : "3016880001",
+        "count" : "54"
+      } ],
+      "smallest" : "1001110100",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 618131591,
+    "name" : "Census Tract (2020)",
+    "dataTypeName" : "number",
+    "description" : "The Census Tract (Census 2020) is a small, relatively permanent statistical subdivisions of a county uniquely numbered in each county with a numeric code. Note: as part of the geocoding process, leading and trailing zeros are dropped.",
+    "fieldName" : "census_tract",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 160008893,
+    "width" : 244,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "122702",
+      "null" : "0",
+      "top" : [ {
+        "item" : "85",
+        "count" : "649"
+      }, {
+        "item" : "25",
+        "count" : "182"
+      }, {
+        "item" : "194",
+        "count" : "167"
+      }, {
+        "item" : "162",
+        "count" : "161"
+      }, {
+        "item" : "180",
+        "count" : "158"
+      }, {
+        "item" : "1002",
+        "count" : "151"
+      }, {
+        "item" : "20",
+        "count" : "128"
+      }, {
+        "item" : "192",
+        "count" : "124"
+      }, {
+        "item" : "23",
+        "count" : "123"
+      }, {
+        "item" : "24",
+        "count" : "116"
+      }, {
+        "item" : "87",
+        "count" : "114"
+      }, {
+        "item" : "189",
+        "count" : "110"
+      }, {
+        "item" : "210",
+        "count" : "95"
+      }, {
+        "item" : "182",
+        "count" : "95"
+      }, {
+        "item" : "122702",
+        "count" : "89"
+      }, {
+        "item" : "343",
+        "count" : "78"
+      }, {
+        "item" : "166",
+        "count" : "74"
+      }, {
+        "item" : "255",
+        "count" : "73"
+      }, {
+        "item" : "177",
+        "count" : "71"
+      }, {
+        "item" : "202",
+        "count" : "67"
+      } ],
+      "smallest" : "6",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 618131592,
+    "name" : "Neighborhood Tabulation Area (NTA) (2020)",
+    "dataTypeName" : "text",
+    "description" : "The Neighborhood Tabulation Area (Census 2020) are small area boundaries, created by the Department of City Planning (DCP) to aggregate population projections in a small area. Each NTA approximates a minimum population of 15,000. While NTAs were initially created to support PlaNYC, the thirty-year (2000-2030) sustainability plan for NYC, NTAs are now also being used to present data from the Decennial Census and American Community Survey. NTA boundaries and their associated names do not definitively represent neighborhood boundaries.",
+    "fieldName" : "nta",
+    "position" : 35,
+    "renderTypeName" : "text",
+    "tableColumnId" : 160008894,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "5224",
+      "largest" : "SI0203",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MN1102",
+        "count" : "707"
+      }, {
+        "item" : "BK0601",
+        "count" : "672"
+      }, {
+        "item" : "MN1101",
+        "count" : "385"
+      }, {
+        "item" : "MN0303",
+        "count" : "299"
+      }, {
+        "item" : "MN0302",
+        "count" : "250"
+      }, {
+        "item" : "BK0301",
+        "count" : "168"
+      }, {
+        "item" : "QN0105",
+        "count" : "158"
+      }, {
+        "item" : "MN0301",
+        "count" : "145"
+      }, {
+        "item" : "MN1002",
+        "count" : "140"
+      }, {
+        "item" : "BK0302",
+        "count" : "136"
+      }, {
+        "item" : "BK1602",
+        "count" : "133"
+      }, {
+        "item" : "BK1302",
+        "count" : "132"
+      }, {
+        "item" : "MN0703",
+        "count" : "119"
+      }, {
+        "item" : "QN0102",
+        "count" : "114"
+      }, {
+        "item" : "BK0202",
+        "count" : "107"
+      }, {
+        "item" : "MN0901",
+        "count" : "92"
+      }, {
+        "item" : "BX0901",
+        "count" : "90"
+      }, {
+        "item" : "QN0802",
+        "count" : "89"
+      }, {
+        "item" : "MN0702",
+        "count" : "88"
+      }, {
+        "item" : "BX0903",
+        "count" : "86"
+      } ],
+      "smallest" : "BK0104",
+      "count" : "5224",
+      "cardinality" : "5224"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "NYCHA Code Violations_Data Dictionary.xlsx",
+      "assetId" : "8b2f9850-1a71-454f-9160-7c7b9aee1a30",
+      "name" : "NYCHA Code Violations_Data Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "9/11/2025",
+        "Update Frequency" : "Daily",
+        "Data Change Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Housing Preservation and Development (HPD)"
+      }
+    },
+    "rowIdentifier" : 618131558,
+    "rowLabel" : "violation of the New York City Housing Maintenance Code or New York State Multiple Dwelling Law. Each violation is identified using a unique Violation ID.",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "nycha", "violation", "s72", "housing", "hpd" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

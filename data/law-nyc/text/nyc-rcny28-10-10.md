@@ -1,0 +1,9 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 10: Administration of Applications for Certifications of No Harassment > § 10-10 Suspension and Rescission.
+
+§ 10-10 Suspension and Rescission.
+(a) HPD may rescind a certification, waiver, or exemption at any time if HPD determines that the application for such certification, waiver, or exemption contained a material misstatement of fact.
+(b) If HPD determines that there is reasonable cause to believe that harassment has occurred after the date that HPD issued a certification or a waiver, HPD may suspend such certification or waiver. If the certification or waiver was granted solely pursuant to the Administrative Code, HPD shall not suspend such certification or waiver pursuant to the preceding sentence unless HPD determines that there is reasonable cause to believe that such harassment occurred before commencement of substantial work.
+(1) If HPD determines that there is reasonable cause to believe that harassment has occurred after the date that HPD issued a certification or a waiver, HPD shall deliver a notice of suspension to the applicant and to the owner and will refer the matter for hearing at the Office of Administrative Trials and Hearings.
+(2) HPD shall serve a notice of hearing by regular mail upon the applicant and any other individual or entity as determined by HPD. Such notice shall state the date, time, and location of hearing and shall inform the applicant that he or she may be represented by counsel and may present witnesses and other evidence.
+(3) Upon conclusion of such hearing, the hearing officer shall make a recommendation to the Commissioner whether or not the certification should be rescinded.
+(4) The Commissioner shall make a final determination whether to rescind such certification, and shall provide the applicant with written notice of such determination.

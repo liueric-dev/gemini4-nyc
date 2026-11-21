@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 59 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "59",
+    "title" : "Bakeries and fat boiling",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "59",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 59. Bakeries and fat boiling. 1. It shall be unlawful to construct\\nor maintain a bakery or a place of business where fat is boiled in any\\nnon-fireproof multiple dwelling or upon the lot on which such dwelling\\nis situated, unless the ceiling, side walls and all exposed iron or\\nwooden beams, girders and columns within the said bakery or business\\nplace where fat is boiled, are covered with fireproof materials.\\n  2. There shall be no door, window, dumbwaiter shaft or other opening\\nbetween such a bakery or business place where fat is boiled and any\\nother part of the dwelling, except that:\\n  a. There may be access to the public parts of the dwelling from any\\nbakery maintained therein if the product of such bakery is consumed\\nexclusively within such dwelling.\\n  b. In a fireproof hotel where a retail bakery is maintained therein,\\nthere may be access to the public parts of the hotel, provided the door\\nopenings leading thereto from such bakery and the door assemblies are\\nfireproof with the doors self-closing, and provided the public parts of\\nsuch bakery premises are protected by one or more sprinkler heads.\\n  c. In bakeries in which no fat is boiled and on the premises of which\\nthere is no apparatus for fat boiling, a dumbwaiter communicating\\nbetween the place where the baking is done and a bakery store above may\\nbe maintained if entirely enclosed in a brick shaft with walls eight\\ninches or more in thickness, without any openings whatever except one\\ndoor opening into the bakeshop and one into the bakery store. Every such\\nopening shall be provided with a fireproof door and assembly so arranged\\nthat when one door is open, the other is entirely closed.\\n  3. Every part of a bakery, its plumbing, and the yards and open spaces\\nadjoining shall be kept in good repair, in sanitary condition and free\\nfrom rodents and vermin.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "58",
+      "title" : "Incombustible materials",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "58",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "60",
+      "title" : "Motor vehicle storage",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "60",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

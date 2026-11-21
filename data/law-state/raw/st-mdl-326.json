@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 326 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "326",
+    "title" : "Service of notices, orders and summonses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "326",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 326. Service of notices, orders and summonses. 1. Every notice,\\norder or summons relative to a dwelling shall be served five days before\\nthe time for compliance therewith. The posting of a copy of such notice,\\norder or summons in a conspicuous place in such dwelling, together with\\nthe mailing of a copy thereof, within five days of such posting, to each\\nperson whose name has been filed with the department of health or the\\ndepartment charged with the enforcement of this chapter, in accordance\\nwith the provisions of section three hundred twenty-five, at his address\\nas therewith filed, shall be sufficient service thereof, except as\\nprovided in subdivision three.\\n  2. Except as provided by the provisions of this chapter which are less\\nrestrictive than the provisions of this subdivision, if any notice,\\norder or summons is directed to any person pursuant to any provision of\\nthis chapter, including the provisions of subdivision two of section\\nthree hundred nine, and if the address of such person is not registered\\nor, in any case for which personal service is provided, if such person\\ncannot with due diligence be served personally, then such notice, order\\nor summons may be served by posting a copy thereof in a conspicuous\\nplace upon the premises within which a violation is alleged to have been\\nplaced or a condition complained of is alleged to exist, and by sending\\na copy thereof by registered mail, return receipt requested, addressed\\nto such person at his last known address or place of residence.\\n  3. In the case of a summons if the address of any agent or lessee\\nwhose name and address have been filed in accordance with the provisions\\nof section three hundred twenty-five is in the city in which the\\ndwelling is situated, then a copy of the summons shall also be delivered\\nat such address to a person of lawful age, if upon reasonable\\napplication admittance can be obtained and such person found; and\\nprovided also that personal service of the summons upon the owner of\\nsuch dwelling shall be sufficient service thereof upon him.\\n  4. Notwithstanding any inconsistency with this section, in a city,\\nhaving a population of one million or more, a local law may provide for\\nthe manner of serving civil process for the enforcement of penalties,\\nsanctions and remedies provided in such local law.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A9" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A9",
+      "title" : "Registry of Names and Service of Papers",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "9",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "325",
+      "title" : "Registry of owner, agent and lessee",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "325",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "327",
+      "title" : "Indexing names; fees for searches",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "327",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

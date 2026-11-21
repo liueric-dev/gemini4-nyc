@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 203 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "203",
+    "title" : "Actions involving real property",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+    "docLevelId" : "203",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 203. Actions involving real property. The court shall have\\njurisdiction of the following actions provided that the real property\\ninvolved or part of it is situate within the county in the city of New\\nYork in which the action is brought:\\n  (a) An action for the partition of real property where the assessed\\nvaluation of the property at the time the action is commenced does not\\nexceed $50,000.\\n  (b) An action for the foreclosure, redemption or satisfaction of a\\nmortgage on real property where the amount of the mortgage lien at the\\ntime the action is commenced does not exceed $50,000.\\n  (c) An action for the foreclosure of a lien arising out of a contract\\nfor the sale of real property where the amount of the lien sought to be\\nforeclosed does not, at the time the action is commenced, exceed\\n$50,000.\\n  (d) An action for the specific performance of a contract for the sale\\nof real property where the contract price of the property does not\\nexceed $50,000.\\n  (e) An action for the establishment, enforcement or foreclosure of a\\nmechanic's lien on real property where the lien asserted does not, at\\nthe time the action is commenced, exceed $50,000.\\n  (f) An action to reform or rescind a deed to real property where the\\nassessed valuation of the property does not exceed $50,000 at the time\\nthe action is commenced.\\n  (g) An action to reform or rescind a contract for the sale of real\\nproperty where the agreed price of the property as stated in the\\ncontract does not exceed $50,000; or, if the controversy shall be with\\nregard to the price of the property, where the agreed price as claimed\\nby plaintiff does not exceed $50,000.\\n  (h) An action to reform or rescind a mortgage on real property where\\nthe unpaid balance of the debt secured by the mortgage does not exceed\\n$50,000 at the time the action is commenced.\\n  (i) An action to compel the determination of a claim to real property\\nunder article fifteen of the real property actions and proceedings law\\nwhere the assessed valuation of the property does not exceed $50,000 at\\nthe time the action is commenced.\\n  (j) An action of ejectment where the assessed valuation of the real\\nproperty does not exceed $50,000 at the time the action is commenced.\\n  (k) An action brought to impose and collect a civil penalty for a\\nviolation of state or local laws for the establishment and maintenance\\nof housing standards, including, but not limited to, the multiple\\ndwelling law and the housing maintenance code, building code and health\\ncode of the administrative code of the city of New York.\\n  (l) An action to recover costs, expenses and disbursements incurred by\\nthe city of New York in the elimination or correction of a nuisance or\\nother violation of any law described in subdivision (k) of this section,\\nor in the removal or demolition of any building pursuant to such law or\\nlaws.\\n  (m) An action or proceeding to establish, enforce or foreclose a lien\\nupon real property and the rents therefrom, for civil penalties, or for\\ncosts, expenses and disbursements incurred by the city of New York in\\nthe elimination of a nuisance or other violation of any law described in\\nsubdivision (k) of this section, or in the removal or demolition of any\\nbuilding pursuant to such law or laws.\\n  (n) Actions and proceedings for the removal of housing violations\\nrecorded pursuant to any law described in subdivision (k) of this\\nsection, or for the imposition of such violation or for the stay of any\\npenalty thereunder.\\n  (o) An action or proceeding for the issuance of an injunction,\\nrestraining orders or other orders for the enforcement of housing\\nstandards under any law described in subdivision (k) of this section.\\n  (p) Special proceedings to vest title in the city of New York to\\nabandoned multiple dwellings.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "202",
+      "title" : "Money actions and actions involving chattels",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "202",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "204",
+      "title" : "Summary proceedings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10", "2023-07-07", "2024-01-05" ],
+      "docLevelId" : "204",
+      "activeDate" : "2024-01-05"
+    }
+  }
+}

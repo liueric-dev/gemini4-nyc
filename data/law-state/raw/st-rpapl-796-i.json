@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 796-I in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "796-I",
+    "title" : "Application by mortgagee or lienor of record or other person having an interest in the property",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+    "docLevelId" : "796-I",
+    "activeDate" : "2023-06-16",
+    "text" : "  § 796-i. Application by mortgagee or lienor of record or other person\\nhaving an interest in the property. 1. If, after a trial, the court\\nshall determine that the facts alleged in the petition have been\\naffirmatively established by the petitioners, that no defense thereto\\nspecified in section seven hundred ninety-six-g of this article has been\\naffirmatively established by the owner or a mortgagee or lienor of\\nrecord, and that the facts alleged in the petition warrant the granting\\nof the relief sought, and if the owner or any mortgagee or lienor of\\nrecord or other person having an interest in the property, shall apply\\nto the court to be permitted to remove or remedy the conditions\\nspecified in such petition and shall (i) demonstrate the ability\\npromptly to undertake the work required and (ii) post security for the\\nperformance of such work within the time, and in the amount and manner,\\ndeemed necessary by the court, then the court, in lieu of rendering\\njudgment as provided in section seven hundred ninety-six-h of this\\narticle, may issue an order permitting such person to perform the work\\nwithin a time fixed by the court.\\n  2. If, after the issuance of an order pursuant to subdivision one of\\nthis section, but before the time fixed in such order for the completion\\nof the work prescribed therein, it shall appear to the petitioners that\\nthe person permitted to do the same is not proceeding with due\\ndiligence, the petitions may apply to the court on notice to those\\npersons who have appeared in the proceeding for a hearing to determine\\nwhether judgment should be rendered immediately as provided in\\nsubdivision three of this section.\\n  3. If, upon a hearing authorized in subdivision two of this section,\\nthe court shall determine that the owner, mortgagee, lienor or other\\nperson is not proceeding with due diligence, or upon the failure of the\\nowner, mortgagee, lienor or other person to complete the work in\\naccordance with the provisions of the order, the court shall render a\\nfinal judgment appointing an administrator as authorized in section\\nseven hundred ninety-six-j of this article. Such judgment shall direct\\nthe administrator to apply the security posted by such person to the\\nremoving or remedying of the condition or conditions specified in the\\npetition. In the event that the amount of such security should be\\ninsufficient for such purpose, such judgment shall direct the deposit of\\nrents with the administrator, as authorized by section seven hundred\\nninety-six-h of this article, to the extent of such deficiency. In the\\nevent that such security should exceed the amount required to remove or\\nremedy such condition or conditions, such judgment shall direct the\\nadministrator to file with the court, upon completion of the work\\nprescribed therein, a full accounting of the amount of such security and\\nthe expenditures made pursuant to such judgment, and to turn over such\\nsurplus to the person who posted such security, together with a copy of\\nsuch accounting.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-C",
+      "title" : "Special Proceedings By Tenants of Dwellings For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2022-12-23", "2023-01-06", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2023-06-16"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-H",
+      "title" : "Judgment",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-H",
+      "activeDate" : "2023-06-16"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-J",
+      "title" : "Appointment of administrator",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-J",
+      "activeDate" : "2023-06-16"
+    }
+  }
+}

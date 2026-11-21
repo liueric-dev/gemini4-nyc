@@ -1,0 +1,703 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 148 (Tuesday, August 5, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 148 (Tuesday, August 5, 2025)]
+[Notices]
+[Pages 37546-37551]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-14743]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT
+
+[Docket No. FR-6469-N-01]
+
+
+National Standards for the Physical Inspection of Real Estate, 
+Carbon Monoxide Detection Requirements, and Smoke Alarm Requirements: 
+Implementation Guidance and Inspection Standards for the Housing 
+Opportunities for Persons With AIDS Program
+
+AGENCY: Office of the Assistant Secretary for Community Planning and 
+Development, U.S. Department of Housing and Urban Development (HUD).
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice serves as a complementary document to the Economic 
+Growth Regulatory Relief and Consumer Protection Act: Implementation of 
+National Standards for the Physical Inspection of Real Estate (NSPIRE) 
+rule published May 11, 2023. The NSPIRE rule provided that HUD's Office 
+of Community Planning and Development (CPD) would publish an additional 
+notice on the NSPIRE Standards for the Housing Opportunities for 
+Persons With AIDS (HOPWA) program. HUD is providing implementation 
+guidance on NSPIRE physical inspection standards for the HOPWA program 
+to accompany the NSPIRE rule through this notice. This notice provides 
+guidance to HOPWA grantees on how to inspect HOPWA-assisted units for 
+compliance with the NSPIRE rule, and how to ensure corrections are 
+made, if needed. This notice also provides guidance on statutory 
+requirements that require grantees to ensure each dwelling unit 
+assisted under the HOPWA program contains installed qualifying carbon 
+monoxide (CO) alarms or detectors and smoke alarms.
+
+DATES: HUD's NSPIRE final rule for CPD programs was effective October 
+1, 2023. In accordance with HUD's Federal Register notice published at 
+89 FR 55645, the compliance date was extended until October 1, 2025; 
+however, this notice further extends the compliance date for HOPWA 
+grantees to comply with the HOPWA NSPIRE standards elaborated in this 
+notice until February 2, 2026. HOPWA grantees do not need to wait until 
+the compliance date to update their policies and procedures and begin 
+inspecting units in accordance with these standards. HOPWA grantees 
+were expected to be in compliance with statutory requirements at 42 
+U.S.C. 12905(i) and (j) as of December 27, 2022, and December 29, 2024, 
+respectively.
+
+FOR FURTHER INFORMATION CONTACT: Amy Shivickas, Deputy Director, Room 
+7248, Department of Housing and Urban Development, 451 Seventh Street 
+SW, Washington, DC 20410-7000; telephone (202) 402-2420. (This is not a 
+toll-free number). HUD welcomes and is prepared to receive calls from 
+individuals who are deaf or hard of hearing, as well as individuals 
+with speech or communication disabilities. To learn more about how to 
+make an accessible telephone call, please visit: <a href="https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs">https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Purpose
+
+    This notice serves as a complementary document to the NSPIRE rule 
+(88 FR 30442). The NSPIRE rule establishes a new approach to defining 
+and assessing housing quality. The NSPIRE rule is part of a broad 
+revision of the way HUD-assisted housing is inspected and evaluated. 
+The purpose of NSPIRE is to strengthen HUD's physical condition 
+standards and improve HUD oversight through the alignment and 
+consolidation of the inspection regulations used to evaluate HUD 
+housing across multiple programs.
+    In the preamble to the NSPIRE rule, HUD explained that CPD would 
+issue separate notices for the individual CPD programs, including the 
+HOPWA program. The purpose of this notice is to provide the primary 
+implementation guidance for HOPWA. To the extent CPD determined it 
+would be practicable for the HOPWA program, this notice is designed to 
+align with the implementation guidance and inspection standards HUD 
+published in the NSPIRE Standards notice, the NSPIRE Scoring notice, 
+and the NSPIRE Administrative notice for the Public Housing and Section 
+8 programs. Other than as stated in this notice, however, those 
+``Subordinate Notices'' are not applicable to the HOPWA program.
+    This notice rescinds notice CPD-22-15, Carbon Monoxide Alarms or 
+Detectors in Housing Opportunities for Persons With AIDS (HOPWA)-
+Assisted Housing, and provides implementation guidance for carbon 
+monoxide (CO) alarms or detectors HOPWA-assisted housing. The guidance 
+provided in notice CPD-22-15 that remains applicable is incorporated 
+into this notice. For housing activities subject to the HOPWA Housing 
+Quality Standards (HQS) at 24 CFR 574.310(b), this notice provides 
+updated guidance for
+
+[[Page 37547]]
+
+implementation of CO detection requirements.
+    This notice also alerts grantees to a related and important new 
+statutory requirement for smoke alarms under the HOPWA program. Under 
+the new statutory requirement, grantees are responsible for ensuring 
+each dwelling unit assisted under the HOPWA program contains qualifying 
+smoke alarms installed in accordance with applicable codes and 
+standards published by the International Code Council or the National 
+Fire Protection Association and the requirements of the National Fire 
+Protection Association Standard 72, or any successor standard, in each 
+level and in or near each sleeping area in such dwelling unit, 
+including in basements but excepting crawl spaces and unfinished 
+attics, and in each common area in a project containing such a dwelling 
+unit. For housing activities subject to the HOPWA Housing Quality 
+Standards (HQS) at 24 CFR 574.310(b), this notice provides guidance for 
+implementation of smoke alarm requirements.
+
+II. The HOPWA NSPIRE Standards
+
+    The NSPIRE standards applicable to the HOPWA program (the ``HOPWA 
+NSPIRE Standards'') for this notice are available in the docket for 
+this notice at <a href="http://www.regulations.gov">www.regulations.gov</a>.
+
+III. NSPIRE Applicability to the HOPWA Program
+
+    The NSPIRE rule updated the HOPWA regulations at 24 CFR 574.310 to 
+require all housing assisted with acquisition, rehabilitation, 
+conversion, lease, and repair of facilities to provide housing and 
+services (24 CFR 574.300(b)(3)); new construction (24 CFR 
+574.300(b)(4)); project or tenant-based rental assistance (24 CFR 
+574.300(b)(5)); and operating costs (24 CFR 574.300(b)(8)) to generally 
+meet the standards for HUD housing in 24 CFR 5.703. NSPIRE requirements 
+at 24 CFR 5.705 through 5.713 do not apply to the HOPWA program.
+
+IV. Effective and Extended Compliance Date
+
+    The regulatory changes made under the NSPIRE rule took effect on 
+October 1, 2023. However, as provided by HUD's notice ``Economic Growth 
+Regulatory Relief and Consumer Protection Act: Implementation of 
+National Standards for the Physical Inspection of Real Estate (NSPIRE); 
+Extension of Compliance Date for HCV, PBV and Section 8 Moderate Rehab 
+and CPD Programs'' (89 FR 55645), grantees may continue using HOPWA 
+housing quality standards, as previously defined in 24 CFR 574.310 
+until October 1, 2025. Grantees are encouraged to implement HOPWA 
+NSPIRE standards as soon as feasible but must comply with HOPWA NSPIRE 
+standards no later than October 1, 2025. If a grantee implements the 
+NSPIRE rule and the HOPWA NSPIRE standards before October 1, 2025, the 
+grantee must document the chosen compliance date in program records.
+    However, the following exceptions apply:
+    1. As of December 27, 2022, all units assisted under the HOPWA 
+program (including units occupied by families receiving short-term 
+rent, mortgage, and utility (STRMU) and permanent housing placement 
+(PHP) assistance) must meet the applicable carbon monoxide (CO) 
+detection standards as explained in this notice. On December 8, 2022, 
+HUD published notice CPD-22-15, Carbon Monoxide Alarms or Detectors in 
+Housing Opportunities for Persons With AIDS (HOPWA)-Assisted Housing, 
+that addresses CO poisoning risks in housing, identifies resources for 
+preventing and detecting CO exposure, and alerted grantees to the new 
+statutory CO detection requirement under the HOPWA program. This notice 
+rescinds notice CPD-22-15 and updates CO detection requirements for the 
+HOPWA program. On June 22, 2023, HUD established CO detection standards 
+for units and inside area in the NSPIRE inspection standards notice (88 
+FR 40832). Those CO detection standards took the place of the standards 
+provided under chapters 9 and 11 of the 2018 International Fire Code 
+for purposes of all units assisted under the HOPWA program (including 
+units occupied by families receiving STRMU and PHP assistance). To make 
+things easier for HOPWA grantees, the HOPWA NSPIRE standards HUD is 
+providing under this notice for CO detection reflect the same CO 
+detection standards HUD provided for units and inside area under the 
+NSPIRE inspection standards notice (88 FR 40832).
+    2. As of December 29, 2024, all units assisted under the HOPWA 
+program (including units occupied by families receiving STRMU and PHP 
+assistance) must also meet the applicable smoke alarm standards 
+required by Public Law 117--328 (2022). To make things easier for HOPWA 
+grantees, the HOPWA NSPIRE standards HUD is providing under this notice 
+for smoke detection reflect the same smoke alarm standards HUD provided 
+for units and inside area under the NSPIRE inspection standards notice 
+(88 FR 40832).
+    3. A housing unit that continues to meet the HOPWA housing quality 
+standards that applied when the eligible person(s) moved into that 
+housing unit shall not be required to meet new or different standards 
+under 24 CFR 5.703. However, if any new eligible person(s) move into 
+the housing during the period the grantee must comply or elects to 
+comply with the HOPWA NSPIRE standards, the housing will be required to 
+meet the HOPWA NSPIRE standards described in this notice.
+
+V. HOPWA NSPIRE Standards
+
+    This section provides further guidance on the requirements in 24 
+CFR 5.703 as it applies to the HOPWA program. The section lays out the 
+affirmative requirements in 24 CFR 5.703, discusses the health and 
+safety categories utilized in the regulations at 24 CFR 574.310, 
+reminds HOPWA grantees of the obligation to follow lead-based paint 
+requirements, and clarifies the obligation to follow state and local 
+codes.
+
+A. Affirmative Requirements
+
+    Affirmative requirements are the basic requirements that must be 
+met for HOPWA housing assistance to be provided. The NSPIRE rule 
+provides the minimum, or affirmative, habitability requirements for 
+each inspectable area (inside, outside, unit) at 24 CFR 5.703(b) 
+through (d). The HOPWA NSPIRE Standards further clarify these 
+affirmative requirements. Affirmative requirements are designated as 
+pass or fail during an inspection and will also have specific 
+deficiencies, as contained in the HOPWA NSPIRE Standards. Housing that 
+does not meet or continue to meet the affirmative requirements for each 
+inspectable area would not pass an inspection and therefore would not 
+be eligible for occupancy with HOPWA assistance. If possible, HOPWA 
+grantees and project sponsors should work with the landlord or 
+homeowner to correct any deficiencies during the inspection to 
+facilitate move-in or continued occupancy of the unit. The affirmative 
+requirements for each inspectable area applicable to the HOPWA program 
+under 24 CFR 5.703 are as follows:
+Inside (24 CFR 5.703(b))
+    1. The inside area must include at least one battery-operated or 
+hard-wired smoke detector, in proper working condition, on each level 
+of the property. The final NSPIRE standards for smoke alarms are 
+included in the HOPWA NSPIRE Standards in Table 48.
+    2. The inside area must meet the carbon monoxide detection 
+standards in the HOPWA NSPIRE Standards in Table 4 of the attached 
+HOPWA NSPIRE standards.
+
+[[Page 37548]]
+
+    3. For the inside area, any outlet installed within 6 feet of a 
+water source must be ground-fault circuit interrupter (GFCI) protected. 
+Further explanation of this affirmative requirement can be found at 
+Table 15 of the HOPWA NSPIRE Standards.
+    4. The inside area must have a guardrail when there is an elevated 
+walking surface with a drop off of 30 inches or greater measured 
+vertically. Further explanation of this affirmative requirement can be 
+found at Table 28 of the HOPWA NSPIRE Standards.
+    5. The inside area must have permanently mounted light fixtures in 
+any kitchens and each bathroom. Further explanation of this affirmative 
+requirement can be found at Table 37 of the HOPWA NSPIRE Standards.
+    6. The inside area may not contain unvented space heaters that burn 
+gas, oil, or kerosene. Further explanation of this affirmative 
+requirement can be found at Table 30 of the HOPWA NSPIRE Standards.
+Outside (24 CFR 5.703(c))
+    1. For the outside area, outlets within 6 feet of a water source 
+must be GFCI protected. Further explanation of this affirmative 
+requirement can be found at Table 15 of the HOPWA NSPIRE Standards.
+    2. The outside area must have a guardrail when there is an elevated 
+walking surface with a drop off of 30 inches or greater measured 
+vertically. Further explanation of this affirmative requirement can be 
+found at Table 28 of the HOPWA NSPIRE Standards.
+Unit (24 CFR 5.703(d))
+    1. The unit must have hot and cold running water in both the 
+bathroom and kitchen, including an adequate source of safe drinking 
+water in the bathroom and kitchen. Further explanation of this 
+affirmative requirement can be found at Table 47 of the HOPWA NSPIRE 
+Standards.
+    2. The unit must include its own bathroom or sanitary facility that 
+is in proper operating condition and usable in privacy. It must contain 
+a sink, a bathtub or shower, and an interior flushable toilet. Further 
+explanation of this affirmative requirement can be found at Table 1, 
+Table 47, and Table 52 of the HOPWA NSPIRE Standards.
+    3. The unit must meet the below standards and follow the 
+specifications of National Fire Protection Association (NFPA) 72 to 
+satisfy the affirmative requirements for smoke alarms.
+    a. The unit must include at least one battery-operated or hard-
+wired smoke alarm, in proper working condition, in the following 
+locations:
+    i. On each level of the unit.
+    ii. Inside each bedroom.
+    iii. Within 21 feet of any door to a bedroom measured along a path 
+of travel.
+    iv. Where a smoke detector installed outside a bedroom is separated 
+from an adjacent living area by a door, a smoke detector must also be 
+installed on the living area side of the door.
+    b. If the unit is occupied by any hearing-impaired person, the 
+smoke detectors must have an alarm system designed for hearing-impaired 
+persons.
+    c. Additional affirmative requirement standards for smoke detectors 
+have been set in the NSPIRE Standards notice. The same standards are 
+included in the HOPWA NSPIRE Standards in Table 48.
+    4. The unit must have a living room and kitchen area with a sink, 
+cooking appliance, refrigerator, food preparation area, and food 
+storage area. Further explanation of this affirmative requirement can 
+be found at Table 2, Table 8, Table 24, Table 43, and Table 47 of the 
+HOPWA NSPIRE Standards.
+    5. The unit must meet the carbon monoxide detection standards in 
+the HOPWA NSPIRE Standards in Table 4.
+    6. The unit must have two working outlets or one working outlet and 
+a permanent light fixture within all habitable rooms. Further 
+explanation of this affirmative requirement can be found at Table 38 of 
+the HOPWA NSPIRE Standards.
+    7. Outlets within 6 feet of a water source must be GFCI protected. 
+Further explanation of this affirmative requirement can be found at 
+Table 15 of the HOPWA NSPIRE Standards.
+    8. For climate zones designated by the Secretary through notice, 
+the unit must have a permanently installed heating source. No units may 
+contain unvented space heaters that burn gas, oil, or kerosene. The 
+HOPWA NSPIRE Standards adopt the requirements in the NSPIRE Standards 
+notice where HUD requires permanent heating sources in all locales 
+except for Hawaii, Puerto Rico, Guam, U.S. Virgin Islands, American 
+Samoa, and the Commonwealth of Northern Mariana Islands; this follows 
+the International Energy Conservation Code (IECC). Those localities 
+where permanent heating sources will not be required are Tropical (per 
+IECA designation). Further explanation of this affirmative requirement 
+can be found at Table 30 of the HOPWA NSPIRE Standards.
+    9. The unit must have a guardrail when there is an elevated walking 
+surface with a drop off of at least 30 inches or greater measured 
+vertically. Further explanation of this affirmative requirement can be 
+found at Table 28 of the HOPWA NSPIRE Standards.
+    10. The unit must have a permanently mounted lighting fixture in 
+the kitchen and each bathroom. Further explanation of this affirmative 
+requirement can be found at Table 37 of the HOPWA NSPIRE Standards.
+
+B. Health and Safety Concerns
+
+    In accordance with 24 CFR 5.703(e), the inside, outside, and unit 
+must be free of health and safety hazards that pose a danger to 
+residents. HOPWA grantees and project sponsors must inspect housing for 
+health and safety deficiencies through the HOPWA NSPIRE Standards.
+    The HOPWA NSPIRE Standards incorporate the following Health and 
+Safety categories as provided through the NSPIRE Standards notice: 
+Life-threatening, Severe, Moderate, and Low. These health and safety 
+categories help establish correction timelines for each deficiency. 
+Life-threatening deficiencies must be corrected within 24 hours after 
+notice has been provided to the landlord or owner. Severe deficiencies 
+must be corrected within 30 days or the approved extension after notice 
+has been provided to the landlord or owner. Moderate deficiencies must 
+be corrected within 30 days or the approved extension after notice has 
+been provided to the landlord or owner. Low deficiencies, even if 
+present will not result in a fail. Low deficiencies should be corrected 
+within 60 days or a correction timeframe determined by grantee policies 
+and procedures after notice has been provided to the landlord or owner.
+    All grantees must establish policies and procedures for housing 
+inspections to ensure compliance with the requirements outlined in this 
+notice. Grantees should consider local housing codes when establishing 
+a correction timeframe in policies and procedures. HOPWA grantees may 
+choose to shorten the established correction timelines for a 
+deficiency. However, grantees should not allow longer correction 
+timelines than established in the HOPWA NSPIRE standards without 
+documented justification and policies and procedures that support 
+longer correction timelines. Longer correction timelines are only 
+permissible with documented justification for Severe, Moderate, and Low 
+deficiencies. Under no circumstance should a HOPWA-assisted household 
+remain in a unit with an identified life-threatening deficiency that 
+has not been corrected within 24 hours of notification.
+    If a Life-Threatening, Severe, or Moderate deficiency is not 
+corrected
+
+[[Page 37549]]
+
+within the timeframe provided to the landlord or owner, this would be 
+considered a failed inspection and the HOPWA grantee or project sponsor 
+should take action in accordance with the rental assistance payment 
+agreement, which can include withholding or abatement of assistance 
+payments, terminations, or relocations. HOPWA grantees and project 
+sponsors may use the housing information services budget line item to 
+assist the household in locating a new unit and the permanent housing 
+placement budget line item for security deposits or other move-in fees. 
+HOPWA grantees should ensure policies and procedures are updated for 
+circumstances where a unit does not pass inspection.
+
+C. Lead-Based Paint
+
+    In accordance with 24 CFR 5.703(e)(2) and 24 CFR 574.635, HOPWA 
+grantees and project sponsors shall continue to comply with the 
+requirements and timelines in 24 CFR part 35. The NSPIRE rule did not 
+alter any of the lead-based paint requirements in part 35 for the HOPWA 
+program.
+
+D. Compliance With State and Local Codes
+
+    In accordance with 24 CFR 5.703(f), the NSPIRE standards for the 
+condition of HUD housing do not supersede State and local codes (such 
+as fire, mechanical, plumbing, carbon monoxide, property maintenance, 
+or residential code requirements). As provided in 24 CFR 574.310(b)(1), 
+all HOPWA-assisted units must also comply with State or local housing 
+codes to pass an inspection. During the inspection of HOPWA-assisted 
+units, HOPWA grantees must verify that the housing complies with all 
+applicable State and local housing codes, licensing requirements, and 
+any other applicable state or local requirements regarding the 
+condition of the structure and the operation of the housing.
+
+VI. Clarification on Standards for Single Room Occupancy Dwellings
+
+    A Single Room Occupancy (SRO) is an eligible type of HOPWA housing 
+subject to the NSPIRE rule and the housing quality standards at 24 CFR 
+574.310(b). SRO means a single-room dwelling unit that provides private 
+living and sleeping space for the exclusive use of the occupant, but 
+that contains no sanitary facilities or food preparation facilities, or 
+contains either, but not both, types of facilities. An SRO unit may not 
+be occupied by more than one individual.
+    SROs assisted with acquisition, rehabilitation, conversion, lease, 
+and repair of facilities to provide housing and services (24 CFR 
+574.300(b)(3)); new construction (24 CFR 574.300(b)(4)); project or 
+tenant-based rental assistance (24 CFR 574.300(b)(5)); or operating 
+costs (24 CFR 574.300(b)(8)) are only required to comply with 24 CFR 
+5.703(d), which outlines affirmative requirements for the unit, to the 
+extent that those components exist within the unit.
+    For example, in cases where there are no sanitary facilities or 
+food preparation facilities, SRO units are not required to comply with 
+24 CFR 5.703(d)(1) which requires that the unit must have hot and cold 
+running water in both the bathroom and kitchen, including an adequate 
+source of safe drinking water in the bathroom and kitchen, nor does the 
+requirement at 24 CFR 5.703(d)(4) that the unit contain a kitchen area 
+with a sink, cooking appliance, refrigerator, food preparation area, 
+and food storage area apply. In addition, the same exception applies to 
+24 CFR 5.703(d)(2) which requires the unit to include its own bathroom 
+or sanitary facility--containing a sink, a bathtub or shower, and an 
+interior flushable toilet--that is in proper operating condition and 
+usable in privacy. However, if the SRO unit has sanitary facilities 
+and/or a kitchen, the HOPWA NSPIRE standards apply to those components.
+
+VII. Variation Allowability
+
+    HOPWA grantees have the option to propose a housing variation and 
+receive HUD approval for housing that is unable to meet the affirmative 
+requirements in 24 CFR 5.703 and/or the HOPWA NSPIRE standards. 
+Variations must be approved by HUD before HOPWA assistance can be 
+provided to a housing unit covered by a proposed variation. Grantees 
+must maintain a record of the approved variation and document when the 
+approved variation is used in client files.
+    To apply for a variation, grantees must send an email with the 
+below justification to the Community Planning and Development Director 
+of the HUD Field Office serving the grantee. Proposed variations must 
+be submitted with the following justification:
+    <bullet> The grantee must include the requestor's name, title, and 
+contact information.
+    <bullet> The grantee must provide written justification why a 
+variation to the affirmative requirements in 24 CFR 5.703 and/or the 
+HOPWA NSPIRE standards is required to provide HOPWA housing assistance 
+and how the variation will continue to make available housing that is 
+functionally adequate, operable, and free of health and safety hazards.
+    <bullet> The grantee must identify the specific units covered by 
+the variation. This should include the number of housing units, 
+household size the unit is able to support, and type of housing. Types 
+of housing could include shared housing, manufactured housing, or a 
+community residence. The address of the unit should not be included in 
+the request.
+    <bullet> The grantee must submit policies and procedures 
+documenting the housing variation and the housing inspection standards 
+to be used for the proposed variation.
+
+VIII. Inspection Process
+
+    The inspection process for both initial and recurring annual 
+inspections should follow the same basic process to ensure that all 
+HOPWA-assisted households live in safe, habitable dwellings. The party 
+responsible for the inspection (grantee, project sponsor, contracted 
+third party vendor) will complete thorough inspections of the 
+inspectable areas defined at 24 CFR 5.703(b) through (d) and 24 CFR 
+574.310(b)(2)(i) to include items and components located inside the 
+building, outside the building, and within the unit. The responsible 
+party will ensure that the inspectable areas meet all affirmative 
+requirements in accordance with 24 CFR 5.703 and Section V.A. 
+``Affirmative Requirements'' of this notice. If a unit does not meet 
+all affirmative requirements, then the unit is not eligible for HOPWA 
+housing assistance.
+    The responsible party will also be required to ensure that there 
+are no deficiencies in the inspectable areas beyond the affirmative 
+requirements. In each inspectable area, the responsible party is 
+required to inspect for all deficiencies listed in the HOPWA NSPIRE 
+standards. If deficiencies are cited during an inspection, then the 
+responsible party must provide notification to the landlord or 
+homeowner of the deficiency and the correction timeframe to address the 
+deficiency for the unit to begin or continue receiving HOPWA housing 
+assistance. The potential deficiencies and the correction timeframes to 
+address them can be found in the HOPWA NSPIRE standards. The HOPWA 
+NSPIRE standards include both deficiencies and affirmative requirements 
+and should be used as a guide when conducting any HOPWA unit 
+inspection.
+    For a unit to pass an inspection and be eligible to receive HOPWA 
+funding, all affirmative requirements must be met
+
+[[Page 37550]]
+
+and any cited deficiencies (life-threatening, severe, or moderate) must 
+be corrected within the correction timeframe or the approved extension. 
+HOPWA assistance must not be provided to a new unit that does not meet 
+the affirmative requirements or has an identified life-threatening 
+deficiency prior to a family moving into the unit. If deficiencies are 
+identified in the initial inspection, it may cause the unit to 
+temporarily fail the inspection while the deficiencies are addressed. 
+Deficiencies that are not corrected within the correction timeframe or 
+approved extension would be cause for a unit to fail the inspection and 
+no longer be eligible to continue receiving HOPWA funding. HOPWA 
+funding can continue to be provided to occupied HOPWA-assisted units 
+during a correction timeframe or approved extension while a deficiency 
+or affirmative requirement is being addressed. For units that are not 
+currently occupied and being inspected prior to assistance, HOPWA 
+grantees and project sponsors should establish policies and procedures 
+on when HOPWA funding can begin assisting a unit that is correcting a 
+deficiency within the correction timeline or approved extension.
+    Grantees and project sponsors are allowed to utilize virtual 
+inspections to meet HOPWA NSPIRE inspection requirements. Remote or 
+virtual inspections by proxy are allowed; however, staff must be 
+trained on how to conduct HOPWA NSPIRE inspections virtually. HOPWA 
+NSPIRE inspections may be conducted on behalf of a grantee or project 
+sponsor by a proxy using video streaming technology; in these cases, 
+there must be a written agreement kept on file by the grantee and 
+project sponsor. The proxy can be the landlord, property 
+representative, tenant, or any adult associated with the eventual 
+tenancy of the unit. The grantee must ensure there are written policies 
+and procedures established for virtual inspections and staff are 
+properly trained prior to virtual inspections occurring.
+
+IX. Frequency of Inspections
+
+    All housing assisted with acquisition, rehabilitation, conversion, 
+lease, and repair of facilities to provide housing and services (24 CFR 
+574.300(b)(3)); new construction (24 CFR 574.300(b)(4)); project or 
+tenant-based rental assistance (24 CFR 574.300(b)(5)); and operating 
+costs (24 CFR 574.300(b)(8)) must be inspected prior to a household 
+moving in and HOPWA funds being used. The grantee must also establish 
+policies and procedures that provide reasonable assurance that each 
+housing unit continues to meet the HOPWA NSPIRE standards throughout 
+the period for which the grantee expends HOPWA funds with respect to 
+that unit. Accordingly, HUD recommends that grantees and project 
+sponsors conduct inspections on an annual basis.
+
+X. Paying for Inspections
+
+    HOPWA grantees and project sponsors are encouraged to review their 
+current HOPWA housing assistance program budget to ensure there is 
+funding available for training, learning opportunities, and potential 
+additional staffing to prepare for and conduct HOPWA NSPIRE 
+inspections. HOPWA grantees and project sponsors may bill staff time 
+and costs associated with preparing for, scheduling, collecting, 
+completing, and following up with landlords and assisted households 
+about inspections from the HOPWA housing assistance budget line for the 
+type of housing assistance being provided. HOPWA grantees and project 
+sponsors may also bill staff time for training and preparation to 
+ensure staff are able to implement the new HOPWA NSPIRE requirements; 
+these training and preparation costs may be allocated to the budget 
+line item(s) applicable to the new requirements. Staff time associated 
+with policy and procedure updates may be billed to administrative costs 
+(See 24 CFR 574.300(b)(10) and 574.3).
+    For compliance with CO detection requirements, HOPWA grantees and 
+project sponsors may bill staff time spent conducting landlord outreach 
+and education on the CO detector and alarm requirements, performing 
+inspections to assess for compliance with the requirements, and/or 
+assessing for and self-certifying compliance with the requirements to 
+the applicable housing assistance line item. HOPWA grantees and project 
+sponsors may bill housing information services for staff time spent 
+conducting outreach and education on CO detectors and alarms to HOPWA-
+assisted households (See 24 CFR 574.300(b)(1)).
+    For compliance with smoke alarm requirements, HOPWA grantees and 
+project sponsors may bill staff time spent conducting landlord outreach 
+and education on the smoke alarm requirements, performing inspections 
+to assess for compliance with the requirements, and/or assessing for 
+and self-certifying compliance with the requirements to the applicable 
+housing assistance line item. HOPWA grantees and project sponsors may 
+bill housing information services for staff time spent conducting 
+outreach and education on smoke alarms to HOPWA-assisted households 
+(See 24 CFR 574.300(b)(1)).
+
+XI. Clarification on Carbon Monoxide Alarms or Detectors
+
+    Section 101 of Title I of Division Q of the Consolidated 
+Appropriations Act, 2021, Public Law 116-260, div. Q, title I, Sec.  
+101 (2020) amended the program legislation for various HUD programs, 
+including the HOPWA program, to require CO alarms or detectors in 
+certain Federally assisted dwelling units as of December 27, 2022.
+    Section 101(e) of the Act amends section 856 of the AIDS Housing 
+Opportunity Act (42 U.S.C. 12905) to add the following new 
+responsibility for HOPWA grantees:
+    (i) Carbon monoxide alarms.
+    Each dwelling unit assisted under [the HOPWA program] shall contain 
+installed carbon monoxide alarms or detectors that meet or exceed--
+    (1) the standards described in chapters 9 and 11 of the 2018 
+publication of the International Fire Code, as published by the 
+International Code Council; or
+    (2) any other standards as may be adopted by the Secretary, 
+including any relevant updates to the International Fire Code, through 
+a notice published in the Federal Register.
+    This Notice updates the standards for CO detection in HOPWA-
+assisted units. For housing activities subject to the HOPWA Housing 
+Quality Standards (HQS) at 24 CFR 574.310(b) (acquisition, 
+rehabilitation, conversion, lease, and repair of facilities; new 
+construction; project- or tenant-based rental assistance; and operating 
+costs), grantees and project sponsors should apply the HOPWA NSPIRE 
+Standards for CO detection in Table 4 of the attached standards.
+    For housing activities not subject to HQS requirements (STRMU and 
+PHP), grantees and project sponsors should still apply the HOPWA NSPIRE 
+standards for CO Alarms in Table 4, but may rely on the self-
+certification of the tenant or owner that the dwelling unit meets the 
+CO detection requirements, provided that the grantee or project sponsor 
+develops and provides training, a standard checklist, or other 
+reasonable procedures to make sure the owner or tenant understands and 
+applies the applicable criteria when making the self-certification that 
+CO alarms or detectors are installed as required. The self-
+certification should be kept in the assisted household's file and 
+document the method(s) used to confirm the presence of CO detection in 
+the unit.
+    However, neither the statutory requirement nor this notice preempts 
+or
+
+[[Page 37551]]
+
+limits the applicability of any State or local law that imposes more 
+stringent standards relating to the installation and maintenance of CO 
+alarms or detectors in housing.
+
+XII. Clarification on Qualifying Smoke Alarms
+
+    Section 601 of Title VI of Division AA of the Consolidated 
+Appropriations Act, 2023, Public Law 117-328 (2022) amended the 
+statutes for various HUD programs, including the HOPWA program, to 
+require qualifying smoke alarms in assisted dwelling units as of 
+December 29, 2024.
+    Section 601(d) amends Section 856 of the AIDS Housing Opportunity 
+Act (42 U.S.C. 12905) to add the following new responsibility for HOPWA 
+grantees: Each dwelling unit assisted under this chapter shall contain 
+qualifying smoke alarms that are installed in accordance with 
+applicable codes and standards published by the International Code 
+Council or the National Fire Protection Association and the 
+requirements of the National Fire Protection Association Standard 72, 
+or any successor standard, in each level and in or near each sleeping 
+area in such dwelling unit, including in basements but excepting crawl 
+spaces and unfinished attics, and in each common area in a project 
+containing such a dwelling unit. It also defines a qualifying smoke 
+alarm. The term ``qualifying smoke alarm'' means a smoke alarm that:
+    (i) in the case of a dwelling unit built before December 29, 2022, 
+and not substantially rehabilitated after December 29, 2022--
+    (I)(aa) is hardwired; or
+    (bb) uses 10-year non rechargeable, nonreplaceable primary 
+batteries and--
+    (AA) is sealed;
+    (BB) is tamper resistant; and
+    (CC) contains silencing means; and
+    (II) provides notification for persons with hearing loss as 
+required by the National Fire Protection Association Standard 72, or 
+any successor standard; or
+    (ii) in the case of a dwelling unit built or substantially 
+rehabilitated after December 29, 2022, is hardwired.
+    The new smoke alarm requirement for HOPWA grantees is fully 
+applicable and enforceable by HUD as of December 29, 2024. HOPWA 
+grantees and project sponsors must ensure qualifying smoke alarms are 
+installed as required in all HOPWA-assisted units. This includes units 
+assisted with acquisition, rehabilitation, conversion, lease, and 
+repair of facilities to provide housing and services (24 CFR 
+574.300(b)(3)); new construction (24 CFR 574.300(b)(4)); project or 
+tenant-based rental assistance (24 CFR 574.300(b)(5)); short-term rent, 
+mortgage, and utility payments (24 CFR 574.300(b)(6)); permanent 
+housing placement (24 CFR 574.300(b)(7)); and operating costs (24 CFR 
+574.300(b)(8)).
+    For housing activities subject to the HOPWA Housing Quality 
+Standards (HQS) at 24 CFR 574.310(b) (acquisition, rehabilitation, 
+conversion, lease, and repair of facilities; new construction; project 
+or tenant-based rental assistance; and operating costs), grantees and 
+project sponsors should apply the HOPWA NSPIRE Standards for smoke 
+alarms in Table 48.
+    For housing activities not subject to HQS requirements (STRMU and 
+PHP), grantees and project sponsors should still apply the HOPWA NSPIRE 
+Standards for smoke alarms in Table 48, but may rely on the self-
+certification of the tenant or owner that the dwelling unit meets the 
+smoke alarm requirements, provided that the grantee or project sponsor 
+develops and provides training, a standard checklist, or other 
+reasonable procedures to make sure the owner or tenant understands and 
+applies the applicable criteria when making the self-certification that 
+smoke alarms are installed as required. The self-certification should 
+be kept in the assisted household's file and document the method(s) 
+used to confirm the presence of a qualifying alarm in the unit.
+    However, neither the statutory requirement nor this notice preempts 
+or limits the applicability of any State or local law that imposes more 
+stringent standards relating to the installation and maintenance of 
+smoke alarms in housing.
+
+XII. Clarification on Inspections for STRMU and PHP
+
+    The NSPIRE rule and the housing quality standards at 24 CFR 
+574.310(b) do not cover or require inspections for short-term rent, 
+mortgage, and utility payments (24 CFR 574.300(b)(6)); or permanent 
+housing placement (24 CFR 574.300(b)(7)). However, HOPWA grantees must 
+continue to meet CO detection requirements for housing assisted with 
+Short-Term Rent, Mortgage, and Utility Assistance (STRMU) and Permanent 
+Housing Placement (PHP) as required through Section 101 of Title I of 
+Division Q of the Consolidated Appropriations Act, 2021, Public Law 
+116-260, div. Q, title I, Sec.  101 (2020), which amended the HOPWA 
+statute to require CO alarms or detectors in HOPWA-assisted dwelling 
+units. As of December 27, 2022, HOPWA grantees and project sponsors are 
+required to ensure CO alarms or detectors are installed as required in 
+all HOPWA-assisted units. Additional information on the CO detection 
+requirements for STRMU and PHP can be found in Section X of this 
+Notice.
+    Further, effective December 29, 2024, HOPWA grantees must meet 
+smoke detection requirements for housing assisted with STRMU and PHP as 
+required through Section 601 of Title VI of Division AA of the 
+Consolidated Appropriations Act, 2023, Public Law 117-328 (2022) which 
+amended the HOPWA statute to require qualifying smoke alarms in HOPWA-
+assisted dwelling units. Additional information on the smoke alarm 
+requirements for STRMU and PHP can be found in Section XI of this 
+notice.
+
+XIII. Contact Information
+
+    Questions concerning this notice may be directed to the HUD Office 
+of HIV/AIDS Housing's email box at <a href="/cdn-cgi/l/email-protection#f4bcbba4a3b5b49c8190da939b82"><span class="__cf_email__" data-cfemail="feb6b1aea9bfbe968b9ad0999188">[email&#160;protected]</span></a>.
+
+David C. Woll Jr.,
+Principal Deputy Assistant Secretary for Community Planning and 
+Development.
+[FR Doc. 2025-14743 Filed 8-4-25; 8:45 am]
+BILLING CODE 4210-67-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

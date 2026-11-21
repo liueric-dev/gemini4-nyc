@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 755 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "755",
+    "title" : "Stay of proceeding or action for rent upon failure to make repairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "755",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 755. Stay of proceeding or action for rent upon failure to make\\nrepairs. 1. (a) Upon proper proof that a notice or order to remove or\\ncease a nuisance or a violation or to make necessary and proper repairs\\nhas been made by the municipal department charged with the enforcement\\nof the multiple dwelling law, the multiple residence law, or any other\\napplicable local housing code, or officer or officers thereof charged\\nwith the supervision of such matters, if the condition against which\\nsuch notice or order is directed is, in the opinion of the court, such\\nas to constructively evict the tenant from a portion of the premises\\noccupied by him, or is, or is likely to become, dangerous to life,\\nhealth, or safety, the court before which the case is pending may stay\\nproceedings to dispossess the tenant for non-payment of rent or any\\naction for rent or rental value. In any such proceeding, on the question\\nof fact, as to the condition of the dwelling the landlord or petitioner\\nshall have the burden of disproving the condition of the dwelling as\\nsuch condition is described in the notice or order.\\n  (b) Upon proper proof of the existence of a condition that is in the\\nopinion of the court, such as to constructively evict the tenant from a\\nportion of the premises occupied by him, or is or is, likely to become,\\ndangerous to life, health, or safety, the court before which the case is\\npending may stay proceedings to dispossess the tenant for non-payment of\\nrent, or any action for rent or rental value.\\n  (c) The court shall in no case grant a stay where it appears that the\\ncondition against which the notice or order is directed has been created\\nby the wilful or negligent act of the tenant or his agent.  Such stay\\nshall continue in force, until an order shall be made by the court\\nvacating it, but no order vacating such stay shall be made, except upon\\nthree days' notice of hearing to the tenant, or respondent, or his\\nattorney, and proof that such notice or order has been complied with.\\n  2. The tenant or respondent shall not be entitled to the stay unless\\nhe shall deposit with the clerk of the court the rent then due, which\\nshall, for the purposes of this section, be deemed the same as the\\ntenant was liable for during the preceding month or such as is reserved\\nas the monthly rent in the agreement under which he obtained possession\\nof the premises. The stay may be vacated upon three days' notice upon\\nfailure to deposit with the clerk the rent within five days after it is\\ndue, during the pendency of the proceeding or action.\\n  3. During the continuance of the stay, the court may direct, in its\\ndiscretion, upon three days notice to all parties, the release to a\\ncontractor or materialman of all or such part of the moneys on deposit\\nas shall be sufficient to pay bills properly presented by such\\ncontractor or materialman for the maintenance of and necessary repairs\\nto the building (including but not limited to payments for fuel,\\nelectricity, gas, janitorial services and repairs necessary to remove\\nviolations), upon a showing by the tenant that the landlord is not\\nmeeting his legal obligations therefor or direct such release to a\\nmunicipal department to pay bills and expenses for such maintenance and\\nrepairs upon a showing that the landlord did not meet his legal\\nobligation to provide such maintenance or perform repairs and that the\\ndepartment incurred expenses therefor.  Upon the entry of an order\\nvacating the stay the remaining money deposited shall be paid to the\\nplaintiff or landlord or his duly authorized agent.\\n  4. Neither party shall be entitled to any costs in any proceeding or\\naction wherein the stay shall be granted except that costs may be\\nawarded against the tenant or defendant in the discretion of the court\\nin the event the condition complained of shall be found to be due to the\\nwilful act of the tenant or defendant, such costs, however, not to\\nexceed the sum of twenty-five dollars.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "753",
+      "title" : "Stay in premises occupied for dwelling purposes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "753",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "756",
+      "title" : "Stay of summary proceedings or actions for rent under certain conditions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "756",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

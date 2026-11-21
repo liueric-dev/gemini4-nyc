@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 797-B in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "797-B",
+    "title" : "Respondent",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+    "docLevelId" : "797-B",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 797-b. Respondent. The following may be named as a respondent:\\n  1. The person, corporation, limited liability company, general\\npartnership, limited partnership, or any other entity holding title to\\nthe real property or an ownership interest in the property.\\n  2. The person or organization listed on any state or local residential\\nregistration statement.\\n  3. Anyone who has a legal obligation to maintain the premises\\nconsistent with the warranty of habitability: owner or owners of the\\nfreehold of the premises or lesser estate therein, mortgagee or vendee\\nin possession, assignee of rents, receiver, executor, trustee, lessee,\\nagent, or any other person, firm or corporation, directly or indirectly\\nin control of a dwelling, but not a receiver appointed pursuant to\\nsection three hundred nine of the multiple dwelling law.\\n  4. A public housing authority or a governmental body that owns or\\nmanages the property.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-D",
+      "title" : "Special Proceedings By Tenants For Judgment Directing Repairs of Conditions and Other Relief In Residential Real Property Constituting Violation of Applicable Local or State Housing Standards or Real Property Law §",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-01-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-A",
+      "title" : "Person who may maintain proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-A",
+      "activeDate" : "2024-01-05"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-C",
+      "title" : "Commencement; notice of petition; petition",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-C",
+      "activeDate" : "2024-01-05"
+    }
+  }
+}

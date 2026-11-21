@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1805 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1805",
+    "title" : "Remedies available; transfer of small claims",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1805",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 1805. Remedies available; transfer of small claims. (a) Upon\\ndetermination of a small claim, the court shall direct judgment in\\naccordance with its findings, and, when necessary to do substantial\\njustice between the parties, may condition the entry of judgment upon\\nsuch terms as the court shall deem proper. Pursuant to section fifty-two\\nhundred twenty-nine of the civil practice law and rules, prior to\\nentering a judgment, the court may order the examination of or\\ndisclosure by, the defendant and restrain him to the same extent as if a\\nrestraining notice had been served upon him after judgment was entered.\\n  (b) The court shall have power to transfer any small claim or claims\\nto any other part of the court upon such terms as the rules may provide,\\nand proceed to hear the same according to the usual practice and\\nprocedure applicable to other parts of the court.\\n  (c) No counterclaim shall be permitted in a small claims action,\\nunless the court would have had monetary jurisdiction over the\\ncounterclaim if it had been filed as a small claim. Any other claim\\nsought to be maintained against the claimant may be filed in any court\\nof competent jurisdiction.\\n  (d) If the defendant appears to be engaged in repeated fraudulent or\\nillegal acts or otherwise demonstrates persistent fraud or illegality in\\nthe carrying on, conducting or transaction of business, the court shall\\neither advise the attorney general in relation to his authority under\\nsubdivision twelve of section sixty-three of the executive law, or shall\\nadvise the claimant to do same, but shall retain jurisdiction over the\\nsmall claim.\\n  (e) If the defendant appears to be engaged in fraudulent or illegal\\nacts or otherwise demonstrates fraud or illegality in the carrying on,\\nconducting or transaction of a licensed or certified business, the court\\nshall either advise the appropriate state or local licensing or\\ncertifying authority or shall advise the claimant to do same, but shall\\nretain jurisdiction over the small claim.\\n  (f) The court shall have the jurisdiction defined in section three\\nthousand one of the CPLR to make a declaratory judgment with respect to\\nactions commenced by a party aggrieved by an arbitration award rendered\\npursuant to part one hundred thirty-seven of the rules of the chief\\nadministrator (22 NYCRR Part 137) in which the amount in dispute does\\nnot exceed five thousand dollars.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1804",
+      "title" : "Informal and simplified procedure on small claims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2021-08-06", "2023-07-07" ],
+      "docLevelId" : "1804",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1806",
+      "title" : "Trial by jury; how obtained; discretionary costs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1806",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

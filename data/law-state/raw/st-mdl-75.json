@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 75 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "75",
+    "title" : "Water supply",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "75",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 75. Water supply. 1. In every multiple dwelling erected after April\\neighteenth, nineteen hundred twenty-nine, where space is provided for\\ncooking there shall be in every apartment a proper sink with running\\nwater and with a two-inch waste and trap.\\n  2. The owner of every multiple dwelling shall provide proper\\nappliances to receive and distribute an adequate supply of water, to and\\nin every apartment or suite of rooms at all times of the year, during\\nall hours. Failure in the general supply of water from the street\\nservice main shall not be construed as a failure on the part of the\\nowner, if suitable appliances to receive and distribute such water have\\nbeen provided in the dwelling.\\n  3. For dwellings three or more stories in height erected on or after\\nApril eighteenth, nineteen hundred twenty-nine, and for all dwellings\\nerected after January first, nineteen hundred fifty-one, such supply\\nshall include both hot and cold water at all times of the year, during\\nall hours, except that hot water service shall not be required by this\\nsection in a dwelling erected before April eighteenth, nineteen hundred\\ntwenty-nine, if the owner establishes to the satisfaction of the\\ndepartment that such service was not furnished or required before such\\ndate.\\n  4. No multiple dwelling shall be erected unless it is connected with a\\nstreet service water main.\\n  5. No required sink shall be placed within any water-closet\\ncompartment or within any bathroom containing a water-closet.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T3",
+      "title" : "Sanitation and Health",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "76",
+      "title" : "Water-closet and bath accommodations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "76",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

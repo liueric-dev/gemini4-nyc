@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 3 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "3",
+    "title" : "Local determination of emergency; end of emergency",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2023-12-15", "2024-03-08" ],
+    "docLevelId" : "3",
+    "activeDate" : "2024-03-08",
+    "text" : "  § 3. Local determination of emergency; end of emergency. a. The\\nexistence of public emergency requiring the regulation of residential\\nrents for all or any class or classes of housing accommodations,\\nincluding any plot or parcel of land which had been rented prior to May\\nfirst, nineteen hundred fifty, for the purpose of permitting the tenant\\nthereof to construct or place his own dwelling thereon and on which plot\\nor parcel of land there exists a dwelling owned and occupied by a tenant\\nof such plot or parcel, heretofore destabilized; heretofore or hereafter\\ndecontrolled, exempt, not subject to control, or exempted from\\nregulation and control under the provisions of the emergency housing\\nrent control law, the local emergency housing rent control act or the\\nNew York city rent stabilization law of nineteen hundred sixty-nine; or\\nsubject to stabilization or control under such rent stabilization law,\\nshall be a matter for local determination within each city, town or\\nvillage. Any such determination shall be made by the local legislative\\nbody of such city, town or village on the basis of the supply of housing\\naccommodations within such city, town or village, the condition of such\\naccommodations and the need for regulating and controlling residential\\nrents within such city, town or village. A declaration of emergency may\\nbe made as to any class of housing accommodations if the vacancy rate\\nfor the housing accommodations in such class within such municipality is\\nnot in excess of five percent and a declaration of emergency may be made\\nas to all housing accommodations if the vacancy rate for the housing\\naccommodations within such municipality is not in excess of five\\npercent.\\n  b. The local governing body of a city, town or village having declared\\nan emergency pursuant to subdivision a of this section may at any time,\\non the basis of the supply of housing accommodations within such city,\\ntown or village, the condition of such accommodations and the need for\\ncontinued regulation and control of residential rents within such\\nmunicipality, declare that the emergency is either wholly or partially\\nabated or that the regulation of rents pursuant to this act does not\\nserve to abate such emergency and thereby remove one or more classes of\\naccommodations from regulation under this act. The emergency must be\\ndeclared at an end once the vacancy rate described in subdivision a of\\nthis section exceeds five percent.\\n  c. No resolution declaring the existence or end of an emergency, as\\nauthorized by subdivisions a and b of this section, may be adopted\\nexcept after public hearing held on not less than ten days public\\nnotice, as the local legislative body may reasonably provide.\\n  d. When requested by a municipality or a designee, as a part of a\\nstudy to determine its vacancy rate, owners, or their agent, of housing\\naccommodations in the class of housing accommodations determined, shall\\nprovide the most recent records of rent rolls and, if available, records\\nfor the preceding thirty-six months. Such records shall include the\\ntenant's relevant information relating to finding the vacancy rate of\\nsuch municipality including but not limited to the name, address, and\\namount paid or charged on a weekly, monthly, or annual basis for each\\noccupied housing accommodation and which housing accommodations are\\nvacant at the time of the survey and available for rent. Such records\\nshall also include any housing accommodations that are vacant and not\\navailable for rent and provide the reason why such unit is not available\\nfor rent.\\n  e. A municipality may impose a civil penalty or fee of up to five\\nhundred dollars on an owner or their agent if the owner or their agent\\nrefuses to participate in such vacancy survey and cooperate with the\\nmunicipality or a designee in such vacancy survey, or submits knowingly\\nand intentionally false vacancy information.\\n  f. A nonrespondent owner shall be deemed to have zero vacancies.\\n  g. Identifying data or information shall be kept confidential and\\nshall not be shared, traded, given, or sold to any other entity for any\\npurpose outside of such vacancy study.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "2",
+      "title" : "Legislative finding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "2",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "4",
+      "title" : "Establishment of rent guidelines boards; duties",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2026-02-06" ],
+      "docLevelId" : "4",
+      "activeDate" : "2026-02-06"
+    }
+  }
+}

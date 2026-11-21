@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 65 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "65",
+    "title" : "Boiler rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "65",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 65. Boiler rooms. 1. Except as hereafter provided, in every multiple\\ndwelling erected after April eighteenth, nineteen hundred twenty-nine,\\nwhich is four stories or more in height the boiler shall be enclosed in\\na room or space constructed with fireproof walls extending from the\\nfloor construction to the ceiling construction, and all openings\\ntherefrom to other portions of the dwelling shall be equipped with\\nfireproof doors and assemblies with the doors self-closing. However, in\\nall multiple dwellings, on and after January first, nineteen hundred\\nsixty-six, a room or space provided with a central heating plant shall\\nbe completely enclosed with incombustible materials having a standard\\nfire-resistive rating of at least one hour.\\n  2. In such a dwelling access to a cellar or lowest story in which a\\nboiler is located shall not be through any boiler room, nor shall any\\ncellar or basement stair or any shaft be installed within a boiler room.\\n  3. The department shall have the power to make supplementary\\nregulations relating to boiler or furnace rooms.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "64",
+      "title" : "Lighting; gas meters; gas and oil appliances",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "64",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "66",
+      "title" : "Lodging houses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "66",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

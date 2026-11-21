@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 173 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "173",
+    "title" : "Windows in rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "173",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 173. Windows in rooms. 1. Except as provided in subdivision four of\\nsection one hundred seventy-seven every living room shall have one or\\nmore windows opening directly upon a street or upon a yard or court with\\ndimensions conforming to those specified in section one hundred\\nseventy-two, or upon an inner court or shaft three feet nine inches or\\nmore in width and eight feet or more in length.\\n  2. Such windows shall be so located as to light properly all portions\\nof the room and in each room shall have an aggregate glazed area of at\\nleast one-tenth of the floor area of the room, unless in the opinion of\\nthe department such room is already adequately lighted and ventilated.\\nThe top of at least one window in each living room shall be seven feet\\nor more above the floor except when such room is in the basement or on\\nthe top story, in which case the top of at least one window shall be six\\nfeet or more above the floor. Every such window shall be twelve square\\nfeet or more in area, and shall be so constructed that one-half or more\\nof its area may be opened. However, such window need not be twelve\\nsquare feet in area provided that each room shall have an aggregate\\nglazed window area of at least one-eighth of the superficial floor area\\nof the room.\\n  3. Whenever a basement conforming to the provisions of subdivision\\nfour of section one hundred seventy-seven is permitted to be occupied\\nfor living purposes, every living room, bathroom, water-closet\\ncompartment, kitchen and cooking space therein shall have one or more\\nwindows opening directly upon a street; or upon a yard which is at every\\npoint at least fifteen feet in depth and, above the window sill level of\\nthe first story above the basement, at least twenty feet; or upon a\\ncourt at least two feet in width and extending the entire depth of the\\nlot from the street to the yard. All such yards and courts shall be\\nmeasured at the ground level from the lot line to the building line\\nopposite on the same lot. The windows in each such room shall have an\\naggregate glazed area of at least one-eighth of the total floor area of\\nthe room, and in no event less than twelve square feet. The top edge of\\nthe glazed area of every window shall be nine inches or more below the\\nfinished ceiling and one foot or more above the level of the adjoining\\nground. Every such window shall be so constructed that one-half or more\\nof its area may be opened, and shall be so located as to light and\\nventilate adequately all portions of the room.\\n  4. Any room on a top story may be lighted and ventilated by a skylight\\nof the dimensions specified for windows and arranged to provide\\nventilating openings of six square feet or more. Such a skylight shall\\nbe accepted in lieu of a window. Nothing in this subdivision shall be\\nconstrued to prohibit the installation of a skylight without ventilating\\nopenings of six square feet or more, provided, however, that such\\nskylight shall be equipped with at least one hundred forty-four square\\ninches of ventilation and provided that the glazed area of such skylight\\ntogether with the glazed area of any existing window shall be not less\\nthan one-eighth the superficial floor area of such room.\\n  5. When required by the department transoms, or louvres, or partition\\nsash to private halls or to adjoining rooms in the same apartment shall\\nbe provided to secure thorough ventilation, but no such transom or\\nlouvres or partition sash shall be required in rooms having two windows\\nopening to the outer air if each window contains at least twelve square\\nfeet of area nor in rooms having a mullioned window with an aggregate\\narea of at least twenty-four square feet.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "172",
+      "title" : "Yards and courts",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "172",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "174",
+      "title" : "Size of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "174",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

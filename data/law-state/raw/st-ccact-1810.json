@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1810 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1810",
+    "title" : "Limitation on right to resort to small claims procedures",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1810",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 1810. Limitation on right to resort to small claims procedures. If\\nthe clerk shall find that the procedures of the small claims part are\\nsought to be utilized by a claimant for purposes of oppression or\\nharassment, as where a claimant has previously resorted to such\\nprocedures on the same claim and has been unsuccessful after the hearing\\nthereon, the clerk may in his discretion compel the claimant to make\\napplication to the court for leave to prosecute the claim in the small\\nclaims part.  The court upon such application may inquire into the\\ncircumstances and, if it shall find that the claim has already been\\nadjudicated, or that the claim is sought to be brought on solely for\\npurposes of oppression or harassment and not under color of right, it\\nmay make an order denying the claimant the use of the small claims part\\nto prosecute the claim.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1809",
+      "title" : "Procedures relating to corporations, associations, insurers and assignees",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1809",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1811",
+      "title" : "Notice of small claims judgments and indexing of unpaid claims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-06-19" ],
+      "docLevelId" : "1811",
+      "activeDate" : "2026-06-19"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 30 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "30",
+    "title" : "Lighting and ventilation of rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "30",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 30. Lighting and ventilation of rooms. 1. The provisions of this\\nsection shall apply only to multiple dwellings erected after April\\neighteenth, nineteen hundred twenty-nine, and shall apply to all such\\ndwellings unless otherwise expressly limited.\\n  2. Except as in this section and in sections thirty-three,\\nseventy-six, one hundred fifteen, one hundred sixty, one hundred\\nseventy-six, two hundred, two hundred thirteen, two hundred fifty and\\ntwo hundred fifty-one otherwise expressly provided, every room,\\nincluding kitchens, water-closet compartments and bathrooms, shall have\\nat least one window opening directly upon a street or upon a lawful\\nyard, court or space above a setback upon the same lot as that occupied\\nby the multiple dwelling in which such room is situated. Every such\\nwindow shall be so located as to light properly all portions of the\\nroom.\\n  3. No room in any apartment of three rooms or less, and no room in any\\nnon-fireproof apartment, shall extend in depth, from a street or yard on\\nwhich it faces, more than thirty feet without a window opening on a\\nlawful court.\\n  4. a. Nothing in this section or section twenty-six shall be construed\\nas prohibiting the windows or doors of any room from opening on a\\npartially-enclosed balcony or space above a setback, provided such\\nbalcony or space opens directly to a street or to a lawful yard or court\\nand the area of the front of the balcony or space which is open to the\\nouter air is at least equal to seventy-five per centum of the floor\\nsurface area of such balcony or space. Any living room thus lighted and\\nventilated by windows or doors opening on such balcony or space shall be\\nat most thirty feet in depth measured from the extreme outer face of the\\nwall forming the partial enclosure of the balcony or space. The windows\\nor doors providing light and ventilation for a room or rooms opening\\nexclusively on such a balcony or space shall have altogether at least\\nthe area of one-tenth of the combined floor surface of such room or\\nrooms and the portion of the balcony or space directly adjoining and in\\nfront of such room or rooms.\\n  b. On a fireproof dwelling a balcony or space above a setback\\npermitted under paragraph a of this subdivision may be completely\\nenclosed, provided the outer enclosing wall or walls and roof are\\nconstructed of incombustible materials and the walls are glazed with\\nclear plate glass or plastic equivalent and such glazed wall area is\\nequal to at least fifty per centum of the area of the interior walls\\nenclosing such balcony or space. At least fifty per centum of the glazed\\narea shall be openable directly upon a street or upon a lawful yard or\\ncourt. No window shall open from any bathroom, water-closet compartment\\nor cooking space upon such enclosed balcony.\\n  c. The enclosure on any balcony or a space above a setback shall not\\n(1) be more than one story in height or (2) be erected in violation of\\nthe provisions of paragraph a of subdivision six of section one hundred\\ntwo of this chapter.\\n  5. No multiple dwelling shall be so altered as to diminish the light\\nor ventilation of any room or public hall or stairs in any way not\\napproved by the department.\\n  6. No window shall be required in any public room of a fireproof\\nmultiple dwelling if such room is used solely for storage purposes or\\nhas adequate mechanical ventilation maintained to provide at least the\\nnumber of changes of the air volume of such room approved by the\\ndepartment as necessary for the health and safety of the occupants of\\nsuch dwelling. Any fresh air supply system required by the department\\nfor such purposes shall be provided with adequate means for removing\\ndust from the incoming air and with adequate means to heat such air at\\nleast to sixty degrees Fahrenheit.\\n  7. No required window shall open upon any offset or recess less than\\nsix feet in width except a window of a water-closet compartment,\\nbathroom, or stair or of a cooking compartment less than eighty square\\nfeet in floor surface area.\\n  8. (a) The windows in every room, except a water-closet compartment,\\nbathroom, or cooking space less than eighty square feet in floor surface\\narea, shall have a total area at least one-tenth of the floor surface\\narea of such room and every window in such a room, including a mullioned\\ncasement window, shall be at least twelve square feet in area.\\n  (b) All required windows shall be so constructed that at least\\none-half of their required area may be opened, except that a mullioned\\ncasement window, if otherwise large enough to supply the window\\nrequirements of the room, need be readily openable to the outer air only\\nto the extent of five and one-half square feet of its area.\\n  (c) Where fresh air is furnished in any room through a mechanical\\nventilating unit or system which is an integral part of the dwelling\\nstructure and capable of introducing not less than forty cubic feet of\\nair per minute, the required window area in such room need be openable\\nonly to the extent of twenty-five per cent of such window area but in no\\nevent less than five and one-half square feet.\\n  9. Transoms or partition sash, or louvres having a minimum area of 144\\nsquare inches and arranged to be opened or closed, shall be provided to\\nprivate halls or to adjoining rooms to secure through-ventilation\\nwhenever required by the department, but no such transom or partition\\nsash or louvre shall be required in a room having two windows opening to\\nthe outer air if each window is at least nine square feet in area, or in\\na room having a mullioned or single window with an aggregate area of at\\nleast eighteen square feet.\\n  10. All windows and their assemblies in walls situated on a lot line,\\nexcept those facing on a street, shall be fireproof, with assemblies\\nhaving a fire-resistive rating of at least three-quarters of an hour and\\nglazed with wire glass at least one-quarter of an inch thick. Every\\nopening in a wall situated on a lot line which is less than fifty feet\\nin a vertical direction above a non-fireproof roof of another structure\\nwithin a distance of thirty feet of the wall in which the opening is\\nlocated shall be an automatic fireproof window.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "29",
+      "title" : "Painting of courts and shafts",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "29",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "31",
+      "title" : "Size of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "31",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

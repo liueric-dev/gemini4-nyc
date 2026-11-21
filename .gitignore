@@ -1,0 +1,12 @@
+.env
+# Data that must not reach the public repo (see data/README.md)
+data/*/local/
+data/media/fallback/
+data/.venv/
+# Media files are not committed (1.2 GB); manifest.jsonl records each item's source_url and sha256
+data/media/images/
+data/media/videos/
+# Large regenerable download (NOAA hourly station file)
+data/open-data/raw/od-ncei-ghcnh-usw00094728-2026.psv
+# Local transfer bundles (contain media; not for the repo)
+.claude-transfer/

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 212 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "212",
+    "title" : "Additional jurisdiction and powers",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "212",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 212. Additional jurisdiction and powers. In the exercise of its\\njurisdiction the court shall have all of the powers that the supreme\\ncourt would have in like actions and proceedings.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "211",
+      "title" : "Joinder of causes of action in complaint; effect on jurisdiction",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "211",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "212-A",
+      "title" : "Declaratory judgments involving obligations of insurers and de novo review under part 137 of the rules of the chief administrator of the ...",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "212-A",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 231 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "231",
+    "title" : "Egress",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "231",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 231. Egress. 1. Every non-fireproof tenement exceeding two stories\\nin height and every fireproof tenement erected after May sixteenth,\\nnineteen hundred thirteen, shall have at least two independent means of\\negress, which shall extend from the ground story to the roof, be located\\nremote from each other and be separated from each other by walls.\\n  2. One of such means of egress shall be a flight of stairs constructed\\nas provided in sections two hundred thirty-three to two hundred\\nthirty-eight inclusive; but this sentence shall not be construed to\\nrequire any alteration in the material or width of any stair or its\\ntreads and risers lawfully permitted on April eighteenth, nineteen\\nhundred twenty-nine.\\n  3. The other required means of egress shall be directly accessible at\\neach story to each apartment without having to pass through the first\\nmeans of egress. Such other means of egress shall be any one of the\\nfollowing, as the owner may elect:\\n  a. A system of outside fire-escapes constructed as provided in section\\nfifty-three.\\n  b. An additional stair, either inside or outside, constructed and\\narranged as provided in sections two hundred thirty-three to two hundred\\nthirty-eight inclusive.\\n  c. A fire-tower or fire-stair constructed and arranged as provided in\\nsection two hundred thirty-nine.\\n  d. Except as provided in subdivision nine of section fifty-three, any\\nmeans of egress lawfully permitted on April eighteenth, nineteen hundred\\ntwenty-nine, except wire, chain, cable, vertical ladder, or rope\\nfire-escapes.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "230",
+      "title" : "Chimneys and fireplaces",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "230",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "232",
+      "title" : "Fire-escapes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "232",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

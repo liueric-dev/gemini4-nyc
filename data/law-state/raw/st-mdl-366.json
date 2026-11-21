@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 366 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "366",
+    "title" : "Saving clauses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "366",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 366. Saving clauses.  1. The repeal of any provisions of this\\nchapter, or the repeal of any provisions of any statute of the state or\\nlocal law, ordinance, resolution or regulation shall not affect or\\nimpair any act done, offense committed or right accruing, accrued or\\nacquired, or liability, penalty, forfeiture or punishment incurred or\\nimposed prior to the time of such repeal, but the same may be enjoyed,\\nasserted, enforced, prosecuted or inflicted as fully and to the same\\nextent and in the same manner as if such provisions had not been\\nrepealed.\\n  2. Any action or proceeding, civil or criminal, begun before April\\neighteenth, nineteen hundred twenty-nine, under or pursuant to or by\\nvirtue of any provision of the tenement house law which is superseded by\\nthis chapter as in this chapter provided, may be prosecuted, conducted\\nand completed in the same manner as if such law were not so superseded\\nbut continued to be fully effective.\\n  3. No action or proceeding, civil or criminal, pending at the time\\nthis chapter, as amended by the laws of nineteen hundred forty-six,\\ntakes effect, brought by or against a city or any agency or officer\\nthereof, shall be affected or abated by the adoption of this chapter as\\nso amended, or by anything therein contained, and all such actions and\\nproceedings may be continued in full force and effect under the\\nappropriate provisions of this chapter.\\n  4. No existing right or remedy of any kind shall be lost or impaired\\nby reason of the adoption of this chapter as so amended unless by\\nspecific provision of a law which does not amend all articles of this\\nchapter.\\n  5. Except as otherwise provided in subdivision six of section three,\\nthe provisions of this chapter shall not operate to limit or decrease\\nthe power of any city to adopt local laws, ordinances, resolutions or\\nregulations in relation to any matter in respect to which such power\\nwould otherwise exist.\\n  6. The tenement house law shall, from and after the taking effect of\\nthis chapter, not apply to cities with a population of eight hundred\\nthousand or more.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A11" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A11",
+      "title" : "Laws Repealed; Saving Clauses; Effect",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "11",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "365",
+      "title" : "Laws repealed",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "365",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "367",
+      "title" : "Effect of invalidity in part",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "367",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+New York City Civil Court Act (Open Legislation law id CCA, Chapter 693) > Article 18 Small Claims > § 1814 Designation of defendant; amendment procedure
+
+Source: https://legislation.nysenate.gov/api/3/laws/CCA/1814 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 1814. Designation of defendant; amendment procedure. (a) A party who
+is ignorant, in whole or in part, of the true name of a person,
+partnership, firm or corporation which may properly be made a party
+defendant, may proceed against such defendant in any name used by the
+person, partnership, firm or corporation in conducting business, as
+defined in subdivision (a) of section eighteen hundred thirteen of this
+article.
+  (b) If the true name of the defendant becomes known at any time prior
+to the hearing on the merits, such information shall be brought to the
+attention of the clerk, who shall immediately amend all prior
+proceedings and papers. The clerk shall send an amended notice to the
+defendant, without payment of additional fees by the plaintiff, and all
+subsequent proceedings and papers shall be amended accordingly.
+  (c) In every action in the small claims part, at the hearing on the
+merits, the judge or arbitrator shall determine the defendant's true
+name. The clerk shall amend all prior proceedings and papers to conform
+to such determination, and all subsequent proceedings and papers shall
+be amended accordingly.
+  (d) A party against whom a judgment has been entered pursuant to this
+article, in any proceeding under section five thousand fifteen of the
+civil practice law and rules for relief from such judgment, shall,
+disclose its true name; any and all names in which it is conducting
+business; and any and all names in which it was conducting business at
+the time of the transaction or occurrence on which such judgment is
+based. All subsequent proceedings and papers shall be amended to conform
+to such disclosure.

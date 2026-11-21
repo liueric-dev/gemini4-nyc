@@ -1,0 +1,5844 @@
+{
+  "id" : "jz4z-kudi",
+  "name" : "OATH Hearings Division Case Status",
+  "assetType" : "dataset",
+  "attribution" : "Office of Administrative Trials and Hearings (OATH)",
+  "averageRating" : 20,
+  "category" : "City Government",
+  "createdAt" : 1376920861,
+  "description" : "<b>NOTE:</b> As of May 4, 2026, the Respondent First Name, Respondent Address (Street Name), Respondent Address (City), and Respondent Address (State Name) fields have been removed from this dataset. All other fields and records remain searchable, or as an alternative, use the <a href=\"https://a820-ecbticketfinder.nyc.gov/searchHome.action\">OATH Summons Finder</a> or a summons lookup tool from the issuing agency. You can share any questions you have about this change by entering them in the form on <a href=\"https://nyc.gov/askopendata\">nyc.gov/askopendata</a>.\n\nThe OATH Hearings Division Case Status dataset contains information about alleged public safety and quality of life violations that are filed and adjudicated through the City’s administrative law court, the NYC Office of Administrative Trials and Hearings (OATH) and provides information about the infraction charged, decision outcome, payments, amounts and fees relating to the case. The summonses listed in this dataset are issued and filed at the OATH Hearings Division by City enforcement agencies.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 86110,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1565575561,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 29554326,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1535074625,
+  "publicationGroup" : 1064522,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowIdentifierColumnId" : 372259715,
+  "rowsUpdatedAt" : 1795238267,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 15470939,
+  "totalTimesRated" : 1,
+  "viewCount" : 442967,
+  "viewLastModified" : 1795223841,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1535074625,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1076604,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1535074625,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 372259715,
+    "name" : "Ticket Number",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "ticket_number",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308855,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "ZP1000027",
+      "non_null" : "19024926",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0000000117",
+        "count" : "1"
+      }, {
+        "item" : "0000000126",
+        "count" : "1"
+      }, {
+        "item" : "0000000189",
+        "count" : "1"
+      }, {
+        "item" : "0000000414",
+        "count" : "1"
+      }, {
+        "item" : "0000000D0x",
+        "count" : "1"
+      }, {
+        "item" : "0000004113",
+        "count" : "1"
+      }, {
+        "item" : "0000004248",
+        "count" : "1"
+      }, {
+        "item" : "000000433N",
+        "count" : "1"
+      }, {
+        "item" : "000000632X",
+        "count" : "1"
+      }, {
+        "item" : "000000839N",
+        "count" : "1"
+      }, {
+        "item" : "000000H",
+        "count" : "1"
+      }, {
+        "item" : "000000T",
+        "count" : "1"
+      }, {
+        "item" : "000001",
+        "count" : "1"
+      }, {
+        "item" : "000001064L",
+        "count" : "1"
+      }, {
+        "item" : "0000012087",
+        "count" : "1"
+      }, {
+        "item" : "0000012609",
+        "count" : "1"
+      }, {
+        "item" : "0000012789",
+        "count" : "1"
+      }, {
+        "item" : "0000015D0",
+        "count" : "1"
+      }, {
+        "item" : "000001757Y",
+        "count" : "1"
+      }, {
+        "item" : "0000018189",
+        "count" : "1"
+      } ],
+      "smallest" : "000000000H",
+      "not_null" : "16776912",
+      "count" : "19024926",
+      "cardinality" : "19024926"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259716,
+    "name" : "Violation Date",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "violation_date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 13308857,
+    "width" : 268,
+    "cachedContents" : {
+      "largest" : "5201-05-12T00:00:00.000",
+      "non_null" : "18988024",
+      "null" : "39584",
+      "top" : [ {
+        "item" : "1900-01-01T00:00:00.000",
+        "count" : "42765"
+      }, {
+        "item" : "2012-03-27T00:00:00.000",
+        "count" : "10356"
+      }, {
+        "item" : "2009-09-15T00:00:00.000",
+        "count" : "6511"
+      }, {
+        "item" : "2009-10-26T00:00:00.000",
+        "count" : "6400"
+      }, {
+        "item" : "2009-09-29T00:00:00.000",
+        "count" : "6074"
+      }, {
+        "item" : "2009-09-28T00:00:00.000",
+        "count" : "6063"
+      }, {
+        "item" : "2009-09-16T00:00:00.000",
+        "count" : "5590"
+      }, {
+        "item" : "2005-09-20T00:00:00.000",
+        "count" : "5562"
+      }, {
+        "item" : "2007-09-25T00:00:00.000",
+        "count" : "5528"
+      }, {
+        "item" : "2006-11-13T00:00:00.000",
+        "count" : "5422"
+      }, {
+        "item" : "2019-05-21T00:00:00.000",
+        "count" : "5304"
+      }, {
+        "item" : "2016-03-01T00:00:00.000",
+        "count" : "5246"
+      }, {
+        "item" : "2019-12-10T00:00:00.000",
+        "count" : "5193"
+      }, {
+        "item" : "2017-07-17T00:00:00.000",
+        "count" : "5139"
+      }, {
+        "item" : "2017-06-15T00:00:00.000",
+        "count" : "4958"
+      }, {
+        "item" : "2009-09-30T00:00:00.000",
+        "count" : "4806"
+      }, {
+        "item" : "2002-06-25T00:00:00.000",
+        "count" : "4800"
+      }, {
+        "item" : "2009-10-22T00:00:00.000",
+        "count" : "4782"
+      }, {
+        "item" : "2000-05-11T00:00:00.000",
+        "count" : "4733"
+      }, {
+        "item" : "2009-09-14T00:00:00.000",
+        "count" : "4651"
+      } ],
+      "smallest" : "1900-01-01T00:00:00.000",
+      "not_null" : "16743126",
+      "count" : "19027608",
+      "cardinality" : "13181"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259717,
+    "name" : "Violation Time",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_time",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308859,
+    "width" : 268,
+    "cachedContents" : {
+      "largest" : "61:05:00",
+      "non_null" : "14987328",
+      "null" : "4040280",
+      "top" : [ {
+        "item" : "10:30:00",
+        "count" : "177803"
+      }, {
+        "item" : "08:30:00",
+        "count" : "176688"
+      }, {
+        "item" : "10:00:00",
+        "count" : "163221"
+      }, {
+        "item" : "11:00:00",
+        "count" : "137102"
+      }, {
+        "item" : "08:50:00",
+        "count" : "134350"
+      }, {
+        "item" : "09:00:00",
+        "count" : "132981"
+      }, {
+        "item" : "11:30:00",
+        "count" : "131932"
+      }, {
+        "item" : "08:40:00",
+        "count" : "127726"
+      }, {
+        "item" : "08:45:00",
+        "count" : "122687"
+      }, {
+        "item" : "12:00:00",
+        "count" : "120335"
+      }, {
+        "item" : "00:00:00",
+        "count" : "119520"
+      }, {
+        "item" : "08:20:00",
+        "count" : "118856"
+      }, {
+        "item" : "09:30:00",
+        "count" : "118583"
+      }, {
+        "item" : "08:15:00",
+        "count" : "118430"
+      }, {
+        "item" : "12:30:00",
+        "count" : "116813"
+      }, {
+        "item" : "08:00:00",
+        "count" : "113940"
+      }, {
+        "item" : "08:10:00",
+        "count" : "112090"
+      }, {
+        "item" : "08:35:00",
+        "count" : "92391"
+      }, {
+        "item" : "08:55:00",
+        "count" : "91961"
+      }, {
+        "item" : "08:25:00",
+        "count" : "90504"
+      } ],
+      "smallest" : "00:00:00",
+      "not_null" : "13062789",
+      "count" : "19027608",
+      "cardinality" : "1443"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259718,
+    "name" : "Issuing Agency",
+    "dataTypeName" : "text",
+    "fieldName" : "issuing_agency",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308861,
+    "width" : 268,
+    "cachedContents" : {
+      "largest" : "WATER TANK - DOHMH",
+      "non_null" : "13285354",
+      "null" : "5742254",
+      "top" : [ {
+        "item" : "DOS - ENFORCEMENT AGENTS",
+        "count" : "3003036"
+      }, {
+        "item" : "SANITATION OTHERS",
+        "count" : "2592123"
+      }, {
+        "item" : "DEPT. OF BUILDINGS",
+        "count" : "1226753"
+      }, {
+        "item" : "TAXI_TLC",
+        "count" : "850861"
+      }, {
+        "item" : "SANITATION DEPT",
+        "count" : "818402"
+      }, {
+        "item" : "FIRE DEPARTMENT OF NYC",
+        "count" : "774281"
+      }, {
+        "item" : "DOHMH - BFSCS",
+        "count" : "646888"
+      }, {
+        "item" : "SANITATION RECYCLING",
+        "count" : "552077"
+      }, {
+        "item" : "DEPT OF TRANSPORTATION",
+        "count" : "521131"
+      }, {
+        "item" : "POLICE DEPARTMENT",
+        "count" : "340421"
+      }, {
+        "item" : "SANITATION POLICE",
+        "count" : "257833"
+      }, {
+        "item" : "DEP - BUREAU OF ENV. COMPLIANC",
+        "count" : "240393"
+      }, {
+        "item" : "PCS - DOHMH",
+        "count" : "185735"
+      }, {
+        "item" : "NYPD TRANSPORT INTELLIGENCE DI",
+        "count" : "151276"
+      }, {
+        "item" : "DOHMH - PEST CONTROL",
+        "count" : "147771"
+      }, {
+        "item" : "DEPT OF TRAN",
+        "count" : "134563"
+      }, {
+        "item" : "PARKS DEPARTMENT",
+        "count" : "105987"
+      }, {
+        "item" : "DOH MENTAL HEALTH",
+        "count" : "93369"
+      }, {
+        "item" : "DEPT OF HEALTH",
+        "count" : "74532"
+      }, {
+        "item" : "POLICE DEPT",
+        "count" : "62782"
+      } ],
+      "smallest" : "812 - DOHMH",
+      "not_null" : "11050415",
+      "count" : "19027608",
+      "cardinality" : "180"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259720,
+    "name" : "Respondent Last Name",
+    "dataTypeName" : "text",
+    "fieldName" : "respondent_last_name",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308864,
+    "width" : 340,
+    "cachedContents" : {
+      "largest" : "ZZZ HOME HOLDING LLC C O JIAN",
+      "non_null" : "14015775",
+      "null" : "5011833",
+      "top" : [ {
+        "item" : "CONSOLIDATED EDISON",
+        "count" : "209461"
+      }, {
+        "item" : "CAB CORP",
+        "count" : "125718"
+      }, {
+        "item" : "THE BROOKLYN UNION GAS COMPANY",
+        "count" : "78417"
+      }, {
+        "item" : "TAXI INC",
+        "count" : "55802"
+      }, {
+        "item" : "CON EDISON",
+        "count" : "43502"
+      }, {
+        "item" : "TAXI CORP",
+        "count" : "28220"
+      }, {
+        "item" : "VERIZON NEW YORK INC",
+        "count" : "27339"
+      }, {
+        "item" : "HACKING CORP",
+        "count" : "24438"
+      }, {
+        "item" : "SINGH",
+        "count" : "22030"
+      }, {
+        "item" : "RODRIGUEZ",
+        "count" : "21367"
+      }, {
+        "item" : "EMPIRE CITY SUBWAY",
+        "count" : "19379"
+      }, {
+        "item" : "TRANS CORP",
+        "count" : "18104"
+      }, {
+        "item" : "CHEN",
+        "count" : "17366"
+      }, {
+        "item" : "WILLIAMS",
+        "count" : "16740"
+      }, {
+        "item" : "MOHAMED",
+        "count" : "16670"
+      }, {
+        "item" : "AHMED",
+        "count" : "15543"
+      }, {
+        "item" : "OWNER",
+        "count" : "14971"
+      }, {
+        "item" : "MARTINEZ",
+        "count" : "14896"
+      }, {
+        "item" : "MOHAMMAD",
+        "count" : "14858"
+      }, {
+        "item" : "PEREZ",
+        "count" : "14346"
+      } ],
+      "smallest" : "-",
+      "not_null" : "11840858",
+      "count" : "19027608",
+      "cardinality" : "2500087"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259721,
+    "name" : "Balance Due",
+    "dataTypeName" : "number",
+    "fieldName" : "balance_due",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308865,
+    "width" : 232,
+    "cachedContents" : {
+      "largest" : "98000",
+      "non_null" : "5992721",
+      "average" : "326.4824901745865",
+      "null" : "13034887",
+      "top" : [ {
+        "item" : "0",
+        "count" : "4437227"
+      }, {
+        "item" : "300",
+        "count" : "505355"
+      }, {
+        "item" : "25",
+        "count" : "90898"
+      }, {
+        "item" : "50",
+        "count" : "83213"
+      }, {
+        "item" : "600",
+        "count" : "71988"
+      }, {
+        "item" : "1000",
+        "count" : "63916"
+      }, {
+        "item" : "-100",
+        "count" : "63451"
+      }, {
+        "item" : "-25",
+        "count" : "58117"
+      }, {
+        "item" : "100",
+        "count" : "47875"
+      }, {
+        "item" : "-50",
+        "count" : "32868"
+      }, {
+        "item" : "200",
+        "count" : "32527"
+      }, {
+        "item" : "350",
+        "count" : "21144"
+      }, {
+        "item" : "6250",
+        "count" : "20450"
+      }, {
+        "item" : "75",
+        "count" : "19227"
+      }, {
+        "item" : "1250",
+        "count" : "18419"
+      }, {
+        "item" : "80",
+        "count" : "17980"
+      }, {
+        "item" : "5000",
+        "count" : "17348"
+      }, {
+        "item" : "2500",
+        "count" : "16684"
+      }, {
+        "item" : "500",
+        "count" : "16073"
+      }, {
+        "item" : "2000",
+        "count" : "11729"
+      } ],
+      "smallest" : "-47400",
+      "not_null" : "4038524",
+      "count" : "19027608",
+      "sum" : "1247143850",
+      "cardinality" : "6827"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259722,
+    "name" : "Violation Location (Borough)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_borough",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308866,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "STATEN IS",
+      "non_null" : "19015997",
+      "null" : "11611",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "4583717"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "4230920"
+      }, {
+        "item" : "QUEENS",
+        "count" : "3508108"
+      }, {
+        "item" : "BRONX",
+        "count" : "3117114"
+      }, {
+        "item" : "NOT NYC",
+        "count" : "2998774"
+      }, {
+        "item" : "STATEN IS",
+        "count" : "577364"
+      } ],
+      "smallest" : "BRONX",
+      "not_null" : "16765287",
+      "count" : "19027608",
+      "cardinality" : "6"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259723,
+    "name" : "Violation Location (Block No.)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_block_no",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308867,
+    "width" : 460,
+    "cachedContents" : {
+      "largest" : "71724",
+      "non_null" : "12914745",
+      "null" : "6112863",
+      "top" : [ {
+        "item" : "00000",
+        "count" : "1325108"
+      }, {
+        "item" : "02154",
+        "count" : "15890"
+      }, {
+        "item" : "02165",
+        "count" : "12359"
+      }, {
+        "item" : "02174",
+        "count" : "10307"
+      }, {
+        "item" : "02762",
+        "count" : "9609"
+      }, {
+        "item" : "02877",
+        "count" : "9330"
+      }, {
+        "item" : "02782",
+        "count" : "9301"
+      }, {
+        "item" : "03154",
+        "count" : "9064"
+      }, {
+        "item" : "01988",
+        "count" : "8733"
+      }, {
+        "item" : "02761",
+        "count" : "8394"
+      }, {
+        "item" : "03248",
+        "count" : "8276"
+      }, {
+        "item" : "01111",
+        "count" : "8235"
+      }, {
+        "item" : "02879",
+        "count" : "8137"
+      }, {
+        "item" : "02142",
+        "count" : "7927"
+      }, {
+        "item" : "02153",
+        "count" : "7927"
+      }, {
+        "item" : "02180",
+        "count" : "7892"
+      }, {
+        "item" : "02137",
+        "count" : "7782"
+      }, {
+        "item" : "00809",
+        "count" : "7762"
+      }, {
+        "item" : "01774",
+        "count" : "7745"
+      }, {
+        "item" : "03253",
+        "count" : "7726"
+      } ],
+      "smallest" : "00000",
+      "not_null" : "11253545",
+      "count" : "19027608",
+      "cardinality" : "13819"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259724,
+    "name" : "Violation Location (Lot No.)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_lot_no",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308868,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "9999",
+      "non_null" : "12914848",
+      "null" : "6112760",
+      "top" : [ {
+        "item" : "0000",
+        "count" : "1325818"
+      }, {
+        "item" : "0001",
+        "count" : "856866"
+      }, {
+        "item" : "7501",
+        "count" : "193805"
+      }, {
+        "item" : "0029",
+        "count" : "188001"
+      }, {
+        "item" : "0005",
+        "count" : "179242"
+      }, {
+        "item" : "0010",
+        "count" : "176844"
+      }, {
+        "item" : "0006",
+        "count" : "176603"
+      }, {
+        "item" : "0007",
+        "count" : "171177"
+      }, {
+        "item" : "0033",
+        "count" : "165954"
+      }, {
+        "item" : "0008",
+        "count" : "165058"
+      }, {
+        "item" : "0040",
+        "count" : "161180"
+      }, {
+        "item" : "0009",
+        "count" : "160012"
+      }, {
+        "item" : "0030",
+        "count" : "159730"
+      }, {
+        "item" : "0012",
+        "count" : "159277"
+      }, {
+        "item" : "0036",
+        "count" : "159267"
+      }, {
+        "item" : "0035",
+        "count" : "158035"
+      }, {
+        "item" : "0020",
+        "count" : "155500"
+      }, {
+        "item" : "0021",
+        "count" : "154962"
+      }, {
+        "item" : "0023",
+        "count" : "150701"
+      }, {
+        "item" : "0025",
+        "count" : "150225"
+      } ],
+      "smallest" : "0",
+      "not_null" : "11253251",
+      "count" : "19027608",
+      "cardinality" : "2041"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259725,
+    "name" : "Violation Location (House #)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_house",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308869,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "ZERO",
+      "non_null" : "10643791",
+      "null" : "8383817",
+      "top" : [ {
+        "item" : "1",
+        "count" : "26795"
+      }, {
+        "item" : "100",
+        "count" : "21873"
+      }, {
+        "item" : "200",
+        "count" : "21871"
+      }, {
+        "item" : "2",
+        "count" : "19300"
+      }, {
+        "item" : "15",
+        "count" : "19133"
+      }, {
+        "item" : "50",
+        "count" : "18559"
+      }, {
+        "item" : "101",
+        "count" : "17139"
+      }, {
+        "item" : "130",
+        "count" : "17089"
+      }, {
+        "item" : "55",
+        "count" : "16719"
+      }, {
+        "item" : "20",
+        "count" : "16615"
+      }, {
+        "item" : "40",
+        "count" : "16396"
+      }, {
+        "item" : "10",
+        "count" : "16161"
+      }, {
+        "item" : "120",
+        "count" : "15943"
+      }, {
+        "item" : "25",
+        "count" : "15651"
+      }, {
+        "item" : "30",
+        "count" : "15595"
+      }, {
+        "item" : "150",
+        "count" : "15476"
+      }, {
+        "item" : "110",
+        "count" : "15344"
+      }, {
+        "item" : "250",
+        "count" : "15311"
+      }, {
+        "item" : "60",
+        "count" : "15103"
+      }, {
+        "item" : "11",
+        "count" : "15102"
+      } ],
+      "smallest" : "`",
+      "not_null" : "8885036",
+      "count" : "19027608",
+      "cardinality" : "73679"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259726,
+    "name" : "Violation Location (Street Name)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_street_name",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308870,
+    "width" : 484,
+    "cachedContents" : {
+      "largest" : "ZZZ",
+      "non_null" : "12102032",
+      "null" : "6925576",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "194059"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "75904"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "75768"
+      }, {
+        "item" : "ST NICHOLAS AVENUE",
+        "count" : "72920"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "59818"
+      }, {
+        "item" : "JAMAICA AVENUE",
+        "count" : "58232"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "50436"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "48210"
+      }, {
+        "item" : "LIBERTY AVENUE",
+        "count" : "43784"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "43598"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "41287"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "40571"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "40470"
+      }, {
+        "item" : "FLATBUSH AVENUE",
+        "count" : "40073"
+      }, {
+        "item" : "ROOSEVELT AVENUE",
+        "count" : "39022"
+      }, {
+        "item" : "WHITE PLAINS ROAD",
+        "count" : "38712"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "35634"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "35237"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "35209"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "31379"
+      } ],
+      "smallest" : "`",
+      "not_null" : "10173641",
+      "count" : "19027608",
+      "cardinality" : "850488"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259727,
+    "name" : "Violation Location (Floor)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_floor",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308871,
+    "width" : 412,
+    "cachedContents" : {
+      "non_null" : "1",
+      "largest" : "00",
+      "null" : "19027607",
+      "top" : [ {
+        "item" : "00",
+        "count" : "1"
+      } ],
+      "not_null" : "0",
+      "smallest" : "00",
+      "count" : "19027608",
+      "cardinality" : "1"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259728,
+    "name" : "Violation Location (City)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_city",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308872,
+    "width" : 400,
+    "cachedContents" : {
+      "largest" : "ZZ",
+      "non_null" : "15728479",
+      "null" : "3299129",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "4000733"
+      }, {
+        "item" : "NEW YORK",
+        "count" : "3095385"
+      }, {
+        "item" : "BRONX",
+        "count" : "2774684"
+      }, {
+        "item" : "QUEENS",
+        "count" : "503330"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "433117"
+      }, {
+        "item" : "JAMAICA",
+        "count" : "352236"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "318080"
+      }, {
+        "item" : "FLUSHING",
+        "count" : "241820"
+      }, {
+        "item" : "ASTORIA",
+        "count" : "220882"
+      }, {
+        "item" : "NY",
+        "count" : "216247"
+      }, {
+        "item" : "WOODSIDE",
+        "count" : "211430"
+      }, {
+        "item" : "CORONA",
+        "count" : "186480"
+      }, {
+        "item" : "BK",
+        "count" : "148094"
+      }, {
+        "item" : "RIDGEWOOD",
+        "count" : "130210"
+      }, {
+        "item" : "ELMHURST",
+        "count" : "122849"
+      }, {
+        "item" : "QNS",
+        "count" : "111316"
+      }, {
+        "item" : "BKLYN",
+        "count" : "100190"
+      }, {
+        "item" : "JACKSON HEIGHTS",
+        "count" : "95582"
+      }, {
+        "item" : "LIC",
+        "count" : "92520"
+      }, {
+        "item" : "L.I.C.",
+        "count" : "92163"
+      } ],
+      "smallest" : "~",
+      "not_null" : "13480593",
+      "count" : "19027608",
+      "cardinality" : "13476"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259729,
+    "name" : "Violation Location (Zip Code)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_zip_code",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308873,
+    "width" : 448,
+    "cachedContents" : {
+      "largest" : "YONKERS",
+      "non_null" : "17429684",
+      "null" : "1597924",
+      "top" : [ {
+        "item" : "00000",
+        "count" : "595285"
+      }, {
+        "item" : "11101",
+        "count" : "367066"
+      }, {
+        "item" : "11368",
+        "count" : "268316"
+      }, {
+        "item" : "11377",
+        "count" : "258185"
+      }, {
+        "item" : "10456",
+        "count" : "228180"
+      }, {
+        "item" : "10467",
+        "count" : "224847"
+      }, {
+        "item" : "11220",
+        "count" : "223318"
+      }, {
+        "item" : "11221",
+        "count" : "219272"
+      }, {
+        "item" : "10457",
+        "count" : "219218"
+      }, {
+        "item" : "10458",
+        "count" : "214509"
+      }, {
+        "item" : "11207",
+        "count" : "211098"
+      }, {
+        "item" : "11226",
+        "count" : "186730"
+      }, {
+        "item" : "11385",
+        "count" : "186367"
+      }, {
+        "item" : "11211",
+        "count" : "180741"
+      }, {
+        "item" : "10453",
+        "count" : "178970"
+      }, {
+        "item" : "10027",
+        "count" : "171627"
+      }, {
+        "item" : "10466",
+        "count" : "169963"
+      }, {
+        "item" : "11208",
+        "count" : "168515"
+      }, {
+        "item" : "10472",
+        "count" : "168078"
+      }, {
+        "item" : "11230",
+        "count" : "167727"
+      } ],
+      "smallest" : "`",
+      "not_null" : "15343510",
+      "count" : "19027608",
+      "cardinality" : "19994"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259730,
+    "name" : "Violation Location (State Name)",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_location_state_name",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308874,
+    "width" : 472,
+    "cachedContents" : {
+      "largest" : "WASHINGTON",
+      "non_null" : "11918801",
+      "null" : "7108807",
+      "top" : [ {
+        "item" : "NEW YORK",
+        "count" : "11918105"
+      }, {
+        "item" : "OTHER",
+        "count" : "513"
+      }, {
+        "item" : "NEW JERSEY",
+        "count" : "89"
+      }, {
+        "item" : "MASSACHUSETTS",
+        "count" : "15"
+      }, {
+        "item" : "KENTUCKY",
+        "count" : "9"
+      }, {
+        "item" : "FLORIDA",
+        "count" : "9"
+      }, {
+        "item" : "NORTH CAROLINA",
+        "count" : "7"
+      }, {
+        "item" : "PENNSYLVANIA",
+        "count" : "5"
+      }, {
+        "item" : "CONNECTICUT",
+        "count" : "5"
+      }, {
+        "item" : "NEBRASKA",
+        "count" : "4"
+      }, {
+        "item" : "TEXAS",
+        "count" : "4"
+      }, {
+        "item" : "LOUISIANA",
+        "count" : "4"
+      }, {
+        "item" : "CALIFORNIA",
+        "count" : "4"
+      }, {
+        "item" : "MARYLAND",
+        "count" : "3"
+      }, {
+        "item" : "COLORADO",
+        "count" : "3"
+      }, {
+        "item" : "MISSOURI",
+        "count" : "3"
+      }, {
+        "item" : "WASHINGTON",
+        "count" : "2"
+      }, {
+        "item" : "ARKANSAS",
+        "count" : "2"
+      }, {
+        "item" : "GEORGIA",
+        "count" : "2"
+      }, {
+        "item" : "MAINE",
+        "count" : "2"
+      } ],
+      "smallest" : "ALASKA",
+      "not_null" : "9994581",
+      "count" : "19027608",
+      "cardinality" : "28"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259731,
+    "name" : "Respondent Address (Borough)",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_address_borough",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308875,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "STATEN IS",
+      "non_null" : "18756593",
+      "null" : "271015",
+      "top" : [ {
+        "item" : "NOT NYC",
+        "count" : "4950424"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "4093047"
+      }, {
+        "item" : "QUEENS",
+        "count" : "3349842"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "3178345"
+      }, {
+        "item" : "BRONX",
+        "count" : "2706486"
+      }, {
+        "item" : "STATEN IS",
+        "count" : "478449"
+      } ],
+      "smallest" : "BRONX",
+      "not_null" : "16501355",
+      "count" : "19027608",
+      "cardinality" : "6"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259732,
+    "name" : "Respondent Address (House #)",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_address_house",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308876,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "ZYIT",
+      "non_null" : "14811097",
+      "null" : "4216511",
+      "top" : [ {
+        "item" : "4",
+        "count" : "236241"
+      }, {
+        "item" : "1",
+        "count" : "163416"
+      }, {
+        "item" : "140",
+        "count" : "43197"
+      }, {
+        "item" : "330",
+        "count" : "42152"
+      }, {
+        "item" : "41-25",
+        "count" : "39930"
+      }, {
+        "item" : "30",
+        "count" : "34375"
+      }, {
+        "item" : "625",
+        "count" : "34362"
+      }, {
+        "item" : "50",
+        "count" : "31923"
+      }, {
+        "item" : "16",
+        "count" : "31892"
+      }, {
+        "item" : "200",
+        "count" : "31018"
+      }, {
+        "item" : "100",
+        "count" : "29762"
+      }, {
+        "item" : "54-11",
+        "count" : "29028"
+      }, {
+        "item" : "40",
+        "count" : "28745"
+      }, {
+        "item" : "15",
+        "count" : "28157"
+      }, {
+        "item" : "49-13",
+        "count" : "28001"
+      }, {
+        "item" : "10",
+        "count" : "27804"
+      }, {
+        "item" : "2",
+        "count" : "26841"
+      }, {
+        "item" : "250",
+        "count" : "26442"
+      }, {
+        "item" : "111",
+        "count" : "26344"
+      }, {
+        "item" : "60",
+        "count" : "24693"
+      } ],
+      "smallest" : "`",
+      "not_null" : "12902246",
+      "count" : "19027608",
+      "cardinality" : "78795"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259735,
+    "name" : "Respondent Address (Zip Code)",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_address_zip_code",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308879,
+    "width" : 448,
+    "cachedContents" : {
+      "largest" : "YP",
+      "non_null" : "14394368",
+      "null" : "4633240",
+      "top" : [ {
+        "item" : "10003",
+        "count" : "368615"
+      }, {
+        "item" : "11368",
+        "count" : "227120"
+      }, {
+        "item" : "11201",
+        "count" : "198048"
+      }, {
+        "item" : "11220",
+        "count" : "196490"
+      }, {
+        "item" : "10456",
+        "count" : "194433"
+      }, {
+        "item" : "10467",
+        "count" : "193984"
+      }, {
+        "item" : "10457",
+        "count" : "190665"
+      }, {
+        "item" : "11221",
+        "count" : "186765"
+      }, {
+        "item" : "11207",
+        "count" : "186078"
+      }, {
+        "item" : "10458",
+        "count" : "183950"
+      }, {
+        "item" : "11219",
+        "count" : "172549"
+      }, {
+        "item" : "11211",
+        "count" : "172180"
+      }, {
+        "item" : "11385",
+        "count" : "162977"
+      }, {
+        "item" : "10466",
+        "count" : "156385"
+      }, {
+        "item" : "10019",
+        "count" : "153255"
+      }, {
+        "item" : "11233",
+        "count" : "149074"
+      }, {
+        "item" : "10472",
+        "count" : "145832"
+      }, {
+        "item" : "10462",
+        "count" : "143935"
+      }, {
+        "item" : "11208",
+        "count" : "142163"
+      }, {
+        "item" : "10459",
+        "count" : "140267"
+      } ],
+      "smallest" : "`",
+      "not_null" : "12574828",
+      "count" : "19027608",
+      "cardinality" : "24301"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259737,
+    "name" : "Hearing Status",
+    "dataTypeName" : "text",
+    "fieldName" : "hearing_status",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308881,
+    "width" : 268,
+    "cachedContents" : {
+      "largest" : "WRITTEN OFF",
+      "non_null" : "14989498",
+      "null" : "4038110",
+      "top" : [ {
+        "item" : "PAID IN FULL",
+        "count" : "8422091"
+      }, {
+        "item" : "WRITTEN OFF",
+        "count" : "3037700"
+      }, {
+        "item" : "HEARING COMPLETED",
+        "count" : "2193700"
+      }, {
+        "item" : "DOCKETED",
+        "count" : "893186"
+      }, {
+        "item" : "DEFAULTED",
+        "count" : "199896"
+      }, {
+        "item" : "NEW ISSUANCE",
+        "count" : "150683"
+      }, {
+        "item" : "RESCHEDULED",
+        "count" : "34453"
+      }, {
+        "item" : "APPEAL DECIS RENDERD",
+        "count" : "31263"
+      }, {
+        "item" : "PAY BEFORE ISS",
+        "count" : "11753"
+      }, {
+        "item" : "ASSIGNED",
+        "count" : "4483"
+      }, {
+        "item" : "STAYED",
+        "count" : "3986"
+      }, {
+        "item" : "STIPULATION OFFERED",
+        "count" : "3408"
+      }, {
+        "item" : "HRG BEFORE ASSIGN",
+        "count" : "827"
+      }, {
+        "item" : "ACCEPTED FOR APPEAL",
+        "count" : "796"
+      }, {
+        "item" : "ASSIGNED TO APPEALS",
+        "count" : "485"
+      }, {
+        "item" : "PERFECTION REQUIRED",
+        "count" : "345"
+      }, {
+        "item" : "STIP NEEDS REVIEW",
+        "count" : "186"
+      }, {
+        "item" : "STAY DENIED",
+        "count" : "120"
+      }, {
+        "item" : "STAY REQUESTED",
+        "count" : "118"
+      }, {
+        "item" : "ADJOURNED",
+        "count" : "19"
+      } ],
+      "smallest" : "ACCEPTED FOR APPEAL",
+      "not_null" : "13062835",
+      "count" : "19027608",
+      "cardinality" : "20"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259738,
+    "name" : "Hearing Result",
+    "dataTypeName" : "text",
+    "fieldName" : "hearing_result",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308882,
+    "width" : 268,
+    "cachedContents" : {
+      "largest" : "WRITTEN OFF",
+      "non_null" : "11034886",
+      "null" : "7992722",
+      "top" : [ {
+        "item" : "IN VIOLATION",
+        "count" : "2631590"
+      }, {
+        "item" : "WRITTEN OFF",
+        "count" : "2109938"
+      }, {
+        "item" : "DEFAULTED",
+        "count" : "2039042"
+      }, {
+        "item" : "DISMISSED",
+        "count" : "1514088"
+      }, {
+        "item" : "DEFAULT",
+        "count" : "1155260"
+      }, {
+        "item" : "SETTL IN-VIO",
+        "count" : "385211"
+      }, {
+        "item" : "SUSTAINED",
+        "count" : "358241"
+      }, {
+        "item" : "Sustained",
+        "count" : "250718"
+      }, {
+        "item" : "STIPULATED",
+        "count" : "144514"
+      }, {
+        "item" : "DEFAULT/NO APPEARNCE",
+        "count" : "108561"
+      }, {
+        "item" : "Default/ No Appearance",
+        "count" : "93849"
+      }, {
+        "item" : "POP IN-VIOL",
+        "count" : "64524"
+      }, {
+        "item" : "Dismissed Defective Service",
+        "count" : "36352"
+      }, {
+        "item" : "Dismissed No Violation/On the Merits",
+        "count" : "32950"
+      }, {
+        "item" : "ADMIT IN-VIO",
+        "count" : "20372"
+      }, {
+        "item" : "ADJOURNED",
+        "count" : "16422"
+      }, {
+        "item" : "REOPENED/DEFAULT/CON",
+        "count" : "9723"
+      }, {
+        "item" : "POP/IN-VIOL",
+        "count" : "7552"
+      }, {
+        "item" : "Dismissed - Wrong Party Named",
+        "count" : "6372"
+      }, {
+        "item" : "NONE",
+        "count" : "6005"
+      } ],
+      "smallest" : "ADJOURNED",
+      "not_null" : "9668632",
+      "count" : "19027608",
+      "cardinality" : "71"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259739,
+    "name" : "Scheduled Hearing Location",
+    "dataTypeName" : "text",
+    "fieldName" : "scheduled_hearing_location",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308883,
+    "width" : 412,
+    "cachedContents" : {
+      "largest" : "STATEN IS",
+      "non_null" : "14164796",
+      "null" : "4862812",
+      "top" : [ {
+        "item" : "MANHATTAN",
+        "count" : "4558524"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "3699973"
+      }, {
+        "item" : "BRONX",
+        "count" : "2504775"
+      }, {
+        "item" : "QUEENS",
+        "count" : "2231879"
+      }, {
+        "item" : "STATEN IS",
+        "count" : "495352"
+      }, {
+        "item" : "SAU: MANH",
+        "count" : "366987"
+      }, {
+        "item" : "BY PHONE",
+        "count" : "97389"
+      }, {
+        "item" : "SAU: BKLN",
+        "count" : "96799"
+      }, {
+        "item" : "SAU: BX",
+        "count" : "67013"
+      }, {
+        "item" : "ONE-CLICK",
+        "count" : "37688"
+      }, {
+        "item" : "SAU: STAT",
+        "count" : "6789"
+      }, {
+        "item" : "SAU: QNS",
+        "count" : "1628"
+      } ],
+      "smallest" : "BRONX",
+      "not_null" : "12649986",
+      "count" : "19027608",
+      "cardinality" : "12"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259740,
+    "name" : "Hearing Date",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "hearing_date",
+    "position" : 26,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 13308884,
+    "width" : 244,
+    "cachedContents" : {
+      "largest" : "9999-10-14T00:00:00.000",
+      "non_null" : "16849942",
+      "null" : "2177666",
+      "top" : [ {
+        "item" : "2012-03-30T00:00:00.000",
+        "count" : "11683"
+      }, {
+        "item" : "2010-12-10T00:00:00.000",
+        "count" : "10883"
+      }, {
+        "item" : "2011-09-16T00:00:00.000",
+        "count" : "8816"
+      }, {
+        "item" : "2004-02-25T00:00:00.000",
+        "count" : "8803"
+      }, {
+        "item" : "2006-01-06T00:00:00.000",
+        "count" : "8353"
+      }, {
+        "item" : "2010-06-18T00:00:00.000",
+        "count" : "8105"
+      }, {
+        "item" : "2007-02-28T00:00:00.000",
+        "count" : "8020"
+      }, {
+        "item" : "2005-09-28T00:00:00.000",
+        "count" : "7565"
+      }, {
+        "item" : "2007-03-07T00:00:00.000",
+        "count" : "7376"
+      }, {
+        "item" : "2005-09-07T00:00:00.000",
+        "count" : "7210"
+      }, {
+        "item" : "2006-11-08T00:00:00.000",
+        "count" : "7061"
+      }, {
+        "item" : "2006-10-25T00:00:00.000",
+        "count" : "6901"
+      }, {
+        "item" : "2006-11-29T00:00:00.000",
+        "count" : "6802"
+      }, {
+        "item" : "2006-05-24T00:00:00.000",
+        "count" : "6782"
+      }, {
+        "item" : "2002-11-27T00:00:00.000",
+        "count" : "6772"
+      }, {
+        "item" : "2005-07-27T00:00:00.000",
+        "count" : "6733"
+      }, {
+        "item" : "2004-01-15T00:00:00.000",
+        "count" : "6668"
+      }, {
+        "item" : "2023-08-07T00:00:00.000",
+        "count" : "6650"
+      }, {
+        "item" : "2001-10-25T00:00:00.000",
+        "count" : "6627"
+      }, {
+        "item" : "2010-05-21T00:00:00.000",
+        "count" : "6615"
+      } ],
+      "smallest" : "1900-01-01T00:00:00.000",
+      "not_null" : "14637114",
+      "count" : "19027608",
+      "cardinality" : "10664"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259741,
+    "name" : "Hearing Time",
+    "dataTypeName" : "text",
+    "fieldName" : "hearing_time",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308885,
+    "width" : 244,
+    "cachedContents" : {
+      "largest" : "83:07:00",
+      "non_null" : "16038153",
+      "null" : "2989455",
+      "top" : [ {
+        "item" : "08:30:00",
+        "count" : "10496333"
+      }, {
+        "item" : "10:30:00",
+        "count" : "2494021"
+      }, {
+        "item" : "13:00:00",
+        "count" : "632294"
+      }, {
+        "item" : "10:00:00",
+        "count" : "560693"
+      }, {
+        "item" : "09:30:00",
+        "count" : "471805"
+      }, {
+        "item" : "09:00:00",
+        "count" : "452504"
+      }, {
+        "item" : "14:30:00",
+        "count" : "304534"
+      }, {
+        "item" : "13:30:00",
+        "count" : "156177"
+      }, {
+        "item" : "08:00:00",
+        "count" : "86207"
+      }, {
+        "item" : "11:30:00",
+        "count" : "84539"
+      }, {
+        "item" : "15:00:00",
+        "count" : "65151"
+      }, {
+        "item" : "11:00:00",
+        "count" : "53148"
+      }, {
+        "item" : "00:00:00",
+        "count" : "40914"
+      }, {
+        "item" : "12:30:00",
+        "count" : "39589"
+      }, {
+        "item" : "16:00:00",
+        "count" : "9754"
+      }, {
+        "item" : "12:00:00",
+        "count" : "8816"
+      }, {
+        "item" : "14:00:00",
+        "count" : "7288"
+      }, {
+        "item" : "15:30:00",
+        "count" : "5616"
+      }, {
+        "item" : "01:00:00",
+        "count" : "4788"
+      }, {
+        "item" : "01:30:00",
+        "count" : "4549"
+      } ],
+      "smallest" : "00:00:00",
+      "not_null" : "14030803",
+      "count" : "19027608",
+      "cardinality" : "19768"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259742,
+    "name" : "Decision Location (Borough)",
+    "dataTypeName" : "text",
+    "fieldName" : "decision_location_borough",
+    "position" : 28,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308886,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "STATEN IS",
+      "non_null" : "4233643",
+      "null" : "14793965",
+      "top" : [ {
+        "item" : "MANHATTAN",
+        "count" : "1752958"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "731958"
+      }, {
+        "item" : "QUEENS",
+        "count" : "476302"
+      }, {
+        "item" : "BRONX",
+        "count" : "352638"
+      }, {
+        "item" : "BY PHONE",
+        "count" : "325484"
+      }, {
+        "item" : "SAU: MANH",
+        "count" : "271042"
+      }, {
+        "item" : "STATEN IS",
+        "count" : "158446"
+      }, {
+        "item" : "ONE-CLICK",
+        "count" : "97056"
+      }, {
+        "item" : "LONG ISLA",
+        "count" : "63579"
+      }, {
+        "item" : "SAU: BKLN",
+        "count" : "1478"
+      }, {
+        "item" : "SAU: BX",
+        "count" : "1220"
+      }, {
+        "item" : "SAU: QNS",
+        "count" : "1213"
+      }, {
+        "item" : "SAU: STAT",
+        "count" : "196"
+      }, {
+        "item" : "SAU: LIC",
+        "count" : "73"
+      } ],
+      "smallest" : "BRONX",
+      "not_null" : "3675459",
+      "count" : "19027608",
+      "cardinality" : "14"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259743,
+    "name" : "Decision Date",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "decision_date",
+    "position" : 29,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 13308887,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "9997-05-19T00:00:00.000",
+      "non_null" : "12562008",
+      "null" : "6465600",
+      "top" : [ {
+        "item" : "2010-12-10T00:00:00.000",
+        "count" : "8857"
+      }, {
+        "item" : "2012-09-27T00:00:00.000",
+        "count" : "8747"
+      }, {
+        "item" : "2012-06-21T00:00:00.000",
+        "count" : "8190"
+      }, {
+        "item" : "2013-07-22T00:00:00.000",
+        "count" : "7956"
+      }, {
+        "item" : "2019-06-19T00:00:00.000",
+        "count" : "7855"
+      }, {
+        "item" : "2016-07-26T00:00:00.000",
+        "count" : "7460"
+      }, {
+        "item" : "2016-02-01T00:00:00.000",
+        "count" : "6810"
+      }, {
+        "item" : "2016-05-31T00:00:00.000",
+        "count" : "6752"
+      }, {
+        "item" : "2015-12-28T00:00:00.000",
+        "count" : "6545"
+      }, {
+        "item" : "2015-11-02T00:00:00.000",
+        "count" : "6544"
+      }, {
+        "item" : "2016-08-01T00:00:00.000",
+        "count" : "6504"
+      }, {
+        "item" : "2010-06-01T00:00:00.000",
+        "count" : "6468"
+      }, {
+        "item" : "2016-05-02T00:00:00.000",
+        "count" : "6468"
+      }, {
+        "item" : "2016-09-06T00:00:00.000",
+        "count" : "6462"
+      }, {
+        "item" : "2015-11-30T00:00:00.000",
+        "count" : "6438"
+      }, {
+        "item" : "2016-07-05T00:00:00.000",
+        "count" : "6438"
+      }, {
+        "item" : "2015-09-08T00:00:00.000",
+        "count" : "6404"
+      }, {
+        "item" : "2016-02-16T00:00:00.000",
+        "count" : "6391"
+      }, {
+        "item" : "2016-10-11T00:00:00.000",
+        "count" : "6361"
+      }, {
+        "item" : "2010-07-23T00:00:00.000",
+        "count" : "6322"
+      } ],
+      "smallest" : "0123-04-24T00:00:00.000",
+      "not_null" : "11006862",
+      "count" : "19027608",
+      "cardinality" : "12716"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259744,
+    "name" : "Total Violation Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "total_violation_amount",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308888,
+    "width" : 364,
+    "cachedContents" : {
+      "largest" : "9050000",
+      "non_null" : "17935873",
+      "average" : "11253.85177766153",
+      "null" : "1091735",
+      "top" : [ {
+        "item" : "100",
+        "count" : "3144036"
+      }, {
+        "item" : "0",
+        "count" : "3002753"
+      }, {
+        "item" : "10000",
+        "count" : "2122938"
+      }, {
+        "item" : "50",
+        "count" : "1235949"
+      }, {
+        "item" : "2500",
+        "count" : "1170505"
+      }, {
+        "item" : "25",
+        "count" : "1084175"
+      }, {
+        "item" : "5000",
+        "count" : "828796"
+      }, {
+        "item" : "250",
+        "count" : "460775"
+      }, {
+        "item" : "75",
+        "count" : "357082"
+      }, {
+        "item" : "500",
+        "count" : "329462"
+      }, {
+        "item" : "25000",
+        "count" : "237123"
+      }, {
+        "item" : "800",
+        "count" : "222703"
+      }, {
+        "item" : "300",
+        "count" : "200699"
+      }, {
+        "item" : "1000",
+        "count" : "184706"
+      }, {
+        "item" : "350",
+        "count" : "182572"
+      }, {
+        "item" : "750",
+        "count" : "172557"
+      }, {
+        "item" : "1200",
+        "count" : "165208"
+      }, {
+        "item" : "7500",
+        "count" : "159506"
+      }, {
+        "item" : "1250",
+        "count" : "151956"
+      }, {
+        "item" : "50000",
+        "count" : "151568"
+      } ],
+      "smallest" : "0",
+      "not_null" : "15767795",
+      "count" : "19027608",
+      "sum" : "174711963700",
+      "cardinality" : "1138"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259745,
+    "name" : "Violation Details",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_details",
+    "position" : 31,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308889,
+    "width" : 304,
+    "cachedContents" : {
+      "largest" : "ZXIT PASSAGEWAY OR CORRIDOR: TOTAL OBSTRUCTION. NOTED: PILED UP BOXES,LOOSE BAGS APPROX.: 3 FEET HEIGHT AT CORRIDOR PASSAGEWAY TO ROOF EXITAT 2ND FLOOR LEVEL. NOTED LOCATION: 2ND FLOOR EXIT DOOR TO ROOF ON",
+      "non_null" : "16656258",
+      "null" : "2371350",
+      "top" : [ {
+        "item" : "EVT_OLD",
+        "count" : "2021008"
+      }, {
+        "item" : "Case Updated Manually",
+        "count" : "417736"
+      }, {
+        "item" : "Case Document Scanned",
+        "count" : "147406"
+      }, {
+        "item" : "DecisionPrinted",
+        "count" : "118822"
+      }, {
+        "item" : "Document Printed",
+        "count" : "83265"
+      }, {
+        "item" : "Case Status Updated",
+        "count" : "44604"
+      }, {
+        "item" : "TAMIS - UPDATED",
+        "count" : "38881"
+      }, {
+        "item" : "New Mail Request Received",
+        "count" : "24172"
+      }, {
+        "item" : "Decision Printed",
+        "count" : "20320"
+      }, {
+        "item" : "20111118N",
+        "count" : "9565"
+      }, {
+        "item" : "20110603N",
+        "count" : "8607"
+      }, {
+        "item" : "RESIDENCE ALTERED FOR OCCUPANCY AS A DWELLING FOR MORE THAN THE LEGALL",
+        "count" : "8111"
+      }, {
+        "item" : "20091120N",
+        "count" : "7960"
+      }, {
+        "item" : "Case updated Manually",
+        "count" : "7809"
+      }, {
+        "item" : "20100305N",
+        "count" : "7651"
+      }, {
+        "item" : "20060106N",
+        "count" : "7407"
+      }, {
+        "item" : "00000000N",
+        "count" : "7379"
+      }, {
+        "item" : "20070228N",
+        "count" : "7358"
+      }, {
+        "item" : "20050907N",
+        "count" : "7126"
+      }, {
+        "item" : "20040225N",
+        "count" : "7100"
+      } ],
+      "smallest" : "`",
+      "not_null" : "14617352",
+      "count" : "19027608",
+      "cardinality" : "1398131"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259746,
+    "name" : "Date Judgment Docketed",
+    "dataTypeName" : "calendar_date",
+    "fieldName" : "date_judgment_docketed",
+    "position" : 32,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 13308890,
+    "width" : 364,
+    "cachedContents" : {
+      "largest" : "2023-07-31T00:00:00.000",
+      "non_null" : "3149236",
+      "null" : "15878372",
+      "top" : [ {
+        "item" : "2018-03-31T00:00:00.000",
+        "count" : "40039"
+      }, {
+        "item" : "2015-07-31T00:00:00.000",
+        "count" : "33714"
+      }, {
+        "item" : "2021-04-30T00:00:00.000",
+        "count" : "24568"
+      }, {
+        "item" : "2016-09-30T00:00:00.000",
+        "count" : "24534"
+      }, {
+        "item" : "2023-02-28T00:00:00.000",
+        "count" : "24428"
+      }, {
+        "item" : "2009-04-30T00:00:00.000",
+        "count" : "23947"
+      }, {
+        "item" : "2017-06-30T00:00:00.000",
+        "count" : "23457"
+      }, {
+        "item" : "2017-01-31T00:00:00.000",
+        "count" : "22264"
+      }, {
+        "item" : "2018-08-31T00:00:00.000",
+        "count" : "22186"
+      }, {
+        "item" : "2016-10-31T00:00:00.000",
+        "count" : "21768"
+      }, {
+        "item" : "2016-02-29T00:00:00.000",
+        "count" : "21758"
+      }, {
+        "item" : "2009-10-31T00:00:00.000",
+        "count" : "21355"
+      }, {
+        "item" : "2021-02-28T00:00:00.000",
+        "count" : "21351"
+      }, {
+        "item" : "2010-01-31T00:00:00.000",
+        "count" : "21065"
+      }, {
+        "item" : "2017-02-28T00:00:00.000",
+        "count" : "20965"
+      }, {
+        "item" : "2015-09-30T00:00:00.000",
+        "count" : "20888"
+      }, {
+        "item" : "2018-11-30T00:00:00.000",
+        "count" : "20611"
+      }, {
+        "item" : "2016-11-30T00:00:00.000",
+        "count" : "20567"
+      }, {
+        "item" : "2017-08-31T00:00:00.000",
+        "count" : "20554"
+      }, {
+        "item" : "2010-04-30T00:00:00.000",
+        "count" : "20386"
+      } ],
+      "smallest" : "1987-07-06T00:00:00.000",
+      "not_null" : "2907926",
+      "count" : "19027608",
+      "cardinality" : "5326"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259747,
+    "name" : "Respondent Address or Facility Number(For FDNY and DOB Tickets)",
+    "dataTypeName" : "text",
+    "fieldName" : "respondent_address_or_facility_number_for_fdny_and_dob_tickets",
+    "position" : 33,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308891,
+    "width" : 700,
+    "cachedContents" : {
+      "largest" : "ZYEN",
+      "non_null" : "1974031",
+      "null" : "17053577",
+      "top" : [ {
+        "item" : "0",
+        "count" : "800025"
+      }, {
+        "item" : "1",
+        "count" : "30872"
+      }, {
+        "item" : "3",
+        "count" : "25346"
+      }, {
+        "item" : "2",
+        "count" : "24041"
+      }, {
+        "item" : "4",
+        "count" : "7420"
+      }, {
+        "item" : "SUITE",
+        "count" : "6824"
+      }, {
+        "item" : "3F",
+        "count" : "6498"
+      }, {
+        "item" : "2F",
+        "count" : "5401"
+      }, {
+        "item" : "1B",
+        "count" : "5041"
+      }, {
+        "item" : "APT 1",
+        "count" : "4990"
+      }, {
+        "item" : "3A",
+        "count" : "4990"
+      }, {
+        "item" : "2R",
+        "count" : "4949"
+      }, {
+        "item" : "2B",
+        "count" : "4789"
+      }, {
+        "item" : "1A",
+        "count" : "4469"
+      }, {
+        "item" : "2A",
+        "count" : "4453"
+      }, {
+        "item" : "3C",
+        "count" : "4006"
+      }, {
+        "item" : "4B",
+        "count" : "3979"
+      }, {
+        "item" : "35TH F",
+        "count" : "3979"
+      }, {
+        "item" : "APT 2",
+        "count" : "3773"
+      }, {
+        "item" : "5",
+        "count" : "3760"
+      } ],
+      "smallest" : "`",
+      "not_null" : "1609888",
+      "count" : "19027608",
+      "cardinality" : "225680"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259748,
+    "name" : "Penalty Imposed",
+    "dataTypeName" : "number",
+    "fieldName" : "penalty_imposed",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308892,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "2135300",
+      "non_null" : "17327495",
+      "average" : "389.1826420253481",
+      "null" : "1700113",
+      "top" : [ {
+        "item" : "0",
+        "count" : "3988447"
+      }, {
+        "item" : "300",
+        "count" : "2910210"
+      }, {
+        "item" : "100",
+        "count" : "2339111"
+      }, {
+        "item" : "25",
+        "count" : "2077304"
+      }, {
+        "item" : "50",
+        "count" : "987424"
+      }, {
+        "item" : "1000",
+        "count" : "551494"
+      }, {
+        "item" : "200",
+        "count" : "413909"
+      }, {
+        "item" : "130",
+        "count" : "320519"
+      }, {
+        "item" : "250",
+        "count" : "283796"
+      }, {
+        "item" : "500",
+        "count" : "213363"
+      }, {
+        "item" : "150",
+        "count" : "210313"
+      }, {
+        "item" : "400",
+        "count" : "205426"
+      }, {
+        "item" : "350",
+        "count" : "184282"
+      }, {
+        "item" : "800",
+        "count" : "184017"
+      }, {
+        "item" : "1200",
+        "count" : "160198"
+      }, {
+        "item" : "600",
+        "count" : "157804"
+      }, {
+        "item" : "750",
+        "count" : "156517"
+      }, {
+        "item" : "75",
+        "count" : "145821"
+      }, {
+        "item" : "2500",
+        "count" : "122186"
+      }, {
+        "item" : "80",
+        "count" : "97131"
+      } ],
+      "smallest" : "0",
+      "not_null" : "15096033",
+      "count" : "19027608",
+      "sum" : "5782632925",
+      "cardinality" : "3577"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259750,
+    "name" : "Paid Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "paid_amount",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308894,
+    "width" : 232,
+    "cachedContents" : {
+      "largest" : "94800",
+      "non_null" : "14722184",
+      "average" : "192.2184886213995",
+      "null" : "4305424",
+      "top" : [ {
+        "item" : "0",
+        "count" : "6002529"
+      }, {
+        "item" : "100",
+        "count" : "2353660"
+      }, {
+        "item" : "25",
+        "count" : "1556582"
+      }, {
+        "item" : "50",
+        "count" : "833273"
+      }, {
+        "item" : "250",
+        "count" : "286947"
+      }, {
+        "item" : "130",
+        "count" : "232598"
+      }, {
+        "item" : "300",
+        "count" : "202004"
+      }, {
+        "item" : "800",
+        "count" : "147322"
+      }, {
+        "item" : "200",
+        "count" : "134993"
+      }, {
+        "item" : "1200",
+        "count" : "134988"
+      }, {
+        "item" : "1000",
+        "count" : "127095"
+      }, {
+        "item" : "500",
+        "count" : "124975"
+      }, {
+        "item" : "400",
+        "count" : "110680"
+      }, {
+        "item" : "750",
+        "count" : "105752"
+      }, {
+        "item" : "350",
+        "count" : "91061"
+      }, {
+        "item" : "75",
+        "count" : "86948"
+      }, {
+        "item" : "80",
+        "count" : "70735"
+      }, {
+        "item" : "1500",
+        "count" : "57514"
+      }, {
+        "item" : "600",
+        "count" : "50443"
+      }, {
+        "item" : "150",
+        "count" : "31225"
+      } ],
+      "smallest" : "-99000",
+      "not_null" : "12324175",
+      "count" : "19027608",
+      "sum" : "2315368958",
+      "cardinality" : "14344"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259751,
+    "name" : "Additional Penalties or Late Fees",
+    "dataTypeName" : "number",
+    "fieldName" : "additional_penalties_or_late_fees",
+    "position" : 37,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308895,
+    "width" : 496,
+    "cachedContents" : {
+      "largest" : "20000",
+      "non_null" : "6960293",
+      "average" : "1.631748839348390",
+      "null" : "12067315",
+      "top" : [ {
+        "item" : "0",
+        "count" : "6260257"
+      }, {
+        "item" : "100",
+        "count" : "64505"
+      }, {
+        "item" : "200",
+        "count" : "50721"
+      }, {
+        "item" : "300",
+        "count" : "40597"
+      }, {
+        "item" : "-30",
+        "count" : "36450"
+      }, {
+        "item" : "1500",
+        "count" : "22491"
+      }, {
+        "item" : "50",
+        "count" : "22272"
+      }, {
+        "item" : "150",
+        "count" : "20560"
+      }, {
+        "item" : "-250",
+        "count" : "19988"
+      }, {
+        "item" : "500",
+        "count" : "17948"
+      }, {
+        "item" : "-500",
+        "count" : "17157"
+      }, {
+        "item" : "350",
+        "count" : "14210"
+      }, {
+        "item" : "-1600",
+        "count" : "13646"
+      }, {
+        "item" : "250",
+        "count" : "10138"
+      }, {
+        "item" : "400",
+        "count" : "9810"
+      }, {
+        "item" : "-2400",
+        "count" : "9586"
+      }, {
+        "item" : "263",
+        "count" : "9052"
+      }, {
+        "item" : "30",
+        "count" : "8762"
+      }, {
+        "item" : "-100",
+        "count" : "8643"
+      }, {
+        "item" : "-200",
+        "count" : "8629"
+      } ],
+      "smallest" : "-9997",
+      "not_null" : "4570072",
+      "count" : "19027608",
+      "sum" : "7003794",
+      "cardinality" : "6893"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259752,
+    "name" : "Compliance Status",
+    "dataTypeName" : "text",
+    "fieldName" : "compliance_status",
+    "position" : 38,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308896,
+    "width" : 304,
+    "cachedContents" : {
+      "largest" : "Penalty Due",
+      "non_null" : "9405488",
+      "null" : "9622120",
+      "top" : [ {
+        "item" : "All Terms Met",
+        "count" : "7704346"
+      }, {
+        "item" : "Penalty Due",
+        "count" : "1189282"
+      }, {
+        "item" : "Compliance Due",
+        "count" : "382878"
+      }, {
+        "item" : "Both Due",
+        "count" : "128982"
+      } ],
+      "smallest" : "All Terms Met",
+      "not_null" : "7468226",
+      "count" : "19027608",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259753,
+    "name" : "Violation Description",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_description",
+    "position" : 39,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308897,
+    "width" : 352,
+    "cachedContents" : {
+      "largest" : "NOISE",
+      "non_null" : "291271",
+      "null" : "18736337",
+      "top" : [ {
+        "item" : "FIRE",
+        "count" : "254171"
+      }, {
+        "item" : "BAR",
+        "count" : "21826"
+      }, {
+        "item" : "NOISE",
+        "count" : "13182"
+      }, {
+        "item" : "ASBESTOS",
+        "count" : "2092"
+      } ],
+      "smallest" : "ASBESTOS",
+      "not_null" : "296565",
+      "count" : "19027608",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259754,
+    "name" : "Charge #1: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_1_code",
+    "position" : 40,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308898,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "ZBIG",
+      "non_null" : "13876469",
+      "null" : "5151139",
+      "top" : [ {
+        "item" : "AS06",
+        "count" : "1431551"
+      }, {
+        "item" : "AS26",
+        "count" : "924610"
+      }, {
+        "item" : "AS6M",
+        "count" : "566334"
+      }, {
+        "item" : "AS18",
+        "count" : "544068"
+      }, {
+        "item" : "AS30",
+        "count" : "462178"
+      }, {
+        "item" : "AS19",
+        "count" : "389310"
+      }, {
+        "item" : "AR7G",
+        "count" : "297989"
+      }, {
+        "item" : "AR11",
+        "count" : "293694"
+      }, {
+        "item" : "AS07",
+        "count" : "266913"
+      }, {
+        "item" : "80-1",
+        "count" : "229529"
+      }, {
+        "item" : "ASP4",
+        "count" : "228296"
+      }, {
+        "item" : "AS97",
+        "count" : "212833"
+      }, {
+        "item" : "AR09",
+        "count" : "205402"
+      }, {
+        "item" : "BF20",
+        "count" : "167465"
+      }, {
+        "item" : "AR4H",
+        "count" : "161691"
+      }, {
+        "item" : "AS16",
+        "count" : "158218"
+      }, {
+        "item" : "AR10",
+        "count" : "146907"
+      }, {
+        "item" : "ASP1",
+        "count" : "135356"
+      }, {
+        "item" : "AS21",
+        "count" : "127037"
+      }, {
+        "item" : "AR1H",
+        "count" : "118313"
+      } ],
+      "smallest" : "`",
+      "not_null" : "11617753",
+      "count" : "19027608",
+      "cardinality" : "5980"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259755,
+    "name" : "Charge #1: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_1_code_section",
+    "position" : 41,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308899,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "ZR -MISC",
+      "non_null" : "13429327",
+      "null" : "5598281",
+      "top" : [ {
+        "item" : "A.C. 16-118 2 A",
+        "count" : "2270583"
+      }, {
+        "item" : "16-118 2",
+        "count" : "881772"
+      }, {
+        "item" : "A.C. 16-120 A",
+        "count" : "541973"
+      }, {
+        "item" : "A.C. 16-120 C",
+        "count" : "527145"
+      }, {
+        "item" : "10.119.",
+        "count" : "462178"
+      }, {
+        "item" : "A.C 16-120 D",
+        "count" : "305485"
+      }, {
+        "item" : "16RCNY1-08 H 1 , 2",
+        "count" : "305456"
+      }, {
+        "item" : "16RCNY1-08 H 5",
+        "count" : "282581"
+      }, {
+        "item" : "16RCNY 1-08 H 1 , 2",
+        "count" : "180902"
+      }, {
+        "item" : "NYCHC 151.02 A",
+        "count" : "178565"
+      }, {
+        "item" : "16RCNY 1-08 H 5",
+        "count" : "161763"
+      }, {
+        "item" : "AC 28-301.1",
+        "count" : "159290"
+      }, {
+        "item" : "VC12 .",
+        "count" : "140403"
+      }, {
+        "item" : "16-118(2)",
+        "count" : "138866"
+      }, {
+        "item" : "16RCNY1-08 H 4",
+        "count" : "131628"
+      }, {
+        "item" : "16RCNY 1-08 H 4",
+        "count" : "119929"
+      }, {
+        "item" : "A.C. 16-123",
+        "count" : "118778"
+      }, {
+        "item" : "A.C. 19-102 II",
+        "count" : "110259"
+      }, {
+        "item" : "VC20 .",
+        "count" : "108872"
+      }, {
+        "item" : "AC 27MISCAC28MISCBCMI",
+        "count" : "104812"
+      } ],
+      "smallest" : "___.",
+      "not_null" : "11171037",
+      "count" : "19027608",
+      "cardinality" : "12075"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259756,
+    "name" : "Charge #1: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_1_code_description",
+    "position" : 42,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308900,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by the manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "12478933",
+      "null" : "6548675",
+      "top" : [ {
+        "item" : "DIRTY SIDEWALK DIRTY AREA",
+        "count" : "890275"
+      }, {
+        "item" : "FAILURE TO CLEAN 18 INCHES INTO STREET",
+        "count" : "818574"
+      }, {
+        "item" : "DIRTY SIDEWALK",
+        "count" : "735174"
+      }, {
+        "item" : "STORAGE OF RECEPTACLES",
+        "count" : "488727"
+      }, {
+        "item" : "ILLEGAL POSTING OF HANDBILL NOTICE",
+        "count" : "436115"
+      }, {
+        "item" : "LOOSE RUBBISH",
+        "count" : "363794"
+      }, {
+        "item" : "DIRTY AREA",
+        "count" : "345415"
+      }, {
+        "item" : "FAILURE TO PROPERLY PUT RECYCS OUT FOR COLLECTION 1TO8DWELLING UNITS",
+        "count" : "279547"
+      }, {
+        "item" : "SIDEWALK OBSTRUCTION",
+        "count" : "266912"
+      }, {
+        "item" : "IMPROPER DISPOSAL BEDDING 1ST OFFENSE",
+        "count" : "202023"
+      }, {
+        "item" : "FAILURE TO PROPERLY PUT RECYCLABLES OUT FOR COLLECTION",
+        "count" : "180564"
+      }, {
+        "item" : "RECYCLABLES PLACED FOR COLLECTION WITH NON-RECYCLABLES",
+        "count" : "176318"
+      }, {
+        "item" : "RECYC PLACED FOR COLLECTION W NON-RECYC 1 TO 8 DWELLING UNITS",
+        "count" : "148500"
+      }, {
+        "item" : "INSPECTION AND TESTING",
+        "count" : "147016"
+      }, {
+        "item" : "MAINTAINING RECEPTACLES",
+        "count" : "145534"
+      }, {
+        "item" : "NON-RECYCLABLES LEFT IN RECYCLING CONTAINER FOR COLLECTION",
+        "count" : "123889"
+      }, {
+        "item" : "UNCOVERED RECEPTACLES 1ST OFFENSE",
+        "count" : "123019"
+      }, {
+        "item" : "DIRTY SIDEWALK,FAIL TO CLEAN 18 INTO STREET,SIDEWALK OBSTRUCTION 2ND",
+        "count" : "118978"
+      }, {
+        "item" : "FAILURE TO COMPLY WITH THE TERMS AND CONDITIONS OF DOT PERMITS",
+        "count" : "113368"
+      }, {
+        "item" : "FAIL TO ELIMINATE RODENT INFESTATION SHOWN BY ACTIVE RODENT SIGNS 1ST",
+        "count" : "112206"
+      } ],
+      "smallest" : "0801481488",
+      "not_null" : "10464961",
+      "count" : "19027608",
+      "cardinality" : "267553"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259757,
+    "name" : "Charge #1: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_1_infraction_amount",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308901,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "750000",
+      "non_null" : "13027343",
+      "average" : "3423.224961862912",
+      "null" : "6000265",
+      "top" : [ {
+        "item" : "100",
+        "count" : "3747705"
+      }, {
+        "item" : "0",
+        "count" : "1183178"
+      }, {
+        "item" : "50",
+        "count" : "1117161"
+      }, {
+        "item" : "25",
+        "count" : "1086833"
+      }, {
+        "item" : "10000",
+        "count" : "934111"
+      }, {
+        "item" : "250",
+        "count" : "448879"
+      }, {
+        "item" : "2500",
+        "count" : "421531"
+      }, {
+        "item" : "500",
+        "count" : "386776"
+      }, {
+        "item" : "75",
+        "count" : "356726"
+      }, {
+        "item" : "800",
+        "count" : "273650"
+      }, {
+        "item" : "750",
+        "count" : "243168"
+      }, {
+        "item" : "600",
+        "count" : "240803"
+      }, {
+        "item" : "300",
+        "count" : "206862"
+      }, {
+        "item" : "350",
+        "count" : "200438"
+      }, {
+        "item" : "1200",
+        "count" : "199845"
+      }, {
+        "item" : "1000",
+        "count" : "161447"
+      }, {
+        "item" : "1250",
+        "count" : "150558"
+      }, {
+        "item" : "400",
+        "count" : "138688"
+      }, {
+        "item" : "200",
+        "count" : "122025"
+      }, {
+        "item" : "25000",
+        "count" : "116982"
+      } ],
+      "smallest" : "0",
+      "not_null" : "10858039",
+      "count" : "19027608",
+      "sum" : "36413812692",
+      "cardinality" : "271"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259758,
+    "name" : "Charge #2: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_2_code",
+    "position" : 44,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308902,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "Z2",
+      "non_null" : "1652841",
+      "null" : "17374767",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "174277"
+      }, {
+        "item" : "A2",
+        "count" : "75826"
+      }, {
+        "item" : "59a-",
+        "count" : "72402"
+      }, {
+        "item" : "DCA",
+        "count" : "47660"
+      }, {
+        "item" : "80-2",
+        "count" : "44559"
+      }, {
+        "item" : "BF12",
+        "count" : "38671"
+      }, {
+        "item" : "19-5",
+        "count" : "38173"
+      }, {
+        "item" : "08A",
+        "count" : "35604"
+      }, {
+        "item" : "02G",
+        "count" : "35041"
+      }, {
+        "item" : "BF05",
+        "count" : "31511"
+      }, {
+        "item" : "BF06",
+        "count" : "23426"
+      }, {
+        "item" : "59A-",
+        "count" : "22364"
+      }, {
+        "item" : "H2",
+        "count" : "22234"
+      }, {
+        "item" : "02B",
+        "count" : "19702"
+      }, {
+        "item" : "6G,",
+        "count" : "19236"
+      }, {
+        "item" : "BF17",
+        "count" : "18940"
+      }, {
+        "item" : "10B",
+        "count" : "17529"
+      }, {
+        "item" : "2",
+        "count" : "17483"
+      }, {
+        "item" : "10G",
+        "count" : "16436"
+      }, {
+        "item" : "06D",
+        "count" : "15611"
+      } ],
+      "smallest" : "`",
+      "not_null" : "1128946",
+      "count" : "19027608",
+      "cardinality" : "4357"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259759,
+    "name" : "Charge #2: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_2_code_section",
+    "position" : 45,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308903,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "ZR -MISC",
+      "non_null" : "1207439",
+      "null" : "17820169",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "65554"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "52392"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "41595"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "36775"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "22176"
+      }, {
+        "item" : "VC12 .",
+        "count" : "21702"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "20369"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "18203"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "17276"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "14804"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "13893"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "13746"
+      }, {
+        "item" : "59a-25(a)(1)",
+        "count" : "13115"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "13036"
+      }, {
+        "item" : "VC06 .",
+        "count" : "11908"
+      }, {
+        "item" : "1-10B",
+        "count" : "11551"
+      }, {
+        "item" : "AC 27MISCAC28MISCBCMI",
+        "count" : "11182"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "10825"
+      }, {
+        "item" : "151.03",
+        "count" : "10689"
+      }, {
+        "item" : "VC5 .",
+        "count" : "10436"
+      } ],
+      "smallest" : "___.",
+      "not_null" : "805617",
+      "count" : "19027608",
+      "cardinality" : "9776"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259760,
+    "name" : "Charge #2: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_2_code_description",
+    "position" : 46,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308904,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by the manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "699184",
+      "null" : "18328424",
+      "top" : [ {
+        "item" : "FIRE PROTECTION SYSTEMS",
+        "count" : "30679"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "24081"
+      }, {
+        "item" : "POSTING OF PERMITS AND RECORD KEEPING",
+        "count" : "16304"
+      }, {
+        "item" : "See attached NOV",
+        "count" : "15858"
+      }, {
+        "item" : "CERTIFICATES OF FITNESS AND CERTIFICATES OF QUALIFICATION",
+        "count" : "13246"
+      }, {
+        "item" : "SIGN, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "13001"
+      }, {
+        "item" : "MISCELLANEOUS VIOLATIONS",
+        "count" : "11927"
+      }, {
+        "item" : "PORTABLE FIRE EXTINGUISHERS AND FIRE HOSES",
+        "count" : "11641"
+      }, {
+        "item" : "RECORDKEEPING",
+        "count" : "10432"
+      }, {
+        "item" : "GENERAL MAINTENANCE",
+        "count" : "9981"
+      }, {
+        "item" : "LABELS MARKINGS",
+        "count" : "8357"
+      }, {
+        "item" : "RESID. ALTERED MANT'D FOR MORE THAN LEGALLY APPROVED NO., OF FAMILIES.",
+        "count" : "8098"
+      }, {
+        "item" : "INSPECTION AND TESTING",
+        "count" : "7680"
+      }, {
+        "item" : "FAIL TO MAINTAIN SPK STD SUPP SYST",
+        "count" : "7269"
+      }, {
+        "item" : "FAILED TO OBTAIN CERTIFICATE OF FITNESS",
+        "count" : "5694"
+      }, {
+        "item" : "SIGNS, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "5488"
+      }, {
+        "item" : "FAILED TO PROVIDE SIGN POSTING INSTRUCT",
+        "count" : "4708"
+      }, {
+        "item" : "FAILED TO PRODUCE PERMIT AND OR RECORD",
+        "count" : "4553"
+      }, {
+        "item" : "AFFIDAVITS, DESIGN INSTALLATION DOCUMENTS, AND OTHER DOCUMENTATION",
+        "count" : "4524"
+      }, {
+        "item" : "FAIL TO ADOPT IMPLEMENT NOISE MITIGATION PLAN FOR CONSTRUCTION SITE",
+        "count" : "4311"
+      } ],
+      "smallest" : "0801481488",
+      "not_null" : "553392",
+      "count" : "19027608",
+      "cardinality" : "265864"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259761,
+    "name" : "Charge #2: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_2_infraction_amount",
+    "position" : 47,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308905,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "500000",
+      "non_null" : "825930",
+      "average" : "659.1282634807440",
+      "null" : "18201678",
+      "top" : [ {
+        "item" : "0",
+        "count" : "505499"
+      }, {
+        "item" : "600",
+        "count" : "60297"
+      }, {
+        "item" : "950",
+        "count" : "26488"
+      }, {
+        "item" : "750",
+        "count" : "25913"
+      }, {
+        "item" : "500",
+        "count" : "25095"
+      }, {
+        "item" : "700",
+        "count" : "23923"
+      }, {
+        "item" : "900",
+        "count" : "20918"
+      }, {
+        "item" : "800",
+        "count" : "13594"
+      }, {
+        "item" : "2500",
+        "count" : "13362"
+      }, {
+        "item" : "2400",
+        "count" : "10746"
+      }, {
+        "item" : "400",
+        "count" : "6322"
+      }, {
+        "item" : "1600",
+        "count" : "6227"
+      }, {
+        "item" : "1000",
+        "count" : "6185"
+      }, {
+        "item" : "1200",
+        "count" : "5789"
+      }, {
+        "item" : "300",
+        "count" : "5441"
+      }, {
+        "item" : "875",
+        "count" : "4479"
+      }, {
+        "item" : "1250",
+        "count" : "4430"
+      }, {
+        "item" : "225",
+        "count" : "4357"
+      }, {
+        "item" : "440",
+        "count" : "3942"
+      }, {
+        "item" : "4800",
+        "count" : "3724"
+      } ],
+      "smallest" : "0",
+      "not_null" : "548762",
+      "count" : "19027608",
+      "sum" : "349005779",
+      "cardinality" : "157"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259762,
+    "name" : "Charge #3: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_3_code",
+    "position" : 48,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308906,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "ZA",
+      "non_null" : "1205142",
+      "null" : "17822466",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "169700"
+      }, {
+        "item" : "59a-",
+        "count" : "70097"
+      }, {
+        "item" : "A2",
+        "count" : "51931"
+      }, {
+        "item" : "80-2",
+        "count" : "42600"
+      }, {
+        "item" : "DCA",
+        "count" : "38237"
+      }, {
+        "item" : "08A",
+        "count" : "36652"
+      }, {
+        "item" : "19-5",
+        "count" : "33604"
+      }, {
+        "item" : "02G",
+        "count" : "25995"
+      }, {
+        "item" : "10F",
+        "count" : "21296"
+      }, {
+        "item" : "59A-",
+        "count" : "20670"
+      }, {
+        "item" : "10B",
+        "count" : "19878"
+      }, {
+        "item" : "BF06",
+        "count" : "17810"
+      }, {
+        "item" : "BF05",
+        "count" : "16534"
+      }, {
+        "item" : "10G",
+        "count" : "16354"
+      }, {
+        "item" : "06D",
+        "count" : "15677"
+      }, {
+        "item" : "06C",
+        "count" : "14864"
+      }, {
+        "item" : "H2",
+        "count" : "14701"
+      }, {
+        "item" : "02B",
+        "count" : "14197"
+      }, {
+        "item" : "04L",
+        "count" : "13857"
+      }, {
+        "item" : "59b-",
+        "count" : "13668"
+      } ],
+      "smallest" : "___",
+      "not_null" : "779515",
+      "count" : "19027608",
+      "cardinality" : "2745"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259763,
+    "name" : "Charge #3: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_3_code_section",
+    "position" : 49,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308907,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "ZR -MISC",
+      "non_null" : "881798",
+      "null" : "18145810",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "65115"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "46458"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "38024"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "36314"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "21110"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "20085"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "16907"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "16550"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "16151"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "14543"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "12958"
+      }, {
+        "item" : "59a-25(a)(1)",
+        "count" : "12365"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "10751"
+      }, {
+        "item" : "VC06 .",
+        "count" : "8355"
+      }, {
+        "item" : "2-34A",
+        "count" : "8273"
+      }, {
+        "item" : "59A-27(D)",
+        "count" : "7697"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "7403"
+      }, {
+        "item" : "80-14(f)(2)",
+        "count" : "7364"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "7339"
+      }, {
+        "item" : "58-29(b)",
+        "count" : "6832"
+      } ],
+      "smallest" : "000",
+      "not_null" : "537301",
+      "count" : "19027608",
+      "cardinality" : "7443"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259764,
+    "name" : "Charge #3: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_3_code_description",
+    "position" : 50,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308908,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by supervisor of food operations of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "423928",
+      "null" : "18603680",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "11595"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "10342"
+      }, {
+        "item" : "SIGN, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "9063"
+      }, {
+        "item" : "POSTING OF PERMITS AND RECORD KEEPING",
+        "count" : "7936"
+      }, {
+        "item" : "PORTABLE FIRE EXTINGUISHERS AND FIRE HOSES",
+        "count" : "7229"
+      }, {
+        "item" : "FIRE PROTECTION SYSTEMS",
+        "count" : "6337"
+      }, {
+        "item" : "RECORDKEEPING",
+        "count" : "5443"
+      }, {
+        "item" : "LABELS MARKINGS",
+        "count" : "4945"
+      }, {
+        "item" : "FAILED TO PROVIDE SIGN POSTING INSTRUCT",
+        "count" : "4598"
+      }, {
+        "item" : "SIGNS, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "3909"
+      }, {
+        "item" : "GENERAL MAINTENANCE",
+        "count" : "3614"
+      }, {
+        "item" : "CERTIFICATES OF FITNESS AND CERTIFICATES OF QUALIFICATION",
+        "count" : "3069"
+      }, {
+        "item" : "FAILED TO PRODUCE PERMIT AND OR RECORD",
+        "count" : "3031"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "2795"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "2183"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "2159"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "1932"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "1925"
+      }, {
+        "item" : "FIRE-RATED DOORS AND WINDOWS",
+        "count" : "1892"
+      }, {
+        "item" : "FAILED TO PROVIDE BUCKETS EXTINGUISHERS",
+        "count" : "1873"
+      } ],
+      "smallest" : "0801481488",
+      "not_null" : "333424",
+      "count" : "19027608",
+      "cardinality" : "250505"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259765,
+    "name" : "Charge #3: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_3_infraction_amount",
+    "position" : 51,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308909,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "600000",
+      "non_null" : "529928",
+      "average" : "353.6963499281449",
+      "null" : "18497680",
+      "top" : [ {
+        "item" : "0",
+        "count" : "428317"
+      }, {
+        "item" : "600",
+        "count" : "29475"
+      }, {
+        "item" : "500",
+        "count" : "12529"
+      }, {
+        "item" : "700",
+        "count" : "12064"
+      }, {
+        "item" : "750",
+        "count" : "7728"
+      }, {
+        "item" : "950",
+        "count" : "6500"
+      }, {
+        "item" : "900",
+        "count" : "5995"
+      }, {
+        "item" : "2400",
+        "count" : "3477"
+      }, {
+        "item" : "4800",
+        "count" : "2948"
+      }, {
+        "item" : "300",
+        "count" : "2900"
+      }, {
+        "item" : "1200",
+        "count" : "2623"
+      }, {
+        "item" : "225",
+        "count" : "2571"
+      }, {
+        "item" : "400",
+        "count" : "1964"
+      }, {
+        "item" : "875",
+        "count" : "1817"
+      }, {
+        "item" : "450",
+        "count" : "1105"
+      }, {
+        "item" : "4400",
+        "count" : "794"
+      }, {
+        "item" : "1750",
+        "count" : "690"
+      }, {
+        "item" : "1500",
+        "count" : "657"
+      }, {
+        "item" : "800",
+        "count" : "640"
+      }, {
+        "item" : "75",
+        "count" : "630"
+      } ],
+      "smallest" : "0",
+      "not_null" : "268296",
+      "count" : "19027608",
+      "sum" : "83926131",
+      "cardinality" : "109"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259766,
+    "name" : "Charge #4: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_4_code",
+    "position" : 52,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308910,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "Z2",
+      "non_null" : "983050",
+      "null" : "18044558",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "134659"
+      }, {
+        "item" : "59a-",
+        "count" : "54413"
+      }, {
+        "item" : "A2",
+        "count" : "40126"
+      }, {
+        "item" : "DCA",
+        "count" : "33101"
+      }, {
+        "item" : "08A",
+        "count" : "32839"
+      }, {
+        "item" : "19-5",
+        "count" : "32165"
+      }, {
+        "item" : "80-2",
+        "count" : "29713"
+      }, {
+        "item" : "10F",
+        "count" : "29245"
+      }, {
+        "item" : "10B",
+        "count" : "21864"
+      }, {
+        "item" : "02G",
+        "count" : "20735"
+      }, {
+        "item" : "59A-",
+        "count" : "17962"
+      }, {
+        "item" : "10G",
+        "count" : "16430"
+      }, {
+        "item" : "04L",
+        "count" : "15862"
+      }, {
+        "item" : "06C",
+        "count" : "15424"
+      }, {
+        "item" : "06D",
+        "count" : "13960"
+      }, {
+        "item" : "BF05",
+        "count" : "12235"
+      }, {
+        "item" : "H2",
+        "count" : "12120"
+      }, {
+        "item" : "59b-",
+        "count" : "11494"
+      }, {
+        "item" : "8A",
+        "count" : "11392"
+      }, {
+        "item" : "02B",
+        "count" : "10842"
+      } ],
+      "smallest" : "___",
+      "not_null" : "546276",
+      "count" : "19027608",
+      "cardinality" : "2186"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259767,
+    "name" : "Charge #4: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_4_code_section",
+    "position" : 53,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308911,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "ZR 32-63",
+      "non_null" : "719758",
+      "null" : "18307850",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "65050"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "32528"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "30596"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "29548"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "16532"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "15771"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "14556"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "13421"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "13155"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "13049"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "11252"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "8666"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "8466"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "8416"
+      }, {
+        "item" : "59a-25(a)(1)",
+        "count" : "6956"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "6571"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "5927"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "5637"
+      }, {
+        "item" : "59A-27(D)",
+        "count" : "5583"
+      }, {
+        "item" : "58-29(b)",
+        "count" : "5011"
+      } ],
+      "smallest" : "-",
+      "not_null" : "395283",
+      "count" : "19027608",
+      "cardinality" : "6990"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259768,
+    "name" : "Charge #4: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_4_code_description",
+    "position" : 54,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308912,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by manager (Zifan Chen) of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "360324",
+      "null" : "18667284",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "11866"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "8984"
+      }, {
+        "item" : "POSTING OF PERMITS AND RECORD KEEPING",
+        "count" : "5674"
+      }, {
+        "item" : "SIGN, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "4215"
+      }, {
+        "item" : "FAILED TO PRODUCE PERMIT AND OR RECORD",
+        "count" : "3722"
+      }, {
+        "item" : "PORTABLE FIRE EXTINGUISHERS AND FIRE HOSES",
+        "count" : "3396"
+      }, {
+        "item" : "RECORDKEEPING",
+        "count" : "2642"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "2308"
+      }, {
+        "item" : "LABELS MARKINGS",
+        "count" : "2175"
+      }, {
+        "item" : "FAILED TO PROVIDE SIGN POSTING INSTRUCT",
+        "count" : "2020"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "1985"
+      }, {
+        "item" : "FIRE PROTECTION SYSTEMS",
+        "count" : "1743"
+      }, {
+        "item" : "SIGNS, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "1639"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "1530"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "1519"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "1484"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "1453"
+      }, {
+        "item" : "GENERAL MAINTENANCE",
+        "count" : "1214"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "1147"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "1064"
+      } ],
+      "smallest" : "0801481488",
+      "not_null" : "259859",
+      "count" : "19027608",
+      "cardinality" : "248404"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259769,
+    "name" : "Charge #4: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_4_infraction_amount",
+    "position" : 55,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308913,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "120000",
+      "non_null" : "382244",
+      "average" : "291.5296872847500",
+      "null" : "18645364",
+      "top" : [ {
+        "item" : "0",
+        "count" : "334155"
+      }, {
+        "item" : "600",
+        "count" : "15972"
+      }, {
+        "item" : "700",
+        "count" : "6647"
+      }, {
+        "item" : "500",
+        "count" : "5510"
+      }, {
+        "item" : "750",
+        "count" : "2497"
+      }, {
+        "item" : "4800",
+        "count" : "2486"
+      }, {
+        "item" : "2400",
+        "count" : "2427"
+      }, {
+        "item" : "950",
+        "count" : "2211"
+      }, {
+        "item" : "900",
+        "count" : "1774"
+      }, {
+        "item" : "1200",
+        "count" : "1611"
+      }, {
+        "item" : "225",
+        "count" : "1529"
+      }, {
+        "item" : "300",
+        "count" : "1399"
+      }, {
+        "item" : "400",
+        "count" : "625"
+      }, {
+        "item" : "4400",
+        "count" : "547"
+      }, {
+        "item" : "75",
+        "count" : "367"
+      }, {
+        "item" : "1750",
+        "count" : "355"
+      }, {
+        "item" : "2200",
+        "count" : "341"
+      }, {
+        "item" : "450",
+        "count" : "332"
+      }, {
+        "item" : "125",
+        "count" : "311"
+      }, {
+        "item" : "1500",
+        "count" : "219"
+      } ],
+      "smallest" : "0",
+      "not_null" : "162347",
+      "count" : "19027608",
+      "sum" : "42324280",
+      "cardinality" : "73"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259770,
+    "name" : "Charge #5: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_5_code",
+    "position" : 56,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308914,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "X7,",
+      "non_null" : "769834",
+      "null" : "18257774",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "122719"
+      }, {
+        "item" : "59a-",
+        "count" : "50013"
+      }, {
+        "item" : "08A",
+        "count" : "31504"
+      }, {
+        "item" : "10F",
+        "count" : "28841"
+      }, {
+        "item" : "19-5",
+        "count" : "26474"
+      }, {
+        "item" : "80-2",
+        "count" : "25574"
+      }, {
+        "item" : "DCA",
+        "count" : "25285"
+      }, {
+        "item" : "10B",
+        "count" : "21704"
+      }, {
+        "item" : "02G",
+        "count" : "20596"
+      }, {
+        "item" : "A2",
+        "count" : "17235"
+      }, {
+        "item" : "04L",
+        "count" : "17159"
+      }, {
+        "item" : "59A-",
+        "count" : "16098"
+      }, {
+        "item" : "06C",
+        "count" : "15829"
+      }, {
+        "item" : "10G",
+        "count" : "15607"
+      }, {
+        "item" : "06D",
+        "count" : "13060"
+      }, {
+        "item" : "8A",
+        "count" : "11730"
+      }, {
+        "item" : "04N",
+        "count" : "10248"
+      }, {
+        "item" : "02B",
+        "count" : "10189"
+      }, {
+        "item" : "4M",
+        "count" : "8522"
+      }, {
+        "item" : "59b-",
+        "count" : "8324"
+      } ],
+      "smallest" : "___",
+      "not_null" : "412756",
+      "count" : "19027608",
+      "cardinality" : "1264"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259771,
+    "name" : "Charge #5: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_5_code_section",
+    "position" : 57,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308915,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "VIOLATION CATEGORY 9",
+      "non_null" : "605216",
+      "null" : "18422392",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "66030"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "36086"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "29099"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "28682"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "15297"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "15076"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "14077"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "12298"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "11908"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "11367"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "7649"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "7558"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "6924"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "5948"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "5942"
+      }, {
+        "item" : "59a-25(a)(1)",
+        "count" : "5617"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "5329"
+      }, {
+        "item" : "59A-27(D)",
+        "count" : "5258"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "5125"
+      }, {
+        "item" : "59a-12(a)",
+        "count" : "4982"
+      } ],
+      "smallest" : "00",
+      "not_null" : "285351",
+      "count" : "19027608",
+      "cardinality" : "5351"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259772,
+    "name" : "Charge #5: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_5_code_description",
+    "position" : 58,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308916,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by the manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "305966",
+      "null" : "18721642",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "9566"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "4008"
+      }, {
+        "item" : "POSTING OF PERMITS AND RECORD KEEPING",
+        "count" : "2334"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "1971"
+      }, {
+        "item" : "OL - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+        "count" : "1659"
+      }, {
+        "item" : "SIGN, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "1602"
+      }, {
+        "item" : "PORTABLE FIRE EXTINGUISHERS AND FIRE HOSES",
+        "count" : "1587"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "1488"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "1488"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "1378"
+      }, {
+        "item" : "FAILED TO PRODUCE PERMIT AND OR RECORD",
+        "count" : "1217"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "1100"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "1058"
+      }, {
+        "item" : "RECORDKEEPING",
+        "count" : "1040"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "977"
+      }, {
+        "item" : "FAILED TO PROVIDE SIGN POSTING INSTRUCT",
+        "count" : "976"
+      }, {
+        "item" : "LABELS MARKINGS",
+        "count" : "889"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "658"
+      }, {
+        "item" : "SIGNS, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "653"
+      }, {
+        "item" : "OL - SALE OF EXPIRED MEDS:  BUSINESS OFFERED FOR SALE OVER-THE COUNTER MEDICATION LATER THAN EXPIRATION DATE ON THE LABEL.",
+        "count" : "607"
+      } ],
+      "smallest" : "11 bags of reduced oxygen packaged cooked meatballs, 1 bag of reduced oxygen packaged cooked sausages, 1 bag of ROP pork gravy, 1 ROP bag of cooked lobster, 8 bags of ROP cooked bratswurst, 4 bags of ROP cooked boneless rib  were being delivered from Department of Harlem Commissary (1325 Fifth Ave New York, NY), a facility that is not wholly owned and permitted by the respondent as per DOHMH record and a facility that is not ROP approvided.  Said food was observed stored in 1-door reach-in refrigerator in attic.  Operator Ordered not to accept ROP food(s) from a facility not wholly owned and permitted by the respondent.  Food embargoed and discard in accordance with Section 3.03 of the Health Code. NYCHC 81.12(c)",
+      "not_null" : "197056",
+      "count" : "19027608",
+      "cardinality" : "239466"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259773,
+    "name" : "Charge #5: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_5_infraction_amount",
+    "position" : 59,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308917,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "95000",
+      "non_null" : "302052",
+      "average" : "268.7974363831534",
+      "null" : "18725556",
+      "top" : [ {
+        "item" : "0",
+        "count" : "281625"
+      }, {
+        "item" : "600",
+        "count" : "5774"
+      }, {
+        "item" : "700",
+        "count" : "2917"
+      }, {
+        "item" : "500",
+        "count" : "2590"
+      }, {
+        "item" : "4800",
+        "count" : "1766"
+      }, {
+        "item" : "2400",
+        "count" : "1543"
+      }, {
+        "item" : "1200",
+        "count" : "949"
+      }, {
+        "item" : "750",
+        "count" : "774"
+      }, {
+        "item" : "225",
+        "count" : "753"
+      }, {
+        "item" : "950",
+        "count" : "697"
+      }, {
+        "item" : "300",
+        "count" : "581"
+      }, {
+        "item" : "900",
+        "count" : "479"
+      }, {
+        "item" : "4400",
+        "count" : "303"
+      }, {
+        "item" : "75",
+        "count" : "212"
+      }, {
+        "item" : "2200",
+        "count" : "198"
+      }, {
+        "item" : "400",
+        "count" : "185"
+      }, {
+        "item" : "125",
+        "count" : "136"
+      }, {
+        "item" : "1750",
+        "count" : "88"
+      }, {
+        "item" : "450",
+        "count" : "87"
+      }, {
+        "item" : "4000",
+        "count" : "86"
+      } ],
+      "smallest" : "0",
+      "not_null" : "94552",
+      "count" : "19027608",
+      "sum" : "21284725",
+      "cardinality" : "44"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259774,
+    "name" : "Charge #6: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_6_code",
+    "position" : 60,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308918,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "X4,",
+      "non_null" : "745575",
+      "null" : "18282033",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "118233"
+      }, {
+        "item" : "59a-",
+        "count" : "48633"
+      }, {
+        "item" : "08A",
+        "count" : "29618"
+      }, {
+        "item" : "19-5",
+        "count" : "25662"
+      }, {
+        "item" : "10F",
+        "count" : "25482"
+      }, {
+        "item" : "DCA",
+        "count" : "24625"
+      }, {
+        "item" : "80-2",
+        "count" : "24330"
+      }, {
+        "item" : "02G",
+        "count" : "23026"
+      }, {
+        "item" : "10B",
+        "count" : "19918"
+      }, {
+        "item" : "04L",
+        "count" : "17677"
+      }, {
+        "item" : "A2",
+        "count" : "17217"
+      }, {
+        "item" : "59A-",
+        "count" : "15799"
+      }, {
+        "item" : "06C",
+        "count" : "15143"
+      }, {
+        "item" : "10G",
+        "count" : "14641"
+      }, {
+        "item" : "02B",
+        "count" : "13073"
+      }, {
+        "item" : "06D",
+        "count" : "12580"
+      }, {
+        "item" : "8A",
+        "count" : "11711"
+      }, {
+        "item" : "04N",
+        "count" : "11107"
+      }, {
+        "item" : "2G",
+        "count" : "8836"
+      }, {
+        "item" : "4M",
+        "count" : "8468"
+      } ],
+      "smallest" : "-",
+      "not_null" : "343944",
+      "count" : "19027608",
+      "cardinality" : "1231"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259775,
+    "name" : "Charge #6: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_6_code_section",
+    "position" : 61,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308919,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "VIOLATION CATEGORY 9",
+      "non_null" : "581082",
+      "null" : "18446526",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "66315"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "33898"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "29136"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "28056"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "15074"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "14675"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "13590"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "12862"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "12146"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "10666"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "10638"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "7446"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "6785"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "6411"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "6190"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "5729"
+      }, {
+        "item" : "59a-25(a)(1)",
+        "count" : "5226"
+      }, {
+        "item" : "59a-08(c)(2)",
+        "count" : "5221"
+      }, {
+        "item" : "59A-27(D)",
+        "count" : "5090"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "4865"
+      } ],
+      "smallest" : "00",
+      "not_null" : "228747",
+      "count" : "19027608",
+      "cardinality" : "5141"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259776,
+    "name" : "Charge #6: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_6_code_description",
+    "position" : 62,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308920,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by owner of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "291820",
+      "null" : "18735788",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "7692"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "4977"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "1795"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "1563"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "1474"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "1073"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "1067"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "1047"
+      }, {
+        "item" : "OL - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+        "count" : "1013"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "940"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "918"
+      }, {
+        "item" : "POSTING OF PERMITS AND RECORD KEEPING",
+        "count" : "886"
+      }, {
+        "item" : "CL - REFUND POLICY IS NOT POSTED  AT EACH OF CASH REGISTER/S OR AT EACH OF POINTS OF SALE OR AT EACH OF THE STORE ENTRANCES OR REFUND POLICY IS NOT POSTED CONSPICUOUSLY",
+        "count" : "800"
+      }, {
+        "item" : "PORTABLE FIRE EXTINGUISHERS AND FIRE HOSES",
+        "count" : "771"
+      }, {
+        "item" : "TS - SELLING TOBACCO PRODUCTS TO PERSON UNDER 21 YEARS OF AGE",
+        "count" : "751"
+      }, {
+        "item" : "FAILED TO PRODUCE PERMIT AND OR RECORD",
+        "count" : "627"
+      }, {
+        "item" : "TS - SOLD TOBACCO PRODUCTS TO PERSON UNDER 18 YEARS OF AGE",
+        "count" : "601"
+      }, {
+        "item" : "SIGN, POSTINGS, NOTICES AND INSTRUCTIONS",
+        "count" : "553"
+      }, {
+        "item" : "TO - SOLD PACK OF CIGARETTES FOR LESS THAN THE PRICE FLOOR",
+        "count" : "548"
+      }, {
+        "item" : "TS - OFFERING FOR SALE ANY PACKAGE OR OTHER CONTAINER WITH FEWER THAN 20 SHEETS OF CIGARETTE WRAPPING PAPERS, WRAPPING LEAVES, OR TUBES THAT CAN BE USED TO WRAP TOBACCO FOR SMOKING",
+        "count" : "470"
+      } ],
+      "smallest" : "1000 unknown brand clear plastic vacuum packaging pouches (6x8'' size, Lot # FVP0608COEX3ML, laeled for vacuum packaging) were observed stored on shelves in rear kitchen  and basement of the establishment,  and is not approved by the Department. Said bag package was ordered sealed by the Department and labeled not to be used or removed until approval is obtained by the Department.  NYCHC 81.12(g)",
+      "not_null" : "146752",
+      "count" : "19027608",
+      "cardinality" : "239012"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259777,
+    "name" : "Charge #6: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_6_infraction_amount",
+    "position" : 63,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308921,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "10700",
+      "non_null" : "280348",
+      "average" : "148.4401249784114",
+      "null" : "18747260",
+      "top" : [ {
+        "item" : "0",
+        "count" : "271956"
+      }, {
+        "item" : "600",
+        "count" : "2258"
+      }, {
+        "item" : "500",
+        "count" : "1138"
+      }, {
+        "item" : "4800",
+        "count" : "1107"
+      }, {
+        "item" : "700",
+        "count" : "1066"
+      }, {
+        "item" : "2400",
+        "count" : "816"
+      }, {
+        "item" : "1200",
+        "count" : "524"
+      }, {
+        "item" : "225",
+        "count" : "334"
+      }, {
+        "item" : "750",
+        "count" : "235"
+      }, {
+        "item" : "300",
+        "count" : "208"
+      }, {
+        "item" : "950",
+        "count" : "185"
+      }, {
+        "item" : "900",
+        "count" : "121"
+      }, {
+        "item" : "75",
+        "count" : "101"
+      }, {
+        "item" : "125",
+        "count" : "63"
+      }, {
+        "item" : "4400",
+        "count" : "40"
+      }, {
+        "item" : "400",
+        "count" : "37"
+      }, {
+        "item" : "1750",
+        "count" : "31"
+      }, {
+        "item" : "1500",
+        "count" : "25"
+      }, {
+        "item" : "2200",
+        "count" : "23"
+      }, {
+        "item" : "450",
+        "count" : "20"
+      } ],
+      "smallest" : "0",
+      "not_null" : "78631",
+      "count" : "19027608",
+      "sum" : "9454300",
+      "cardinality" : "36"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259778,
+    "name" : "Charge #7: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_7_code",
+    "position" : 64,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308922,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "X4,",
+      "non_null" : "589056",
+      "null" : "18438552",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "70976"
+      }, {
+        "item" : "59a-",
+        "count" : "32214"
+      }, {
+        "item" : "08A",
+        "count" : "28093"
+      }, {
+        "item" : "10F",
+        "count" : "24305"
+      }, {
+        "item" : "02G",
+        "count" : "20169"
+      }, {
+        "item" : "10B",
+        "count" : "19141"
+      }, {
+        "item" : "DCA",
+        "count" : "18809"
+      }, {
+        "item" : "19-5",
+        "count" : "18191"
+      }, {
+        "item" : "80-2",
+        "count" : "15855"
+      }, {
+        "item" : "04L",
+        "count" : "15178"
+      }, {
+        "item" : "06C",
+        "count" : "14626"
+      }, {
+        "item" : "10G",
+        "count" : "13766"
+      }, {
+        "item" : "06D",
+        "count" : "12247"
+      }, {
+        "item" : "59A-",
+        "count" : "12080"
+      }, {
+        "item" : "02B",
+        "count" : "11739"
+      }, {
+        "item" : "8A",
+        "count" : "10409"
+      }, {
+        "item" : "04N",
+        "count" : "10064"
+      }, {
+        "item" : "A2",
+        "count" : "9784"
+      }, {
+        "item" : "4M",
+        "count" : "8341"
+      }, {
+        "item" : "2G",
+        "count" : "7298"
+      } ],
+      "smallest" : ",",
+      "not_null" : "252647",
+      "count" : "19027608",
+      "cardinality" : "1088"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259779,
+    "name" : "Charge #7: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_7_code_section",
+    "position" : 65,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308923,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "VIOLATION CATEGORY 9",
+      "non_null" : "448422",
+      "null" : "18579186",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "60680"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "29981"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "20021"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "14226"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "13525"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "10405"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "9516"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "7684"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "7088"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "6832"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "6447"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "6265"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "5358"
+      }, {
+        "item" : "59a-12(a)",
+        "count" : "4780"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "4579"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "4498"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "4154"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "3924"
+      }, {
+        "item" : "NYCHC 81.13(b)",
+        "count" : "3836"
+      }, {
+        "item" : "NYCHC 81.27(c)",
+        "count" : "3601"
+      } ],
+      "smallest" : ".",
+      "not_null" : "165840",
+      "count" : "19027608",
+      "cardinality" : "4584"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259780,
+    "name" : "Charge #7: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_7_code_description",
+    "position" : 66,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308924,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by the manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "258505",
+      "null" : "18769103",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "7544"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "2022"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "1607"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "1602"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "1483"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "934"
+      }, {
+        "item" : "OL - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+        "count" : "929"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "927"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "700"
+      }, {
+        "item" : "TS - SELLING TOBACCO PRODUCTS TO PERSON UNDER 21 YEARS OF AGE",
+        "count" : "638"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "597"
+      }, {
+        "item" : "PORTABLE FIRE EXTINGUISHERS AND FIRE HOSES",
+        "count" : "443"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "403"
+      }, {
+        "item" : "POSTING OF PERMITS AND RECORD KEEPING",
+        "count" : "391"
+      }, {
+        "item" : "OL - SALE OF EXPIRED MEDS:  BUSINESS OFFERED FOR SALE OVER-THE COUNTER MEDICATION LATER THAN EXPIRATION DATE ON THE LABEL.",
+        "count" : "342"
+      }, {
+        "item" : "TS - SOLD OR OFFERED FOR SALE A CIGARETTE REMOVED FROM PACKAGING THAT BEARS A HEALTH WARNING",
+        "count" : "342"
+      }, {
+        "item" : "PL - UNLICENSED TOBACCO RETAIL DEALER",
+        "count" : "331"
+      }, {
+        "item" : "CL - REFUND POLICY NOT POSTED",
+        "count" : "316"
+      }, {
+        "item" : "FAILED TO PRODUCE PERMIT AND OR RECORD",
+        "count" : "251"
+      }, {
+        "item" : "TP - FAILED TO POST AGE RESTRICTION SIGN IN A CONSPICUOUS PLACE",
+        "count" : "236"
+      } ],
+      "smallest" : "10g 81:35 nychc. Equiptment not properly maintained in that one walk-in-refrigerator and one three door lowboy refrigerator observed holding potentially hazardous foods and opearting at 46 and 48 degrees F respectively",
+      "not_null" : "107016",
+      "count" : "19027608",
+      "cardinality" : "220526"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259781,
+    "name" : "Charge #7: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_7_infraction_amount",
+    "position" : 67,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308925,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "480000",
+      "non_null" : "179864",
+      "average" : "114.6223701966684",
+      "null" : "18847744",
+      "top" : [ {
+        "item" : "0",
+        "count" : "176370"
+      }, {
+        "item" : "600",
+        "count" : "832"
+      }, {
+        "item" : "4800",
+        "count" : "584"
+      }, {
+        "item" : "2400",
+        "count" : "530"
+      }, {
+        "item" : "500",
+        "count" : "395"
+      }, {
+        "item" : "700",
+        "count" : "382"
+      }, {
+        "item" : "1200",
+        "count" : "273"
+      }, {
+        "item" : "225",
+        "count" : "156"
+      }, {
+        "item" : "750",
+        "count" : "72"
+      }, {
+        "item" : "950",
+        "count" : "53"
+      }, {
+        "item" : "75",
+        "count" : "47"
+      }, {
+        "item" : "900",
+        "count" : "37"
+      }, {
+        "item" : "300",
+        "count" : "33"
+      }, {
+        "item" : "125",
+        "count" : "30"
+      }, {
+        "item" : "2200",
+        "count" : "13"
+      }, {
+        "item" : "4400",
+        "count" : "12"
+      }, {
+        "item" : "400",
+        "count" : "9"
+      }, {
+        "item" : "1500",
+        "count" : "7"
+      }, {
+        "item" : "375",
+        "count" : "6"
+      }, {
+        "item" : "1750",
+        "count" : "5"
+      } ],
+      "smallest" : "0",
+      "not_null" : "54666",
+      "count" : "19027608",
+      "sum" : "5181275",
+      "cardinality" : "32"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259782,
+    "name" : "Charge #8: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_8_code",
+    "position" : 68,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308926,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "X7,",
+      "non_null" : "570118",
+      "null" : "18457490",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "64747"
+      }, {
+        "item" : "08A",
+        "count" : "31313"
+      }, {
+        "item" : "59a-",
+        "count" : "30278"
+      }, {
+        "item" : "10F",
+        "count" : "21769"
+      }, {
+        "item" : "02G",
+        "count" : "21053"
+      }, {
+        "item" : "10B",
+        "count" : "19524"
+      }, {
+        "item" : "DCA",
+        "count" : "18148"
+      }, {
+        "item" : "19-5",
+        "count" : "16210"
+      }, {
+        "item" : "06C",
+        "count" : "14831"
+      }, {
+        "item" : "04L",
+        "count" : "14400"
+      }, {
+        "item" : "10G",
+        "count" : "14374"
+      }, {
+        "item" : "80-2",
+        "count" : "14266"
+      }, {
+        "item" : "06D",
+        "count" : "13510"
+      }, {
+        "item" : "59A-",
+        "count" : "11642"
+      }, {
+        "item" : "02B",
+        "count" : "10094"
+      }, {
+        "item" : "8A",
+        "count" : "9913"
+      }, {
+        "item" : "A2",
+        "count" : "9757"
+      }, {
+        "item" : "04N",
+        "count" : "9642"
+      }, {
+        "item" : "4M",
+        "count" : "8368"
+      }, {
+        "item" : "2G",
+        "count" : "7434"
+      } ],
+      "smallest" : "___",
+      "not_null" : "215378",
+      "count" : "19027608",
+      "cardinality" : "998"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259783,
+    "name" : "Charge #8: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_8_code_section",
+    "position" : 69,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308927,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "VIOLATION CATEGORY 8",
+      "non_null" : "429861",
+      "null" : "18597747",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "62272"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "29190"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "13893"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "13812"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "12615"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "9038"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "8716"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "8241"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "8115"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "6767"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "6551"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "6384"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "5240"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "5053"
+      }, {
+        "item" : "59a-12(a)",
+        "count" : "4962"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "4868"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "4474"
+      }, {
+        "item" : "59a-08(c)(2)",
+        "count" : "4162"
+      }, {
+        "item" : "NYCHC 81.37(a)",
+        "count" : "3838"
+      }, {
+        "item" : "NYCHC 81.27(c)",
+        "count" : "3800"
+      } ],
+      "smallest" : "-",
+      "not_null" : "134591",
+      "count" : "19027608",
+      "cardinality" : "4404"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259784,
+    "name" : "Charge #8: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_8_code_description",
+    "position" : 70,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308928,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by the manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "254098",
+      "null" : "18773510",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "6264"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "2972"
+      }, {
+        "item" : "OL - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+        "count" : "1790"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "1425"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "1355"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "956"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "867"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "822"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "812"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "650"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "518"
+      }, {
+        "item" : "TS - SOLD TOBACCO PRODUCTS TO PERSON UNDER 18 YEARS OF AGE",
+        "count" : "495"
+      }, {
+        "item" : "TS - SELLING TOBACCO PRODUCTS TO PERSON UNDER 21 YEARS OF AGE",
+        "count" : "409"
+      }, {
+        "item" : "TO - SOLD PACK OF CIGARETTES FOR LESS THAN THE PRICE FLOOR",
+        "count" : "353"
+      }, {
+        "item" : "TS - SOLD OR OFFERED FOR SALE A CIGARETTE REMOVED FROM PACKAGING THAT BEARS A HEALTH WARNING",
+        "count" : "344"
+      }, {
+        "item" : "OL - SALE OF EXPIRED MEDS:  BUSINESS OFFERED FOR SALE OVER-THE COUNTER MEDICATION LATER THAN EXPIRATION DATE ON THE LABEL.",
+        "count" : "321"
+      }, {
+        "item" : "TP - FAILED TO POST AGE RESTRICTION SIGN IN A CONSPICUOUS PLACE",
+        "count" : "295"
+      }, {
+        "item" : "OL - 5 OR MORE STOCK KEEPING ITEMS WITHIN FOLLOWING STOCK KEEPING UNITS FAIL TO CONSPICUOUSLY AND CLEARLY DISPLAY ITEM PRICES STAMPED, TAGGED, OR AFFIXED TO ITEMS.",
+        "count" : "275"
+      }, {
+        "item" : "TS - OFFERING FOR SALE ANY PACKAGE OR OTHER CONTAINER WITH FEWER THAN 20 SHEETS OF CIGARETTE WRAPPING PAPERS, WRAPPING LEAVES, OR TUBES THAT CAN BE USED TO WRAP TOBACCO FOR SMOKING",
+        "count" : "275"
+      }, {
+        "item" : "CL - REFUND POLICY IS NOT POSTED  AT EACH OF CASH REGISTER/S OR AT EACH OF POINTS OF SALE OR AT EACH OF THE STORE ENTRANCES OR REFUND POLICY IS NOT POSTED CONSPICUOUSLY",
+        "count" : "246"
+      } ],
+      "smallest" : "10b.81:21a n.y.c.hc.. Plumbing not properly maintained in that hot water faucet handle observed defective with tripped spline thus unable to turn on trun off hot water at handwash sink at coffee station",
+      "not_null" : "82345",
+      "count" : "19027608",
+      "cardinality" : "220232"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259785,
+    "name" : "Charge #8: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_8_infraction_amount",
+    "position" : 71,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308929,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "9600",
+      "non_null" : "162716",
+      "average" : "32.90006435351531",
+      "null" : "18864892",
+      "top" : [ {
+        "item" : "0",
+        "count" : "162009"
+      }, {
+        "item" : "4800",
+        "count" : "227"
+      }, {
+        "item" : "2400",
+        "count" : "180"
+      }, {
+        "item" : "1200",
+        "count" : "142"
+      }, {
+        "item" : "600",
+        "count" : "46"
+      }, {
+        "item" : "500",
+        "count" : "42"
+      }, {
+        "item" : "700",
+        "count" : "23"
+      }, {
+        "item" : "75",
+        "count" : "16"
+      }, {
+        "item" : "125",
+        "count" : "11"
+      }, {
+        "item" : "225",
+        "count" : "9"
+      }, {
+        "item" : "300",
+        "count" : "3"
+      }, {
+        "item" : "950",
+        "count" : "3"
+      }, {
+        "item" : "9600",
+        "count" : "1"
+      }, {
+        "item" : "480",
+        "count" : "1"
+      }, {
+        "item" : "250",
+        "count" : "1"
+      }, {
+        "item" : "1100",
+        "count" : "1"
+      }, {
+        "item" : "450",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "not_null" : "45789",
+      "count" : "19027608",
+      "sum" : "1226975",
+      "cardinality" : "17"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259786,
+    "name" : "Charge #9: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_9_code",
+    "position" : 72,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308930,
+    "width" : 280,
+    "cachedContents" : {
+      "largest" : "V",
+      "non_null" : "489467",
+      "null" : "18538141",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "61201"
+      }, {
+        "item" : "59a-",
+        "count" : "28771"
+      }, {
+        "item" : "08A",
+        "count" : "21997"
+      }, {
+        "item" : "10F",
+        "count" : "20269"
+      }, {
+        "item" : "02G",
+        "count" : "18470"
+      }, {
+        "item" : "10B",
+        "count" : "16429"
+      }, {
+        "item" : "DCA",
+        "count" : "15648"
+      }, {
+        "item" : "19-5",
+        "count" : "14972"
+      }, {
+        "item" : "80-2",
+        "count" : "13035"
+      }, {
+        "item" : "04L",
+        "count" : "13025"
+      }, {
+        "item" : "10G",
+        "count" : "12423"
+      }, {
+        "item" : "06C",
+        "count" : "11825"
+      }, {
+        "item" : "59A-",
+        "count" : "11524"
+      }, {
+        "item" : "02B",
+        "count" : "10438"
+      }, {
+        "item" : "06D",
+        "count" : "9886"
+      }, {
+        "item" : "8A",
+        "count" : "9001"
+      }, {
+        "item" : "04N",
+        "count" : "8283"
+      }, {
+        "item" : "4M",
+        "count" : "6791"
+      }, {
+        "item" : "2G",
+        "count" : "6438"
+      }, {
+        "item" : "04M",
+        "count" : "5422"
+      } ],
+      "smallest" : "/'",
+      "not_null" : "184716",
+      "count" : "19027608",
+      "cardinality" : "799"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259787,
+    "name" : "Charge #9: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_9_code_section",
+    "position" : 73,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308931,
+    "width" : 376,
+    "cachedContents" : {
+      "largest" : "VIOLATION CATEGORY 5",
+      "non_null" : "374834",
+      "null" : "18652774",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "49816"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "27183"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "17864"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "11576"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "10875"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "9326"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "8237"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "6490"
+      }, {
+        "item" : "59a-26(a)(1)",
+        "count" : "6087"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "5928"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "5536"
+      }, {
+        "item" : "59a-08(c)(2)",
+        "count" : "5256"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "4691"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "4627"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "4054"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "3956"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "3907"
+      }, {
+        "item" : "NYCHC 81.13(b)",
+        "count" : "3201"
+      }, {
+        "item" : "80-14(g)(1)",
+        "count" : "3018"
+      }, {
+        "item" : "NYCHC 81.27(c)",
+        "count" : "2889"
+      } ],
+      "smallest" : "000",
+      "not_null" : "114253",
+      "count" : "19027608",
+      "cardinality" : "3874"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259788,
+    "name" : "Charge #9: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_9_code_description",
+    "position" : 74,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308932,
+    "width" : 424,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "211297",
+      "null" : "18816311",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "5068"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "1563"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "1552"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "1299"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "1189"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "943"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "794"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "783"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "610"
+      }, {
+        "item" : "TS - SELLING TOBACCO PRODUCTS TO PERSON UNDER 21 YEARS OF AGE",
+        "count" : "609"
+      }, {
+        "item" : "OL - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+        "count" : "539"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "321"
+      }, {
+        "item" : "TS - SOLD OR OFFERED FOR SALE A CIGARETTE REMOVED FROM PACKAGING THAT BEARS A HEALTH WARNING",
+        "count" : "312"
+      }, {
+        "item" : "TS - SOLD TOBACCO PRODUCTS TO PERSON UNDER 18 YEARS OF AGE",
+        "count" : "285"
+      }, {
+        "item" : "TO - SOLD PACK OF CIGARETTES FOR LESS THAN THE PRICE FLOOR",
+        "count" : "282"
+      }, {
+        "item" : "TS - OFFERING FOR SALE ANY PACKAGE OR OTHER CONTAINER WITH FEWER THAN 20 SHEETS OF CIGARETTE WRAPPING PAPERS, WRAPPING LEAVES, OR TUBES THAT CAN BE USED TO WRAP TOBACCO FOR SMOKING",
+        "count" : "279"
+      }, {
+        "item" : "CL - REFUND POLICY IS NOT POSTED  AT EACH OF CASH REGISTER/S OR AT EACH OF POINTS OF SALE OR AT EACH OF THE STORE ENTRANCES OR REFUND POLICY IS NOT POSTED CONSPICUOUSLY",
+        "count" : "232"
+      }, {
+        "item" : "Food Protection Certificate not held by supervisor of food operations in that no Food Protection Certificate provided on premises. Corrective action: Operator was instructed that at least one person who holds a Food Protection Certificate must be present during all hours of operation. NYCHC 81.15(a)",
+        "count" : "197"
+      }, {
+        "item" : "OL - 5 OR MORE STOCK KEEPING ITEMS WITHIN FOLLOWING STOCK KEEPING UNITS FAIL TO CONSPICUOUSLY AND CLEARLY DISPLAY ITEM PRICES STAMPED, TAGGED, OR AFFIXED TO ITEMS.",
+        "count" : "183"
+      }, {
+        "item" : "TP - SOLD OR OFFERED FOR SALE CIGARETTES REMOVED FROM PACKAGING THAT BEARS A HEALTH WARNING",
+        "count" : "179"
+      } ],
+      "smallest" : "&#160;",
+      "not_null" : "66171",
+      "count" : "19027608",
+      "cardinality" : "184339"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259789,
+    "name" : "Charge #9: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_9_infraction_amount",
+    "position" : 75,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308933,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "9600",
+      "non_null" : "153206",
+      "average" : "13.98620036127810",
+      "null" : "18874402",
+      "top" : [ {
+        "item" : "0",
+        "count" : "152941"
+      }, {
+        "item" : "2400",
+        "count" : "101"
+      }, {
+        "item" : "4800",
+        "count" : "79"
+      }, {
+        "item" : "1200",
+        "count" : "58"
+      }, {
+        "item" : "75",
+        "count" : "8"
+      }, {
+        "item" : "500",
+        "count" : "7"
+      }, {
+        "item" : "600",
+        "count" : "7"
+      }, {
+        "item" : "9600",
+        "count" : "2"
+      }, {
+        "item" : "950",
+        "count" : "1"
+      }, {
+        "item" : "750",
+        "count" : "1"
+      }, {
+        "item" : "250",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "not_null" : "42068",
+      "count" : "19027608",
+      "sum" : "472300",
+      "cardinality" : "11"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  }, {
+    "id" : 372259790,
+    "name" : "Charge #10: Code",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_10_code",
+    "position" : 76,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308934,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "S14",
+      "non_null" : "423677",
+      "null" : "18603931",
+      "top" : [ {
+        "item" : "80-1",
+        "count" : "42795"
+      }, {
+        "item" : "08A",
+        "count" : "23678"
+      }, {
+        "item" : "10F",
+        "count" : "21976"
+      }, {
+        "item" : "59a-",
+        "count" : "19984"
+      }, {
+        "item" : "10B",
+        "count" : "16922"
+      }, {
+        "item" : "02G",
+        "count" : "16233"
+      }, {
+        "item" : "DCA",
+        "count" : "12137"
+      }, {
+        "item" : "06C",
+        "count" : "11955"
+      }, {
+        "item" : "04L",
+        "count" : "11665"
+      }, {
+        "item" : "10G",
+        "count" : "11629"
+      }, {
+        "item" : "06D",
+        "count" : "10277"
+      }, {
+        "item" : "19-5",
+        "count" : "9997"
+      }, {
+        "item" : "02B",
+        "count" : "9161"
+      }, {
+        "item" : "8A",
+        "count" : "8936"
+      }, {
+        "item" : "80-2",
+        "count" : "8916"
+      }, {
+        "item" : "04N",
+        "count" : "7814"
+      }, {
+        "item" : "2G",
+        "count" : "6321"
+      }, {
+        "item" : "4M",
+        "count" : "5970"
+      }, {
+        "item" : "04M",
+        "count" : "4992"
+      }, {
+        "item" : "6C",
+        "count" : "4717"
+      } ],
+      "smallest" : "___",
+      "not_null" : "142927",
+      "count" : "19027608",
+      "cardinality" : "718"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259791,
+    "name" : "Charge #10: Code Section",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_10_code_section",
+    "position" : 77,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308935,
+    "width" : 388,
+    "cachedContents" : {
+      "largest" : "SSC 14-1.85",
+      "non_null" : "315926",
+      "null" : "18711682",
+      "top" : [ {
+        "item" : "NYCHC 81.23(a)",
+        "count" : "48971"
+      }, {
+        "item" : "NYCHC 81.09(a)",
+        "count" : "23831"
+      }, {
+        "item" : "NYCHC 81.07(a)",
+        "count" : "10860"
+      }, {
+        "item" : "80-13(a)(2)",
+        "count" : "8380"
+      }, {
+        "item" : "80-13(a)(1)",
+        "count" : "8290"
+      }, {
+        "item" : "59a-13(j)(1)",
+        "count" : "6675"
+      }, {
+        "item" : "NYCHC 81.27(b)",
+        "count" : "6479"
+      }, {
+        "item" : "80-13(a)(3)(viii)",
+        "count" : "6153"
+      }, {
+        "item" : "19-506(b)(1)",
+        "count" : "6025"
+      }, {
+        "item" : "NYCHC 81.20(b)",
+        "count" : "5894"
+      }, {
+        "item" : "NYCHC 81.17(e)(3)",
+        "count" : "4686"
+      }, {
+        "item" : "59a-12(a)",
+        "count" : "4537"
+      }, {
+        "item" : "NYCHC 81.17(e)(1)",
+        "count" : "4323"
+      }, {
+        "item" : "80-13(a)(3)(vii)",
+        "count" : "3759"
+      }, {
+        "item" : "NYCHC 81.15(a)",
+        "count" : "3749"
+      }, {
+        "item" : "59a-08(c)(2)",
+        "count" : "3435"
+      }, {
+        "item" : "NYCHC 81.27(c)",
+        "count" : "3185"
+      }, {
+        "item" : "NYCHC 81.13(b)",
+        "count" : "3122"
+      }, {
+        "item" : "80-27(a)(1)",
+        "count" : "2980"
+      }, {
+        "item" : "NYCHC 81.07(d)",
+        "count" : "2565"
+      } ],
+      "smallest" : "000",
+      "not_null" : "84090",
+      "count" : "19027608",
+      "cardinality" : "3598"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259792,
+    "name" : "Charge #10: Code Description",
+    "dataTypeName" : "text",
+    "fieldName" : "charge_10_code_description",
+    "position" : 78,
+    "renderTypeName" : "text",
+    "tableColumnId" : 13308936,
+    "width" : 436,
+    "cachedContents" : {
+      "largest" : "Written nutritional information not on the premises or available to customers in that written nutrition information was not provided by the manager of the covered FSE when requested at time of the inspection.ï¿½ NYCHC 81.50(e) General requirement:ï¿½ Written nutrition information for standard menu items must be provided to patrons upon request.ï¿½ Provide this information in the order listed and using the measurements specified: total calories (cal), calories from fat (fat cal), total fat (g), saturated fat (g), trans fat (g), cholesterol (mg), sodium (mg), total carbohydrates (g), dietary fiber (g), sugar (g) and protein (g). This information can appear on a counter card, sign, poster, handout, booklet, loose-leaf binder, menu, electronic device on the premises or other similar means.",
+      "non_null" : "206490",
+      "null" : "18821118",
+      "top" : [ {
+        "item" : "See attached NOV",
+        "count" : "4726"
+      }, {
+        "item" : "See Attached NOV",
+        "count" : "1624"
+      }, {
+        "item" : "See Attached Nov",
+        "count" : "1038"
+      }, {
+        "item" : "TP - SOLD TOBACCO PRODUCTS TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "896"
+      }, {
+        "item" : "TO - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL FLAVORED TOBACCO PRODUCT",
+        "count" : "803"
+      }, {
+        "item" : "TS - Selling or offering for sale a flavored vapor product intended or reasonably expected to be used for the consumption of nicotine.",
+        "count" : "746"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED TOBACCO RETAIL DEALER ACTIVITY",
+        "count" : "728"
+      }, {
+        "item" : "TP - SELLING OR OFFERING FOR SALE A CIGAR OR PACKAGE OF CIGARS FOR LESS THAN THE CIGAR PRICE FLOOR OF $8.00 FOR THE FIRST CIGAR, PLUS $1.75 FOR EACH ADDITIONAL CIGAR, EXCLUDING OTP AND SALES TAX",
+        "count" : "685"
+      }, {
+        "item" : "OL - SOLD, OFFERED FOR SALE, OR POSSESSED WITH INTENT TO SELL OR OFFER FOR SALE FLAVORED ELECTRONIC CIGARETTE OR E-LIQUID",
+        "count" : "536"
+      }, {
+        "item" : "PL - BUSINESS ENGAGES IN UNLICENSED ELECTRONIC CIGARETTE RETAIL DEALER ACTIVITY",
+        "count" : "352"
+      }, {
+        "item" : "TS - SOLD TOBACCO PRODUCTS TO PERSON UNDER 18 YEARS OF AGE",
+        "count" : "333"
+      }, {
+        "item" : "TS - SELLING TOBACCO PRODUCTS TO PERSON UNDER 21 YEARS OF AGE",
+        "count" : "324"
+      }, {
+        "item" : "OL - STORE DID NOT CONSPICUOUSLY DISPLAY THE TOTAL SELLING PRICE, AT POINT OF DISPLAY, FOR ITEM.",
+        "count" : "286"
+      }, {
+        "item" : "TS - SOLD OR OFFERED FOR SALE A CIGARETTE REMOVED FROM PACKAGING THAT BEARS A HEALTH WARNING",
+        "count" : "264"
+      }, {
+        "item" : "TP - FAILED TO POST AGE RESTRICTION SIGN IN A CONSPICUOUS PLACE",
+        "count" : "253"
+      }, {
+        "item" : "TO - SOLD PACK OF CIGARETTES FOR LESS THAN THE PRICE FLOOR",
+        "count" : "220"
+      }, {
+        "item" : "TS - OFFERING FOR SALE ANY PACKAGE OR OTHER CONTAINER WITH FEWER THAN 20 SHEETS OF CIGARETTE WRAPPING PAPERS, WRAPPING LEAVES, OR TUBES THAT CAN BE USED TO WRAP TOBACCO FOR SMOKING",
+        "count" : "212"
+      }, {
+        "item" : "TP - SOLD E-CIGARETTES TO A PERSON UNDER 21 YEARS OF AGE",
+        "count" : "188"
+      }, {
+        "item" : "TP - SOLD OR OFFERED FOR SALE CIGARETTES REMOVED FROM PACKAGING THAT BEARS A HEALTH WARNING",
+        "count" : "187"
+      }, {
+        "item" : "Food Protection Certificate not held by supervisor of food operations in that no Food Protection Certificate provided on premises. Corrective action: Operator was instructed that at least one person who holds a Food Protection Certificate must be present during all hours of operation. NYCHC 81.15(a)",
+        "count" : "157"
+      } ],
+      "smallest" : "10d81:19 (c) n.y.ch.c. Equiptment not properly maintained in that flute pipe observed corroded on gas fired hot water heater in basement( co reading was tested less than 13 ppm.Operator sealed corroded areas",
+      "not_null" : "53646",
+      "count" : "19027608",
+      "cardinality" : "183207"
+    },
+    "format" : { }
+  }, {
+    "id" : 372259793,
+    "name" : "Charge #10: Infraction Amount",
+    "dataTypeName" : "number",
+    "fieldName" : "charge_10_infraction_amount",
+    "position" : 79,
+    "renderTypeName" : "number",
+    "tableColumnId" : 13308937,
+    "width" : 448,
+    "cachedContents" : {
+      "largest" : "9600",
+      "non_null" : "100171",
+      "average" : "10.14800818768698",
+      "null" : "18927437",
+      "top" : [ {
+        "item" : "0",
+        "count" : "100060"
+      }, {
+        "item" : "4800",
+        "count" : "56"
+      }, {
+        "item" : "2400",
+        "count" : "32"
+      }, {
+        "item" : "1200",
+        "count" : "18"
+      }, {
+        "item" : "75",
+        "count" : "2"
+      }, {
+        "item" : "9600",
+        "count" : "2"
+      }, {
+        "item" : "250",
+        "count" : "1"
+      } ],
+      "smallest" : "0",
+      "not_null" : "25442",
+      "count" : "19027608",
+      "sum" : "193350",
+      "cardinality" : "7"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "humane" : "false",
+      "currencyStyle" : "USD",
+      "precision" : "2",
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "violation_date",
+        "ascending" : false
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "OATH_Hearings_Division_Case_Status_Data_Dictionary.xlsx",
+      "assetId" : "75cc4046-dd97-4857-a74a-7505d574c78f",
+      "name" : "OATH_Hearings_Division_Case_Status_Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "3/2/2016",
+        "Update Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Administrative Trials and Hearings (OATH)"
+      }
+    },
+    "filterCondition" : {
+      "metadata" : {
+        "advanced" : true,
+        "unifiedVersion" : 2
+      },
+      "type" : "operator",
+      "value" : "AND"
+    },
+    "rowIdentifier" : 372259715,
+    "rowLabel" : "Row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 372259716,
+        "type" : "column"
+      }
+    } ]
+  },
+  "ratings" : {
+    "rating" : 20
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "oath", "moda", "ecb violations", "violations", "charges", "environmental control board", "tribunal", "alj", "administrative law judge", "ticket", "ticket finder", "quality of life", "business integrity commission", "bic", "department of buildings", "dob", "department of consumer affairs", "dca", "department of environmental protection", "dep", "fire department", "fdny", "department of health and mental hygiene", "dohmh", "department of information technology and telecommunications", "doitt", "landmarks preservation commission", "lpc", "department of parks and recreation", "dpr", "police department", "nypd", "department of sanitation", "dsny", "department of small business services", "sbs", "department of transportation", "dot" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

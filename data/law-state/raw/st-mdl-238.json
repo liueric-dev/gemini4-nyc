@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 238 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "238",
+    "title" : "Stair and entrance halls",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "238",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 238. Stair and entrance halls. All stair and entrance halls in\\ntenements shall be constructed as provided in this section.\\n  1. In tenements erected after April twelfth, nineteen hundred one:\\n  a. On every story there shall be fireproof doors and assemblies with\\nthe doors self-closing separating every such stair and entrance hall\\nfrom all non-fireproof parts of the tenement.\\n  b. There shall be no transom, sash or similar opening of any kind from\\nsuch stair and entrance halls to any other part of the tenement.\\n  c. If such tenements are non-fireproof, and are occupied by three\\nfamilies or more on any story or are five stories or more in height, the\\nstair and entrance halls shall be enclosed with brick walls, except as\\nprovided in paragraph a of subdivision three.\\n  2. In tenements erected after April fourteenth, nineteen hundred\\nthree:\\n  a. Every entrance hall shall be at least three feet six inches in\\nclear width from the entrance up to and including the stair enclosure,\\nand beyond that at least three feet in clear width. If such entrance\\nhall is the only entrance to two stairs or more, that portion of the\\nhall between the entrance and the first stair, including the stair\\nenclosure, shall be at least five feet three inches in clear width.\\n  b. Such halls shall comply with the requirements of sections two\\nhundred thirty-four to two hundred thirty-seven inclusive as to\\nconstruction of stair and entrance halls, except that if such tenements\\nare fireproof entrance hall enclosures need only withstand a fire test\\nof two and one-half hours and angle iron construction may be substituted\\nfor brick walls.\\n  c. In every such tenement access shall be provided from a street to\\nthe yard either in a direct line or through a court.\\n  d. If such tenements are occupied by not more than two families on any\\nstory and are not more than four stories in height, the floors of the\\nstair and entrance halls shall be fireproof or filled in between the\\nfloor beams with at least five inches of concrete deafening. The stairs\\nshall be fireproof, or may be of wood provided the soffits of the stairs\\nare fire-retarded, or covered with plaster board at least one-half inch\\nthick, with all joints true and well pointed. The stair and entrance\\nhalls in such tenements shall be enclosed on all sides with brick walls\\nor with partitions of angle iron and fireproof blocks four inches or\\nmore in thickness, except as provided in paragraph e.\\n  e. If such tenements are occupied by not more than two families on any\\nstory and are not more than three stories in height, the stair and\\nentrance halls may be enclosed in wood stud partitions, fire-retarded on\\nboth sides, or covered with plaster board at least one-half inch thick,\\nwith all joints true and well pointed and with the spaces between the\\nstuds filled in with brick to the height of the floor beams.\\n  3. In tenements erected after April eighteenth, nineteen hundred\\ntwelve:\\n  a. If such tenements are occupied by three or more families on any\\nstory, or are five stories or more in height, the stairs and entrance\\nhalls shall be fireproof throughout and all stairs provided with\\nhandrails, except that stair treads two inches or more in thickness and\\nhandrails may be of hard wood. All windows in such halls shall be\\nfireproof and, except for windows opening on a street in a tenement six\\nstories or less in height, shall be glazed with wire glass. Such halls\\nshall be enclosed with brick walls, except that one or more sides may be\\nleft open to a street, yard or court.\\n  b. Public halls which are more than forty feet in length and are used\\nas a means of egress from four or more apartments shall be fireproof\\nthroughout and doors opening therefrom and their assemblies shall be\\nfireproof with the doors self-closing.\\n  4. In old-law tenements four stories or more in height:\\n  a. Whenever the entrance halls of any such tenements adjoin they shall\\nbe separated by a fire-retarded wall.\\n  b. The walls and ceilings of every entrance hall and stair hall, and\\nevery public hall connected therewith, and the soffit of every stair\\nshall be fire-retarded. In all such halls all wood wainscoting except a\\nflat base and stair stringers ten inches or less in height, and all wood\\nrailings, balustrades and newel posts shall be removed completely and\\nreplaced with metal or other hard incombustible materials of such size\\nand secured in such manner as may be approved by the department, except\\nthat handrails may be of hard wood.\\n  c. Every door opening into any entrance hall or stair, or into any\\npublic hall connected therewith, shall be self-closing; every glazed\\nopening or glazed panel in such a door shall be glazed with wire glass,\\nand every transom opening into any public hall shall be glazed with wire\\nglass and permanently secured in a closed position.\\n  d. Every interior sash, or opening other than a door, in the walls or\\npartitions of such halls, and every window therein not opening to the\\nouter air, shall be removed and the openings closed up and\\nfire-retarded.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "237",
+      "title" : "Stair construction",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "237",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "239",
+      "title" : "Tower fire-escapes and supplemental stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "239",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

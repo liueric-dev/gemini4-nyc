@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.35 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.35",
+    "title" : "Failing to report criminal communications",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "250.35",
+    "activeDate" : "2014-09-22",
+    "text" : "§ 250.35 Failing to report criminal communications.\\n  1. It shall be the duty of a telephone or telegraph corporation, or an\\nentity operating an electronic communications service, and of any\\nemployee, officer or representative thereof having knowledge that the\\nfacilities of such corporation or entity are being used to conduct any\\ncriminal business, traffic or transaction, to furnish or attempt to\\nfurnish to an appropriate law enforcement officer or agency all\\npertinent information within his possession relating to such matter, and\\nto cooperate fully with any law enforcement officer or agency\\ninvestigating such matter.\\n  2. A person is guilty of failing to report criminal communications\\nwhen he knowingly violates any duty prescribed in subdivision one of\\nthis section.\\n  Failing to report criminal communications is a class B misdemeanor.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.30",
+      "title" : "Unlawfully obtaining communications information",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.30",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.40",
+      "title" : "Unlawful surveillance; definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.40",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 768 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "768",
+    "title" : "Unlawful eviction",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2019-06-28" ],
+    "docLevelId" : "768",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 768. Unlawful eviction. 1. (a) It shall be unlawful for any person\\nto evict or attempt to evict an occupant of a dwelling unit who has\\nlawfully occupied the dwelling unit for thirty consecutive days or\\nlonger or who has entered into a lease with respect to such dwelling\\nexcept to the extent permitted by law pursuant to a warrant of eviction\\nor other order of a court of competent jurisdiction or a governmental\\nvacate order by:\\n  (i) using or threatening the use of force to induce the occupant to\\nvacate the dwelling unit; or\\n  (ii) engaging in a course of conduct which interferes with or is\\nintended to interfere with or disturb the comfort, repose, peace or\\nquiet of such occupant in the use or occupancy of the dwelling unit, to\\ninduce the occupant to vacate the dwelling unit including, but not\\nlimited to, the interruption or discontinuance of essential services; or\\n  (iii) engaging or threatening to engage in any other conduct which\\nprevents or is intended to prevent such occupant from the lawful\\noccupancy of such dwelling unit or to induce the occupant to vacate the\\ndwelling unit including, but not limited to, removing the occupant's\\npossessions from the dwelling unit, removing the door at the entrance to\\nthe dwelling unit; removing, plugging or otherwise rendering the lock on\\nsuch entrance door inoperable, or changing the lock on such entrance\\ndoor without supplying the occupant with a key.\\n  (b) It shall be unlawful for an owner of a dwelling unit to fail to\\ntake all reasonable and necessary action to restore to occupancy an\\noccupant of a dwelling unit who either vacates, has been removed from or\\nis otherwise prevented from occupying a dwelling unit as the result of\\nany of the acts or omissions prescribed in paragraph (a) of this\\nsubdivision and to provide to such occupant a dwelling unit within such\\ndwelling suitable for occupancy, after being requested to do so by such\\noccupant or the representative of such occupant, if such owner either\\ncommitted such unlawful acts or omissions or knew or had reason to know\\nof such unlawful acts or omissions, or if such acts or omissions\\noccurred within seven days prior to such request.\\n  2. Criminal and civil penalties. (a) Any person who intentionally\\nviolates or assists in the violation of any of the provisions of this\\nsection shall be guilty of a class A misdemeanor. Each such violation\\nshall be a separate and distinct offense.\\n  (b) Such person shall also be subject to a civil penalty of not less\\nthan one thousand nor more than ten thousand dollars for each violation.\\nEach such violation shall be a separate and distinct offense. In the\\ncase of a failure to take all reasonable and necessary action to restore\\nan occupant pursuant to paragraph (b) of subdivision one of this\\nsection, such person shall be subject to an additional civil penalty of\\nnot more than one hundred dollars per day from the date on which\\nrestoration to occupancy is requested until the date on which\\nrestoration occurs, provided, however, that such period shall not exceed\\nsix months.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "767",
+      "title" : "Order of redemption; liability of persons redeeming",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "767",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

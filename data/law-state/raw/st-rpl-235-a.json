@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 235-A in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "235-A",
+    "title" : "Tenant right to offset payments and entitlement to damages in certain cases",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2020-08-28" ],
+    "docLevelId" : "235-A",
+    "activeDate" : "2020-08-28",
+    "text" : "  § 235-a. Tenant right to offset payments and entitlement to damages in\\ncertain cases. 1. In any case in which a residential tenant shall\\nlawfully make a payment to a utility company pursuant to the provisions\\nof sections thirty-three, thirty-four and one hundred sixteen of the\\npublic service law, or to a utility company as defined in subdivision\\ntwenty-three of section two of the public service law, public authority,\\nwater-works corporation, as defined in subdivision twenty-seven of\\nsection two of the public service law, or municipal water system, as\\nprescribed in section eighty-nine-l of the public service law, for water\\nservice which a landlord is responsible for but has failed or refused to\\nprovide payment therefor, such payment shall be deductible from any\\nfuture payment of rent.\\n  2. Any owner (as defined in the multiple dwelling law or multiple\\nresidence law) of a multiple dwelling responsible for the payment of\\ncharges for gas, electric, steam or water service who causes the\\ndiscontinuance of that service by failure or refusal to pay the charges\\nfor past service shall be liable for compensatory and punitive damages\\nto any tenant whose utility service is so discontinued.\\n  * 3. Nothing contained in this section and no payment made pursuant to\\nthis section shall be deemed to discharge the liability of a renter with\\nan interest in real property pursuant to subdivision two of section\\nthree hundred four of the real property tax law from taxes levied on\\nsuch interest.\\n  * NB (Effective pending ruling by Commissioner of Internal Revenue)\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235",
+      "title" : "Wilful violations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "235",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-B",
+      "title" : "Warranty of habitability",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "235-B",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

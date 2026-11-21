@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.40 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.40",
+    "title" : "Unlawful surveillance; definitions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "250.40",
+    "activeDate" : "2014-09-22",
+    "text" : "§ 250.40 Unlawful surveillance; definitions.\\n  The following definitions shall apply to sections 250.45, 250.50,\\n250.55 and 250.60 of this article:\\n  1. \"Place and time when a person has a reasonable expectation of\\nprivacy\" means a place and time when a reasonable person would believe\\nthat he or she could fully disrobe in privacy.\\n  2. \"Imaging device\" means any mechanical, digital or electronic\\nviewing device, camera, cellular phone or any other instrument capable\\nof recording, storing or transmitting visual images that can be utilized\\nto observe a person.\\n  3. \"Sexual or other intimate parts\" means the human male or female\\ngenitals, pubic area or buttocks, or the female breast below the top of\\nthe nipple, and shall include such part or parts which are covered only\\nby an undergarment.\\n  4. \"Broadcast\" means electronically transmitting a visual image with\\nthe intent that it be viewed by a person.\\n  5. \"Disseminate\" means to give, provide, lend, deliver, mail, send,\\nforward, transfer or transmit, electronically or otherwise to another\\nperson.\\n  6. \"Publish\" means to (a) disseminate, as defined in subdivision five\\nof this section, with the intent that such image or images be\\ndisseminated to ten or more persons; or (b) disseminate with the intent\\nthat such images be sold by another person; or (c) post, present,\\ndisplay, exhibit, circulate, advertise or allows access, electronically\\nor otherwise, so as to make an image or images available to the public;\\nor (d) disseminate with the intent that an image or images be posted,\\npresented, displayed, exhibited, circulated, advertised or made\\naccessible, electronically or otherwise and to make such image or images\\navailable to the public.\\n  7. \"Sell\" means to disseminate to another person, as defined in\\nsubdivision five of this section, or to publish, as defined in\\nsubdivision six of this section, in exchange for something of value.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.35",
+      "title" : "Failing to report criminal communications",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.35",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.45",
+      "title" : "Unlawful surveillance in the second degree",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2014-11-07" ],
+      "docLevelId" : "250.45",
+      "activeDate" : "2014-11-07"
+    }
+  }
+}

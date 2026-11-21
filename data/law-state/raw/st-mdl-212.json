@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 212 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "212",
+    "title" : "Yards and courts",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "212",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 212. Yards and courts. 1. No tenement shall be enlarged or its lot\\ndiminished in any way which would leave any yard or court less in any\\ndimension than the minimum dimensions prescribed for yards or courts in\\nsection twenty-six.\\n  The restrictions of this subdivision shall not apply to tenements\\nerected after April twelfth, nineteen hundred one, on lots which run\\nthrough from one street to another street and do not exceed one hundred\\nfeet in depth.\\n  2. Any court constructed on or after December fifteenth, nineteen\\nhundred sixty-one in a tenement to ventilate any room, public hall,\\nwater-closet compartment or bathroom shall be of the dimensions\\nprescribed in section twenty-six, and such court shall under no\\ncircumstances be roofed or covered over at the top. Every such court, if\\nan inner court, shall be provided at the bottom with one or more\\nhorizontal air-intakes constructed as provided in section twenty-six.\\n  3. Any shaft or court constructed after April eighteenth, nineteen\\nhundred twenty-nine, which is used to light or ventilate any room\\noccupied for living purposes in any old-law tenement shall be at least\\ntwenty-five square feet in area and four feet in width in every part,\\nand shall under no circumstances be roofed or covered over at the top.\\nEvery such shaft shall be provided at the bottom with a horizontal\\nair-intake or duct at least four square feet in area communicating\\ndirectly with a street or yard and so arranged as to be easily cleaned.\\n  4. In every old-law tenement there shall be a door at the bottom of\\nevery shaft and inner court giving access to the shaft or court and\\nwhenever the shaft or inner court is less than two hundred square feet\\nin area or ten feet in any dimension, such door and its assembly shall\\nbe fireproof with the door self-closing. Where a window or door existing\\non April eighteenth, nineteen hundred twenty-nine, gives proper access\\nto such a shaft or court, such window or door shall be deemed\\nsufficient.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "211",
+      "title" : "Height and bulk",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "211",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "213",
+      "title" : "Lighting and ventilation of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "213",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

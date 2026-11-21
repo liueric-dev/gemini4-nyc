@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 3 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "3",
+    "title" : "Application to cities, towns and villages",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "3",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 3. Application to cities, towns and villages. 1. This chapter shall\\napply to all cities with a population of three hundred twenty-five\\nthousand or more.\\n  2. The legislative body of any other city, town or village may adopt\\nthe provisions of this chapter and make the same applicable to dwellings\\nwithin the limits of such city, town or village by the passage of a\\nlocal law or ordinance adopting the same; and upon the passage of such\\nlocal law or ordinance all of the provisions of articles one, two,\\nthree, four, five, ten and eleven and such sections or parts of sections\\nof the other articles of this chapter as such local law or ordinance\\nshall enumerate, shall apply to such city, town or village from the date\\nstated in such law or ordinance.\\n  3. Except as herein otherwise specified, every multiple dwelling shall\\nbe constructed or maintained in conformity with other applicable laws.\\n  4. a. Any city, town or village may make local laws, ordinances,\\nresolutions or regulations not less restrictive than those provided in\\nthis chapter and may provide for their enforcement by legal or equitable\\nactions or proceedings, and prescribe the penalties, sanctions and\\nremedies for violations thereof.  In the enforcement and administration\\nof this chapter in a city of three hundred twenty-five thousand or more\\npersons, the penalties, sanctions and remedies enacted by local law may\\nbe applied, notwithstanding their inconsistency with this chapter, or\\nthe provisions of this chapter.\\n  b. In a city of three hundred twenty-five thousand or more persons,\\nsuch local laws may authorize such actions or proceedings against the\\nowner, lessee of a whole multiple dwelling, agent or other person having\\ncontrol of such dwelling, and any responsible party, or against the\\ndwelling in rem. Such local laws may further authorize (1) that civil\\npenalties may be enforced against the person liable therefor, and that\\nin addition to the methods of enforcement for judgments established in\\nthe civil practice law and rules, a lien may be imposed against the\\npremises and the rents therefrom; (2) that such civil penalties may be\\nenforced against the dwelling by the imposition of a lien against the\\nrents therefrom.\\n  c. Such local laws may also authorize that all liens upon rents,\\nwhether authorized by state or local law, may be satisfied without\\nfurther judicial proceedings by the collection of rents due or to become\\ndue.\\n  5. Whenever a provision of any local law, ordinance, resolution or\\nregulation is more restrictive in a requirement for height, area or use,\\nsuch local law, ordinance, resolution or regulation shall govern and\\ntake precedence over any lesser requirements of this chapter. When,\\nhowever, the provisions of this chapter impose more restrictive\\nrequirements, the provisions of this chapter shall govern.\\n  6. A local law, ordinance, resolution or regulation shall not prohibit\\nin any class A multiple dwelling erected after April eighteenth,\\nnineteen hundred twenty-nine, in compliance with the provisions of this\\nchapter, the use of wood for sleepers, grounds, nailing blocks,\\nunderflooring or finish flooring or, within apartments, doors with their\\nassemblies, interior trim and assemblies of exterior windows, interior\\nfinish, closet fixtures, kitchen fixtures, shelving, cupboards, cabinets\\nor wardrobes.\\n  7. Except as provided in subdivisions four and five, a local law,\\nordinance, rule or regulation shall not modify or dispense with any\\nprovision of this chapter.\\n  8. Wherever the word \"city\" occurs in this chapter, it shall be\\nconstrued as though followed by the words \"or town or village to which\\nthis chapter is applicable.\" The words \"charter,\" \"ordinance,\"\\n\"resolution,\" \"regulation,\" \"building code,\" \"department of health,\"\\n\"department of water supply,\" \"fire department,\" \"department,\" \"board,\"\\n\"city engineer,\" \"corporation counsel,\" \"city treasury,\" or \"fire\\nlimits,\" shall be construed as if followed by the words \"or\\ncorresponding authority of any city, town or village to which this\\nchapter is applicable and in which the dwelling or location referred to\\nis situated.\"\\n  9. Wherever in any statute of the state other than this chapter, or in\\nany local law, ordinance, resolution or regulation, reference is made to\\nthe tenement house law in relation to a city to which this chapter is\\napplicable, such reference shall be construed as applying to the\\nprovisions of this chapter. If reference be made therein to any section\\nor other part of the tenement house law, such reference shall be\\nconstrued as applying to the provisions of this chapter relating to the\\nsame subject matter as the said section or part. If reference be made\\ntherein to a \"tenement house,\" such reference shall be construed as\\napplying to a class A multiple dwelling.\\n  10. Wherever the date April eighteenth, nineteen hundred twenty-nine,\\nshall appear in this chapter such date shall be construed as if followed\\nby the words \"or the date when this chapter or any of its provisions\\nbecame or becomes applicable to any city, town or village outside the\\nCity of New York.\"\\n  11. Notwithstanding any other provision of this section, the following\\nenumerated articles, sections and subdivisions of sections of this\\nchapter shall not apply to the construction or alteration of multiple\\ndwellings for which an application for a permit is made to the\\ndepartment after December sixth, nineteen hundred sixty-nine in a city\\nhaving a population of one million or more which adopts or has adopted\\nlocal laws, ordinances, resolutions or regulations providing protection\\nfrom fire hazards and making provision for escape from fire in the\\nconstruction and alteration of multiple dwellings and in other respects\\nas protective as local law seventy-six of the laws of the city of New\\nYork for nineteen hundred sixty-eight and covering the same subject\\nmatter as the following: subdivisions twenty-five, twenty-seven,\\ntwenty-eight, thirty-five-c, thirty-six and thirty-nine of section four,\\nsubdivision three of section twenty-eight, sections thirty-six,\\nthirty-seven, fifty, fifty-one, fifty-two, fifty-three, fifty-five,\\nsixty, sixty-one, sixty-seven, subdivisions one, two, four and five of\\nsection seventy-five, article four, article five, article five-A,\\narticle six and article seven-B; except that after December sixth,\\nnineteen hundred sixty-nine where a multiple dwelling erected prior to\\nDecember sixth, nineteen hundred sixty-nine is altered, or a building\\nerected prior to December sixth, nineteen hundred sixty-nine is\\nconverted to a multiple dwelling pursuant to a permit applied for to the\\ndepartment having jurisdiction, the foregoing articles, sections and\\nsubdivisions of sections shall remain applicable where a local law of\\nsuch city authorizes such alteration or conversion to be made, at the\\noption of the owner, either in accordance with the requirements of the\\nbuilding law and regulations in effect in such city prior to December\\nsixth, nineteen hundred sixty-eight or the requirements of the building\\nlaw and regulations in effect after such date, and the owner elects to\\ncomply with the requirements of the building law and regulations in\\neffect prior to December sixth, nineteen hundred sixty-eight.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A1",
+      "title" : "Introductory Provisions; Definitions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "2",
+      "title" : "Legislative finding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "4",
+      "title" : "Definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "4",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

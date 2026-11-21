@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 117 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "117",
+    "title" : "Employees' water-closets",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "117",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 117. Employees' water-closets. Water-closet compartments provided\\nfor domestic servants of tenants in multiple dwellings shall comply with\\nthe applicable provisions of section seventy-six.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T2",
+      "title" : "Sanitation",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "116",
+      "title" : "Water-closets in certain class B multiple dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "116",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

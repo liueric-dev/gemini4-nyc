@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 10 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "10",
+    "title" : "Regulations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "10",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 10. Regulations. a. For cities having a population of less than one\\nmillion and towns and villages, the state division of housing and\\ncommunity renewal shall be empowered to implement this act by\\nappropriate regulations. Such regulations may encompass such speculative\\nor manipulative practices or renting or leasing practices as the state\\ndivision of housing and community renewal determines constitute or are\\nlikely to cause circumvention of this act. Such regulations shall\\nprohibit practices which are likely to prevent any person from asserting\\nany right or remedy granted by this act, including but not limited to\\nretaliatory termination of periodic tenancies and shall require owners\\nto grant a new one or two year vacancy or renewal lease at the option of\\nthe tenant, except where a mortgage or mortgage commitment existing as\\nof the local effective date of this act provides that the owner shall\\nnot grant a one-year lease; and shall prescribe standards with respect\\nto the terms and conditions of new and renewal leases, additional rent\\nand such related matters as security deposits, advance rental payments,\\nthe use of escalator clauses in leases and provision for increase in\\nrentals for garages and other ancillary facilities, so as to ensure that\\nthe level of rent adjustments authorized under this law will not be\\nsubverted and made ineffective. Any provision of the regulations\\npermitting an owner to refuse to renew a lease on grounds that the owner\\nseeks to recover possession of a housing accommodation for his or her\\nown use and occupancy or for the use and occupancy of his or her\\nimmediate family shall permit recovery of only one housing\\naccommodation, shall require that an owner demonstrate immediate and\\ncompelling need and that the housing accommodation will be the proposed\\noccupants' primary residence and shall not apply where a member of the\\nhousing accommodation is sixty-two years of age or older, has been a\\ntenant in a housing accommodation in that building for fifteen years or\\nmore, or has an impairment which results from anatomical, physiological\\nor psychological conditions, other than addiction to alcohol, gambling,\\nor any controlled substance, which are demonstrable by medically\\nacceptable clinical and laboratory diagnostic techniques, and which are\\nexpected to be permanent and which prevent the tenant from engaging in\\nany substantial gainful employment; provided, however, that a tenant\\nrequired to surrender a housing accommodation under this subdivision\\nshall have a cause of action in any court of competent jurisdiction for\\ndamages, declaratory, and injunctive relief against a landlord or\\npurchaser of the premises who makes a fraudulent statement regarding a\\nproposed use of the housing accommodation. In any action or proceeding\\nbrought pursuant to this subdivision a prevailing tenant shall be\\nentitled to recovery of actual damages, and reasonable attorneys' fees.\\n  (a-2) Where the amount of rent charged to and paid by the tenant is\\nless than the legal regulated rent for the housing accommodation, the\\namount of rent for such housing accommodation which may be charged upon\\nvacancy thereof, may, at the option of the owner, be based upon such\\npreviously established legal regulated rent, as adjusted by the most\\nrecent applicable guidelines increases and other increases authorized by\\nlaw.  For any tenant who is subject to a lease on or after the effective\\ndate of a chapter of the laws of two thousand nineteen which amended\\nthis subdivision, or is or was entitled to receive a renewal or vacancy\\nlease on or after such date, upon renewal of such lease, the amount of\\nrent for such housing accommodation that may be charged and paid shall\\nbe no more than the rent charged to and paid by the tenant prior to that\\nrenewal, as adjusted by the most recent applicable guidelines increases\\nand any other increases authorized by law. Provided, however, that for\\nbuildings that are subject to this statute by virtue of a regulatory\\nagreement with a local government agency and which buildings receive\\nfederal project based rental assistance administered by the United\\nStates department of housing and urban development or a state or local\\nsection eight administering agency, where the rent set by the federal,\\nstate or local governmental agency is less than the legal regulated rent\\nfor the housing accommodation, the amount of rent for such housing\\naccommodation which may be charged with the approval of such federal,\\nstate or local governmental agency upon renewal or upon vacancy thereof,\\nmay be based upon such previously established legal regulated rent, as\\nadjusted by the most recent applicable guidelines increases or other\\nincreases authorized by law; and further provided that such vacancy\\nshall not be caused by the failure of the owner or an agent of the\\nowner, to maintain the housing accommodation in compliance with the\\nwarranty of habitability set forth in subdivision one of section two\\nhundred thirty-five-b of the real property law.\\n  b. For cities having a population of one million or more, this act may\\nbe implemented by regulations adopted pursuant to the New York city rent\\nstabilization law of nineteen hundred sixty-nine, as amended, or as\\notherwise provided by law.\\n  c. Each owner of premises subject to this act shall furnish to each\\ntenant signing a new or renewal lease, a copy of the fully executed new\\nor renewal lease bearing the signatures of owner and tenant and the\\nbeginning and ending dates of the lease term, within thirty days from\\nthe owner's receipt of the new or renewal lease signed by the tenant.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "9",
+      "title" : "Application for adjustment of initial legal regulated rent",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "9",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "10-A",
+      "title" : "Right to sublease",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "10-A",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

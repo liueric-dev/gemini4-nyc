@@ -1,0 +1,348 @@
+{
+  "id" : "phvi-damg",
+  "name" : "NYCHA Public Housing Developments",
+  "assetType" : "dataset",
+  "attribution" : "New York City Housing Authority (NYCHA)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1708553035,
+  "description" : "Locations of the public housing developments of the New York City Housing Authority.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 4058,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 42638970,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1791206969,
+  "publicationGroup" : 19462227,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1791206947,
+  "rowsUpdatedBy" : "d2qk-x9en",
+  "tableId" : 20659035,
+  "totalTimesRated" : 0,
+  "viewCount" : 13087,
+  "viewLastModified" : 1791206969,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1708612269,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 7784892,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1708612248,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1708612269,
+      "failureCount" : 0,
+      "startedAt" : 1708612269,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 647952066,
+    "name" : "the_geom",
+    "dataTypeName" : "multipolygon",
+    "description" : "Geometry column",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "multipolygon",
+    "tableColumnId" : 151506576,
+    "format" : { }
+  }, {
+    "id" : 647952067,
+    "name" : "DEVELOPMEN",
+    "dataTypeName" : "text",
+    "description" : "Development name.",
+    "fieldName" : "developmen",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151506575,
+    "cachedContents" : {
+      "non_null" : "216",
+      "largest" : "WYCKOFF GARDENS",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BRYANT AVENUE-EAST 174TH STREET",
+        "count" : "1"
+      }, {
+        "item" : "JEFFERSON",
+        "count" : "1"
+      }, {
+        "item" : "BORINQUEN PLAZA II",
+        "count" : "1"
+      }, {
+        "item" : "LATIMER GARDENS",
+        "count" : "1"
+      }, {
+        "item" : "SEDGWICK",
+        "count" : "1"
+      }, {
+        "item" : "GRAVESEND",
+        "count" : "1"
+      }, {
+        "item" : "CASTLE HILL",
+        "count" : "1"
+      }, {
+        "item" : "HUGHES APARTMENTS",
+        "count" : "1"
+      }, {
+        "item" : "HOLMES TOWERS",
+        "count" : "1"
+      }, {
+        "item" : "PELHAM PARKWAY",
+        "count" : "1"
+      }, {
+        "item" : "CASSIDY-LAFAYETTE",
+        "count" : "1"
+      }, {
+        "item" : "MARCY",
+        "count" : "1"
+      }, {
+        "item" : "SOUTH BEACH",
+        "count" : "1"
+      }, {
+        "item" : "GARVEY (GROUP A)",
+        "count" : "1"
+      }, {
+        "item" : "COOPER PARK",
+        "count" : "1"
+      }, {
+        "item" : "THROGGS NECK",
+        "count" : "1"
+      }, {
+        "item" : "REHAB PROGRAM (DOUGLASS REHABS)",
+        "count" : "1"
+      }, {
+        "item" : "LOW HOUSES",
+        "count" : "1"
+      }, {
+        "item" : "KINGSBOROUGH EXTENSION",
+        "count" : "1"
+      }, {
+        "item" : "MONROE",
+        "count" : "1"
+      } ],
+      "smallest" : "1162-1176 WASHINGTON AVENUE",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 647952068,
+    "name" : "TDS_NUM",
+    "dataTypeName" : "text",
+    "description" : "A unique identification number assigned to each development.",
+    "fieldName" : "tds_num",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151506574,
+    "cachedContents" : {
+      "non_null" : "216",
+      "largest" : "582",
+      "null" : "0",
+      "top" : [ {
+        "item" : "118",
+        "count" : "1"
+      }, {
+        "item" : "123",
+        "count" : "1"
+      }, {
+        "item" : "067",
+        "count" : "1"
+      }, {
+        "item" : "176",
+        "count" : "1"
+      }, {
+        "item" : "266",
+        "count" : "1"
+      }, {
+        "item" : "065",
+        "count" : "1"
+      }, {
+        "item" : "173",
+        "count" : "1"
+      }, {
+        "item" : "314",
+        "count" : "1"
+      }, {
+        "item" : "121",
+        "count" : "1"
+      }, {
+        "item" : "068",
+        "count" : "1"
+      }, {
+        "item" : "113",
+        "count" : "1"
+      }, {
+        "item" : "039",
+        "count" : "1"
+      }, {
+        "item" : "325",
+        "count" : "1"
+      }, {
+        "item" : "182",
+        "count" : "1"
+      }, {
+        "item" : "246",
+        "count" : "1"
+      }, {
+        "item" : "362",
+        "count" : "1"
+      }, {
+        "item" : "056",
+        "count" : "1"
+      }, {
+        "item" : "011",
+        "count" : "1"
+      }, {
+        "item" : "033",
+        "count" : "1"
+      }, {
+        "item" : "198",
+        "count" : "1"
+      } ],
+      "smallest" : "001",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 647952069,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "New York City’s boroughs are five county-level administrative divisions, with each one also being a state county. (Manhattan - New York County; Bronx - Bronx County; Brooklyn - Kings County; Queens - Queens County; Staten Island - Richmond County). NYC’s boroughs have existed since the consolidation of the city in 1898.",
+    "fieldName" : "borough",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151506573,
+    "cachedContents" : {
+      "non_null" : "206",
+      "largest" : "STATEN ISLAND",
+      "null" : "10",
+      "top" : [ {
+        "item" : "MANHATTAN",
+        "count" : "67"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "58"
+      }, {
+        "item" : "BRONX",
+        "count" : "52"
+      }, {
+        "item" : "QUEENS",
+        "count" : "21"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "8"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  }, {
+    "id" : 647952070,
+    "name" : "PROGRAM",
+    "dataTypeName" : "text",
+    "description" : "Development's funding source",
+    "fieldName" : "program",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 172588901,
+    "cachedContents" : {
+      "non_null" : "216",
+      "largest" : "TRUST",
+      "null" : "0",
+      "top" : [ {
+        "item" : "FEDERAL",
+        "count" : "181"
+      }, {
+        "item" : "FEDERAL (SENIOR DEVELOPMENT)",
+        "count" : "24"
+      }, {
+        "item" : "MIXED FINANCE (LLC 1)",
+        "count" : "10"
+      }, {
+        "item" : "TRUST",
+        "count" : "1"
+      } ],
+      "smallest" : "FEDERAL",
+      "count" : "216",
+      "cardinality" : "216"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "NYCHA_Developments_Data_Dictionary.xlsx",
+      "assetId" : "5c519d5f-ad9a-4ab6-9f28-19f92d84dd31",
+      "name" : "NYCHA_Developments_Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "3/29/2013",
+        "Update Frequency" : "As needed"
+      },
+      "Dataset Information" : {
+        "Agency" : "New York City Housing Authority (NYCHA)"
+      }
+    },
+    "rowLabel" : "public housing development",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "nycha", "nyc housing", "gis", "building sizes", "residential", "facilities", "map of nycha developments", "housing" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

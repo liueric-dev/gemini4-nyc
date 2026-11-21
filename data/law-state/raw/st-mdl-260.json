@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 260 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "260",
+    "title" : "Recovery of rent for certain non-complying premises restricted during emergency period",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "260",
+    "activeDate" : "2014-09-22",
+    "text" : "  * § 260. Recovery of rent for certain non-complying premises\\nrestricted during emergency period. 1. Legislative finding. It is hereby\\ndeclared that in cities of this state with a population of over one\\nmillion there exists an acute shortage of dwelling accommodations\\navailable to low-income families; that many dwellings formerly occupied\\nby them have been and are continuing to be vacated and demolished\\nbecause of structural inadequacy or danger, obsolescence and\\ndilapidation, or because owners have refused to comply with the law, or\\nfor other reasons; that the freedom of contract has been impaired in\\nconsequence thereof, and unjust, unreasonable and oppressive increases\\nin the rents of dwelling accommodations available to such families are\\nbeing and will continue to be exacted; that world war II has\\nnecessitated an almost complete paralysis of building construction; that\\nthe extent of construction of decent, safe and sanitary dwellings,\\nconforming with the minimum standards prescribed by law, has failed to\\nproduce a sufficient number of dwellings for the accommodation of\\nfamilies unable to pay higher rentals; that there has been a rapid\\nabsorption of rentable vacancies in said dwellings and a sharp increase\\nin rentals; that such communities are threatened with wholesale\\nevictions; that an emergency exists by reason of these conditions, which\\nconstitute a menace to the health, safety, morals, welfare and comfort\\nof the citizens of the state, undermine the standard of living of a\\nlarge number thereof, tend to impair and impede the enforcement of\\nexisting statutes, cause overcrowding and congestion, foster crime,\\nencourage the spread of vice and disease and increase the death rate;\\nthat adequate housing accommodations to relieve the hardships and\\nsuffering resulting therefrom cannot be sufficiently provided, with or\\nwithout public assistance, during the period of the emergency as herein\\ndeclared; and the necessity for legislative intervention, by the\\nenactment of the provisions of this section and their application until\\nJuly first, nineteen hundred forty-nine, is hereby declared as a matter\\nof legislative determination, and the provisions of this section shall\\nremain in force and effect only until such date.\\n  2. For the period during which any old-law tenement or any converted\\ndwelling shall fail to comply with the applicable provisions of article\\nsix or seven, as the case may be, no rent therefor or for any part\\nthereof shall be recovered by the owner, nor shall any action or special\\nproceeding be maintainable for such rent or to recover possession of\\nsuch dwelling or part thereof for non-payment of rent, except rent at\\nsuch rate as shall not exceed the lowest rent charged therefor for any\\nmonth between September thirtieth, nineteen hundred thirty-seven, and\\nApril first, nineteen hundred forty-three.\\n  3. In any such action or special proceeding in which there shall be\\ninterposed a defense that the dwelling fails to comply with the\\napplicable provisions of article six or seven or that the rent demanded\\nexceeds the lowest rent charged for any month between September\\nthirtieth, nineteen hundred thirty-seven, and April first, nineteen\\nhundred forty-three, the burden of proof shall be upon the party seeking\\nto recover rent or possession.\\n  4. A certification by the department of the results of a search made\\nby the department shall be admissable as presumptive evidence of the\\nexistence or non-existence of any violation of article six or seven as\\nin such certificate specified.\\n  * NB Expired July 1, 1949\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-A",
+      "title" : "Temporary Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "261",
+      "title" : "Recovery of possession of certain non-complying premises restricted during emergency period",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "261",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

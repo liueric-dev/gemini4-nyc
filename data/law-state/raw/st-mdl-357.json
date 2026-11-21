@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 357 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "357",
+    "title" : "Judgment",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "357",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 357. Judgment.  The judgment in such action or proceeding, if in\\nfavor of the plaintiff, shall establish the penalty sued for as a lien\\nupon such premises, subject only to taxes, assessments, water rates,\\nmortgages and mechanics' liens as may exist thereon prior to the filing\\nof the notice of pendency of the action or proceeding.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A10" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A10",
+      "title" : "Prostitution",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "10",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "356",
+      "title" : "Jurisdiction and procedure",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "356",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "358",
+      "title" : "Sale of premises",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "358",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 151 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "151",
+    "title" : "Spaces under stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "151",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 151. Spaces under stairs. 1. It shall be unlawful to have a closet\\nof any kind under any public stair.\\n  2. The space beneath every stair from the foot of the stair to a point\\nwhere the soffit is four feet or more above the floor shall be entirely\\nenclosed with unpierced fire-retarded partitions. Such enclosure beneath\\na flight of public stairs leading from the entrance story to the story\\nnext above shall be fireproof.\\n  3. Any unenclosed portion of the space beneath a flight of public\\nstairs leading from the entrance story to the story next above shall be\\nleft entirely open and kept clear and free from encumbrance.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "150",
+      "title" : "Cellar and basement stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "150",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "152",
+      "title" : "Fire-stopping",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "152",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

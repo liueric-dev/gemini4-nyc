@@ -1,0 +1,19 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 10 Prostitution > § 356 Jurisdiction and procedure
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/356 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 356. Jurisdiction and procedure.  Any action or proceeding referred
+to in this article shall be brought in the supreme court, county court
+or other court of competent jurisdiction in the county in which the
+premises are situated. At or before the commencement of the action or
+proceeding the complaint shall be filed in the office of the clerk of
+the county, together with a notice of the pendency of the action or
+proceeding, containing the names of the parties, the object of the
+action or proceeding and a brief description of the premises affected
+thereby. Said notice shall be recorded immediately by the clerk. The
+owner or lessee, or both, of said premises may appear in such action or
+proceeding and answer or move with respect to the complaint, and the
+subsequent procedure shall be the same as in other actions or
+proceedings brought to establish a lien or encumbrance upon real
+property.  Such action or proceeding shall be entitled to a preference
+in the trial or hearing thereof.

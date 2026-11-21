@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 745 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "745",
+    "title" : "Trial",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19", "2019-07-26" ],
+    "docLevelId" : "745",
+    "activeDate" : "2019-07-26",
+    "text" : "  § 745. Trial. 1. Where triable issues of fact are raised, they shall\\nbe tried by the court unless, at the time the petition is noticed to be\\nheard, a party demands a trial by jury, in which case trial shall be by\\njury. At the time when issue is joined the court, at the request of\\neither party shall adjourn the trial of the issue, not less than\\nfourteen days, except by consent of all parties. A party's second or\\nsubsequent request for adjournment shall be granted in the court's sole\\ndiscretion.\\n  2. In the city of New York:\\n  (a) In a summary proceeding upon the second of two adjournments\\ngranted solely at the request of the respondent, or, upon the sixtieth\\nday after the first appearance of the parties in court less any days\\nthat the proceeding has been adjourned upon the request of the\\npetitioner, counting only days attributable to adjournment requests made\\nsolely at the request of the respondent and not counting an initial\\nadjournment requested by a respondent unrepresented by counsel for the\\npurpose of securing counsel, whichever occurs sooner, the court may,\\nupon consideration of the equities, direct that the respondent, upon a\\nmotion on notice made by the petitioner, deposit with the court sums of\\nrent or use and occupancy that shall accrue subsequent to the date of\\nthe court's order, which may be established without the use of expert\\ntestimony. The court shall not order deposit or payment of use and\\noccupancy where the respondent can establish, to the satisfaction of the\\ncourt that respondent has properly interposed one of the following\\ndefenses or established the following grounds:\\n  (i) the petitioner is not a proper party to the proceeding pursuant to\\nsection seven hundred twenty-one of this article; or\\n  (ii) (A) actual eviction, or (B) actual partial eviction, or (C)\\nconstructive eviction; and respondent has quit the premises; or\\n  (iii) a defense pursuant to section one hundred forty-three-b of the\\nsocial services law; or\\n  (iv) a defense based upon the existence of hazardous or immediately\\nhazardous violations of the housing maintenance code in the subject\\napartment or common areas; or\\n  (v) a colorable defense of rent overcharge; or\\n  (vi) a defense that the unit is in violation of the building's\\ncertificate of occupancy or is otherwise illegal under the multiple\\ndwelling law or the New York city housing maintenance code; or\\n  (vii) the court lacks personal jurisdiction over the respondent.\\n  Two adjournments shall not include an adjournment requested by a\\nrespondent unrepresented by counsel for the purpose of securing counsel\\nmade on a return date of the proceeding. Such rent or use and occupancy\\nsums shall be deposited with the clerk of the court or paid to such\\nother person or entity, including the petitioner or an agent designated\\nby the division of housing and community renewal, as the court shall\\ndirect or shall be expended for such emergency repairs as the court\\nshall approve.\\n  (b) In establishing the monthly amount to be deposited, the court\\nshall not exceed the amount of the regulated rent for the unit under any\\nstate, local or federal regulatory scheme, or the amount of the tenant's\\nrent share under a state, local or federal subsidy program, or the\\namount of the tenant's share under an expired subsidy, unless the tenant\\nhas entered into an enforceable new agreement to pay the full lease\\nrent.\\n  (c) (i) The court shall not require the respondent to deposit the\\nportion of rent or use and occupancy, if any, which is payable by direct\\ngovernment housing subsidy, any currently effective senior citizen\\nincrease exemption authorized pursuant to sections four hundred\\nsixty-seven-b and four hundred sixty-seven-c of the real property tax\\nlaw, direct payment of rent or a two-party check issued by a social\\nservices district or the office of temporary and disability assistance,\\nor rental assistance that is payable pursuant to court orders issued in\\nlitigation commenced in nineteen hundred eighty-seven in a proceeding in\\nwhich the amount of shelter allowance is at issue on behalf of\\nrecipients of family assistance. In the event the respondent or other\\nadult member of the respondent's household receives public assistance\\npursuant to title three or title ten of article five of the social\\nservices law, the respondent shall, when directed by the court to\\ndeposit rent and use or occupancy, only be required to deposit with the\\ncourt the amount of the shelter allowance portion of the public\\nassistance grant issued by the office of temporary and disability\\nassistance or a social services district. In the event the respondent\\nreceives a fixed income, including but not limited to, social security\\nincome, supplemental security income pursuant to title sixteen of the\\nfederal social security act and title six of article five of the social\\nservices law, or pension income, the respondent shall not be required to\\ndeposit more than thirty percent of the monthly payments.\\n  (ii) Any sum required to be deposited with the court pursuant to this\\nsubdivision shall be offset by payment, if any, made by the respondent\\npursuant to section two hundred thirty-five-a of the real property law\\nor section three hundred two-c of the multiple dwelling law.\\n  (d) (i) In the event that the respondent fails to deposit with the\\ncourt or pay, as the case may be, upon the due date, all rent or use and\\noccupancy which may become due subsequent to the issuance of the court's\\ndeposit order, the court upon an application of the petitioner may order\\nan immediate trial of the issues raised in the respondent's answer. An\\n\"immediate trial\" shall mean that no further adjournments of the\\nproceeding upon respondent's sole request shall be granted, the case\\nshall be assigned by the administrative judge to a trial ready part and\\nsuch trial shall commence as soon as practicable and continue day to day\\nuntil completed.\\n  (ii) The court may extend any time provided for such deposit under\\nthis subdivision for good cause shown.\\n  (iii) Upon the entry of the final judgment in the proceeding such\\ndeposits shall be credited against any judgment amount awarded and,\\nwithout further order of the court, be paid in accordance with the\\njudgment.\\n  (e) The court may dismiss any summary proceeding without prejudice and\\nwith costs to the respondent by reason of excessive adjournments\\nrequested by the petitioner.\\n  (f) Under no circumstances shall the respondent's failure or inability\\nto pay use and occupancy as ordered by the court constitute a basis to\\ndismiss any of the respondent's defenses or counterclaims, with or\\nwithout prejudice to their assertion in another forum.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "744",
+      "title" : "Eviction based on domestic violence victim status prohibited",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2015-10-30", "2016-01-22" ],
+      "docLevelId" : "744",
+      "activeDate" : "2016-01-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "746",
+      "title" : "Stipulations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2021-12-31", "2022-04-01" ],
+      "docLevelId" : "746",
+      "activeDate" : "2022-04-01"
+    }
+  }
+}

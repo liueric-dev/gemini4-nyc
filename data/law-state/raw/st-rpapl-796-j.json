@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 796-J in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "796-J",
+    "title" : "Appointment of administrator",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+    "docLevelId" : "796-J",
+    "activeDate" : "2023-06-16",
+    "text" : "  § 796-j. Appointment of administrator. 1.(a) The court is authorized\\nand empowered, in implementation of a judgment rendered pursuant to\\nsection seven hundred ninety-six-h or seven hundred ninety-six-i of this\\narticle, to appoint a person other than the owner, a mortgagee or a\\nlienor, to receive and administer the rent moneys or security deposited\\nwith such owner, mortgagee or lienor, subject to the court's direction.\\n  (b) The court may appoint the commissioner of the department charged\\nwith enforcement of the housing maintenance code in the municipality\\nwhere the dwelling is located or the commissioner's designee as such\\nadministrator, provided that the commissioner or the commissioner's\\ndesignee shall consent, in writing, to such appointment.\\n  (c) Any administrator is authorized and empowered in accordance with\\nthe direction of the court, to:\\n  (i) order the necessary materials, labor and services to remove or\\nremedy the conditions specified in the judgment, and to make\\ndisbursements in payment thereof;\\n  (ii) demand, collect and receive the rents from the tenants of the\\ndwelling;\\n  (iii) institute all necessary legal proceedings including, but not\\nlimited to, summary proceedings for the removal of any tenant or\\ntenants;\\n  (iv) to rent or lease for terms not exceeding three years any part of\\nsaid premises, however, the court may direct the administrator to rent\\nor lease commercial portions of a premises zoned for mixed commercial\\nand residential use for terms that the court may approve; and\\n  (v) in accordance with the direction of the court, to accept and repay\\nsuch moneys as may be received from the department or departments\\ncharged with enforcement of the housing maintenance code in the\\nmunicipality or municipalities where the dwelling is located for the\\npurpose of managing the premises, replacing or substantially\\nrehabilitating systems or making other repairs or capital improvements\\nauthorized by the court. All moneys expended by such department or\\ndepartments pursuant to the foregoing shall constitute a debt\\nrecoverable from the owner and a lien upon the building and lot, and\\nupon the rents and other income thereof.\\n  (d) Upon completion of the work prescribed in such judgment, the\\nadministrator, shall file with the court a full accounting of all\\nreceipts and expenditures for such work. The administrator shall dispose\\nof the rents and other monies deposited with such administrator\\naccording to the following order of priority:\\n  (i) payment in full for all of the work specified in the judgment;\\nuntil all of the work specified in the judgment has been completed and\\npayment for such work has been made, no other disbursements shall be\\npermitted, except for fuel bills, fire and liability insurance, and\\nbills for ordinary repairs and maintenance.\\n  (ii) payment of a reasonable amount for the services of the\\nadministrator, including reimbursement of any legal fees incurred by the\\nadministrator in connection with management of the building.\\n  (iii) payment of outstanding real property tax liens claimed by any\\nmunicipality in which the dwelling is located.\\n  (iv) payment of outstanding emergency repair liens filed and recorded\\nby any municipality in which the dwelling is located and outstanding\\nliens filed and recorded by such municipality or municipalities pursuant\\nto this section.\\n  (v) payment to the owner of the dwelling of any surplus remaining\\nafter payments of subparagraphs (i), (ii), (iii) and (iv) of this\\nparagraph have been made.\\n  2. The court may allow from the rent moneys or security on deposit a\\nreasonable amount for services of such administrator.\\n  3. The administrator shall furnish a bond, the amount and form of\\nwhich shall be approved by the court. In its discretion and for good\\ncause shown, the court may dispense with the necessity for a bond. The\\ncost of a required bond shall be paid from the moneys so deposited.\\n  4. The administrator shall file a transcript of the judgment\\nappointing him or her with the clerk of the county in which the subject\\npremises is located within fifteen days of his or her appointment.\\n  5. The duties of the administrator shall not be affected by the\\nappointment of a receiver in an action to foreclose a mortgage on the\\npremises, except that the rights of the owner, including the right to\\nany surplus, pursuant to subparagraph (v) of paragraph (d) of\\nsubdivision one of this section, shall pass to the receiver. The court\\nin which the action to foreclose a mortgage on the premises is pending\\nmay appoint such administrator to serve as receiver in that action in\\naddition to his or her duties as administrator pursuant to this article.\\n  6.(a) Such administrator shall be liable only in his or her official\\ncapacity for injury to persons and property by reason of conditions of\\nthe premises in a case where an owner would have been liable; he or she\\nshall not have any liability in his or her personal capacity.\\n  (b) Appointment of an administrator pursuant to subdivision one of\\nthis section shall not relieve an owner of liability for injury to\\npersons and property in such case.\\n  7. No municipality shall be liable to any party, including the\\nadministrator or the owner of the dwelling, for injury to persons or\\nproperty by reason of conditions of the premises or the acts or\\nomissions of the administrator.\\n  8. The commissioner of the department charged with enforcement of the\\nhousing maintenance code in the municipality where the dwelling is\\nlocated shall promulgate rules and regulations regarding criteria for\\nthe selection of administrators to be appointed pursuant to this section\\nand shall establish and maintain a list of persons approved by such\\ndepartment. Any person appointed as an administrator within such\\nmunicipality shall be selected from among the persons approved as\\nadministrators pursuant to such list. A city, town or village may\\nestablish and maintain such list itself or elect to have such list\\nestablished and maintained by the commissioner of the department charged\\nwith enforcement of the housing maintenance code in the county in which\\na dwelling is located.\\n  9. The administrator shall, within thirty days of appointment, file\\nwith the court a plan for the provision of essential services and for\\nthe correction of such other hazardous conditions as may exist at the\\npremises, specifying dates by which such services shall be provided and\\nsuch conditions corrected. If such administrator cannot provide such\\nservices and correct such conditions by the dates specified in the plan,\\nhe or she shall be required to file with the court an amendment to the\\nplan setting forth the reasons why such services and corrections could\\nnot be provided by such date and specifying new dates for such services\\nand corrections. Such plan and any amendments to such plan shall be\\nprovided to the tenants by mail or by posting in a common area of the\\nbuilding and to the owner of record by mail.\\n  10. The court may only discharge an administrator if the owner has\\npaid in full or entered into a payment agreement to pay in full all\\noutstanding real property tax liens claimed by any municipality in which\\nthe dwelling is located, all outstanding emergency repair liens filed\\nand recorded by any municipality in which the dwelling is located and\\nall outstanding liens filed and recorded by such municipality or\\nmunicipalities pursuant to this section.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-C",
+      "title" : "Special Proceedings By Tenants of Dwellings For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2022-12-23", "2023-01-06", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2023-06-16"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-I",
+      "title" : "Application by mortgagee or lienor of record or other person having an interest in the property",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-I",
+      "activeDate" : "2023-06-16"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-K",
+      "title" : "Presentation or settlement of accounts",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-10-27" ],
+      "docLevelId" : "796-K",
+      "activeDate" : "2023-10-27"
+    }
+  }
+}

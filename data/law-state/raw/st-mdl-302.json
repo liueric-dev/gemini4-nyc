@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 302 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "302",
+    "title" : "Unlawful occupation",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "302",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 302. Unlawful occupation. 1. a. If any dwelling or structure be\\noccupied in whole or in part for human habitation in violation of\\nsection three hundred one, during such unlawful occupation any bond or\\nnote secured by a mortgage upon said dwelling or structure, or the lot\\nupon which it stands, may be declared due at the option of the\\nmortgagee.\\n  b. No rent shall be recovered by the owner of such premises for said\\nperiod, and no action or special proceeding shall be maintained\\ntherefor, or for possession of said premises for nonpayment of such\\nrent.\\n  c. During such period the department in charge of water supply shall\\nnot permit water to be furnished in any such dwelling or structure and\\nsaid premises shall be deemed unfit for human habitation, and the\\ndepartment of health or the department charged with the enforcement of\\nthis chapter shall cause them to be vacated.\\n  2. The department may cause to be vacated any dwelling or any part\\nthereof which contains a nuisance as defined in section three hundred\\nnine, or is occupied by more families or persons than permitted in this\\nchapter, or is erected, altered or occupied contrary to law. Any such\\ndwelling shall not again be occupied until it or its occupancy, as the\\ncase may be, has been made to conform to law.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "301",
+      "title" : "Certificate of compliance or occupancy",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-06-10" ],
+      "docLevelId" : "301",
+      "activeDate" : "2022-06-10"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302-A",
+      "title" : "Abatement of rent in the case of serious violations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302-A",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

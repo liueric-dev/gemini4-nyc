@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 298 in EXC law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "EXC",
+    "lawName" : "Executive",
+    "locationId" : "298",
+    "title" : "Judicial review and enforcement",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2020-10-16", "2021-01-08" ],
+    "docLevelId" : "298",
+    "activeDate" : "2021-01-08",
+    "text" : "  § 298. Judicial review and enforcement. Any complainant, respondent or\\nother person aggrieved by an order of the commissioner which is an order\\nafter public hearing, a cease and desist order, an order awarding\\ndamages, an order dismissing a complaint, or by an order of the division\\nwhich makes a final disposition of a complaint may obtain judicial\\nreview thereof, and the division may obtain an order of court for its\\nenforcement and for the enforcement of any order of the commissioner\\nwhich has not been appealed to the court, in a proceeding as provided in\\nthis section. Such proceeding shall be brought in the supreme court in\\nthe county wherein the unlawful discriminatory practice which is the\\nsubject of the order occurs or wherein any person required in the order\\nto cease and desist from an unlawful discriminatory practice or to take\\nother affirmative action resides or transacts business. Such proceeding\\nshall be initiated by the filing of a notice of petition and petition in\\nsuch court. Thereafter, at a time and in a manner to be specified by\\nrules of court, the division shall file with the court a written\\ntranscript of the record of all prior proceedings. Upon the filing of a\\nnotice of petition and petition, the court shall have jurisdiction of\\nthe proceeding and of the questions determined therein, except that\\nwhere the order sought to be reviewed was made as a result of a public\\nhearing held pursuant to paragraph a of subdivision four of section two\\nhundred ninety-seven of this article, the court shall make an order\\ndirecting that the proceeding be transferred for disposition to the\\nappellate division of the supreme court in the judicial department\\nembracing the county in which the proceeding was commenced. The court\\nshall have power to grant such temporary relief or restraining order as\\nit deems just and proper, and to make and enter upon the pleadings,\\ntestimony, and proceedings set forth in such transcript an order\\nenforcing, modifying, and enforcing as so modified, or setting aside in\\nwhole or in part such order. No objection that has not been urged in\\nprior proceedings shall be considered by the court, unless the failure\\nor neglect to urge such objection shall be excused because of\\nextraordinary circumstances. Any party may move the court to remit the\\ncase to the division in the interests of justice for the purpose of\\nadducing additional specified and material evidence and seeking findings\\nthereon, provided he or she shows reasonable grounds for the failure to\\nadduce such evidence in prior proceedings. The findings of facts on\\nwhich such order is based shall be conclusive if supported by sufficient\\nevidence on the record considered as a whole. All such proceedings shall\\nbe heard and determined by the court and any appeal taken from its\\njudgment or order shall be reviewed by the appropriate appellate court\\nas expeditiously as possible and with lawful precedence over other\\nmatters. The jurisdiction of the courts over these proceedings, as\\nprovided for herein, shall be exclusive and their judgments and orders\\nshall be final, subject to appellate review in the same manner and form\\nand with the same effect as provided for appeals from a judgment in a\\nspecial proceeding. The division's copy of the testimony shall be\\navailable at all reasonable times to all parties for examination without\\ncost and for the purposes of judicial review of such order. Any appeal\\nunder this section and any proceeding, if instituted under article\\nseventy-eight of the civil practice law and rules to which the division\\nor the board is a party shall be heard on the record without requirement\\nof printing. The division may appear in court by one of its attorneys. A\\nproceeding under this section when instituted by any complainant,\\nrespondent or other person aggrieved must be instituted within sixty\\ndays after the service of such order. In cases of housing discrimination\\nonly, a complaint dismissed after investigation for lack of jurisdiction\\nor lack of probable cause may either be appealed pursuant to this\\nsection or the same cause of action may be filed in a court of\\nappropriate jurisdiction pursuant to section two hundred ninety-seven of\\nthis article.\\n",
+    "parentLocationIds" : [ "-CH18", "A15" ],
+    "parents" : [ {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "-CH18",
+      "title" : "Executive",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2014-11-28", "2015-01-23", "2015-07-10", "2015-11-13", "2015-11-27", "2017-04-21", "2017-04-28", "2018-11-09", "2019-01-11", "2019-07-19", "2019-08-02", "2019-12-27", "2020-06-19", "2020-10-16", "2020-12-18", "2021-01-29", "2021-04-02", "2021-04-23", "2021-07-30", "2021-10-29", "2021-11-19", "2022-02-11", "2022-04-08", "2022-06-10", "2022-07-08", "2022-12-09", "2022-12-30", "2023-04-07", "2023-05-12", "2023-10-27", "2024-01-19", "2024-05-03", "2024-10-11", "2025-02-21", "2026-05-29", "2026-06-12" ],
+      "docLevelId" : "18",
+      "activeDate" : "2026-06-12"
+    }, {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "A15",
+      "title" : "Human Rights Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2018-04-20", "2019-08-16", "2022-01-07", "2022-12-02", "2023-11-26", "2025-04-11" ],
+      "docLevelId" : "15",
+      "activeDate" : "2025-04-11"
+    } ],
+    "prevSibling" : {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "297",
+      "title" : "Procedure",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-08-16", "2019-10-18", "2020-08-14", "2020-10-16", "2021-01-08", "2021-07-30", "2021-11-12", "2022-02-04", "2022-03-18", "2022-03-25", "2023-11-26", "2024-09-20" ],
+      "docLevelId" : "297",
+      "activeDate" : "2024-09-20"
+    },
+    "nextSibling" : {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "298-A",
+      "title" : "Application of article to certain acts committed outside the state of New York",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "298-A",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

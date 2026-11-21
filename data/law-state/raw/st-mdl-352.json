@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 352 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "352",
+    "title" : "Recovery of premises",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "352",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 352. Recovery of premises.  If a multiple dwelling, or any part\\nthereof, shall be used as a house of prostitution or assignation with\\nthe permission of the lessee or his agent, the lease shall be terminable\\nat the election of the lessor, and the owner shall be entitled to\\nrecover possession of said premises by summary proceedings.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A10" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A10",
+      "title" : "Prostitution",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "10",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "351",
+      "title" : "Lien",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "351",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "353",
+      "title" : "Permission of owner or lessee",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "353",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

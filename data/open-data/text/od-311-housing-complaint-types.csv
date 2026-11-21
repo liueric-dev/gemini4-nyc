@@ -1,0 +1,346 @@
+agency,complaint_type,descriptor,count_total,share_of_housing_total,count_since_2024,housing_basis,top_location_types,count_2020,count_2021,count_2022,count_2023,count_2024,count_2025,count_2026
+HPD,HEAT/HOT WATER,ENTIRE BUILDING,1121684,0.19925,559560,agency HPD,RESIDENTIAL BUILDING (1121684),106833,130423,172696,152172,174641,208095,176824
+HPD,HEAT/HOT WATER,APARTMENT ONLY,586095,0.10411,289686,agency HPD,RESIDENTIAL BUILDING (586095),58183,69195,91694,77337,90109,107851,91726
+HPD,UNSANITARY CONDITION,PESTS,386548,0.06866,192402,agency HPD,RESIDENTIAL BUILDING (386548),32926,46791,53346,61083,62829,61767,67806
+HPD,UNSANITARY CONDITION,MOLD,209358,0.03719,106311,agency HPD,RESIDENTIAL BUILDING (209358),16902,26527,27169,32449,36173,33424,36714
+HPD,PAINT/PLASTER,WALL,186689,0.03316,91872,agency HPD,RESIDENTIAL BUILDING (186689),15578,24942,25710,28587,31523,29305,31044
+HPD,PAINT/PLASTER,CEILING,174412,0.03098,84033,agency HPD,RESIDENTIAL BUILDING (174412),15726,24649,23046,26958,28922,26441,28670
+HPD,FLOORING/STAIRS,FLOOR,161736,0.02873,79425,agency HPD,RESIDENTIAL BUILDING (161736),13751,21611,22334,24615,26532,25507,27386
+HPD,DOOR/WINDOW,DOOR,149831,0.02661,74753,agency HPD,RESIDENTIAL BUILDING (149831),12450,18365,21562,22701,23896,24164,26693
+HPD,WATER LEAK,HEAVY FLOW,126409,0.02245,58785,agency HPD,RESIDENTIAL BUILDING (126409),10827,18325,17392,21080,20975,17347,20463
+HPD,PLUMBING,WATER SUPPLY,120925,0.02148,65626,agency HPD,RESIDENTIAL BUILDING (120925),9535,13146,16001,16617,18215,20918,26493
+HPD,UNSANITARY CONDITION,GARBAGE/RECYCLING STORAGE,116630,0.02072,57501,agency HPD,RESIDENTIAL BUILDING (116630),10638,14031,15740,18720,18435,19115,19951
+HPD,PLUMBING,BASIN/SINK,110565,0.01964,54011,agency HPD,RESIDENTIAL BUILDING (110565),10225,14364,15236,16729,18071,17756,18184
+HPD,WATER LEAK,SLOW LEAK,102038,0.01813,50827,agency HPD,RESIDENTIAL BUILDING (102038),8234,13205,13509,16263,17489,15301,18037
+HPD,DOOR/WINDOW,WINDOW FRAME,95210,0.01691,45958,agency HPD,RESIDENTIAL BUILDING (95210),8143,12616,13851,14642,15632,14733,15593
+HPD,PLUMBING,BATHTUB/SHOWER,87383,0.01552,43771,agency HPD,RESIDENTIAL BUILDING (87383),7723,11165,11992,12732,13917,14461,15393
+HPD,APPLIANCE,ELECTRIC/GAS RANGE,85100,0.01512,41627,agency HPD,RESIDENTIAL BUILDING (85100),8106,10750,11629,12988,13470,13680,14477
+HPD,PLUMBING,TOILET,62458,0.01109,30030,agency HPD,RESIDENTIAL BUILDING (62458),5912,8287,8783,9446,9653,9772,10605
+HPD,GENERAL,BELL/BUZZER/INTERCOM,57855,0.01028,30189,agency HPD,RESIDENTIAL BUILDING (57855),4513,6993,7620,8540,9634,9681,10874
+HPD,APPLIANCE,REFRIGERATOR,57131,0.01015,27573,agency HPD,RESIDENTIAL BUILDING (57131),5670,7462,7736,8690,9078,8796,9699
+HPD,GENERAL,CABINET,54841,0.00974,27470,agency HPD,RESIDENTIAL BUILDING (54841),4572,7072,7404,8323,9144,9002,9324
+HPD,ELECTRIC,POWER OUTAGE,48736,0.00866,23445,agency HPD,RESIDENTIAL BUILDING (48736),5142,6195,7450,6504,6406,8256,8783
+HPD,ELECTRIC,OUTLET/SWITCH,46971,0.00834,23410,agency HPD,RESIDENTIAL BUILDING (46971),3926,5757,6575,7303,7628,7544,8238
+HPD,ELECTRIC,NO LIGHTING,42621,0.00757,20470,agency HPD,RESIDENTIAL BUILDING (42621),4061,5058,6131,6901,6623,7050,6797
+HPD,GENERAL,COOKING GAS,42489,0.00755,20467,agency HPD,RESIDENTIAL BUILDING (42489),4313,5677,6511,5521,4736,5512,10219
+HPD,WATER LEAK,DAMP SPOT,37646,0.00669,19290,agency HPD,RESIDENTIAL BUILDING (37646),2762,5025,4778,5791,6705,5749,6836
+HPD,ELECTRIC,LIGHTING,28572,0.00508,14180,agency HPD,RESIDENTIAL BUILDING (28572),2445,3832,3844,4271,4281,4477,5422
+HPD,PLUMBING,RADIATOR,26941,0.00479,13571,agency HPD,RESIDENTIAL BUILDING (26941),2342,3212,3814,4002,4265,4701,4605
+HPD,SAFETY,SMOKE DETECTOR,23493,0.00417,12152,agency HPD,RESIDENTIAL BUILDING (23493),1699,2635,3316,3691,3943,4050,4159
+HPD,DOOR/WINDOW,DOOR FRAME,23260,0.00413,11116,agency HPD,RESIDENTIAL BUILDING (23260),2021,3025,3405,3693,3779,3649,3688
+HPD,UNSANITARY CONDITION,SEWAGE,21815,0.00388,10934,agency HPD,RESIDENTIAL BUILDING (21815),1645,3056,2993,3187,3417,3443,4074
+HPD,ELECTRIC,WIRING,20972,0.00373,10207,agency HPD,RESIDENTIAL BUILDING (20972),1949,2711,2971,3134,3185,3269,3753
+HPD,GENERAL,VENTILATION SYSTEM,18982,0.00337,11228,agency HPD,RESIDENTIAL BUILDING (18982),1186,1804,2184,2580,3092,3534,4602
+HPD,DOOR/WINDOW,WINDOW PANE,18774,0.00333,8812,agency HPD,RESIDENTIAL BUILDING (18774),1759,2384,2774,3045,2896,2787,3129
+HPD,SAFETY,FIRE ESCAPE,18094,0.00321,8876,agency HPD,RESIDENTIAL BUILDING (18094),1460,2360,2703,2695,2868,2528,3480
+HPD,SAFETY,CARBON MONOXIDE DETECTOR,17850,0.00317,9008,agency HPD,RESIDENTIAL BUILDING (17850),1280,2048,2602,2912,3059,2943,3006
+HPD,SAFETY,WINDOW GUARD BROKEN/MISSING,16469,0.00293,8206,agency HPD,RESIDENTIAL BUILDING (16469),1332,1936,2303,2692,2890,2710,2606
+HPD,GENERAL,JANITOR/SUPER,14184,0.00252,7188,agency HPD,RESIDENTIAL BUILDING (14184),1513,1839,1684,1960,2115,2383,2690
+HPD,ELEVATOR,MAINTENANCE,11913,0.00212,5348,agency HPD,RESIDENTIAL BUILDING (11913),1255,1741,1766,1803,1681,1642,2025
+HPD,PLUMBING,STEAM PIPE/RISER,10987,0.00195,5114,agency HPD,RESIDENTIAL BUILDING (10987),1159,1542,1562,1610,1554,1698,1862
+HPD,GENERAL,SIGNAGE MISSING,10773,0.00191,5611,agency HPD,RESIDENTIAL BUILDING (10773),970,1405,1377,1410,1508,1562,2541
+HPD,GENERAL,MAILBOX,9771,0.00174,4744,agency HPD,RESIDENTIAL BUILDING (9771),1034,1313,1245,1435,1571,1513,1660
+HPD,FLOORING/STAIRS,STAIRS,7265,0.00129,3616,agency HPD,RESIDENTIAL BUILDING (7265),655,968,960,1066,1271,1095,1250
+HPD,PAINT/PLASTER,WINDOW/FRAME,6651,0.00118,3409,agency HPD,RESIDENTIAL BUILDING (6651),472,828,833,1109,1277,958,1174
+HPD,PAINT/PLASTER,CABINET,5530,0.00098,2582,agency HPD,RESIDENTIAL BUILDING (5530),451,734,828,935,928,764,890
+HPD,PAINT/PLASTER,RADIATOR,5411,0.00096,2737,agency HPD,RESIDENTIAL BUILDING (5411),481,622,721,850,896,900,941
+HPD,PAINT/PLASTER,DOOR/FRAME,5014,0.00089,2640,agency HPD,RESIDENTIAL BUILDING (5014),369,601,636,768,835,874,931
+HPD,OUTSIDE BUILDING,ROOFING,2763,0.00049,1376,agency HPD,RESIDENTIAL BUILDING (2763),185,430,295,477,625,352,399
+HPD,SAFETY,SPRINKLER,2593,0.00046,1418,agency HPD,RESIDENTIAL BUILDING (2593),201,284,336,354,441,489,488
+HPD,Water Leak,Heavy Flow,1786,0.00032,0,agency HPD,Apartment (1671); Public Area (114); Building-Wide (1),0,0,0,1786,0,0,0
+HPD,OUTSIDE BUILDING,PAVEMENT,1375,0.00024,735,agency HPD,RESIDENTIAL BUILDING (1375),92,161,187,200,182,232,321
+HPD,Unsanitary Condition,Mold,1257,0.00022,0,agency HPD,Apartment (1216); Public Area (41),0,0,0,1257,0,0,0
+HPD,Heat/Hot Water,Entire Building,1254,0.00022,0,agency HPD,Building-Wide (1102); Apartment (152),0,0,0,1254,0,0,0
+HPD,Paint/Plaster,Ceiling,1224,0.00022,0,agency HPD,Apartment (1164); Public Area (60),0,0,0,1224,0,0,0
+HPD,DOOR/WINDOW,DOOR TO DUMBWAITER,1014,0.00018,525,agency HPD,RESIDENTIAL BUILDING (1014),78,116,138,157,158,130,237
+HPD,Water Leak,Slow Leak,992,0.00018,0,agency HPD,Apartment (938); Public Area (54),0,0,0,992,0,0,0
+HPD,OUTSIDE BUILDING,ROOF DOOR/HATCH,928,0.00016,437,agency HPD,RESIDENTIAL BUILDING (928),105,120,120,146,173,116,148
+HPD,Paint/Plaster,Wall,852,0.00015,0,agency HPD,Apartment (805); Public Area (47),0,0,0,852,0,0,0
+HPD,PLUMBING,BOILER,803,0.00014,358,agency HPD,RESIDENTIAL BUILDING (803),194,100,71,80,126,130,102
+HPD,PLUMBING,SEWER,705,0.00013,317,agency HPD,RESIDENTIAL BUILDING (705),71,98,91,128,103,112,102
+HPD,OUTSIDE BUILDING,PORCH/BALCONY,701,0.00012,394,agency HPD,RESIDENTIAL BUILDING (701),66,80,79,82,184,92,118
+HPD,Flooring/Stairs,Floor,694,0.00012,0,agency HPD,Apartment (672); Public Area (22),0,0,0,694,0,0,0
+HPD,Door/Window,Door,573,0.0001,0,agency HPD,Apartment (408); Public Area (165),0,0,0,573,0,0,0
+HPD,Heat/Hot Water,Apartment Only,559,0.0001,0,agency HPD,Apartment (559),0,0,0,559,0,0,0
+HPD,OUTSIDE BUILDING,GUTTER/LEADER,526,9e-05,277,agency HPD,RESIDENTIAL BUILDING (526),34,82,51,82,88,89,100
+HPD,Door/Window,Window Frame,482,9e-05,0,agency HPD,Apartment (474); Public Area (8),0,0,0,482,0,0,0
+HPD,Plumbing,Basin/Sink,450,8e-05,0,agency HPD,Apartment (447); Public Area (3),0,0,0,450,0,0,0
+HPD,Plumbing,Water Supply,418,7e-05,0,agency HPD,Apartment (236); Building-Wide (177); Public Area (5),0,0,0,418,0,0,0
+HPD,Plumbing,Bathtub/Shower,334,6e-05,0,agency HPD,Apartment (330); Public Area (4),0,0,0,334,0,0,0
+HPD,OUTSIDE BUILDING,SKYLIGHT,327,6e-05,132,agency HPD,RESIDENTIAL BUILDING (327),38,74,34,49,48,30,54
+HPD,Appliance,Electric/Gas Range,307,5e-05,0,agency HPD,Apartment (307),0,0,0,307,0,0,0
+HPD,Water Leak,Damp Spot,299,5e-05,0,agency HPD,Apartment (279); Public Area (20),0,0,0,299,0,0,0
+HPD,Appliance,Refrigerator,252,4e-05,0,agency HPD,Apartment (252),0,0,0,252,0,0,0
+HPD,Plumbing,Toilet,235,4e-05,0,agency HPD,Apartment (234); Public Area (1),0,0,0,235,0,0,0
+HPD,General,Cabinet,228,4e-05,0,agency HPD,Apartment (228),0,0,0,228,0,0,0
+HPD,General,Bell/Buzzer/Intercom,210,4e-05,0,agency HPD,Apartment (143); Public Area (67),0,0,0,210,0,0,0
+HPD,Electric,Power Outage,200,4e-05,0,agency HPD,Building-Wide (100); Apartment (100),0,0,0,200,0,0,0
+HPD,SAFETY,OUTLET COVER,151,3e-05,86,agency HPD,RESIDENTIAL BUILDING (151),11,14,20,20,19,32,35
+HPD,APPLIANCE,MICROWAVE,136,2e-05,73,agency HPD,RESIDENTIAL BUILDING (136),10,18,15,20,31,24,18
+HPD,General,Cooking Gas,118,2e-05,0,agency HPD,Apartment (79); Building-Wide (39),0,0,0,118,0,0,0
+HPD,Door/Window,Door Frame,116,2e-05,0,agency HPD,Apartment (111); Public Area (5),0,0,0,116,0,0,0
+HPD,Safety,Smoke Detector,90,2e-05,0,agency HPD,Apartment (90),0,0,0,90,0,0,0
+HPD,Electric,Wiring,89,2e-05,0,agency HPD,Apartment (77); Public Area (12),0,0,0,89,0,0,0
+HPD,Door/Window,Window Pane,84,1e-05,0,agency HPD,Apartment (73); Public Area (11),0,0,0,84,0,0,0
+HPD,General,Ventilation System,78,1e-05,0,agency HPD,Apartment (73); Public Area (5),0,0,0,78,0,0,0
+HPD,Safety,Carbon Monoxide Detector,77,1e-05,0,agency HPD,Apartment (77),0,0,0,77,0,0,0
+HPD,Safety,Fire Escape,69,1e-05,0,agency HPD,Public Area (26); Apartment (23); Building-Wide (20),0,0,0,69,0,0,0
+HPD,Safety,Window Guard Broken/Missing,66,1e-05,0,agency HPD,Apartment (61); Public Area (5),0,0,0,66,0,0,0
+HPD,Plumbing,Radiator,59,1e-05,0,agency HPD,Apartment (58); Public Area (1),0,0,0,59,0,0,0
+HPD,Paint/Plaster,Window/Frame,51,1e-05,0,agency HPD,Apartment (51),0,0,0,51,0,0,0
+HPD,Plumbing,Steam Pipe/Riser,29,1e-05,0,agency HPD,Apartment (28); Public Area (1),0,0,0,29,0,0,0
+HPD,Paint/Plaster,Cabinet,25,0.0,0,agency HPD,Apartment (25),0,0,0,25,0,0,0
+HPD,Paint/Plaster,Radiator,18,0.0,0,agency HPD,Apartment (18),0,0,0,18,0,0,0
+HPD,Paint/Plaster,Door/Frame,17,0.0,0,agency HPD,Apartment (16); Public Area (1),0,0,0,17,0,0,0
+HPD,Safety,Sprinkler,6,0.0,0,agency HPD,Building-Wide (3); Public Area (3),0,0,0,6,0,0,0
+HPD,Unsanitary Condition,Pests,4,0.0,0,agency HPD,Apartment (4),0,0,0,4,0,0,0
+HPD,Door/Window,Door to Dumbwaiter,3,0.0,0,agency HPD,Apartment (2); Public Area (1),0,0,0,3,0,0,0
+HPD,Unsanitary Condition,Sewage,2,0.0,0,agency HPD,Apartment (2),0,0,0,2,0,0,0
+HPD,OUTSIDE BUILDING,FENCING,2,0.0,2,agency HPD,RESIDENTIAL BUILDING (2),0,0,0,0,1,0,1
+HPD,General,Janitor/Super,1,0.0,0,agency HPD,Building-Wide (1),0,0,0,1,0,0,0
+HPD,Outside Building,Roofing,1,0.0,0,agency HPD,Public Area (1),0,0,0,1,0,0,0
+HPD,Heat/Hot Water,Water Supply,1,0.0,0,agency HPD,Building-Wide (1),0,0,0,1,0,0,0
+HPD,Flooring/Stairs,Stairs,1,0.0,0,agency HPD,Public Area (1),0,0,0,1,0,0,0
+HPD,Outside Building,Skylight,1,0.0,0,agency HPD,Public Area (1),0,0,0,1,0,0,0
+HPD,DOOR/WINDOW,STORM WINDOW,1,0.0,1,agency HPD,RESIDENTIAL BUILDING (1),0,0,0,0,1,0,0
+HPD,Safety,Safety,1,0.0,1,agency HPD,Apartment (1),0,0,0,0,0,0,1
+DOB,Building/Use,Illegal Conversion Of Residential Building/Space,94243,0.01674,45541,agency DOB (no location_type in 311),(blank) (94243),11045,11729,12711,13217,15513,14905,15123
+DOB,Elevator,Elevator - Single Device On Property/No Alternate Service,78585,0.01396,39933,agency DOB (no location_type in 311),(blank) (78585),8472,9410,9495,11275,13216,13153,13564
+DOB,General Construction/Plumbing,Building Permit - None,69398,0.01233,26919,agency DOB (no location_type in 311),(blank) (69398),13101,7982,11535,9861,9104,8873,8942
+DOB,Elevator,Elevator - Multiple Devices On Property,48219,0.00857,25404,agency DOB (no location_type in 311),(blank) (48219),4970,5537,5177,7131,7646,8271,9487
+DOB,Real Time Enforcement,Work Without A Permit - Occupied Multiple Dwelling,34342,0.0061,17616,agency DOB (no location_type in 311),(blank) (34342),1389,4748,5017,5572,6174,5645,5797
+DOB,Boilers,Boiler - Defective/Inoperative/No Permit,22349,0.00397,9941,agency DOB (no location_type in 311),(blank) (22349),2142,3538,3535,3193,2802,3997,3142
+DOB,General Construction/Plumbing,Sidewalk Shed/Pipe Scafford - Inadequate Defective/None,21904,0.00389,11869,agency DOB (no location_type in 311),(blank) (21904),1728,2106,2552,3649,3782,3799,4288
+DOB,General Construction/Plumbing,Cons - Contrary/Beyond Approved Plans/Permits,21352,0.00379,8898,agency DOB (no location_type in 311),(blank) (21352),2343,3050,3293,3768,3232,2994,2672
+DOB,Emergency Response Team (ERT),After Hours Work - Illegal,21122,0.00375,8780,agency DOB (no location_type in 311),(blank) (21122),3458,2668,2819,3397,3067,2769,2944
+DOB,General Construction/Plumbing,Building Shaking/Vibrating/Structural Stability,20810,0.0037,10604,agency DOB (no location_type in 311),(blank) (20810),2273,2651,2448,2834,3895,3022,3687
+DOB,General Construction/Plumbing,Curb Cut/Driveway/Carport - Illegal,17453,0.0031,7643,agency DOB (no location_type in 311),(blank) (17453),1898,2506,2871,2535,2625,2526,2492
+DOB,Electrical,Electrical Wiring Defective/Exposed,14511,0.00258,6633,agency DOB (no location_type in 311),(blank) (14511),1734,1732,1843,2569,2357,2121,2155
+DOB,Special Projects Inspection Team (SPIT),Illegal Hotel Rooms In Residential Building,14507,0.00258,6175,agency DOB (no location_type in 311),(blank) (14507),1740,1594,2026,2972,2335,2021,1819
+DOB,Building/Use,No Certificate Of Occupancy/Illegal/Contrary To CO,14309,0.00254,7799,agency DOB (no location_type in 311),(blank) (14309),1457,1738,1595,1720,1871,1865,4063
+DOB,General Construction/Plumbing,Working Contrary To Stop Work Order,14065,0.0025,6395,agency DOB (no location_type in 311),(blank) (14065),2063,1966,1822,1819,1972,2163,2260
+DOB,General Construction/Plumbing,Fence - None/Inadequate,12968,0.0023,6394,agency DOB (no location_type in 311),(blank) (12968),1410,1624,1759,1781,1832,1906,2656
+DOB,Building/Use,Zoning - Non-Conforming/Illegal Vehicle Storage,11529,0.00205,5615,agency DOB (no location_type in 311),(blank) (11529),1371,1667,1378,1498,1555,1830,2230
+DOB,General Construction/Plumbing,Egress - Doors Locked/Blocked/Improper/No Secondary Means,11121,0.00198,4947,agency DOB (no location_type in 311),(blank) (11121),1416,1626,1576,1556,1616,1544,1787
+DOB,Building/Use,Illegal. Commercial Use In Resident Zone,10969,0.00195,3982,agency DOB (no location_type in 311),(blank) (10969),2059,1977,1510,1441,1296,1301,1385
+DOB,General Construction/Plumbing,Debris - Excessive,9277,0.00165,3312,agency DOB (no location_type in 311),(blank) (9277),1344,1470,1588,1563,1148,1109,1055
+DOB,General Construction/Plumbing,Site Conditions Endangering Workers,9130,0.00162,2427,agency DOB (no location_type in 311),(blank) (9130),1769,1705,1975,1254,958,744,725
+DOB,Plumbing,Failure To Retain Water/Improper Drainage- (LL103/89),8395,0.00149,3599,agency DOB (no location_type in 311),(blank) (8395),853,1375,1226,1342,1176,1038,1385
+DOB,General Construction/Plumbing,"Building - Vacant, Open And Unguarded",7876,0.0014,3056,agency DOB (no location_type in 311),(blank) (7876),1132,1174,1388,1126,992,983,1081
+DOB,General Construction/Plumbing,Vent/Exhaust - Illegal/Improper,7686,0.00137,3390,agency DOB (no location_type in 311),(blank) (7686),980,1284,946,1086,1082,1054,1254
+DOB,COVID-19 Non-essential Construction,Construction,7322,0.0013,0,agency DOB (no location_type in 311),(blank) (7322),6643,678,1,0,0,0,0
+DOB,General Construction/Plumbing,Debris - Falling Or In Danger Of Falling,6462,0.00115,3059,agency DOB (no location_type in 311),(blank) (6462),794,805,780,1024,994,1129,936
+DOB,General Construction/Plumbing,Adjacent Buildings Not Protected,6370,0.00113,2375,agency DOB (no location_type in 311),(blank) (6370),1076,970,880,1069,832,760,783
+DOB,General Construction/Plumbing,Failure To Maintain,5914,0.00105,2370,agency DOB (no location_type in 311),(blank) (5914),609,902,1075,958,795,802,773
+DOB,Plumbing,Plumbing Work - Illegal/No Permit/Standpipe/Sprinkler,4938,0.00088,2448,agency DOB (no location_type in 311),(blank) (4938),645,465,544,836,793,818,837
+DOB,Special Projects Inspection Team (SPIT),Sign/Awning/Marquee - Illegal/No Permit,4860,0.00086,2618,agency DOB (no location_type in 311),(blank) (4860),373,434,560,875,901,883,834
+DOB,Building/Use,SRO - Illegal Work/No Permit/Change In Occupancy/Use,4476,0.0008,2386,agency DOB (no location_type in 311),(blank) (4476),473,448,469,700,713,857,816
+DOB,Plumbing,Plumbing-Defective/Leaking/Not Maintained,4051,0.00072,2169,agency DOB (no location_type in 311),(blank) (4051),381,442,478,581,594,709,866
+DOB,General Construction/Plumbing,Wall/Retaining Wall - Bulging/Cracked,3047,0.00054,1391,agency DOB (no location_type in 311),(blank) (3047),321,486,396,453,555,391,445
+DOB,Special Projects Inspection Team (SPIT),Advertising Sign/Billboard/Posters/Flexible Fabric - Illegal,2967,0.00053,1402,agency DOB (no location_type in 311),(blank) (2967),282,315,392,576,528,470,404
+DOB,Plumbing,Gas Hook-Up/Piping - Illegal Or Defective,2900,0.00052,1106,agency DOB (no location_type in 311),(blank) (2900),431,504,477,382,359,404,343
+DOB,Investigations and Discipline (IAD),Investigative Inspection,2890,0.00051,1642,agency DOB (no location_type in 311),(blank) (2890),238,306,278,426,650,507,485
+DOB,Emergency Response Team (ERT),Lights From Parking Lot Shining On Building,2295,0.00041,1202,agency DOB (no location_type in 311),(blank) (2295),209,255,341,288,359,426,417
+DOB,BEST/Site Safety,Demolition - Unsafe,2281,0.00041,1154,agency DOB (no location_type in 311),(blank) (2281),140,287,337,363,345,400,409
+DOB,General Construction/Plumbing,Posted Notice Or Order Removed/Tampered With,2265,0.0004,1179,agency DOB (no location_type in 311),(blank) (2265),266,316,243,261,292,316,571
+DOB,Construction Safety Enforcement,CSC - Monitoring Tracking,2110,0.00037,2110,agency DOB (no location_type in 311),(blank) (2110),0,0,0,0,0,2110,0
+DOB,Special Projects Inspection Team (SPIT),Adult Establishment,2031,0.00036,653,agency DOB (no location_type in 311),(blank) (2031),159,328,286,605,256,223,174
+DOB,Special Projects Inspection Team (SPIT),Privately Owned Public Space/Non-Compliance,1772,0.00031,876,agency DOB (no location_type in 311),(blank) (1772),218,208,193,277,322,230,324
+DOB,General Construction/Plumbing,Failure to Comply with Vacate Order,1518,0.00027,727,agency DOB (no location_type in 311),(blank) (1518),127,252,162,250,269,210,248
+DOB,General Construction/Plumbing,Illegal Conversion Of Commercial Bldg/Space To Other Uses,1448,0.00026,624,agency DOB (no location_type in 311),(blank) (1448),154,193,210,267,217,208,199
+DOB,General Construction/Plumbing,Construction - Change Grade/Watercourse,1356,0.00024,470,agency DOB (no location_type in 311),(blank) (1356),164,274,189,259,184,131,155
+DOB,Investigations and Discipline (IAD),Plumbing Work - Unlicensed/Illegal/Improper Work In Progress,1255,0.00022,431,agency DOB (no location_type in 311),(blank) (1255),179,115,159,371,125,153,153
+DOB,General Construction/Plumbing,Safety Netting/Guard Rails - Damaged/Inadequate/None (6 Stories/75 Feet Or Less),1221,0.00022,449,agency DOB (no location_type in 311),(blank) (1221),207,172,188,205,170,138,141
+DOB,Scaffold Safety,Suspended (Hanging) Scaffolds - No Pmt/Lic/Dangerous/Accident,1153,0.0002,452,agency DOB (no location_type in 311),(blank) (1153),142,147,190,222,174,148,130
+DOB,General Construction/Plumbing,Excavation Undermining Adjacent Building,1023,0.00018,394,agency DOB (no location_type in 311),(blank) (1023),128,141,181,179,137,95,162
+DOB,AHV Inspection Unit,After Hours Work - With An AHV Permit,906,0.00016,243,agency DOB (no location_type in 311),(blank) (906),101,284,153,125,58,28,157
+DOB,Plumbing,Sprinkler System - Inadequate,857,0.00015,524,agency DOB (no location_type in 311),(blank) (857),64,67,69,133,224,140,160
+DOB,BEST/Site Safety,Safety Netting/Guard Rails - Damaged/Inadequate/None (Over 6 Stories/75 Feet),715,0.00013,286,agency DOB (no location_type in 311),(blank) (715),92,101,106,130,106,90,90
+DOB,General Construction/Plumbing,Landmark Bldg - Illegal Work,610,0.00011,262,agency DOB (no location_type in 311),(blank) (610),63,87,115,83,98,69,95
+DOB,Cranes and Derricks,Crane/Suspension Scaffold - No Permit/License/Cert./Unsafe/Illegal,601,0.00011,229,agency DOB (no location_type in 311),(blank) (601),107,75,96,94,84,79,66
+DOB,General Construction/Plumbing,Structural Stability Impacted - New Building Under Construction,566,0.0001,237,agency DOB (no location_type in 311),(blank) (566),78,107,73,71,84,77,76
+DOB,Special Projects Inspection Team (SPIT),Sign - In Danger Of Falling,448,8e-05,211,agency DOB (no location_type in 311),(blank) (448),59,62,58,58,73,90,48
+DOB,Special Natural Area District (SNAD),Illegal Tree Removal/Topo. Change in SNAD,326,6e-05,123,agency DOB (no location_type in 311),(blank) (326),42,37,53,71,43,43,37
+DOB,General Construction/Plumbing,Material Storage - Unsafe,268,5e-05,98,agency DOB (no location_type in 311),(blank) (268),35,43,47,45,33,35,30
+DOB,Special Operations,Special Operations Compliance Inspection,225,4e-05,176,agency DOB (no location_type in 311),(blank) (225),0,1,5,43,6,125,45
+DOB,Special Projects Inspection Team (SPIT),Illegal Conversion Of Manufacturing/Industrial Space,205,4e-05,76,agency DOB (no location_type in 311),(blank) (205),30,34,36,29,36,21,19
+DOB,Dept of Investigations,Integrity Complaint Referral,187,3e-05,70,agency DOB (no location_type in 311),(blank) (187),13,29,30,45,34,22,14
+DOB,Borough Office,Restroom Non-Complaince With Local Law 79/16,184,3e-05,82,agency DOB (no location_type in 311),(blank) (184),18,11,29,44,36,23,23
+DOB,General Construction/Plumbing,Smoking Ban - Smoking on Construction Site,169,3e-05,57,agency DOB (no location_type in 311),(blank) (169),33,24,22,33,17,23,17
+DOB,General Construction/Plumbing,Inadequate Support Shoring,142,3e-05,51,agency DOB (no location_type in 311),(blank) (142),12,26,25,28,18,17,16
+DOB,Water Drainage,Drain/Pipe Clogged,136,2e-05,0,agency DOB (no location_type in 311),Street (136),0,0,0,136,0,0,0
+DOB,General Construction/Plumbing,Safety Inspection-Retaining Walls (May 2005),94,2e-05,41,agency DOB (no location_type in 311),(blank) (94),8,16,11,18,20,6,15
+DOB,General Construction/Plumbing,"Smoking Signs - ""No Smoking"" Signs Not Observed on Construction Site",91,2e-05,49,agency DOB (no location_type in 311),(blank) (91),13,13,8,8,11,25,13
+DOB,Unstable Building,Shaking/Vibrating,60,1e-05,0,agency DOB (no location_type in 311),Street (60),0,0,0,60,0,0,0
+DOB,General Construction/Plumbing,Deck Inspection,50,1e-05,12,agency DOB (no location_type in 311),(blank) (50),9,8,9,12,5,0,7
+DOB,Boiler,Defective,26,0.0,0,agency DOB (no location_type in 311),Street Address (26),0,0,0,26,0,0,0
+DOB,Unstable Building,Leaning,25,0.0,0,agency DOB (no location_type in 311),Street (25),0,0,0,25,0,0,0
+DOB,Miscellaneous Categories,Inspection Work Order (DOB),21,0.0,0,agency DOB (no location_type in 311),(blank) (21),5,16,0,0,0,0,0
+DOB,Building Marshal's Office,Tenant Safety Inspection,21,0.0,21,agency DOB (no location_type in 311),(blank) (21),0,0,0,0,2,1,18
+DOB,Special Projects Inspection Team (SPIT),Contrary To LL 58/87(Handicapped Access),19,0.0,0,agency DOB (no location_type in 311),(blank) (19),2,3,11,3,0,0,0
+DOB,Building Condition,Commercial,19,0.0,0,agency DOB (no location_type in 311),Street (19),0,0,0,19,0,0,0
+DOB,Construction Safety Enforcement,CSE - Tracking Compliance,17,0.0,3,agency DOB (no location_type in 311),(blank) (17),14,0,0,0,0,1,2
+DOB,Building Marshals office,Unlicensed/Illegal/Improper Work In Progress,13,0.0,3,agency DOB (no location_type in 311),(blank) (13),5,1,1,3,2,0,1
+DOB,Borough Office,Construction Enforcement Work Order (DOB),13,0.0,2,agency DOB (no location_type in 311),(blank) (13),3,7,1,0,1,1,0
+DOB,General Construction/Plumbing,Demolition - No Permit,13,0.0,2,agency DOB (no location_type in 311),(blank) (13),0,8,0,3,1,1,0
+DOB,Investigations and Discipline (IAD),Electrical - Unlicensed/Illegal/Improper Work In Progress,11,0.0,3,agency DOB (no location_type in 311),(blank) (11),0,1,7,0,3,0,0
+DOB,Boiler,Not Working,10,0.0,0,agency DOB (no location_type in 311),Street Address (10),0,0,0,10,0,0,0
+DOB,Executive Inspections,Enforcement Work Order (DOB),9,0.0,2,agency DOB (no location_type in 311),(blank) (9),2,4,0,1,2,0,0
+DOB,Boiler,No Permit/Not Registered,5,0.0,0,agency DOB (no location_type in 311),Street Address (5),0,0,0,5,0,0,0
+DOB,DOB Posted Notice or Order,Vacate Order,5,0.0,0,agency DOB (no location_type in 311),Street (5),0,0,0,5,0,0,0
+DOB,Building Marshals office,Illegal Activity,4,0.0,0,agency DOB (no location_type in 311),(blank) (4),4,0,0,0,0,0,0
+DOB,Building Marshal's Office,Tenant Safety - Failure To Post/Distribute,4,0.0,4,agency DOB (no location_type in 311),(blank) (4),0,0,0,0,3,0,1
+DOB,Facades,Facade (LL11/98)- Unsafe Notification,3,0.0,0,agency DOB (no location_type in 311),(blank) (3),1,1,1,0,0,0,0
+DOB,Elevator,Elevator - Dangerous Condition/Shaft Open/Unguarded,3,0.0,0,agency DOB (no location_type in 311),(blank) (3),0,3,0,0,0,0,0
+DOB,Real Time Enforcement,Local Law 188/17 Compliance Inspections - Active,2,0.0,0,agency DOB (no location_type in 311),(blank) (2),0,1,0,1,0,0,0
+DOB,Facade Insp Safety Pgm,Facades Uunit Complaince Inspection,2,0.0,1,agency DOB (no location_type in 311),(blank) (2),0,0,1,0,1,0,0
+DOB,Construction Safety Enforcement,CSE - Sweep,2,0.0,0,agency DOB (no location_type in 311),(blank) (2),0,0,0,2,0,0,0
+DOB,Building Marshal's Office,Work Without Permits Watch List Compliance,1,0.0,0,agency DOB (no location_type in 311),(blank) (1),1,0,0,0,0,0,0
+DOB,Boilers,Boiler - Fumes/Smoke/Carbon Monoxide,1,0.0,0,agency DOB (no location_type in 311),(blank) (1),0,1,0,0,0,0,0
+DOB,Forensic Engineering,Retaining Wall Tracking Complaint,1,0.0,0,agency DOB (no location_type in 311),(blank) (1),0,1,0,0,0,0,0
+DOB,Electrical,Con Edison Referral,1,0.0,0,agency DOB (no location_type in 311),(blank) (1),0,0,1,0,0,0,0
+DOB,Quality of Life,Illegal Conversion No Access Follow - UP,1,0.0,0,agency DOB (no location_type in 311),(blank) (1),0,0,0,1,0,0,0
+DOB,Building Condition,Residential,1,0.0,0,agency DOB (no location_type in 311),Street (1),0,0,0,1,0,0,0
+DOB,Electrical,Electrical Enforcement Work Order (DOB),1,0.0,0,agency DOB (no location_type in 311),(blank) (1),0,0,0,1,0,0,0
+DOB,General Construction/Plumbing,Safety Netting - None,1,0.0,1,agency DOB (no location_type in 311),(blank) (1),0,0,0,0,1,0,0
+DOB,Special Operations,Semi-Annual Homeless Shelter Inspection: Plumbing,1,0.0,1,agency DOB (no location_type in 311),(blank) (1),0,0,0,0,1,0,0
+DOB,Sustainability Enforcement,Sustainability Enforcement Work Order,1,0.0,1,agency DOB (no location_type in 311),(blank) (1),0,0,0,0,1,0,0
+DOB,Stalled Sites,Stalled Construction Site,1,0.0,1,agency DOB (no location_type in 311),(blank) (1),0,0,0,0,1,0,0
+DOB,Elevator,Amusement Ride Accident/Incident,1,0.0,1,agency DOB (no location_type in 311),(blank) (1),0,0,0,0,1,0,0
+DOB,Elevator,Accident - Elevator,1,0.0,1,agency DOB (no location_type in 311),(blank) (1),0,0,0,0,1,0,0
+DOHMH,Rodent,Rat Sighting,109098,0.01938,46204,residential location_type,3+ Family Apt. Building (70897); 1-2 Family Dwelling (26347); 3+ Family Mixed Use Building (9171); 1-2 Family Mixed Use Building (2410),11748,17046,17503,16597,18600,15091,12513
+DOHMH,Rodent,Condition Attracting Rodents,34513,0.00613,14637,residential location_type,3+ Family Apt. Building (18420); 1-2 Family Dwelling (12530); 3+ Family Mixed Use Building (2614); 1-2 Family Mixed Use Building (885),4248,5138,4780,5710,5313,4794,4530
+DOHMH,Rodent,Signs of Rodents,20488,0.00364,9045,residential location_type,3+ Family Apt. Building (15402); 1-2 Family Dwelling (4032); 3+ Family Mixed Use Building (805); 1-2 Family Mixed Use Building (212),1823,2334,3270,4016,4570,3284,1191
+DOHMH,Indoor Air Quality,Chemical Vapors/Gases/Odors,15189,0.0027,7958,residential location_type,3+ Family Apartment Building (13066); 1-2 Family Dwelling (1572); 1-2 Family Mixed Use Building (526); Residential Building (15),1238,1898,1988,2107,2442,2445,3071
+DOHMH,Rodent,Mouse Sighting,14665,0.0026,3443,residential location_type,3+ Family Apt. Building (10530); 1-2 Family Dwelling (2797); 3+ Family Mixed Use Building (790); Single Room Occupancy (SRO) (280),2775,2929,2955,2563,1678,1142,623
+DOHMH,Smoking or Vaping,Allowed in Smoke Free Area,14436,0.00256,14281,residential location_type,Residential Building (14423); Single Room Occupancy (SRO) (13),0,0,0,155,3002,5173,6106
+DOHMH,Smoking,Smoking Violation,12927,0.0023,831,residential location_type,Residential Building (12825); 1-2 Family Dwelling (39); 3+ Family Apartment Building (35); Single Room Occupancy (SRO) (18),2370,2837,3531,3358,831,0,0
+DSNY,Graffiti,Graffiti,12826,0.00228,8034,residential location_type,Residential (12826),679,613,1570,1930,3214,2784,2036
+DOHMH,Unsanitary Animal Pvt Property,Dog,9298,0.00165,4612,residential location_type,3+ Family Apartment Building (4694); 1-2 Family Dwelling (3355); 3+ Family Mixed Use Building (953); 1-2 Family Mixed Use Building (284),1101,1060,1123,1402,1416,1559,1637
+DOHMH,Indoor Air Quality,Ventilation,7931,0.00141,4448,residential location_type,3+ Family Apartment Building (6532); 1-2 Family Dwelling (1134); 1-2 Family Mixed Use Building (256); Residential Building (4),879,1029,782,793,1183,1479,1786
+DOHMH,Indoor Air Quality,Other (Explain Below),7122,0.00127,3396,residential location_type,3+ Family Apartment Building (6314); 1-2 Family Dwelling (655); 1-2 Family Mixed Use Building (152); Residential Building (1),763,1084,906,973,1149,1020,1227
+DOHMH,Indoor Air Quality,Sewage Odor,6592,0.00117,3912,residential location_type,3+ Family Apt. Building (4928); 1-2 Family Dwelling (1411); 1-2 Family Mixed Use Building (253),0,643,897,1140,1229,1288,1395
+DOHMH,Unsanitary Pigeon Condition,Pigeon Waste,5792,0.00103,3000,residential location_type,3+ Family Apartment Building (2775); 1-2 Family Dwelling (1785); 3+ Family Mixed Use Building (946); 1-2 Family Mixed Use Building (282),606,674,736,776,900,1017,1083
+DEP,Lead,Lead Kit,5757,0.00102,5757,residential location_type,Residential Building (5757),0,0,0,0,0,0,5757
+DOHMH,Unsanitary Animal Pvt Property,Cat,4114,0.00073,2080,residential location_type,3+ Family Apartment Building (2390); 1-2 Family Dwelling (1231); 3+ Family Mixed Use Building (390); 1-2 Family Mixed Use Building (100),454,430,535,615,596,656,828
+DOHMH,Indoor Air Quality,Dust from Construction,4054,0.00072,2196,residential location_type,3+ Family Apartment Building (3554); 1-2 Family Dwelling (378); 1-2 Family Mixed Use Building (113); Apartment (5),422,339,406,691,767,669,760
+DOHMH,Day Care,Day Care Facility,3200,0.00057,1523,residential location_type,Apartment (1636); Private House (1564),222,468,454,533,528,485,510
+DOHMH,Indoor Sewage,Sewage Leak,3167,0.00056,1542,residential location_type,3+ Family Apt. Building (1778); 1-2 Family Dwelling (927); 3+ Family Mixed Use Building (325); 1-2 Family Mixed Use Building (125),455,395,395,380,460,465,617
+DOHMH,Asbestos,N/A,3066,0.00054,1391,residential location_type,3+ Family Apartment Building (2424); 1-2 Family Dwelling (541); 1-2 Family Mixed Use Building (92); Residential Building (6),335,433,430,477,459,451,481
+DEP,Noise,Dog,2809,0.0005,2809,residential location_type,Residential (2809),0,0,0,0,1,2,2806
+DOHMH,Harboring Bees/Wasps,Bees/Wasps - Not a beekeper,2494,0.00044,1181,residential location_type,1-2 Family Dwelling (1332); 3+ Family Apartment Building (881); 3+ Family Mixed Use Building (157); 1-2 Family Mixed Use Building (124),208,262,363,480,382,445,354
+DOHMH,Construction Lead Dust,In Common Areas,2484,0.00044,1720,residential location_type,3+ Family Apartment Building (2392); 1-2 Family Dwelling (66); 1-2 Family Mixed Use Building (23); Residential Building (2),170,157,197,240,536,660,524
+DOHMH,Construction Lead Dust,Common Areas and Apartment,2273,0.0004,1132,residential location_type,3+ Family Apartment Building (2066); 1-2 Family Dwelling (140); 1-2 Family Mixed Use Building (58); Residential Building (6),259,248,281,353,434,344,354
+DOHMH,Illegal Animal Kept as Pet,Rooster,2186,0.00039,1140,residential location_type,Residence (2183); 1-2 Family Dwelling (2); 3+ Family Apartment Building (1),243,332,218,253,333,439,368
+DOHMH,Unsanitary Animal Pvt Property,Other Animal,1988,0.00035,972,residential location_type,3+ Family Apartment Building (835); 1-2 Family Dwelling (823); 3+ Family Mixed Use Building (238); 1-2 Family Mixed Use Building (89),226,305,255,230,275,316,381
+DOHMH,Construction Lead Dust,Coming into Apartment,1934,0.00034,881,residential location_type,3+ Family Apartment Building (1670); 1-2 Family Dwelling (205); 1-2 Family Mixed Use Building (52); Residential Building (3),251,226,284,292,320,285,276
+DOHMH,Drinking Water,Illness Caused by Drinking Water,1862,0.00033,935,residential location_type,3+ Family Apartment Building (1234); 1-3 Family Dwelling (538); 1-3 Family Mixed Use Building (82); 1-2 Family Dwelling (4),197,205,255,270,327,340,268
+DOHMH,Standing Water,Swimming Pool - Unmaintained,1778,0.00032,854,residential location_type,1-2 Family Dwelling (1588); 3+ Family Apartment Building (131); 1-2 Family Mixed Use Building (35); 3+ Family Mixed Use Building (24),116,307,213,288,286,251,317
+DOHMH,Mosquitoes,Large Number of Mosquitoes,1563,0.00028,725,residential location_type,Residential Property (1563),206,223,199,210,226,188,311
+DOHMH,Indoor Air Quality,Human Feces,1034,0.00018,730,residential location_type,3+ Family Apt. Building (866); 1-2 Family Dwelling (133); 1-2 Family Mixed Use Building (35),0,73,105,126,216,244,270
+DOHMH,Indoor Sewage,Sewage Odor,811,0.00014,0,residential location_type,3+ Family Apt. Building (448); 1-2 Family Dwelling (238); 3+ Family Mixed Use Building (77); 1-2 Family Mixed Use Building (28),678,133,0,0,0,0,0
+DEP,Noise,Air Conditioner/Ventilation,798,0.00014,798,residential location_type,Residential (798),0,0,0,0,0,0,798
+DOHMH,Illegal Animal Kept as Pet,Other,776,0.00014,346,residential location_type,Residence (776),98,117,102,113,102,133,111
+DSNY,Litter Basket Complaint,Misuse,698,0.00012,422,residential location_type,Residence (698),0,30,99,147,120,157,145
+DOHMH,Poison Ivy,N/A,680,0.00012,321,residential location_type,Residential Building (680),83,102,92,82,91,103,127
+DEP,Noise,Lawn Care Equipment,623,0.00011,623,residential location_type,Residential Property (623),0,0,0,0,0,1,622
+DOHMH,Standing Water,Container - Over 5 Gallons,616,0.00011,298,residential location_type,1-2 Family Dwelling (441); 3+ Family Apartment Building (120); 3+ Family Mixed Use Building (28); 1-2 Family Mixed Use Building (27),33,118,81,86,86,96,116
+DOHMH,Standing Water,Puddle in Ground,612,0.00011,296,residential location_type,1-2 Family Dwelling (371); 3+ Family Apartment Building (165); 3+ Family Mixed Use Building (53); 1-2 Family Mixed Use Building (23),53,114,65,84,89,86,121
+DOHMH,Illegal Animal Kept as Pet,Farm Animal,552,0.0001,212,residential location_type,Residence (550); 1-2 Family Dwelling (2),98,100,90,52,64,72,76
+DOHMH,Unsanitary Pigeon Condition,Pigeon Odor,550,0.0001,264,residential location_type,3+ Family Apartment Building (286); 1-2 Family Dwelling (147); 3+ Family Mixed Use Building (91); 1-2 Family Mixed Use Building (25),83,60,73,70,90,97,77
+DOHMH,Indoor Air Quality,Unsafe Mold Cleanup,456,8e-05,456,residential location_type,Residential Building (456),0,0,0,0,72,191,193
+DEP,Water Conservation,Water Meter Broken/Leaking,403,7e-05,403,residential location_type,Residential Building (403),0,0,0,0,0,0,403
+DOHMH,Harboring Bees/Wasps,Beekeeping - Honeybees,371,7e-05,185,residential location_type,1-2 Family Dwelling (218); 3+ Family Apartment Building (110); 3+ Family Mixed Use Building (22); 1-2 Family Mixed Use Building (21),44,22,59,61,65,66,54
+DOHMH,Standing Water,Puddle on Sidewalk,299,5e-05,146,residential location_type,1-2 Family Dwelling (184); 3+ Family Apartment Building (75); 3+ Family Mixed Use Building (26); 1-2 Family Mixed Use Building (14),13,49,54,37,46,50,50
+DOHMH,Pet Sale,Animals Sold From Residence,232,4e-05,232,residential location_type,Private Residence (232),0,0,0,0,0,92,140
+DOHMH,Standing Water,Swimming Pool Cover,211,4e-05,101,residential location_type,1-2 Family Dwelling (193); 3+ Family Apartment Building (8); 1-2 Family Mixed Use Building (7); 3+ Family Mixed Use Building (3),11,39,28,32,30,36,35
+DOHMH,Food Establishment,No Permit or License,204,4e-05,128,residential location_type,Residence (199); 1-2 Family Dwelling (4); 3+ Family Mixed Use Building (1),25,26,12,13,29,56,43
+DOHMH,Standing Water,Sewer or Drain,198,4e-05,106,residential location_type,1-2 Family Dwelling (104); 3+ Family Apartment Building (64); 3+ Family Mixed Use Building (21); 1-2 Family Mixed Use Building (9),4,33,36,19,37,38,31
+DOHMH,Standing Water,Puddle on Driveway,178,3e-05,96,residential location_type,1-2 Family Dwelling (142); 3+ Family Apartment Building (14); 3+ Family Mixed Use Building (13); 1-2 Family Mixed Use Building (9),5,26,26,25,30,25,41
+DOHMH,Smoking or Vaping,Sign Inadequate,164,3e-05,164,residential location_type,Residential Building (163); Single Room Occupancy (SRO) (1),0,0,0,0,1,63,100
+DOHMH,Indoor Air Quality,Dry Cleaning Vapors (PERC),149,3e-05,58,residential location_type,3+ Family Apartment Building (92); 1-2 Family Mixed Use Building (29); 1-2 Family Dwelling (27); Residential Building (1),31,23,18,19,17,26,15
+DOHMH,Standing Water,Puddle on Roof,143,3e-05,74,residential location_type,3+ Family Apartment Building (62); 3+ Family Mixed Use Building (39); 1-2 Family Dwelling (31); 1-2 Family Mixed Use Building (11),6,21,23,19,37,23,14
+DOHMH,Window Guard,Tenant Refusal,140,2e-05,49,residential location_type,3+ Family Apartment Building (140),19,34,24,14,13,20,16
+DOHMH,Illegal Animal Kept as Pet,Snake,140,2e-05,62,residential location_type,Residence (140),19,13,22,24,20,27,15
+DEP,Noise,Animal Other Than Dog,133,2e-05,133,residential location_type,Residential (133),0,0,0,0,0,0,133
+DEP,Air Quality,Chimney/Vent Smoke,129,2e-05,129,residential location_type,Residential Building (129),0,0,0,0,0,0,129
+DOHMH,Peeling Paint,Peeling Paint Inside Home,124,2e-05,2,residential location_type,1-2 Family Dwelling (107); 1-2 Family Mixed Use Building (16); Residence (1),84,36,0,2,2,0,0
+DOHMH,Mold,Loft Building,123,2e-05,59,residential location_type,Loft Residence (123),0,24,24,16,22,15,22
+DOHMH,Standing Water,Container - Under 5 Gallons,110,2e-05,48,residential location_type,1-2 Family Dwelling (73); 3+ Family Apartment Building (27); 3+ Family Mixed Use Building (8); 1-2 Family Mixed Use Building (2),8,20,13,21,17,10,21
+DOHMH,Illegal Animal Sold,Other,102,2e-05,48,residential location_type,Residence (102),16,9,17,12,14,26,8
+DOHMH,Standing Water,Basement,99,2e-05,39,residential location_type,3+ Family Apartment Building (61); 1-2 Family Dwelling (27); 3+ Family Mixed Use Building (8); 1-2 Family Mixed Use Building (3),6,17,16,21,15,19,5
+DSNY,Dead Animal,Deer,90,2e-05,30,residential location_type,Residence (90),0,16,27,17,13,11,6
+DOHMH,Standing Water,Flower Planters,79,1e-05,38,residential location_type,1-2 Family Dwelling (49); 3+ Family Apartment Building (18); 3+ Family Mixed Use Building (7); 1-2 Family Mixed Use Building (5),4,15,10,12,15,10,13
+DOHMH,Day Care,Other,72,1e-05,5,residential location_type,Private House (29); Apartment (28); 1-2 Family Dwelling (12); 1-2 Family Mixed Use Building (2),64,1,2,0,1,1,3
+DOHMH,Pet Shop,Dogs or Cats Sold,63,1e-05,26,residential location_type,Private Residence (61); 1-2 Family Dwelling (2),7,6,10,14,19,7,0
+DOHMH,Standing Water,Fountain - Over 5 Gallons,61,1e-05,22,residential location_type,1-2 Family Dwelling (34); 3+ Family Apartment Building (16); 3+ Family Mixed Use Building (9); 1-2 Family Mixed Use Building (2),8,7,9,15,5,11,6
+DEP,Water Conservation,Water Waste,59,1e-05,59,residential location_type,Residential Building (59),0,0,0,0,0,0,59
+DOHMH,Standing Water,Tires,57,1e-05,24,residential location_type,1-2 Family Dwelling (43); 3+ Family Apartment Building (8); 1-2 Family Mixed Use Building (4); 3+ Family Mixed Use Building (2),4,11,11,7,7,10,7
+DOHMH,Illegal Animal Kept as Pet,Monkey,56,1e-05,18,residential location_type,Residence (55); 3+ Family Apartment Building (1),5,10,10,13,6,7,5
+DOHMH,Day Care,Unlicensed Day Care,51,1e-05,1,residential location_type,Apartment (29); Private House (17); 1-2 Family Dwelling (4); 3+ Family Apartment Building (1),49,0,0,1,0,0,1
+DOHMH,Standing Water,Roof Gutters,47,1e-05,21,residential location_type,3+ Family Apartment Building (23); 1-2 Family Dwelling (14); 1-2 Family Mixed Use Building (5); 3+ Family Mixed Use Building (5),4,8,8,6,9,3,9
+DOHMH,Food Establishment,Permit/License/Certificate,44,1e-05,24,residential location_type,Residence (43); 1-2 Family Dwelling (1),7,7,2,4,6,6,12
+DOHMH,Rodent,Rodent Bite - PCS Only,44,1e-05,1,residential location_type,3+ Family Apt. Building (30); 1-2 Family Dwelling (7); 3+ Family Mixed Use Building (5); 1-2 Family Mixed Use Building (2),12,13,9,9,1,0,0
+DOHMH,Illegal Animal Kept as Pet,Ferret,42,1e-05,28,residential location_type,Residence (42),5,3,3,3,5,10,13
+DOHMH,Day Care,Summer Camp,37,1e-05,12,residential location_type,Private House (24); Apartment (13),5,7,5,8,3,4,5
+DOHMH,Standing Water,Bird Bath,35,1e-05,14,residential location_type,1-2 Family Dwelling (25); 3+ Family Apartment Building (7); 1-2 Family Mixed Use Building (2); 3+ Family Mixed Use Building (1),3,3,10,5,1,5,8
+DOHMH,Illegal Animal Sold,Farm Animal,33,1e-05,3,residential location_type,Residence (33),8,0,20,2,0,2,1
+DOHMH,Smoking,Cigarette Vending Machine,32,1e-05,1,residential location_type,Residential Building (32),10,7,7,7,1,0,0
+DOHMH,Food Establishment,Rodents/Insects/Garbage,28,0.0,0,residential location_type,1-2 Family Dwelling (25); 1-2 Family Mixed Use Building (2); 3+ Family Mixed Use Building (1),28,0,0,0,0,0,0
+DOHMH,Smoking or Vaping,Ashtray in Smoke-Free Area,26,0.0,26,residential location_type,Residential Building (26),0,0,0,0,0,15,11
+DOHMH,Food Poisoning,1 or 2,25,0.0,0,residential location_type,1-2 Family Dwelling (23); 1-2 Family Mixed Use Building (2),25,0,0,0,0,0,0
+DOHMH,Illegal Animal Sold,Snake,23,0.0,4,residential location_type,Residence (22); 3+ Family Apartment Building (1),9,2,8,0,0,4,0
+DOHMH,Illegal Animal Kept as Pet,Turtle Under 4 inches Long,23,0.0,14,residential location_type,Residence (23),3,1,2,3,4,10,0
+DOHMH,Pet Shop,Dogs or Cats Not Sold,20,0.0,1,residential location_type,Private Residence (20),4,6,4,5,1,0,0
+DEP,Water Conservation,Water Meter Missing/Stolen,19,0.0,19,residential location_type,Residential Building (19),0,0,0,0,0,0,19
+DOHMH,Unleashed Dog,Unleashed Dog in Public,17,0.0,0,residential location_type,1-2 Family Dwelling (11); 3+ Family Apartment Building (3); Residence (1); 1-2 Family Mixed Use Building (1),17,0,0,0,0,0,0
+DOHMH,Food Establishment,Food Contaminated,16,0.0,0,residential location_type,1-2 Family Dwelling (16),16,0,0,0,0,0,0
+DOHMH,Food Poisoning,3 or More,12,0.0,0,residential location_type,1-2 Family Dwelling (11); 1-2 Family Mixed Use Building (1),12,0,0,0,0,0,0
+DOHMH,Illegal Animal Sold,Rooster,12,0.0,8,residential location_type,Residence (12),1,0,2,1,3,2,3
+DEP,Water Conservation,Hose,12,0.0,12,residential location_type,Residential Building (12),0,0,0,0,0,0,12
+DOHMH,Illegal Animal Kept as Pet,Iguana,11,0.0,5,residential location_type,Residence (11),2,2,0,2,2,1,2
+DOHMH,Food Establishment,Food Spoiled,10,0.0,0,residential location_type,1-2 Family Dwelling (8); 1-2 Family Mixed Use Building (2),10,0,0,0,0,0,0
+DOHMH,Standing Water,Fountain - Under 5 Gallons,10,0.0,5,residential location_type,1-2 Family Dwelling (8); 3+ Family Apartment Building (2),0,5,0,0,1,0,4
+DOHMH,Illegal Animal Sold,Monkey,8,0.0,7,residential location_type,Residence (8),0,0,0,1,3,3,1
+DOHMH,Mobile Food Vendor,Permit/License/Certificate,7,0.0,0,residential location_type,1-2 Family Dwelling (6); 1-2 Family Mixed Use Building (1),7,0,0,0,0,0,0
+DOHMH,Food Establishment,Food Contains Foreign Object,7,0.0,0,residential location_type,1-2 Family Dwelling (7),7,0,0,0,0,0,0
+DOHMH,Food Establishment,Food Preparation Location,7,0.0,0,residential location_type,1-2 Family Dwelling (5); Apartment (1); 1-2 Family Mixed Use Building (1),7,0,0,0,0,0,0
+DOHMH,Smoking or Vaping,Workplace Policy Not Provided or Inadequate,7,0.0,7,residential location_type,Residential Building (7),0,0,0,0,0,3,4
+DOHMH,Food Establishment,Bare Hands in Contact w/ Food,6,0.0,0,residential location_type,1-2 Family Dwelling (6),6,0,0,0,0,0,0
+DOHMH,Food Establishment,Letter Grading,5,0.0,0,residential location_type,1-2 Family Dwelling (5),5,0,0,0,0,0,0
+DOHMH,Mold,Public Complaint - Comm Location,5,0.0,0,residential location_type,1-2 Family Dwelling (5),5,0,0,0,0,0,0
+OSE,NonCompliance with Phased Reopening,Business not in compliance,5,0.0,0,residential location_type,"1-2 Family Dwelling (4); 1-, 2- and 3- Family Home (1)",5,0,0,0,0,0,0
+DOHMH,Beach/Pool/Sauna Complaint,Indoor Pool Over Capacity,5,0.0,0,residential location_type,Residential Building (5),1,4,0,0,0,0,0
+DOHMH,Food Establishment,Toilet Facility,4,0.0,0,residential location_type,1-2 Family Dwelling (4),4,0,0,0,0,0,0
+DOHMH,Food Establishment,Food Protection,4,0.0,0,residential location_type,1-2 Family Dwelling (4),4,0,0,0,0,0,0
+DOHMH,Illegal Animal Sold,Turtle Under 4 inches Long,4,0.0,1,residential location_type,Residence (4),1,1,1,0,1,0,0
+DOHMH,Smoking,Shisha,4,0.0,1,residential location_type,Residential Building (4),0,0,0,3,1,0,0
+DOHMH,Mobile Food Vendor,Food Worker Activity,3,0.0,0,residential location_type,1-2 Family Dwelling (3),3,0,0,0,0,0,0
+DOHMH,Food Establishment,Facility Construction,3,0.0,0,residential location_type,1-2 Family Dwelling (2); 1-2 Family Mixed Use Building (1),3,0,0,0,0,0,0
+DOHMH,Window Guard,Inside Apartment,3,0.0,1,residential location_type,3+ Family Apartment Building (3),0,1,0,1,0,0,1
+DOHMH,Indoor Air Quality,N/A,3,0.0,1,residential location_type,3+ Family Apartment Building (3),0,0,1,1,0,0,1
+DOHMH,Smoking,Flavored Tobacco,3,0.0,2,residential location_type,Residential Building (3),0,0,0,1,2,0,0
+DOHMH,Food Establishment,Pet/Animal,2,0.0,0,residential location_type,1-2 Family Dwelling (1); 3+ Family Mixed Use Building (1),2,0,0,0,0,0,0
+DOHMH,Unsanitary Animal Facility,Animal Odor,2,0.0,0,residential location_type,Residential Building (1); 1-2 Family Dwelling (1),2,0,0,0,0,0,0
+DOHMH,Food Establishment,Dishwashing/Utensils,2,0.0,0,residential location_type,1-2 Family Dwelling (2),2,0,0,0,0,0,0
+DOHMH,Mobile Food Vendor,Food Source/Protection,2,0.0,0,residential location_type,1-2 Family Dwelling (2),2,0,0,0,0,0,0
+DOHMH,Illegal Animal Sold,Ferret,2,0.0,1,residential location_type,Residence (2),0,1,0,0,0,0,1
+DOHMH,Mobile Food Vendor,Equipment,1,0.0,0,residential location_type,1-2 Family Dwelling (1),1,0,0,0,0,0,0
+DOHMH,Cooling Tower,Unsanitary Condition,1,0.0,0,residential location_type,1-2 Family Dwelling (1),1,0,0,0,0,0,0
+DOHMH,Mobile Food Vendor,Smoke/Odor,1,0.0,0,residential location_type,1-2 Family Mixed Use Building (1),1,0,0,0,0,0,0
+DOHMH,Animal Facility - No Permit,N/A,1,0.0,0,residential location_type,3+ Family Apartment Building (1),1,0,0,0,0,0,0
+DOHMH,Mobile Food Vendor,Placement,1,0.0,0,residential location_type,3+ Family Apartment Building (1),1,0,0,0,0,0,0
+DOHMH,Food Establishment,Odor,1,0.0,0,residential location_type,1-2 Family Dwelling (1),1,0,0,0,0,0,0
+DOHMH,Food Establishment,Food Temperature,1,0.0,0,residential location_type,1-2 Family Dwelling (1),1,0,0,0,0,0,0
+DOHMH,Unsanitary Animal Facility,Animal Waste,1,0.0,0,residential location_type,1-2 Family Dwelling (1),1,0,0,0,0,0,0
+DOITT,LinkNYC,WiFi/Internet Not Working/Slow,1,0.0,0,residential location_type,Residential Building (1),1,0,0,0,0,0,0
+OSE,NonCompliance with Phased Reopening,Business not allowed to be open,1,0.0,0,residential location_type,"1-, 2- and 3- Family Home (1)",1,0,0,0,0,0,0
+DOHMH,Mold,N/A,1,0.0,0,residential location_type,3+ Family Apartment Building (1),0,1,0,0,0,0,0
+DOHMH,MOLD,N/A,1,0.0,0,residential location_type,3+ Family Apartment Building (1),0,0,1,0,0,0,0
+OTI,Public Payphone Complaint,Damaged Telephone,1,0.0,0,residential location_type,Residential Building (1),0,0,1,0,0,0,0
+DSNY,Residential Disposal Complaint,Waste Left in Front of Other Residence,1,0.0,0,residential location_type,Residence (1),0,0,0,1,0,0,0
+DOHMH,Smoking or Vaping,Cigarette Vending Machine,1,0.0,1,residential location_type,Residential Building (1),0,0,0,0,1,0,0
+DOHMH,ASBESTOS,N/A,1,0.0,1,residential location_type,3+ Family Apartment Building (1),0,0,0,0,0,1,0
+DOHMH,Indoor Air Quality,Dust from construction,1,0.0,1,residential location_type,3+ Family Apartment Building (1),0,0,0,0,0,1,0
+DOHMH,Trapping Pigeon,N/A,1,0.0,1,residential location_type,3+ Family Apartment Building (1),0,0,0,0,0,0,1
+DSNY,Obstruction,Trash or Recycling,1,0.0,1,residential location_type,1-2 Family Dwelling (1),0,0,0,0,0,0,1

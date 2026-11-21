@@ -1,0 +1,22 @@
+NY Public Health Law (Open Legislation law id PBH, Chapter 45) > Article 13 Nuisances and Sanitation > Title 10 Control of Lead Poisoning > § 1375 Enforcement agencies
+
+Source: https://legislation.nysenate.gov/api/3/laws/PBH/1375 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 1375. Enforcement agencies.  1. The commissioner's designee having
+jurisdiction, county and city commissioners of health and local housing
+code enforcement agencies designated by the commissioner's designee
+having jurisdiction or county or city commissioner of health shall have
+the same authority, powers and duties within their respective
+jurisdictions as has the commissioner under the provisions of this
+title.
+  2. The commissioner or his representative and an official or agency
+specified in subdivision one of this section may request and shall
+receive from all public officers, departments and agencies of the state
+and its political subdivisions such cooperation and assistance as may be
+necessary or proper in the enforcement of the provisions of this title.
+  3. Nothing contained in this title shall be construed to alter or
+abridge any duties and powers now or hereafter existing in the
+commissioner, county boards of health, city and county commissioners of
+health, the New York City department of housing preservation and
+development and the department of health, local boards of health or
+other public agencies or public officials, or any private party.

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 33 in PBS law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PBS",
+    "lawName" : "Public Service",
+    "locationId" : "33",
+    "title" : "Discontinuance of residential utility service to multiple dwellings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "33",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 33. Discontinuance of residential utility service to multiple\\ndwellings. 1. Notwithstanding any other provisions of law, no public\\nutility company or municipality shall discontinue gas, electric or steam\\nservice to an entire multiple dwelling (as defined in the multiple\\ndwelling law or the multiple residence law) located anywhere in this\\nstate for nonpayment of bills rendered for service unless such utility\\nshall have given fifteen days written notice of its intention so to\\ndiscontinue as follows:\\n  (a) Such notice shall be served personally on the owner of the\\npremises affected, or in lieu thereof, to the person, firm, or\\ncorporation to whom or which the last preceding bill has been rendered\\nand from whom or which the utility has received payment therefor, and to\\nthe superintendent or other person in charge of the building or premises\\naffected, if it can be readily ascertained that there is such\\nsuperintendent or other person in charge.\\n  (b) In lieu of personal delivery to the person or persons, firm or\\ncorporation specified in (a) above, such notice may be mailed in a\\npostpaid wrapper to the address of such person or persons, firm or\\ncorporation.\\n  (c) In addition to the notice prescribed by paragraph (a) or (b) of\\nthis subdivision, fifteen days written notice shall be (i) posted in the\\npublic areas of such multiple dwelling, (ii) mailed to the \"Occupant\" of\\neach unit in that multiple dwelling, (iii) mailed to the local health\\nofficer and the director of the social services district for the\\npolitical subdivision in which the multiple dwelling is located, (iv) if\\nthe multiple dwelling is located in a city or a village, mailed to the\\nmayor thereof, or if there be none, to the manager, or, if the multiple\\ndwelling is located in a town, then mailed to the town supervisor, (v)\\nmailed to the county executive of the county in which the multiple\\ndwelling is located, or if there be none, then to the chairman of such\\ncounty's legislative body, and (vi) mailed to the office of the New York\\nstate long term care ombudsman, if the multiple dwelling is a\\nresidential health care facility as defined in subdivision three of\\nsection twenty-eight hundred one of the public health law, an adult care\\nfacility as defined in subdivision twenty-one of section two of the\\nsocial services law, or an assisted living residence as defined in\\nsubdivision one of section forty-six hundred fifty-one of the public\\nhealth law as added by chapter two of the laws of two thousand four.\\nNotice required by subparagraphs (iv) and (v) of this paragraph may be\\nmailed to the persons specified therein or to their respective\\ndesignees. The notice required by this paragraph shall state the\\nintended date of discontinuance of service, the amount due for such\\nservice, and the procedure by which any tenant or public agency may make\\nsuch payment and thereby avoid discontinuance of service.\\n  (d) The written notice required by subparagraphs (iii), (iv), (v) and\\n(vi) of paragraph (c) of this subdivision shall be repeated not more\\nthan four days nor less than two days prior to such discontinuance.\\n  1-a. Whenever a notice of intention to discontinue utility service has\\nbeen made pursuant to the provisions of this section and obligations\\nowed the utility or municipality have been satisfied, the utility or\\nmunicipality shall notify, in the same manner as it gave such notice of\\nintention, the occupant of each unit that the intention to discontinue\\nutility service no longer exists.\\n  2. For the purposes of this section, the department charged with\\nenforcing the multiple dwelling law shall prepare a schedule of all\\nmultiple dwellings within its jurisdiction and shall provide a copy of\\nsuch schedule to any gas, steam or electric corporation or municipality\\nsubject to the provisions of this section. Such schedule shall be\\nrevised semi-annually and a revised copy provided to such corporation.\\nEvery county, and every municipality to which the multiple dwelling law\\ndoes not apply, which county or municipality has compiled or hereafter\\nmay compile a listing of all multiple dwellings within its jurisdiction\\nshall make such listing available without charge to any gas, steam or\\nelectric corporation providing service in such county or municipality.\\n  3. Any gas, electric or steam corporation or municipality which\\nwillfully fails to comply with the provisions of this section shall be\\nliable for a penalty of twenty-five dollars for each occupied unit of\\nthe multiple dwelling for each day during which service is unlawfully\\ndiscontinued; provided, however, that when the only non-compliance with\\nthis section is failure to mail notice to each \"Occupant\" as required by\\nclause (ii) of paragraph (c) of subdivision one above the penalty shall\\nbe twenty-five dollars for each occupied unit of the multiple dwelling\\nto which notice was not mailed for each day during which service is\\nunlawfully discontinued. An action to recover a penalty under this\\nsection may be brought by the counsel to the commission in any court of\\ncompetent jurisdiction in this state in the name of the people of the\\nstate of New York. Any moneys recovered in such action shall be paid to\\nthe state treasury to the credit of the general fund.\\n  4. Any person who willfully interferes with the posting of the notice\\nspecified in clause (i) of paragraph (c) of subdivision one above by any\\ngas, steam or electric corporation or municipality, willfully defaces or\\nmutilates any such notice, or willfully removes the same from the place\\nwhere it is posted by such company prior to the date specified therein\\nfor the discontinuance of service shall be guilty of a violation and,\\nupon conviction, shall be punished by a fine not exceeding twenty-five\\ndollars.\\n  5. The commission shall maintain rules and regulations for the payment\\nby tenants of utility bills for gas, electric or steam service in a\\nmultiple dwelling to which this section applies where the owner of any\\nsuch multiple dwelling, or the person, firm or corporation to whom or\\nwhich the last preceding bill has been rendered or from whom or which\\nthe utility or municipality has received payment therefor, has failed to\\npay such utility bills. Such rules and regulations shall (a) provide\\nthat utility service may not be discontinued to any such multiple\\ndwelling as long as the tenants continue to make timely payments in\\naccordance with established procedures; (b) include designation of an\\noffice to advise tenants of the rights and procedures available pursuant\\nto such rules and regulations; (c) assure that tenants shall not be\\nliable for bills more than two months in arrears; and (d) require the\\ncommission upon petition of twenty-five percent of the tenants of such\\nmultiple dwelling to meet with representatives of such tenants and the\\nowner, person, firm or corporation to whom or which the last preceding\\nbill has been rendered or from whom or which the utility has received\\npayment therefor.\\n",
+    "parentLocationIds" : [ "-CH48", "A2" ],
+    "parents" : [ {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "-CH48",
+      "title" : "Public Service",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-11-06", "2018-08-31", "2021-11-12", "2022-08-19", "2023-09-22", "2024-06-21", "2025-12-26" ],
+      "docLevelId" : "48",
+      "activeDate" : "2025-12-26"
+    }, {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "A2",
+      "title" : "Residential Gas, Electric and Steam Utility Service",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2020-04-17", "2021-11-05", "2021-11-12", "2021-11-19", "2023-12-29", "2024-02-09" ],
+      "docLevelId" : "2",
+      "activeDate" : "2024-02-09"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "32",
+      "title" : "Termination of service",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2020-06-19", "2021-05-14", "2023-01-20" ],
+      "docLevelId" : "32",
+      "activeDate" : "2023-01-20"
+    },
+    "nextSibling" : {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "34",
+      "title" : "Discontinuance of utility service in two family dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "34",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

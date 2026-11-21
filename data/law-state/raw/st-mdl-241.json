@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 241 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "241",
+    "title" : "Partitions; fire-stopping",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "241",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 241. Partitions; fire-stopping. 1. In tenements erected after April\\neighteenth, nineteen hundred twelve, wood stud apartment partitions\\nwhich are directly over each other shall run through the wood floor\\nbeams and rest upon the plate of the partition below. In fireproof\\ntenements erected after such date all partitions shall rest directly\\nupon the fireproof floor construction and extend to the fireproof beam\\nfilling above.  Apartment partitions within the meaning of this section\\nare partitions crossing the floor beams at any angle and separating one\\napartment from another or any part of an apartment from any public part\\nof the dwelling.\\n  2. In tenements erected after April eighteenth, nineteen hundred\\ntwelve, apartment studding shall be filled in solidly between the\\nuprights to the depth of the floor beams with incombustible materials.\\n  3. In non-fireproof tenements erected after April twelfth, nineteen\\nhundred one, in every wall where wood furring is used, every course of\\nmasonry from the under side to the top of any floor beams shall project\\na distance of two inches or more beyond each face of the wall that is\\nnot on the outside of the dwelling, so as to provide an effective fire\\nstop; and whenever floor beams run parallel to a wall and wood furring\\nis used, every such beam shall always be kept two inches away from the\\nwall, and the space between the beams and the wall shall be built up\\nsolidly with brickwork from the underside to the top of the floor beams\\nso as to form an effective fire stop.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "240",
+      "title" : "First tier of beams",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "240",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "242",
+      "title" : "Cellar and basement stairs in non-fireproof tenements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "242",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

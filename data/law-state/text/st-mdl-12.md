@@ -1,0 +1,18 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 2 Miscellaneous Application Provisions > § 12 Prohibited uses
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/12 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 12. Prohibited uses. 1. It shall be unlawful to use any multiple
+dwelling or any part of the lot or premises thereof for the purpose of
+prostitution or assignation of any description.
+  2. It shall be unlawful to keep any horse, cow, calf, swine, rabbit,
+sheep, goat, chicken or duck, or any pigeon except Antwerp or homing
+pigeons, in or on any multiple dwelling or on the lot or premises
+thereof unless permitted by and in accordance with local law or
+regulation.
+  3. It shall be unlawful to use any multiple dwelling or any part of
+the lot or premises thereof for the keeping, storing or handling of any
+combustible article or any article dangerous or detrimental to life or
+health, unless a permit is obtained for such use in conformity with
+provisions prescribed by local law, and where such local law does not
+exist, in conformity with provisions prescribed by the fire department.

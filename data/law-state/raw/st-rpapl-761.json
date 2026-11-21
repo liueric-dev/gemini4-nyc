@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 761 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "761",
+    "title" : "Redemption by lessee",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "761",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 761. Redemption by lessee.  Where the special proceeding is founded\\nupon an allegation that a lessee holds over after a default in the\\npayment of rent, and the unexpired term of the lease under which the\\npremises are held exceeds five years at the time when the warrant is\\nissued the lessee, his executor, administrator or assignee, at any time\\nwithin one year after the execution of the warrant, unless by the terms\\nof the lease such lessee shall have waived his right to redeem, or such\\nlessee, executor, administrator or assignee shall have subsequently\\nwaived the right to redeem by a written instrument filed and recorded in\\nthe office in which the lease is recorded, or if not so recorded, in the\\noffice in which deeds are required to be recorded of the county in which\\nthe leased premises are located, may pay or tender to the petitioner,\\nhis heir, executor, administrator or assignee, or if, within five days\\nbefore the expiration of the year he cannot be found with reasonable\\ndiligence within the city or town wherein the property or a portion\\nthereof is situated, then to the court which issued the warrant, all\\nrent in arrears at the time of the payment or tender with interest\\nthereupon and the costs and charges incurred by the petitioner.\\nThereupon the person making the payment or tender shall be entitled to\\nthe possession of the demised premises under the lease and may hold and\\nenjoy the same according to the terms of the original demise, except as\\notherwise prescribed in section 765.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "757",
+      "title" : "Eviction as the result of foreclosure",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28" ],
+      "docLevelId" : "757",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "763",
+      "title" : "Redemption by creditor of lessee",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "763",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

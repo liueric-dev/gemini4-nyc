@@ -1,0 +1,14 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 10 Prostitution > § 354 Rules of evidence
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/354 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 354. Rules of evidence. In any action to establish a lien or in any
+action or proceeding for a fine, penalty or other punishment for a
+violation of any of the provisions of this, article, proof of the
+ill-repute or the ill-fame of the premises which are the subject-matter
+of the action or proceeding or of the inmates thereof, or of those
+resorting thereto, shall constitute presumptive evidence that such use
+was with the permission of the owner, agent or lessee. The certificate
+of the department that the building was intended, arranged or designed
+to be occupied as a dwelling shall be presumptive evidence of the fact
+that it is so occupied.

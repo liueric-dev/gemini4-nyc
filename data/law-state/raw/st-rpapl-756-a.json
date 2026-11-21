@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 756-A in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "756-A",
+    "title" : "Stay of action or proceeding when a party's claim to title is in dispute",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-11-17", "2023-12-15" ],
+    "docLevelId" : "756-A",
+    "activeDate" : "2023-12-15",
+    "text" : "  § 756-a. Stay of action or proceeding when a party's claim to title is\\nin dispute. 1. (a) A federal, state or local government agency may move\\nfor a stay of any proceeding to recover possession of or quiet title to\\nreal property relating to a residential dwelling unit or property, based\\non a pending good faith investigation into the theft or fraud in the\\ntitle to, or the financing of, the premises that is the subject of any\\nproceeding. Upon the agency's showing of the pendency of a good faith\\ninvestigation, the court shall issue a stay of the proceeding, including\\nstaying execution of a warrant of eviction or enforcement of a judgment\\nso long as the investigation is ongoing.\\n  (b) Every six months, the court shall schedule a status conference\\nwith the government agency and any other parties to the action to review\\nany stay and to determine if the investigation is still continuing in\\ngood faith and shall continue the stay of the proceeding until the\\ngovernment investigation is closed. If it should deem necessary, a court\\nmay review any supporting documents filed by the government agency in\\ncamera and to be filed under seal if deemed necessary by the government\\nagency.\\n  2. The court shall stay all proceedings to recover possession of or\\nquiet title to real property relating to a residential dwelling unit or\\nproperty, where a charging instrument is filed against a party to such\\nproceeding for deed theft, larceny, offering a false instrument for\\nfiling, criminal possession of stolen property or any other law\\nasserting theft or fraud in obtaining title to property and said\\ncharging instrument relates to the premises that are the subject of such\\nproceeding. The stay shall remain in effect until resolution of such\\ncriminal action.\\n  3. The court shall stay all proceedings to recover possession of or\\nquiet title to real property relating to a residential dwelling unit or\\nproperty, where a federal, state or local government agency has\\ncommenced a civil action or proceeding relating to the theft or fraud in\\nthe title to, or the financing of, the premises that are the subject of\\nsuch proceeding.\\n  4. The court shall stay all proceedings under section seven hundred\\neleven or seven hundred thirteen of this article for ninety days to\\nallow a party to file a complaint in the appropriate forum when the\\ncourt makes a determination that there is a bona fide dispute between\\nparties purporting to own the property that is the subject of the\\nproceeding.\\n  (a) A rebuttable presumption that a bona fide dispute to title exists\\nshall be created when the party disputing petitioner's title, owns or\\nowned the property that is the subject of the court proceeding during\\nthe last three years, or is a person interested in the property, as\\ndefined by section one hundred three of the surrogate's court procedure\\nact.\\n  (b) A party may seek an additional stay of the proceeding beyond the\\ninitial ninety day stay by the court if they were unable to file a\\ncomplaint or seek a stay from another forum. In extending the stay, the\\ncourt shall consider, without limitation, the totality of the\\ncircumstances including steps the parties have taken to resolve the\\ndispute, the harm to the parties of a further stay, and the ability of\\nthe parties to advocate for themselves or retain counsel.\\n  (c) This section shall not apply to any proceeding commenced pursuant\\nto subdivision ten of section seven hundred thirteen of this article.\\n  5. Nothing in this section shall diminish the court's own discretion\\nto further stay a proceeding in the interests of justice.\\n  6. Nothing in this section shall limit a party from seeking relief,\\nincluding a stay of a proceeding under this article, in another court.\\n  7. For purposes of this section, a proceeding to recover possession of\\nor quiet title to real property shall include any proceeding under\\nsection seven hundred eleven or seven hundred thirteen of this article,\\nan ejectment action or a writ of assistance pursuant to section two\\nhundred twenty-one of this chapter, a foreclosure action, an action to\\nenforce a mortgage note, or any other action affecting title to or\\nencumbrance upon real property, or any other judicial or administrative\\nproceeding to recover possession of or quiet title to real property.\\n  8. For purposes of this section, a party shall include:\\n  (a) a corporation, limited liability company, partnership or other\\nentity where a charging instrument has been filed against an individual\\nwho has a financial or controlling interest in the entity that holds\\ntitle to the property; or\\n  (b) where a charging instrument has been filed against a seller of the\\nproperty, including an individual or corporation, limited liability\\ncompany, partnership or other entity, or where a charging instrument has\\nbeen filed against an individual who has a financial or controlling\\ninterest in the entity that sold the property.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "756",
+      "title" : "Stay of summary proceedings or actions for rent under certain conditions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "756",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "757",
+      "title" : "Eviction as the result of foreclosure",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28" ],
+      "docLevelId" : "757",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

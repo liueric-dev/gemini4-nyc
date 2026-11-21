@@ -1,0 +1,1815 @@
+{
+  "id" : "pkdm-hqz6",
+  "name" : "DOB NOW: Certificate of Occupancy",
+  "assetType" : "dataset",
+  "attribution" : "Department of Buildings (DOB)",
+  "attributionLink" : "https://a810-dobnow.nyc.gov/publish/Index.html#!/",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1652808255,
+  "description" : "This data set includes certificates of occupancy issued through the New York City Department of Buildings' DOB NOW: Certificate of Occupancy module. This module was released in March of 2021, anbd from that point onward this data set should be utilized instead of the \"DOB Certificate of Occupancy\" data set. The data is collected because the Department of Buildings tracks Certificates of Occupancies issued. This data include items such as job filing name, job filing label, BIN, Address, and Certificate of Occupancy status, sequence, label, and issuance date.\t\t\t\n<br>\n\"A Certificate of Occupancy (CO) states a legal use and/or type of permitted occupancy of a building. New buildings must have a CO, and existing buildings must have a current or amended CO when there is a change in use, egress or type of occupancy. No one may legally occupy a building until the Department has issued a CO or Temporary Certificate of Occupancy (TCO).\n\nA CO confirms that the completed work complies with all applicable laws, all paperwork has been completed, all fees owed to the Department have been paid, all relevant violations have been resolved, and all necessary approvals have been received from other City Agencies. The Department issues a final CO when the completed work matches the submitted plans for new buildings or major alterations.\"",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 14197,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41879921,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1768578110,
+  "publicationGroup" : 18699777,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1795208632,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 20237280,
+  "totalTimesRated" : 0,
+  "viewCount" : 29838,
+  "viewLastModified" : 1795208590,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1670011988,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 7308018,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1670011880,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1670011988,
+      "failureCount" : 0,
+      "startedAt" : 1670011988,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 624829164,
+    "name" : "JOB FILING NAME",
+    "dataTypeName" : "text",
+    "description" : "The filing sequence indicator",
+    "fieldName" : "job_filing_name",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186263,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "X08055447",
+      "null" : "0",
+      "top" : [ {
+        "item" : "321197058",
+        "count" : "31"
+      }, {
+        "item" : "321188852",
+        "count" : "31"
+      }, {
+        "item" : "321192437",
+        "count" : "30"
+      }, {
+        "item" : "121191414",
+        "count" : "30"
+      }, {
+        "item" : "121204295",
+        "count" : "30"
+      }, {
+        "item" : "320591944",
+        "count" : "30"
+      }, {
+        "item" : "321188415",
+        "count" : "29"
+      }, {
+        "item" : "321189593",
+        "count" : "29"
+      }, {
+        "item" : "321027198",
+        "count" : "29"
+      }, {
+        "item" : "320912394",
+        "count" : "29"
+      }, {
+        "item" : "320909059",
+        "count" : "29"
+      }, {
+        "item" : "321193285",
+        "count" : "28"
+      }, {
+        "item" : "320626747",
+        "count" : "28"
+      }, {
+        "item" : "320592328",
+        "count" : "28"
+      }, {
+        "item" : "420843948",
+        "count" : "28"
+      }, {
+        "item" : "320251801",
+        "count" : "28"
+      }, {
+        "item" : "301150983",
+        "count" : "27"
+      }, {
+        "item" : "121332968",
+        "count" : "27"
+      }, {
+        "item" : "320515411",
+        "count" : "27"
+      }, {
+        "item" : "420655954",
+        "count" : "27"
+      } ],
+      "smallest" : "100034142",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829165,
+    "name" : "JOB TYPE",
+    "dataTypeName" : "text",
+    "description" : "Overall job type for the application",
+    "fieldName" : "job_type",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186243,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "NEW BUILDING",
+      "null" : "0",
+      "top" : [ {
+        "item" : "ALTERATION TYPE 1",
+        "count" : "38603"
+      }, {
+        "item" : "NEW BUILDING",
+        "count" : "28850"
+      }, {
+        "item" : "Alteration CO",
+        "count" : "9804"
+      }, {
+        "item" : "New Building",
+        "count" : "5866"
+      }, {
+        "item" : "CO - New Building with Existing Elements to Remain",
+        "count" : "1354"
+      } ],
+      "smallest" : "Alteration CO",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829166,
+    "name" : "BIN",
+    "dataTypeName" : "text",
+    "description" : "Building Identification Number assigned by Department of City Planning",
+    "fieldName" : "bin",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186264,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "5863442",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3335884",
+        "count" : "66"
+      }, {
+        "item" : "1034224",
+        "count" : "59"
+      }, {
+        "item" : "1022667",
+        "count" : "50"
+      }, {
+        "item" : "3000088",
+        "count" : "48"
+      }, {
+        "item" : "3001937",
+        "count" : "47"
+      }, {
+        "item" : "3000171",
+        "count" : "40"
+      }, {
+        "item" : "1017595",
+        "count" : "39"
+      }, {
+        "item" : "1022573",
+        "count" : "39"
+      }, {
+        "item" : "1083860",
+        "count" : "38"
+      }, {
+        "item" : "1016880",
+        "count" : "38"
+      }, {
+        "item" : "1000813",
+        "count" : "37"
+      }, {
+        "item" : "1009216",
+        "count" : "37"
+      }, {
+        "item" : "1040753",
+        "count" : "35"
+      }, {
+        "item" : "1001026",
+        "count" : "35"
+      }, {
+        "item" : "3348849",
+        "count" : "35"
+      }, {
+        "item" : "1080824",
+        "count" : "35"
+      }, {
+        "item" : "1091045",
+        "count" : "34"
+      }, {
+        "item" : "1045270",
+        "count" : "34"
+      }, {
+        "item" : "1034196",
+        "count" : "33"
+      }, {
+        "item" : "1008952",
+        "count" : "33"
+      } ],
+      "smallest" : "1000003",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829167,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "A name to indicate the NYC borough where the proposed work will take place",
+    "fieldName" : "borough",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186244,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "Staten Island",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Manhattan",
+        "count" : "31720"
+      }, {
+        "item" : "Brooklyn",
+        "count" : "24090"
+      }, {
+        "item" : "Queens",
+        "count" : "15880"
+      }, {
+        "item" : "Bronx",
+        "count" : "8496"
+      }, {
+        "item" : "Staten Island",
+        "count" : "4291"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829168,
+    "name" : "HOUSE NO",
+    "dataTypeName" : "text",
+    "description" : "The house number for the building owner's address.",
+    "fieldName" : "house_no",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186237,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "PIER 59",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "691"
+      }, {
+        "item" : "200",
+        "count" : "533"
+      }, {
+        "item" : "20",
+        "count" : "426"
+      }, {
+        "item" : "11",
+        "count" : "389"
+      }, {
+        "item" : "100",
+        "count" : "388"
+      }, {
+        "item" : "50",
+        "count" : "375"
+      }, {
+        "item" : "101",
+        "count" : "355"
+      }, {
+        "item" : "250",
+        "count" : "339"
+      }, {
+        "item" : "55",
+        "count" : "338"
+      }, {
+        "item" : "60",
+        "count" : "326"
+      }, {
+        "item" : "10",
+        "count" : "323"
+      }, {
+        "item" : "150",
+        "count" : "309"
+      }, {
+        "item" : "300",
+        "count" : "303"
+      }, {
+        "item" : "30",
+        "count" : "295"
+      }, {
+        "item" : "40",
+        "count" : "292"
+      }, {
+        "item" : "25",
+        "count" : "290"
+      }, {
+        "item" : "111",
+        "count" : "276"
+      }, {
+        "item" : "2",
+        "count" : "271"
+      }, {
+        "item" : "160",
+        "count" : "261"
+      }, {
+        "item" : "350",
+        "count" : "260"
+      } ],
+      "smallest" : "0789",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829169,
+    "name" : "STREET NAME",
+    "dataTypeName" : "text",
+    "description" : "The street name for the building owner's address.",
+    "fieldName" : "street_name",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186245,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "ZION STREET",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "2174"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "752"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "561"
+      }, {
+        "item" : "5TH AVENUE",
+        "count" : "431"
+      }, {
+        "item" : "FIFTH AVENUE",
+        "count" : "396"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "379"
+      }, {
+        "item" : "AVENUE OF THE AMERICAS",
+        "count" : "375"
+      }, {
+        "item" : "THIRD AVENUE",
+        "count" : "339"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "327"
+      }, {
+        "item" : "FLATBUSH AVENUE",
+        "count" : "320"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "319"
+      }, {
+        "item" : "HUDSON STREET",
+        "count" : "305"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "298"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "284"
+      }, {
+        "item" : "PARK AVENUE SOUTH",
+        "count" : "262"
+      }, {
+        "item" : "QUEENS BOULEVARD",
+        "count" : "254"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "251"
+      }, {
+        "item" : "GREENWICH STREET",
+        "count" : "244"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "242"
+      }, {
+        "item" : "WEST END AVENUE",
+        "count" : "238"
+      } ],
+      "smallest" : "100 AVENUE",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829170,
+    "name" : "BLOCK",
+    "dataTypeName" : "text",
+    "description" : "Tax Block assigned to the location of the proposed work by the Department of Finance.",
+    "fieldName" : "block",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186241,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "9999",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1171",
+        "count" : "279"
+      }, {
+        "item" : "16",
+        "count" : "240"
+      }, {
+        "item" : "4452",
+        "count" : "227"
+      }, {
+        "item" : "972",
+        "count" : "181"
+      }, {
+        "item" : "54",
+        "count" : "149"
+      }, {
+        "item" : "729",
+        "count" : "148"
+      }, {
+        "item" : "1290",
+        "count" : "147"
+      }, {
+        "item" : "2472",
+        "count" : "139"
+      }, {
+        "item" : "602",
+        "count" : "134"
+      }, {
+        "item" : "149",
+        "count" : "134"
+      }, {
+        "item" : "778",
+        "count" : "130"
+      }, {
+        "item" : "994",
+        "count" : "129"
+      }, {
+        "item" : "999",
+        "count" : "125"
+      }, {
+        "item" : "1374",
+        "count" : "121"
+      }, {
+        "item" : "5141",
+        "count" : "119"
+      }, {
+        "item" : "825",
+        "count" : "118"
+      }, {
+        "item" : "702",
+        "count" : "117"
+      }, {
+        "item" : "4586",
+        "count" : "116"
+      }, {
+        "item" : "545",
+        "count" : "113"
+      }, {
+        "item" : "1222",
+        "count" : "112"
+      } ],
+      "smallest" : "1",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829171,
+    "name" : "LOT",
+    "dataTypeName" : "text",
+    "description" : "Tax Lot assigned to the location of the proposed work by the Department of Finance.",
+    "fieldName" : "lot",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186242,
+    "cachedContents" : {
+      "non_null" : "84445",
+      "largest" : "999",
+      "null" : "32",
+      "top" : [ {
+        "item" : "1",
+        "count" : "8468"
+      }, {
+        "item" : "7501",
+        "count" : "6887"
+      }, {
+        "item" : "7502",
+        "count" : "3400"
+      }, {
+        "item" : "7503",
+        "count" : "2111"
+      }, {
+        "item" : "12",
+        "count" : "1227"
+      }, {
+        "item" : "5",
+        "count" : "1218"
+      }, {
+        "item" : "7504",
+        "count" : "1217"
+      }, {
+        "item" : "10",
+        "count" : "1205"
+      }, {
+        "item" : "29",
+        "count" : "1195"
+      }, {
+        "item" : "21",
+        "count" : "1150"
+      }, {
+        "item" : "7",
+        "count" : "1107"
+      }, {
+        "item" : "6",
+        "count" : "1062"
+      }, {
+        "item" : "24",
+        "count" : "1040"
+      }, {
+        "item" : "16",
+        "count" : "1032"
+      }, {
+        "item" : "20",
+        "count" : "1024"
+      }, {
+        "item" : "14",
+        "count" : "1020"
+      }, {
+        "item" : "17",
+        "count" : "1007"
+      }, {
+        "item" : "8",
+        "count" : "998"
+      }, {
+        "item" : "9",
+        "count" : "996"
+      }, {
+        "item" : "15",
+        "count" : "974"
+      } ],
+      "smallest" : "0",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829172,
+    "name" : "ZIP CODE",
+    "dataTypeName" : "text",
+    "description" : "The Zip Code for the filing representative's address.",
+    "fieldName" : "zip_code",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186238,
+    "cachedContents" : {
+      "non_null" : "84473",
+      "largest" : "11697",
+      "null" : "4",
+      "top" : [ {
+        "item" : "11201",
+        "count" : "2495"
+      }, {
+        "item" : "11101",
+        "count" : "2099"
+      }, {
+        "item" : "10013",
+        "count" : "2068"
+      }, {
+        "item" : "10001",
+        "count" : "1848"
+      }, {
+        "item" : "10019",
+        "count" : "1741"
+      }, {
+        "item" : "10036",
+        "count" : "1628"
+      }, {
+        "item" : "10011",
+        "count" : "1556"
+      }, {
+        "item" : "10022",
+        "count" : "1540"
+      }, {
+        "item" : "10003",
+        "count" : "1398"
+      }, {
+        "item" : "11211",
+        "count" : "1230"
+      }, {
+        "item" : "10016",
+        "count" : "1226"
+      }, {
+        "item" : "10014",
+        "count" : "1219"
+      }, {
+        "item" : "10010",
+        "count" : "1211"
+      }, {
+        "item" : "11217",
+        "count" : "1206"
+      }, {
+        "item" : "11215",
+        "count" : "1166"
+      }, {
+        "item" : "11222",
+        "count" : "1107"
+      }, {
+        "item" : "11238",
+        "count" : "1022"
+      }, {
+        "item" : "10025",
+        "count" : "1019"
+      }, {
+        "item" : "10018",
+        "count" : "1008"
+      }, {
+        "item" : "11249",
+        "count" : "950"
+      } ],
+      "smallest" : "10000",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829173,
+    "name" : "SUBMITTED DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the Certificate of Occupancy request is submitted to the Department of Buildings",
+    "fieldName" : "submitted_date",
+    "position" : 10,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 142186247,
+    "cachedContents" : {
+      "non_null" : "84476",
+      "largest" : "2026-11-19T00:00:00.000",
+      "null" : "1",
+      "top" : [ {
+        "item" : "2024-10-07T00:00:00.000",
+        "count" : "109"
+      }, {
+        "item" : "2025-12-01T00:00:00.000",
+        "count" : "101"
+      }, {
+        "item" : "2023-02-06T00:00:00.000",
+        "count" : "98"
+      }, {
+        "item" : "2025-12-08T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2021-12-08T00:00:00.000",
+        "count" : "97"
+      }, {
+        "item" : "2025-07-07T00:00:00.000",
+        "count" : "95"
+      }, {
+        "item" : "2023-04-04T00:00:00.000",
+        "count" : "95"
+      }, {
+        "item" : "2024-04-16T00:00:00.000",
+        "count" : "94"
+      }, {
+        "item" : "2025-07-21T00:00:00.000",
+        "count" : "94"
+      }, {
+        "item" : "2025-09-29T00:00:00.000",
+        "count" : "94"
+      }, {
+        "item" : "2024-11-18T00:00:00.000",
+        "count" : "93"
+      }, {
+        "item" : "2026-06-01T00:00:00.000",
+        "count" : "93"
+      }, {
+        "item" : "2025-12-15T00:00:00.000",
+        "count" : "93"
+      }, {
+        "item" : "2025-05-28T00:00:00.000",
+        "count" : "92"
+      }, {
+        "item" : "2024-03-07T00:00:00.000",
+        "count" : "92"
+      }, {
+        "item" : "2022-09-13T00:00:00.000",
+        "count" : "92"
+      }, {
+        "item" : "2023-09-19T00:00:00.000",
+        "count" : "91"
+      }, {
+        "item" : "2026-05-04T00:00:00.000",
+        "count" : "91"
+      }, {
+        "item" : "2022-09-06T00:00:00.000",
+        "count" : "91"
+      }, {
+        "item" : "2021-05-25T00:00:00.000",
+        "count" : "90"
+      } ],
+      "smallest" : "2021-03-03T00:00:00.000",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 624829174,
+    "name" : "C OF O STATUS",
+    "dataTypeName" : "text",
+    "description" : "The status of the Certificate of Occupancy",
+    "fieldName" : "c_of_o_status",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186248,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "CO Issued",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CO Issued",
+        "count" : "84477"
+      } ],
+      "smallest" : "CO Issued",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829175,
+    "name" : "C OF O SEQUENCE #",
+    "dataTypeName" : "number",
+    "description" : "The nominal ordering of Certificate of Occupancy requests in a series",
+    "fieldName" : "c_of_o_sequence",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142186249,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "104335",
+      "null" : "0",
+      "top" : [ {
+        "item" : "53817",
+        "count" : "2"
+      }, {
+        "item" : "100573",
+        "count" : "2"
+      }, {
+        "item" : "64835",
+        "count" : "2"
+      }, {
+        "item" : "91625",
+        "count" : "2"
+      }, {
+        "item" : "92148",
+        "count" : "2"
+      }, {
+        "item" : "58050",
+        "count" : "2"
+      }, {
+        "item" : "91215",
+        "count" : "2"
+      }, {
+        "item" : "18592",
+        "count" : "2"
+      }, {
+        "item" : "97626",
+        "count" : "2"
+      }, {
+        "item" : "55565",
+        "count" : "2"
+      }, {
+        "item" : "97766",
+        "count" : "2"
+      }, {
+        "item" : "16833",
+        "count" : "2"
+      }, {
+        "item" : "88096",
+        "count" : "2"
+      }, {
+        "item" : "92600",
+        "count" : "2"
+      }, {
+        "item" : "97702",
+        "count" : "2"
+      }, {
+        "item" : "85358",
+        "count" : "2"
+      }, {
+        "item" : "53598",
+        "count" : "2"
+      }, {
+        "item" : "91425",
+        "count" : "2"
+      }, {
+        "item" : "23896",
+        "count" : "2"
+      }, {
+        "item" : "85241",
+        "count" : "1"
+      } ],
+      "smallest" : "13",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829176,
+    "name" : "C OF O FILING TYPE",
+    "dataTypeName" : "text",
+    "description" : "The type of Certificate of Occupancy requested",
+    "fieldName" : "c_of_o_filing_type",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186250,
+    "cachedContents" : {
+      "non_null" : "84453",
+      "largest" : "Renewal Without Change",
+      "null" : "24",
+      "top" : [ {
+        "item" : "Renewal Without Change",
+        "count" : "48967"
+      }, {
+        "item" : "Final",
+        "count" : "19481"
+      }, {
+        "item" : "Initial",
+        "count" : "9166"
+      }, {
+        "item" : "Renewal With Change",
+        "count" : "6839"
+      } ],
+      "smallest" : "Final",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829177,
+    "name" : "COMMUNITY BOARD",
+    "dataTypeName" : "number",
+    "description" : "NYC Community Board",
+    "fieldName" : "community_board",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142186251,
+    "cachedContents" : {
+      "non_null" : "84457",
+      "largest" : "7502",
+      "null" : "20",
+      "top" : [ {
+        "item" : "105",
+        "count" : "7669"
+      }, {
+        "item" : "301",
+        "count" : "3983"
+      }, {
+        "item" : "302",
+        "count" : "3876"
+      }, {
+        "item" : "101",
+        "count" : "3650"
+      }, {
+        "item" : "102",
+        "count" : "3617"
+      }, {
+        "item" : "104",
+        "count" : "3451"
+      }, {
+        "item" : "108",
+        "count" : "3101"
+      }, {
+        "item" : "107",
+        "count" : "2789"
+      }, {
+        "item" : "407",
+        "count" : "2296"
+      }, {
+        "item" : "106",
+        "count" : "2272"
+      }, {
+        "item" : "306",
+        "count" : "2264"
+      }, {
+        "item" : "401",
+        "count" : "2145"
+      }, {
+        "item" : "402",
+        "count" : "2008"
+      }, {
+        "item" : "103",
+        "count" : "1777"
+      }, {
+        "item" : "303",
+        "count" : "1765"
+      }, {
+        "item" : "412",
+        "count" : "1710"
+      }, {
+        "item" : "503",
+        "count" : "1692"
+      }, {
+        "item" : "305",
+        "count" : "1416"
+      }, {
+        "item" : "502",
+        "count" : "1334"
+      }, {
+        "item" : "312",
+        "count" : "1298"
+      } ],
+      "smallest" : "1",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829178,
+    "name" : "C OF O ISSUANCE DATE",
+    "dataTypeName" : "text",
+    "description" : "The date the Certificate of Occupancy is issued",
+    "fieldName" : "c_of_o_issuance_date",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186252,
+    "cachedContents" : {
+      "non_null" : "84476",
+      "largest" : "12/31/25  9:58:31 AM",
+      "null" : "1",
+      "top" : [ {
+        "item" : "11/13/23  4:03:11 PM",
+        "count" : "2"
+      }, {
+        "item" : "03/24/25 10:10:06 AM",
+        "count" : "2"
+      }, {
+        "item" : "07/24/26  2:16:06 PM",
+        "count" : "2"
+      }, {
+        "item" : "05/17/24  2:52:17 PM",
+        "count" : "2"
+      }, {
+        "item" : "03/23/22 12:37:03 PM",
+        "count" : "2"
+      }, {
+        "item" : "09/20/24 12:48:31 PM",
+        "count" : "2"
+      }, {
+        "item" : "04/27/22  4:14:34 PM",
+        "count" : "2"
+      }, {
+        "item" : "04/13/26  3:52:03 PM",
+        "count" : "2"
+      }, {
+        "item" : "09/27/24 10:36:21 AM",
+        "count" : "2"
+      }, {
+        "item" : "03/24/26 11:11:28 AM",
+        "count" : "2"
+      }, {
+        "item" : "07/03/24  9:25:30 AM",
+        "count" : "2"
+      }, {
+        "item" : "11/02/22 11:06:57 AM",
+        "count" : "2"
+      }, {
+        "item" : "07/01/26 10:49:40 AM",
+        "count" : "2"
+      }, {
+        "item" : "11/02/23  1:26:40 PM",
+        "count" : "2"
+      }, {
+        "item" : "10/20/21  3:50:05 PM",
+        "count" : "2"
+      }, {
+        "item" : "03/08/24  1:43:40 PM",
+        "count" : "2"
+      }, {
+        "item" : "04/03/24 11:04:09 AM",
+        "count" : "2"
+      }, {
+        "item" : "01/12/26  3:19:36 PM",
+        "count" : "2"
+      }, {
+        "item" : "01/10/23 10:17:39 AM",
+        "count" : "2"
+      }, {
+        "item" : "03/23/26 10:30:20 AM",
+        "count" : "2"
+      } ],
+      "smallest" : "01/02/24 10:04:08 AM",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829179,
+    "name" : "APPLICATION NUMBER",
+    "dataTypeName" : "text",
+    "description" : "The Certificate of Occupancy number",
+    "fieldName" : "application_number",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186253,
+    "cachedContents" : {
+      "non_null" : "84477",
+      "largest" : "CO-000104335",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CO-000055565",
+        "count" : "2"
+      }, {
+        "item" : "CO-000064835",
+        "count" : "2"
+      }, {
+        "item" : "CO-000100573",
+        "count" : "2"
+      }, {
+        "item" : "CO-000097766",
+        "count" : "2"
+      }, {
+        "item" : "CO-000097702",
+        "count" : "2"
+      }, {
+        "item" : "CO-000088096",
+        "count" : "2"
+      }, {
+        "item" : "CO-000053817",
+        "count" : "2"
+      }, {
+        "item" : "CO-000016833",
+        "count" : "2"
+      }, {
+        "item" : "CO-000058050",
+        "count" : "2"
+      }, {
+        "item" : "CO-000091625",
+        "count" : "2"
+      }, {
+        "item" : "CO-000091215",
+        "count" : "2"
+      }, {
+        "item" : "CO-000091425",
+        "count" : "2"
+      }, {
+        "item" : "CO-000023896",
+        "count" : "2"
+      }, {
+        "item" : "CO-000053598",
+        "count" : "2"
+      }, {
+        "item" : "CO-000092148",
+        "count" : "2"
+      }, {
+        "item" : "CO-000085358",
+        "count" : "2"
+      }, {
+        "item" : "CO-000097626",
+        "count" : "2"
+      }, {
+        "item" : "CO-000092600",
+        "count" : "2"
+      }, {
+        "item" : "CO-000009778",
+        "count" : "1"
+      }, {
+        "item" : "CO-000036177",
+        "count" : "1"
+      } ],
+      "smallest" : "CO-000000013",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829181,
+    "name" : "NUMBER OF DWELLING UNITS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "number_of_dwelling_units",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164644010,
+    "cachedContents" : {
+      "non_null" : "64352",
+      "largest" : "99",
+      "null" : "20125",
+      "top" : [ {
+        "item" : "0",
+        "count" : "7935"
+      }, {
+        "item" : "2",
+        "count" : "7743"
+      }, {
+        "item" : "1",
+        "count" : "5830"
+      }, {
+        "item" : "8",
+        "count" : "2067"
+      }, {
+        "item" : "3",
+        "count" : "2016"
+      }, {
+        "item" : "10",
+        "count" : "1872"
+      }, {
+        "item" : "4",
+        "count" : "1472"
+      }, {
+        "item" : "6",
+        "count" : "1260"
+      }, {
+        "item" : "7",
+        "count" : "990"
+      }, {
+        "item" : "5",
+        "count" : "955"
+      }, {
+        "item" : "9",
+        "count" : "905"
+      }, {
+        "item" : "12",
+        "count" : "504"
+      }, {
+        "item" : "20",
+        "count" : "503"
+      }, {
+        "item" : "14",
+        "count" : "431"
+      }, {
+        "item" : "16",
+        "count" : "426"
+      }, {
+        "item" : "11",
+        "count" : "418"
+      }, {
+        "item" : "13",
+        "count" : "400"
+      }, {
+        "item" : "15",
+        "count" : "388"
+      }, {
+        "item" : "18",
+        "count" : "330"
+      }, {
+        "item" : "22",
+        "count" : "317"
+      } ],
+      "smallest" : "0",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829180,
+    "name" : "C OF O NUMBER",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "c_of_o_number",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 164644011,
+    "cachedContents" : {
+      "non_null" : "84471",
+      "largest" : "5863442-0000003",
+      "null" : "6",
+      "top" : [ {
+        "item" : "4620994-0000006",
+        "count" : "4"
+      }, {
+        "item" : "1091057-0000005",
+        "count" : "3"
+      }, {
+        "item" : "1090280-0000005",
+        "count" : "3"
+      }, {
+        "item" : "3429306-0000003",
+        "count" : "3"
+      }, {
+        "item" : "3430137-0000004",
+        "count" : "3"
+      }, {
+        "item" : "3427354-0000003",
+        "count" : "3"
+      }, {
+        "item" : "1091057-0000004",
+        "count" : "2"
+      }, {
+        "item" : "1035455-0000018",
+        "count" : "2"
+      }, {
+        "item" : "3335162-0000001",
+        "count" : "2"
+      }, {
+        "item" : "1085682-0000012",
+        "count" : "2"
+      }, {
+        "item" : "3327220-0000003",
+        "count" : "2"
+      }, {
+        "item" : "1090562-0000007",
+        "count" : "2"
+      }, {
+        "item" : "1053712-0000003",
+        "count" : "2"
+      }, {
+        "item" : "2833857-0000009",
+        "count" : "2"
+      }, {
+        "item" : "1001026-0000003",
+        "count" : "2"
+      }, {
+        "item" : "1035071-0000020",
+        "count" : "2"
+      }, {
+        "item" : "3429878-0000002",
+        "count" : "2"
+      }, {
+        "item" : "3327220-0000002",
+        "count" : "2"
+      }, {
+        "item" : "3018460-0000002",
+        "count" : "2"
+      }, {
+        "item" : "1015487-0000013",
+        "count" : "2"
+      } ],
+      "smallest" : "1000003-0000001",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829182,
+    "name" : "latitude",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "latitude",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142186258,
+    "cachedContents" : {
+      "non_null" : "84166",
+      "largest" : "40.91159",
+      "null" : "311",
+      "top" : [ {
+        "item" : "40.697268",
+        "count" : "75"
+      }, {
+        "item" : "40.754848",
+        "count" : "71"
+      }, {
+        "item" : "40.755167",
+        "count" : "59"
+      }, {
+        "item" : "40.75831",
+        "count" : "50"
+      }, {
+        "item" : "40.703188",
+        "count" : "48"
+      }, {
+        "item" : "40.695198",
+        "count" : "47"
+      }, {
+        "item" : "40.754946",
+        "count" : "47"
+      }, {
+        "item" : "40.751502",
+        "count" : "44"
+      }, {
+        "item" : "40.754987",
+        "count" : "40"
+      }, {
+        "item" : "40.761759",
+        "count" : "40"
+      }, {
+        "item" : "40.700095",
+        "count" : "40"
+      }, {
+        "item" : "40.713946",
+        "count" : "39"
+      }, {
+        "item" : "40.750377",
+        "count" : "39"
+      }, {
+        "item" : "40.742861",
+        "count" : "38"
+      }, {
+        "item" : "40.758636",
+        "count" : "38"
+      }, {
+        "item" : "40.706314",
+        "count" : "37"
+      }, {
+        "item" : "40.735148",
+        "count" : "37"
+      }, {
+        "item" : "40.672485",
+        "count" : "36"
+      }, {
+        "item" : "40.684437",
+        "count" : "35"
+      }, {
+        "item" : "40.708343",
+        "count" : "35"
+      } ],
+      "smallest" : "40.499212",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829183,
+    "name" : "longitude",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "longitude",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142186259,
+    "cachedContents" : {
+      "non_null" : "84166",
+      "largest" : "-73.701863",
+      "null" : "311",
+      "top" : [ {
+        "item" : "-73.844856",
+        "count" : "71"
+      }, {
+        "item" : "-73.986451",
+        "count" : "66"
+      }, {
+        "item" : "-73.98083",
+        "count" : "59"
+      }, {
+        "item" : "-73.982504",
+        "count" : "50"
+      }, {
+        "item" : "-73.989461",
+        "count" : "48"
+      }, {
+        "item" : "-73.990869",
+        "count" : "47"
+      }, {
+        "item" : "-73.991571",
+        "count" : "47"
+      }, {
+        "item" : "-74.006449",
+        "count" : "47"
+      }, {
+        "item" : "-73.987541",
+        "count" : "46"
+      }, {
+        "item" : "-73.999527",
+        "count" : "46"
+      }, {
+        "item" : "-73.955629",
+        "count" : "42"
+      }, {
+        "item" : "-73.987644",
+        "count" : "40"
+      }, {
+        "item" : "-73.991402",
+        "count" : "39"
+      }, {
+        "item" : "-73.978955",
+        "count" : "39"
+      }, {
+        "item" : "-73.986161",
+        "count" : "39"
+      }, {
+        "item" : "-73.953007",
+        "count" : "39"
+      }, {
+        "item" : "-73.977817",
+        "count" : "38"
+      }, {
+        "item" : "-73.986521",
+        "count" : "38"
+      }, {
+        "item" : "-73.977144",
+        "count" : "38"
+      }, {
+        "item" : "-74.010012",
+        "count" : "38"
+      } ],
+      "smallest" : "-74.254967",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829184,
+    "name" : "Council District",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "citycouncildistrict",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186236,
+    "cachedContents" : {
+      "non_null" : "84166",
+      "largest" : "51",
+      "null" : "311",
+      "top" : [ {
+        "item" : "03",
+        "count" : "6974"
+      }, {
+        "item" : "04",
+        "count" : "6781"
+      }, {
+        "item" : "01",
+        "count" : "5863"
+      }, {
+        "item" : "33",
+        "count" : "4783"
+      }, {
+        "item" : "02",
+        "count" : "3349"
+      }, {
+        "item" : "06",
+        "count" : "2873"
+      }, {
+        "item" : "26",
+        "count" : "2689"
+      }, {
+        "item" : "34",
+        "count" : "2610"
+      }, {
+        "item" : "39",
+        "count" : "2416"
+      }, {
+        "item" : "35",
+        "count" : "2131"
+      }, {
+        "item" : "51",
+        "count" : "1676"
+      }, {
+        "item" : "05",
+        "count" : "1662"
+      }, {
+        "item" : "36",
+        "count" : "1661"
+      }, {
+        "item" : "38",
+        "count" : "1626"
+      }, {
+        "item" : "50",
+        "count" : "1603"
+      }, {
+        "item" : "19",
+        "count" : "1595"
+      }, {
+        "item" : "20",
+        "count" : "1507"
+      }, {
+        "item" : "09",
+        "count" : "1479"
+      }, {
+        "item" : "22",
+        "count" : "1471"
+      }, {
+        "item" : "37",
+        "count" : "1435"
+      } ],
+      "smallest" : "01",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829185,
+    "name" : "BBL",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "bbl",
+    "position" : 22,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186240,
+    "cachedContents" : {
+      "non_null" : "82935",
+      "largest" : "5080500072",
+      "null" : "1542",
+      "top" : [ {
+        "item" : "1009720001",
+        "count" : "180"
+      }, {
+        "item" : "4020180001",
+        "count" : "99"
+      }, {
+        "item" : "1012660001",
+        "count" : "75"
+      }, {
+        "item" : "4163500400",
+        "count" : "70"
+      }, {
+        "item" : "3001180006",
+        "count" : "66"
+      }, {
+        "item" : "1009007501",
+        "count" : "63"
+      }, {
+        "item" : "3024720021",
+        "count" : "61"
+      }, {
+        "item" : "1012600024",
+        "count" : "59"
+      }, {
+        "item" : "2024587501",
+        "count" : "59"
+      }, {
+        "item" : "4155377501",
+        "count" : "58"
+      }, {
+        "item" : "3020230001",
+        "count" : "57"
+      }, {
+        "item" : "1009947501",
+        "count" : "52"
+      }, {
+        "item" : "1009990019",
+        "count" : "50"
+      }, {
+        "item" : "3001997501",
+        "count" : "49"
+      }, {
+        "item" : "3000380001",
+        "count" : "48"
+      }, {
+        "item" : "3002390001",
+        "count" : "47"
+      }, {
+        "item" : "4038100350",
+        "count" : "47"
+      }, {
+        "item" : "1005450026",
+        "count" : "47"
+      }, {
+        "item" : "1008240028",
+        "count" : "46"
+      }, {
+        "item" : "1000157501",
+        "count" : "46"
+      } ],
+      "smallest" : "0000000000",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829186,
+    "name" : "Census Tract",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "censustract2010",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 142186260,
+    "cachedContents" : {
+      "non_null" : "84166",
+      "largest" : "157903",
+      "null" : "311",
+      "top" : [ {
+        "item" : "33",
+        "count" : "935"
+      }, {
+        "item" : "21",
+        "count" : "918"
+      }, {
+        "item" : "37",
+        "count" : "884"
+      }, {
+        "item" : "1502",
+        "count" : "694"
+      }, {
+        "item" : "13",
+        "count" : "581"
+      }, {
+        "item" : "7",
+        "count" : "545"
+      }, {
+        "item" : "39",
+        "count" : "534"
+      }, {
+        "item" : "137",
+        "count" : "531"
+      }, {
+        "item" : "125",
+        "count" : "519"
+      }, {
+        "item" : "9",
+        "count" : "512"
+      }, {
+        "item" : "102",
+        "count" : "511"
+      }, {
+        "item" : "58",
+        "count" : "490"
+      }, {
+        "item" : "101",
+        "count" : "462"
+      }, {
+        "item" : "104",
+        "count" : "446"
+      }, {
+        "item" : "96",
+        "count" : "442"
+      }, {
+        "item" : "113",
+        "count" : "439"
+      }, {
+        "item" : "74",
+        "count" : "393"
+      }, {
+        "item" : "9901",
+        "count" : "388"
+      }, {
+        "item" : "76",
+        "count" : "381"
+      }, {
+        "item" : "41",
+        "count" : "376"
+      } ],
+      "smallest" : "1",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  }, {
+    "id" : 624829187,
+    "name" : "NTA",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "ntaname",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142186262,
+    "cachedContents" : {
+      "non_null" : "84166",
+      "largest" : "Woodside",
+      "null" : "311",
+      "top" : [ {
+        "item" : "Midtown-Times Square",
+        "count" : "4386"
+      }, {
+        "item" : "Midtown South-Flatiron-Union Square",
+        "count" : "2605"
+      }, {
+        "item" : "Chelsea-Hudson Yards",
+        "count" : "2325"
+      }, {
+        "item" : "Financial District-Battery Park City",
+        "count" : "1970"
+      }, {
+        "item" : "Downtown Brooklyn-DUMBO-Boerum Hill",
+        "count" : "1791"
+      }, {
+        "item" : "SoHo-Little Italy-Hudson Square",
+        "count" : "1647"
+      }, {
+        "item" : "Tribeca-Civic Center",
+        "count" : "1633"
+      }, {
+        "item" : "Williamsburg",
+        "count" : "1618"
+      }, {
+        "item" : "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+        "count" : "1591"
+      }, {
+        "item" : "Upper East Side-Carnegie Hill",
+        "count" : "1508"
+      }, {
+        "item" : "Upper West Side (Central)",
+        "count" : "1433"
+      }, {
+        "item" : "Long Island City-Hunters Point",
+        "count" : "1198"
+      }, {
+        "item" : "East Midtown-Turtle Bay",
+        "count" : "1181"
+      }, {
+        "item" : "West Village",
+        "count" : "1066"
+      }, {
+        "item" : "Greenpoint",
+        "count" : "1062"
+      }, {
+        "item" : "Hell's Kitchen",
+        "count" : "1056"
+      }, {
+        "item" : "Bedford-Stuyvesant (West)",
+        "count" : "1053"
+      }, {
+        "item" : "East Williamsburg",
+        "count" : "1001"
+      }, {
+        "item" : "Upper West Side-Lincoln Square",
+        "count" : "987"
+      }, {
+        "item" : "Greenwich Village",
+        "count" : "905"
+      } ],
+      "smallest" : "Allerton",
+      "count" : "84477",
+      "cardinality" : "84477"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "Data Dictionary - DOB NOW Certificate of Occupancy_FINAL.xlsx",
+      "assetId" : "90b77d47-f8e5-49a7-b020-ea3e23624c9c",
+      "name" : "Data Dictionary - DOB NOW Certificate of Occupancy_FINAL.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Update Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Buildings (DOB)"
+      }
+    },
+    "rowLabel" : "certificate of occupancy issued through the New York City Department of Buildings' DOB NOW: Certificate of Occupancy module",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dob", "certificate", "occupancy", "c of o", "dob now", "permits", "buildings", "building data", "housing" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

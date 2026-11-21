@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 735 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "735",
+    "title" : "Manner of service; filing; when service complete",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "735",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 735. Manner of service; filing; when service complete. 1.  Service\\nof the notice of petition and petition shall be made by personally\\ndelivering them to the respondent; or by delivering to and leaving\\npersonally with a person of suitable age and discretion who resides or\\nis employed at the property sought to be recovered, a copy of the notice\\nof petition and petition, if upon reasonable application admittance can\\nbe obtained and such person found who will receive it; or if admittance\\ncannot be obtained and such person found, by affixing a copy of the\\nnotice and petition upon a conspicuous part of the property sought to be\\nrecovered or placing a copy under the entrance door of such premises;\\nand in addition, within one day after such delivering to such suitable\\nperson or such affixing or placement, by mailing to the respondent both\\nby registered or certified mail and by regular first class mail,\\n  (a) if a natural person, as follows: at the property sought to be\\nrecovered, and if such property is not the place of residence of such\\nperson and if the petitioner shall have written information of the\\nresidence address of such person, at the last residence address as to\\nwhich the petitioner has such information, or if the petitioner shall\\nhave no such information, but shall have written information of the\\nplace of business or employment of such person, to the last business or\\nemployment address as to which the petitioner has such information; and\\n  (b) if a corporation, joint-stock or other unincorporated association,\\nas follows: at the property sought to be recovered, and if the principal\\noffice or principal place of business of such corporation, joint stock\\nor other unincorporated association is not located on the property\\nsought to be recovered, and if the petitioner shall have written\\ninformation of the principal office or principal place of business\\nwithin the state, at the last place as to which petitioner has such\\ninformation, or if the petitioner shall have no such information but\\nshall have written information of any office or place of business within\\nthe state, to any such place as to which the petitioner has such\\ninformation.  Allegations as to such information as may affect the\\nmailing address shall be set forth either in the petition, or in a\\nseparate affidavit and filed as part of the proof of service.\\n  2. The notice of petition, or order to show cause, and petition\\ntogether with proof of service thereof shall be filed with the court or\\nclerk thereof within three days after;\\n  (a) personal delivery to respondent, when service has been made by\\nthat means, and such service shall be complete immediately upon such\\npersonal delivery; or\\n  (b) mailing to respondent, when service is made by the alternatives\\nabove provided, and such service shall be complete upon the filing of\\nproof of service.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "734",
+      "title" : "Notice of petition; service on the Westchester county department of social services",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "734",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "741",
+      "title" : "Contents of petition",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-11-25", "2023-02-24", "2023-10-27", "2024-02-02", "2024-02-09", "2024-05-03", "2025-08-22", "2025-10-03", "2026-01-02" ],
+      "docLevelId" : "741",
+      "activeDate" : "2026-01-02"
+    }
+  }
+}

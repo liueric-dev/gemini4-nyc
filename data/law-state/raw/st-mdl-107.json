@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 107 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "107",
+    "title" : "Public halls",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "107",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 107. Public halls.  1. Every public vestibule or other public hall\\nshall comply either with the provisions of section one hundred\\nforty-nine for non-fireproof multiple dwellings, so far as applicable,\\nor with the provisions of subdivision two of this section, except that\\nthe provisions as to ventilation shall not apply to any part of an\\nentrance hall within sixty feet in a straight line from an entrance\\ndoor.\\n  2. If such a dwelling does not comply with the applicable provisions\\nof section one hundred forty-nine, it shall comply with all of the\\nfollowing:\\n  a. Every public vestibule or hall shall be everywhere at least three\\nfeet eight inches in clear width.\\n  b. Every such public vestibule or hall shall be separated from all\\nother parts of the dwelling by fireproof walls.\\n  c. All openings from such a public vestibule or hall to stairs,\\nfire-stairs, fire-tower balconies, shafts, apartments or suites of rooms\\nshall be protected by fireproof doors and assemblies, with the doors\\nself-closing, except that such doors and assemblies shall not be\\nrequired in any fireproof class B multiple dwelling for any apartment\\nconsisting of one room opening directly upon a public hall or for any\\napartment of three rooms or less in a college or school dormitory.\\n  d. Such a public vestibule or hall shall not be required to have a\\nwindow, but if it does not have a window opening to the outer air it\\nshall be equipped for artificial lighting and be properly lighted at all\\ntimes.\\n  e. Except for that part of an entrance hall within sixty feet in a\\nstraight line from an entrance door such a public vestibule or hall\\nwithout a window to the outer air shall be ventilated to the outer air\\nby means of gravity vent flues at least twelve inches in each dimension\\nor by mechanical means approved by the department. There shall be at\\nleast one vent flue opening of at least twelve inches in each dimension\\nfor each one thousand cubic feet of air content of such public vestibule\\nor hall. Such vent flues shall be continuous for the height of the\\ndwelling and the openings at each story shall be equipped with fire\\ndampers held open by a fusible link at each opening and properly hooded\\nor provided with louvres at the top above the roof.\\n  f. If a window to the outer air is provided in any such public\\nvestibule or hall, such vestibule or hall shall nevertheless be\\nventilated as provided in paragraph e, except that if such a window has\\na glazed area of at least twelve square feet and at least one tenth of\\nthe superficial floor area of the vestibule or hall, readily accessible\\nto the outer air to the extent of at least five and one-half square feet\\nof its area, no vent flues need be provided within a distance of forty\\nfeet from each side of such window.\\n  3. The requirements of this section as to ventilation shall apply to\\nall parts of an entrance hall more than sixty feet distant in a straight\\nline from an entrance door, to all returns or recesses that lead to\\nelevators and extend farther from the hall which they adjoin than four\\ntimes their width, and to all other returns or recesses from entrance\\nhalls that extend farther than their width.\\n  4. Any part of a public hall that is shut off from any other part of\\nsuch hall by a door or doors shall be deemed a separate hall.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "106",
+      "title" : "Cellar and basement stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "106",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "108",
+      "title" : "Partitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "108",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

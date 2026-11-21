@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1801 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1801",
+    "title" : "Small claims defined",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-12-20", "2021-10-29", "2022-09-02", "2023-07-07" ],
+    "docLevelId" : "1801",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 1801. Small claims defined. The term \"small claim\" or \"small claims\"\\nas used in this act shall mean and include any cause of action for money\\nonly not in excess of ten thousand dollars exclusive of interest and\\ncosts, or any action commenced by a party aggrieved by an arbitration\\naward rendered pursuant to part 137 of the rules of the chief\\nadministrator of the courts (22 NYCRR Part 137) in which the amount in\\ndispute does not exceed ten thousand dollars, provided that the\\ndefendant either resides, or has an office for the transaction of\\nbusiness or a regular employment within the city of New York, or where\\nclaimant is a tenant or lessee of real property owned by the defendant\\nand the claim relates to such tenancy or lease, and such real property\\nis situated within the city of New York.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1802",
+      "title" : "Parts for the determination of small claims established",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1802",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

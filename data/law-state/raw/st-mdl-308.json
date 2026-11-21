@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 308 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "308",
+    "title" : "Notice of pendency of action",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "308",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 308. Notice of pendency of action.  1. In any action or proceeding\\ninstituted by the department the plaintiff or petitioner may file in the\\ncounty clerk's office of the county where the premises affected by such\\naction or proceeding are situated, a notice of the pendency of such\\naction or proceeding. Such notice may be filed at any time after the\\nservice of any notice or order issued by the department, at the time of\\nthe commencement of the action or proceeding, or at any time afterwards,\\nbefore final judgment or order.\\n  2. Each county clerk with whom such a notice is filed shall record and\\nindex it to the name of each person specified in a direction subscribed\\nby the corporation counsel or other legal officer of the city.\\n  3. Any such notice may be vacated upon the order of a judge or justice\\nof the court in which such action or proceeding was instituted or is\\npending, or upon the consent in writing of the corporation counsel or\\nother legal officer of the city. The clerk of the county where such\\nnotice is filed shall mark such notice and any record or docket thereof\\nas cancelled of record upon the presentation and filing of such consent\\nor of a certified copy of such order.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "307",
+      "title" : "Liens",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "307",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "309",
+      "title" : "Repairs, vacation and demolition of buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "309",
+      "activeDate" : "2026-08-28"
+    }
+  }
+}

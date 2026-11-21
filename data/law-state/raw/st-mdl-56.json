@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 56 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "56",
+    "title" : "Frame buildings and extensions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "56",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 56. Frame buildings and extensions. 1. Except as provided in section\\none hundred ninety-three and subdivision seven of this section, no frame\\nmultiple dwelling shall be erected and no frame dwelling not used as a\\nmultiple dwelling on April eighteenth, nineteen hundred twenty-nine,\\nshall be altered or converted to such use or occupancy.\\n  2. No existing frame multiple dwelling shall be increased in height\\nnor shall it be altered to permit a greater occupancy on any story than\\nprovided for on April eighteenth, nineteen hundred twenty-nine; except\\nthat, if the walls of such a frame dwelling are faced with brick veneer\\nor with another material or combination of materials having a fire\\nresistive rating of at least one hour, and the entrance story thereof is\\noccupied by not more than one family, such entrance story may be altered\\nso that it may be occupied by not more than two families.\\n  3. No frame building of any kind whatsoever shall be placed or built\\nupon the same lot with any multiple dwelling.\\n  4. No multiple dwelling shall be placed or built upon the same lot\\nwith any frame building.\\n  5. No frame multiple dwelling, no wooden structure of any kind or\\nclass on the same lot with any frame dwelling or with any multiple\\ndwelling, and no other building on the same lot with any frame dwelling,\\nshall be altered or converted so as to be enlarged, extended or\\nincreased in height or bulk or in the number of rooms, apartments or\\ndwelling units therein; except that:\\n  a. An extension seventy square feet or less in ground area the side\\nwalls of which are of frame and brick filled or of masonry construction\\nmay be added to any existing frame multiple dwelling if used solely for\\nbathrooms or waterclosets; and\\n  b. An extension constructed with fireproof walls may be made to a\\nframe building if the first story of such extension is used solely for\\nbusiness not prohibited by any local law or ordinance, or if such\\nextension contains not more than one living room on any story. No yard\\nor court shall be diminished by such extension so that its area or least\\ndimension is less than required by this chapter for a yard or court of a\\nmultiple dwelling erected after April eighteenth, nineteen hundred\\ntwenty-nine.\\n  6. None of the provisions of this section shall apply to dwellings\\nerected under the provisions of article five-a of this chapter.\\n  7. In any city the department may approve for any such dwelling three\\nstories or less in height, the alteration and conversion of that portion\\nof said dwelling used as a store or other non-residential use to no more\\nthan one additional dwelling unit; provided, however, that: (a) such\\nspace has been vacant for at least one year, and (b) such space has a\\nminimum of three hundred square feet of floor area, and (c) the\\nconversion must be for a class \"A\" use, and (d) said unit shall contain\\na cooking space and a complete bathroom, and (e) all walls and ceilings\\nof the new dwelling unit shall be fire-retarded with one hour rated\\nfire-retarding materials, and (f) the height and bulk of the dwelling\\nshall not be increased, and (g) the dwelling will be in full compliance\\nwith this chapter and other related and local ordinances, except that\\nthe owner of said dwelling shall be entitled to consideration for\\nvariances permitted in subdivision one and subparagraph five of\\nparagraph a of subdivision two of section three hundred ten of this\\nchapter for multiple dwellings and buildings existing prior to November\\nfirst, nineteen hundred forty-nine.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "55",
+      "title" : "Wainscoting",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "55",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "57",
+      "title" : "Bells; mail receptacles",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "57",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

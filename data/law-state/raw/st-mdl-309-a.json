@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 309-A in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "309-A",
+    "title" : "Multiple dwelling; apartment prohibitions for certain employees",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "309-A",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 309-a. Multiple dwelling; apartment prohibitions for certain\\nemployees. 1. No janitor, superintendent, manager, custodian, or the\\nlike, of a multiple dwelling shall be permitted to reside in an\\napartment unit in the multiple dwelling in which he is employed if the\\nrental of such apartment unit to a tenant is prohibited by any general,\\nspecial, or local law.\\n  2. An owner, agent or operator of a multiple dwelling may apply to the\\ndepartment for a waiver of the provisions of this section on the ground\\nthat there is a bona fide unavailability of a suitable apartment unit\\nfor occupation by any of the above mentioned employees. Upon a\\ndetermination that such unavailability does exist, the department may\\ngrant an exemption from the application of the provisions of subdivision\\none of this section upon such terms and conditions as it shall deem\\nappropriate.\\n  3. For the purposes of this section, the term \"multiple dwelling\"\\nshall mean a building in which there is either rented, leased, let or\\nhired out to be occupied, or is occupied as the residence or home of\\nthree of more families living independently of each other.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "309",
+      "title" : "Repairs, vacation and demolition of buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "309",
+      "activeDate" : "2026-08-28"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "310",
+      "title" : "Board of appeals",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "310",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

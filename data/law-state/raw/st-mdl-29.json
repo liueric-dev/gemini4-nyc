@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 29 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "29",
+    "title" : "Painting of courts and shafts",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "29",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 29. Painting of courts and shafts. The exterior surface of all walls\\nof all courts and shafts of multiple dwellings, except of outer courts\\nopening on a street, and courts having dimensions of at least fifty\\npercent in excess of the minimum set forth in section twenty-six, shall\\nbe of a lightcolored brick or stone, or be thoroughly whitewashed or\\npainted a light color by the owner and be so maintained. Such whitewash\\nor paint shall be renewed whenever necessary, as may be determined and\\nrequired by the department.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "28",
+      "title" : "Two or more buildings on same lot",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "28",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "30",
+      "title" : "Lighting and ventilation of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "30",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

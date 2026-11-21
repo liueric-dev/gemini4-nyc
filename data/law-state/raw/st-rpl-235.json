@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 235 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "235",
+    "title" : "Wilful violations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "235",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 235. Wilful violations. 1. Any lessor, agent, manager,\\nsuperintendent or janitor of any building, or part thereof, the lease or\\nrental agreement whereof by its terms, expressed or implied, requires\\nthe furnishing of hot or cold water, heat, light, power, elevator\\nservice, telephone service or any other service or facility to any\\noccupant of said building, who wilfully or intentionally fails to\\nfurnish such water, heat, light, power, elevator service, telephone\\nservice or other service or facility at any time when the same are\\nnecessary to the proper or customary use of such building, or part\\nthereof, or any lessor, agent, manager, superintendent or janitor who\\nwilfully and intentionally interferes with the quiet enjoyment of the\\nleased premises by such occupant, is guilty of a violation.\\n  2. Any lessor, agent, manager, superintendent or janitor of any\\nbuilding, or part therof, who wilfully or intentionally acts to prevent\\nor obstruct the delivery of fuel oil ordered in compliance with either\\nsection three hundred two-c of the multiple dwelling law or section\\nthree hunded five-c of the multiple residence law or the refiring of an\\noil burner after such a delivery shall be guilty of a violation.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "234-A",
+      "title" : "Unauthorized legal fees",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2021-12-24", "2022-03-25" ],
+      "docLevelId" : "234-A",
+      "activeDate" : "2022-03-25"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-A",
+      "title" : "Tenant right to offset payments and entitlement to damages in certain cases",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2020-08-28" ],
+      "docLevelId" : "235-A",
+      "activeDate" : "2020-08-28"
+    }
+  }
+}

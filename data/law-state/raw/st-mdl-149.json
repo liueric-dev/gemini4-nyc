@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 149 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "149",
+    "title" : "Public halls",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "149",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 149. Public halls. 1. Every public hall shall be everywhere at least\\nthree feet in clear width.\\n  2. Every public hall shall be completely enclosed with fireproof\\nfloor, ceiling and walls, and, in dwellings erected under plans filed in\\nthe department after September first, nineteen hundred fifty-one, such\\nhall shall be separated from every stair by fireproof partitions or\\nwalls. All doors and their assemblies opening from such hall or stairs\\nshall be fireproof, with the doors self-closing and without transoms,\\nexcept that in a dwelling three stories or less in height occupied by\\nnot more than four families on each story, or in a class A dwelling or\\nany section thereof two stories or less in height, any such hall which\\nfurnishes access to only one stair need not be separated from such stair\\nby any partition or door and the walls of a public hall may be\\nfire-retarded and the floors may be provided with three inches or more\\nof incombustible deafening materials between the beams instead of being\\nfireproof.\\n  3. Except in dwellings three stories or less in height and occupied by\\ntwo families or less on every story, and except as provided in\\nsubdivisions four to seven inclusive, every public hall shall have at\\nleast one window opening directly upon a street or upon a lawful yard or\\ncourt. There shall be such a window at the end of each such hall and at\\nright angles to its length, with an additional window in each forty feet\\nof hall or fraction thereof beyond the first sixty feet from such end\\nwindow; or the hall shall have one window opening directly upon a street\\nor upon a lawful yard or court in every forty feet of its length or\\nfraction thereof measured from one end of the hall.\\n  4. When the length of any recess or return off a public hall does not\\nexceed twice the width of such recess or return, no window shall be\\nrequired therein. But whenever the length of a recess or return exceeds\\ntwice its width, there shall be an additional window or windows meeting\\nthe requirements for a separate public hall. No entrance hall shall have\\na return or recess which exceeds in length twice its width.\\n  5. The foregoing provisions of this section with regard to lighting\\nand ventilation shall not apply to a vestibule or other public hall\\nwhich serves as a means of access from one or more apartments opening\\nthereon to a fire-stair or fire-tower meeting the requirements of\\nsection one hundred forty-four if such vestibule or public hall is\\nlighted and ventilated as required for fireproof dwellings by sections\\nthirty-seven and one hundred seven.\\n  6. The foregoing provisions of this section with regard to lighting\\nand ventilation shall not apply to that portion of an entrance hall\\nbetween the first flight of stairs and the entrance provided the\\nentrance door contains five square feet or more of glazed surface or\\nsuch entrance hall does not extend from the outer entrance of the\\ndwelling more than sixty feet.\\n  7. A passenger elevator vestibule not exceeding in length twice the\\nparallel length of the elevator shaft or shafts opening into it need not\\nbe equipped with a window if it conforms to the requirements of sections\\nthirty-seven and one hundred seven for public halls in fireproof\\nmultiple dwellings. Every door and its assembly separating such a\\nvestibule from any public hall connected with a stair, fire-stair or\\nfire-tower shall be fireproof, with the door self-closing and glazed\\nwith good quality wire glass ten square feet or more in area. No such\\ndoor shall be kept open by any device whatever.\\n  8. Any part of a public hall that is shut off from any other part of\\nsuch hall by a door or doors shall be deemed a separate hall.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "148",
+      "title" : "Public stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "148",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "150",
+      "title" : "Cellar and basement stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "150",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

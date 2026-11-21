@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 6 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "6",
+    "title" : "Investigations; records; reports",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "6",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 6. Investigations; records; reports. 1. The commission is authorized\\nto make such studies and investigations, to conduct such hearings, and\\nto obtain such information as the commission deems necessary or proper\\nin prescribing any regulation or order under this act or in the\\nadministration and enforcement of this act and regulations and orders\\nthereunder.\\n  2. The commission is further authorized, by regulation or order, to\\nrequire any person who rents or offers for rent or acts as broker or\\nagent for the rental of any housing accommodations to furnish any such\\ninformation under oath or affirmation, or otherwise, to make and keep\\nrecords and other documents, and to make reports, and the commission may\\nrequire any such person to permit the inspection and copying of records\\nand other documents and the inspection of housing accommodations. The\\nadministrator or any officer or agent designated by the commission for\\nsuch purposes, may administer oaths and affirmations and may, whenever\\nnecessary, by subpoena require any such person to appear and testify or\\nto appear and produce documents, or both, at any designated place.\\n  3. For the purpose of obtaining any information under subdivision one,\\nthe commission may by subpoena require any other person to appear and\\ntestify or to appear and produce documents, or both, at any designated\\nplace.\\n  4. The production of a person's documents at any place other than his\\nplace of business shall not be required under this section in any case\\nin which, prior to the return date specified in the subpoena issued with\\nrespect thereto, such person either has furnished the commission with a\\ncopy of such documents certified by such person under oath to be a true\\nand correct copy, or has entered into a stipulation with the commission\\nas to the information contained in such documents.\\n  5. In case of contumacy by, or refusal to obey a subpoena served upon,\\nany person referred to in subdivision three, the supreme court in or for\\nany judicial district in which such person is found or resides or\\ntransacts business, upon application by the commission, shall have\\njurisdiction to issue an order requiring such person to appear and give\\ntestimony or to appear and produce documents, or both; and any failure\\nto obey such order of the court may be punished by such court as a\\ncontempt thereof. The provisions of this subdivision shall also apply to\\nany person referred to in subdivision two, and shall be in addition to\\nthe provisions of subdivision one of section ten.\\n  6. Witnesses subpoenaed under this section shall be paid the same fees\\nand mileage as are paid witnesses under article eighty of the civil\\npractice law and rules.\\n  7. Upon any such investigation or hearing, the commissioner or an\\nofficer duly designated by the commission to conduct such investigation\\nor hearing, may confer immunity in accordance with the provisions of\\nsection 50.20 of the criminal procedure law.\\n  8. The commission shall not publish or disclose any information\\nobtained under this act that the commission deems confidential or with\\nreference to which a request for confidential treatment is made by the\\nperson furnishing such information, unless the commission determines\\nthat the withholding thereof is contrary to the public interest.\\n  9. Any person subpoenaed under this section shall have the right to\\nmake a record of his testimony and to be represented by counsel.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "5",
+      "title" : "Evictions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "5",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "7",
+      "title" : "Cooperation with other governmental agencies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "7",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

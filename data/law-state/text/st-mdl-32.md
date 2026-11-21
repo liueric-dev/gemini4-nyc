@@ -1,0 +1,18 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 3 Multiple Dwellings--general Provisions > Title 1 Light and Air > § 32 Alcoves
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/32 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 32. Alcoves. 1. Every alcove, except a lawful cooking space, opening
+from any room in any multiple dwelling erected after April eighteenth,
+nineteen hundred twenty-nine, shall be separately lighted and ventilated
+as provided for other rooms in section thirty. It shall have a floor
+area of at least seventy square feet, a least horizontal dimension of at
+least seven feet and an opening at least sixty square feet in area into
+the room which it adjoins.
+  2. Except for cubicles permitted in lodging houses, no part of any
+room in any multiple dwelling erected after April eighteenth, nineteen
+hundred twenty-nine, shall be enclosed or subdivided at any time, wholly
+or in part, by a curtain, portiere, fixed or movable partition or other
+contrivance or device, unless each such enclosure or subdivision shall
+contain a separate window as required for a room by section thirty and a
+floor space of at least seventy square feet.

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 721 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "721",
+    "title" : "Person who may maintain proceeding",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "721",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 721. Person who may maintain proceeding.  The proceeding may be\\nbrought by:\\n  1. The landlord or lessor.\\n  2. The reversioner or remainderman next entitled to possession of the\\nproperty upon the termination of the estate of a life tenant, where a\\ntenant of such life tenant holds over.\\n  3. The purchaser upon the execution or foreclosure sale, or the\\npurchaser on a tax sale to whom a deed has been executed and delivered\\nor any subsequent grantee, distributee or devisee claiming title through\\nsuch purchaser.\\n  4. The person forcibly put out or kept out.\\n  5. The person with whom, as owner, the agreement was made, or the\\nowner of the property occupied under an agreement to cultivate the\\nproperty upon shares or for a share of the crops.\\n  6. The person lawfully entitled to the possession of property intruded\\ninto or squatted upon.\\n  7. The person entitled to possession of the property occupied by a\\nlicensee who may be dispossessed.\\n  8. The person, corporation or law enforcement agency authorized by\\nthis article to proceed to remove persons using or occupying premises\\nfor illegal purposes.\\n  9. The receiver of a landlord, purchaser or other person so entitled\\nto apply, when authorized by the court.\\n  10. The lessee of the premises, entitled to possession.\\n  11. Not-for-profit corporations, and tenant associations authorized in\\nwriting by the commissioner of the department of the city of New York\\ncharged with enforcement of the housing maintenance code of such city to\\nmanage residential real property owned by such city.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "715-A",
+      "title" : "Grounds and procedure for removal of commercial tenants for unlicensed cannabis retail sale",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-05-12", "2024-04-26" ],
+      "docLevelId" : "715-A",
+      "activeDate" : "2024-04-26"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "731",
+      "title" : "Commencement; notice of petition",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "731",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

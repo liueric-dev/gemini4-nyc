@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 179 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "179",
+    "title" : "Privacy",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "179",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 179. Privacy. In every apartment of three or more rooms in every\\nclass A converted dwelling there shall be access to every living room\\nwithout passing through any bedroom, and to at least one water-closet\\ncompartment within the apartment from every bedroom without passing\\nthrough any other bedroom.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "178",
+      "title" : "Lighting and ventilation of stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "178",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

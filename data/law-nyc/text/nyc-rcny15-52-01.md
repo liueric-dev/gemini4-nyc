@@ -1,0 +1,10 @@
+# Rules of the City of New York > Title 15: Department of Environmental Protection > Chapter 52: After Hours Noise Complaints > § 52-01 After Hours Response Time at Construction Sites.
+
+§ 52-01 After Hours Response Time at Construction Sites.
+(a) (1) When a complaint is made to the Department of Environmental Protection (DEP) concerning after hours noise at a construction site, DEP staff will determine whether an after hours variance has been issued pursuant to § 24-223(a) of the New York City Noise Control Code by the Department of Buildings (DOB). If there is no variance, an inspection will be conducted the same day if the complaint is received during likely working hours. If the complaint is not received during likely working hours, the inspection will be conducted the following weekend or during the same after hours period, as applicable.
+(2) For locations with a DOB variance, an inspection will be conducted during the next time period during which the after hours variance is in effect.
+(b) For locations with a DOB variance, DEP will prioritize inspections based upon the number of complaints received per location on a given day.
+(c) DEP staff should also monitor after hour complaints to identify situations where complaints have been received about three of more construction sites within a one mile radius of each other and were received within four hours of each other. Where feasible and when such complaints were received during likely working hours, the inspections will be conducted at such locations whether or not there is a variance.
+(d) (1) If an after hours complaint is received regarding noise occurring on a weekday, DEP staff shall inspect the location the following weekday.
+(2) If an after hours complaint is received regarding noise occurring on a weekend, DEP staff shall inspect at least 95% of such complaints the following weekend, and the remaining percentage of such complaints, if any, shall be inspected the weekend thereafter.
+(Added City Record 9/14/2018, eff. 10/14/2018)

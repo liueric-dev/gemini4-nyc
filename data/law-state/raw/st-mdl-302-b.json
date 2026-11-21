@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 302-B in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "302-B",
+    "title" : "Removal of violations by mortgagees",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "302-B",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 302-b. Removal of violations by mortgagees. 1.  Notwithstanding any\\nother provision of law, where a receiver has been appointed in\\nforeclosure proceedings instituted by a mortgagee with respect to any\\nmultiple dwelling, such mortgagee may advance to such receiver funds\\nnecessary for the operation of such multiple dwelling and for the making\\nof repairs therein necessary to remove conditions constituting\\nviolations of this chapter. Such receiver shall, to the extent possible,\\nrepay any and all such advances from income received by him with respect\\nto the property and, if such income is insufficient to permit complete\\nrepayment of such advances, any amounts which cannot be so repaid, with\\ninterest, shall be added to the amount of the lien of such mortgagee\\nupon entry of a foreclosure judgment, provided, however, that such\\namounts shall not be the basis for any additional personal liability on\\nthe part of the mortgagor.\\n  2. Notwithstanding any other provisions of law, a mortgagee advancing\\nfunds to a receiver pursuant to subdivision one of this section shall be\\nliable only for gross and willful negligence with respect to any repair\\nmade at his direction and with funds so advanced.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302-A",
+      "title" : "Abatement of rent in the case of serious violations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302-C",
+      "title" : "Right of tenant to offset payments for heat failure; certain cases",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302-C",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

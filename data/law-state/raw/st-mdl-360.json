@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 360 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "360",
+    "title" : "Cancellation of notice of pendency of action",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "360",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 360. Cancellation of notice of pendency of action.  If an action or\\nproceeding to establish a lien upon such premises terminates otherwise\\nthan in a judgment establishing such a lien, or if the judgment be fully\\npaid, such notice of pendency of action or proceeding may be cancelled.\\nPrior to the termination of such action or proceeding the notice may be\\ncancelled by giving an undertaking.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A10" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A10",
+      "title" : "Prostitution",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "10",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "359",
+      "title" : "Receivership",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "359",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

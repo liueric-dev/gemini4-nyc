@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.70 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.70",
+    "title" : "Unlawful dissemination of a personal image; definitions, application",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-03", "2023-03-10" ],
+    "docLevelId" : "250.70",
+    "activeDate" : "2023-03-10",
+    "text" : "§ 250.70 Unlawful dissemination of a personal image; definitions,\\n           application.\\n  1. The following definitions shall apply to section 250.71 of this\\narticle:\\n  (a) \"broadcast\" means electronically transmitting a visual image with\\nthe intent that it be viewed by a person;\\n  (b) \"disseminate\" means to give, provide, lend, deliver, mail, send,\\nforward, transfer or transmit, electronically or otherwise to another\\nperson;\\n  (c) \"publish\" means to: (i) disseminate, as defined in paragraph (b)\\nof this subdivision, with the intent that such image or images be\\ndisseminated to ten or more persons; (ii) disseminate with the intent\\nthat such images be sold by another person; (iii) post, present,\\ndisplay, exhibit, circulate, advertise or allows access, electronically\\nor otherwise, so as to make an image or images available to the public;\\nor (iv) disseminate with the intent that an image or images be posted,\\npresented, displayed, exhibited, circulated, advertised or made\\naccessible, electronically or otherwise and to make such image or images\\navailable to the public;\\n  (d) \"family\" means a parent or guardian, sibling, spouse, or child of\\na person depicted in an image disseminated in violation of section\\n250.71 of this article.\\n  (e) \"social media platform\" means a website, online or mobile\\napplication, or online service that is designed primarily to enable a\\nuser to generate or share content that can be viewed by other users on\\nthe platform or to interact with other user-generated content on such\\nplatform. \"Social media platform\" does not include a website, online or\\nmobile application, or online service that is designed primarily to\\nenable a user to access content on the platform that is not\\nuser-generated and is preselected or organized by the provider; or a\\nwebsite, online or mobile application, or online service that includes\\nany chat, comment, or other interactive functionality that is incidental\\nto the provision of such website, application, or service.\\n  2. The following provisions shall apply to section 250.71 of this\\narticle:\\n  (a) The provisions of section 270.71 of this article shall not apply\\nto the following:\\n  (i) the reporting of suspected unlawful conduct to law enforcement;\\n  (ii) the dissemination or publication of an image made in the course\\nof official law enforcement duties, legal proceedings or criminal\\nprosecution, or medical treatment; or\\n  (iii) the dissemination or publication of an image made for a\\nlegitimate public discourse concerning local, national, or worldwide\\nevents or other matters of public concern or public interest or\\naffecting the public welfare; any work of public interest, educational\\nor newsworthy value, including comment, criticism, parody or satire, and\\nworks of entertainment, regardless of the degree of fictionalization; or\\nan advertisement or commercial announcement for any of the foregoing\\nworks.\\n  (b) Nothing in these sections shall be construed to limit, or to\\nenlarge, the protections that 47 U.S.C. § 230 confers on an interactive\\ncomputer service for content provided by another information content\\nprovider, as such terms are defined in 47 U.S.C. § 230.\\n  3. With respect to section 250.71 of this article, the provisions of\\nsubdivision two of section 235.15 and subdivisions one and two of\\nsection 235.24 of this part shall apply.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.65",
+      "title" : "Additional provisions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.65",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.71",
+      "title" : "Unlawful dissemination of a personal image",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-03", "2023-03-10" ],
+      "docLevelId" : "250.71",
+      "activeDate" : "2023-03-10"
+    }
+  }
+}

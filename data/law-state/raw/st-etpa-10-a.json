@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 10-A in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "10-A",
+    "title" : "Right to sublease",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "10-A",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 10-a. Right to sublease. Units subject to this law may be sublet\\npursuant to section two hundred twenty-six-b of the real property law\\nprovided that (a) the rental charged to the subtenant does not exceed\\nthe legal regulated rent plus a ten percent surcharge payable to the\\ntenant if the unit sublet was furnished with the tenant's furniture; (b)\\nthe tenant can establish that at all times he has maintained the unit as\\nhis primary residence and intends to occupy it as such at the expiration\\nof the sublease; (c) an owner may terminate the tenancy of a tenant who\\nsublets or assigns contrary to the terms of this section but no action\\nor proceeding based on the non-primary residence of a tenant may be\\ncommenced prior to the expiration date of his lease; (d) where an\\napartment is sublet the prime tenant shall retain the right to a renewal\\nlease and the rights and status of a tenant in occupancy as they relate\\nto conversion to condominium or cooperative ownership; (e) where a\\ntenant violates the provisions of subdivision (a) of this section the\\nsubtenant shall be entitled to damages of three times the overcharge and\\nmay also be awarded attorneys fees and interest from the date of the\\novercharge at the rate of interest payable on a judgment pursuant to\\nsection five thousand four of the civil practice law and rules; (f) the\\ntenant may not sublet the unit for more than a total of two years,\\nincluding the term of the proposed sublease, out of the four-year period\\npreceding the termination date of the proposed sublease. The provisions\\nof this subdivision (f) shall only apply to subleases commencing on and\\nafter July first, nineteen hundred eighty-three; (g) for the purposes of\\nthis section only, the term of the proposed sublease may extend beyond\\nthe term of the tenant's lease. In such event, such sublease shall be\\nsubject to the tenant's right to a renewal lease. The subtenant shall\\nhave no right to a renewal lease. It shall be unreasonable for an owner\\nto refuse to consent to a sublease solely because such sublease extends\\nbeyond the tenant's lease; and (h) notwithstanding the provisions of\\nsection two hundred twenty-six-b of the real property law, a\\nnot-for-profit hospital shall have the right to sublet any housing\\naccommodation leased by it to its affiliated personnel without requiring\\nthe landlord's consent to any such sublease and without being bound by\\nthe provisions of subdivisions (b), (c) and (f) of this section.\\nCommencing with the effective date of this subdivision, whenever a\\nnot-for-profit hospital executes a renewal lease for a housing\\naccommodation, the legal regulated rent shall be increased by a sum\\nequal to fifteen percent of the previous lease rental for such housing\\naccommodation, hereinafter referred to as a vacancy surcharge, unless\\nthe landlord shall have received within the seven year period prior to\\nthe commencement date of such renewal lease any vacancy increases or\\nvacancy surcharges allocable to the said housing accommodation. In the\\nevent the landlord shall have received any such vacancy increases or\\nvacancy surcharges during such seven year period, the vacancy surcharge\\nshall be reduced by the amount received by any such vacancy increase or\\nvacancy surcharges.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "10",
+      "title" : "Regulations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "10",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "10-B",
+      "title" : "Major capital improvements and individual apartment improvements in rent regulated units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28", "2023-12-29", "2024-03-08", "2024-05-03", "2024-10-18" ],
+      "docLevelId" : "10-B",
+      "activeDate" : "2024-10-18"
+    }
+  }
+}

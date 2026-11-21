@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 28 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "28",
+    "title" : "Two or more buildings on same lot",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "28",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 28. Two or more buildings on same lot. 1. If any separate multiple\\ndwelling is erected after April eighteenth, nineteen hundred\\ntwenty-nine, upon the rear of a lot which has another multiple dwelling\\non the front or upon the front of a lot which has another multiple\\ndwelling on the rear, access shall be provided to the rear dwelling from\\na street by means of an unobstructed court at least twenty feet in\\nwidth.\\n  2. Except as otherwise provided for motor vehicle storage space in\\nsection sixty and for dwellings erected, enlarged, converted or altered\\npursuant to plans filed prior to December fifteenth, nineteen hundred\\nsixty-one in accordance with the provisions of subdivision one of\\nsection twenty-six, if any building or dwelling is placed on the rear of\\nthe same lot with a multiple dwelling or a multiple dwelling is placed\\nanywhere on the same lot with another building, there shall be left\\nbetween the two buildings an open space unoccupied from the ground up\\nand at least forty feet in depth, measured in the direction from one\\nbuilding to the other for the first one hundred twenty-five feet above\\nthe curb level, and eighty feet above that point. The provisions of this\\nsubdivision requiring an open space eighty feet in depth between\\nportions of buildings in excess of one hundred twenty-five feet above\\nthe curb level shall not be applied when both such portions are towers.\\n  3. If on the rear of a lot any such building or any portion thereof is\\nused for business purposes, a separate passageway at least three feet\\nsix inches wide and seven feet high shall be provided leading from every\\nsuch open space adjacent to such building to a street. No such\\npassageway shall connect with, go through or form a part of any entrance\\nhall or other public hall of a multiple dwelling upon the front of the\\nlot.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "26",
+      "title" : "Height, bulk, open spaces",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2024-04-26" ],
+      "docLevelId" : "26",
+      "activeDate" : "2024-04-26"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "29",
+      "title" : "Painting of courts and shafts",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "29",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

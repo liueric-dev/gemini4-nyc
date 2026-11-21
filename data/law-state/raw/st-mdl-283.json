@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 283 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "283",
+    "title" : "Occupancy permitted",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "283",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 283. Occupancy permitted. Notwithstanding any other provision of\\nthis chapter or any other law, code, rule or regulation, occupancy for\\nresidential purposes of residential units covered by this article is\\npermitted, if such occupancy is in compliance with this article. Nothing\\ncontained herein shall be construed to limit local authorities from\\nissuing vacate orders for hazardous conditions, if appropriate.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-C",
+      "title" : "Legalization of Interim Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-07-03" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2015-07-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "282-A",
+      "title" : "Applications for coverage of interim multiple dwellings and residential units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28", "2021-12-03" ],
+      "docLevelId" : "282-A",
+      "activeDate" : "2021-12-03"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "284",
+      "title" : "Owner obligations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "284",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 301 in EXC law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "EXC",
+    "lawName" : "Executive",
+    "locationId" : "301",
+    "title" : "Separability",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "301",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 301. Separability.  If any clause, sentence, paragraph or part of\\nthis article or the application thereof to any person or circumstances,\\nshall, for any reason, be adjudged by a court of competent jurisdiction\\nto be invalid, such judgment shall not affect, impair or invalidate the\\nremainder of this article.\\n",
+    "parentLocationIds" : [ "-CH18", "A15" ],
+    "parents" : [ {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "-CH18",
+      "title" : "Executive",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2014-11-28", "2015-01-23", "2015-07-10", "2015-11-13", "2015-11-27", "2017-04-21", "2017-04-28", "2018-11-09", "2019-01-11", "2019-07-19", "2019-08-02", "2019-12-27", "2020-06-19", "2020-10-16", "2020-12-18", "2021-01-29", "2021-04-02", "2021-04-23", "2021-07-30", "2021-10-29", "2021-11-19", "2022-02-11", "2022-04-08", "2022-06-10", "2022-07-08", "2022-12-09", "2022-12-30", "2023-04-07", "2023-05-12", "2023-10-27", "2024-01-19", "2024-05-03", "2024-10-11", "2025-02-21", "2026-05-29", "2026-06-12" ],
+      "docLevelId" : "18",
+      "activeDate" : "2026-06-12"
+    }, {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "A15",
+      "title" : "Human Rights Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2018-04-20", "2019-08-16", "2022-01-07", "2022-12-02", "2023-11-26", "2025-04-11" ],
+      "docLevelId" : "15",
+      "activeDate" : "2025-04-11"
+    } ],
+    "prevSibling" : {
+      "lawId" : "EXC",
+      "lawName" : "Executive",
+      "locationId" : "300",
+      "title" : "Construction",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-08-16", "2019-12-20" ],
+      "docLevelId" : "300",
+      "activeDate" : "2019-12-20"
+    },
+    "nextSibling" : null
+  }
+}

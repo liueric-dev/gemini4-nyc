@@ -1,0 +1,1531 @@
+[{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Compost","location_type":"Street","n":"860"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Metal Protruding - Sign Stump","location_type":"Sidewalk","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Car Wash","location_type":"Business","n":"24"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Broken Sidewalk","location_type":"Sidewalk","n":"1075"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Government Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Site Setup Condition","location_type":"Sidewalk","n":"30"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Dead Animal","location_type":"Street/Curbside","n":"8"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Dry Cleaner","location_type":"Business","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Vacant Building","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Vacant Lot/Property","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"Commercial Building","n":"3"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Sidewalk Display","location_type":"Sidewalk","n":"25"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Rat or Mouse","location_type":"Sidewalk","n":"110"}
+,{"agency":"NYPD","complaint_type":"Noise - House of Worship","descriptor":"Loud Television","location_type":"House of Worship","n":"1"}
+,{"agency":"DOT","complaint_type":"Bridge Condition","descriptor":"Rough Pavement","location_type":"Bridge","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Rat or Mouse","location_type":"Highway","n":"1"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Jewelry","location_type":"Taxi","n":"9"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Mast Arm","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Trash","location_type":"Gutter","n":"88"}
+,{"agency":"HPD","complaint_type":"ELECTRIC","descriptor":"LIGHTING","location_type":"RESIDENTIAL BUILDING","n":"555"}
+,{"agency":"HPD","complaint_type":"ELECTRIC","descriptor":"OUTLET/SWITCH","location_type":"RESIDENTIAL BUILDING","n":"849"}
+,{"agency":"DOT","complaint_type":"Bike Rack","descriptor":"Damaged/Bent/Loose/Leaning","location_type":"Street","n":"3"}
+,{"agency":"DOT","complaint_type":"Bike Rack","descriptor":"Missing","location_type":"Sidewalk","n":"5"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Restaurant Odor","location_type":"Commercial/Mixed Use Building","n":"26"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"In Public","location_type":"Park/Playground","n":"34"}
+,{"agency":"NYPD","complaint_type":"Panhandling","descriptor":"N/A","location_type":"Subway","n":"391"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Tire Shop","n":"1"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Catch Basin Grate Missing","location_type":"Sewer","n":"9"}
+,{"agency":"DOT","complaint_type":"Ferry Complaint","descriptor":"General Complaint","location_type":"Ferry","n":"15"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Missing","descriptor":"Construction","location_type":"Highway","n":"1"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Chained","location_type":"Street/Sidewalk","n":"8"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Waste Set Out Too Early or Too Late","location_type":"Sidewalk","n":"196"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Site Conditions Endangering Workers","n":"76"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Blocked - Construction","location_type":"Street","n":"403"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Waste","location_type":"1-2 Family Mixed Use Building","n":"4"}
+,{"agency":"DPR","complaint_type":"Root/Sewer/Sidewalk Condition","descriptor":"Affecting Sewer or Foundation","location_type":"Street","n":"7"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"STEAM PIPE/RISER","location_type":"RESIDENTIAL BUILDING","n":"130"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Street Fair Vendor","location_type":"Business","n":"86"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Loud Television","location_type":"Club/Bar/Restaurant","n":"20"}
+,{"agency":"DOHMH","complaint_type":"Mold","descriptor":"Loft Building","location_type":"Loft Residence","n":"2"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Structural Stability Impacted - New Building Under Construction","n":"4"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Taste/Odor, Musty/Stale (QA4)","n":"4"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Grease In Sewer/Catch Basin (IDG)","n":"11"}
+,{"agency":"TLC","complaint_type":"Taxi Licensee Complaint","descriptor":"Driver Complaint","location_type":"N/A","n":"2"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Containers Left Out After Collection","location_type":"Street","n":"4"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Truck Route Violation","location_type":"Street/Sidewalk","n":"217"}
+,{"agency":"NYPD","complaint_type":"Noise - Street/Sidewalk","descriptor":"Loud Music/Party","location_type":"Street/Sidewalk","n":"22121"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"In Conduit","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Street Fair Vendor","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Facility Maintenance","location_type":"Spa Pool","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Contains Foreign Object","location_type":"Street Fair Vendor","n":"1"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Car/Truck Horn","location_type":"Store/Commercial","n":"33"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"In Common Areas","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Park/Playground","n":"452"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Other Animal","location_type":"1-2 Family Mixed Use Building","n":"2"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Report","descriptor":"Driver Report - Passenger","n":"15"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Leaning/Missing","location_type":"Sidewalk","n":"75"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Car Service Company Complaint","location_type":"Street","n":"69"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Posted Notice Or Order Removed/Tampered With","n":"57"}
+,{"agency":"DSNY","complaint_type":"Recycling Basket Complaint","descriptor":"Misuse","location_type":"Street","n":"1"}
+,{"agency":"NYPD","complaint_type":"Noise - Residential","descriptor":"Loud Music/Party","location_type":"Residential Building/House","n":"16325"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Other","location_type":"Sidewalk","n":"34"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"In Public","location_type":"Residential Building/House","n":"172"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Flooding on Street","location_type":"Street","n":"239"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Sidewalk","n":"7"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Employment Agency","location_type":"Business","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Roof","location_type":"3+ Family Apartment Building","n":"2"}
+,{"agency":"OTI","complaint_type":"LinkNYC","descriptor":"Blocking Sidewalk","location_type":"Sidewalk","n":"2"}
+,{"agency":"NYPD","complaint_type":"Drug Activity","descriptor":"Use Indoor","location_type":"Other","n":"113"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Roof","location_type":"Abandoned Building","n":"1"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unlicensed Vendors","location_type":"Street/Curbside","n":"128"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Sewer or Drain","location_type":"3+ Family Apartment Building","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Smoking, Cigar, or Vape Store","location_type":"Business","n":"13"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Air Conditioner/Ventilation","location_type":"Residential","n":"72"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Food Worker Activity","location_type":"Mobile Food Vendor","n":"43"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - Faded","location_type":"Vehicle Lane","n":"12"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"1 or 2","location_type":"Food Cart Vendor","n":"14"}
+,{"agency":"TLC","complaint_type":"Green Taxi Complaint","descriptor":"Driver Complaint - Passenger","n":"16"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Permit/License/Certificate","location_type":"Restaurant/Bar/Deli/Bakery","n":"11"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Removing Wildlife","location_type":"Street/Curbside","n":"5"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Catch Basin Clogged","location_type":"Sewer","n":"694"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Passenger","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Public Stairs","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Sewer or Drain","location_type":"3+ Family Mixed Use Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Flood Light Lamp Missing","n":"2"}
+,{"agency":"NYPD","complaint_type":"Graffiti","descriptor":"Police Report Requested","location_type":"Residential Building/House","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Tattooing","descriptor":"Dirty/Inadequate Eqp/Facility","location_type":"Tattoo Parlor","n":"12"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Broken Glass","location_type":"Traffic Island or Median","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tobacco Sales","location_type":"Business","n":"29"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Sidewalk","location_type":"3+ Family Mixed Use Building","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Laundromat","n":"1"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Removing Flowers/Plants","location_type":"Park","n":"1"}
+,{"agency":"DSNY","complaint_type":"Dumpster Complaint","descriptor":"Small uncovered dumpster","location_type":"Street","n":"15"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Street Light Out","n":"2557"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Complaint","descriptor":"Misuse","location_type":"Commercial Building","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Tattooing","descriptor":"Minor Received Tattoo","location_type":"Tattoo Parlor","n":"4"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Blocking Street","location_type":"Park","n":"10"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"No Receipt","location_type":"Street","n":"70"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Swimming Pool - Unmaintained","location_type":"Other","n":"3"}
+,{"agency":"DEP","complaint_type":"Hazardous Materials","descriptor":"Chemical Odor (HD1)","n":"69"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Kitchen/Food Prep Area","location_type":"Senior Center","n":"1"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Trunk Damaged","location_type":"Park","n":"3"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Blank Out Matrix Sgn","n":"7"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Plate Condition - Anti-Skid","location_type":"Street","n":"2"}
+,{"agency":"DOT","complaint_type":"Curb Condition","descriptor":"Curb Violation","location_type":"Sidewalk","n":"2"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"BASIN/SINK","location_type":"RESIDENTIAL BUILDING","n":"1647"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Water in Basement","location_type":"N/A","n":"15"}
+,{"agency":"DOHMH","complaint_type":"Tanning","descriptor":"Child or Minor Tanning","location_type":"Tanning Salon","n":"2"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Bin Not Used","location_type":"Street","n":"40"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Bird","location_type":"Sidewalk","n":"61"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Waste","location_type":"3+ Family Mixed Use Building","n":"14"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Chemical Spill","location_type":"Catch Basin/Sewer","n":"2"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Branch Cracked and Will Fall","location_type":"Street","n":"1425"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Bracket Arm Bent","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Basement","location_type":"3+ Family Apartment Building","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Fountain - Over 5 Gallons","location_type":"3+ Family Apartment Building","n":"2"}
+,{"agency":"DOT","complaint_type":"Bridge Condition","descriptor":"American Flag","location_type":"Bridge","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Protection","location_type":"Restaurant/Bar/Deli/Bakery","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Soup Kitchen","n":"1"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Oil Spill Into Basin/Sewer - Large (IABL)","n":"5"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Odor, Nail Salon (AD8)","n":"2"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Unsafe Worksite","location_type":"Street","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Waste","location_type":"3+ Family Apartment Building","n":"66"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - After Repaving","location_type":"Vehicle Lane","n":"9"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Dirty Water (WE)","n":"340"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Sign Inadequate","location_type":"Commercial Building","n":"1"}
+,{"agency":"DOB","complaint_type":"Cranes and Derricks","descriptor":"Crane/Suspension Scaffold - No Permit/License/Cert./Unsafe/Illegal","n":"6"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Out of Order","location_type":"Street","n":"94"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise:  lawn care equipment (NCL)","n":"65"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Flower Planters","location_type":"1-2 Family Dwelling","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Government Building","n":"5"}
+,{"agency":"DSNY","complaint_type":"Institution Disposal Complaint","descriptor":"Storage Area Not Provided","location_type":"Non-Profit","n":"2"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Blocked Sidewalk","location_type":"Street/Sidewalk","n":"7053"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Allergy Information","location_type":"Restaurant/Bar/Deli/Bakery","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Cat","location_type":"1-2 Family Dwelling","n":"26"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Bag/Wallet","location_type":"Taxi","n":"239"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Waterway-Color (IHD)","n":"4"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - After Repaving","location_type":"Bike Lane","n":"5"}
+,{"agency":"OOS","complaint_type":"Cannabis Retailer","descriptor":"Too Close to a House of Worship","n":"21"}
+,{"agency":"OTI","complaint_type":"LinkNYC","descriptor":"WiFi/Internet Not Working/Slow","location_type":"Sidewalk","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Food Temperature","location_type":"Green Cart Vendor","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"One Way","location_type":"Street","n":"17"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Use of Newly Seeded Lawn","location_type":"Park","n":"2"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Residential Building/House","n":"581"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Sidewalk Shed/Pipe Scafford - Inadequate Defective/None","n":"385"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Non Passenger","n":"200"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Sewer Odor (SA2)","n":"115"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"Common Areas and Apartment","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Hitting Building","location_type":"Street","n":"1254"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Bees/Wasps - Not a beekeper","location_type":"Commercial Building","n":"1"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Gasoline Spill (IAA)","n":"5"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Missing/Stump","location_type":"Street","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"3+ Family Mixed Use Building","n":"5"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Catch Basin Grating Missing (SA4)","n":"22"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Sidewalk","location_type":"1-2 Family Dwelling","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Commercial Building","n":"68"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Safety Equipment/Signs","location_type":"Pool","n":"13"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Detour","location_type":"Street","n":"1"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Bag/Wallet","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Pet/Animal","location_type":"Restaurant/Bar/Deli/Bakery","n":"131"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Crash Cushion Defect","location_type":"Highway","n":"4"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Parking Corral Not Maintained","location_type":"Sidewalk","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dry Cleaning Vapors (PERC)","location_type":"Commercial Building","n":"1"}
+,{"agency":"HPD","complaint_type":"ELECTRIC","descriptor":"WIRING","location_type":"RESIDENTIAL BUILDING","n":"387"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Swimming Pool - Unmaintained","location_type":"3+ Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Office Building","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Valve Box","location_type":"Street","n":"9"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Boat(Engine,Music,Etc) (NR10)","n":"174"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Trespassing","location_type":"Park/Playground","n":"17"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"No Parking, Standing, Stopping","location_type":"Street","n":"67"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Public Garden","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Bees/Wasps - Not a beekeper","location_type":"3+ Family Mixed Use Building","n":"2"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"SIGNAGE MISSING","location_type":"RESIDENTIAL BUILDING","n":"228"}
+,{"agency":"DOT","complaint_type":"Ferry Inquiry","descriptor":"Lost and Found","location_type":"Ferry","n":"29"}
+,{"agency":"HPD","complaint_type":"SAFETY","descriptor":"FIRE ESCAPE","location_type":"RESIDENTIAL BUILDING","n":"477"}
+,{"agency":"DEP","complaint_type":"Hazardous Material","descriptor":"Chemical Odor","location_type":"N/A","n":"62"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Street","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Summer Camp","n":"1"}
+,{"agency":"DOT","complaint_type":"Ferry Complaint","descriptor":"Cleanliness","location_type":"Terminal","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Bracket Arm Loose","n":"2"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Hours of Operation","location_type":"Street/Curbside","n":"6"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Supermarket or Grocery Store","location_type":"Business","n":"123"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"On Messenger","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Preparation Location","location_type":"Restaurant/Bar/Deli/Bakery","n":"12"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Odor","location_type":"Catch Basin/Sewer","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Lifeguard","descriptor":"Absent","location_type":"Pool","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"E-Cigarette Sales","location_type":"Business","n":"29"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unauthorized Posting of Signs","location_type":"Street/Curbside","n":"1"}
+,{"agency":"DSNY","complaint_type":"Graffiti","descriptor":"Graffiti","location_type":"Mixed Use","n":"886"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Street Cleaning - ASP","location_type":"Street","n":"12"}
+,{"agency":"DPR","complaint_type":"Root/Sewer/Sidewalk Condition","descriptor":"Trees and Sidewalks Program","location_type":"Street","n":"951"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Support Bracket","n":"23"}
+,{"agency":"DOHMH","complaint_type":"Poison Ivy","descriptor":"N/A","location_type":"Other (Explain Below)","n":"9"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Branch or Limb Has Fallen Down","location_type":"Park","n":"75"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Culvert Blocked/Needs Cleaning (SE)","n":"56"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"School","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Day Care Facility","location_type":"Commercial Building","n":"38"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Commercial Building","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"Coming into Apartment","location_type":"Other (Explain Below)","n":"5"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Trash","location_type":"Yard","n":"712"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Taste/Odor, Sewer (QA5)","n":"3"}
+,{"agency":"DSNY","complaint_type":"Dumpster Complaint","descriptor":"Small uncovered dumpster","location_type":"Sidewalk","n":"16"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Other","n":"3"}
+,{"agency":"DSNY","complaint_type":"Illegal Dumping","descriptor":"Chronic Dumping","location_type":"Street","n":"121"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Contaminated","location_type":"Restaurant/Bar/Deli/Bakery","n":"65"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Dangling","descriptor":"Exit/Route","location_type":"Highway","n":"2"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"In Public","location_type":"Club/Bar/Restaurant","n":"18"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"3+ Family Mixed Use Building","n":"8"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Dust from Construction","location_type":"Within Building","n":"21"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Oil, Grease In Water (QD1)","n":"4"}
+,{"agency":"DSNY","complaint_type":"Derelict Vehicles","descriptor":"Derelict Vehicles","location_type":"Street","n":"3266"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Other/Unknown","location_type":"Street","n":"66"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Garbage or Litter","location_type":"Park","n":"452"}
+,{"agency":"DSNY","complaint_type":"Sanitation Worker or Vehicle Complaint","descriptor":"Noise","location_type":"Street","n":"30"}
+,{"agency":"DOB","complaint_type":"Plumbing","descriptor":"Sprinkler System - Inadequate","n":"14"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Guard Rail - Street","location_type":"Street","n":"6"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Dog","location_type":"Residential","n":"161"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Merchandise","location_type":"Street","n":"32"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Sign Missing or Defective","location_type":"Bus Stop Shelter","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Speed Limit","location_type":"Street","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Spoiled","location_type":"Other (Explain Below)","n":"28"}
+,{"agency":"DSNY","complaint_type":"Illegal Dumping","descriptor":"Removal Request","location_type":"Street","n":"1040"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Complaint","descriptor":"Overflowing","location_type":"Street","n":"26"}
+,{"agency":"DEP","complaint_type":"Hazardous Material","descriptor":"Chemical Safety/Storage","location_type":"N/A","n":"5"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Chemical Spill (IAC)","n":"10"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Construction","location_type":"Building/Construction Site","n":"305"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Recycling - Metal/Glass/Rigid Plastic","location_type":"Street","n":"270"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Site Setup Condition","location_type":"Street","n":"25"}
+,{"agency":"DEP","complaint_type":"Hazardous Materials","descriptor":"Chemical Spill/Release (HA1)","n":"19"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Beach/Pool Water","location_type":"Beach","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Building Drinking Water Tank","descriptor":"Unsanitary Condition","location_type":"Ground","n":"2"}
+,{"agency":"DSNY","complaint_type":"Abandoned Bike","descriptor":"Chained to Public Property","location_type":"Intersection","n":"22"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Opossum","location_type":"Sidewalk","n":"19"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Damaged or Vandalized","location_type":"Sidewalk","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Furniture Store","location_type":"Business","n":"18"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Games of Chance","location_type":"Business","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - After Repaving","location_type":"Speed Reducer","n":"13"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"In Common Areas","location_type":"1-2 Family Dwelling","n":"2"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Broken/Leaking - Private Residence (CMR)","n":"119"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Traffic Signal Light","n":"46"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Request","descriptor":"New Basket","location_type":"Sidewalk","n":"154"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Damaged","n":"43"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"Common Areas and Apartment","location_type":"1-2 Family Dwelling","n":"4"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Sidewalk Zone Blocked","location_type":"Sidewalk","n":"152"}
+,{"agency":"HPD","complaint_type":"DOOR/WINDOW","descriptor":"DOOR FRAME","location_type":"RESIDENTIAL BUILDING","n":"328"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Driveway","location_type":"Commercial Building","n":"1"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Other (complaint details)","location_type":"Residential Building/House","n":"523"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Hydrant Defective (WC2)","n":"250"}
+,{"agency":"HPD","complaint_type":"ELEVATOR","descriptor":"MAINTENANCE","location_type":"RESIDENTIAL BUILDING","n":"241"}
+,{"agency":"DEP","complaint_type":"Waste Water Treatment Plant","descriptor":"Odor","location_type":"Plant","n":"1"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Cone","location_type":"Street","n":"764"}
+,{"agency":"DOT","complaint_type":"Bike Rack","descriptor":"Abandoned Bike","location_type":"Sidewalk","n":"43"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Highway","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"School","n":"1"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Bulky Trash","location_type":"Street","n":"585"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Store/Commercial","n":"534"}
+,{"agency":"DOHMH","complaint_type":"Cooling Tower","descriptor":"Unsanitary Condition","location_type":"Roof","n":"21"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tobacco Sales","n":"52"}
+,{"agency":"DSNY","complaint_type":"Illegal Posting","descriptor":"Poster or Sign","location_type":"Street","n":"120"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Street Cleaning - ASP","location_type":"Street","n":"32"}
+,{"agency":"DOHMH","complaint_type":"Drinking Water","descriptor":"Illness Caused by Drinking Water","location_type":"3+ Family Apartment Building","n":"17"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Push Button","n":"9"}
+,{"agency":"NYPD","complaint_type":"Bike/Roller/Skate","descriptor":"N/A","location_type":"Residential Building/House","n":"34"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Highway","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Odor","location_type":"1-2 Family Dwelling","n":"4"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Flood Light Lamp Out","n":"11"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Sign","location_type":"Sidewalk","n":"47"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"In Public","location_type":"Store/Commercial","n":"41"}
+,{"agency":"DOB","complaint_type":"Boilers","descriptor":"Boiler - Defective/Inoperative/No Permit","n":"147"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Loose Plate","location_type":"Highway","n":"18"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Construction Labor Provider","location_type":"Business","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Other Animal","location_type":"3+ Family Mixed Use Building","n":"5"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Passenger","location_type":"Highway","n":"30"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Other - Explain Below","location_type":"Other","n":"78"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Wasting Faucets,Sinks,Flushometer,Urinal,Etc. - Private Residence (CWR)","n":"21"}
+,{"agency":"DOHMH","complaint_type":"Lifeguard","descriptor":"Absent","location_type":"Beach","n":"1"}
+,{"agency":"DSNY","complaint_type":"Abandoned Bike","descriptor":"Chained to Public Property","location_type":"Street","n":"183"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"New Con Ed Service Request","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"St Name - Over Intersection","location_type":"Street","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Worker Hygiene","location_type":"Catering Service","n":"1"}
+,{"agency":"DOB","complaint_type":"Plumbing","descriptor":"Plumbing-Defective/Leaking/Not Maintained","n":"67"}
+,{"agency":"TLC","complaint_type":"Taxi Compliment","descriptor":"Driver Compliment","location_type":"N/A","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Cat","location_type":"3+ Family Mixed Use Building","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Plumbing","location_type":"Mobile Food Vendor","n":"6"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Report","descriptor":"Car Service Company Report","location_type":"Street","n":"1"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Unauthorized Tree Removal","location_type":"Street","n":"60"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Street/Sidewalk","n":"731"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Complaint","descriptor":"Overflowing","location_type":"Sidewalk","n":"109"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Defective/Missing Curb Piece (SC4)","n":"16"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Homeless Shelter","n":"1"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Tortured","location_type":"Parking Lot","n":"1"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Street/Sidewalk","n":"2120"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Boat","location_type":"Waterway","n":"11"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Illegal Conversion Of Manufacturing/Industrial Space","n":"2"}
+,{"agency":"HPD","complaint_type":"DOOR/WINDOW","descriptor":"DOOR","location_type":"RESIDENTIAL BUILDING","n":"2475"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"No Shelter","location_type":"Commercial","n":"9"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Concrete","location_type":"Catch Basin/Sewer","n":"4"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Cellar Door Open/Unprotected","location_type":"Sidewalk","n":"16"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Passenger","location_type":"Street","n":"493"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Entire Tree Has Fallen Down","location_type":"Park","n":"44"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Traffic Camera","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Worker Hygiene","location_type":"Restaurant/Bar/Deli/Bakery","n":"31"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Gift, Novelty, or Souvenir Store","n":"1"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Cons - Contrary/Beyond Approved Plans/Permits","n":"204"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Residential Building/House","n":"357"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Pet/Animal","location_type":"Other (Explain Below)","n":"12"}
+,{"agency":"DPR","complaint_type":"Uprooted Stump","descriptor":"Remove Stump","location_type":"Street","n":"64"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Animal Other Than Dog","location_type":"Residential","n":"6"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Running Full","location_type":"Sidewalk","n":"420"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Smoking Signs - \"No Smoking\" Signs Not Observed on Construction Site","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tax Preparation Services","location_type":"Business","n":"7"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Scrap Metal Processor","location_type":"Business","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Street Light Dayburning","n":"61"}
+,{"agency":"DEP","complaint_type":"Asbestos","descriptor":"Asbestos Complaint (B1)","n":"65"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Request","descriptor":"Replacement Basket","location_type":"Street","n":"246"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Hospital","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Sign","location_type":"Restaurant/Bar/Deli/Bakery","n":"1"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"RADIATOR","location_type":"RESIDENTIAL BUILDING","n":"165"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Illegal Use Of Hose - Other (CCO)","n":"2"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"WATER SUPPLY","location_type":"RESIDENTIAL BUILDING","n":"3607"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Animal Waste","location_type":"Street/Curbside","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"No Permit or License","location_type":"Other (Explain Below)","n":"6"}
+,{"agency":"DOB","complaint_type":"Electrical","descriptor":"Electrical Wiring Defective/Exposed","n":"166"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Trunk Damaged","location_type":"Street","n":"138"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Ped Lamp","n":"73"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Bail Bond Agent","location_type":"Business","n":"2"}
+,{"agency":"HPD","complaint_type":"UNSANITARY CONDITION","descriptor":"SEWAGE","location_type":"RESIDENTIAL BUILDING","n":"423"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Failed Street Repair","location_type":"Street","n":"456"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Color","location_type":"Waterway","n":"2"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Smoking","location_type":"Park","n":"65"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Government Building","n":"2"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Veh Signal Visor","n":"26"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"Restaurant","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Radioactive Material","descriptor":"User Unlicensed","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Odor In Sewer/Catch Basin (ICB)","n":"8"}
+,{"agency":"TLC","complaint_type":"Taxi Report","descriptor":"Driver Report - Passenger","n":"53"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Kept as Pet","descriptor":"Rooster","location_type":"Residence","n":"39"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Taste/Odor, Chemical (QA2)","n":"8"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Detour","location_type":"Street","n":"3"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Speed Board Sign","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Sold","descriptor":"Other","location_type":"Residence","n":"2"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Congestion/Gridlock","location_type":"Highway","n":"22"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"3+ Family Apt. Building","n":"876"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Other (complaint details)","location_type":"Parking Lot","n":"5"}
+,{"agency":"DSNY","complaint_type":"Recycling Basket Complaint","descriptor":"Misuse","location_type":"Sidewalk","n":"3"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Mattress or Box Spring Uncovered","location_type":"Sidewalk","n":"57"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Sidewalk Violation","location_type":"Sidewalk","n":"747"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Fixture/Luminaire Damaged","n":"19"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Report","descriptor":"Driver Report - Non Passenger","n":"62"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Other Animal","location_type":"3+ Family Apartment Building","n":"20"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unauthorized Climbing","location_type":"Park","n":"2"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Graffiti or Vandalism","location_type":"Park","n":"75"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Restaurant","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Dog","location_type":"3+ Family Mixed Use Building","n":"19"}
+,{"agency":"EDC","complaint_type":"Noise - Helicopter","descriptor":"NYPD","location_type":"Above Address","n":"5"}
+,{"agency":"HPD","complaint_type":"SAFETY","descriptor":"CARBON MONOXIDE DETECTOR","location_type":"RESIDENTIAL BUILDING","n":"230"}
+,{"agency":"HPD","complaint_type":"OUTSIDE BUILDING","descriptor":"SKYLIGHT","location_type":"RESIDENTIAL BUILDING","n":"8"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Wireless Antenna","n":"1"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Dust, Other (Use Comments) (AE5)","n":"26"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Sewer or Drain","location_type":"Other","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Facility Maintenance","location_type":"Pool","n":"19"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"No Water","location_type":"N/A","n":"53"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Syringes","location_type":"Gutter","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Rooftank Leak Or Overflow (CKO)","n":"20"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Flood Light Lamp Cycling","n":"3"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Improperly Parked or Abandoned","location_type":"Building Entrance","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"Animals Sold From Residence","location_type":"Private Residence","n":"15"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Deer","location_type":"Highway","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"3 or More","location_type":"Restaurant/Bar/Deli/Bakery","n":"35"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Smoking, Cigar, or Vape Store","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Residential Rental Agency","location_type":"Business","n":"7"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Other Air Problem","location_type":"N/A","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Tattooing","descriptor":"Tattoo Artist Unlicensed","location_type":"Tattoo Parlor","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Day Care or Nursery","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dust from Construction","location_type":"School","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Gift, Novelty, or Souvenir Store","location_type":"Business","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Safety Equipment/Signs","location_type":"Beach","n":"4"}
+,{"agency":"NYPD","complaint_type":"Urinating in Public","descriptor":"N/A","location_type":"Residential Building/House","n":"58"}
+,{"agency":"TLC","complaint_type":"Found Property","descriptor":"Electronics/Phones","location_type":"Taxi","n":"5"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Loud Talking","location_type":"Club/Bar/Restaurant","n":"125"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Park","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"Other (Explain Below)","n":"19"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Detour","location_type":"Street","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"3 or More","location_type":"Food Cart Vendor","n":"4"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Squirrel","location_type":"Street","n":"38"}
+,{"agency":"DSNY","complaint_type":"Institution Disposal Complaint","descriptor":"Trash Not Separated from Recycling","location_type":"Non-Profit","n":"3"}
+,{"agency":"NYPD","complaint_type":"Noise - Park","descriptor":"Loud Talking","location_type":"Park/Playground","n":"197"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Smoke, Chimney or vent (AS1)","n":"26"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Sign/Awning/Marquee - Illegal/No Permit","n":"76"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Rat or Mouse","location_type":"Street","n":"49"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"In Post Base","n":"9"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Debris - Falling Or In Danger Of Falling","n":"94"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Street Flooding (SJ)","n":"528"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"No Parking, Standing, Stopping","location_type":"Street","n":"82"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Tortured","location_type":"Park/Playground","n":"4"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Broken Glass","location_type":"Park","n":"26"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Request","descriptor":"New Basket","location_type":"Street","n":"33"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Waste Left in Front of Other Residence","location_type":"Sidewalk","n":"124"}
+,{"agency":"DSNY","complaint_type":"Vendor Enforcement","descriptor":"Non-Food Vendor","location_type":"Street","n":"850"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Catch Basin or Sewer","n":"1"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Animal Waste","location_type":"Park","n":"13"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Bike Signal","n":"13"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Toilet Facility","location_type":"Restaurant/Bar/Deli/Bakery","n":"31"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Bracket Arm Broken","n":"3"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Taste/Odor, Bitter/Metallic (QA3)","n":"3"}
+,{"agency":"DEP","complaint_type":"Hazardous Material","descriptor":"Chemical Spill","location_type":"N/A","n":"19"}
+,{"agency":"NYPD","complaint_type":"Panhandling","descriptor":"N/A","location_type":"Park/Playground","n":"28"}
+,{"agency":"NYPD","complaint_type":"Noise - Park","descriptor":"Loud Music/Party","location_type":"Park/Playground","n":"737"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Chemical Vapors/Gases/Odors","location_type":"Commercial Building","n":"9"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Electronics Store","n":"2"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Lawn Care Equipment","location_type":"Residential Property","n":"28"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Roof","location_type":"3+ Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Bees/Wasps - Not a beekeper","location_type":"1-2 Family Dwelling","n":"18"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Cave-in","location_type":"Highway","n":"31"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Plate Condition - Shifted","location_type":"Street","n":"48"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"1 or 2","location_type":"Restaurant/Bar/Deli/Bakery","n":"182"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Timer Defect - Fast/Fail","location_type":"Street","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Dog","location_type":"3+ Family Apartment Building","n":"91"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Other (Explain Below)","n":"37"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Horse-Drawn Cab","location_type":"Business","n":"4"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Curb Cut/Driveway/Carport - Illegal","n":"273"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Beekeeping - Honeybees","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Dog","location_type":"Street","n":"11"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"House of Worship","n":"3"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Bent/Loose","location_type":"Street","n":"7"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Illegal Conversion Of Commercial Bldg/Space To Other Uses","n":"24"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Sidewalk","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"3+ Family Mixed Use Building","n":"116"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Hospital","n":"3"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Highway","n":"17"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Wooded Area","n":"2"}
+,{"agency":"NYPD","complaint_type":"Drug Activity","descriptor":"Use Indoor","location_type":"Stairwell","n":"38"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Other Animal","location_type":"1-2 Family Dwelling","n":"15"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"Cat Sold","location_type":"Commercial Building","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"3+ Family Mixed Use Building","n":"39"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Water","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DOT","complaint_type":"Ferry Complaint","descriptor":"Disruptive Passenger","location_type":"Ferry","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Bees/Wasps - Not a beekeper","location_type":"3+ Family Apartment Building","n":"26"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Plumbing","location_type":"Restaurant/Bar/Deli/Bakery","n":"4"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"APS","n":"133"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Facility Construction","location_type":"Restaurant/Bar/Deli/Bakery","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Public Garden","n":"1"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Odor/Fumes, Restaurant (AD2)","n":"34"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Handwashing","location_type":"Restaurant/Bar/Deli/Bakery","n":"10"}
+,{"agency":"TLC","complaint_type":"Taxi Report","descriptor":"Driver Report - Non Passenger","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Sidewalk","n":"192"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"Common Areas and Apartment","location_type":"3+ Family Apartment Building","n":"31"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"3+ Family Apt. Building","n":"22"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Waste","location_type":"Residential Building","n":"1"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Trash or Recycling Not Secure","location_type":"Sidewalk","n":"294"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Vacant Lot","n":"20"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"No Permit or License","location_type":"Residence","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Stop","location_type":"Street","n":"77"}
+,{"agency":"DOB","complaint_type":"Real Time Enforcement","descriptor":"Work Without A Permit - Occupied Multiple Dwelling","n":"613"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Safety Netting/Guard Rails - Damaged/Inadequate/None (6 Stories/75 Feet Or Less)","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Equipment","location_type":"Mobile Food Vendor","n":"61"}
+,{"agency":"DOB","complaint_type":"Building/Use","descriptor":"No Certificate Of Occupancy/Illegal/Contrary To CO","n":"380"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"3+ Family Apartment Building","n":"6"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Dog","location_type":"Highway","n":"7"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Clothing/Glasses","location_type":"Taxi","n":"41"}
+,{"agency":"NYPD","complaint_type":"Posting Advertisement","descriptor":"Building","location_type":"Residential Building/House","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Indoor Sewage","descriptor":"Sewage Leak","location_type":"1-2 Family Dwelling","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Other","n":"14"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Rough, Pitted or Cracked Roads","location_type":"Street","n":"450"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"1-2 Family Dwelling","n":"302"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"BATHTUB/SHOWER","location_type":"RESIDENTIAL BUILDING","n":"1458"}
+,{"agency":"DOT","complaint_type":"Wayfinding","descriptor":"Other Damage to Sign","location_type":"Sidewalk","n":"1"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Hitting Phone/Cable Lines","location_type":"Street","n":"236"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Chained","location_type":"Parking Lot","n":"2"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Report - Non Passenger","location_type":"Street","n":"8"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"House of Worship","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Ventilation","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"BOILER","location_type":"RESIDENTIAL BUILDING","n":"1"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Injured Wildlife","location_type":"Park","n":"90"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Jewelry Store","location_type":"Business","n":"3"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Non Passenger","location_type":"Highway","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Day Care Facility","location_type":"Private School","n":"21"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Street/Sidewalk","n":"108"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Landmark Bldg - Illegal Work","n":"12"}
+,{"agency":"HPD","complaint_type":"HEAT/HOT WATER","descriptor":"ENTIRE BUILDING","location_type":"RESIDENTIAL BUILDING","n":"2893"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Swamp or Pond","n":"2"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Adjacent Buildings Not Protected","n":"93"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"Unsanitary Conditions","location_type":"Commercial Building","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Clothing, Shoe, or Accessories Store","location_type":"Business","n":"56"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Odor","location_type":"Commercial Building","n":"16"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Blocking Street","location_type":"Street","n":"879"}
+,{"agency":"HPD","complaint_type":"PAINT/PLASTER","descriptor":"CABINET","location_type":"RESIDENTIAL BUILDING","n":"107"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Sidewalk Grating - Missing","location_type":"Sidewalk","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"No Permit or License","location_type":"Restaurant/Bar/Deli/Bakery","n":"33"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - Faded","location_type":"Crosswalk","n":"42"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Sewer Backup (Use Comments) (SA)","n":"840"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Sewer or Drain","location_type":"1-2 Family Dwelling","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Used Car Dealer","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Day Care Facility","location_type":"Private House","n":"24"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Toxic Chemical/Material","location_type":"Restaurant/Bar/Deli/Bakery","n":"2"}
+,{"agency":"DPR","complaint_type":"Dead/Dying Tree","descriptor":"Planted More Than 2 Years Ago","location_type":"Street","n":"1558"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Door Lock","n":"4"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Other","location_type":"Taxi","n":"67"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Bus Stop","location_type":"Street","n":"10"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Highway Flooding (SH)","n":"32"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Hotel or Motel","location_type":"Business","n":"59"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Asbestos Disturbance","location_type":"N/A","n":"70"}
+,{"agency":"DOT","complaint_type":"Ferry Complaint","descriptor":"Disruptive Passenger","location_type":"Terminal","n":"2"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Controller","n":"3484"}
+,{"agency":"DEP","complaint_type":"Hazardous Material","descriptor":"Oil Spill Small","location_type":"Street","n":"8"}
+,{"agency":"OOS","complaint_type":"Cannabis Retailer","descriptor":"Product Concerns","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"Dog Sold","location_type":"Commercial Building","n":"1"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Trespassing","location_type":"Street/Sidewalk","n":"29"}
+,{"agency":"NYPD","complaint_type":"Drug Activity","descriptor":"Use Indoor","location_type":"Lobby","n":"27"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Defective Hardware","location_type":"Street","n":"517"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Wildlife Sighting","location_type":"Street/Curbside","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Tires","location_type":"1-2 Family Dwelling","n":"2"}
+,{"agency":"TLC","complaint_type":"Found Property","descriptor":"Clothing/Glasses","location_type":"Taxi","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Sidewalk","n":"22"}
+,{"agency":"DSNY","complaint_type":"Street Sweeping Complaint","descriptor":"Street Not Swept","location_type":"Street","n":"234"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Worker Activity","location_type":"Restaurant/Bar/Deli/Bakery","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Cooling Tower","descriptor":"Broken/Defective","location_type":"Other","n":"3"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Landlord or Real Estate Agent","location_type":"Business","n":"51"}
+,{"agency":"OOS","complaint_type":"Cannabis Retailer","descriptor":"Unlicensed","n":"151"}
+,{"agency":"DPR","complaint_type":"Dead/Dying Tree","descriptor":"Planted More Than 2 Years Ago","location_type":"Park","n":"17"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Neglected","location_type":"Store/Commercial","n":"25"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"JANITOR/SUPER","location_type":"RESIDENTIAL BUILDING","n":"262"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Micromobility Device Store","location_type":"Business","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Construction","location_type":"Street","n":"3"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Funeral Home","location_type":"Business","n":"4"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Veh Signal Lens","n":"12"}
+,{"agency":"HPD","complaint_type":"SAFETY","descriptor":"SPRINKLER","location_type":"RESIDENTIAL BUILDING","n":"39"}
+,{"agency":"DSNY","complaint_type":"Illegal Posting","descriptor":"Sticker or Decal","location_type":"Sidewalk","n":"47"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Cat","location_type":"3+ Family Apartment Building","n":"64"}
+,{"agency":"DSNY","complaint_type":"Lot Condition","descriptor":"Trash","location_type":"Lot","n":"229"}
+,{"agency":"HPD","complaint_type":"PAINT/PLASTER","descriptor":"DOOR/FRAME","location_type":"RESIDENTIAL BUILDING","n":"98"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Dead Animal","location_type":"Park","n":"60"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Parking Lot or Garage","n":"17"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"St Name - Attached to Pole","location_type":"Street","n":"28"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Clear With Particles","location_type":"N/A","n":"14"}
+,{"agency":"DOB","complaint_type":"Investigations and Discipline (IAD)","descriptor":"Plumbing Work - Unlicensed/Illegal/Improper Work In Progress","n":"11"}
+,{"agency":"HPD","complaint_type":"UNSANITARY CONDITION","descriptor":"MOLD","location_type":"RESIDENTIAL BUILDING","n":"3461"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Driveway","location_type":"3+ Family Mixed Use Building","n":"1"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Non Passenger","n":"74"}
+,{"agency":"DOB","complaint_type":"Building/Use","descriptor":"Zoning - Non-Conforming/Illegal Vehicle Storage","n":"251"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Beekeeping - Honeybees","location_type":"1-2 Family Dwelling","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Workplace Policy Not Provided or Inadequate","location_type":"Restaurant/Bar/Deli/Bakery","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Day Care Facility","location_type":"Public School","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Sidewalk","location_type":"Commercial Building","n":"1"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Double Parked Blocking Vehicle","location_type":"Street/Sidewalk","n":"1356"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Pier","n":"23"}
+,{"agency":"NYPD","complaint_type":"Urinating in Public","descriptor":"N/A","location_type":"Subway Station","n":"6"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Construction Equipment","location_type":"Building/Construction Site","n":"137"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Letter Grading","location_type":"Other (explain in Complaint Details)","n":"13"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Construction Equipment","location_type":"Street/Sidewalk","n":"51"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Dead End Signal","n":"1"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Failure To Maintain","n":"103"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Park/Playground","n":"137"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Storage Warehouse","location_type":"Business","n":"26"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Refrigerator or Freezer Door Attached","location_type":"Sidewalk","n":"8"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Shipping Company","location_type":"Business","n":"3"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Electronics/Phones","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Reflector/Louvre","n":"1"}
+,{"agency":"HPD","complaint_type":"UNSANITARY CONDITION","descriptor":"GARBAGE/RECYCLING STORAGE","location_type":"RESIDENTIAL BUILDING","n":"2162"}
+,{"agency":"DPR","complaint_type":"Wood Pile Remaining","descriptor":"Remove Debris","location_type":"Park","n":"6"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Barber Shop, Beauty Salon, or Nail Salon","location_type":"Business","n":"35"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Commercial Building","n":"13"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Other (complaint details)","location_type":"Store/Commercial","n":"24"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Unauthorized Tree Pruning","location_type":"Street","n":"39"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Jackhammer","location_type":"Building/Construction Site","n":"39"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Leak","location_type":"N/A","n":"186"}
+,{"agency":"DSNY","complaint_type":"Graffiti","descriptor":"Graffiti","location_type":"Comercial","n":"515"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Box Cover","n":"1"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Injured Wildlife","location_type":"Street/Curbside","n":"26"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Pedicab","location_type":"Business","n":"15"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Improperly Parked or Abandoned","location_type":"Sidewalk","n":"26"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Ver Mesage Sign RTPI","n":"6"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Missing","descriptor":"Other/Unknown","location_type":"Highway","n":"3"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Broken Glass","location_type":"Street","n":"35"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Newspaper Box Complaint","location_type":"Sidewalk","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Ventilation","location_type":"1-2 Family Dwelling","n":"13"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Used Goods Dealer","location_type":"Business","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Tobacco or Non-Tobacco Sale","descriptor":"Original Labels or Packaging Not Kept","location_type":"Restaurant/Bar/Deli/Bakery","n":"3"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Chained","location_type":"Residential Building/House","n":"19"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"No Animal Handling Certificate","location_type":"Commercial Building","n":"2"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Branches Damaged","location_type":"Street","n":"268"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"St Name - Attached to Pole","location_type":"Street","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Preparation Location","location_type":"Other (Explain Below)","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Mold","descriptor":"Public Complaint - Comm Location","location_type":"Commercial Building","n":"26"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"1-2 Family Dwelling","n":"6"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Clothing, Shoe, or Accessories Store","n":"8"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Ticket Seller","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Garage or Parking Lot","n":"1"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Damaged or Missing Ad Box","location_type":"Bus Stop Shelter","n":"4"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"In Public","location_type":"Street/Sidewalk","n":"300"}
+,{"agency":"NYPD","complaint_type":"Noise - Vehicle","descriptor":"Car/Truck Horn","location_type":"Street/Sidewalk","n":"1738"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Parking Corral Not Maintained","location_type":"Street","n":"3"}
+,{"agency":"NYPD","complaint_type":"Disorderly Youth","descriptor":"Playing in Unsuitable Place","location_type":"Residential Building/House","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Indoor Sewage","descriptor":"Sewage Leak","location_type":"3+ Family Apt. Building","n":"47"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Tortured","location_type":"Residential Building/House","n":"87"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Temperature","location_type":"Other (Explain Below)","n":"12"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Veh Sgnl Mult Lamps","n":"103"}
+,{"agency":"DSNY","complaint_type":"Dumpster Complaint","descriptor":"Blocking Sidewalk or Street","location_type":"Sidewalk","n":"26"}
+,{"agency":"HPD","complaint_type":"WATER LEAK","descriptor":"HEAVY FLOW","location_type":"RESIDENTIAL BUILDING","n":"2028"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Branch Cracked and Will Fall","location_type":"Park","n":"43"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Movie Theater","location_type":"Business","n":"1"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Barrier Condition","location_type":"Street","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Lifeguard","descriptor":"Inattentive","location_type":"Pool","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Junction Box","n":"16"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Warning Signal","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Ped Multiple Lamps","n":"56"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Dust","location_type":"N/A","n":"2"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Construction Equipment","location_type":"Unknown","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Vacant Lot","n":"1"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Jack Hammering (NC2)","n":"123"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Broken Glass","location_type":"Street/Curbside","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Harboring Bees/Wasps","descriptor":"Beekeeping - Honeybees","location_type":"3+ Family Apartment Building","n":"3"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Dog Off Leash","location_type":"Park","n":"184"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Cable","n":"41"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Bracket Arm Missing","n":"2"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Grass/Weeds","location_type":"Street/Curbside","n":"105"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Restaurant/Bar/Deli/Bakery","n":"32"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Dealer in Products for the Disabled","location_type":"Business","n":"4"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Structure - Indoors","location_type":"Park","n":"86"}
+,{"agency":"DSNY","complaint_type":"Recycling Basket Complaint","descriptor":"Overflowing","location_type":"Sidewalk","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Street Area","n":"11"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Wear & Tear","n":"11"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Ventilation","location_type":"Commercial Building","n":"39"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Sewer or Drain","location_type":"Public Garden/Park","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Other","location_type":"Street","n":"66"}
+,{"agency":"DOHMH","complaint_type":"Animal Facility - No Permit","descriptor":"N/A","location_type":"Kennel/Animal Shelter","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Unsafe Mold Cleanup","location_type":"Mixed Use Building","n":"2"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Street Light Cycling","n":"35"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Summer Camp","n":"1"}
+,{"agency":"NYPD","complaint_type":"Abandoned Vehicle","descriptor":"With License Plate","location_type":"Vacant Lot","n":"22"}
+,{"agency":"DOT","complaint_type":"DEP Sidewalk Condition","descriptor":"Cave-in","location_type":"Sidewalk","n":"1"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Improperly Parked or Abandoned","location_type":"Street","n":"8"}
+,{"agency":"DSNY","complaint_type":"Transfer Station Complaint","descriptor":"Odor","location_type":"Street","n":"1"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Broken Sidewalk","location_type":"Overpass","n":"7"}
+,{"agency":"NYPD","complaint_type":"Posting Advertisement","descriptor":"Vehicle","location_type":"Street/Sidewalk","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Building Drinking Water Tank","descriptor":"Unsanitary Condition","location_type":"Inside","n":"5"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Trash or Recycling","location_type":"Street","n":"105"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Dirt or Gravel","location_type":"Traffic Island or Median","n":"8"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"RAIN GARDEN STRUCTURE (GIRGS)","n":"6"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Park/Playground","n":"16"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Blocked - ATM","location_type":"Sidewalk","n":"4"}
+,{"agency":"HPD","complaint_type":"DOOR/WINDOW","descriptor":"WINDOW FRAME","location_type":"RESIDENTIAL BUILDING","n":"1303"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Post","n":"77"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Blocked Hydrant","location_type":"Street/Sidewalk","n":"13150"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Kept as Pet","descriptor":"Ferret","location_type":"Residence","n":"1"}
+,{"agency":"HPD","complaint_type":"PAINT/PLASTER","descriptor":"WINDOW/FRAME","location_type":"RESIDENTIAL BUILDING","n":"96"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise, Ice Cream Truck (NR4)","n":"61"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Other (complaint details)","location_type":"Park/Playground","n":"4"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Other (complaint details)","location_type":"Park/Playground","n":"126"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Control Panel Damaged","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Apartment","n":"1"}
+,{"agency":"DOB","complaint_type":"Elevator","descriptor":"Elevator - Single Device On Property/No Alternate Service","n":"1884"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Bridge","n":"9"}
+,{"agency":"NYPD","complaint_type":"Panhandling","descriptor":"N/A","location_type":"Residential Building/House","n":"166"}
+,{"agency":"DOHMH","complaint_type":"Poison Ivy","descriptor":"N/A","location_type":"Residential Building","n":"21"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"3 or More","location_type":"Senior Center","n":"2"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Tree Leaning/Uprooted","location_type":"Park","n":"9"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Excavation Undermining Adjacent Building","n":"14"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Electronics or Appliance Repair","location_type":"Business","n":"8"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Bird","location_type":"Street","n":"33"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Street Light Lamp Missing","n":"23"}
+,{"agency":"DPR","complaint_type":"New Tree Request","descriptor":"For One Address","location_type":"Street","n":"45"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Neglected","location_type":"Park/Playground","n":"4"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Missing","descriptor":"Exit/Route","location_type":"Highway","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Catering Service","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Hospital","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"Public Garden/Park","n":"4"}
+,{"agency":"HPD","complaint_type":"WATER LEAK","descriptor":"DAMP SPOT","location_type":"RESIDENTIAL BUILDING","n":"629"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Ventilation","location_type":"1-2 Family Mixed Use Building","n":"8"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Street Cleaning - ASP","location_type":"Street","n":"27"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Chemical Vapors/Gases/Odors","location_type":"1-2 Family Dwelling","n":"18"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"After Hours - Licensed Est","location_type":"Club/Bar/Restaurant","n":"19"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"General Vendor","location_type":"Business","n":"6"}
+,{"agency":"OOS","complaint_type":"Cannabis Retailer","descriptor":"Sales to Minors Under 21","n":"182"}
+,{"agency":"NYPD","complaint_type":"Blocked Driveway","descriptor":"Partial Access","location_type":"Street/Sidewalk","n":"4021"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Catch Basin or Sewer","n":"38"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Newsstand","location_type":"Business","n":"1"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Removing Wildlife","location_type":"Park","n":"18"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Supermarket or Grocery Store","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Bare Hands in Contact w/ Food","location_type":"Restaurant/Bar/Deli/Bakery","n":"57"}
+,{"agency":"HPD","complaint_type":"SAFETY","descriptor":"WINDOW GUARD BROKEN/MISSING","location_type":"RESIDENTIAL BUILDING","n":"269"}
+,{"agency":"DOT","complaint_type":"Public Toilet","descriptor":"Dirty/Graffiti","location_type":"Sidewalk","n":"1"}
+,{"agency":"DSNY","complaint_type":"Dumpster Complaint","descriptor":"Blocking Sidewalk or Street","location_type":"Street","n":"61"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Subway","n":"32"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Unsafe Worksite","location_type":"Highway","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Public School","n":"22"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Dishwashing/Utensils","location_type":"Other (Explain Below)","n":"3"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unsafe Use of Playground","location_type":"Street/Curbside","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"3+ Family Apt. Building","n":"230"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"Illegal Animal Sold","location_type":"Commercial Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Food Temperature","location_type":"Mobile Food Vendor","n":"21"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Highway","n":"5"}
+,{"agency":"DOT","complaint_type":"Wayfinding","descriptor":"Dirty/Graffiti/Stickers","location_type":"Sidewalk","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Over 5 Gallons","location_type":"3+ Family Apartment Building","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Sewage Odor","location_type":"3+ Family Apt. Building","n":"118"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Waste Not Separated","location_type":"Sidewalk","n":"163"}
+,{"agency":"NYPD","complaint_type":"Graffiti","descriptor":"Police Report Requested","location_type":"Street/Sidewalk","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Sewage Odor","location_type":"1-2 Family Mixed Use Building","n":"6"}
+,{"agency":"TLC","complaint_type":"Green Taxi Complaint","descriptor":"Driver Complaint - Non Passenger","n":"14"}
+,{"agency":"DOB","complaint_type":"BEST/Site Safety","descriptor":"Safety Netting/Guard Rails - Damaged/Inadequate/None (Over 6 Stories/75 Feet)","n":"16"}
+,{"agency":"DOT","complaint_type":"Tunnel Condition","descriptor":"Rough Pavement","location_type":"Roadway Tunnel","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Waste","location_type":"Commercial Building","n":"39"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Trash","location_type":"Sidewalk","n":"4992"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Biking/Rollerblading off Path","location_type":"Park","n":"9"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Opossum","location_type":"Street","n":"49"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Swimming Pool Cover","location_type":"1-2 Family Dwelling","n":"1"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Gasoline Spill","location_type":"Catch Basin/Sewer","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tour Guide","location_type":"Business","n":"2"}
+,{"agency":"DOT","complaint_type":"E-Scooter","descriptor":"Improperly Parked or Abandoned","location_type":"Private Property","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"1-2 Family Dwelling","n":"234"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Roof","location_type":"Commercial Building","n":"7"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Dirty/Graffiti","location_type":"Bus Stop Shelter","n":"36"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Placement","descriptor":"New Bus Stop Shelter Placement","location_type":"Bus Stop Shelter","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Driveway","location_type":"1-2 Family Dwelling","n":"7"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Illegal Use Of A Hydrant (CIN)","n":"232"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Fence - None/Inadequate","n":"258"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Trespassing","location_type":"Residential Building/House","n":"407"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Office Building","n":"2"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"No Parking, Standing, Stopping","location_type":"Street","n":"52"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - Faded","location_type":"Bike Lane","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Dry Cleaner","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Facility","descriptor":"Animal Waste","location_type":"Kennel/Animal Shelter","n":"2"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Branch or Limb Has Fallen Down","location_type":"Street","n":"3724"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dust from Construction","location_type":"3+ Family Apartment Building","n":"63"}
+,{"agency":"HPD","complaint_type":"FLOORING/STAIRS","descriptor":"STAIRS","location_type":"RESIDENTIAL BUILDING","n":"105"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Spoiled","location_type":"Restaurant/Bar/Deli/Bakery","n":"103"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"School Crossing","location_type":"Street","n":"2"}
+,{"agency":"DOT","complaint_type":"Bike Rack","descriptor":"Missing","location_type":"Street","n":"4"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Dog","location_type":"Commercial/Mixed Use Building","n":"9"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Branches Damaged","location_type":"Park","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Multiple Street Lights Out","n":"108"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Recreation Center","location_type":"Park","n":"81"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Bus Stop","location_type":"Street","n":"27"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Loud Music/Party","location_type":"Club/Bar/Restaurant","n":"1163"}
+,{"agency":"DOB","complaint_type":"Building Marshal's Office","descriptor":"Tenant Safety Inspection","n":"1"}
+,{"agency":"NYPD","complaint_type":"Urinating in Public","descriptor":"N/A","location_type":"Park/Playground","n":"15"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Waste Left in Front of Other Residence","location_type":"Street","n":"21"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Mobile Food Vendor","location_type":"Business","n":"14"}
+,{"agency":"DSNY","complaint_type":"Commercial Disposal Complaint","descriptor":"Waste Disposal","location_type":"Retail Store","n":"24"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Facility Construction","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"COOKING GAS","location_type":"RESIDENTIAL BUILDING","n":"1372"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Odor","location_type":"3+ Family Mixed Use Building","n":"2"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Blocked - Construction","location_type":"Sidewalk","n":"330"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Speed Limit","location_type":"Street","n":"4"}
+,{"agency":"HPD","complaint_type":"SAFETY","descriptor":"SMOKE DETECTOR","location_type":"RESIDENTIAL BUILDING","n":"333"}
+,{"agency":"NYPD","complaint_type":"Noise - Residential","descriptor":"Banging/Pounding","location_type":"Residential Building/House","n":"11034"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"LED Pedestrian Unit","n":"90"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Street Zone Blocked","location_type":"Street","n":"36"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Flooding on Highway","location_type":"Highway","n":"2"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Manhole Overflow (Use Comments) (SA1)","n":"140"}
+,{"agency":"DOHMH","complaint_type":"Cooling Tower","descriptor":"Unsanitary Condition","location_type":"Other","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Driveway","location_type":"Other","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Pesticide","location_type":"Restaurant/Bar/Deli/Bakery","n":"1"}
+,{"agency":"DOT","complaint_type":"Public Toilet","descriptor":"New Automatic Public Toilet Request","location_type":"Sidewalk","n":"2"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Drag Racing","location_type":"Highway","n":"17"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Emergency","location_type":"Sidewalk","n":"23"}
+,{"agency":"DSNY","complaint_type":"Sanitation Worker or Vehicle Complaint","descriptor":"Spilled Garbage","location_type":"Street","n":"108"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Squirrel","location_type":"Sidewalk","n":"33"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Alarm","location_type":"Street/Sidewalk","n":"68"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Damaged Bench","location_type":"Bus Stop Shelter","n":"3"}
+,{"agency":"NYPD","complaint_type":"Noise - House of Worship","descriptor":"Banging/Pounding","location_type":"House of Worship","n":"5"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Loud Music/Party","location_type":"Store/Commercial","n":"2158"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unauthorized Posting of Signs","location_type":"Park","n":"3"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Illegal Use Of Hose - Private Residence (CCR)","n":"2"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Street/Sidewalk","n":"849"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Cafeteria - College/University","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Chemical Vapors/Gases/Odors","location_type":"Other (Explain Below)","n":"14"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Roots Damaged","location_type":"Street","n":"137"}
+,{"agency":"DOT","complaint_type":"Bike Rack","descriptor":"Abandoned Bike","location_type":"Street","n":"6"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Neglected","location_type":"Residential Building/House","n":"470"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Kept as Pet","descriptor":"Snake","location_type":"Residence","n":"4"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Garbage or Litter","location_type":"Street/Curbside","n":"71"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Construction","location_type":"Unknown","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dust from Construction","location_type":"Commercial Building","n":"8"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"SEWER","location_type":"RESIDENTIAL BUILDING","n":"10"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Chained","location_type":"Store/Commercial","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Lifeguard","descriptor":"Inattentive","location_type":"Beach","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"1 or 2","location_type":"Catering Service","n":"2"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Refrigerator or Freezer Door Attached","location_type":"Street","n":"3"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Defective Hardware","location_type":"Sidewalk","n":"57"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Drug Store or Pharmacy","location_type":"Business","n":"28"}
+,{"agency":"DSNY","complaint_type":"Illegal Posting","descriptor":"Sticker or Decal","location_type":"Street","n":"9"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Other (complaint details)","location_type":"Residential Building/House","n":"171"}
+,{"agency":"DEP","complaint_type":"Plant","descriptor":"Plants- Odor Related Problems (PO1)","n":"7"}
+,{"agency":"HPD","complaint_type":"OUTSIDE BUILDING","descriptor":"ROOFING","location_type":"RESIDENTIAL BUILDING","n":"40"}
+,{"agency":"DSNY","complaint_type":"Illegal Posting","descriptor":"Poster or Sign","location_type":"Sidewalk","n":"268"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Car Rental","location_type":"Business","n":"21"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Dust from Construction","location_type":"Street/Sidewalk","n":"23"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Bridge","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"School - K-12 Public","n":"2"}
+,{"agency":"HPD","complaint_type":"APPLIANCE","descriptor":"ELECTRIC/GAS RANGE","location_type":"RESIDENTIAL BUILDING","n":"1340"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Government Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Base Door/Cover Damaged","n":"9"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Running","location_type":"Sidewalk","n":"634"}
+,{"agency":"DOHMH","complaint_type":"Asbestos","descriptor":"N/A","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Beach/Pool Water","location_type":"Pool","n":"13"}
+,{"agency":"NYPD","complaint_type":"Bike/Roller/Skate","descriptor":"N/A","location_type":"Store/Commercial","n":"10"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"St Name - Attached to Pole","location_type":"Street","n":"46"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Musical Instrument","n":"2"}
+,{"agency":"HPD","complaint_type":"UNSANITARY CONDITION","descriptor":"PESTS","location_type":"RESIDENTIAL BUILDING","n":"7179"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Leak (Use Comments) (WA2)","n":"519"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Recreation Center","location_type":"Street/Curbside","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"1 or 2","location_type":"Other (Explain Below)","n":"40"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Debt Collection Agency","location_type":"Business","n":"9"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Stop","location_type":"Street","n":"39"}
+,{"agency":"DSNY","complaint_type":"Lot Condition","descriptor":"Construction Debris","location_type":"Lot","n":"26"}
+,{"agency":"NYPD","complaint_type":"Graffiti","descriptor":"Police Report Not Requested","location_type":"Street/Sidewalk","n":"10"}
+,{"agency":"HPD","complaint_type":"APPLIANCE","descriptor":"REFRIGERATOR","location_type":"RESIDENTIAL BUILDING","n":"1186"}
+,{"agency":"TLC","complaint_type":"Green Taxi Report","descriptor":"Driver Report - Non Passenger","n":"1"}
+,{"agency":"HPD","complaint_type":"PAINT/PLASTER","descriptor":"RADIATOR","location_type":"RESIDENTIAL BUILDING","n":"66"}
+,{"agency":"DOT","complaint_type":"Bridge Condition","descriptor":"Pothole","location_type":"Bridge","n":"6"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Raccoon","location_type":"Street","n":"96"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Honorary","location_type":"Street","n":"3"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Debris from Car Accident","location_type":"Traffic Island or Median","n":"4"}
+,{"agency":"DEP","complaint_type":"Lead","descriptor":"Lead Kit","location_type":"Residential Building","n":"357"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Laundromat","location_type":"Business","n":"47"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Car Wash","n":"13"}
+,{"agency":"NYPD","complaint_type":"Disorderly Youth","descriptor":"Playing in Unsuitable Place","location_type":"Street/Sidewalk","n":"5"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"CABINET","location_type":"RESIDENTIAL BUILDING","n":"864"}
+,{"agency":"DOT","complaint_type":"Bridge Condition","descriptor":"Graffiti - Bridge","location_type":"Bridge","n":"1"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Alarms (NR3)","n":"474"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Dumpster - Construction Waste","location_type":"Sidewalk","n":"30"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"1-2 Family Dwelling","n":"26"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Do Not Enter","location_type":"Street","n":"6"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Sidewalk Grating - Defective","location_type":"Sidewalk","n":"28"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Cafeteria - Public School","n":"1"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Dangling","descriptor":"Other/Unknown","location_type":"Highway","n":"1"}
+,{"agency":"DOT","complaint_type":"Bench","descriptor":"Damaged/Bent/Loose/Leaning","location_type":"Sidewalk","n":"10"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Glassware Missing","n":"5"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Bodega, Deli, or Convenience Store","n":"12"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Leaning","n":"23"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Vent/Exhaust - Illegal/Improper","n":"101"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Restaurant","location_type":"Business","n":"150"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Food Worker Activity","location_type":"Green Cart Vendor","n":"1"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Damaged Other","location_type":"Bus Stop Shelter","n":"13"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Crash Cushion Defect","location_type":"Street","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Worker Activity","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Indoor Sewage","descriptor":"Sewage Leak","location_type":"Commercial Building","n":"6"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Sewage","location_type":"Waterway","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Plumbing","location_type":"Other (Explain Below)","n":"2"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Trash or Recycling Not Secure","location_type":"Street","n":"56"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Highway","n":"34"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Stoop Line Stand","location_type":"Business","n":"76"}
+,{"agency":"HPD","complaint_type":"DOOR/WINDOW","descriptor":"DOOR TO DUMBWAITER","location_type":"RESIDENTIAL BUILDING","n":"14"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Veh Signal Lamp","n":"371"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Bicycle Chained to Tree","location_type":"Park","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Sign Inadequate","location_type":"Restaurant/Bar/Deli/Bakery","n":"2"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Manhole Cover Missing (Emergency) (SA3)","n":"113"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Other (complaint details)","location_type":"Street/Sidewalk","n":"38"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Store/Commercial","n":"64"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise, Barking Dog (NR5)","n":"321"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Structure - Outdoors","location_type":"Park","n":"1376"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Cone","location_type":"Sidewalk","n":"68"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Cat","location_type":"Commercial Building","n":"5"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Donation Collection Bin","location_type":"Sidewalk","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Hotel or Motel","n":"5"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Water Main Break","location_type":"Street","n":"88"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Hydrant Running (WC3)","n":"1834"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Art Supply Store","location_type":"Business","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"Coming into Apartment","location_type":"3+ Family Apartment Building","n":"17"}
+,{"agency":"EDC","complaint_type":"Noise - Helicopter","descriptor":"Other","location_type":"Above Address","n":"284"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Kitchen/Food Prep Area","location_type":"Catering Service","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Public Garden","n":"1"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Damaged","descriptor":"Other/Unknown","location_type":"Highway","n":"3"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Dog Waste","location_type":"Street","n":"20"}
+,{"agency":"NYPD","complaint_type":"Noise - Residential","descriptor":"Loud Television","location_type":"Residential Building/House","n":"438"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Preparation Location","location_type":"Catering Service","n":"2"}
+,{"agency":"OOS","complaint_type":"Cannabis Retailer","descriptor":"Too Close to a School","n":"20"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Jackhammer","location_type":"Street/Sidewalk","n":"33"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Roof Tank","location_type":"N/A","n":"2"}
+,{"agency":"NYPD","complaint_type":"Drinking","descriptor":"Underage - Licensed Est","location_type":"Club/Bar/Restaurant","n":"45"}
+,{"agency":"OOS","complaint_type":"Cannabis Retailer","descriptor":"Suspicious Activity","n":"45"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Failure to Comply with Vacate Order","n":"29"}
+,{"agency":"HPD","complaint_type":"SAFETY","descriptor":"OUTLET COVER","location_type":"RESIDENTIAL BUILDING","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Window Guard","descriptor":"Tenant Refusal","location_type":"3+ Family Apartment Building","n":"2"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Catch Basin Search (SC2)","n":"92"}
+,{"agency":"DSNY","complaint_type":"Sanitation Worker or Vehicle Complaint","descriptor":"Unsafe Driving","location_type":"Street","n":"19"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Wastewater Into Catch Basin (IEB)","n":"25"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Commercial Overnight Parking","location_type":"Street/Sidewalk","n":"3777"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Private School","n":"6"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Other","n":"22"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Employment Agency","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Temperature","location_type":"Catering Service","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Furniture Store","n":"2"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Obstructing Public Use","location_type":"Park","n":"129"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Sign Blocked by Tree","location_type":"Highway","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Plate Condition - Noisy","location_type":"Street","n":"173"}
+,{"agency":"DOHMH","complaint_type":"Building Drinking Water Tank","descriptor":"Unsanitary Condition","location_type":"Roof","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Ped Flasher","n":"14"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Structure - Indoors","location_type":"Street/Curbside","n":"10"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Catch Basin Sunken/Damaged/Raised (SC1)","n":"99"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Request","descriptor":"Replacement Basket","location_type":"Sidewalk","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Bus Stop","location_type":"Street","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Sign Inadequate","location_type":"Residential Building","n":"6"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"RAIN GARDEN PLANTING (GIRGP)","n":"15"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"School - K-12 Private","n":"1"}
+,{"agency":"NYPD","complaint_type":"Panhandling","descriptor":"N/A","location_type":"Street/Sidewalk","n":"284"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Over 5 Gallons","location_type":"1-2 Family Dwelling","n":"10"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Raccoon","location_type":"Sidewalk","n":"32"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Dirt or Gravel","location_type":"Street","n":"139"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Equipment Complaint","location_type":"Street","n":"3"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Leaking","location_type":"Sidewalk","n":"209"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Dust Cover","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Electronics Store","location_type":"Business","n":"24"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Hitting Power Lines","location_type":"Street","n":"514"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Gas Station Convenience Store","location_type":"Business","n":"10"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Bodega, Deli, or Convenience Store","location_type":"Business","n":"119"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Double Parked Blocking Traffic","location_type":"Street/Sidewalk","n":"2547"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Sidewalk","location_type":"Other","n":"12"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Parking Permit Improper Use","location_type":"Street/Sidewalk","n":"2020"}
+,{"agency":"DSNY","complaint_type":"Commercial Disposal Complaint","descriptor":"Waste Disposal","location_type":"Street","n":"11"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Possible Water Main Break (Use Comments) (WA1)","n":"289"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Ashtray in Smoke-Free Area","location_type":"Residential Building","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Facility","descriptor":"Animal Odor","location_type":"Horse Stable","n":"1"}
+,{"agency":"DSNY","complaint_type":"Commercial Disposal Complaint","descriptor":"Waste Left in Front of Residence","location_type":"Sidewalk","n":"50"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Weeds or Grass","location_type":"Street","n":"97"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Over 5 Gallons","location_type":"Other","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Third-Party Food Delivery Service","location_type":"Business","n":"14"}
+,{"agency":"DOB","complaint_type":"Special Natural Area District (SNAD)","descriptor":"Illegal Tree Removal/Topo. Change in SNAD","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Dishwashing/Utensils","location_type":"Senior Center","n":"1"}
+,{"agency":"DSNY","complaint_type":"Commercial Disposal Complaint","descriptor":"Waste Disposal","location_type":"Sidewalk","n":"62"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"3+ Family Mixed Use Building","n":"2"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Congestion/Gridlock","location_type":"Street/Sidewalk","n":"109"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Subway","n":"185"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dust from Construction","location_type":"1-2 Family Mixed Use Building","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Tobacco or Non-Tobacco Sale","descriptor":"Banned Tobacco Flavors Sold","location_type":"Retail Store","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Department Store or Megastore","n":"1"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Wall/Retaining Wall - Bulging/Cracked","n":"36"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Graffiti","location_type":"Street","n":"3"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Clear Water With Other Particles (Use Comments) (QEZ)","n":"2"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"No Shelter","location_type":"House and Store","n":"18"}
+,{"agency":"NYPD","complaint_type":"Disorderly Youth","descriptor":"Playing in Unsuitable Place","location_type":"Store/Commercial","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Taste/Odor, Chlorine (QA1)","n":"2"}
+,{"agency":"HPD","complaint_type":"PAINT/PLASTER","descriptor":"CEILING","location_type":"RESIDENTIAL BUILDING","n":"2484"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Bicycle Chained to Tree","location_type":"Street","n":"53"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Trash or Recycling","location_type":"Sidewalk","n":"300"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Sidewalk","n":"60"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Office Building","n":"4"}
+,{"agency":"DOB","complaint_type":"Investigations and Discipline (IAD)","descriptor":"Investigative Inspection","n":"43"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"General Bad Condition","n":"1"}
+,{"agency":"DPR","complaint_type":"Wood Pile Remaining","descriptor":"Remove Debris","location_type":"Street","n":"354"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Other","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Asbestos","descriptor":"N/A","location_type":"3+ Family Apartment Building","n":"44"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Store/Commercial","n":"328"}
+,{"agency":"DEP","complaint_type":"Hazardous Materials","descriptor":"Unsafe Chemical, Storage (HC1)","n":"3"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Other","n":"210"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Ped Lens","n":"2"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Neglected","location_type":"Street/Sidewalk","n":"34"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Warning Buzzer","n":"1"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Truck Route Violation","location_type":"Highway","n":"4"}
+,{"agency":"DPR","complaint_type":"Dead/Dying Tree","descriptor":"Planted Less Than 2 Years Ago","location_type":"Park","n":"12"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Theater","n":"2"}
+,{"agency":"DOB","complaint_type":"Building/Use","descriptor":"Illegal. Commercial Use In Resident Zone","n":"130"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Permit/License/Certificate","location_type":"Mobile Food Vendor","n":"13"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Dead Branches in Tree","location_type":"Park","n":"7"}
+,{"agency":"NYPD","complaint_type":"Drug Activity","descriptor":"Use Outside","location_type":"Street/Sidewalk","n":"554"}
+,{"agency":"NYPD","complaint_type":"Posting Advertisement","descriptor":"Building","location_type":"Store/Commercial","n":"1"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Hours of Operation","location_type":"Park","n":"144"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Manufacturing Noise (NK1)","n":"84"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Trash","location_type":"Traffic Island or Median","n":"25"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Alarm","location_type":"Commercial/Mixed Use Building","n":"44"}
+,{"agency":"DOHMH","complaint_type":"Indoor Sewage","descriptor":"Sewage Leak","location_type":"1-2 Family Mixed Use Building","n":"2"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Air Conditioner/Ventilation","location_type":"Commercial/Mixed Use Building","n":"97"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Street","n":"4"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Chronic Speeding","location_type":"Street/Sidewalk","n":"77"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Curb Piece","location_type":"Sewer","n":"15"}
+,{"agency":"DOB","complaint_type":"Scaffold Safety","descriptor":"Suspended (Hanging) Scaffolds - No Pmt/Lic/Dangerous/Accident","n":"17"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Barber Shop, Beauty Salon, or Nail Salon","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Other Store (Non-Food)","location_type":"Business","n":"124"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Wood Pole Wires Exposed","n":"1"}
+,{"agency":"DSNY","complaint_type":"Highway Condition","descriptor":"Litter","location_type":"Highway","n":"69"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Kept as Pet","descriptor":"Other","location_type":"Residence","n":"12"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Drag Racing","location_type":"Street/Sidewalk","n":"138"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Immigration Services Provider","location_type":"Business","n":"2"}
+,{"agency":"DOT","complaint_type":"Ferry Inquiry","descriptor":"Lost and Found","location_type":"Terminal","n":"13"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Structure - Outdoors","location_type":"Street/Curbside","n":"103"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"BBQ Outside Authorized Area","location_type":"Street/Curbside","n":"44"}
+,{"agency":"DOHMH","complaint_type":"Asbestos","descriptor":"N/A","location_type":"1-2 Family Dwelling","n":"8"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Banging/Pounding","location_type":"Club/Bar/Restaurant","n":"101"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Domestic Strays","location_type":"Street/Curbside","n":"9"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Manufacturing Business/Plant","location_type":"Commercial/Mixed Use Building","n":"57"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"No Permit","location_type":"Commercial Building","n":"3"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"In Car","location_type":"Street/Sidewalk","n":"11"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"Parking Lot/Garage","n":"1"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Waste Set Out Too Early or Too Late","location_type":"Street","n":"37"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Flood Light Lamp Dim","n":"2"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Sign - In Danger Of Falling","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Sidewalk","location_type":"Abandoned Building","n":"1"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Neglected","location_type":"Parking Lot","n":"4"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Construction - Change Grade/Watercourse","n":"20"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - After Repaving","location_type":"Crosswalk","n":"19"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Tortured","location_type":"Store/Commercial","n":"6"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Cell Phone Store","location_type":"Business","n":"23"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Shipping Company","n":"9"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Street/Sidewalk","n":"4711"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Over 5 Gallons","location_type":"School","n":"1"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Trash","location_type":"Street","n":"1177"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Day Care Facility","location_type":"Other","n":"20"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Contains Foreign Object","location_type":"Other (Explain Below)","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Insects / Pests","location_type":"Green Cart Vendor","n":"1"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"RAIN GARDEN DEBRIS (GIRGD)","n":"36"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Traffic Sign or Signal Blocked","location_type":"Street","n":"104"}
+,{"agency":"NYPD","complaint_type":"Abandoned Vehicle","descriptor":"With License Plate","location_type":"Highway","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"In Common Areas","location_type":"Other (Explain Below)","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Other","location_type":"Highway","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Bare Hands in Contact w/ Food","location_type":"Catering Service","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Door to Door Sales","location_type":"Business","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Airport or Train/Bus Station","n":"4"}
+,{"agency":"NYPD","complaint_type":"Urinating in Public","descriptor":"N/A","location_type":"Street/Sidewalk","n":"76"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Car Service Company Complaint","location_type":"Highway","n":"2"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Building Shaking/Vibrating/Structural Stability","n":"336"}
+,{"agency":"NYPD","complaint_type":"Noise - House of Worship","descriptor":"Loud Music/Party","location_type":"House of Worship","n":"72"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Cat","location_type":"1-2 Family Mixed Use Building","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Broken Glass","location_type":"Sidewalk","n":"79"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Vacant Lot","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"3+ Family Apartment Building","n":"109"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Other (complaint details)","location_type":"Store/Commercial","n":"121"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Recycling - Paper","location_type":"Street","n":"274"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Protection","location_type":"Senior Center","n":"1"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Unauthorized Bus Layover","location_type":"Street/Sidewalk","n":"362"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Trespassing","location_type":"Store/Commercial","n":"72"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Moving Company","n":"1"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Hyd Valve Box Cover Missing (WV2)","n":"38"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Cat","location_type":"Street","n":"248"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Unsafe Mold Cleanup","location_type":"Residential Building","n":"22"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Passenger","location_type":"Street","n":"157"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dust from Construction","location_type":"1-2 Family Dwelling","n":"6"}
+,{"agency":"NYPD","complaint_type":"Noise - Residential","descriptor":"Loud Talking","location_type":"Residential Building/House","n":"2174"}
+,{"agency":"HPD","complaint_type":"ELECTRIC","descriptor":"POWER OUTAGE","location_type":"RESIDENTIAL BUILDING","n":"1036"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Time Clock Maladjusted","n":"1"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Overnight Commercial Storage","location_type":"Street/Sidewalk","n":"225"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Tortured","location_type":"Subway Station","n":"2"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Street Light Feed","n":"21"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Public Garden","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"3+ Family Apt. Building","n":"53"}
+,{"agency":"DOB","complaint_type":"Plumbing","descriptor":"Gas Hook-Up/Piping - Illegal Or Defective","n":"30"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Dog","location_type":"1-2 Family Mixed Use Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Dumpster - Construction Waste","location_type":"Street","n":"68"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Hydrant Running Full (WA4)","n":"2171"}
+,{"agency":"DOHMH","complaint_type":"Construction Lead Dust","descriptor":"In Common Areas","location_type":"3+ Family Apartment Building","n":"69"}
+,{"agency":"DEP","complaint_type":"Hazardous Materials","descriptor":"Oil Spill On Street, Large (HQL)","n":"21"}
+,{"agency":"DOHMH","complaint_type":"Tobacco or Non-Tobacco Sale","descriptor":"Original Labels or Packaging Not Kept","location_type":"Other","n":"3"}
+,{"agency":"HPD","complaint_type":"ELECTRIC","descriptor":"NO LIGHTING","location_type":"RESIDENTIAL BUILDING","n":"606"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Wire Exposed","n":"48"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Roof Gutters","location_type":"3+ Family Apartment Building","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Low Pressure","location_type":"N/A","n":"45"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Other (complaint details)","location_type":"Subway Station","n":"3"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Concrete In Catch Basin (IEA)","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Public Park/Garden","n":"31"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Broken Glass","location_type":"Bus Stop Shelter","n":"37"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Mattress or Box Spring Uncovered","location_type":"Street","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Building Foundation","location_type":"Abandoned Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Fixture/Luminaire Hanging","n":"44"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Commercial Building","n":"8"}
+,{"agency":"DOT","complaint_type":"Bridge Condition","descriptor":"Dirt, Debris, Litter Complaint","location_type":"Bridge","n":"2"}
+,{"agency":"NYPD","complaint_type":"Graffiti","descriptor":"Police Report Not Requested","location_type":"Residential Building/House","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Home Appliance Store","location_type":"Business","n":"7"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Do Not Enter","location_type":"Street","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Single Room Occupancy (SRO)","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Scale Dealer or Repairer","n":"1"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Dead Branches in Tree","location_type":"Street","n":"442"}
+,{"agency":"DSNY","complaint_type":"Street Sweeping Complaint","descriptor":"Inadequate Sweeping","location_type":"Street","n":"562"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Other (Explain Below)","location_type":"Commercial Building","n":"6"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Vehicle Exhaust Smoke","location_type":"Street/Sidewalk","n":"7"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Canopy Complaint","location_type":"Sidewalk","n":"14"}
+,{"agency":"DSNY","complaint_type":"Dumpster Complaint","descriptor":"Overflowing dumpster","location_type":"Street","n":"70"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Temperature","location_type":"Restaurant/Bar/Deli/Bakery","n":"49"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Odor/Taste","location_type":"N/A","n":"31"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unlicensed Vendors","location_type":"Park","n":"148"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Commercial Building","n":"15"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Sodium Warning","location_type":"Restaurant/Bar/Deli/Bakery","n":"1"}
+,{"agency":"DEP","complaint_type":"Hazardous Material","descriptor":"Oil Spill Large","location_type":"Street","n":"22"}
+,{"agency":"HPD","complaint_type":"OUTSIDE BUILDING","descriptor":"PAVEMENT","location_type":"RESIDENTIAL BUILDING","n":"25"}
+,{"agency":"DSNY","complaint_type":"Graffiti","descriptor":"Graffiti","location_type":"Residential","n":"279"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Catch Basin Sunken","location_type":"Sewer","n":"110"}
+,{"agency":"HPD","complaint_type":"FLOORING/STAIRS","descriptor":"FLOOR","location_type":"RESIDENTIAL BUILDING","n":"2548"}
+,{"agency":"DOT","complaint_type":"Ferry Complaint","descriptor":"Delays","location_type":"Ferry","n":"4"}
+,{"agency":"NYPD","complaint_type":"Bike/Roller/Skate","descriptor":"N/A","location_type":"Street/Sidewalk","n":"129"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Smoke/Odor","location_type":"Mobile Food Vendor","n":"32"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Medical Facility","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"1-2 Family Mixed Use Building","n":"45"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Residential Building/House","n":"55"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"Yield","location_type":"Street","n":"3"}
+,{"agency":"HPD","complaint_type":"OUTSIDE BUILDING","descriptor":"GUTTER/LEADER","location_type":"RESIDENTIAL BUILDING","n":"11"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Enclosure Cap","n":"1"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Roadway Tunnel","n":"1"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Entire Tree Has Fallen Down","location_type":"Street","n":"1388"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Controller Cabinet","n":"13"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Base Door/Cover Open","n":"11"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Home Appliance Store","n":"2"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Chimney/Vent Smoke","location_type":"Residential Building","n":"14"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Paper License Plates","location_type":"Street/Sidewalk","n":"414"}
+,{"agency":"DSNY","complaint_type":"Illegal Dumping","descriptor":"Removal Request","location_type":"Sidewalk","n":"2629"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Passenger","n":"39"}
+,{"agency":"DSNY","complaint_type":"Litter Basket Complaint","descriptor":"Misuse","location_type":"Residence","n":"5"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Knocked Down","n":"47"}
+,{"agency":"DOHMH","complaint_type":"Cooling Tower","descriptor":"Unsanitary Condition","location_type":"Ground","n":"4"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Report","descriptor":"Car Service Company Complaint","location_type":"Street","n":"1"}
+,{"agency":"DOT","complaint_type":"Municipal Parking Facility","descriptor":"General Maintenance","location_type":"Garage","n":"3"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Bin Not Used","location_type":"Sidewalk","n":"133"}
+,{"agency":"DOT","complaint_type":"Bench","descriptor":"Missing","location_type":"Sidewalk","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Facility","descriptor":"Animal Odor","location_type":"Groomer","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Electronics or Appliance Repair","n":"2"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Ice Cream Truck","location_type":"Street","n":"35"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Workplace Policy Not Provided or Inadequate","location_type":"Residential Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"School Crossing","location_type":"Street","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Worker Hygiene","location_type":"Other (Explain Below)","n":"7"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Cat","location_type":"Highway","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Swimming Pool - Unmaintained","location_type":"1-2 Family Dwelling","n":"58"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Mouse Sighting","location_type":"Parking Lot or Garage","n":"1"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Graffiti - Highway","location_type":"Highway","n":"31"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Locksmith","location_type":"Business","n":"9"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Process Server","location_type":"Business","n":"4"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Other/Unknown","location_type":"Street","n":"55"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Non Passenger","location_type":"Street","n":"895"}
+,{"agency":"DOHMH","complaint_type":"Drinking Water","descriptor":"Illness Caused by Drinking Water","location_type":"1-3 Family Dwelling","n":"2"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Residential Building/House","n":"1756"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Blocked Bike Lane","location_type":"Street/Sidewalk","n":"1565"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Pawnbroker","location_type":"Business","n":"9"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Coin-Operated Ride","location_type":"Sidewalk","n":"1"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Manhole Cover Missing","location_type":"Sewer","n":"34"}
+,{"agency":"DSNY","complaint_type":"Vendor Enforcement","descriptor":"Food Vendor","location_type":"Street","n":"1375"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Coin or Card Did Not Register","location_type":"Street","n":"79"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Manhole Overflow","location_type":"Sewer","n":"52"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Illegal Hotel Rooms In Residential Building","n":"141"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Scale Dealer or Repairer","location_type":"Business","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"CMU Communication","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"Other","n":"17"}
+,{"agency":"DOB","complaint_type":"Borough Office","descriptor":"Restroom Non-Complaince With Local Law 79/16","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Tobacco or Non-Tobacco Sale","descriptor":"Shisha Sold to Minor","location_type":"Retail Store","n":"1"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Unsecured Facility","location_type":"Street/Curbside","n":"10"}
+,{"agency":"DOT","complaint_type":"Public Toilet","descriptor":"Damaged Door","location_type":"Sidewalk","n":"1"}
+,{"agency":"DSNY","complaint_type":"Illegal Posting","descriptor":"Flyer or Handbill","location_type":"Sidewalk","n":"51"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Lighting","location_type":"Bus Stop Shelter","n":"11"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Building - Vacant, Open And Unguarded","n":"122"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Pothole","n":"4661"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Broken Glass","location_type":"Gutter","n":"3"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Culvert","location_type":"Sewer","n":"35"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Sign","location_type":"Street","n":"14"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"No Idling","location_type":"Street","n":"1"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Bird","location_type":"Highway","n":"1"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Blocked Crosswalk","location_type":"Street/Sidewalk","n":"3004"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Residential Building/House","n":"128"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Day Care or Nursery","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Wireless","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Department Store or Megastore","location_type":"Business","n":"12"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Smoking Ban - Smoking on Construction Site","n":"1"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Guard Rail - Highway","location_type":"Highway","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Online or Mail Order","location_type":"Business","n":"8"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - Faded","location_type":"School Safety Zone","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Clear With Insects/Worms","location_type":"N/A","n":"2"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Private Garbage Truck","location_type":"Street","n":"25"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Domestic Strays","location_type":"Park","n":"29"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Detached Trailer","location_type":"Street/Sidewalk","n":"133"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"In Car","location_type":"Residential Building/House","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Conduit","n":"1"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Smoking","location_type":"Street/Curbside","n":"14"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"1-2 Family Mixed Use Building","n":"9"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Car/Truck Music","location_type":"Store/Commercial","n":"94"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Sewage Odor","location_type":"Other (Explain Below)","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"Vacant Lot","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Milk Not Pasteurized","location_type":"Restaurant/Bar/Deli/Bakery","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Chemical Vapors/Gases/Odors","location_type":"1-2 Family Mixed Use Building","n":"11"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Chemical Vapors/Gases/Odors","location_type":"3+ Family Apartment Building","n":"278"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Ticket Seller","location_type":"Business","n":"13"}
+,{"agency":"NYPD","complaint_type":"Disorderly Youth","descriptor":"Nuisance/Truant","location_type":"Residential Building/House","n":"1"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Loud Television","location_type":"Store/Commercial","n":"14"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Missing/Stolen","location_type":"Residential Building","n":"1"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Subway","n":"12"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Contaminated","location_type":"Other (Explain Below)","n":"11"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Fixture/Luminaire Door Open","n":"8"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Multiple St Lts Dayburning","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Driveway","location_type":"Abandoned Building","n":"1"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"LOW WATER PRESSURE - WLWP","n":"172"}
+,{"agency":"NYPD","complaint_type":"Urinating in Public","descriptor":"N/A","location_type":"Store/Commercial","n":"4"}
+,{"agency":"NYPD","complaint_type":"Noise - Street/Sidewalk","descriptor":"Loud Talking","location_type":"Street/Sidewalk","n":"3284"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tow Truck Company","location_type":"Business","n":"222"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Fender Request","location_type":"Sidewalk","n":"6"}
+,{"agency":"NYPD","complaint_type":"Non-Emergency Police Matter","descriptor":"Other (complaint details)","location_type":"Street/Sidewalk","n":"774"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Sold","descriptor":"Snake","location_type":"Street Vendor","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"1-2 Family Dwelling","n":"23"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Tree Trunk Split","location_type":"Park","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Tobacco or Non-Tobacco Sale","descriptor":"Banned Tobacco Flavors Sold","location_type":"Restaurant/Bar/Deli/Bakery","n":"4"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Construction Equipment (NC1)","n":"400"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Stop","location_type":"Street","n":"41"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Fire Hydrant Defective","location_type":"Sidewalk","n":"183"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Broken/Leaking - Other (CMO)","n":"31"}
+,{"agency":"DSNY","complaint_type":"Commercial Disposal Complaint","descriptor":"Waste Disposal","location_type":"Food Establishment or Vendor","n":"21"}
+,{"agency":"DSNY","complaint_type":"Recycling Basket Complaint","descriptor":"Overflowing","location_type":"Street","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Facility Maintenance","location_type":"Beach","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Missing","n":"27"}
+,{"agency":"DPR","complaint_type":"Illegal Tree Damage","descriptor":"Unauthorized Tree Pruning","location_type":"Park","n":"1"}
+,{"agency":"HPD","complaint_type":"HEAT/HOT WATER","descriptor":"APARTMENT ONLY","location_type":"RESIDENTIAL BUILDING","n":"1438"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unsafe Use of Playground","location_type":"Park","n":"65"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tow Truck Company","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Cooling Tower","descriptor":"Broken/Defective","location_type":"Roof","n":"6"}
+,{"agency":"OTI","complaint_type":"LinkNYC","descriptor":"Graffiti/Dirty Condition","location_type":"Sidewalk","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Missing/Stolen","location_type":"Other","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Sewage Odor","location_type":"Commercial Building","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Odor","location_type":"Restaurant/Bar/Deli/Bakery","n":"27"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Debris - Excessive","n":"98"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"St Name - Over Intersection","location_type":"Street","n":"5"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Pet Store","location_type":"Business","n":"1"}
+,{"agency":"DSNY","complaint_type":"Lot Condition","descriptor":"Appliances","location_type":"Lot","n":"7"}
+,{"agency":"DOT","complaint_type":"Curb Condition","descriptor":"Defacement","location_type":"Curb","n":"387"}
+,{"agency":"DOHMH","complaint_type":"Tobacco or Non-Tobacco Sale","descriptor":"Shisha Sold to Minor","location_type":"Other","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"School","n":"1"}
+,{"agency":"OTI","complaint_type":"LinkNYC","descriptor":"Touchscreen/Button Not Working","location_type":"Sidewalk","n":"3"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"General Vendor","n":"2"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Home Improvement Contractor","location_type":"Business","n":"59"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Non Passenger","location_type":"Bridge","n":"2"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Veh Signal Sec Door","n":"5"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Wasting Faucets,Sinks,Flushometer,Urinal,Etc. - Other (CWO)","n":"20"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Cloudy Or Milky Water (QB1)","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Signs of Rodents","location_type":"Parking Lot or Garage","n":"1"}
+,{"agency":"DHS","complaint_type":"Encampment","descriptor":"N/A","location_type":"Store/Commercial","n":"167"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Unsecured Facility","location_type":"Park","n":"187"}
+,{"agency":"TLC","complaint_type":"Lost Property","descriptor":"Electronics/Phones","location_type":"Taxi","n":"175"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Fixture/Luminaire Missing","n":"11"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"E-Cigarette Sales","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Building Foundation","location_type":"Other","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Foundation","n":"4"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Veh Signal Head","n":"116"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Non Passenger","location_type":"Street","n":"193"}
+,{"agency":"DOHMH","complaint_type":"X-Ray Machine/Equipment","descriptor":"Facility Unregistered","location_type":"Veterinarian's Office","n":"1"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Tree Leaning/Uprooted","location_type":"Street","n":"619"}
+,{"agency":"DOHMH","complaint_type":"Indoor Sewage","descriptor":"Sewage Leak","location_type":"3+ Family Mixed Use Building","n":"11"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Human Feces","location_type":"1-2 Family Dwelling","n":"3"}
+,{"agency":"DOT","complaint_type":"Curb Condition","descriptor":"Broken Curb","location_type":"Overpass","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Other","n":"21"}
+,{"agency":"DOHMH","complaint_type":"X-Ray Machine/Equipment","descriptor":"Technician Unlicensed","location_type":"Dentist's Office","n":"1"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Wastewater","location_type":"Catch Basin/Sewer","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Residential Building","n":"420"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Tires","location_type":"Tire Shop","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dumpster Complaint","descriptor":"Overflowing dumpster","location_type":"Sidewalk","n":"64"}
+,{"agency":"DEP","complaint_type":"Hazardous Material","descriptor":"Chemical Safety","location_type":"N/A","n":"3"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Pedestrian Ramp Defective","location_type":"Sidewalk","n":"68"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Time Switch","n":"2"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Grease","location_type":"Catch Basin/Sewer","n":"18"}
+,{"agency":"NYPD","complaint_type":"Blocked Driveway","descriptor":"No Access","location_type":"Street/Sidewalk","n":"10665"}
+,{"agency":"NYPD","complaint_type":"Squeegee","descriptor":"N/A","location_type":"Street/Sidewalk","n":"1"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Restaurant Status","location_type":"Sidewalk","n":"33"}
+,{"agency":"DOT","complaint_type":"Curb Condition","descriptor":"Curb Defect-Metal Protruding","location_type":"Sidewalk","n":"67"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Human Feces","location_type":"Other (Explain Below)","n":"3"}
+,{"agency":"DOT","complaint_type":"Ferry Complaint","descriptor":"Homeless Issue","location_type":"Terminal","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Allowed in Smoke Free Area","location_type":"Government Building","n":"1"}
+,{"agency":"DOT","complaint_type":"Bike Rack","descriptor":"Damaged/Bent/Loose/Leaning","location_type":"Sidewalk","n":"34"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Bare Hands in Contact w/ Food","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise, Other Animals (NR6)","n":"17"}
+,{"agency":"NYPD","complaint_type":"Panhandling","descriptor":"N/A","location_type":"Store/Commercial","n":"243"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Report","descriptor":"Car Service Company Report","n":"12"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Pet/Animal","location_type":"Soup Kitchen","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Over 5 Gallons","location_type":"1-2 Family Mixed Use Building","n":"2"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Tree Trunk Split","location_type":"Street","n":"120"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Subway","n":"165"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Ventilation","location_type":"Other (Explain Below)","n":"22"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Grease/Oil","location_type":"N/A","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"3 or More","location_type":"Other (Explain Below)","n":"6"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Drug Store or Pharmacy","n":"3"}
+,{"agency":"HPD","complaint_type":"OUTSIDE BUILDING","descriptor":"ROOF DOOR/HATCH","location_type":"RESIDENTIAL BUILDING","n":"16"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Insects / Pests","location_type":"Mobile Food Vendor","n":"36"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Hydrant Knocked Over/Missing (WC)","n":"107"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Merchandise","location_type":"Sidewalk","n":"141"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Fire Hydrant Emergency (FHE)","n":"9517"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Ventilation","location_type":"Restaurant","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle on Driveway","location_type":"School","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Swimming Pool - Unmaintained","location_type":"3+ Family Apartment Building","n":"7"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Sidewalk Collapsed","location_type":"Sidewalk","n":"69"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Tree Alive - in Poor Condition","location_type":"Park","n":"7"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Broken/Leaking","location_type":"Other","n":"4"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Containers Left Out After Collection","location_type":"Sidewalk","n":"13"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"Government Building","n":"2"}
+,{"agency":"DOB","complaint_type":"Emergency Response Team (ERT)","descriptor":"Lights From Parking Lot Shining On Building","n":"27"}
+,{"agency":"DOHMH","complaint_type":"Radioactive Material","descriptor":"Contamination Risk","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Wildlife Sighting","location_type":"Park","n":"20"}
+,{"agency":"DPR","complaint_type":"Dead/Dying Tree","descriptor":"Planted Less Than 2 Years Ago","location_type":"Street","n":"123"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Sewage Odor","location_type":"1-2 Family Dwelling","n":"18"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Used Car Dealer","location_type":"Business","n":"49"}
+,{"agency":"NYPD","complaint_type":"Graffiti","descriptor":"Police Report Not Requested","location_type":"Store/Commercial","n":"25"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Underground","n":"66"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - Faded","location_type":"Street","n":"36"}
+,{"agency":"DOT","complaint_type":"Bridge Condition","descriptor":"Decorative Necklace Lighting","location_type":"Bridge","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Cloudy/Milky","location_type":"N/A","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Dust from Construction","location_type":"Other (Explain Below)","n":"3"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"No Sampling Required, Requested Information (QG2)","n":"7"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Other/Unknown","location_type":"Street","n":"124"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"Posted Parking Sign Violation","location_type":"Street/Sidewalk","n":"12423"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"High Water Pressure","location_type":"N/A","n":"1"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Hitting Building","location_type":"Park","n":"4"}
+,{"agency":"DOB","complaint_type":"Building/Use","descriptor":"Illegal Conversion Of Residential Building/Space","n":"2279"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"One Way","location_type":"Street","n":"18"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Loud Talking","location_type":"Store/Commercial","n":"261"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Vehicle Signal","n":"147"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Tree Alive - in Poor Condition","location_type":"Street","n":"535"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Food Source/Protection","location_type":"Mobile Food Vendor","n":"49"}
+,{"agency":"DOHMH","complaint_type":"Beach/Pool/Sauna Complaint","descriptor":"Beach/Pool/Sauna Unpermitted","location_type":"Pool","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"For-Profit College or University","location_type":"Business","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Dog","location_type":"Commercial Building","n":"5"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Lamppost Base Door/Cover Missing","n":"8"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Yield","location_type":"Street","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Food Poisoning","descriptor":"3 or More","location_type":"Cafeteria - College/University","n":"1"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Deck Inspection","n":"2"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Building Permit - None","n":"1015"}
+,{"agency":"DPR","complaint_type":"Animal in a Park","descriptor":"Dog Off Leash","location_type":"Street/Curbside","n":"16"}
+,{"agency":"OTI","complaint_type":"LinkNYC","descriptor":"Damaged/Defective","location_type":"Sidewalk","n":"21"}
+,{"agency":"DSNY","complaint_type":"Illegal Posting","descriptor":"Flyer or Handbill","location_type":"Street","n":"4"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Pedestrian Signal","n":"435"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"Do Not Enter","location_type":"Street","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Syringes","location_type":"Street","n":"6"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Recycling Posters Not Posted","location_type":"Sidewalk","n":"2"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Glassware Broken","n":"4"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Vehicle Complaint","location_type":"Street","n":"9"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Dog","location_type":"1-2 Family Dwelling","n":"36"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Other Store (Non-Food)","n":"21"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Letter Grading","location_type":"Restaurant/Bar/Deli/Bakery","n":"78"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Trash","location_type":"Street","n":"305"}
+,{"agency":"DOHMH","complaint_type":"Drinking Water","descriptor":"Illness Caused by Drinking Water","location_type":"Other (Explain Below)","n":"3"}
+,{"agency":"NYPD","complaint_type":"Encampment","descriptor":"N/A","location_type":"Bridge","n":"21"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"VENTILATION SYSTEM","location_type":"RESIDENTIAL BUILDING","n":"596"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Spoiled","location_type":"Street Fair Vendor","n":"1"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Material Storage - Unsafe","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Summer Camp","location_type":"Private House","n":"1"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Non-Chronic","location_type":"Park/Playground","n":"95"}
+,{"agency":"NYPD","complaint_type":"Noise - Vehicle","descriptor":"Car/Truck Music","location_type":"Street/Sidewalk","n":"2634"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Drinking Water Information","location_type":"N/A","n":"1"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Store/Commercial","n":"69"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Working Contrary To Stop Work Order","n":"197"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Vacant Building","n":"18"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Lawn Care Equipment","location_type":"Commercial Property","n":"11"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Carpet and Flooring Business","location_type":"Business","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Over 5 Gallons","location_type":"Construction Site","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Drinking Water","descriptor":"Illness Caused by Drinking Water","location_type":"1-3 Family Mixed Use Building","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Day Care","descriptor":"Day Care Facility","location_type":"Apartment","n":"34"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Chimney/Vent Smoke","location_type":"Commercial/Mixed Use Building","n":"5"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Broken Glass","location_type":"Alley","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Cave-in","location_type":"Street","n":"3122"}
+,{"agency":"DOT","complaint_type":"Street Sign - Damaged","descriptor":"Construction","location_type":"Street","n":"4"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Line/Marking - After Repaving","location_type":"Street","n":"41"}
+,{"agency":"HPD","complaint_type":"PAINT/PLASTER","descriptor":"WALL","location_type":"RESIDENTIAL BUILDING","n":"2783"}
+,{"agency":"DEP","complaint_type":"Sewer","descriptor":"Catch Basin Clogged/Flooding (Use Comments) (SC)","n":"866"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"No Water (WNW)","n":"236"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Dishwashing/Utensils","location_type":"Restaurant/Bar/Deli/Bakery","n":"9"}
+,{"agency":"NYPD","complaint_type":"Illegal Parking","descriptor":"License Plate Obscured","location_type":"Street/Sidewalk","n":"1053"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Rodent Sighting","location_type":"Park","n":"173"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Clear Street Light","location_type":"Street","n":"119"}
+,{"agency":"DOHMH","complaint_type":"Asbestos","descriptor":"N/A","location_type":"Other (Explain Below)","n":"5"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Fire Hydrant","location_type":"Street","n":"30"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Odor, Sweet From Unknown Source (AZ1)","n":"2"}
+,{"agency":"NYPD","complaint_type":"Noise - Vehicle","descriptor":"Engine Idling","location_type":"Street/Sidewalk","n":"716"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Vacant Lot","n":"42"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"Tortured","location_type":"Street/Sidewalk","n":"22"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: air condition/ventilation equipment (NV1)","n":"202"}
+,{"agency":"DOHMH","complaint_type":"Smoking or Vaping","descriptor":"Workplace Policy Not Provided or Inadequate","location_type":"Commercial Building","n":"1"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Other Air Problem (Use Comments) (AZZ)","n":"15"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Waste Not Separated","location_type":"Street","n":"56"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Privately Owned Public Space/Non-Compliance","n":"26"}
+,{"agency":"DHS","complaint_type":"Homeless Person Assistance","descriptor":"Chronic","location_type":"Bridge","n":"2"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"BBQ Outside Authorized Area","location_type":"Park","n":"80"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Trash","location_type":"Alley","n":"118"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Street Light Lamp Dim","n":"23"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Tour Bus","location_type":"Business","n":"1"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Catch Basin Search","location_type":"Sewer","n":"67"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Sewage","location_type":"Restaurant/Bar/Deli/Bakery","n":"6"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Gas Station Pumps","location_type":"Business","n":"20"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Pet Store","n":"1"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Fixture/Luminaire Out Of Position","n":"12"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Debris from Car Accident","location_type":"Street","n":"39"}
+,{"agency":"HPD","complaint_type":"OUTSIDE BUILDING","descriptor":"PORCH/BALCONY","location_type":"RESIDENTIAL BUILDING","n":"18"}
+,{"agency":"DSNY","complaint_type":"Obstruction","descriptor":"Weeds or Grass","location_type":"Sidewalk","n":"732"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Foreign Attachment On Lamppost","n":"2"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"BELL/BUZZER/INTERCOM","location_type":"RESIDENTIAL BUILDING","n":"985"}
+,{"agency":"DOB","complaint_type":"Building/Use","descriptor":"SRO - Illegal Work/No Permit/Change In Occupancy/Use","n":"64"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Concrete Barrier","location_type":"Highway","n":"2"}
+,{"agency":"DOB","complaint_type":"Plumbing","descriptor":"Plumbing Work - Illegal/No Permit/Standpipe/Sprinkler","n":"66"}
+,{"agency":"NYPD","complaint_type":"Disorderly Youth","descriptor":"Nuisance/Truant","location_type":"Street/Sidewalk","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Kitchen/Food Prep Area","location_type":"Other (Explain Below)","n":"6"}
+,{"agency":"DEP","complaint_type":"Hazardous Materials","descriptor":"Oil Spill On Street, Small (HQS)","n":"12"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Dust, Construction/Demolition (AE4)","n":"102"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Smoke, Vehicular (AA4)","n":"16"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"On Structure","n":"1"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Door to Door Sales","n":"1"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Graffiti or Vandalism","location_type":"Street/Curbside","n":"11"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Broken Glass","location_type":"Yard","n":"6"}
+,{"agency":"HPD","complaint_type":"WATER LEAK","descriptor":"SLOW LEAK","location_type":"RESIDENTIAL BUILDING","n":"1726"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Odor","location_type":"Sewer","n":"42"}
+,{"agency":"NYPD","complaint_type":"Drug Activity","descriptor":"Use Indoor","location_type":"Common Area","n":"27"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Fountain - Under 5 Gallons","location_type":"3+ Family Apartment Building","n":"1"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Trash and Bulky Trash","location_type":"Street","n":"47"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Contaminated","location_type":"Catering Service","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Door","n":"2"}
+,{"agency":"DEP","complaint_type":"Green Infrastructure","descriptor":"Rain Garden","location_type":"Street/Sidewalk","n":"56"}
+,{"agency":"NYPD","complaint_type":"Animal-Abuse","descriptor":"No Shelter","location_type":"Residential Building","n":"29"}
+,{"agency":"DOT","complaint_type":"Broken Parking Meter","descriptor":"Credit Card Stuck in Meter","location_type":"Street","n":"7"}
+,{"agency":"EDC","complaint_type":"Noise - Helicopter","descriptor":"News Gathering","location_type":"Above Address","n":"7"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Vehicle Complaint","location_type":"Bridge","n":"1"}
+,{"agency":"DOT","complaint_type":"Bus Stop Shelter Complaint","descriptor":"Damaged or Leaking Roof","location_type":"Bus Stop Shelter","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Maintenance","descriptor":"Dirty Water","location_type":"N/A","n":"247"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Rat Sighting","location_type":"Street","n":"125"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Puddle in Ground","location_type":"1-2 Family Dwelling","n":"12"}
+,{"agency":"DEP","complaint_type":"Lead","descriptor":"Lead Kit Request (Residential) (L10)","n":"891"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Park/Playground","n":"358"}
+,{"agency":"DSNY","complaint_type":"Sanitation Worker or Vehicle Complaint","descriptor":"Inappropriate Behavior","location_type":"Street","n":"95"}
+,{"agency":"NYPD","complaint_type":"Drug Activity","descriptor":"Use Indoor","location_type":"Hallway","n":"38"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Protection","location_type":"Other (Explain Below)","n":"9"}
+,{"agency":"NYPD","complaint_type":"Noise - House of Worship","descriptor":"Loud Talking","location_type":"House of Worship","n":"71"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Animal Pvt Property","descriptor":"Other Animal","location_type":"Commercial Building","n":"6"}
+,{"agency":"DPR","complaint_type":"Damaged Tree","descriptor":"Branch Cracked and Will Fall","n":"1"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Passenger","location_type":"Highway","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Ventilation","location_type":"3+ Family Apartment Building","n":"231"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Sweet Odor From Unknown Source","location_type":"N/A","n":"5"}
+,{"agency":"HPD","complaint_type":"PLUMBING","descriptor":"TOILET","location_type":"RESIDENTIAL BUILDING","n":"978"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Travel Agency","location_type":"Business","n":"2"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Private Carting Noise (NQ1)","n":"20"}
+,{"agency":"DOHMH","complaint_type":"Indoor Air Quality","descriptor":"Human Feces","location_type":"3+ Family Apt. Building","n":"35"}
+,{"agency":"DOB","complaint_type":"Plumbing","descriptor":"Failure To Retain Water/Improper Drainage- (LL103/89)","n":"203"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Sold","descriptor":"Other","location_type":"Store","n":"2"}
+,{"agency":"DOT","complaint_type":"Municipal Parking Facility","descriptor":"General Maintenance","location_type":"Lot","n":"4"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Hardware Store","location_type":"Business","n":"5"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Advertising Sign/Billboard/Posters/Flexible Fabric - Illegal","n":"36"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"High Grass","location_type":"Highway","n":"8"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Protection","location_type":"Soup Kitchen","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Ventilation","location_type":"Restaurant/Bar/Deli/Bakery","n":"10"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Air: Odor/Fumes, Vehicle Idling (AD3)","n":"417"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Nail Salon Odor","location_type":"Commercial/Mixed Use Building","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Contains Foreign Object","location_type":"Restaurant/Bar/Deli/Bakery","n":"45"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Waterway-Sewage (IHA)","n":"4"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Recycling Posters Not Posted","location_type":"Street","n":"2"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Painted Line/Marking","location_type":"Highway","n":"14"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Broken/Leaking","location_type":"Residential Building","n":"21"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Dog","location_type":"Sidewalk","n":"31"}
+,{"agency":"DEP","complaint_type":"Hazardous Materials","descriptor":"Unsafe Chemical, Abandoned (HC2)","n":"16"}
+,{"agency":"DOHMH","complaint_type":"Asbestos","descriptor":"N/A","location_type":"Commercial Building","n":"3"}
+,{"agency":"DOT","complaint_type":"Street Sign - Missing","descriptor":"One Way","location_type":"Street","n":"3"}
+,{"agency":"HPD","complaint_type":"GENERAL","descriptor":"MAILBOX","location_type":"RESIDENTIAL BUILDING","n":"195"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Cellar Door Defective","location_type":"Sidewalk","n":"10"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Container - Under 5 Gallons","location_type":"1-2 Family Dwelling","n":"3"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Bulky Recycling","location_type":"Street","n":"318"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Excessive Water In Basement (WEFB)","n":"66"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Odor","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Rodents/Insects/Garbage","location_type":"Restaurant/Bar/Deli/Bakery","n":"378"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Rodent Sighting","location_type":"Street/Curbside","n":"315"}
+,{"agency":"NYPD","complaint_type":"Graffiti","descriptor":"Police Report Requested","location_type":"Store/Commercial","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Residential Property","n":"46"}
+,{"agency":"DEP","complaint_type":"Sewer Maintenance","descriptor":"Backup","location_type":"Sewer","n":"163"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"Defective Water Sampling Station (QSS)","n":"3"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Booting Company","location_type":"Business","n":"9"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Catering Establishment","location_type":"Business","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Permit/License/Certificate","location_type":"Other (Explain Below)","n":"1"}
+,{"agency":"DEP","complaint_type":"Water Quality","descriptor":"unknown odor/taste in drinking water (QA6)","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Vacant Building","n":"6"}
+,{"agency":"DOHMH","complaint_type":"Calorie Labeling","descriptor":"Failure to Post Calorie Information","location_type":"Restaurant/Bar/Deli/Bakery","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Sold","descriptor":"Turtle Under 4 inches Long","location_type":"Street Vendor","n":"5"}
+,{"agency":"DSNY","complaint_type":"Missed Collection","descriptor":"Recycling - Paper/Metal/Glass/Rigid Plastic","location_type":"Street","n":"306"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"High Water Pressure (WHP)","n":"4"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Kept as Pet","descriptor":"Farm Animal","location_type":"Residence","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Mosquitoes","descriptor":"Large Number of Mosquitoes","location_type":"Commercial Property","n":"2"}
+,{"agency":"DSNY","complaint_type":"Illegal Dumping","descriptor":"Chronic Dumping","location_type":"Sidewalk","n":"258"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Plate Condition - Open","location_type":"Street","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Commercial Building","n":"38"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Oil Spill Into Basin/Sewer - Small (IABS)","n":"2"}
+,{"agency":"DOB","complaint_type":"Special Projects Inspection Team (SPIT)","descriptor":"Adult Establishment","n":"17"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Complaint","descriptor":"Driver Complaint - Non Passenger","location_type":"Highway","n":"17"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Street","n":"16"}
+,{"agency":"HPD","complaint_type":"APPLIANCE","descriptor":"MICROWAVE","location_type":"RESIDENTIAL BUILDING","n":"2"}
+,{"agency":"NYPD","complaint_type":"Noise - Commercial","descriptor":"Banging/Pounding","location_type":"Store/Commercial","n":"394"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Warning Signal Lamp","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Rodent","descriptor":"Condition Attracting Rodents","location_type":"Parking Lot or Garage","n":"13"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Kitchen/Food Prep Area","location_type":"Restaurant/Bar/Deli/Bakery","n":"58"}
+,{"agency":"DOT","complaint_type":"Street Sign - Dangling","descriptor":"School Crossing","location_type":"Street","n":"3"}
+,{"agency":"TLC","complaint_type":"Taxi Complaint","descriptor":"Driver Complaint - Passenger","location_type":"Bridge","n":"1"}
+,{"agency":"DOB","complaint_type":"General Construction/Plumbing","descriptor":"Egress - Doors Locked/Blocked/Improper/No Secondary Means","n":"150"}
+,{"agency":"DOB","complaint_type":"Elevator","descriptor":"Elevator - Multiple Devices On Property","n":"1145"}
+,{"agency":"NYPD","complaint_type":"Abandoned Vehicle","descriptor":"With License Plate","location_type":"Street/Sidewalk","n":"6933"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Water","location_type":"Restaurant/Bar/Deli/Bakery","n":"4"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Base Door","n":"50"}
+,{"agency":"DSNY","complaint_type":"Graffiti","descriptor":"Graffiti","n":"309"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Dog Waste","location_type":"Sidewalk","n":"176"}
+,{"agency":"DOHMH","complaint_type":"Pet Sale","descriptor":"Inadequate Care","location_type":"Commercial Building","n":"4"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"Hydrant Leaking (WC1)","n":"405"}
+,{"agency":"DEP","complaint_type":"Water Conservation","descriptor":"Water Meter Stolen/Missing - Private Residence (CLR)","n":"4"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Storage Area Not Provided","location_type":"Street","n":"25"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Odor","location_type":"3+ Family Apartment Building","n":"3"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Noise: Construction Before/After Hours (NM1)","n":"867"}
+,{"agency":"DEP","complaint_type":"Industrial Waste","descriptor":"Oil Spill Small","location_type":"Catch Basin/Sewer","n":"1"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Temporary","n":"2"}
+,{"agency":"HPD","complaint_type":"DOOR/WINDOW","descriptor":"WINDOW PANE","location_type":"RESIDENTIAL BUILDING","n":"273"}
+,{"agency":"TLC","complaint_type":"For Hire Vehicle Report","descriptor":"Driver Report - Non Passenger","location_type":"Street","n":"2"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Opossum","location_type":"Highway","n":"1"}
+,{"agency":"DPR","complaint_type":"Overgrown Tree/Branches","descriptor":"Clear Street Light","location_type":"Park","n":"2"}
+,{"agency":"DOHMH","complaint_type":"Illegal Animal Sold","descriptor":"Other","location_type":"Street Vendor","n":"1"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Food Temperature","location_type":"Street Fair Vendor","n":"1"}
+,{"agency":"DOT","complaint_type":"Outdoor Dining","descriptor":"Restaurant Status","location_type":"Street","n":"22"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Mobile Food Vendor","n":"1"}
+,{"agency":"DEP","complaint_type":"Water System","descriptor":"installation of hydrant side post (WHFP)","n":"11"}
+,{"agency":"DOHMH","complaint_type":"Building Drinking Water Tank","descriptor":"Broken or Defective","location_type":"Ground","n":"1"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Dead Animal","location_type":"Highway","n":"27"}
+,{"agency":"DOT","complaint_type":"Street Light Condition","descriptor":"Glassware Hanging","n":"5"}
+,{"agency":"DOHMH","complaint_type":"Unleashed Dog","descriptor":"Unleashed Dog in Public","location_type":"Public/Unfenced Area","n":"184"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Garage or Parking Lot","location_type":"Business","n":"95"}
+,{"agency":"DOB","complaint_type":"BEST/Site Safety","descriptor":"Demolition - Unsafe","n":"37"}
+,{"agency":"DEP","complaint_type":"Air Quality","descriptor":"Vehicle Idling Odor","location_type":"Street/Sidewalk","n":"155"}
+,{"agency":"DOB","complaint_type":"AHV Inspection Unit","descriptor":"After Hours Work - With An AHV Permit","n":"20"}
+,{"agency":"DOB","complaint_type":"Emergency Response Team (ERT)","descriptor":"After Hours Work - Illegal","n":"201"}
+,{"agency":"DEP","complaint_type":"Noise","descriptor":"Construction","location_type":"Street/Sidewalk","n":"171"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Moving Company","location_type":"Business","n":"6"}
+,{"agency":"DOT","complaint_type":"Street Condition","descriptor":"Depression Maintenance","n":"16"}
+,{"agency":"DOT","complaint_type":"Sidewalk Condition","descriptor":"Sidewalk Staircase","location_type":"Sidewalk","n":"8"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Pothole - Highway","location_type":"Highway","n":"185"}
+,{"agency":"DPR","complaint_type":"Maintenance or Facility","descriptor":"Grass/Weeds","location_type":"Park","n":"240"}
+,{"agency":"DCWP","complaint_type":"Consumer Complaint","descriptor":"Stoop Line Stand","n":"10"}
+,{"agency":"NYPD","complaint_type":"Illegal Fireworks","descriptor":"N/A","location_type":"Bridge","n":"1"}
+,{"agency":"DOT","complaint_type":"Curb Condition","descriptor":"Broken Curb","location_type":"Sidewalk","n":"470"}
+,{"agency":"DOT","complaint_type":"Highway Condition","descriptor":"Highway Fence","location_type":"Highway","n":"3"}
+,{"agency":"DSNY","complaint_type":"Sanitation Worker or Vehicle Complaint","descriptor":"Idling or Blocking Traffic","location_type":"Street","n":"5"}
+,{"agency":"DSNY","complaint_type":"Residential Disposal Complaint","descriptor":"Storage Area Not Provided","location_type":"Sidewalk","n":"73"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Obstructing Public Use","location_type":"Street/Curbside","n":"12"}
+,{"agency":"DSNY","complaint_type":"Dead Animal","descriptor":"Cat","location_type":"Sidewalk","n":"194"}
+,{"agency":"DOHMH","complaint_type":"Building Drinking Water Tank","descriptor":"Broken or Defective","location_type":"Roof","n":"3"}
+,{"agency":"DOHMH","complaint_type":"Food Establishment","descriptor":"Ventilation","location_type":"Catering Service","n":"1"}
+,{"agency":"DSNY","complaint_type":"Dirty Condition","descriptor":"Syringes","location_type":"Sidewalk","n":"49"}
+,{"agency":"DPR","complaint_type":"Violation of Park Rules","descriptor":"Unauthorized Film Shoot","location_type":"Park","n":"2"}
+,{"agency":"DOT","complaint_type":"Highway Sign - Damaged","descriptor":"Exit/Route","location_type":"Highway","n":"3"}
+,{"agency":"DOT","complaint_type":"Traffic Signal Condition","descriptor":"Telco Connection Blk","n":"1"}
+,{"agency":"NYPD","complaint_type":"Traffic","descriptor":"Chronic Stoplight Violation","location_type":"Street/Sidewalk","n":"41"}
+,{"agency":"DOHMH","complaint_type":"Mobile Food Vendor","descriptor":"Food Source/Protection","location_type":"Green Cart Vendor","n":"7"}
+,{"agency":"DOHMH","complaint_type":"Unsanitary Pigeon Condition","descriptor":"Pigeon Waste","location_type":"1-2 Family Dwelling","n":"36"}
+,{"agency":"DOHMH","complaint_type":"Standing Water","descriptor":"Flower Planters","location_type":"Vacant Lot","n":"1"}]

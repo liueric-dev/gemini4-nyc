@@ -1,0 +1,1095 @@
+{
+ "med-0046": {
+  "reviewed_at": "2026-11-21T12:21:03.551Z",
+  "sha256": "7726548e8f680227f9196d6b832251d478254b4b4e0f19db550cc1c9e255b3e2",
+  "verdict": "right"
+ },
+ "med-0071": {
+  "mold_bin": "cant-tell",
+  "reviewed_at": "2026-11-21T12:32:50.046Z",
+  "sha256": "1378950f66d2232cddc0d5bb5cc710e279d854ba786a801b80e6f26685d187cf",
+  "verdict": "right"
+ },
+ "med-0072": {
+  "mold_bin": "cant-tell",
+  "reviewed_at": "2026-11-21T12:36:49.194Z",
+  "sha256": "cb7b99fae9082a5b9efbda2a49ba3821c32b43f3d6a4805ab2bacf82c9cb8f03",
+  "verdict": "right"
+ },
+ "med-0084": {
+  "reviewed_at": "2026-11-21T12:39:20.006Z",
+  "sha256": "786c9d3956629610f3a2865ad48b2a17ded722b9cf69a24944cea2769a09eed8",
+  "verdict": "right"
+ },
+ "med-0085": {
+  "reviewed_at": "2026-11-21T12:39:20.868Z",
+  "sha256": "eb5f7852842c3954cd6d4f831006ef3aad9150f540fa1fc435cb4bf524ef1179",
+  "verdict": "right"
+ },
+ "med-0090": {
+  "reviewed_at": "2026-11-21T12:41:04.795Z",
+  "sha256": "b14e4b01f4d7096a317b2d73d58bbd3d04cdc68299fae9873f95d21eeb7789d4",
+  "verdict": "right"
+ },
+ "med-0096": {
+  "reviewed_at": "2026-11-21T12:23:50.037Z",
+  "sha256": "f0b3b07f4e53e80747600082aaa16473b15d29152781223a82b1628d0b1345ee",
+  "verdict": "right"
+ },
+ "med-0113": {
+  "reviewed_at": "2026-11-21T12:26:26.893Z",
+  "sha256": "d7f2fd45f0118306bf8b472f60e5a78d3ded8e9947e5aacc418709abc87d9c28",
+  "verdict": "right"
+ },
+ "med-0122": {
+  "reviewed_at": "2026-11-21T12:36:51.699Z",
+  "sha256": "187679a5355a76ac218005c76126bda3fa97b22522bf2757e93f79f96b6d8b68",
+  "verdict": "right"
+ },
+ "med-0125": {
+  "reviewed_at": "2026-11-21T12:23:32.336Z",
+  "sha256": "515aa4f92cc5ecbf10949e233251171cfdecf2ee9b3825e43e239f52cc59cf76",
+  "verdict": "right"
+ },
+ "med-0126": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:14:52.883Z",
+  "sha256": "c741dd6db49ca2bd064207798d85e5f91318316ec70e2f77c52ac8f014cc7cf0",
+  "verdict": "right"
+ },
+ "med-0140": {
+  "reviewed_at": "2026-11-21T12:41:59.617Z",
+  "sha256": "dd4aff0f853e478a345d810f0c8f7fb7e40e372d8c2f5a82ecd692f9d5db21f0",
+  "verdict": "right"
+ },
+ "med-0155": {
+  "reviewed_at": "2026-11-21T12:40:31.527Z",
+  "sha256": "92b536da0ef2a64eaa1d58279ea6921465f067639fc2f0b886fa4b255ad09175",
+  "verdict": "right"
+ },
+ "med-0156": {
+  "mold_bin": "B",
+  "reviewed_at": "2026-11-21T12:33:25.359Z",
+  "sha256": "07cce682c5e4c427c5b5db85e503f0cafda4269583ad1d290f6095f9f934fcb4",
+  "verdict": "right"
+ },
+ "med-0166": {
+  "reviewed_at": "2026-11-21T12:37:56.744Z",
+  "sha256": "220645f65524deba460d5673e74d6b02419d4d33e04559d3443f01344a746a3d",
+  "verdict": "right"
+ },
+ "med-0167": {
+  "reviewed_at": "2026-11-21T12:38:16.480Z",
+  "sha256": "fdf7c21e83836f4a8eafed64202d499cb732881604d1fc8effd93754d02a0423",
+  "verdict": "right"
+ },
+ "med-0168": {
+  "reviewed_at": "2026-11-21T12:40:52.292Z",
+  "sha256": "19868476bc1b7d2d795dc13137e1468fc76ada764f23d1e5f2400ecc246db5e3",
+  "verdict": "right"
+ },
+ "med-0176": {
+  "reviewed_at": "2026-11-21T12:46:39.478Z",
+  "sha256": "96fd63c5ef884d1f399f0b367af752af020efe553e40f9fdc1b8b8cc575a2b75",
+  "verdict": "right"
+ },
+ "med-0177": {
+  "reviewed_at": "2026-11-21T12:40:37.204Z",
+  "sha256": "d039d66172dae2c0b54c47f9ae8ff61ea22fb1d52bf265797634bfd8ab187f72",
+  "verdict": "right"
+ },
+ "med-0178": {
+  "reviewed_at": "2026-11-21T12:40:59.287Z",
+  "sha256": "9a7788c226e320b6bf8c55200e6a54af99f31af5314111aef3435df56c1cc130",
+  "verdict": "right"
+ },
+ "med-0179": {
+  "reviewed_at": "2026-11-21T12:39:02.145Z",
+  "sha256": "90314cc74a1b4992e52900f5911afa6c5bfdba8fe8ae8562ff182118bd89d62a",
+  "verdict": "right"
+ },
+ "med-0188": {
+  "fixed_label": "none",
+  "note": "water damaged patch, i dont see peeling paint, this. not sure about this one",
+  "reviewed_at": "2026-11-21T12:35:38.059Z",
+  "sha256": "8b39aa5a4a60900a2a71cd69369c3619daef2e7c4e46afa248118e3e316d453f",
+  "verdict": "wrong"
+ },
+ "med-0191": {
+  "reviewed_at": "2026-11-21T12:33:47.160Z",
+  "sha256": "c3ec44d5454f211fdbe1893b62be380859cf1759f1b4808685844f0c9bb0ef92",
+  "verdict": "right"
+ },
+ "med-0196": {
+  "reviewed_at": "2026-11-21T12:36:19.580Z",
+  "sha256": "27b013e345e0c866dc40e34a7940145bb2f4379e7820895a49ad8bc96e696893",
+  "verdict": "right"
+ },
+ "med-0201": {
+  "reviewed_at": "2026-11-21T12:24:10.700Z",
+  "sha256": "cfdf97e719424f6328927d30e5d0f682855abcde7d334e5b24f7a87aef1f9573",
+  "verdict": "right"
+ },
+ "med-0204": {
+  "reviewed_at": "2026-11-21T12:41:32.750Z",
+  "sha256": "86dc8619e7edae41306dfffc08fed43c07b58be107dbee2c6bacf423a7444219",
+  "verdict": "right"
+ },
+ "med-0205": {
+  "reviewed_at": "2026-11-21T12:40:34.177Z",
+  "sha256": "75266847e231cef6e2703a6df0639cb6943f17a0d52397557d8b5ce2980b90fb",
+  "verdict": "right"
+ },
+ "med-0206": {
+  "reviewed_at": "2026-11-21T12:46:33.243Z",
+  "sha256": "4c14eac6acb6f6a4f182f169c0cf93951418a2e176da6ece1056fb0209f8152b",
+  "verdict": "right"
+ },
+ "med-0207": {
+  "reviewed_at": "2026-11-21T12:37:59.348Z",
+  "sha256": "95d1747f1b8982de99c9d8e038d908218f793e8698161209e233244f3ed59076",
+  "verdict": "right"
+ },
+ "med-0211": {
+  "reviewed_at": "2026-11-21T12:38:55.981Z",
+  "sha256": "29d0c56a9e27c24c724383cc360f17ea606a289badc48e4e392c66a143857588",
+  "verdict": "right"
+ },
+ "med-0213": {
+  "reviewed_at": "2026-11-21T12:46:29.373Z",
+  "sha256": "9b857cee9853299be3545f72e063f69b7bbcdccbb59951bdad6a4c5d1b56344e",
+  "verdict": "right"
+ },
+ "med-0216": {
+  "reviewed_at": "2026-11-21T12:41:58.335Z",
+  "sha256": "26467946a5b97ebe9aed29da1beeba988814a5ece5f01016bcfdef30ea7da19c",
+  "verdict": "right"
+ },
+ "med-0234": {
+  "reviewed_at": "2026-11-21T12:39:07.998Z",
+  "sha256": "03da0c688cf849b21560af9741cc3626a660a44015dbd47312fb24225540e8df",
+  "verdict": "right"
+ },
+ "med-0235": {
+  "reviewed_at": "2026-11-21T12:41:53.341Z",
+  "sha256": "fd8fbff2847c67157c999471de98a05c2061383b3b3b966dd007a8766dbd6979",
+  "verdict": "right"
+ },
+ "med-0240": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:08:09.243Z",
+  "sha256": "d7bf5cb15d2f96d3a3168ff3cb2875d3e876ce6145eac0be1424ce26ca234a70",
+  "verdict": "right"
+ },
+ "med-0241": {
+  "mold_bin": "B",
+  "reviewed_at": "2026-11-21T12:34:10.353Z",
+  "sha256": "92b8359f8bfeaced4c1eefe8105ff3342694b4cb62386dba0d9b3de9b111c16e",
+  "verdict": "right"
+ },
+ "med-0249": {
+  "reviewed_at": "2026-11-21T12:24:02.410Z",
+  "sha256": "6fc4c2256a35ca28e7ed1bff330661c7544d8857ff5401e65a0401ecc4d3f970",
+  "verdict": "right"
+ },
+ "med-0250": {
+  "reviewed_at": "2026-11-21T12:33:16.795Z",
+  "sha256": "49bce99b655e2d52dbf45be9d515594d2af05934447ca578b012325e016dd126",
+  "verdict": "right"
+ },
+ "med-0254": {
+  "reviewed_at": "2026-11-21T12:15:32.898Z",
+  "sha256": "28837ef3f747d6e08fe4e7048ef962c2d566d75589b3d946970a326bf5ea3ec3",
+  "verdict": "right"
+ },
+ "med-0259": {
+  "reviewed_at": "2026-11-21T12:36:24.598Z",
+  "sha256": "b304b3d4004e79fbde63f3e2262d3b2379fa25189c14957e8408f8a2301251b6",
+  "verdict": "right"
+ },
+ "med-0277": {
+  "reviewed_at": "2026-11-21T12:39:01.043Z",
+  "sha256": "d40d40d924102f7738803c52bbb722e08b43d84f9778487a1a13d90145eff9b8",
+  "verdict": "right"
+ },
+ "med-0282": {
+  "reviewed_at": "2026-11-21T12:39:30.526Z",
+  "sha256": "7d3cef0a409d252b52284152c8dd0ae73eff2dc4a410480f87f4303af9460f39",
+  "verdict": "right"
+ },
+ "med-0287": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:47:23.751Z",
+  "sha256": "496f677de613b53e16acfcdd358e42048b25eb0357c28739b31bb57895053afe",
+  "verdict": "right"
+ },
+ "med-0288": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:50:15.443Z",
+  "sha256": "556d5d1e0099f718162ebcf6c8d03b23c6eaa5fa87e20d1abc0e79eb5d818245",
+  "verdict": "right"
+ },
+ "med-0291": {
+  "reviewed_at": "2026-11-21T12:21:25.086Z",
+  "sha256": "d4d007afa7f86bd8daa9da529431bce2f017823fbac9f1d2ab891ca6929c4272",
+  "verdict": "right"
+ },
+ "med-0292": {
+  "reviewed_at": "2026-11-21T12:38:39.738Z",
+  "sha256": "9b98fba62d7f64cd473b9c8809ce3f1ef771a14481532c953875bfe28e5b378d",
+  "verdict": "right"
+ },
+ "med-0294": {
+  "reviewed_at": "2026-11-21T12:59:51.675Z",
+  "sha256": "6f92c9658a344a4fdf9075c0e2ea4d5e404620ce197acb49133d30a705a5c846",
+  "verdict": "right"
+ },
+ "med-0309": {
+  "fixed_label": "paint peeling/patch over?",
+  "note": "not sure how to categborize this but there seems to be some pain peeling around the sink area",
+  "reviewed_at": "2026-11-21T12:37:53.599Z",
+  "sha256": "6adc6e62095cfc40cd39c3ad106f0671f80f77a48db2541b1f350253164290fe",
+  "verdict": "wrong"
+ },
+ "med-0311": {
+  "reviewed_at": "2026-11-21T12:41:37.082Z",
+  "sha256": "86b44563cc5f8477ce98a543c070f5038cc2b7eb520d57f79d1f8ee00570668b",
+  "verdict": "right"
+ },
+ "med-0312": {
+  "reviewed_at": "2026-11-21T12:39:32.734Z",
+  "sha256": "e2549c02732821420d2a92040748261c050706a3f6f1f6065add39b11faf8c7a",
+  "verdict": "right"
+ },
+ "med-0314": {
+  "mold_bin": "cant-tell",
+  "reviewed_at": "2026-11-21T12:23:54.298Z",
+  "sha256": "580a23c8d05d013394ad960986542dedb368716c8a802b45009db4b485a7fe82",
+  "verdict": "right"
+ },
+ "med-0317": {
+  "reviewed_at": "2026-11-21T12:41:57.490Z",
+  "sha256": "442ccfe66c05ace7320d387caf398cf2ff7d314e6ecdc1f162d3d11d61933f56",
+  "verdict": "right"
+ },
+ "med-0324": {
+  "reviewed_at": "2026-11-21T12:41:34.775Z",
+  "sha256": "82d7ce2ba0a3a6d9323df8718ff18ecdb80427f69d088c3d296978d3d54eab49",
+  "verdict": "right"
+ },
+ "med-0327": {
+  "reviewed_at": "2026-11-21T12:41:49.271Z",
+  "sha256": "c1d4180e8d8063d89f7dbe656b92f600df1dbc9bbf20d050e8b38aedbed0d96b",
+  "verdict": "right"
+ },
+ "med-0328": {
+  "reviewed_at": "2026-11-21T12:41:13.825Z",
+  "sha256": "dd0f6ed645336af44d5c8f97b94badbd4fe35c8d486cb69aff911ffc72ae9f01",
+  "verdict": "right"
+ },
+ "med-0334": {
+  "reviewed_at": "2026-11-21T12:37:08.192Z",
+  "sha256": "0944f578d2289f7c658f59245c1e6572710a55093146f1b4c9321c67d8281bb2",
+  "verdict": "right"
+ },
+ "med-0338": {
+  "reviewed_at": "2026-11-21T12:41:43.225Z",
+  "sha256": "95bf1cfae30fcf549aca653552fd4f32133ac65fdadc28e58df03ff8175a4b6f",
+  "verdict": "right"
+ },
+ "med-0344": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:49:43.026Z",
+  "sha256": "e21381d26dc17714a32b832d09bce32e85f3898e0646bd3941996ca803ae0271",
+  "verdict": "right"
+ },
+ "med-0351": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:49:12.351Z",
+  "sha256": "faa7cb8d293020b48136114d8dcb9215464c4f674efb9ad7146c99670c60ec9d",
+  "verdict": "right"
+ },
+ "med-0352": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:48:11.231Z",
+  "sha256": "3b723b4026817180ec58b2845424c6702402b2fe60dcebee9de3136431772bc9",
+  "verdict": "right"
+ },
+ "med-0355": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:52:05.978Z",
+  "sha256": "07bee4521a500b26601fbfd68f18808136a87b1c93747bf7662b65a21e2cab69",
+  "verdict": "right"
+ },
+ "med-0360": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:50:49.378Z",
+  "sha256": "8a8102cf5906520df1e0ca8e1d734dd0d9a7fd33ffe7647c6c59787a6f79a762",
+  "verdict": "right"
+ },
+ "med-0363": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:50:56.615Z",
+  "sha256": "50d4d25f221338dc2bace6cf6bfb6d543a639c9ccfac1d46dc6f0b846b19dabf",
+  "verdict": "right"
+ },
+ "med-0368": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:50:22.257Z",
+  "sha256": "fb948c89dee922430b887ddf22bd077dfc7e8452f8f991ac684bc97a70842823",
+  "verdict": "right"
+ },
+ "med-0372": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:49:08.686Z",
+  "sha256": "d3fab6c4b114d7c241e62ea28594c9fc1f7411037f49f4bc244e44a173f01e00",
+  "verdict": "right"
+ },
+ "med-0375": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:52:10.326Z",
+  "sha256": "9014b31713d00db5b7de90ce3431e780f0239c87e76b2004de82eb26c7ae68c0",
+  "verdict": "right"
+ },
+ "med-0383": {
+  "reviewed_at": "2026-11-21T12:46:34.519Z",
+  "sha256": "d05012911048379797f076880b90a00b021e46b654505c4540ded39fd3960b88",
+  "verdict": "right"
+ },
+ "med-0405": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:33:43.131Z",
+  "sha256": "73c2b508b89da741e79a36859cf4eb6e3346e4d3849a26687e306c791142023a",
+  "verdict": "right"
+ },
+ "med-0406": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:27:11.975Z",
+  "sha256": "6491a422e73916d928cc1859a6d36490005eddcc619a6856357e7ae326d77e41",
+  "verdict": "right"
+ },
+ "med-0407": {
+  "mold_bin": "B",
+  "reviewed_at": "2026-11-21T12:33:54.762Z",
+  "sha256": "bc9c1ee887f736af6015b7b91486129425bcdf9aed9c2f22eb643001ea7ea8b1",
+  "verdict": "right"
+ },
+ "med-0410": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:24:33.336Z",
+  "sha256": "f784301fb4d6d1822f1a2daef045ab72003971e4f1ca66d28a10e03893fc5bfa",
+  "verdict": "right"
+ },
+ "med-0411": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:27:46.165Z",
+  "sha256": "f0b393b1a7663c4dead76003cd71cfb1ead7a7cae3fa3529a953b9e6df74d7f5",
+  "verdict": "right"
+ },
+ "med-0413": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:49:32.167Z",
+  "sha256": "74a9a0135c442966ccdeb9286121f83d16a0278a2e6c8fc6587e62023a3c34b5",
+  "verdict": "right"
+ },
+ "med-0414": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:51:03.168Z",
+  "sha256": "7201b78e2f11a71e584f7e5e6665ae05b37488e5ee02f2a38578423d456b7533",
+  "verdict": "right"
+ },
+ "med-0420": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:51:33.629Z",
+  "sha256": "797a368fd2c674a23f15bdb15cbcfa451258a68221a3383969212f100ff259d4",
+  "verdict": "right"
+ },
+ "med-0429": {
+  "reviewed_at": "2026-11-21T12:41:00.334Z",
+  "sha256": "cb20ba661361f58fb3ea8e32aeb23b01bf0856065590ba6583e6707ed932e587",
+  "verdict": "right"
+ },
+ "med-0436": {
+  "reviewed_at": "2026-11-21T12:39:18.137Z",
+  "sha256": "605754ecdf3635423a632033892f99cd9c0a3de073ac09c5030c94e40232f4a4",
+  "verdict": "right"
+ },
+ "med-0438": {
+  "reviewed_at": "2026-11-21T12:40:57.405Z",
+  "sha256": "3e033e898ce69a5e19f188914d64a7493e7b0f1547d8b07d78c16efc014a38ad",
+  "verdict": "right"
+ },
+ "med-0439": {
+  "reviewed_at": "2026-11-21T12:38:03.117Z",
+  "sha256": "051590a78067557f046614fb218443a7418ba3ce363dac35a44edc1de2f8e79b",
+  "verdict": "right"
+ },
+ "med-0444": {
+  "reviewed_at": "2026-11-21T12:41:50.942Z",
+  "sha256": "5e1d84474c1646792a06d60a69962d1832ce55dd796cdb68c5f3daa1dba86bd9",
+  "verdict": "right"
+ },
+ "med-0457": {
+  "reviewed_at": "2026-11-21T12:41:09.247Z",
+  "sha256": "eee79ae32c3b655ec956445033a55081e51d88e7db3de30c38e79e65c1b1d654",
+  "verdict": "right"
+ },
+ "med-0458": {
+  "drop_reason": "watermark",
+  "reviewed_at": "2026-11-21T12:38:13.424Z",
+  "sha256": "34eda5254a5f3be30d6e76c47d5e861a368774676fc77f4cb1b912b596b21350",
+  "verdict": "drop"
+ },
+ "med-0459": {
+  "reviewed_at": "2026-11-21T12:38:57.936Z",
+  "sha256": "85721cad6afd333e1ed6a8019b2e2af067df95d4fe1abb14e43cc0aab762f15d",
+  "verdict": "right"
+ },
+ "med-0460": {
+  "drop_reason": "watermark",
+  "reviewed_at": "2026-11-21T12:41:20.646Z",
+  "sha256": "3b921b888fc7455c23536bd5090fbde7c686b122968cf9d6069cecbb254f9c4d",
+  "verdict": "drop"
+ },
+ "med-0461": {
+  "reviewed_at": "2026-11-21T12:38:04.155Z",
+  "sha256": "3e523dcc53b9e9d2537b023fd2815d33c1306b202670db264e54cc0cccd8e8d6",
+  "verdict": "right"
+ },
+ "med-0464": {
+  "reviewed_at": "2026-11-21T12:41:31.809Z",
+  "sha256": "070d80f19020926c77af15e2c1958a8204ad8b6cfdcf6a898ff6ac4f9f6a21bf",
+  "verdict": "right"
+ },
+ "med-0465": {
+  "reviewed_at": "2026-11-21T12:41:15.405Z",
+  "sha256": "cc451c7a198501606bcbaefafa3d0bbe95f36c8e6b2b6e3380bddcba7b562e27",
+  "verdict": "right"
+ },
+ "med-0468": {
+  "reviewed_at": "2026-11-21T12:39:04.426Z",
+  "sha256": "3d7ebbeaa266d075018ed4967242855e289316fabacc8ad55e349f3a9eef782d",
+  "verdict": "right"
+ },
+ "med-0474": {
+  "reviewed_at": "2026-11-21T12:38:20.147Z",
+  "sha256": "a3c81587a43077ecd2355143aba044ecc3a87ce3eb0408c8ec78a9d1cdc1e78c",
+  "verdict": "right"
+ },
+ "med-0479": {
+  "reviewed_at": "2026-11-21T12:46:36.505Z",
+  "sha256": "5d8bf7757addf3a3b756c132af1cd5a81e22910f52cc7453fbfb126734e7353f",
+  "verdict": "right"
+ },
+ "med-0481": {
+  "reviewed_at": "2026-11-21T12:39:06.901Z",
+  "sha256": "521be69fae7bb723657bc42046f4b24975094bfc629a2abd9c823f1a5e35fff5",
+  "verdict": "right"
+ },
+ "med-0482": {
+  "reviewed_at": "2026-11-21T12:41:42.258Z",
+  "sha256": "baa44c711eee8b6814b79c4f8ab811b2f149d2024d69e81b29f43995cc395b69",
+  "verdict": "right"
+ },
+ "med-0486": {
+  "reviewed_at": "2026-11-21T12:40:33.347Z",
+  "sha256": "36b665e04f1103e9dc8c84c3618ee497f15117c1b41425af9663ec4751da9c5e",
+  "verdict": "right"
+ },
+ "med-0488": {
+  "reviewed_at": "2026-11-21T12:38:31.412Z",
+  "sha256": "44bb91175374219c5453cc14f0b14c6743a1591600a799fb346d625c4d8ab834",
+  "verdict": "right"
+ },
+ "med-0490": {
+  "reviewed_at": "2026-11-21T12:40:36.619Z",
+  "sha256": "af93580f7556605cb657762e7a5994fb5b6a6ba5087d2244d6b73a4e719cf3d9",
+  "verdict": "right"
+ },
+ "med-0492": {
+  "reviewed_at": "2026-11-21T12:34:21.900Z",
+  "sha256": "b192826d368098413163d74620343415a116e37cdb34f1c1717d78e7b4ee5a35",
+  "verdict": "right"
+ },
+ "med-0493": {
+  "reviewed_at": "2026-11-21T12:35:49.802Z",
+  "sha256": "af5bc982a4a1085efab77e5142cd11be5d7dae04a76de1b818979fa6f0b364af",
+  "verdict": "right"
+ },
+ "med-0495": {
+  "reviewed_at": "2026-11-21T12:23:27.714Z",
+  "sha256": "ed173e4fe9a8a31a030a61e3ac58ee35fe3e21dd5f3033a10a40a2e8058e418c",
+  "verdict": "right"
+ },
+ "med-0496": {
+  "mold_bin": "B",
+  "reviewed_at": "2026-11-21T12:35:57.650Z",
+  "sha256": "90c5e36750c0b8d05b816d951513c969a3160749461728ed814c315e9ce38227",
+  "verdict": "right"
+ },
+ "med-0497": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:27:03.847Z",
+  "sha256": "96461196732bd570812b9ed52cc111502b75716a5bb19fcdebcbeef3927cd6db",
+  "verdict": "right"
+ },
+ "med-0498": {
+  "mold_bin": "C",
+  "reviewed_at": "2026-11-21T12:36:42.197Z",
+  "sha256": "864698abc0df30a0672a710fd53fdfbff1d37b7c3edc2f39a3b006582b192e17",
+  "verdict": "right"
+ },
+ "med-0499": {
+  "mold_bin": "B",
+  "reviewed_at": "2026-11-21T12:26:44.578Z",
+  "sha256": "6337f2bd505d1cc792aa47a07f8405659a34b026045a7b1944b1abe589cc5cb4",
+  "verdict": "right"
+ },
+ "med-0501": {
+  "reviewed_at": "2026-11-21T12:38:34.807Z",
+  "sha256": "ff0c692fcce5c0f6831bde4f2657dc617a91c0745528cb8472156c8af2593ba4",
+  "verdict": "right"
+ },
+ "med-0504": {
+  "reviewed_at": "2026-11-21T12:41:11.019Z",
+  "sha256": "5dcdfe25b370b55542ff0a25d1ec99c53ba12b6d695745dff2ec21bb7086d8e7",
+  "verdict": "right"
+ },
+ "med-0526": {
+  "fixed_label": "detector present",
+  "note": "this one is ambiguous but it looks like the sensor is attached",
+  "reviewed_at": "2026-11-21T12:23:19.327Z",
+  "sha256": "467a744d674e343bc29555b927aa023327931782c57f4422e334aab00af06b18",
+  "verdict": "wrong"
+ },
+ "med-0530": {
+  "reviewed_at": "2026-11-21T12:26:47.773Z",
+  "sha256": "fd9473bbd509d7632990bb4574ac054c919679cf51548730f11e796c72c11545",
+  "verdict": "right"
+ },
+ "med-0532": {
+  "reviewed_at": "2026-11-21T12:41:11.777Z",
+  "sha256": "d901802a11c284516b809756f420a641aec64793546bce8c96dc43f26c28dde1",
+  "verdict": "right"
+ },
+ "med-0533": {
+  "reviewed_at": "2026-11-21T12:40:40.171Z",
+  "sha256": "0b391ec48344457efa1a3c827541f5b19ee7ded26318dc607f5e53ee643e8cf6",
+  "verdict": "right"
+ },
+ "med-0539": {
+  "reviewed_at": "2026-11-21T12:41:30.635Z",
+  "sha256": "bd49066d9aa42931e2bd1bc68f1a390bcb63ef32eb4b6fa63b81f739a66a65f4",
+  "verdict": "right"
+ },
+ "med-0548": {
+  "reviewed_at": "2026-11-21T12:38:00.383Z",
+  "sha256": "650e07dd90519fdbc89ce5ac04d2e369f67ffae65bb43bbfd8ca7a36331cc56a",
+  "verdict": "right"
+ },
+ "med-0549": {
+  "reviewed_at": "2026-11-21T12:40:54.704Z",
+  "sha256": "7c332dc5d4390def94ea5411381d6b023d8ec908e634e6f947bb14dc76fda75d",
+  "verdict": "right"
+ },
+ "med-0550": {
+  "reviewed_at": "2026-11-21T12:42:00.549Z",
+  "sha256": "65e3766162f4f29d0a1d70381838e07b8d0f84e1ed4775689fcc364b17b3e952",
+  "verdict": "right"
+ },
+ "med-0555": {
+  "reviewed_at": "2026-11-21T12:20:50.851Z",
+  "sha256": "fd30f909b12a0823d54fd181c27b53dd1801e36708d2306b3fbd94c0159b4439",
+  "verdict": "right"
+ },
+ "med-0557": {
+  "reviewed_at": "2026-11-21T12:20:55.346Z",
+  "sha256": "ce2ff73069bc61391d8e31a6a86da3028df278f38427bc00547616fd50ee70f8",
+  "verdict": "right"
+ },
+ "med-0558": {
+  "reviewed_at": "2026-11-21T12:41:39.818Z",
+  "sha256": "3a358a12dabdd3dca85f3100b422e4f0873c6628061a0dcf4a6e6597abd623da",
+  "verdict": "right"
+ },
+ "med-0561": {
+  "reviewed_at": "2026-11-21T12:38:37.222Z",
+  "sha256": "ff2d7bf983bff109faa4970e278d7f0ecf18939de821b0bc6b3ebdbaf6b01e1d",
+  "verdict": "right"
+ },
+ "med-0562": {
+  "reviewed_at": "2026-11-21T12:39:13.467Z",
+  "sha256": "c144508a9ecd207b909db8583edc6004ec23780c442387df5bde19992cfb41c4",
+  "verdict": "right"
+ },
+ "med-0565": {
+  "note": "",
+  "reviewed_at": "2026-11-21T12:20:42.691Z",
+  "sha256": "8ede7840d9c42ad4f531fa5f4c46586bb2526f5aefe28b90d87aa9c473d2e274",
+  "verdict": "right"
+ },
+ "med-0566": {
+  "reviewed_at": "2026-11-21T12:26:17.242Z",
+  "sha256": "84ef0d45e751edebc39e9380f8975f8835ded16a46b4fc24fc564b8e85892469",
+  "verdict": "right"
+ },
+ "med-0568": {
+  "reviewed_at": "2026-11-21T12:36:02.756Z",
+  "sha256": "c489a2dd5fd8a2c72c8ee76f79f1f6099178fd7b65a234133f7d28f9cc35d720",
+  "verdict": "right"
+ },
+ "med-0570": {
+  "reviewed_at": "2026-11-21T12:41:51.748Z",
+  "sha256": "f3f5d8d2520ab19c12a0db078b144a27b1b7a433fa34f84ddfdbfd6c1f7ae3ee",
+  "verdict": "right"
+ },
+ "med-0572": {
+  "reviewed_at": "2026-11-21T12:40:38.595Z",
+  "sha256": "9d073459cf570a1380ac74f2fdce4bd14d5329fb53c8a887f827b194a2edb330",
+  "verdict": "right"
+ },
+ "med-0574": {
+  "reviewed_at": "2026-11-21T12:39:16.243Z",
+  "sha256": "7507bddce9b5f32d20a8fb9f819da4edb51e7047758b1a811f663b567364c8eb",
+  "verdict": "right"
+ },
+ "med-0579": {
+  "reviewed_at": "2026-11-21T12:46:27.128Z",
+  "sha256": "399bfaeb7d87dbd92667caf0ca5ea1cdb058cdd78f4f87faefe32e214f7e72a1",
+  "verdict": "right"
+ },
+ "med-0582": {
+  "reviewed_at": "2026-11-21T12:40:42.513Z",
+  "sha256": "3f468e95ccf6692533e92ff49cc287954584bcfb96d7740a252a34759224d07d",
+  "verdict": "right"
+ },
+ "med-0583": {
+  "reviewed_at": "2026-11-21T12:41:43.997Z",
+  "sha256": "e36672fac0cb1ae97420c77e5e55bae82d4b7a7c3a235d2bd8c906589938aac0",
+  "verdict": "right"
+ },
+ "med-0586": {
+  "reviewed_at": "2026-11-21T12:59:57.218Z",
+  "sha256": "bcd3a8d12ff0b1aed3bfd6a73eccdc09462e68979a95acd1b40c167b066b9592",
+  "verdict": "right"
+ },
+ "med-0593": {
+  "reviewed_at": "2026-11-21T12:32:45.381Z",
+  "sha256": "0468d2d75b453826f36978706d6fa75fd8c42e8a7b05f411913e9e2818527e4b",
+  "verdict": "right"
+ },
+ "med-0594": {
+  "reviewed_at": "2026-11-21T12:27:33.351Z",
+  "sha256": "b8dad2774012fc2d82a0b096cb9a674040447cdda53082917e709adf3ffbbd94",
+  "verdict": "right"
+ },
+ "med-0597": {
+  "reviewed_at": "2026-11-21T12:46:31.484Z",
+  "sha256": "f1956e6b4c6609b834f7d493810a6c8c983f61980123eff0094b31748eec9eec",
+  "verdict": "right"
+ },
+ "med-0598": {
+  "reviewed_at": "2026-11-21T12:38:51.328Z",
+  "sha256": "4a27c9557e64b12e094d4fa408b2b3187bc39d8e9c96ff91033c2dce317733fc",
+  "verdict": "right"
+ },
+ "med-0600": {
+  "reviewed_at": "2026-11-21T12:41:10.315Z",
+  "sha256": "5a50b7408bbf305fa0cad36e8a1609328fa8b6c874547636fd0d1fa859800a40",
+  "verdict": "right"
+ },
+ "med-0601": {
+  "reviewed_at": "2026-11-21T12:09:33.663Z",
+  "sha256": "22ea87f84549561907b8502b47469180bad7420804ff739df841f7116a35fb63",
+  "verdict": "right"
+ },
+ "med-0614": {
+  "note": "not sure how useful this photo will be",
+  "reviewed_at": "2026-11-21T12:19:38.219Z",
+  "sha256": "ff79d5b43715fa0e021841f5a0ecfc2423a7f33323cfff3301139333acb3d31b",
+  "verdict": "right"
+ },
+ "med-0615": {
+  "reviewed_at": "2026-11-21T12:46:42.098Z",
+  "sha256": "c233387f0afa3c5e09ac3e053c97cd1cf5c1e50ca5c08cfd4d4713977a779008",
+  "verdict": "right"
+ },
+ "med-0617": {
+  "note": "the video itself is an informational video so i suppose it's a good example",
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:48:01.984Z",
+  "sha256": "37410bfbd07a640d8477aef8892fdfe8005832c0bce327e90e9f6d00fec0d34e",
+  "verdict": "right"
+ },
+ "med-0618": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:58:42.606Z",
+  "sha256": "2538017e6461c0527a92ce00c37ab8e76ca4272a8d19ae47681939ee6dcf381e",
+  "verdict": "right"
+ },
+ "med-0619": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:52:35.580Z",
+  "sha256": "83ff58bb7d570ccd96c3a10e8daa8b039e19e2b58ecbf30aadbc1cf405df7f9b",
+  "verdict": "right"
+ },
+ "med-0625": {
+  "note": "CO alarm is held in hand but more accurately battery is being removed. not sure how important that is",
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:48:56.810Z",
+  "sha256": "761ce599ea198e67891243dce36e9bbdbe4e0dd640f3648e638331d5843d5b3e",
+  "verdict": "right"
+ },
+ "med-0626": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:52:18.019Z",
+  "sha256": "4815908ad4b5da414c44a6382014727664fa9f884d42a75810ea95b3044064d5",
+  "verdict": "right"
+ },
+ "med-0627": {
+  "reviewed_at": "2026-11-21T12:39:21.890Z",
+  "sha256": "603f5c17d333f1141fadcee485f06d3a66e2675a22b6f616035721670c596797",
+  "verdict": "right"
+ },
+ "med-0628": {
+  "reviewed_at": "2026-11-21T12:40:41.114Z",
+  "sha256": "b8602d7e8d105840c3ebc2130449c9c8f63e7c01074df74fecb1e1fb2141d97a",
+  "verdict": "right"
+ },
+ "med-0629": {
+  "reviewed_at": "2026-11-21T12:40:51.365Z",
+  "sha256": "cbb214b1a54124e5b12b0125954ddb7097cc9956f99ce0276577674753821c94",
+  "verdict": "right"
+ },
+ "med-0630": {
+  "reviewed_at": "2026-11-21T12:37:58.114Z",
+  "sha256": "66b3eebb677c117e0d173df4822bf1f179a1befb88eccf96c07daaebd717136e",
+  "verdict": "right"
+ },
+ "med-0631": {
+  "reviewed_at": "2026-11-21T12:41:06.595Z",
+  "sha256": "8761f41eee311db61d65360366be15577802c635a686f97a887be67927e1cc2e",
+  "verdict": "right"
+ },
+ "med-0632": {
+  "reviewed_at": "2026-11-21T12:40:58.365Z",
+  "sha256": "538bb98e7c18305f7a756d23e6a471277e494f58442b8e32589f59681074d5e9",
+  "verdict": "right"
+ },
+ "med-0633": {
+  "reviewed_at": "2026-11-21T12:46:37.794Z",
+  "sha256": "1effdfbd7496b363262c16671a8f95803471ff8a02247294a7ae36d19c2c0574",
+  "verdict": "right"
+ },
+ "med-0634": {
+  "reviewed_at": "2026-11-21T12:40:56.692Z",
+  "sha256": "c41e8f8ad750935f2f2cfce8ca109101d9c0e67ac9b603b4deb03fbd6aeeb7d3",
+  "verdict": "right"
+ },
+ "med-0637": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:33:49.374Z",
+  "sha256": "0f1723340aa76625e436868225a18531b6eac5204930b79a220f5b8ff146432a",
+  "verdict": "right"
+ },
+ "med-0638": {
+  "reviewed_at": "2026-11-21T12:40:48.063Z",
+  "sha256": "93fba2a3d28f10294084fc9f2ba30c4fdfd82e837f624b7b88143b60add01a78",
+  "verdict": "right"
+ },
+ "med-0639": {
+  "reviewed_at": "2026-11-21T12:15:24.567Z",
+  "sha256": "31649dd2c84be14cbda07dade0edd833998f95868750be80445afa4fb95289bf",
+  "verdict": "right"
+ },
+ "med-0649": {
+  "reviewed_at": "2026-11-21T12:33:31.855Z",
+  "sha256": "4044f338dd4045d164e487de68f28cbef361e982cb16635f0c3bc52641ba5fba",
+  "verdict": "right"
+ },
+ "med-0655": {
+  "reviewed_at": "2026-11-21T12:20:45.976Z",
+  "sha256": "f1602cbedda9151cf0e2a41779ae8d3b45abd19cc0522f4adfcca78d104a0360",
+  "verdict": "right"
+ },
+ "med-0659": {
+  "reviewed_at": "2026-11-21T12:08:56.750Z",
+  "sha256": "36bb17ed4549cceaf23c4756a90e616922f6b5eca0a21363a757c91ce07bb1be",
+  "verdict": "right"
+ },
+ "med-0667": {
+  "mold_bin": "cant-tell",
+  "reviewed_at": "2026-11-21T12:32:40.158Z",
+  "sha256": "fc190e7221005de32b15b514b943e7334c0dec4a1442992f2e0534e003bfd21f",
+  "verdict": "right"
+ },
+ "med-0670": {
+  "reviewed_at": "2026-11-21T12:26:52.390Z",
+  "sha256": "842004ddcdd0ea0deb1cb961e03c093f46b2692f4810e61b6495592d0f84f3aa",
+  "verdict": "right"
+ },
+ "med-0671": {
+  "reviewed_at": "2026-11-21T12:26:33.268Z",
+  "sha256": "b89f5b684d1dae4bb12124c7bcfb8e8bb49908307b5796ac4260c2bc85e41b8f",
+  "verdict": "right"
+ },
+ "med-0672": {
+  "fixed_label": "broken glass",
+  "note": "photo alone does not confirm it was caused by broken window.  could be regular glass from just this photo alone. if used with other photos it coudl be correct",
+  "reviewed_at": "2026-11-21T12:26:14.633Z",
+  "sha256": "c239b0692f9be5d368f96fbc66fbb834a22440ced0a325dbb2c90a84c793b1ad",
+  "verdict": "wrong"
+ },
+ "med-0674": {
+  "reviewed_at": "2026-11-21T12:26:21.842Z",
+  "sha256": "f6645725c20407d687ed31803e3b4d46dceb46d5bba7798141827c93412fccb3",
+  "verdict": "right"
+ },
+ "med-0676": {
+  "reviewed_at": "2026-11-21T12:32:21.504Z",
+  "sha256": "b26b53b1c59c77458ba27aa7f73cca5267b3a4e6d94c963f50406fe665bd14ca",
+  "verdict": "right"
+ },
+ "med-0691": {
+  "reviewed_at": "2026-11-21T12:38:38.543Z",
+  "sha256": "742e7fb93cea3e34d0c36380b94f728a208d54061a4674e47a2925f347840c70",
+  "verdict": "right"
+ },
+ "med-0692": {
+  "reviewed_at": "2026-11-21T12:41:36.329Z",
+  "sha256": "c0c2f171536e7f58d86dab6911cdbe3075bcc57383b0dbbe2e18e88625cd4d2c",
+  "verdict": "right"
+ },
+ "med-0694": {
+  "reviewed_at": "2026-11-21T12:38:35.773Z",
+  "sha256": "f2feb496424494dcb20528c18df40aa9791361a2ab487bbba69940a1e87c9db2",
+  "verdict": "right"
+ },
+ "med-0723": {
+  "reviewed_at": "2026-11-21T12:34:17.325Z",
+  "sha256": "e21a4902ac32f0283de8c72d90e05a2f0ba2b5b28ebc62385130d45149b1f214",
+  "verdict": "right"
+ },
+ "med-0724": {
+  "reviewed_at": "2026-11-21T12:24:21.945Z",
+  "sha256": "80d69b846661d6d28949137e81bfe0859bd6474c7dfca494c85fcb9b766f6ea1",
+  "verdict": "right"
+ },
+ "med-0729": {
+  "reviewed_at": "2026-11-21T12:34:19.594Z",
+  "sha256": "adc23590b7319967d500f1d0c661dde172a4614a66d049f214c2014d2e7bcaf1",
+  "verdict": "right"
+ },
+ "med-0748": {
+  "reviewed_at": "2026-11-21T12:39:22.809Z",
+  "sha256": "94940c7272261ab588f3d7a24f3f65c13c22e20ff52a9c1debcd484a59f20253",
+  "verdict": "right"
+ },
+ "med-0749": {
+  "fixed_label": "broken window",
+  "reviewed_at": "2026-11-21T12:39:43.139Z",
+  "sha256": "ac42e6e403bec59af7562c590ed8bb4ade75a1752bf3d5d4d36c56a19ff7ade2",
+  "verdict": "wrong"
+ },
+ "med-0758": {
+  "reviewed_at": "2026-11-21T12:32:25.289Z",
+  "sha256": "1a4d904a40cda2063bb07877094fe3a68c5039506a876abe9b44163ddd3ded22",
+  "verdict": "right"
+ },
+ "med-0760": {
+  "reviewed_at": "2026-11-21T12:24:15.250Z",
+  "sha256": "cc3e81bc2855727947475f587989b6415b4a32883bc37590bb71f0bb88707438",
+  "verdict": "right"
+ },
+ "med-0764": {
+  "reviewed_at": "2026-11-21T12:24:39.885Z",
+  "sha256": "d23de2bad0f53d63657b08f3344c2f28abbdc2120efb661e192ddd8e03a6c6c3",
+  "verdict": "right"
+ },
+ "med-0768": {
+  "reviewed_at": "2026-11-21T12:27:37.112Z",
+  "sha256": "c5b70373dc87863f049b2b613ea7844546d15a9a1961b32697e51b0244f08836",
+  "verdict": "right"
+ },
+ "med-0769": {
+  "reviewed_at": "2026-11-21T12:41:24.281Z",
+  "sha256": "0915f4dd548dd92416c6938a71398290d37443d743dc4eaf798f9962de41817c",
+  "verdict": "right"
+ },
+ "med-0770": {
+  "reviewed_at": "2026-11-21T12:38:29.427Z",
+  "sha256": "4c49f7216ca944789c4188e5f5c7660604eae35adc6274f8a9e25aa6926374c3",
+  "verdict": "right"
+ },
+ "med-0771": {
+  "reviewed_at": "2026-11-21T12:39:33.577Z",
+  "sha256": "b85056d2e6de4fd862592d91eaa865cf1b156bae3459870ee906e0ec828a941a",
+  "verdict": "right"
+ },
+ "med-0772": {
+  "reviewed_at": "2026-11-21T12:27:50.910Z",
+  "sha256": "0ec39f5cfdf58fa5cc6dc0f1813ef8c601a136fc0b855ac435ec7764275a79e3",
+  "verdict": "right"
+ },
+ "med-0780": {
+  "reviewed_at": "2026-11-21T12:26:35.523Z",
+  "sha256": "825fe0b4cec9024353fb1210dac0671445f6f1f04d76109f4ca918558bf251b3",
+  "verdict": "right"
+ },
+ "med-0789": {
+  "reviewed_at": "2026-11-21T12:24:05.820Z",
+  "sha256": "c56890a045aa631dbb67706bf034cb865647eae14db3d2b6298726bf171cc813",
+  "verdict": "right"
+ },
+ "med-0792": {
+  "reviewed_at": "2026-11-21T12:36:27.984Z",
+  "sha256": "535970e41eb819c9995c5d9933946ceb409c37e4499515f54a092d97f55b6f04",
+  "verdict": "right"
+ },
+ "med-0801": {
+  "reviewed_at": "2026-11-21T12:36:54.683Z",
+  "sha256": "4c08ec0e48526e08de15811b7a705af123c590e628612e3a00ad4e5599e4acba",
+  "verdict": "right"
+ },
+ "med-0804": {
+  "reviewed_at": "2026-11-21T12:15:28.551Z",
+  "sha256": "b762854feb428a754f3870cb637376143d489f990f1d5066dfe4c9c80b7f3086",
+  "verdict": "right"
+ },
+ "med-0806": {
+  "reviewed_at": "2026-11-21T12:33:52.517Z",
+  "sha256": "6db6933602c797d66420e3a347f1227d0cf2bff86aa039d33c4e50b8b1fe9dbd",
+  "verdict": "right"
+ },
+ "med-0808": {
+  "reviewed_at": "2026-11-21T12:37:05.621Z",
+  "sha256": "8544a77d75b28341b44dafb427c4e4879e55ee352c6efce34d5331881ef630b5",
+  "verdict": "right"
+ },
+ "med-0809": {
+  "reviewed_at": "2026-11-21T12:27:06.066Z",
+  "sha256": "d9a224b4fad3bace330e1c9e89cae709c85c34cad85fcfe3226799d79493efff",
+  "verdict": "right"
+ },
+ "med-0812": {
+  "mold_bin": "B",
+  "reviewed_at": "2026-11-21T12:36:58.157Z",
+  "sha256": "368352d8287674219c3e5f2365e19fa7d5b65dfc6dcffac40f634fa5a447aaaa",
+  "verdict": "right"
+ },
+ "med-0814": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:08:43.653Z",
+  "sha256": "0f168a00b198e33483874c7b11f028c2681949d6c9fe4ec9cab22bf81f501766",
+  "verdict": "right"
+ },
+ "med-0815": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:08:25.985Z",
+  "sha256": "44ac1057b86a278135e5428f891be3d3dcf870596b5989ea232c31d61ef9d272",
+  "verdict": "right"
+ },
+ "med-0817": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:27:23.360Z",
+  "sha256": "59d0152c370bfca68ed3488001dd73fe6eb9d9c94435be2ea5897cbdb75f4da8",
+  "verdict": "right"
+ },
+ "med-0818": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:23:44.128Z",
+  "sha256": "0c17859967d3999d79d1a2abb7d368996525d4b1d672064ee52f04de52c08b7b",
+  "verdict": "right"
+ },
+ "med-0819": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:34:30.060Z",
+  "sha256": "a463ddf3406540f2ef157bdbe884016bab0dee043948a84dc4fd2503b449b25f",
+  "verdict": "right"
+ },
+ "med-0820": {
+  "drop_reason": "very ambiguous ",
+  "mold_bin": "A",
+  "note": "this one is hard to tell",
+  "reviewed_at": "2026-11-21T12:59:35.179Z",
+  "sha256": "edebf56666dd5a4d022949868a03789d8ce860e2ba9873757fff135151b64a1f",
+  "verdict": "right"
+ },
+ "med-0824": {
+  "reviewed_at": "2026-11-21T12:09:20.336Z",
+  "sha256": "5c5509a09f24f2cc9f6ec25781953b03a39ad108f375aef810f3f5cd13580743",
+  "verdict": "right"
+ },
+ "med-0825": {
+  "reviewed_at": "2026-11-21T12:09:15.527Z",
+  "sha256": "59dc674c074325995b719fe269acac1014fe15ee27dbf455f93912e5d8203139",
+  "verdict": "right"
+ },
+ "med-0831": {
+  "mold_bin": "cant-tell",
+  "note": "hard to verify if mold is present",
+  "reviewed_at": "2026-11-21T12:22:28.240Z",
+  "sha256": "ef8b5a15d3177efa5ab6cd7b4e5fca86cceab93c948ee1d07e2fe7536e632283",
+  "verdict": "right"
+ },
+ "med-0832": {
+  "mold_bin": "tile-grout",
+  "note": "",
+  "reviewed_at": "2026-11-21T12:32:15.216Z",
+  "sha256": "321b823b51aef05a1b0cba32668e6325b9c0088463ba8ba5bdc9d24aa2bea759",
+  "verdict": "right"
+ },
+ "med-0834": {
+  "mold_bin": "A",
+  "note": "mold is on the exposed wall behind the removed tiles so there may be more mold but hidden.",
+  "reviewed_at": "2026-11-21T12:13:37.810Z",
+  "sha256": "0ea4208600478e4bc4c51beef3b0c0514c00a1ec3af8f7daebbb42f21718ef8f",
+  "verdict": "right"
+ },
+ "med-0835": {
+  "mold_bin": "A",
+  "note": "a bit ambiguous to be honest could be dust? but what do i know",
+  "reviewed_at": "2026-11-21T12:20:18.206Z",
+  "sha256": "1e0374997bcb7622a43c0890ba2ebb1a352b74f9bcd8476661cf13589f11aaa6",
+  "verdict": "right"
+ },
+ "med-0841": {
+  "mold_bin": "A",
+  "reviewed_at": "2026-11-21T12:21:12.823Z",
+  "sha256": "6c13f944f5b0ca557b9ab15c109e114c6337171e444ff31cd398d9f1b75c8dbf",
+  "verdict": "right"
+ },
+ "med-0848": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:50:34.364Z",
+  "sha256": "94951d0114300a8531080fc0b3b52628f1aa4882acd9657a8fdacbec4219955b",
+  "verdict": "right"
+ },
+ "med-0851": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:49:52.406Z",
+  "sha256": "edd839adf65a055a569f219b4894d7e3ca7eef5967d24068ccbcc6bbd6df3fe0",
+  "verdict": "right"
+ },
+ "med-0855": {
+  "range": "right",
+  "reviewed_at": "2026-11-21T12:51:48.689Z",
+  "sha256": "37bf52cc9ccfd5344d93593a2d46df051cca01302bc02bb55d3cb43390414769",
+  "verdict": "right"
+ },
+ "med-0856": {
+  "drop_reason": "no video with supported format and mime type found error",
+  "reviewed_at": "2026-11-21T12:49:24.224Z",
+  "sha256": "6e52021ac1e36ef6683cec726acfe2c6fbb4f22f507dd78bda64f83b2d34280c",
+  "verdict": "drop"
+ },
+ "med-0859": {
+  "drop_reason": "clips of the problem are very short, either just use those or i'm comfortable dropping this one",
+  "mold_bin": "cant-tell",
+  "note": "this o",
+  "range": "wrong",
+  "reviewed_at": "2026-11-21T12:53:46.754Z",
+  "sha256": "21dd70e9ab83249a9170ca6533b8839a3838488fa36cc06f5b183e139e1b830f",
+  "verdict": "drop"
+ }
+}

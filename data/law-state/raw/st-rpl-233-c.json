@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 233-C in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "233-C",
+    "title" : "Residential ground lease cooperative apartment buildings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-10-04", "2025-01-03" ],
+    "docLevelId" : "233-C",
+    "activeDate" : "2025-01-03",
+    "text" : "  § 233-c. Residential ground lease cooperative apartment buildings. 1.\\nWherever used in this section:\\n  (a) The term \"residential ground lease cooperative apartment building\"\\nmeans any and all buildings, improvements or other structures located in\\nthe state of New York occupied, owned or leased in whole or in part by a\\nground lease residential cooperative, or any subsidiary or affiliate\\nthereof, pursuant to a subject residential cooperative ground lease.\\n  (b) The term \"ground lease residential cooperative\" means any New York\\ncorporation organized or operating as a housing development fund\\ncorporation, New York cooperative corporation or cooperative housing\\ncorporation, including any entity meeting the definition thereof for\\nfederal income tax purposes, or any person or entity that is a tenant in\\ncommon, co-tenant or joint owner with any such corporation, or which is,\\ndirectly or indirectly through a subsidiary or affiliate thereof, a\\nparty to a subject residential cooperative ground lease.\\n  (c) The term \"subject residential cooperative ground lease\" means the\\nlease agreement, together with any amendments or other related\\nagreements including any forbearance, settlement, tenancy in common or\\nother similar agreements related thereto, pursuant to which a ground\\nlease residential cooperative leases, occupies or otherwise uses for\\nresidential, commercial, or other ancillary purposes the ground lease\\nreal property from one or more subject ground lease owners.\\n  (d) The term \"ground lease real property\" means all real property,\\nincluding improvements thereon, all or any portion of which is leased,\\nrented, licensed or otherwise provided for use to a ground lease\\nresidential cooperative pursuant to a subject residential cooperative\\nground lease, including any portion thereof that may be subleased or\\notherwise used for ancillary retail, parking, or commercial purposes.\\n  (e) The term \"subject ground lease owners\" means any and all persons\\nor entities, whether natural persons, estates, trusts, corporations,\\npartnerships or other entities, other than any excepted ground lease\\nowner, that holds title to or is the owner, whether by the entirety, as\\ntenants in common or otherwise, of ground lease real property or is\\notherwise the landlord under any subject residential cooperative ground\\nlease.\\n  (f) The term \"excepted ground lease owner\" means (i) the United States\\nfederal government, the state of New York, the city of New York, and any\\nagency, municipality or political subdivision of any of the foregoing\\nthereof, any entity owned or controlled by any of the foregoing,\\nincluding but not limited to, the Battery Park city authority, the\\nRoosevelt Island Operating Corporation, the Queens West Development\\nCorporation, the Brooklyn Bridge Park Development Corporation, the New\\nYork City Educational Construction Fund, and the New York City Housing\\nAuthority, (ii) any charity approved under section 501(c) of the\\ninternal revenue code which acquired its interest as the owner or\\nlandlord of a ground lease real property prior to January first, two\\nthousand twenty-four, and (iii) any Indian nation, tribe or band as such\\nlands are described under and protected by the Indian law or title\\ntwenty-five of the United States Code, but shall exclude any private\\nfoundation within the meaning of section five hundred nine of the\\ninternal revenue code.\\n  2. Notwithstanding any term of a subject residential cooperative\\nground lease to the contrary, if a subject residential cooperative\\nground lease authorizes the ground lease residential cooperative to\\nrenew or extend its lease at the sole option of the ground lease\\nresidential cooperative, then the ground lease residential cooperative\\nmay exercise such right to renew or extend at any time prior to the\\nexpiration of the subject residential cooperative ground lease in\\naccordance with all other terms thereof.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "233-B*2",
+      "title" : "Campgrounds",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-12-20", "2020-04-24" ],
+      "docLevelId" : "233-B*2",
+      "activeDate" : "2020-04-24"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "234",
+      "title" : "Right to recover attorneys' fees in actions or summary proceedings arising out of leases of residential property",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2021-12-31" ],
+      "docLevelId" : "234",
+      "activeDate" : "2021-12-31"
+    }
+  }
+}

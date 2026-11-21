@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 209 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "209",
+    "title" : "Provisional remedies",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2026-06-19" ],
+    "docLevelId" : "209",
+    "activeDate" : "2026-06-19",
+    "text" : "  § 209. Provisional remedies. (a) Attachment, arrest, seizure of\\nchattel.  An order of attachment or of arrest, a warrant to seize a\\nchattel as provided in § 207 of the lien law, and an order of seizure of\\na chattel may issue out of this court if such remedy might issue out of\\nsupreme court in a like case.\\n  (b) Injunction or restraining order. No injunction or restraining\\norder or notice shall issue out of or by this court unless:\\n  (1) pursuant to §§ 7102 (d), 7103 (c) and 7109 of the CPLR, in\\nconjunction with the recovery of a chattel; or\\n  (2) pursuant to § 211 of the Real Property Actions and Proceedings\\nlaw, in conjunction with the prevention of waste; or\\n  (3) pursuant to § 1508 of this act, in conjunction with an enforcement\\nproceeding; or\\n  (4) pursuant to section three hundred six of the multiple dwelling\\nlaw, or article fifty-three of the housing maintenance code of the\\nadministrative code of the city of New York in conjunction with\\nenforcement of housing standards.\\n  (c) Receivers. No receiver shall be appointed by this court except\\npursuant to § 1508 of this act, relative to an enforcement proceeding,\\nor in an action for the foreclosure of a mortgage on real property,\\nbrought pursuant to the provisions of § 203 (b) of this act, or in an\\naction brought pursuant to subdivision five of section three hundred\\nnine of the multiple dwelling law, relative to the appointment of a\\nreceiver for the recovery of costs, expenses and disbursements incurred\\nby the city of New York in the elimination or correction of a nuisance\\nor in the removal or demolition of a building pursuant thereto.\\n  (d) Notice of pendency. A notice of pendency may be filed with the\\ncounty clerk, as provided in article 65 of the CPLR, in any action\\nwithin the court's jurisdiction in which the same might be filed in a\\nlike action in the supreme court. The city department charged with the\\nenforcement of the multiple dwelling law, housing maintenance code, and\\nother state and local laws applicable to the enforcement of proper\\nhousing standards may file a notice of pendency as authorized by section\\n308 of the multiple dwelling law or section D26-50.07 of the housing\\nmaintenance code of the administrative code of the city of New York.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "208",
+      "title" : "Counterclaims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "208",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "210",
+      "title" : "Contempt",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "210",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

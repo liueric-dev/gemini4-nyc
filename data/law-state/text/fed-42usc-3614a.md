@@ -1,0 +1,40 @@
+United States Code (2024 Edition) > Title 42 - THE PUBLIC HEALTH AND WELFARE > CHAPTER 45 - FAIR HOUSING > SUBCHAPTER I - GENERALLY > Sec. 3614a - Rules to implement subchapter > From the U.S. Government Publishing Office, www.gpo.gov > §3614a. Rules to implement subchapter
+
+Source: https://www.govinfo.gov/link/uscode/42/3614a?link-type=html
+
+U.S.C. Title 42 - THE PUBLIC HEALTH AND WELFARE
+42 U.S.C. 
+
+United States Code, 2024 Edition
+
+Title 42 - THE PUBLIC HEALTH AND WELFARE
+
+CHAPTER 45 - FAIR HOUSING
+
+SUBCHAPTER I - GENERALLY
+
+Sec. 3614a - Rules to implement subchapter
+
+From the U.S. Government Publishing Office, www.gpo.gov
+
+§3614a. Rules to implement subchapter
+
+The Secretary may make rules (including rules for the collection, maintenance, and analysis of appropriate data) to carry out this subchapter. The Secretary shall give public notice and opportunity for comment with respect to all rules made under this section.
+
+(Pub. L. 90–284, title VIII, §815, as added Pub. L. 100–430, §8(2), Sept. 13, 1988, 102 Stat. 1635.)
+
+Editorial Notes
+
+Prior Provisions
+
+A prior section 815 of Pub. L. 90–284 was renumbered section 816 and is classified to section 3615 of this title.
+
+Statutory Notes and Related Subsidiaries
+
+Effective Date
+
+Section effective on 180th day beginning after Sept. 13, 1988, see section 13(a) of Pub. L. 100–430, set out as an Effective Date of 1988 Amendment note under section 3601 of this title.
+
+Initial Rulemaking
+
+Secretary to issue rules to implement this subchapter as amended by Pub. L. 100–430 not later than the 180th day after Sept. 13, 1988, see section 13(b) of Pub. L. 100–430, set out as a note under section 3601 of this title.

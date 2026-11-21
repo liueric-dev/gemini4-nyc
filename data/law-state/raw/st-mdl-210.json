@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 210 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "210",
+    "title" : "Application of article seven and other provisions to tenements",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+    "docLevelId" : "210",
+    "activeDate" : "2026-08-28",
+    "text" : "  § 210. Application of article seven and other provisions to tenements.\\nExcept as provided in section two hundred forty-eight, the provisions of\\nthis article shall apply only to tenements, as defined in subdivision\\neleven of section four, occupied as such before April eighteenth,\\nnineteen hundred twenty-nine. Unless in this article otherwise\\nspecifically prescribed, none of its provisions shall be deemed to\\nrequire any structural alteration in any tenement erected after April\\neleventh, nineteen hundred one and lawfully occupied as such on April\\neighteenth, nineteen hundred twenty-nine. Nothing in this article shall\\napply to converted dwellings. In addition to the provisions of this\\narticle, the following enumerated articles and sections shall, to the\\nextent required therein, apply to tenements:\\nArticle   1.    Introductory provisions; definitions\\n          2.    Miscellaneous application provisions\\n          7-a.  Temporary provisions\\n          8.    Requirements and remedies\\n          9.    Registry of names and service of papers\\n          10.   Prostitution\\n          11.   Laws repealed; saving clause; legislative intent; effect\\n§         28.   Two or more buildings on same lot\\n          29.   Painting of courts and shafts\\n          31.   Size of rooms--subdivision six\\n          33.   Cooking spaces\\n          34.   Rooms in basements and cellars\\n          35.   Entrance doors and lights\\n          37.   Artificial hall lighting\\n          51.   Shafts, elevators and dumbwaiters\\n          52.   Stairs\\n          53.   Fire-escapes\\n          55.   Wainscoting\\n          56.   Frame buildings and extensions\\n          57.   Bells; mail receptacles\\n          58.   Incombustible materials\\n          59.   Bakeries and fat boiling\\n          60.   Motor vehicle storage\\n          61.   Business uses\\n          62.   Parapets, guard railings and wires--subdivision two\\n          75.   Water supply\\n          76.   Water-closet and bath accommodations\\n          77.   Plumbing and drainage\\n          78.   Repairs\\n          79.   Heating\\n          80.   Cleanliness\\n          81.   Receptacles for waste matter\\n          83.   Janitor or housekeeper\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

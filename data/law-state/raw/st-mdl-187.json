@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 187 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "187",
+    "title" : "Egress",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "187",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 187. Egress. 1. Except as provided in paragraph g of subdivision\\nthree of section one hundred seventy-one, egress from every apartment on\\neach story shall be provided as follows:\\n  a. If a dwelling is two stories or less in height, or if it is three\\nstories including a basement in height and conforms to the conditions of\\nsubdivision four of section one hundred seventy-seven, a single means of\\negress from each story to the street shall be sufficient.\\n  b. Every other dwelling shall have either two independent means of\\negress or one means of egress equipped with a sprinkler system.\\n  c. At least one means of egress shall be a stair extending to and\\nthrough the roof by a bulkhead, except that a scuttle may be used in\\nlieu of a bulkhead if the dwelling does not exceed a basement and three\\nother stories in height, or if it does not exceed a basement and four\\nother stories in height and is occupied by not more than two families on\\nany story, and except that no bulkhead or scuttle, or stair or ladder\\nleading thereto, shall be required where the roof is a peak roof with a\\npitch of more than fifteen degrees.\\n  d. Whenever a second means of egress is required, it shall, except as\\nprovided in paragraph f, extend from the entrance story to the roof, and\\nshall be located eight feet or more from the first means of egress\\nunless separated therefrom by a public hall or elevator vestibule. Such\\nsecond means of egress shall be directly accessible at each story to\\neach apartment without having to pass through the first means of egress.\\n  e. A required second means of egress shall be either a system of\\noutside fire-escapes, constructed and arranged as provided in section\\nfifty-three for fire-escapes erected after April eighteenth, nineteen\\nhundred twenty-nine, a fire-stair, a fire-tower or a connection with an\\nadjoining dwelling as provided in paragraph f below.\\n  f. If the department upon the application of the owner shall deem it\\nfeasible and so permit, the owner shall provide, and at all times\\nmaintain unobstructed, a first means of egress extending by means of a\\nstair from the street through a bulkhead to the roof and thence from the\\nroof of such dwelling to the roof of an adjoining dwelling and through\\nsuch adjoining dwelling to the street and a second means of egress from\\neach apartment to a room on the same story or level in an adjoining\\ndwelling by means of a balcony. Every such balcony shall comply with the\\nrequirements for a fire-escape balcony, except that its minimum clear\\nwidth shall be two feet instead of three feet. If at any time such\\naccess to the street shall in the opinion of the department be\\nobstructed or be otherwise unsafe the department shall revoke the\\npermit, and upon such revocation the owner shall provide one of the\\nother types of egress permitted in this section.\\n  g. When the department shall find it impractical to erect an\\nindependent fire-escape and shall refuse to permit egress by means of\\nbalconies to an adjoining dwelling, the department may permit the\\nerection or use of a fire-escape to which the occupants of such dwelling\\nhave safe, unobstructed access in common with the occupants of an\\nadjoining dwelling.\\n  h. Where a required means of egress leads to a yard less than thirty\\nfeet in depth, except as provided in paragraph f of subdivision four of\\nsection one hundred seventy-seven, there shall be access from such yard\\nto the street through a court or fireproof passage, or to the yard or\\ncourt of adjoining premises by a gate or door through an intervening\\nfence, or, if the department deems such gate or door impracticable and\\nso certifies, by a ladder to the top of an intervening fence or wall or\\nby such other means as the department may require.\\n  2. Where a sprinkler system is required such system shall be equipped\\non each story with one or more automatic sprinkler heads with fusible\\nstruts which shall be constructed to fuse at a temperature not higher\\nthan one hundred sixty-five degrees Fahrenheit and all of which shall be\\nconstructed, located and arranged in every stair and entrance hall, and\\nin every closet opening therefrom, in such manner as the department may\\nrequire. Such system may be attached to the city water supply main if\\nthe normal minimum pressure thereon, measured in pounds per square inch\\nat the street level at the point of connection with said main, is not\\nless than the number of stories in the height of the dwelling,\\nmultiplied by five, plus fifteen. If such normal minimum pressure is\\nless than the required amount or such system is not attached to the city\\nwater supply main, it shall be supplied with water from a tank located\\non the roof of the dwelling of such capacity and construction as the\\ndepartment may deem necessary.  Such sprinkler system shall be\\nmaintained continuously in good repair and serviceable condition.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "186",
+      "title" : "Extension roofs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "186",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "188",
+      "title" : "Bulkheads and scuttles",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "188",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

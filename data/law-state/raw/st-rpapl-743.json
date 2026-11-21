@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 743 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "743",
+    "title" : "Answer",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19" ],
+    "docLevelId" : "743",
+    "activeDate" : "2019-07-19",
+    "text" : "  § 743. Answer. Except as provided in section seven hundred thirty-two\\nof this article, relating to a proceeding for non-payment of rent, at\\nthe time when the petition is to be heard the respondent, or any person\\nin possession or claiming possession of the premises, may answer, orally\\nor in writing. If the answer is oral the substance thereof shall be\\nrecorded by the clerk or, if a particular court has no clerk, by the\\npresiding judge or justice of such court, and maintained in the case\\nrecord. The answer may contain any legal or equitable defense, or\\ncounterclaim. The court may render affirmative judgment for the amount\\nfound due on the counterclaim.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "741",
+      "title" : "Contents of petition",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-11-25", "2023-02-24", "2023-10-27", "2024-02-02", "2024-02-09", "2024-05-03", "2025-08-22", "2025-10-03", "2026-01-02" ],
+      "docLevelId" : "741",
+      "activeDate" : "2026-01-02"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "744",
+      "title" : "Eviction based on domestic violence victim status prohibited",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2015-10-30", "2016-01-22" ],
+      "docLevelId" : "744",
+      "activeDate" : "2016-01-22"
+    }
+  }
+}

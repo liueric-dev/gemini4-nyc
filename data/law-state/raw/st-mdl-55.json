@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 55 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "55",
+    "title" : "Wainscoting",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "55",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 55. Wainscoting. 1. Whenever the surface of walls, partitions or\\nceilings in any apartment or suite of rooms of any non-fireproof\\nmultiple dwelling is covered, sheathed or wainscoted wholly or in part\\nafter April eighteenth, nineteen hundred twenty-nine, such covering\\nshall be backed solidly with plaster. In fireproof multiple dwellings\\nsuch covering shall be backed solidly and continuously or filled with\\nincombustible material.  In the case of walls and partitions in\\nfireproof dwellings, such backing and filling shall extend to the\\nfireproof floor construction and in non-fireproof dwellings to the floor\\nbeams. All such backing and filling shall be fire-stopped.\\n  2. No wood wainscoting other than fireproofed wood complying with the\\nprovisions of section fifty-eight shall be erected in any public hall,\\nstair or shaft of any multiple dwelling.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "54",
+      "title" : "Cellar entrance",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "54",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "56",
+      "title" : "Frame buildings and extensions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "56",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+Emergency Tenant Protection Act 576/74 (Open Legislation law id ETP, Chapter 1974) > § 3 Local determination of emergency; end of emergency
+
+Source: https://legislation.nysenate.gov/api/3/laws/ETP/3 | Open Legislation activeDate: 2024-03-08 | published versions: 2014-09-22, 2015-06-26, 2015-07-03, 2019-06-28, 2023-12-15, 2024-03-08
+
+  § 3. Local determination of emergency; end of emergency. a. The
+existence of public emergency requiring the regulation of residential
+rents for all or any class or classes of housing accommodations,
+including any plot or parcel of land which had been rented prior to May
+first, nineteen hundred fifty, for the purpose of permitting the tenant
+thereof to construct or place his own dwelling thereon and on which plot
+or parcel of land there exists a dwelling owned and occupied by a tenant
+of such plot or parcel, heretofore destabilized; heretofore or hereafter
+decontrolled, exempt, not subject to control, or exempted from
+regulation and control under the provisions of the emergency housing
+rent control law, the local emergency housing rent control act or the
+New York city rent stabilization law of nineteen hundred sixty-nine; or
+subject to stabilization or control under such rent stabilization law,
+shall be a matter for local determination within each city, town or
+village. Any such determination shall be made by the local legislative
+body of such city, town or village on the basis of the supply of housing
+accommodations within such city, town or village, the condition of such
+accommodations and the need for regulating and controlling residential
+rents within such city, town or village. A declaration of emergency may
+be made as to any class of housing accommodations if the vacancy rate
+for the housing accommodations in such class within such municipality is
+not in excess of five percent and a declaration of emergency may be made
+as to all housing accommodations if the vacancy rate for the housing
+accommodations within such municipality is not in excess of five
+percent.
+  b. The local governing body of a city, town or village having declared
+an emergency pursuant to subdivision a of this section may at any time,
+on the basis of the supply of housing accommodations within such city,
+town or village, the condition of such accommodations and the need for
+continued regulation and control of residential rents within such
+municipality, declare that the emergency is either wholly or partially
+abated or that the regulation of rents pursuant to this act does not
+serve to abate such emergency and thereby remove one or more classes of
+accommodations from regulation under this act. The emergency must be
+declared at an end once the vacancy rate described in subdivision a of
+this section exceeds five percent.
+  c. No resolution declaring the existence or end of an emergency, as
+authorized by subdivisions a and b of this section, may be adopted
+except after public hearing held on not less than ten days public
+notice, as the local legislative body may reasonably provide.
+  d. When requested by a municipality or a designee, as a part of a
+study to determine its vacancy rate, owners, or their agent, of housing
+accommodations in the class of housing accommodations determined, shall
+provide the most recent records of rent rolls and, if available, records
+for the preceding thirty-six months. Such records shall include the
+tenant's relevant information relating to finding the vacancy rate of
+such municipality including but not limited to the name, address, and
+amount paid or charged on a weekly, monthly, or annual basis for each
+occupied housing accommodation and which housing accommodations are
+vacant at the time of the survey and available for rent. Such records
+shall also include any housing accommodations that are vacant and not
+available for rent and provide the reason why such unit is not available
+for rent.
+  e. A municipality may impose a civil penalty or fee of up to five
+hundred dollars on an owner or their agent if the owner or their agent
+refuses to participate in such vacancy survey and cooperate with the
+municipality or a designee in such vacancy survey, or submits knowingly
+and intentionally false vacancy information.
+  f. A nonrespondent owner shall be deemed to have zero vacancies.
+  g. Identifying data or information shall be kept confidential and
+shall not be shared, traded, given, or sold to any other entity for any
+purpose outside of such vacancy study.

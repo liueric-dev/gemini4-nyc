@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 769 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "769",
+    "title" : "Jurisdiction; court; venue",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "769",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 769. Jurisdiction; court; venue. 1. A special proceeding by tenants\\nof a dwelling in the city of New York or the counties of Nassau,\\nSuffolk, Rockland and Westchester for a judgment directing the deposit\\nof rents into court and their use for the purpose of remedying\\nconditions dangerous to life, health or safety may be maintained in the\\ncivil court of the city of New York, the district court of the counties\\nof Suffolk and Nassau and the county courts or city courts in the\\ncounties of Rockland and Westchester.\\n  2. The place of trial of the special proceeding shall be within the\\ncounty in which the real property or a portion thereof from which the\\nrents issue is situated.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "770",
+      "title" : "Grounds for the proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "770",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# NYC Administrative Code > Title 8: Civil Rights > § 8-120 Decision and order.
+
+§ 8-120 Decision and order.
+a. If, upon all the evidence at the hearing, and upon the findings of fact, conclusions of law and relief recommended by an administrative law judge, the commission shall find that a respondent has engaged in any unlawful discriminatory practice or any act of discriminatory harassment or violence as set forth in chapter 6 of this title, the commission shall state its findings of fact and conclusions of law and shall issue and cause to be served on the complainant, respondent, any necessary party and any complainant who has not intervened an order requiring such respondent to cease and desist from such unlawful discriminatory practice or acts of discriminatory harassment or violence. Such order shall require the respondent to take such affirmative action as, in the judgment of the commission, will effectuate the purposes of this chapter or chapter 6 of this title, as applicable, including, but not limited to:
+1. Hiring, reinstatement or upgrading of employees;
+2. The award of back pay and front pay;
+3. Admission to membership in any respondent labor organization;
+4. Admission to or participation in a program, apprentice training program, on-the-job training program or other occupational training or retraining program;
+5. The extension of full, equal and unsegregated accommodations, advantages, facilities and privileges;
+6. Evaluating applications for membership in a club that is not distinctly private, without unlawful discrimination;
+7. Selling, renting or leasing, or approving the sale, rental or lease of housing accommodations, land or commercial space or an interest therein, or the provision of credit with respect thereto, without unlawful discrimination;
+8. Payment of compensatory damages to the person aggrieved by such practice or act;
+9. Submission of reports with respect to the manner of compliance; and
+10. Payment of the complainant's reasonable attorney's fees, expert fees and other costs. The commission may consider matter-specific factors when determining the complainant's attorney's fee award, including, but not limited to:
+(i) Novelty or difficulty of the issues presented;
+(ii) Skill and experience of the complainant's attorney; and
+(iii) The hourly rate charged by attorneys of similar skill and experience litigating similar cases in New York county.
+b. If, upon all the evidence at the hearing, and upon the findings of fact and conclusions of law recommended by the administrative law judge, the commission shall find that a respondent has not engaged in any such unlawful discriminatory practice or act of discriminatory harassment or violence as set forth in chapter 6 of this title, the commission shall state its findings of fact and conclusions of law and shall issue and cause to be served on the complainant, respondent, and any necessary party and on any complainant who has not intervened an order dismissing the complaint as to such respondent.
+(Am. L.L. 2016/036, 3/28/2016, eff. 3/28/2016; Am. L.L. 2018/063, 1/19/2018, eff. 10/16/2018)
+Editor's note: For related unconsolidated provisions, see Appendix A at L.L. 1991/039 and L.L. 2005/085.

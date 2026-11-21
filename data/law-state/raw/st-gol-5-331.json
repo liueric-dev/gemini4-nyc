@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 5-331 in GOB law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "GOB",
+    "lawName" : "General Obligations",
+    "locationId" : "5-331",
+    "title" : "Certain covenants and restrictions in conveyances and other agreements affecting real property void as against public policy",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "5-331",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 5-331. Certain covenants and restrictions in conveyances and other\\nagreements affecting real property void as against public policy. Any\\npromise, covenant or restriction in a contract, mortgage, lease, deed or\\nconveyance or in any other agreement affecting real property, heretofore\\nor hereafter made or entered into, which limits, restrains, prohibits or\\notherwise provides against the sale, grant, gift, transfer, assignment,\\nconveyance, ownership, lease, rental, use or occupancy of real property\\nto or by any person because of race, creed, color, national origin, or\\nancestry, is hereby declared to be void as against public policy, wholly\\nunenforceable, and shall not constitute a defense in any action, suit or\\nproceeding. No such promise, covenant or restriction shall be listed as\\na valid provision affecting such property in public notices concerning\\nsuch property. The invalidity of any such promise, covenant or\\nrestriction in any such instrument or agreement shall not affect the\\nvalidity of any other provision therein, but no reverter shall occur, no\\npossessory estate shall result, nor any right of entry or right to a\\npenalty or forfeiture shall accrue by reason of the disregard of such\\npromise, covenant or restriction. This section shall not apply to\\nconveyances or devises to religious associations or corporations for\\nreligious purposes, but, such promise, covenant or restriction shall\\ncease to be enforceable and shall otherwise become subject to the\\nprovisions of this section when the real property affected shall cease\\nto be used for such purpose.\\n",
+    "parentLocationIds" : [ "-CH24-A", "A5", "A5T3" ],
+    "parents" : [ {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "-CH24-A",
+      "title" : "General Obligations",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2017-10-27", "2019-12-13", "2021-04-09", "2026-07-24" ],
+      "docLevelId" : "24-A",
+      "activeDate" : "2026-07-24"
+    }, {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "A5",
+      "title" : "Creation, Definition and Enforcement of Contractual Obligations",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2026-07-24" ],
+      "docLevelId" : "5",
+      "activeDate" : "2026-07-24"
+    }, {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "A5T3",
+      "title" : "Certain Prohibited Contracts and Provisions of Contracts",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22", "2018-04-20", "2019-11-22", "2024-12-20" ],
+      "docLevelId" : "3",
+      "activeDate" : "2024-12-20"
+    } ],
+    "prevSibling" : {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "5-328",
+      "title" : "Processing fee by holder of dishonored check",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2025-10-17" ],
+      "docLevelId" : "5-328",
+      "activeDate" : "2025-10-17"
+    },
+    "nextSibling" : {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "5-332",
+      "title" : "Unsolicited and voluntarily sent merchandise deemed unconditional gift",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5-332",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

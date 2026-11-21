@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 215 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "215",
+    "title" : "Alcoves",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "215",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 215. Alcoves. No part of any room shall be enclosed or subdivided,\\nwholly or in part, by a curtain, portiere, fixed or movable partition or\\nother contrivance or device unless each such enclosure or subdivision\\nshall contain a separate window conforming to the provisions of section\\nthirty for rooms in multiple dwellings erected after April eighteenth,\\nnineteen hundred twenty-nine, and have a clear floor area of at least\\nseventy square feet.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "214",
+      "title" : "Size of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "214",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "216",
+      "title" : "Rooms in basements and cellars",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "216",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

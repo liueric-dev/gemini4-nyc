@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 302-A in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "302-A",
+    "title" : "Abatement of rent in the case of serious violations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "302-A",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 302-a. Abatement of rent in the case of serious violations.\\n  1. The provisions of this section shall apply to all cities with a\\npopulation of four hundred thousand or more.\\n  2. a. A \"rent impairing\" violation within the meaning of this section\\nshall designate a condition in a multiple dwelling which, in the opinion\\nof the department, constitutes, or if not promptly corrected, will\\nconstitute, a fire hazard or a serious threat to the life, health or\\nsafety of occupants thereof.\\n  b. The determination as to which violations are \"rent impairing\" shall\\nbe made in the following manner. Within six months after the enactment\\nof this section, the department shall promulgate a list of conditions\\nconstituting violations of the provisions of this chapter and of any\\nregulations promulgated pursuant to the provisions of subdivision four\\nof section three of this chapter. Such list shall contain a brief\\ndescription of the condition constituting the violation, the section of\\nthis chapter or regulation violated, and the order number assigned\\nthereto. The department may from time to time change the number or\\ndescription of violations on such list, as may seem appropriate to the\\ndepartment. Such list shall be available at all times to the public.\\n  c. At the time of the promulgation of the list of violations, the\\ndepartment shall also designate, by reference to the order number, those\\nviolations which it proposes to classify as rent impairing as above\\ndefined. Within thirty days thereafter, the department shall hold a\\npublic hearing at which all persons interested may be heard as to the\\npropriety of the classification of such violations as rent impairing. At\\nleast twenty days' notice of such hearing shall be given by publication\\nin the city record or other publication in which official notices of the\\ncity are regularly published. Within a reasonable time after the\\nhearing, the department shall make and publish a list of those\\nviolations which are classified as rent impairing. Any person interested\\nmay, within four months thereafter, seek a review by the supreme court\\nof the propriety of the classification of any of such violations as\\n\"Rent Impairing\" by a special proceeding pursuant to article\\nseventy-eight of the civil practice law and rules. No other body or\\nofficer shall have the power to review said classification.\\n  d. The department may at any time change the number or description of\\nrent impairing violations but no such change shall be made except in the\\nmanner above set forth after notice and public hearing.\\n  3. a. If (i) the official records of the department shall note that a\\nrent impairing violation exists in respect to a multiple dwelling and\\nthat notice of such violation has been given by the department, by mail,\\nto the owner last registered with the department and (ii) such note of\\nthe violation is not cancelled or removed of record within six months\\nafter the date of such notice of such violation, then for the period\\nthat such violation remains uncorrected after the expiration of said six\\nmonths, no rent shall be recovered by any owner for any premises in such\\nmultiple dwelling used by a resident thereof for human habitation in\\nwhich the condition constituting such rent impairing violation exists,\\nprovided, however, that if the violation is one that requires approval\\nof plans by the department for the corrective work and if plans for such\\ncorrective work shall have been duly filed within three months from the\\ndate of notice of such violation by the department to the owner last\\nregistered with the department, the six-months period aforementioned\\nshall not begin to run until the date that plans for the corrective work\\nare approved by the department; if plans are not filed within said\\nthree-months period or if so filed, they are disapproved and amendments\\nare not duly filed within thirty days after the date of notification of\\nthe disapproval by the department to the person having filed the plans,\\nthe six-months period shall be computed as if no plans whatever had been\\nfiled under this proviso. If a condition constituting a rent impairing\\nviolation exists in the part of a multiple dwelling used in common by\\nthe residents or in the part under the control of the owner thereof, the\\nviolation shall be deemed to exist in the respective premises of each\\nresident of the multiple dwelling.\\n  b. The provisions of subparagraph a shall not apply if (i) the\\ncondition referred to in the department's notice to the owner last\\nregistered with the department did not in fact exist, notwithstanding\\nthe notation thereof in the records of the department; (ii) the\\ncondition which is the subject of the violation has in fact been\\ncorrected, though the note thereof in the department has not been\\nremoved or cancelled; (iii) the violation has been caused by the\\nresident from whom rent is sought to be collected or by members of his\\nfamily or by his guests or by another resident of the multiple dwelling\\nor the members of the family of such other resident or by his guests, or\\n(iv) the resident proceeded against for rent has refused entry to the\\nowner for the purpose of correcting the condition giving rise to the\\nviolation.\\n  c. To raise a defense under subparagraph a in any action to recover\\nrent or in any special proceeding for the recovery of possession because\\nof non-payment of rent, the resident must affirmatively plead and prove\\nthe material facts under subparagraph a, and must also deposit with the\\nclerk of the court in which the action or proceeding is pending at the\\ntime of filing of the resident's answer the amount of rent sought to be\\nrecovered in the action or upon which the proceeding to recover\\npossession is based, to be held by the clerk of the court until final\\ndisposition of the action or proceeding at which time the rent deposited\\nshall be paid to the owner, if the owner prevails, or be returned to the\\nresident if the resident prevails. Such deposit of rent shall vitiate\\nany right on the part of the owner to terminate the lease or rental\\nagreement of the resident because of nonpayment of rent.\\n  d. If a resident voluntarily pays rent or an installment of rent when\\nhe would be privileged to withhold the same under subparagraph a, he\\nshall not thereafter have any claim or cause of action to recover back\\nthe rent or installment of rent so paid.  A voluntary payment within the\\nmeaning hereof shall mean payment other than one made pursuant to a\\njudgment in an action or special proceeding.\\n  e. If upon the trial of any action to recover rent or any special\\nproceeding for the recovery of possession because of non-payment of rent\\nit shall appear that the resident has raised a defense under this\\nsection in bad faith, or has caused the violation or has refused entry\\nto the owner for the purpose of correcting the condition giving rise to\\nthe violation, the court, in its discretion, may impose upon the\\nresident the reasonable costs of the owner, including counsel fees, in\\nmaintaining the action or proceeding not to exceed one hundred dollars.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302",
+      "title" : "Unlawful occupation",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302-B",
+      "title" : "Removal of violations by mortgagees",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302-B",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

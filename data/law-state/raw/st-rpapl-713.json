@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 713 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "713",
+    "title" : "Grounds where no landlord-tenant relationship exists",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "713",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 713. Grounds where no landlord-tenant relationship exists. A special\\nproceeding may be maintained under this article after a ten-day notice\\nto quit has been served upon the respondent in the manner prescribed in\\nsection 735, upon the following grounds:\\n  1. The property has been sold by virtue of an execution against him or\\na person under whom he claims and a title under the sale has been\\nperfected.\\n  2. He occupies or holds the property under an agreement with the owner\\nto occupy and cultivate it upon shares or for a share of the crops and\\nthe time fixed in the agreement for his occupancy has expired.\\n  3. He or the person to whom he has succeeded has intruded into or\\nsquatted upon the property without the permission of the person entitled\\nto possession and the occupancy has continued without permission or\\npermission has been revoked and notice of the revocation given to the\\nperson to be removed.\\n  4. The property has been sold for unpaid taxes and a tax deed has been\\nexecuted and delivered to the purchaser and he or any subsequent\\ngrantee, distributee or devisee claiming title through such purchaser\\nhas complied with all provisions of law precedent to the right to\\npossession and the time of redemption by the former owner or occupant\\nhas expired.\\n  5. Subject to the rights and obligations set forth in section thirteen\\nhundred five of this chapter, the property has been sold in foreclosure\\nand either the deed delivered pursuant to such sale, or a copy of such\\ndeed, certified as provided in the civil practice law and rules, has\\nbeen exhibited to him.\\n  6. He is the tenant of a life tenant of the property, holding over and\\ncontinuing in possession of the property after the termination of the\\nestate of such life tenant without the permission of the person entitled\\nto possession of the property upon termination of the life estate.\\n  7. He is a licensee of the person entitled to possession of the\\nproperty at the time of the license, and (a) his license has expired, or\\n(b) his license has been revoked by the licensor, or (c) the licensor is\\nno longer entitled to possession of the property; provided, however,\\nthat a mortgagee or vendee in possession shall not be deemed to be a\\nlicensee within the meaning of this subdivision.\\n  8. The owner of real property, being in possession of all or a part\\nthereof, and having voluntarily conveyed title to the same to a\\npurchaser for value, remains in possession without permission of the\\npurchaser.\\n  9. A vendee under a contract of sale, the performance of which is to\\nbe completed within ninety days after its execution, being in possession\\nof all or a part thereof, and having defaulted in the performance of the\\nterms of the contract of sale, remains in possession without permission\\nof the vendor.\\n  10. The person in possession has entered the property or remains in\\npossession by force or unlawful means and he or his predecessor in\\ninterest was not in quiet possession for three years before the time of\\nthe forcible or unlawful entry or detainer and the petitioner was\\npeaceably in actual possession at the time of the forcible or unlawful\\nentry or in constructive possession at the time of the forcible or\\nunlawful detainer; no notice to quit shall be required in order to\\nmaintain a proceeding under this subdivision.\\n  11. The person in possession entered into possession as an incident to\\nemployment by petitioner, and the time agreed upon for such possession\\nhas expired or, if no such time was agreed upon, the employment has been\\nterminated; no notice to quit shall be required in order to maintain the\\nproceeding under this subdivision.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "711",
+      "title" : "Grounds where landlord-tenant relationship exists",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2024-05-03", "2024-12-13" ],
+      "docLevelId" : "711",
+      "activeDate" : "2024-12-13"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "713-A",
+      "title" : "Special proceeding for termination of adult home and residence for adults admission agreements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "713-A",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

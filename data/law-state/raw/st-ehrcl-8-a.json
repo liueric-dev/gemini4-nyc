@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 8-A in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "8-A",
+    "title" : "Major capital improvements and individual apartment improvements in rent regulated units",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2019-06-28", "2024-05-03", "2024-10-18" ],
+    "docLevelId" : "8-A",
+    "activeDate" : "2024-10-18",
+    "text" : "  § 8-a. Major capital improvements and individual apartment\\nimprovements in rent regulated units. 1. Notwithstanding any other\\nprovision of law to the contrary, the division of housing and community\\nrenewal, the \"division\", shall promulgate rules and regulations\\napplicable to all rent regulated units that shall:\\n  (a) establish a schedule of reasonable costs for major capital\\nimprovements, which shall set a ceiling for what can be recovered\\nthrough a temporary major capital improvement increase, based on the\\ntype of improvement and its rate of depreciation;\\n  (b) establish the criteria for eligibility of a temporary major\\ncapital improvement increase including the type of improvement, which\\nshall be essential for the preservation, energy efficiency,\\nfunctionality or infrastructure of the entire building, including\\nheating, windows, plumbing and roofing, but shall not be for operational\\ncosts or unnecessary cosmetic improvements. Allowable improvements must\\nadditionally be depreciable pursuant to the Internal Revenue Service,\\nother than for ordinary repairs, that directly or indirectly benefit all\\ntenants; and no increase shall be approved for group work done in\\nindividual apartments that is otherwise not an improvement to an entire\\nbuilding. Only such costs that are actual, reasonable, and verifiable\\nmay be approved as a temporary major capital improvement increase;\\n  (c) require that any temporary major capital improvement increase\\ngranted pursuant to these provisions be reduced by an amount equal to\\n(i) any governmental grant received by the landlord, where such grant\\ncompensates the landlord for any improvements required by a city, state\\nor federal government, an agency or any granting governmental entity to\\nbe expended for improvements and (ii) any insurance payment received by\\nthe landlord where such insurance payment compensates the landlord for\\nany part of the costs of the improvements;\\n  (d) prohibit temporary major capital improvement increases for\\nbuildings with outstanding hazardous or immediately hazardous violations\\nof the Uniform Fire Prevention and Building Code (Uniform Code), New\\nYork City Fire Code, or New York City Building and Housing Maintenance\\nCodes, if applicable;\\n  (e) prohibit individual apartment improvement increases for housing\\naccommodations with outstanding hazardous or immediately hazardous\\nviolations of the Uniform Fire Prevention and Building Code (Uniform\\nCode), New York City Fire Code, or New York City Building and Housing\\nMaintenance Codes, if applicable;\\n  (f) prohibit temporary major capital improvement increases for\\nbuildings with thirty-five per centum or fewer rent-regulated units;\\n  (g) establish that temporary major capital improvement increases shall\\nbe fixed to the unit and shall cease thirty years from the date the\\nincrease became effective. Temporary major capital improvement increases\\nshall be added to the legal regulated rent as a temporary increase and\\nshall be removed from the legal regulated rent thirty years from the\\ndate the increase became effective inclusive of any increases granted by\\nthe local rent guidelines board;\\n  (h) establish that temporary major capital improvement increases shall\\nbe collectible prospectively on the first day of the first month\\nbeginning sixty days from the date of mailing notice of approval to the\\ntenant. Such notice shall disclose the total monthly increase in rent\\nand the first month in which the tenant would be required to pay the\\ntemporary increase. An approval for a temporary major capital\\nimprovement increase shall not include retroactive payments. The\\ncollection of any increase shall not exceed two percent in any year from\\nthe effective date of the order granting the increase over the rent set\\nforth in the schedule of gross rents, with collectability of any dollar\\nexcess above said sum to be spread forward in similar increments and\\nadded to the rent as established or set in future years. Upon vacancy,\\nthe landlord may add any remaining balance of the temporary major\\ncapital improvement increases to the legal regulated rent.\\nNotwithstanding any other provision of the law, for any renewal lease\\ncommencing on or after June 14, 2019, the collection of any rent\\nincreases due to any major capital improvements approved on or after\\nJune 16, 2012 and before June 16, 2019 shall not exceed two percent in\\nany year for any tenant in occupancy on the date the major capital\\nimprovement was approved;\\n  (i) ensure that the application procedure for temporary major capital\\nimprovement increases shall include an itemized list of work performed\\nand a description or explanation of the reason or purpose of such work;\\n  (j) provide, that where an application for a major capital improvement\\nrent increase has been filed, a tenant shall have sixty days from the\\ndate of mailing of a notice of a proceeding in which to answer or reply;\\n  (k) establish a notification and documentation procedure for\\nindividual apartment improvements that requires an itemized list of work\\nperformed and a description or explanation of the reason or purpose of\\nsuch work, inclusive of photographic evidence documenting the condition\\nprior to and after the completion of the performed work. Provide for the\\ncentralized electronic retention of such documentation and any other\\nsupporting documentation to be made available in cases pertaining to the\\nadjustment of legal regulated rents; and\\n  (l) establish a form in the top six languages other than English\\nspoken in the state according to the latest available data from the U.S.\\nBureau of Census for an individual apartment improvement rent increase\\nfor a tenant in occupancy which shall be used by landlords to obtain\\nwritten informed consent that shall include the estimated total cost of\\nthe improvement and the estimated monthly rent increase. Such consent\\nshall be executed in the tenant's primary language. Such form shall be\\ncompleted and preserved in the centralized electronic retention system\\nto be operational by June 14, 2020, provided further that any changes to\\nthe form required due to the individual apartment improvement being\\npermanent shall be completed as of October 14, 2024. Nothing herein\\nshall relieve a landlord, lessor, or agent thereof of such person's duty\\nto retain proper documentation of all improvements performed or any rent\\nincreases resulting from said improvements.\\n  2. The division shall establish an annual inspection and audit process\\nwhich shall review twenty-five percent of applications for a temporary\\nmajor capital improvement increase that have been submitted and\\napproved. Such process shall include individual inspections and document\\nreview to ensure that owners complied with all obligations and\\nresponsibilities under the law for temporary major capital improvement\\nincreases. Inspections shall include in-person confirmation that such\\nimprovements have been completed in such way as described in the\\napplication.\\n  3. The division shall issue a notice to the landlord and all the\\ntenants sixty days prior to the end of the temporary major capital\\nimprovement increase and shall include the initial approved increase and\\nthe total amount to be removed from the legal regulated rent inclusive\\nof any increases granted by the applicable rent guidelines board.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "8",
+      "title" : "Procedure",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "8",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "9",
+      "title" : "Judicial review",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "9",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

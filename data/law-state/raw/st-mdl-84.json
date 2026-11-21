@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 84 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "84",
+    "title" : "Construction standards for the control of noise",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "84",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 84. Construction standards for the control of noise. On or before\\nJanuary first, nineteen hundred sixty-nine, the department shall\\nformulate, adopt, promulgate and thereafter from time to time amend\\nstandards of sound retardation for the walls, partitions and floors and\\nceilings between apartments and between apartments and public spaces\\nsituated therein based on the direct measurement of sound transmission\\nloss determined in decibels for various frequencies or in accordance\\nwith the ASTM sound transmission class system or in accordance with such\\nother recognized method or system for measuring reduction of sound\\ntransmission as the department may determine to be appropriate. Any\\nconstruction of a multiple dwelling commenced after January first,\\nnineteen hundred seventy shall comply with the standards promulgated\\npursuant to this section in effect at the time of commencement of such\\nconstruction.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T3",
+      "title" : "Sanitation and Health",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "83",
+      "title" : "Janitor or housekeeper",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "83",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

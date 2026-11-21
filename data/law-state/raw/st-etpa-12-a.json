@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 12-A in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "12-A",
+    "title" : "Rent registration",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2023-12-29" ],
+    "docLevelId" : "12-A",
+    "activeDate" : "2023-12-29",
+    "text" : "  § 12-a. Rent registration. a. Each housing accommodation in a city\\nhaving a population of less than one million or a town or village as to\\nwhich an emergency has been declared pursuant to section three of this\\nact which is subject to this act shall be registered by the owner\\nthereof with the state division of housing and community renewal prior\\nto July first, nineteen hundred eighty-four upon forms prescribed by the\\ncommissioner of such division. The data to be provided on such forms\\nshall include the following: (1) the name and address of the building or\\ngroup of buildings or development in which such housing accommodation is\\nlocated and the owner and the tenant thereof; (2) the number of housing\\naccommodations in the building or group of buildings or development in\\nwhich such housing accommodation is located; (3) the number of housing\\naccommodations in such building or group of buildings or development\\nsubject to this act and the number of such housing accommodations\\nsubject to the emergency housing rent control law; (4) the rent charged\\non the registration date; (5) the number of rooms in such housing\\naccommodation; and (6) all services provided in the last lease or rental\\nagreement commencing at least six months prior to the local effective\\ndate of this act.\\n  b. Registration pursuant to this section shall not be subject to the\\nfreedom of information law, provided that registration information\\nrelative to a tenant, owner, lessor or subtenant shall be made available\\nto such party or his authorized representative.\\n  c. Housing accommodations which become subject to this act after the\\ninitial registration period must be registered within ninety days\\nthereafter. Registration of housing accommodations subject to the\\nemergency housing rent control law immediately prior to the date of\\nfiling the initial registration statement as provided in this section\\nshall include, in addition to the items listed above, where existing,\\nthe maximum rent immediately prior to the date that such housing\\naccommodations became subject to this act.\\n  d. Copies of the registration shall be filed with the state division\\nof housing and community renewal in such place or places as it may\\nrequire.  In addition, one copy of that portion of the registration\\nstatement which pertains to the tenant's unit must be mailed by the\\nowner to the tenant in possession at the time of initial registration or\\nto the first tenant in occupancy if the apartment is vacant at the time\\nof initial registration.\\n  e. The failure to file a proper and timely initial or annual rent\\nregistration statement shall, until such time as such registration is\\nfiled, bar an owner from applying for or collecting any rent in excess\\nof the legal regulated rent in effect on the date of the last preceding\\nregistration statement or if no such statements have been filed, the\\nlegal regulated rent in effect on the date that the housing\\naccommodation became subject to the registration requirements of this\\nsection. The filing of a late registration shall result in the\\nprospective elimination of such sanctions and provided that increases in\\nthe legal regulated rent were lawful except for the failure to file a\\ntimely registration, the owner, upon the service and filing of a late\\nregistration, shall not be found to have collected an overcharge at any\\ntime prior to the filing of the late registration. In addition to all\\nother requirements set forth in this subdivision, in the event a timely\\nrent registration is not filed and after notice of such delinquency is\\nprovided by the division of housing and community renewal to the owner\\nin the form of electronic mail and mail to the address listed in the\\nowner's most recent registration statement, the owner shall be subject\\nto a fine of five hundred dollars per unregistered unit for each month\\nthe registration is delinquent. Such a fine shall be imposed by order,\\nand such order imposing a fine shall be deemed a final determination for\\nthe purposes of judicial review. Such fine may, upon the expiration of\\nthe period for seeking review pursuant to article seventy-eight of the\\ncivil practice law and rules, be docketed and enforced in the manner of\\na judgment of the supreme court by the division of housing and community\\nrenewal.\\n  f. An annual statement shall be filed containing the current rent for\\neach unit and such other information contained in subdivision a of this\\nsection as shall be required by the division. The owner shall provide\\neach tenant then in occupancy with a copy of that portion of such annual\\nstatement as pertains to the tenant's unit.\\n  g. Within a city having a population of one million or more, each\\nhousing accommodation subject to this act shall be registered with the\\nstate division of housing and community renewal as shall be provided in\\nthe New York city rent stabilization law of nineteen hundred sixty-nine.\\n  h. Each housing accommodation for which a timely registration\\nstatement was filed between April first, nineteen hundred eighty-four\\nand June thirtieth, nineteen hundred eighty-four, pursuant to\\nsubdivision a of this section shall designate the rent charged on April\\nfirst, nineteen hundred eighty-four, as the rent charged on the\\nregistration date.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "12",
+      "title" : "Enforcement and procedures",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "12",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "13",
+      "title" : "Cooperation with other governmental agencies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "13",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

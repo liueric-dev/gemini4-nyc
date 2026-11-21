@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 211 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "211",
+    "title" : "Definitions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-05-03" ],
+    "docLevelId" : "211",
+    "activeDate" : "2024-05-03",
+    "text" : "  * § 211. Definitions. 1. The term \"housing accommodation\", as used in\\nthis article shall mean any residential premises, including any\\nresidential premises located within a mixed-use residential premises.\\n  2. The term \"landlord\" as used in this article shall mean any fee\\nowner, lessor, sublessor, assignor, court appointed receiver, or any\\nother person or entity receiving or entitled to receive rent for the\\noccupancy of any housing accommodation or an agent of any of the\\nforegoing.\\n  3. (a) The term \"small landlord\" as used in this article shall mean a\\nlandlord of no more than (i) ten units in the state, or (ii) such other\\nnumber of units in the state designated by local law pursuant to\\nparagraph (b) of subdivision two of section two hundred thirteen of this\\narticle.\\n  (b) If a landlord is a single natural person, then that landlord is a\\nsmall landlord if they own or are a beneficial owner of, directly or\\nindirectly, in whole or in part, no more than the number of units\\nestablished pursuant to paragraph (a) of this subdivision; if there is\\nmore than one natural person owner, then no one person may own or be a\\nbeneficial owner of, directly or indirectly, in whole or in part, more\\nthan the number of units established pursuant to paragraph (a) of this\\nsubdivision.\\n  (c) If a landlord is an entity, organized under the laws of this state\\nor of any other jurisdiction, then that landlord is a small landlord if\\neach natural person with a direct or indirect ownership interest in the\\nentity or any affiliated entity owns no more than the number of units\\nestablished pursuant to paragraph (a) of this subdivision. If an entity\\ncannot provide the names of all natural persons with a direct or\\nindirect ownership interest in the entity, such entity shall not qualify\\nas a small landlord.\\n  4. The term \"tenant\" as used in this article shall mean a tenant,\\nsub-tenant, lessee, sublessee, or any other person entitled to the\\nlawful possession, use or occupancy of any housing accommodation. An\\nindividual shall not be considered a tenant for the purposes of this\\narticle if:\\n  (a) no landlord-tenant relationship exists, as established pursuant to\\nany of the grounds set forth in section seven hundred thirteen of the\\nreal property actions and proceedings law; or\\n  (b) the individual is an occupant, as defined in paragraph (b) of\\nsubdivision one of section two hundred thirty-five-f of this chapter,\\nwho has not received the landlord's express or implied consent to use\\nthe housing accommodation as their primary residence in exchange for\\npayment of rent.\\n  5. The term \"rent\" as used in this article shall mean any\\nconsideration, including any bonus, benefit or gratuity demanded or\\nreceived for or in connection with the possession, use or occupancy of\\nhousing accommodations or the execution or transfer of a lease for such\\nhousing accommodations. The term \"rent\" shall not include any separate\\ncharges for services, amenities or facilities which the tenant pays in\\naddition to rent, including but not limited to charges for fitness\\ncenters, parking, storage, or facility rentals, provided that such\\ncharges are not imposed or increased for the purposes of circumventing\\nthis article.\\n  6. The term \"disabled person\" as used in this article shall mean a\\nperson who has an impairment which results from anatomical,\\nphysiological or psychological conditions, other than addiction to\\nalcohol, gambling, or any controlled substance, which are demonstrable\\nby medically acceptable clinical and laboratory diagnostic techniques,\\nand which are expected to be permanent and which substantially limit one\\nor more of such person's major life activities.\\n  7. The term \"inflation index\" shall mean five percent plus the annual\\npercentage change in the consumer price index for all urban consumers\\nfor all items as published by the United States bureau of labor\\nstatistics for the region in which the housing accommodation is located,\\nas established for the most recent preceding calendar year as shall be\\npublished by the division of housing and community renewal no later than\\nthe first of August in any given year, provided further that for New\\nYork city and any village, town, or city that adopts the provisions of\\nthis article by local law pursuant to subdivision one of section two\\nhundred thirteen of this article in the counties of Dutchess, Nassau,\\nOrange, Putnam, Rockland, Suffolk, and Westchester, such consumer price\\nindex shall be the New York-Newark-Jersey City, NY-NJ-PA consumer price\\nindex, and provided further that for any other village, town, or city\\nthat adopts the provisions of this article by local law pursuant to\\nsubdivision one of section two hundred thirteen of this article, such\\nconsumer price index shall be the Northeast Region consumer price index.\\n  8. The term \"local rent standard\" shall mean a rent increase equal to\\nthe inflation index or ten percent, whichever is lower.\\n  * NB Repealed June 15, 2034\\n",
+    "parentLocationIds" : [ "-CH50", "A6-A" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A6-A",
+      "title" : "Good Cause Eviction Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "6-A",
+      "activeDate" : "2024-05-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "210",
+      "title" : "Short title",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "210",
+      "activeDate" : "2024-05-03"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "212",
+      "title" : "Applicability in the city of New York",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "212",
+      "activeDate" : "2024-05-03"
+    }
+  }
+}

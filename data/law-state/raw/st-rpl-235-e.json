@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 235-E in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "235-E",
+    "title" : "Duty to provide a written receipt",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28", "2021-12-31" ],
+    "docLevelId" : "235-E",
+    "activeDate" : "2021-12-31",
+    "text" : "  § 235-e. Duty to provide a written receipt. (a) Upon the receipt of\\nthe payment of rent for residential premises in the form of cash, or any\\ninstrument other than the personal check of the lessee, it shall be the\\nduty of the lessor, or any agent of the lessor authorized to receive\\nrent, to provide the lessee with a written receipt containing the\\nfollowing:\\n  1. The date;\\n  2. The amount;\\n  3. The identity of the premises and period for which paid; and\\n  4. The signature and title of the person receiving the rent.\\n  (b) A lessee may request, in writing, that a lessor provide a receipt\\nfor rent paid by personal check. If such request is made, the lessor, or\\nany agent of the lessor authorized to receive rent, shall provide the\\nlessee with the receipt described in subdivision (a) of this section.\\nSuch request shall, unless otherwise specified by the lessee, remain in\\neffect for the duration of such lessee's tenancy. The lessor shall\\nmaintain a record of all cash receipts for rent for at least three\\nyears.\\n  (c) If a payment of rent is personally transmitted to a lessor, or an\\nagent of a lessor authorized to receive rent, the receipt for such\\npayment shall be issued immediately to a lessee. If a payment of rent is\\ntransmitted indirectly to a lessor, or an agent of a lessor authorized\\nto receive rent, a lessee shall be provided with a receipt within\\nfifteen days of such lessor or agent's receipt of a rent payment.\\n  (d) If a lessor, or an agent of a lessor authorized to receive rent,\\nfails to receive payment for rent within five days of the date specified\\nin a lease agreement, such lessor or agent shall send the lessee, by\\ncertified mail, a written notice stating the failure to receive such\\nrent payment. The failure of a lessor, or any agent of the lessor\\nauthorized to receive rent, to provide a lessee with a written notice of\\nthe non-payment of rent may be used as an affirmative defense by such\\nlessee in an eviction proceeding based on the non-payment of rent.\\nNotwithstanding the provisions of this subdivision, a lessor which is a\\ncooperative housing corporation, other than a cooperative housing\\ncorporation subject to the provisions of article two, article four,\\narticle five or article eleven of the private housing finance law, may\\nprovide for a method of sending notice by mail other than by certified\\nmail, as long as such method of sending notice is provided for in the\\nproprietary lease or occupancy agreement, and the lessee is a dwelling\\nunit owner or shareholder of such cooperative housing corporation.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-D",
+      "title" : "Harassment",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "235-D",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-F",
+      "title" : "Unlawful restrictions on occupancy",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "235-F",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

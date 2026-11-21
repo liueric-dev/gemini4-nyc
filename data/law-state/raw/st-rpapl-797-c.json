@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 797-C in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "797-C",
+    "title" : "Commencement; notice of petition; petition",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+    "docLevelId" : "797-C",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 797-c. Commencement; notice of petition; petition. 1. The proceeding\\nshall be commenced by the filing of a notice of petition and petition\\nwith the clerk of the court. A notice of petition may be issued by an\\nattorney, judge, or clerk of the court.\\n  2. The notice of petition shall specify the time and place of the\\nhearing on the petition and state that if the respondent shall fail to\\nappear at such time and place to interpose any defense, the respondent\\nmay be precluded from asserting such defense.\\n  3. The office of court administration shall promulgate instructional\\nmaterials in which tenant-petitioners may find guidance on how to\\ncommence the special proceedings. Such instructional materials shall be\\nin plain, accessible language. Such instructional materials shall be\\npublished in English, Spanish and in other languages spoken by\\nlimited-English proficient individuals in any judicial district as\\nneeded.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-D",
+      "title" : "Special Proceedings By Tenants For Judgment Directing Repairs of Conditions and Other Relief In Residential Real Property Constituting Violation of Applicable Local or State Housing Standards or Real Property Law §",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-01-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-B",
+      "title" : "Respondent",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-B",
+      "activeDate" : "2024-01-05"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-D",
+      "title" : "Time of service; order to show cause",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-D",
+      "activeDate" : "2024-01-05"
+    }
+  }
+}

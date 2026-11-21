@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.71 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.71",
+    "title" : "Unlawful dissemination of a personal image",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-03", "2023-03-10" ],
+    "docLevelId" : "250.71",
+    "activeDate" : "2023-03-10",
+    "text" : "§ 250.71 Unlawful dissemination of a personal image.\\n  A person is guilty of unlawful dissemination of a personal image when,\\nwith the intent of degrading or abusing a person who has been the victim\\nof a crime described in title H of this part, or otherwise causing harm\\nto the emotional, financial or physical welfare of such victim or such\\nvictim's family, the person intentionally:\\n  1. (a) creates and disseminates or publishes a still or video image of\\nsuch victim on a social media platform, without the victim's consent, in\\na manner that has no or minimal cultural or social value;\\n  (b) the victim is identifiable from the still or video image itself or\\nfrom information displayed in connection with the still or video image;\\n  (c) the victim suffered physical injury as a result of a sex offense\\nas defined by article one hundred thirty of this part, serious physical\\ninjury as a result of any non-sex offense, or death, and this injury or\\ndeath is depicted in the image; and\\n  (d) the actor committed, participated in the commission of, or\\nconspired to commit the crime that resulted in such injury to such\\nvictim; or\\n  2. acting as an agent of the actor who created an image in violation\\nof subdivision one of this section, he or she knowingly disseminates or\\npublishes such image.\\n  Unlawful dissemination of a personal image in the second degree is a\\nclass A misdemeanor.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.70",
+      "title" : "Unlawful dissemination of a personal image; definitions, application",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-03", "2023-03-10" ],
+      "docLevelId" : "250.70",
+      "activeDate" : "2023-03-10"
+    },
+    "nextSibling" : null
+  }
+}

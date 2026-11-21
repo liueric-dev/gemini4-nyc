@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.60 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.60",
+    "title" : "Dissemination of an unlawful surveillance image in the first degree",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2014-11-07" ],
+    "docLevelId" : "250.60",
+    "activeDate" : "2014-11-07",
+    "text" : "§ 250.60 Dissemination of an unlawful surveillance image in the first\\n           degree.\\n  A person is guilty of dissemination of an unlawful surveillance image\\nin the first degree when:\\n  1. He or she, with knowledge of the unlawful conduct by which an image\\nor images of the sexual or other intimate parts of another person or\\npersons were obtained and such unlawful conduct would satisfy the\\nessential elements of the crime of unlawful surveillance in the first or\\nsecond degree, as defined, respectively, in section 250.50 or 250.45 of\\nthis article, sells or publishes such image or images; or\\n  2. Having created a surveillance image in violation of section 250.45\\nor 250.50 of this article, or in violation of the law in any other\\njurisdiction which includes all of the essential elements of either such\\ncrime, or having acted as an accomplice to such crime, or acting as an\\nagent to the person who committed such crime, he or she intentionally\\ndisseminates such unlawfully created image; or\\n  3. He or she commits the crime of dissemination of an unlawful\\nsurveillance image in the second degree and has been previously\\nconvicted within the past ten years of dissemination of an unlawful\\nsurveillance image in the first or second degree.\\n  Dissemination of an unlawful surveillance image in the first degree is\\na class E felony.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.55",
+      "title" : "Dissemination of an unlawful surveillance image in the second degree",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2014-11-07" ],
+      "docLevelId" : "250.55",
+      "activeDate" : "2014-11-07"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.65",
+      "title" : "Additional provisions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.65",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

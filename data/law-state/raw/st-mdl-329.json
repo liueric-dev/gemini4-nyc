@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 329 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "329",
+    "title" : "Certificate of inspection visits",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "329",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 329. Certificate of inspection visits. In a city of over one million\\npopulation the department shall issue without fee to all owners of\\nmultiple dwellings located in such city, a certificate of inspection\\nvisits upon which shall appear the title in bold print \"CERTIFICATE OF\\nINSPECTION VISITS\", the name, address and telephone number of the owner\\nof the building, the street address of the building and the words, \"The\\nundersigned hereby certifies that he visited the above-described\\nbuilding on the date and for the purposes set opposite his name\". The\\ncertificate shall be placed and maintained in a conspicuous place inside\\nthe multiple dwelling within view of the place at which mail is\\ndelivered to the building or at such other location as may be approved\\nby the department and in a place readily accessible for signature by\\nemployees of the department. In the event that the certificate is\\ndestroyed or defaced or the signature lines become filled with\\nsignatures, the owner shall apply for and the department shall issue to\\nhim free of charge a duplicate certificate of inspection visits.\\nWhenever an employee of such department shall visit any multiple\\ndwelling for any purpose related to his official capacity, he shall sign\\nhis name to the certificate of inspection visits and opposite thereto\\nset forth the date and purpose of his visit.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A9" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A9",
+      "title" : "Registry of Names and Service of Papers",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "9",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "328",
+      "title" : "Central Violations Bureau",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "328",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

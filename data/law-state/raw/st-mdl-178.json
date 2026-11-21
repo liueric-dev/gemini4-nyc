@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 178 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "178",
+    "title" : "Lighting and ventilation of stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "178",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 178. Lighting and ventilation of stairs. Where the stair and public\\nhalls are not provided on each story with windows opening to a street,\\nyard or court, a skylight equipped with ridge ventilators having an\\nopening of forty square inches or more shall be provided in the roof\\nover the stair, except as otherwise provided in paragraph g of\\nsubdivision three of section one hundred seventy-one. The glazed roof of\\nsuch skylight shall not be less in area than nine square feet nor less\\nthan two feet in its least dimension, provided the ventilating and glass\\nareas in such skylight are not less than herein required; except that in\\ndwellings converted before April eighteenth, nineteen hundred\\ntwenty-nine, where a skylight smaller than such prescribed dimensions\\nwas in existence on such date, no structural change shall be required,\\nbut a ventilating skylight fitting the existing skylight opening in the\\nroof beams shall be deemed sufficient.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "177",
+      "title" : "Rooms in basements and cellars",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "177",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "179",
+      "title" : "Privacy",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "179",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

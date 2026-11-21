@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 211 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "211",
+    "title" : "Height and bulk",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "211",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 211. Height and bulk. 1. No tenement shall be increased in height so\\nthat its height shall exceed by more than one-half the width of the\\nwidest street upon which it stands. Except as otherwise provided in\\nsubdivision four of this section, no non-fireproof tenement shall be\\nincreased in height so that it shall exceed five stories, except that\\nany tenement may be increased to any height permitted for multiple\\ndwellings erected after April eighteenth, nineteen hundred twenty-nine,\\nif such tenement conforms to the provisions of this chapter governing\\nlike multiple dwellings erected after such date.\\n  2. If there are bulkheads, superstructures or penthouses exceeding ten\\nfeet in height or exceeding in aggregate area ten per centum of the area\\nof the roof, the measurement of height shall be taken to the top of such\\nbulkhead, superstructure or penthouse, except that this shall not apply\\nto elevator enclosures not exceeding twenty-three feet in height used\\nsolely for elevator purposes, nor to open pergolas or similar open\\nornamental treatment of roof-gardens or playgrounds.\\n  3. In a fireproof tenement house in which one or more passenger\\nelevators are operated, penthouses may be erected on the main roof.\\nSuch penthouses shall be set back at least five feet from the front\\nwalls and ten feet from the rear walls of the dwelling and at least\\nthree feet from any court wall. Such penthouses shall have a clear\\ninside height of not less than nine feet from finished floor to finished\\nceiling, and shall not exceed twelve feet in height from the high point\\nof the main roof to the highest point of the penthouse roof.  Such\\npenthouses shall not be deemed to affect the measurement of height of\\nthe dwelling. All such penthouses shall be entirely fireproof except\\nthat windows shall not be required to be glazed with wire glass.\\n  4. Any non-fireproof old-law tenement five stories in height may be\\nincreased in number of stories to six provided that such increase in\\nnumber of stories does not result in an increase in the height of the\\nroof beams above the curb level. In any tenement so altered, the first\\nfloor above the lowest cellar, or, if there be no cellar, above the\\nbasement or other lowest story, shall be fireproof. Any yard or court of\\nsuch altered tenement shall not be less in any dimension than the\\nminimum dimensions prescribed in section twenty-six.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "212",
+      "title" : "Yards and courts",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "212",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

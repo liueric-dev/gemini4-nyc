@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Federal Register, Volume 90 Issue 187 (Tuesday, September 30, 2025)</title>
+</head>
+<body><pre>
+[Federal Register Volume 90, Number 187 (Tuesday, September 30, 2025)]
+[Notices]
+[Pages 46911-46912]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2025-19070]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT
+
+[Docket No. FR-6086-N-12]
+
+
+Economic Growth Regulatory Relief and Consumer Protection Act: 
+Implementation of National Standards for the Physical Inspection of 
+Real Estate (NSPIRE); Extension of NSPIRE Compliance Date for Housing 
+Choice Voucher, Project-Based Voucher, and Section 8 Moderate 
+Rehabilitation Programs
+
+AGENCY: Office of the Assistant Secretary for Public and Indian Housing 
+(PIH), HUD.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice further extends the compliance date for HUD's 
+National Standards for the Physical Inspection of Real Estate (NSPIRE) 
+final rule for the Housing Choice Voucher (HCV), Project-Based Voucher 
+(PBV), and Section 8 Moderate Rehabilitation (Mod Rehab) programs 
+through January 31, 2027. HUD is taking this action to provide Public 
+Housing Agencies (PHAs) with additional time to implement HUD's NSPIRE 
+standards and the change to the definition of Housing Quality Standards 
+(HQS). This is the third extension of this compliance date.
+
+DATES: PHAs subject to 24 CFR parts 882, 982, and 983 are not required 
+to comply with the following changes to these parts in the NSPIRE final 
+rule until February 1, 2027.
+    <bullet> 24 CFR 982.4, definition of Housing Quality Standards 
+(HQS), including the subsequent changes made by the HOTMA voucher final 
+rule (89 FR 38224).
+
+[[Page 46912]]
+
+    <bullet> 24 CFR 982.401, including the subsequent changes made by 
+the HOTMA voucher final rule.
+    <bullet> 24 CFR part 982 subpart M, including the subsequent 
+changes made by the HOTMA voucher final rule, except 24 CFR 982.628(d).
+    <bullet> 24 CFR 983.3, definition of Housing Quality Standards 
+(HQS), including the subsequent changes made by the HOTMA voucher final 
+rule.
+    <bullet> 24 CFR 983.101(a)-(b), including the subsequent changes 
+made by the HOTMA voucher final rule.
+    All other changes are in effect as required by the NSPIRE and HOTMA 
+voucher final rules.
+
+FOR FURTHER INFORMATION CONTACT: Dana Kitchen, Real Estate Assessment 
+Center, Office of Public and Indian Housing, Department of Housing and 
+Urban Development, 550 12th Street SW, Suite 100, Washington, DC 20410-
+4000; telephone (612) 370-3089 (this is not a toll-free number), email 
+<a href="/cdn-cgi/l/email-protection#a1f3e4e0e2fef5e0e2e1c9d4c58fc6ced7"><span class="__cf_email__" data-cfemail="396b7c787a666d787a79514c5d175e564f">[email&#160;protected]</span></a>. HUD welcomes and is prepared to receive calls from 
+individuals who are deaf or hard of hearing, as well as individuals 
+with speech or communication disabilities. To learn how to make an 
+accessible telephone call, please visit: <a href="https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs">https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    Many PHAs administering the HCV, PBV, and Mod Rehab programs 
+currently use HQS for inspections, previously defined at 24 CFR 
+982.401. HUD's Economic Growth Regulatory Relief and Consumer 
+Protection Act: Implementation of National Standards for Physical 
+Inspection of Real Estate (NSPIRE) final rule (``NSPIRE final rule'') 
+(88 FR 30442), published on May 11, 2023, includes amendments to 24 CFR 
+parts 882, 982, and 983 (among others), effective October 1, 2023. HUD 
+has delayed the compliance date for the HCV, PBV, and Mod Rehab 
+programs twice. In September 2023 (88 FR 66882), the compliance date 
+was delayed until October 1, 2024, and in July 2024 (89 FR 55645), the 
+compliance date was delayed until October 1, 2025. These delays allowed 
+PHAs additional time to implement NSPIRE.
+    With this notice, HUD has included specific provisions to clarify 
+the intent of the extension. Reference to the Housing Opportunities 
+Through Modernization Act (HOTMA) voucher final rule (89 FR 38224) is 
+due to its subsequent amendments to many of the NSPIRE final rule 
+provisions and definitions. For example, the NSPIRE final rule changed 
+24 CFR 982.4, definition of Housing quality standards (HQS), and the 
+HOTMA voucher final rule subsequently amended it further to include 
+HUD-approved variations. With this notice, PHAs are not required to 
+comply with the specific provisions that change the definition of HQS 
+until February 1, 2027.
+    However, other provisions included in the NSPIRE final rule 
+(whether amended by HOTMA or not), such as 24 CFR 
+982.352(b)(1)(iv)(A)(3), which references the duties of independent 
+entities in PHA-owned eligible housing, became effective as required 
+and are not included in the provisions extended by this notice.
+
+II. Basis for Delay of Compliance Date
+
+    Through this notice, HUD further delays the compliance date for the 
+HCV, PBV, and Mod Rehab programs until February 1, 2027. HUD continues 
+to encourage PHAs that are ready to implement NSPIRE to proceed with 
+implementation at their earliest convenience; however, HUD has 
+determined that additional time is necessary for many PHAs to implement 
+NSPIRE for the HCV, PBV, and Mod Rehab programs. This extension will 
+provide PHAs with additional time to train their staff, communicate 
+with landlords, and access additional technical assistance from HUD to 
+support their transition to the NSPIRE standards.
+    PHAs and industry groups representing PHAs have reported to HUD 
+their concerns related to landlord participation in the HCV and PBV 
+programs. PHAs continue to face challenges in recruiting and retaining 
+private landlords. Many PHAs report experiencing a significant loss in 
+landlord participation and fear that a major change to the inspection 
+processes and standards may exacerbate the problem. PHAs have urged HUD 
+to consider additional delays to allow them more time to transition 
+their staff and landlords/owners to the NSPIRE standards. Additionally, 
+PHAs report that many private software vendors have not finished 
+developing their NSPIRE-related inspection products for the PHAs, and, 
+because HUD has paused the release of its inspection application, some 
+PHAs may need additional time to prepare for another option.
+
+III. Instructions for PHAs With HCV, PBV, and Mod Rehab Programs
+
+    All PHAs that have implemented NSPIRE, but have not yet notified 
+HUD, should notify HUD of the date they transitioned to NSPIRE. In 
+addition, PHAs that have not implemented NSPIRE, should notify HUD of 
+the date they plan to implement NSPIRE. These notifications are to be 
+sent via email to <a href="/cdn-cgi/l/email-protection#2b65787b62796e7d746a475f4e59454a5f4e6245585b4e485f4244456b435e4f054c445d"><span class="__cf_email__" data-cfemail="531d00031a0116050c123f2736213d3227361a3d20233630273a3c3d133b26377d343c25">[email&#160;protected]</span></a> with a courtesy 
+copy to their field office representative. The email's subject line 
+should read ``Notification of NSPIRE Implementation, [PHA code],'' and 
+the body of the email should include the PHA name, PHA code, and the 
+date the PHA implemented NPSIRE or plans to implement NSPIRE (the date 
+shall be no later than February 1, 2027). Regardless of implementation 
+date, PHAs are reminded that the NSPIRE standards \1\ for installing 
+carbon monoxide devices and smoke alarms still apply as they implement 
+statutory mandates under the Consolidated Appropriations Act, 2021 \2\ 
+and 2023,\3\ respectively. More information regarding carbon monoxide 
+devices and smoke alarms can be found in the forthcoming PIH notice.
+---------------------------------------------------------------------------
+
+    \1\ NSPIRE Standards: <a href="https://www.hud.gov/reac/nspire-standards">https://www.hud.gov/reac/nspire-standards</a>.
+    \2\ Section 101, ``Carbon Monoxide Alarms or Detectors in 
+Federally Insured Housing'' of Title I of Division Q, Financial 
+Services Provisions and Intellectual Property, of the Consolidated 
+Appropriations Act, 2021, Public Law 116-260, 134 (2020).
+    \3\ Section 601, ``Smoke Alarms in Federally Assisted Housing'' 
+of Title VI of Division AA, Financial Services Matters, of the 
+Consolidated Appropriations, 2023, Public Law 117-328 (2022).
+---------------------------------------------------------------------------
+
+IV. Conclusion
+
+    HUD extends the compliance date for the changes made to 24 CFR 
+parts 882, 982, and 983 listed in the DATES section of this notice to 
+February 1, 2027, at which time PHAs subject to these parts must comply 
+with the NSPIRE final rule. Until February 1, 2027, PHAs may choose to 
+comply with the provisions of these parts as amended by the NSPIRE 
+final rule, which existed prior to October 1, 2023 (``HQS as previously 
+defined'').
+
+Benjamin Hobbs,
+Principal Deputy Assistant Secretary for Public and Indian Housing.
+[FR Doc. 2025-19070 Filed 9-29-25; 8:45 am]
+BILLING CODE 4210-67-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

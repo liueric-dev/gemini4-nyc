@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 52 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "52",
+    "title" : "Stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "52",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 52. Stairs. 1. In every multiple dwelling erected after April\\neighteenth, nineteen hundred twenty-nine, every interior stair,\\nfire-stair and fire-tower and every exterior stair in connection with\\nany dwelling altered or erected after January first, nineteen hundred\\nfifty-one, shall be provided with proper balustrades or railings and all\\nsuch interior and exterior stairs shall be kept in good repair and free\\nfrom any encumbrance. Every such stair, fire-stair and fire-tower more\\nthan three feet eight inches wide shall be provided with a handrail on\\neach side.\\n  2. The upper surface of every balustrade or railing placed in any\\nstair after April eighteenth, nineteen hundred twenty-nine, shall be at\\nleast two feet six inches and at most two feet eight inches above the\\nfront edge of the stair treads, and at any stair landing shall be at\\nleast two feet eight inches and at most three feet above the level of\\nsuch landing.\\n  3. The treads and risers of every stair, fire-stair and fire-tower\\nconstructed after April eighteenth, nineteen hundred twenty-nine, in any\\nmultiple dwelling shall be of uniform height and width in any one\\nflight. Each tread, exclusive of nosing, shall be not less than nine and\\none-half inches wide; each riser shall not exceed seven and\\nthree-quarters inches in height; and the product of the number of inches\\nin the width of the tread and the number of inches in the height of the\\nriser shall be at least seventy and at most seventy-five.\\n  4. No winding stairs shall be constructed in any multiple dwelling.\\n  5. a. Except as otherwise provided in paragraph b of this subdivision,\\nevery stair constructed after April eighteenth, nineteen hundred\\ntwenty-nine, leading to a cellar or basement from the first story above\\nshall be entirely enclosed with fireproof walls and be provided with\\nfireproof doors and assemblies at both top and bottom, with the doors\\nself-closing; except that, in a non-fireproof multiple dwelling erected\\nbefore such date, where such a stair is permitted such enclosing walls\\nmay be fire-retarded.\\n  b. When the first floor or a part thereof, in a fireproof multiple\\ndwelling, is used for business purposes, a stair leading to a cellar or\\nbasement from such business space shall be enclosed in fireproof walls\\nhaving a fire-resistive rating of at least three hours and be provided\\nwith a fireproof door and assembly at the bottom, with the door\\nself-closing. No opening shall be permitted between such business space\\nand the remainder of the dwelling.\\n  6. The department shall have the power to make supplementary\\nregulations relating to fire-towers.\\n  7. In every multiple dwelling erected under plans filed with the\\ndepartment after January first, nineteen hundred sixty, on every story\\nabove the entrance story every door opening into such stair shall be so\\nhung and arranged that in opening and when opened it shall at no point\\nreduce the clear and unobstructed required width of the stair or stair\\nlanding.\\n  8. The provisions of this section shall not apply to a stair within an\\napartment provided that each level of the apartment is provided with\\nrequired means of egress complying with the provisions of this article.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "51-C",
+      "title" : "Rights of tenants to install and maintain locks in certain entrance doors",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "51-C",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "53",
+      "title" : "Fire-escapes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "53",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

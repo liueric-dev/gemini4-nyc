@@ -1,0 +1,1513 @@
+{
+  "id" : "3h2n-5cm9",
+  "name" : "DOB Violations",
+  "assetType" : "dataset",
+  "attribution" : "Department of Buildings (DOB)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1448398203,
+  "description" : "This data set includes older civil penalties (commonly referred to as ‘DOB Violations’) that were issued by the Department of Buildings (DOB) in the Buildings Information System (BIS).  For newer civil penalties, see the <a href=\"https://data.cityofnewyork.us/d/855j-jady\">DOB Safety Violations </a> data set (note: some violations are duplicated in both data sets).  Separately, summonses that are issued by DOB but adjudicated by OATH/ECB are in the  <a href=\"https://data.cityofnewyork.us/d/6bgk-3dad\">DOB ECB Violations</a> data set.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 42726,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1567117602,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 15047940,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1448398300,
+  "publicationGroup" : 5736804,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1795200212,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 5736804,
+  "totalTimesRated" : 0,
+  "viewCount" : 191287,
+  "viewLastModified" : 1795199511,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1449850224,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1065570,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1449850224,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 231234322,
+    "name" : "ISN_DOB_BIS_VIOL",
+    "dataTypeName" : "text",
+    "fieldName" : "isn_dob_bis_viol",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843407,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "999999",
+      "non_null" : "2478009",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1767236",
+        "count" : "1"
+      }, {
+        "item" : "2310820",
+        "count" : "1"
+      }, {
+        "item" : "1101616",
+        "count" : "1"
+      }, {
+        "item" : "2782363",
+        "count" : "1"
+      }, {
+        "item" : "2586308",
+        "count" : "1"
+      }, {
+        "item" : "1818930",
+        "count" : "1"
+      }, {
+        "item" : "2403834",
+        "count" : "1"
+      }, {
+        "item" : "2108669",
+        "count" : "1"
+      }, {
+        "item" : "2803949",
+        "count" : "1"
+      }, {
+        "item" : "2690102",
+        "count" : "1"
+      }, {
+        "item" : "1579527",
+        "count" : "1"
+      }, {
+        "item" : "2111351",
+        "count" : "1"
+      }, {
+        "item" : "1860486",
+        "count" : "1"
+      }, {
+        "item" : "2824173",
+        "count" : "1"
+      }, {
+        "item" : "2154384",
+        "count" : "1"
+      }, {
+        "item" : "956604",
+        "count" : "1"
+      }, {
+        "item" : "2557280",
+        "count" : "1"
+      }, {
+        "item" : "1482746",
+        "count" : "1"
+      }, {
+        "item" : "41570",
+        "count" : "1"
+      }, {
+        "item" : "228173",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "not_null" : "2109893",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234325,
+    "name" : "BORO",
+    "dataTypeName" : "text",
+    "fieldName" : "boro",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843410,
+    "width" : 148,
+    "cachedContents" : {
+      "largest" : "S",
+      "non_null" : "2477829",
+      "null" : "180",
+      "top" : [ {
+        "item" : "1",
+        "count" : "918881"
+      }, {
+        "item" : "3",
+        "count" : "748624"
+      }, {
+        "item" : "4",
+        "count" : "443795"
+      }, {
+        "item" : "2",
+        "count" : "293593"
+      }, {
+        "item" : "5",
+        "count" : "69561"
+      }, {
+        "item" : "M",
+        "count" : "1842"
+      }, {
+        "item" : "B",
+        "count" : "1090"
+      }, {
+        "item" : "Q",
+        "count" : "394"
+      }, {
+        "item" : "S",
+        "count" : "43"
+      }, {
+        "item" : "0",
+        "count" : "3"
+      }, {
+        "item" : "`",
+        "count" : "3"
+      } ],
+      "smallest" : "`",
+      "not_null" : "2109891",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234327,
+    "name" : "BIN",
+    "dataTypeName" : "text",
+    "fieldName" : "bin",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843412,
+    "width" : 136,
+    "cachedContents" : {
+      "largest" : "9999993",
+      "non_null" : "2474795",
+      "null" : "3214",
+      "top" : [ {
+        "item" : "4155493",
+        "count" : "1423"
+      }, {
+        "item" : "3257058",
+        "count" : "1105"
+      }, {
+        "item" : "1015219",
+        "count" : "1014"
+      }, {
+        "item" : "1014453",
+        "count" : "807"
+      }, {
+        "item" : "1076262",
+        "count" : "804"
+      }, {
+        "item" : "3347532",
+        "count" : "752"
+      }, {
+        "item" : "4045999",
+        "count" : "706"
+      }, {
+        "item" : "1015862",
+        "count" : "691"
+      }, {
+        "item" : "3343740",
+        "count" : "687"
+      }, {
+        "item" : "1023159",
+        "count" : "653"
+      }, {
+        "item" : "1001021",
+        "count" : "649"
+      }, {
+        "item" : "1083346",
+        "count" : "636"
+      }, {
+        "item" : "1014387",
+        "count" : "613"
+      }, {
+        "item" : "1026318",
+        "count" : "604"
+      }, {
+        "item" : "3837620",
+        "count" : "604"
+      }, {
+        "item" : "2005898",
+        "count" : "581"
+      }, {
+        "item" : "1084781",
+        "count" : "579"
+      }, {
+        "item" : "1041904",
+        "count" : "563"
+      }, {
+        "item" : "1087537",
+        "count" : "561"
+      }, {
+        "item" : "1001026",
+        "count" : "554"
+      } ],
+      "smallest" : "0000000",
+      "not_null" : "2106567",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234329,
+    "name" : "BLOCK",
+    "dataTypeName" : "text",
+    "fieldName" : "block",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843414,
+    "width" : 160,
+    "cachedContents" : {
+      "largest" : "V0179",
+      "non_null" : "2465183",
+      "null" : "12826",
+      "top" : [ {
+        "item" : "00000",
+        "count" : "5849"
+      }, {
+        "item" : "00016",
+        "count" : "3865"
+      }, {
+        "item" : "05141",
+        "count" : "3068"
+      }, {
+        "item" : "00787",
+        "count" : "2822"
+      }, {
+        "item" : "05778",
+        "count" : "2359"
+      }, {
+        "item" : "01373",
+        "count" : "2256"
+      }, {
+        "item" : "02180",
+        "count" : "2249"
+      }, {
+        "item" : "00140",
+        "count" : "2166"
+      }, {
+        "item" : "00840",
+        "count" : "2135"
+      }, {
+        "item" : "00788",
+        "count" : "2073"
+      }, {
+        "item" : "00833",
+        "count" : "2050"
+      }, {
+        "item" : "00828",
+        "count" : "2016"
+      }, {
+        "item" : "01171",
+        "count" : "2013"
+      }, {
+        "item" : "01275",
+        "count" : "2006"
+      }, {
+        "item" : "00846",
+        "count" : "2003"
+      }, {
+        "item" : "01272",
+        "count" : "1995"
+      }, {
+        "item" : "00784",
+        "count" : "1993"
+      }, {
+        "item" : "01263",
+        "count" : "1988"
+      }, {
+        "item" : "00962",
+        "count" : "1971"
+      }, {
+        "item" : "01292",
+        "count" : "1969"
+      } ],
+      "smallest" : "00000",
+      "not_null" : "2097051",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234331,
+    "name" : "LOT",
+    "dataTypeName" : "text",
+    "fieldName" : "lot",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843416,
+    "width" : 136,
+    "cachedContents" : {
+      "largest" : "Q0007",
+      "non_null" : "2465850",
+      "null" : "12159",
+      "top" : [ {
+        "item" : "00001",
+        "count" : "299853"
+      }, {
+        "item" : "07501",
+        "count" : "79316"
+      }, {
+        "item" : "00005",
+        "count" : "41275"
+      }, {
+        "item" : "00029",
+        "count" : "40313"
+      }, {
+        "item" : "00006",
+        "count" : "40090"
+      }, {
+        "item" : "00010",
+        "count" : "39318"
+      }, {
+        "item" : "00007",
+        "count" : "36728"
+      }, {
+        "item" : "00020",
+        "count" : "35142"
+      }, {
+        "item" : "00021",
+        "count" : "34320"
+      }, {
+        "item" : "00002",
+        "count" : "34119"
+      }, {
+        "item" : "00012",
+        "count" : "33812"
+      }, {
+        "item" : "00008",
+        "count" : "33403"
+      }, {
+        "item" : "00040",
+        "count" : "33347"
+      }, {
+        "item" : "00011",
+        "count" : "33184"
+      }, {
+        "item" : "00014",
+        "count" : "32716"
+      }, {
+        "item" : "00033",
+        "count" : "32268"
+      }, {
+        "item" : "00015",
+        "count" : "32066"
+      }, {
+        "item" : "00030",
+        "count" : "31698"
+      }, {
+        "item" : "00023",
+        "count" : "30871"
+      }, {
+        "item" : "00009",
+        "count" : "30660"
+      } ],
+      "smallest" : "0",
+      "not_null" : "2097773",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234333,
+    "name" : "ISSUE_DATE",
+    "dataTypeName" : "text",
+    "fieldName" : "issue_date",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843418,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Y9990120",
+      "non_null" : "2478008",
+      "null" : "1",
+      "top" : [ {
+        "item" : "19950829",
+        "count" : "46218"
+      }, {
+        "item" : "20230630",
+        "count" : "45620"
+      }, {
+        "item" : "20230620",
+        "count" : "45463"
+      }, {
+        "item" : "19970916",
+        "count" : "35660"
+      }, {
+        "item" : "19980504",
+        "count" : "35582"
+      }, {
+        "item" : "20020326",
+        "count" : "32868"
+      }, {
+        "item" : "19970210",
+        "count" : "32400"
+      }, {
+        "item" : "20000207",
+        "count" : "31945"
+      }, {
+        "item" : "20010227",
+        "count" : "31863"
+      }, {
+        "item" : "19990316",
+        "count" : "31729"
+      }, {
+        "item" : "20030319",
+        "count" : "31090"
+      }, {
+        "item" : "20040213",
+        "count" : "29504"
+      }, {
+        "item" : "20111213",
+        "count" : "29224"
+      }, {
+        "item" : "20050131",
+        "count" : "27923"
+      }, {
+        "item" : "20070119",
+        "count" : "27325"
+      }, {
+        "item" : "20080103",
+        "count" : "27274"
+      }, {
+        "item" : "20090101",
+        "count" : "26918"
+      }, {
+        "item" : "20091231",
+        "count" : "26781"
+      }, {
+        "item" : "20060106",
+        "count" : "26624"
+      }, {
+        "item" : "20230425",
+        "count" : "25674"
+      } ],
+      "smallest" : "000000",
+      "not_null" : "2109892",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234335,
+    "name" : "VIOLATION_TYPE_CODE",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_type_code",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843420,
+    "width" : 328,
+    "cachedContents" : {
+      "largest" : "Z",
+      "non_null" : "2478008",
+      "null" : "1",
+      "top" : [ {
+        "item" : "E",
+        "count" : "713305"
+      }, {
+        "item" : "LL6291",
+        "count" : "598814"
+      }, {
+        "item" : "LBLVIO",
+        "count" : "319926"
+      }, {
+        "item" : "C",
+        "count" : "204977"
+      }, {
+        "item" : "AEUHAZ1",
+        "count" : "159423"
+      }, {
+        "item" : "LL1081",
+        "count" : "81231"
+      }, {
+        "item" : "ACC1",
+        "count" : "64457"
+      }, {
+        "item" : "BENCH",
+        "count" : "56934"
+      }, {
+        "item" : "EVCAT1",
+        "count" : "47428"
+      }, {
+        "item" : "LANDMK",
+        "count" : "25304"
+      }, {
+        "item" : "HBLVIO",
+        "count" : "20648"
+      }, {
+        "item" : "FISPNRF",
+        "count" : "17696"
+      }, {
+        "item" : "EGRADE",
+        "count" : "14905"
+      }, {
+        "item" : "UB",
+        "count" : "14230"
+      }, {
+        "item" : "EARCX",
+        "count" : "14146"
+      }, {
+        "item" : "P",
+        "count" : "11921"
+      }, {
+        "item" : "IMEGNCY",
+        "count" : "11355"
+      }, {
+        "item" : "ES",
+        "count" : "9289"
+      }, {
+        "item" : "Z",
+        "count" : "8474"
+      }, {
+        "item" : "EVCAT5",
+        "count" : "8258"
+      } ],
+      "smallest" : "7A",
+      "not_null" : "2109893",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234337,
+    "name" : "VIOLATION_NUMBER",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_number",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843422,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "ZZSTF03PM",
+      "non_null" : "2478004",
+      "null" : "5",
+      "top" : [ {
+        "item" : "VIOL",
+        "count" : "2843"
+      }, {
+        "item" : "MTF1RI",
+        "count" : "738"
+      }, {
+        "item" : "MTF1LE",
+        "count" : "719"
+      }, {
+        "item" : "MTF2RI",
+        "count" : "592"
+      }, {
+        "item" : "MTF01RNS",
+        "count" : "591"
+      }, {
+        "item" : "00001",
+        "count" : "581"
+      }, {
+        "item" : "00002",
+        "count" : "579"
+      }, {
+        "item" : "00003",
+        "count" : "571"
+      }, {
+        "item" : "00004",
+        "count" : "564"
+      }, {
+        "item" : "00005",
+        "count" : "557"
+      }, {
+        "item" : "00006",
+        "count" : "554"
+      }, {
+        "item" : "00007",
+        "count" : "553"
+      }, {
+        "item" : "00008",
+        "count" : "553"
+      }, {
+        "item" : "00012",
+        "count" : "551"
+      }, {
+        "item" : "00011",
+        "count" : "550"
+      }, {
+        "item" : "00009",
+        "count" : "550"
+      }, {
+        "item" : "00010",
+        "count" : "549"
+      }, {
+        "item" : "00013",
+        "count" : "549"
+      }, {
+        "item" : "00015",
+        "count" : "548"
+      }, {
+        "item" : "00016",
+        "count" : "547"
+      } ],
+      "smallest" : "--",
+      "not_null" : "2109888",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234339,
+    "name" : "HOUSE_NUMBER",
+    "dataTypeName" : "text",
+    "fieldName" : "house_number",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843424,
+    "width" : 244,
+    "cachedContents" : {
+      "largest" : "     414    ",
+      "non_null" : "2477642",
+      "null" : "367",
+      "top" : [ {
+        "item" : "1",
+        "count" : "13252"
+      }, {
+        "item" : "100",
+        "count" : "8601"
+      }, {
+        "item" : "2",
+        "count" : "8581"
+      }, {
+        "item" : "10",
+        "count" : "7820"
+      }, {
+        "item" : "200",
+        "count" : "7599"
+      }, {
+        "item" : "15",
+        "count" : "6910"
+      }, {
+        "item" : "40",
+        "count" : "6866"
+      }, {
+        "item" : "101",
+        "count" : "6464"
+      }, {
+        "item" : "11",
+        "count" : "6190"
+      }, {
+        "item" : "55",
+        "count" : "6172"
+      }, {
+        "item" : "50",
+        "count" : "6045"
+      }, {
+        "item" : "120",
+        "count" : "5984"
+      }, {
+        "item" : "30",
+        "count" : "5928"
+      }, {
+        "item" : "300",
+        "count" : "5909"
+      }, {
+        "item" : "140",
+        "count" : "5906"
+      }, {
+        "item" : "150",
+        "count" : "5822"
+      }, {
+        "item" : "20",
+        "count" : "5786"
+      }, {
+        "item" : "25",
+        "count" : "5596"
+      }, {
+        "item" : "60",
+        "count" : "5567"
+      }, {
+        "item" : "35",
+        "count" : "5026"
+      } ],
+      "smallest" : "0",
+      "not_null" : "2109526",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234341,
+    "name" : "STREET",
+    "dataTypeName" : "text",
+    "fieldName" : "street",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843426,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : " MAIN STREET",
+      "non_null" : "2460630",
+      "null" : "17379",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "59215"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "26903"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "18697"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "15545"
+      }, {
+        "item" : "JAMAICA AVENUE",
+        "count" : "15331"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "14755"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "14224"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "13650"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "11445"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "11435"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "10723"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "9805"
+      }, {
+        "item" : "FLATBUSH AVENUE",
+        "count" : "9612"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "9305"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "8598"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "8587"
+      }, {
+        "item" : "NORTHERN BOULEVARD",
+        "count" : "8512"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "8177"
+      }, {
+        "item" : "6 AVENUE",
+        "count" : "8157"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "8038"
+      } ],
+      "smallest" : "`",
+      "not_null" : "2092494",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234343,
+    "name" : "DISPOSITION_DATE",
+    "dataTypeName" : "text",
+    "fieldName" : "disposition_date",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843428,
+    "width" : 292,
+    "cachedContents" : {
+      "largest" : "7",
+      "non_null" : "1904551",
+      "null" : "573458",
+      "top" : [ {
+        "item" : "20130731",
+        "count" : "57243"
+      }, {
+        "item" : "20221216",
+        "count" : "28351"
+      }, {
+        "item" : "20140402",
+        "count" : "10148"
+      }, {
+        "item" : "20140106",
+        "count" : "9349"
+      }, {
+        "item" : "20131002",
+        "count" : "6566"
+      }, {
+        "item" : "20150406",
+        "count" : "5056"
+      }, {
+        "item" : "20130801",
+        "count" : "5040"
+      }, {
+        "item" : "20170713",
+        "count" : "4948"
+      }, {
+        "item" : "20151022",
+        "count" : "4792"
+      }, {
+        "item" : "20160727",
+        "count" : "4731"
+      }, {
+        "item" : "20150713",
+        "count" : "4722"
+      }, {
+        "item" : "20171017",
+        "count" : "4337"
+      }, {
+        "item" : "20170407",
+        "count" : "4303"
+      }, {
+        "item" : "20160412",
+        "count" : "4205"
+      }, {
+        "item" : "20140708",
+        "count" : "4161"
+      }, {
+        "item" : "20170106",
+        "count" : "3950"
+      }, {
+        "item" : "20141006",
+        "count" : "3482"
+      }, {
+        "item" : "20150109",
+        "count" : "3283"
+      }, {
+        "item" : "20161011",
+        "count" : "3162"
+      }, {
+        "item" : "20150709",
+        "count" : "3158"
+      } ],
+      "smallest" : "12231998",
+      "not_null" : "1530106",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234344,
+    "name" : "DISPOSITION_COMMENTS",
+    "dataTypeName" : "text",
+    "fieldName" : "disposition_comments",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843429,
+    "width" : 340,
+    "cachedContents" : {
+      "largest" : " UNSAFE HAZARDOUS CONDITION REPAIRED",
+      "non_null" : "1860430",
+      "null" : "617579",
+      "top" : [ {
+        "item" : "CIANOW CRM Violation Dismissed",
+        "count" : "145207"
+      }, {
+        "item" : "PVT: SATISFIED BY SUBMISSION OF AOC FOR CAT 1 INSP",
+        "count" : "83221"
+      }, {
+        "item" : "PVT: RESOLVED BY SATISFACTORY CAT 1 INSPECTION",
+        "count" : "53981"
+      }, {
+        "item" : "DISMISSED BASED ON SUBSEQUENT REPORT SHOWING DEFECTS CORRECTED",
+        "count" : "28194"
+      }, {
+        "item" : "AS PER INSPECTOR ROUTE SHEET",
+        "count" : "26766"
+      }, {
+        "item" : "ECB DISMISSED",
+        "count" : "23670"
+      }, {
+        "item" : "LL1081 FILED ON TIME",
+        "count" : "11347"
+      }, {
+        "item" : "LL1081 PAID FULL PENALTY",
+        "count" : "9430"
+      }, {
+        "item" : "ECB DOWNGRADED TO CLASS 2 OR 3",
+        "count" : "8617"
+      }, {
+        "item" : "PVT: SATISFIED BY ISSUANCE OF FINAL CERT FOR EA/EBN",
+        "count" : "7748"
+      }, {
+        "item" : "CW",
+        "count" : "6916"
+      }, {
+        "item" : "AS PER INSPECTORS ROUTE SHEET",
+        "count" : "6293"
+      }, {
+        "item" : "COM",
+        "count" : "6287"
+      }, {
+        "item" : "CAW",
+        "count" : "4658"
+      }, {
+        "item" : "CONFIRMED SUBMISSION",
+        "count" : "4647"
+      }, {
+        "item" : "CHALLENGE APPROVED",
+        "count" : "4627"
+      }, {
+        "item" : "TCOCIA CANCELLED,CITY OWNED",
+        "count" : "4556"
+      }, {
+        "item" : "LL1081 PENALTY PAID",
+        "count" : "4467"
+      }, {
+        "item" : "DISM",
+        "count" : "4171"
+      }, {
+        "item" : "CIAKMH CANCELLED, CITY OWNED PROPERTY CURRENT  INSPECTION ON FILE",
+        "count" : "3635"
+      } ],
+      "smallest" : "`",
+      "not_null" : "1489221",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234345,
+    "name" : "DEVICE_NUMBER",
+    "dataTypeName" : "text",
+    "fieldName" : "device_number",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843430,
+    "width" : 256,
+    "cachedContents" : {
+      "largest" : "X10070",
+      "non_null" : "1818985",
+      "null" : "659024",
+      "top" : [ {
+        "item" : "00102562",
+        "count" : "1292"
+      }, {
+        "item" : "00826459",
+        "count" : "504"
+      }, {
+        "item" : "00107000",
+        "count" : "413"
+      }, {
+        "item" : "00060167",
+        "count" : "370"
+      }, {
+        "item" : "00052213",
+        "count" : "265"
+      }, {
+        "item" : "00070058",
+        "count" : "240"
+      }, {
+        "item" : "00829444",
+        "count" : "233"
+      }, {
+        "item" : "00070183",
+        "count" : "222"
+      }, {
+        "item" : "00067024",
+        "count" : "208"
+      }, {
+        "item" : "00068091",
+        "count" : "190"
+      }, {
+        "item" : "00822816",
+        "count" : "171"
+      }, {
+        "item" : "00067604",
+        "count" : "168"
+      }, {
+        "item" : "00108675",
+        "count" : "165"
+      }, {
+        "item" : "00932430",
+        "count" : "165"
+      }, {
+        "item" : "00828293",
+        "count" : "165"
+      }, {
+        "item" : "00812401",
+        "count" : "161"
+      }, {
+        "item" : "00067108",
+        "count" : "161"
+      }, {
+        "item" : "00094548",
+        "count" : "157"
+      }, {
+        "item" : "00084123",
+        "count" : "155"
+      }, {
+        "item" : "00901944",
+        "count" : "152"
+      } ],
+      "smallest" : ",,,,,,,,",
+      "not_null" : "1599677",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234346,
+    "name" : "DESCRIPTION",
+    "dataTypeName" : "text",
+    "fieldName" : "description",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843431,
+    "width" : 232,
+    "cachedContents" : {
+      "largest" : "ZONING PRESERVATION .AT TIME OF INSPECTION OBSERVED ONE TREE AT LIFT            FRONT YARD AND ONE TREE AT LIFT BACKYARD ARE DEAD AND HAVE BEEN DEEMED          A HAZARD AND NEED TO REMOVE.",
+      "non_null" : "934464",
+      "null" : "1543545",
+      "top" : [ {
+        "item" : "FAILURE TO CERTIFY CORRECTION ON IMMEDIATELY HAZARDOUS (CLASS 1) ECB VIOLATION",
+        "count" : "159420"
+      }, {
+        "item" : "FAILURE TO FILE BENCHMARKING REPORT OF ENERGY USE AS PER AD. CODE SEC. 28-309.4",
+        "count" : "56929"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2010 INSPECTION REPORT",
+        "count" : "23443"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2022 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "23375"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2012 INSPECTION REPORT",
+        "count" : "21790"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2018 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "21507"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2021 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "20959"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2020 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "19680"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2017 INSPECTION REPORT",
+        "count" : "19647"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2016 INSPECTION REPORT",
+        "count" : "19580"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2019 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "19120"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2024 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "18473"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2011 INSPECTION REPORT",
+        "count" : "18128"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2013 INSPECTION REPORT",
+        "count" : "17919"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2023 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "16949"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2015 INSPECTION REPORT",
+        "count" : "16646"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2014 INSPECTION REPORT",
+        "count" : "14947"
+      }, {
+        "item" : "FAILURE TO DISPLAY ENERGY EFFICIENCY SCORE AND ENERGY EFFICIENCY GRADE AS PER ADCODE SEC. 28-309.12.3",
+        "count" : "14905"
+      }, {
+        "item" : "VIO ISSUED TO ELEVATOR - FAIL TO CORRECT DEFECTS ON 2014 CAT 1 INSP/TST",
+        "count" : "14118"
+      }, {
+        "item" : "VIO ISSUED TO ELEVATOR - FAIL TO CORRECT DEFECTS ON 2016 CAT 1 INSP/TST",
+        "count" : "13131"
+      } ],
+      "smallest" : "`",
+      "not_null" : "616548",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234347,
+    "name" : "ECB_NUMBER",
+    "dataTypeName" : "text",
+    "fieldName" : "ecb_number",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843432,
+    "width" : 220,
+    "cachedContents" : {
+      "largest" : "Q",
+      "non_null" : "210459",
+      "null" : "2267550",
+      "top" : [ {
+        "item" : "\\",
+        "count" : "32"
+      }, {
+        "item" : "N",
+        "count" : "27"
+      }, {
+        "item" : "34164450J",
+        "count" : "5"
+      }, {
+        "item" : "34397218M",
+        "count" : "5"
+      }, {
+        "item" : "34068455Z",
+        "count" : "5"
+      }, {
+        "item" : "34040635L",
+        "count" : "4"
+      }, {
+        "item" : "34145990R",
+        "count" : "4"
+      }, {
+        "item" : "34138680X",
+        "count" : "4"
+      }, {
+        "item" : "34423900L",
+        "count" : "4"
+      }, {
+        "item" : "34097145X",
+        "count" : "3"
+      }, {
+        "item" : "34097142K",
+        "count" : "3"
+      }, {
+        "item" : "32081088J",
+        "count" : "3"
+      }, {
+        "item" : "34097143M",
+        "count" : "3"
+      }, {
+        "item" : "34097144Y",
+        "count" : "3"
+      }, {
+        "item" : "34097148L",
+        "count" : "3"
+      }, {
+        "item" : "34093416K",
+        "count" : "3"
+      }, {
+        "item" : "34089015H",
+        "count" : "3"
+      }, {
+        "item" : "34091600L",
+        "count" : "3"
+      }, {
+        "item" : "34097041L",
+        "count" : "3"
+      }, {
+        "item" : "34085564M",
+        "count" : "3"
+      } ],
+      "smallest" : "\\",
+      "not_null" : "162795",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234348,
+    "name" : "NUMBER",
+    "dataTypeName" : "text",
+    "fieldName" : "number",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843433,
+    "width" : 172,
+    "cachedContents" : {
+      "largest" : "VWH*122293C11B5",
+      "non_null" : "2478009",
+      "null" : "0",
+      "top" : [ {
+        "item" : "V*011990LANDMRKVIOL",
+        "count" : "33"
+      }, {
+        "item" : "V*073091LANDMRKVIOL",
+        "count" : "28"
+      }, {
+        "item" : "V*031590LANDMRKVIOL",
+        "count" : "18"
+      }, {
+        "item" : "V*061390LANDMRKVIOL",
+        "count" : "18"
+      }, {
+        "item" : "V*081986LANDMRKVIOL",
+        "count" : "17"
+      }, {
+        "item" : "V*112985LANDMRKVIOL",
+        "count" : "16"
+      }, {
+        "item" : "V*071191LANDMRKVIOL",
+        "count" : "16"
+      }, {
+        "item" : "V*120683LANDMRKVIOL",
+        "count" : "16"
+      }, {
+        "item" : "V*112787LANDMRKVIOL",
+        "count" : "14"
+      }, {
+        "item" : "V*082495LANDMRKVIOL",
+        "count" : "13"
+      }, {
+        "item" : "V*052388LANDMRKVIOL",
+        "count" : "13"
+      }, {
+        "item" : "V*021489LANDMRKVIOL",
+        "count" : "12"
+      }, {
+        "item" : "V*102387LANDMRKVIOL",
+        "count" : "12"
+      }, {
+        "item" : "V*122090LANDMRKVIOL",
+        "count" : "12"
+      }, {
+        "item" : "V*012891LANDMRKVIOL",
+        "count" : "12"
+      }, {
+        "item" : "V*092987LANDMRKVIOL",
+        "count" : "11"
+      }, {
+        "item" : "V*082785LANDMRKVIOL",
+        "count" : "10"
+      }, {
+        "item" : "V*082084LANDMRKVIOL",
+        "count" : "10"
+      }, {
+        "item" : "V*031886LANDMRKVIOL",
+        "count" : "10"
+      }, {
+        "item" : "V*020586LANDMRKVIOL",
+        "count" : "10"
+      } ],
+      "smallest" : "N062619AEUHAZ100027",
+      "not_null" : "2109893",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234349,
+    "name" : "VIOLATION_CATEGORY",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_category",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843434,
+    "width" : 316,
+    "cachedContents" : {
+      "non_null" : "2478007",
+      "largest" : "VW*-VIOLATION - WORK W/O PERMIT DISMISSED",
+      "null" : "2",
+      "top" : [ {
+        "item" : "V*-DOB VIOLATION - DISMISSED",
+        "count" : "1175205"
+      }, {
+        "item" : "V*-DOB VIOLATION - Resolved",
+        "count" : "673865"
+      }, {
+        "item" : "V-DOB VIOLATION - ACTIVE",
+        "count" : "548153"
+      }, {
+        "item" : "VW*-VIOLATION - WORK W/O PERMIT DISMISSED",
+        "count" : "23549"
+      }, {
+        "item" : "VP*-VIOLATION UNSERVED ECB- DISMISSED",
+        "count" : "20549"
+      }, {
+        "item" : "VW-VIOLATION WORK WITHOUT PERMIT - ACTIVE",
+        "count" : "12930"
+      }, {
+        "item" : "VP-VIOLATION UNSERVED ECB-ACTIVE",
+        "count" : "8799"
+      }, {
+        "item" : "VPW*-VIOLATION UNSERVED ECB-WORK WITHOUT PERMIT-DISMISSED",
+        "count" : "6239"
+      }, {
+        "item" : "V%*-DOB VIOLATION - DISMISSED",
+        "count" : "4108"
+      }, {
+        "item" : "VPW-VIOLATION UNSERVED ECB-WORK WITHOUT PERMIT-ACTIVE",
+        "count" : "2085"
+      }, {
+        "item" : "V%-DOB VIOLATION",
+        "count" : "1046"
+      }, {
+        "item" : "VH*-VIOLATION HAZARDOUS DISMISSED",
+        "count" : "995"
+      }, {
+        "item" : "VH-VIOLATION HAZARDOUS - ACTIVE",
+        "count" : "314"
+      }, {
+        "item" : "VWH*-VIOLATION WORK W/OUT PMT HAZARDOUS DISMISSED",
+        "count" : "101"
+      }, {
+        "item" : "VWH-VIOLATION WORK W/OUT PMT HAZARDOUS - ACTIVE",
+        "count" : "69"
+      } ],
+      "not_null" : "2106346",
+      "smallest" : "V%-DOB VIOLATION",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  }, {
+    "id" : 231234350,
+    "name" : "VIOLATION_TYPE",
+    "dataTypeName" : "text",
+    "fieldName" : "violation_type",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843435,
+    "width" : 268,
+    "cachedContents" : {
+      "non_null" : "2477997",
+      "largest" : "Z-ZONING                                                          NONE",
+      "null" : "12",
+      "top" : [ {
+        "item" : "E-ELEVATOR                                                        ELEVATORREQUIRED",
+        "count" : "713305"
+      }, {
+        "item" : "LL6291-LOCAL LAW 62/91 - BOILERS                                       BOILER  REQUIRED",
+        "count" : "598814"
+      }, {
+        "item" : "LBLVIO-LOW PRESSURE BOILER                                             BOILER  REQUIRED",
+        "count" : "319926"
+      }, {
+        "item" : "C-CONSTRUCTION                                                    OTHER   OPTIONAL",
+        "count" : "204977"
+      }, {
+        "item" : "AEUHAZ1-FAIL TO CERTIFY CLASS 1                                         NONE",
+        "count" : "159423"
+      }, {
+        "item" : "LL1081-LOCAL LAW 10/81 - ELEVATOR                                      ELEVATOROPTIONAL",
+        "count" : "81231"
+      }, {
+        "item" : "ACC1-(OTHER BLDGS TYPES) - ELEVATOR AFFIRMATION OF CORRECTION        ELEVATORREQUIRED",
+        "count" : "64457"
+      }, {
+        "item" : "BENCH-FAILURE TO BENCHMARK                                            NONE",
+        "count" : "56934"
+      }, {
+        "item" : "EVCAT1-ELEVATOR ANNUAL INSPECTION / TEST                               ELEVATORREQUIRED",
+        "count" : "47428"
+      }, {
+        "item" : "LANDMK-LANDMARK                                                        NONE",
+        "count" : "25304"
+      }, {
+        "item" : "HBLVIO-HIGH PRESSURE BOILER                                            BOILER  REQUIRED",
+        "count" : "20648"
+      }, {
+        "item" : "FISPNRF-NO REPORT AND / OR LATE FILING (FACADE)                         FACADE  REQUIRED",
+        "count" : "17696"
+      }, {
+        "item" : "EGRADE-FAILURE TO POST ENERGY GRADE/SCORE                              NONE",
+        "count" : "14905"
+      }, {
+        "item" : "UB-UNSAFE BUILDINGS                                                NONE",
+        "count" : "14230"
+      }, {
+        "item" : "EARCX-FAILURE TO SUBMIT EER                                           NONE",
+        "count" : "14146"
+      }, {
+        "item" : "P-PLUMBING                                                        NONE",
+        "count" : "11921"
+      }, {
+        "item" : "IMEGNCY-IMMEDIATE EMERGENCY                                             ANYTHINGOPTIONAL",
+        "count" : "11355"
+      }, {
+        "item" : "ES-ELECTRIC SIGNS                                                  NONE",
+        "count" : "9289"
+      }, {
+        "item" : "Z-ZONING                                                          NONE",
+        "count" : "8474"
+      }, {
+        "item" : "EVCAT5-NON-RESIDENTIAL ELEVATOR PERIODIC INSPECTION/TEST               ELEVATORREQUIRED",
+        "count" : "8258"
+      } ],
+      "not_null" : "2109882",
+      "smallest" : "ACC1-(OTHER BLDGS TYPES) - ELEVATOR AFFIRMATION OF CORRECTION        ELEVATORREQUIRED",
+      "count" : "2478009",
+      "cardinality" : "2478009"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "DD_DOB_Violations_2019-03-19.xlsx",
+      "assetId" : "09445410-995e-40ad-aa44-37049d1f4e4d",
+      "name" : "DD_DOB_Violations_2019-03-19.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "12/11/2015",
+        "Update Frequency" : "Every weekday"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Buildings (DOB)"
+      }
+    },
+    "rowLabel" : "Row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dob", "buildings", "violation" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 358 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "358",
+    "title" : "Sale of premises",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "358",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 358. Sale of premises.  At any time after the entry of any judgment\\nestablishing a lien upon such premises the department, if there be no\\nstay pending appeal, may apply to the court for leave to sell such\\npremises. Upon such application the court may order such premises sold\\nat public auction, subject to taxes, assessments, water rates, mortgages\\nand mechanics' liens. The deed to the purchaser shall be made by the\\ndepartment.  The justices of the appellate division of the supreme court\\nof any judicial department may establish rules of practice which shall\\nbe followed by the department charged with the enforcement of this\\nchapter in the conduct of such sales in such judicial department.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A10" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A10",
+      "title" : "Prostitution",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "10",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "357",
+      "title" : "Judgment",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "357",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "359",
+      "title" : "Receivership",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "359",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

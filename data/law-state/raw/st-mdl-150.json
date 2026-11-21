@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 150 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "150",
+    "title" : "Cellar and basement stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "150",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 150. Cellar and basement stairs. 1. Except as otherwise provided in\\nthis section, there shall be no inside stair communicating between the\\nlowest cellar or the lowest story, if there be no cellar, and the floor\\nnext above, but any stair communicating between such floors shall be\\nlocated outside the dwelling and if enclosed shall be fireproof in a\\nfireproof enclosure with fireproof doors and door assemblies, with the\\ndoors self-closing, at all openings.\\n  2. This provision, however, shall not apply to any stair not extending\\nthrough more than one story and leading from an entrance hall to the\\nupper stories where the walls enclosing such hall are fireproof and\\nunpierced except for openings to stairs, elevators, apartments, public\\nreception rooms, professional offices and the outer air. In no event\\nshall there be any other opening from such an entrance hall, and all\\napartments and such professional offices opening therefrom shall be\\nentirely separated from any space within such dwelling used for any\\nother purposes by fireproof walls which shall be unpierced except for\\nmeans of egress into the entrance hall. The provisions of this\\nsubdivision shall not apply to openings which are protected with\\nfireproof vestibules. Any such vestibule shall have a minimum\\nsuperficial floor area of fifty square feet and its maximum area shall\\nnot exceed seventy-five square feet. It shall be enclosed with\\nincombustible partitions having a fire-resistive rating of three hours.\\nThe floor and ceiling of such vestibule shall also be of incombustible\\nmaterial having a fire-resistive rating of at least three hours. There\\nshall be two doors to provide access from the entrance hall and any\\nother space not used for openings to stairs, elevators, apartments,\\npublic reception rooms and the outer air. Each such door shall have a\\nfire-resistive rating of one and one-half hours and shall be provided\\nwith a device to prevent the opening of one door until the other door is\\nentirely closed. One of these doors shall swing into the vestibule from\\nthe entrance hall and the other shall swing from the vestibule into\\nspace which it serves.  Such vestibule shall also be equipped with\\nsprinklers and with an independent exhaust duct having a minimum\\ncross-sectional area of one hundred forty-four square inches for each\\none thousand cubic feet, or fraction thereof, of air content, and such\\nexhaust duct shall not be connected with any other ventilating system.\\n  3. In dwellings three stories or less in height which are occupied by\\ntwo families or less on every story, any stair leading to the cellar may\\nbe located inside the dwelling provided it is entirely enclosed with\\nfireproof walls and with fireproof doors and door assemblies at both the\\ncellar level and the story above, with the doors self-closing.\\n  4. The provisions of subdivision one shall not prohibit or apply to an\\ninside stair extending from a space used for commercial purposes in the\\ncellar or lowest story to a store on the story next above, provided such\\nstair is of incombustible materials, has closed risers, is enclosed\\nbetween the two lowest floors with walls having a three-hour fire\\nresistive rating and has fireproof doors and door assemblies at top and\\nbottom, with the doors self-closing, and provided such commercial space\\nin the cellar or lowest story is completely enclosed with partitions\\nhaving a fire-resistive rating of at least two hours and there is no\\nopening between the store on the story next above and any entrance hall\\nor other public hall or public portion of the dwelling.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "149",
+      "title" : "Public halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "149",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "151",
+      "title" : "Spaces under stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "151",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

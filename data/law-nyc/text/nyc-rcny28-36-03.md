@@ -1,0 +1,9 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 36: Alternative Enforcement Program > § 36-03 Alternative Enforcement Program Fees.
+
+§ 36-03 Alternative Enforcement Program Fees.
+(a) An owner of a building who has been notified of participation in the Alternative Enforcement Program shall be subject to fees for any inspection, reinspection or any other action undertaken by the Department during the time period that such building is in such Program. The schedule of fees is as follows:
+(1) For each reinspection performed upon application by an owner for dismissal of violations within the first four months after notification of participation in the Alternative Enforcement Program: $1,000 per building.
+(2) For a building-wide inspection, monitoring of repair work and reassessment of a building pursuant to subdivisions k and m of § 27-2153 of the Housing Maintenance Code: $500 per dwelling unit every six months, beginning on the date of the building-wide inspection, with a maximum total fee of $1,000 per dwelling unit during participation in the Alternative Enforcement Program.
+(3) For each inspection based upon a complaint that results in issuance of a class B or class C violation: $200 per inspection.
+(4) For each reinspection pursuant to a certification of correction of violation(s) submitted to the Department, where the Department finds that one or more violations have not been corrected: $100 per reinspection per building.
+(b) All fees imposed pursuant to this section that remain unpaid by the owner shall constitute a debt recoverable from the owner and a lien upon the building and lot, and upon the rents and other income thereof. The provisions of Article 8 of Subchapter 5 of the Housing Maintenance Code shall govern the effect and enforcement of such debt and lien.

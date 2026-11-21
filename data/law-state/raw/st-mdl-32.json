@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 32 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "32",
+    "title" : "Alcoves",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "32",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 32. Alcoves. 1. Every alcove, except a lawful cooking space, opening\\nfrom any room in any multiple dwelling erected after April eighteenth,\\nnineteen hundred twenty-nine, shall be separately lighted and ventilated\\nas provided for other rooms in section thirty. It shall have a floor\\narea of at least seventy square feet, a least horizontal dimension of at\\nleast seven feet and an opening at least sixty square feet in area into\\nthe room which it adjoins.\\n  2. Except for cubicles permitted in lodging houses, no part of any\\nroom in any multiple dwelling erected after April eighteenth, nineteen\\nhundred twenty-nine, shall be enclosed or subdivided at any time, wholly\\nor in part, by a curtain, portiere, fixed or movable partition or other\\ncontrivance or device, unless each such enclosure or subdivision shall\\ncontain a separate window as required for a room by section thirty and a\\nfloor space of at least seventy square feet.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "31",
+      "title" : "Size of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "31",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "33",
+      "title" : "Cooking spaces",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "33",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 162 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "162",
+    "title" : "Single ownership",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "162",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 162. Single ownership. The owner of any site or plot upon which a\\ngarden-type maisonette dwelling project is proposed to be erected shall\\nexecute and file in the office of the recording officer in the county\\nwhere deeds of conveyances are recorded an instrument in writing which\\nshall declare that, so long as any of the buildings proposed to be\\nerected remain standing, a conveyance of any part or parts of such\\nproject shall, thereupon, cause all the buildings on such site or plot\\nto be and become unlawful structures, and any prior certificate of\\noccupancy issued for such structures shall thereupon become void.\\nNothing in this section shall be deemed to prohibit the sale of any part\\nof such project, provided, however, that the part which is so conveyed\\nand the remaining part of the project shall be made to comply to all of\\nthe applicable provisions of this chapter.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5-A",
+      "title" : "Garden-type Maisonette Dwelling Projects",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "161",
+      "title" : "Application of article five-A",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "161",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "163",
+      "title" : "Construction and arrangement",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "163",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

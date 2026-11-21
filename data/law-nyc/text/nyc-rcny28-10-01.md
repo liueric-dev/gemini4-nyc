@@ -1,0 +1,28 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 10: Administration of Applications for Certifications of No Harassment > § 10-01 Definitions.
+
+§ 10-01 Definitions.
+Whenever used in this chapter:
+Administrative Code. "Administrative Code" shall mean the New York City Administrative Code.
+Access authorizer. "Access authorizer" shall mean the person who authorizes HPD to enter the property, which person shall be an individual natural person who either (i) has legal possession of all common areas of the property, or (ii) is authorized to sign on behalf of and bind the persons or entities who have legal possession of all common areas of the property.
+Affidavit of no future harassment. "Affidavit of no future harassment" shall mean an affidavit affirming that no future harassment will occur at the property during the period for which a certification or waiver remains in effect.
+Applicant. "Applicant" shall mean the person who executes an application, which person shall be an individual natural person who is either (i) an owner, or (ii) a principal or officer of an owner who is authorized to sign on behalf of and bind such owner.
+Application. "Application" shall mean an application for a certification, waiver, or exemption submitted to HPD, unless the context clearly indicates reference to an application for a permit submitted to DOB.
+Building loan contract. "Building loan contract" shall have the meaning set forth in § 22 of the Lien Law.
+Certification. "Certification" shall mean a certification of no harassment.
+Commencement of substantial work. "Commencement of substantial work" shall mean (i) if the alterations and/or demolition work for which a certification or waiver was granted is financed by a recorded building loan contract, the date upon which a lender has advanced funds in an amount that is not less than 50% of the total amount of such building loan contract and actual construction work has commenced at the property using such funds, or (ii) if the alterations and/or demolition work for which a certification or waiver was granted is not financed by a building loan contract, the actual performance and payment of not less than 50% of the total cost of such alteration and/or demolition work.
+Commissioner. "Commissioner" shall mean the Commissioner of HPD or his or her designee.
+DHCR. "DHCR" shall mean the Division of Housing and Community Renewal of the State of New York.
+DOB. "DOB" shall mean the Department of Buildings of the City of New York.
+Dwelling unit. "Dwelling unit" shall mean a dwelling unit or rooming unit, as such terms are defined in Administrative Code § 27-2004.
+Exemption. "Exemption" shall mean a determination by HPD that a certification pursuant to the terms of the Administrative Code or the Zoning Resolution is not required.
+Fee. "Fee" shall mean a sum in the amount of one hundred and sixty dollars ($160.00) per existing dwelling unit, which amount is a fee to offset all or part of the administrative cost to HPD of processing the application.
+HPD. "HPD" shall mean the Department of Housing Preservation and Development of the City of New York.
+Inquiry period. "Inquiry period" shall mean (i) with respect to an application submitted pursuant to any provision of the Zoning Resolution, the period of time therein defined as the inquiry period, and (ii) with respect to an application submitted pursuant to Administrative Code §§ 28-107.1 et seq. and Administrative Code § 27-2093, a period commencing three years prior to submission of the application and ending on the date that HPD issues a final determination on the application.
+Luxury hotel. "Luxury hotel" shall mean a single room occupancy multiple dwelling in which the rent on May 5, 1983, exclusive of governmentally assisted rental payments, charged for 75% or more of the total number of occupied individual dwelling units was more than 55 dollars per day for each unit rented on a daily basis, or more than 250 dollars per week for each unit rented on a weekly basis or more than 850 dollars per month for each unit rented on a monthly basis. For computation purposes, the rental value of units which were vacant on May 5, 1983 shall be deemed to be the rent charged for comparable occupied units in the property on such date.
+Owner. "Owner" shall mean (i) the holder of title to the property, (ii) a contract vendee of title to the property, (iii) the lessee pursuant to a net lease of the entire property with an unexpired term of not less than ten years from the date of submission of the application, (iv) a receiver who is authorized by court order to apply to HPD for a certification and to DOB for building permits, or (v) an administrator appointed pursuant to article 7A of the Real Property Actions and Proceedings Law who is authorized by court order to apply to HPD for a certification and to DOB for building permits.
+Property. "Property" shall mean the real property that is the subject of an application.
+Residential kitchen. "Residential kitchen" shall mean (i) a kitchen that is located within a dwelling unit, or (ii) a kitchen serving residential occupants that is not located within a dwelling unit.
+Residential bathroom. "Residential bathroom" shall mean (i) a bathroom that is located within a dwelling unit, or (ii) a bathroom serving residential occupants that is not located within a dwelling unit.
+Waiver. "Waiver" shall mean a waiver of the requirement for a certification pursuant to the terms of the Administrative Code.
+Zoning Resolution. "Zoning Resolution" shall mean the New York City Zoning Resolution, as amended.
+(Amended City Record 5/25/2018, eff. 6/24/2018)

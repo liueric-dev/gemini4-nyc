@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 797-J in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "797-J",
+    "title" : "Judgment",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+    "docLevelId" : "797-J",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 797-j. Judgment. 1. The court shall direct that final judgment be\\nentered determining the rights of the parties.\\n  2. The judgment may include:\\n  a. An order to repair conditions constituting violation of applicable\\nlocal and state housing standards or section two hundred thirty-five-b\\nof the real property law; and\\n  b. Any other relief that the court may deem just.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-D",
+      "title" : "Special Proceedings By Tenants For Judgment Directing Repairs of Conditions and Other Relief In Residential Real Property Constituting Violation of Applicable Local or State Housing Standards or Real Property Law §",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-01-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-I",
+      "title" : "Trial",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-I",
+      "activeDate" : "2024-01-05"
+    },
+    "nextSibling" : null
+  }
+}

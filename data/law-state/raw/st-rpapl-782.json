@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 782 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "782",
+    "title" : "\"Dwelling\" defined",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "782",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 782. \"Dwelling\" defined.  As used in this article, the term\\n\"dwelling\" shall mean any building or structure or portion thereof which\\nis occupied in whole or in part as the home, residence or sleeping place\\nof one or more human beings and is either rented, leased, let or hired\\nout, to be occupied, or is occupied as the residence or home of three or\\nmore families living independently of each other; or is a garden-type\\nmaisonette dwelling project as defined in the multiple dwelling law or\\nother similar dwellings which in their aggregate are arranged or\\ndesigned to provide three or more apartments, have common facilities\\nsuch as but not limited to a sewer line, water main, or heating plant\\nand are operated as a unit under common ownership, notwithstanding that\\ncertificates of occupancy were issued for portions thereof as one or two\\nfamily dwellings or that the dwellings are not a multiple dwelling as\\ndefined in the multiple dwelling law.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "781",
+      "title" : "\"Owner\" defined",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "781",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "783",
+      "title" : "Defense of warranty of habitability inapplicable",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "783",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

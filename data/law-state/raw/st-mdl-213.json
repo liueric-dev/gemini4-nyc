@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 213 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "213",
+    "title" : "Lighting and ventilation of rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "213",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 213. Lighting and ventilation of rooms. 1. No tenement, its lot or\\nany room, public hall or stairs therein shall be so altered as to have\\nits light or ventilation diminished in any way not approved by the\\ndepartment.\\n  2. In every tenement erected after April twelfth, nineteen hundred\\none, every stair hall, public hall and living room and at least one\\nwater-closet compartment or bathroom containing a water-closet in each\\napartment, shall have at least one window opening directly upon a street\\nor upon a lawful yard or court existing on April eighteenth, nineteen\\nhundred twenty-nine. Such window shall be so located as to properly\\nlight all portions of such hall, room or compartment. Every part of an\\napartment of three rooms or less in such a tenement shall be within\\neighteen feet of a street or yard or have a window opening upon a lawful\\ninner or outer court existing on April eighteenth, nineteen hundred\\ntwenty-nine. When a room in a tenement opens upon an inner court on a\\nlot line and less than ten feet wide from the lot line to the opposite\\nwall of the dwelling, such room shall be provided with a sash window\\ncommunicating with another room in the same apartment. Such window shall\\ncontain at least ten square feet of glazed surface and be made so as to\\nopen readily.\\n  3. No room in any old-law tenement shall be occupied for living\\npurposes unless it meets the conditions in one of the following\\nparagraphs:\\n  a. Such room has a window opening directly upon a street, or upon a\\nyard at least four feet in depth, or above the roof of an adjoining\\nbuilding, or upon a court or shaft at least twenty square feet in area\\nopen to the sky.\\n  b. Such room is located on the top story and is adequately lighted by\\na ventilating skylight opening directly to the outer air.\\n  c. Such room has a sash window opening directly into an immediately\\nadjoining room in the same apartment which latter room opens directly on\\na street or yard at least four feet in depth. Such window shall have a\\nvertically sliding pulley-hung sash not less than three feet by five\\nfeet, except that when it is impossible to construct a window of such\\nsize, the department may permit such window to be narrower. Both halves\\nof the sash shall be made so as to open readily, and the lower half\\nshall be glazed with translucent glass, or with obscure wire glass if\\nthe department shall so require. So far as possible such window shall be\\nin line with windows in outer rooms opening on a street or yard, so as\\nto afford a maximum of light and ventilation.\\n  d. Such room has an alcove opening, of no less dimension than required\\nfor such a sash window, to such an adjoining room, in addition to the\\nusual door openings.\\n  4. In every existing tenement the department, in addition to the\\nrequirements of subdivision four of section eighty, may, as often as it\\ndeems necessary, require the walls and ceilings of every room that does\\nnot open directly on a street to be kalsomined or painted white to\\nimprove the lighting of such room.\\n  5. Notwithstanding anything in this section to the contrary, no room\\nin any old-law tenement in an apartment which is vacant on June\\nthirtieth, nineteen hundred sixty, or thereafter becomes vacant, and, on\\nand after June thirtieth, nineteen hundred seventy no room in any\\nold-law tenement shall be used for living purposes unless such room\\nshall have a window opening directly upon the street, or upon a yard not\\nless than four feet deep, or above the roof of an adjoining building, or\\nupon a court or shaft of not less than twenty square feet in area, open\\nto the sky without roof or skylight, unless such room is located on the\\ntop floor and is adequately lighted and ventilated by a skylight opening\\ndirectly to the outer air.\\n  An alcove shall be deemed to comply with the requirements of this\\nsubdivision if (1) it opens directly into an immediately adjoining room\\nin the same apartment, and (2) such adjoining room opens directly on a\\nstreet or yard, and (3) a single unbroken open space occupies at least\\nsixty per centum of the area of the vertical plane between the alcove\\nand such adjoining room. The required open space between any such alcove\\nand an adjoining room through which it receives light and ventilation\\nshall not be obstructed by any curtain, portiere, fixed or movable\\npartition or other contrivance or device.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "212",
+      "title" : "Yards and courts",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "212",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "214",
+      "title" : "Size of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "214",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

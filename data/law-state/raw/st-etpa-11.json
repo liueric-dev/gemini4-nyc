@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 11 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "11",
+    "title" : "Non-waiver of rights",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "11",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 11. Non-waiver of rights. Any provision of a lease or other rental\\nagreement which purports to waive a tenant's rights under this act or\\nregulations promulgated pursuant thereto shall be void as contrary to\\npublic policy.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "10-B",
+      "title" : "Major capital improvements and individual apartment improvements in rent regulated units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28", "2023-12-29", "2024-03-08", "2024-05-03", "2024-10-18" ],
+      "docLevelId" : "10-B",
+      "activeDate" : "2024-10-18"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "12",
+      "title" : "Enforcement and procedures",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "12",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 77 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "77",
+    "title" : "Plumbing and drainage",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "77",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 77. Plumbing and drainage. 1. In every multiple dwelling all liquid\\nor water-borne waste from plumbing fixtures shall be conveyed by a house\\ndrain and house sewer to a street sewer or to a combined street\\nstorm-water main and sewer, unless no such sewers are available. It\\nshall be unlawful to erect a multiple dwelling which is to be occupied\\nby five families or more unless a connection is made with a street sewer\\nor combined street storm-water main and sewer.\\n  2. For every multiple dwelling where neither kind of sewer is\\navailable, provision shall be made for disposing of such waste as may be\\nrequired by local law.\\n  3. All roofs, terraces, shafts, courts, areas and yards in every\\nmultiple dwelling shall be properly graded, drained and connected with a\\nstreet storm-water main or combined sewer and street storm-water main so\\nthat all storm water may pass freely into it, except that where no\\nstreet storm-water main or combined sewer and street storm-water main\\nexists, the department may permit the storm water from such areas and\\nspaces to drain into a street gutter which leads to a natural channel or\\nwater course, or into a dry well. When required by the department, the\\nshafts, courts, areas and yards shall be properly concreted. Every roof\\nshall be so drained that all storm water shall be conveyed therefrom in\\na manner that will prevent dripping to the ground or the causing of\\ndampness in walls, ceilings, yards, shafts or areas. Nothing in this\\nsection shall be deemed to prevent the turfing over of any yard or court\\nspace or the planting of shrubs or trees therein when approved by the\\ndepartment.\\n  4. The owner of every multiple dwelling or part thereof shall\\nthoroughly cleanse and keep clean at all times, and in good repair, the\\nentire plumbing and drainage system including every water-closet, toilet\\nand sink and every other plumbing fixture therein.\\n  5. Whenever the plumbing, sewerage or drainage of any multiple\\ndwelling or part thereof or of the lot on which it is situated is in the\\nopinion of the department in a condition or in its effect dangerous to\\nlife or health, the department may order or cause any such plumbing,\\nsewerage or drainage to be purified, cleansed, disinfected, removed,\\naltered, repaired or improved, or, as provided in section three hundred\\nnine, take such other action as it may deem necessary to remove such\\ndanger to life or health.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T3",
+      "title" : "Sanitation and Health",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "76",
+      "title" : "Water-closet and bath accommodations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "76",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "78",
+      "title" : "Repairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "78",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

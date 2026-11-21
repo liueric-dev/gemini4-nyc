@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 796-C in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "796-C",
+    "title" : "Commencement; notice of petition; time and manner of service",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+    "docLevelId" : "796-C",
+    "activeDate" : "2023-06-16",
+    "text" : "  § 796-c. Commencement; notice of petition; time and manner of service.\\n  1. A special proceeding prescribed by this article shall be commenced\\nby the service of a petition and notice of petition. A notice of\\npetition may be issued only by a judge or the clerk of the court.\\n  2. The notice of petition shall specify the time and place of the\\nhearing on the petition and state that if at such time, a defense to\\nsuch petition is not interposed and established by the owner or any\\nmortgagee or lienor of record, a final judgment may be rendered\\ndirecting that:\\n  (a) the rents due on the date of entry of such judgment from the\\npetitioning tenants and the rents due on the dates of service of such\\njudgment on all other tenants occupying such dwelling, from such other\\ntenants, shall be deposited with the administrator appointed pursuant to\\nsection seven hundred ninety-six-j of this article;\\n  (b) any rents to become due in the future from such petitioners and\\nfrom all other tenants occupying such dwelling shall be deposited with\\nsuch administrator as they fall due; and\\n  (c) such deposited rents shall be used, subject to the court's\\ndirection, to the extent necessary to remedy the condition or conditions\\nalleged in the petition.\\n  3. The notice of petition and petition shall be served upon the person\\nset forth as the owner on the last recorded deed to the rented dwelling\\nand upon every mortgagee and lienor of record, at least five days before\\nthe time at which the petition is noticed to be heard.\\n  4. The proof of service shall be filed with the court before which the\\npetition is to be heard on or before the return date.\\n  5. (a) Service of the notice of petition and petition shall be made by\\npersonally delivering them to the person or persons required to be\\nserved pursuant to subdivision three of this section. If service cannot\\nwith due diligence be made upon an owner, mortgagee or lienor of record\\nin such manner, it shall be made:\\n  (i) upon the person set forth as the owner on the last recorded deed,\\nto the rented dwelling by registered or certified mail, return receipt\\nrequested, at the address set forth in the recorded deed and by\\ndelivering to and leaving copies of the notice of petition and the\\npetition personally with the person designated as the managing agent of\\nthe dwelling, if one shall have been designated;\\n  (ii) upon a mortgagee or lienor of record, by registered or certified\\nmail, return receipt requested, at the address set forth in the recorded\\nmortgage or lien.\\n  (b) If such personal service upon the person set forth as the owner on\\nthe last recorded deed to the rented property cannot be made with due\\ndiligence, service upon such last registered owner shall be made by\\naffixing a copy of the notice and petition upon a conspicuous part of\\nthe subject dwelling; and in addition, within two days after such\\naffixing, by sending a copy thereof by registered or certified mail,\\nreturn receipt requested, to the owner at the address set forth in the\\nlast recorded deed with respect to such dwelling.\\n  6. Notice of the proceeding shall be given to the non-petitioning\\ntenants occupying the dwelling by affixing a copy of the notice of\\npetition and petition upon a conspicuous part of the subject dwelling.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-C",
+      "title" : "Special Proceedings By Tenants of Dwellings For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2022-12-23", "2023-01-06", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2023-06-16"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-B",
+      "title" : "Grounds for the proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-B",
+      "activeDate" : "2023-06-16"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-D",
+      "title" : "Contents of petition",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-D",
+      "activeDate" : "2023-06-16"
+    }
+  }
+}

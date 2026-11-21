@@ -1,0 +1,6 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 25: Multiple Dwellings > Subchapter A: Installation and Maintenance of Gas-Fueled Water and Space Heaters in All Portions of Dwellings Used or Occupied for Living Purposes > Part 4: Installation of Gas-fueled Heaters > § 25-28 Clearances from Combustible Materials.
+
+§ 25-28 Clearances from Combustible Materials.
+(a) Space heaters and water heaters approved by the American Gas Association Laboratories, shall have clearance from combustible materials in accordance with the terms of their approval.
+(b) Gas-fueled space and water heaters shall be installed also in conformity with any applicable requirements of specifications Z21.30 of 1954 of the American Standards Association, except where these rules otherwise provide.
+(c) Vent connectors and vent and outlet pipes shall be installed so as to provide a minimum clearance of three inches on all sides from combustible material. Vent and outlet pipes shall not pass through a floor. Where a vent or outlet pipe passes through partition or roof constructed wholly or in part of combustible material, a ventilated metal thimble not less than six inches larger in diameter than the pipe shall be provided. Any material used to fill the space between the vent pipe and the thimble shall be incombustible.

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 104 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "104",
+    "title" : "Bulkheads",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "104",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 104. Bulkheads. 1. Every stair, fire-stair and fire-tower required\\nby this chapter to extend to the level of the roof or to any terrace\\nformed by a setback shall extend to and through a fireproof bulkhead or\\nother fireproof enclosure in such roof or terrace approved by the\\ndepartment.  Such bulkhead or enclosure shall give unobstructed access\\nat all times to such roof or terrace by means of a fireproof door and\\ndoor assembly with the door self-closing. Such a door shall never be\\nself-locking and shall be fastened on the inside by movable bolts, hooks\\nor a lock which does not require a key to open from the inside of the\\ndwelling. Stairs to a bulkhead or enclosure shall have a handrail.  When\\na dwelling has a pitched or sloping roof with a pitch or slope of more\\nthan fifteen degrees, no bulkhead or stair leading thereto shall be\\nrequired.\\n  2. The roof of any penthouse may for the purpose of this section be\\ndeemed part of the main roof if unobstructed access be provided and\\nmaintained between all required fire-stair landings on the main roof\\nadjoining such penthouse, on the roof of such penthouse and on the roof\\nof any other penthouse extending above such main roof. Such unobstructed\\naccess, where horizontal, shall be by means of a passage at least three\\nfeet in clear width. It may include one or more stairs necessary to\\nprovide access from any penthouse roof to any main roof adjoining such\\npenthouse. Such stairs shall conform to all the requirements of section\\nfifty-three for stairways of fire-escapes.  There shall be a passageway\\nat least four feet in clear width between such stairs and the parapet\\nwall or guard railing of the main roof.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "103",
+      "title" : "Egress from apartments",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "103",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "105",
+      "title" : "Separation and ventilation of stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "105",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

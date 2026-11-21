@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1811 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1811",
+    "title" : "Notice of small claims judgments and indexing of unpaid claims",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2026-06-19" ],
+    "docLevelId" : "1811",
+    "activeDate" : "2026-06-19",
+    "text" : "  § 1811. Notice of small claims judgments and indexing of unpaid\\nclaims.  (a) Notice of judgment sent to judgment debtor shall specify\\nthat a failure to satisfy a judgment may subject the debtor to any one\\nor combination of the following actions:\\n  1. garnishment of wage;\\n  2. garnishment of bank account;\\n  3. a lien on personal property;\\n  4. seizure and sale of real property;\\n  5. seizure and sale of personal property, including automobiles;\\n  6. suspension of motor vehicle license and registration, if claim is\\nbased on defendant's ownership or operation of a motor vehicle;\\n  7. revocation, suspension, or denial of renewal of any applicable\\nbusiness license or permit;\\n  8. investigation and prosecution by the attorney general for\\nfraudulent or illegal business practices; and\\n  9. a penalty equal to three times the amount of the unsatisfied\\njudgment plus attorney's fees, if there are other unpaid claims.\\n  (b) Notice of judgment sent to judgment creditor shall contain but not\\nbe limited to the following information:\\n  1. the claimant's right to payment within thirty days following the\\ndebtor's receipt of the judgment notice;\\n  2. the procedures for use of section eighteen hundred twelve of this\\narticle concerning the identification of assets of the judgment debtor,\\nincluding the use of information subpoenas, access to consumer credit\\nreports and the role of sheriffs and marshals, and actions to collect\\nthree times the judgment award and attorney's fees if there are two\\nother unsatisfied claims against the debtor;\\n  3. the claimant's right to initiate actions to recover the unpaid\\njudgment through the sale of the debtor's real property, or personal\\nproperty;\\n  4. the claimant's right to initiate actions to recover the unpaid\\njudgment through suspension of debtor's motor vehicle license and\\nregistration, if claim is based on defendant's ownership or operation of\\na motor vehicle;\\n  5. the claimant's right to notify the appropriate state or local\\nlicensing or certifying authority of an unsatisfied judgment as a basis\\nfor possible revocation, suspension, or denial of renewal of business\\nlicense; and\\n  6. a statement that upon satisfying the judgment, the judgment debtor\\nshall present appropriate proof thereof to the court; and\\n  7. the claimant's right to notify the attorney general if the debtor\\nis a business and appears to be engaged in fraudulent or illegal\\nbusiness practices.\\n  (c) Notice of judgment sent to each party shall include the following\\nstatement: \"An appeal from this judgment must be taken no later than the\\nearliest of the following dates: (i) thirty days after receipt in court\\nof a copy of the judgment by the appealing party, (ii) thirty days after\\npersonal delivery of a copy of the judgment by another party to the\\naction to the appealing party (or by the appealing party to another\\nparty), or (iii) thirty-five days after the mailing of a copy of the\\njudgment to the appealing party by the clerk of the court or by another\\nparty to the action.\"\\n  (d) All wholly or partially unsatisfied small claims court judgments\\nshall be indexed alphabetically and chronologically under the name of\\nthe judgment debtor. Upon satisfying the judgment, the judgment debtor\\nshall present appropriate proof to the court and the court shall\\nindicate such in the records.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1810",
+      "title" : "Limitation on right to resort to small claims procedures",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1810",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1812",
+      "title" : "Enforcement of small claims judgments",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1812",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 50-C in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "50-C",
+    "title" : "Rights of tenants to operate and maintain a lobby attendant service",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "50-C",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 50-c. Rights of tenants to operate and maintain a lobby attendant\\nservice. 1. Tenants of every class A multiple dwelling containing eight\\nor more apartments shall be entitled to maintain and operate a lobby\\nattendant service for such multiple dwelling at any time or times when\\nan attendant hired or furnished by the owner thereof shall not be on\\nduty.  Such lobby attendants so maintained by such tenants shall be\\nengaged solely for security purposes and shall perform no acts or duties\\nother than those which shall be directly related to the safety and\\nsecurity of occupants and visitors to such building while in and about\\nthe public portions thereof and no owner shall unreasonably hinder,\\ninterfere with, obstruct or prohibit the maintenance and operation of\\nsuch service, provided that each attendant so engaged by tenants shall\\nat all times when on duty be stationed at and remain in the entrance\\nhalls or public lobbies of the building adjacent to the main entrance\\nthereto, and provided further that no owner of such building shall be in\\nany manner liable or responsible for any injury to any such attendant or\\nfor any damage or injury arising out of or resulting from any act or\\nomission of any such attendant or for the payment of any wages or other\\ncompensation to such attendants. The lobby attendants furnished,\\noperated or maintained by tenants pursuant to this section may consist\\nof or include tenants or other occupants of the multiple dwelling and\\nmay include either volunteer or paid personnel or a combination thereof.\\n  2. Any agent, owner or other person who shall unreasonably interfere,\\nhinder, obstruct or prohibit the installation, maintenance and operation\\nof any such lobby attendant or shall unreasonably hinder or interfere\\nwith the performance of the duties of such lobby attendant engaged\\npursuant to this section, shall be guilty of a violation with a maximum\\nfine not to exceed fifty dollars.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "50-A",
+      "title" : "Entrances: doors, locks and intercommunication systems",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "50-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "51",
+      "title" : "Shafts, elevators and dumbwaiters",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "51",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

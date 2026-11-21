@@ -1,0 +1,87 @@
+{
+ "created_at": "2026-11-21T08:20:21-05:00",
+ "applies_to_freeze": {
+  "frozen_at": "2026-11-21T08:03:23-05:00",
+  "decisions_sha256": "0da57c6f4d722322a12b55ca794752f7d5db5c5e62346a6f5f9a5eab70394a32",
+  "review_set_sha256": "715301988c7b246cc251710611df2810a1f393c76c60ce131a550b91fd4d1c11",
+  "decisions_count": 203
+ },
+ "why": "The owner confirmed these decisions before the freeze (about 07:57). They were written into decisions.json, then overwritten when a second, stale review tab saved its older copy, just before the 08:03:23 freeze. decisions.json and review_set.json are left untouched so their checksums still match freeze.json. The scoring script reads decisions.json, then applies this addendum, which takes precedence.",
+ "label_codes": {
+  "med-0188": {
+   "codes": [
+    "leak"
+   ],
+   "owner_text": "none",
+   "basis": "owner's note: water-damaged patch, no peeling paint; mapping confirmed by owner before freeze"
+  },
+  "med-0309": {
+   "codes": [
+    "peeling-paint"
+   ],
+   "owner_text": "paint peeling/patch over?",
+   "basis": "confirmed by owner before freeze"
+  },
+  "med-0526": {
+   "codes": [
+    "none"
+   ],
+   "owner_text": "detector present",
+   "basis": "intact detector; item becomes a negative; confirmed by owner before freeze"
+  },
+  "med-0749": {
+   "codes": [
+    "window"
+   ],
+   "owner_text": "broken window",
+   "basis": "confirmed by owner before freeze"
+  }
+ },
+ "drops": {
+  "med-0672": {
+   "reason": "cause not visible: broken glass on floor, no window in frame",
+   "owner_text": "broken glass",
+   "basis": "confirmed by owner before freeze"
+  }
+ },
+ "pending_owner_decision": {
+  "med-0820": {
+   "frozen_state": {
+    "verdict": "right",
+    "mold_bin": "A",
+    "drop_reason": "very ambiguous "
+   },
+   "question": "keep (label right, mould bin A) or drop (very ambiguous)?",
+   "until_resolved": "excluded from scoring"
+  }
+ },
+ "also_hashed": {
+  "media/review/scoring-rules.md": {
+   "sha256": "bb8c02f9c923b82e640eef05e349f410a937987edd07ab01c2958fc3bffc9537",
+   "modified": "2026-11-21T08:02:37-05:00",
+   "note": "final as of the freeze; its title line still says DRAFT, but the content is the frozen version (modified before 08:03:23)"
+  },
+  "problem-map/expected-outcomes.csv": {
+   "sha256": "e0bb8965bf8ab10165c550168ef534d9c8ed894105bc4650b6cfad49d7e51813",
+   "modified": "2026-11-21T08:02:50-05:00",
+   "note": "rule 9 scores against this version"
+  }
+ },
+ "counts_in_frozen_decisions": {
+  "right": 194,
+  "wrong": 5,
+  "drop": 4,
+  "mold_bins": {
+   "A": 11,
+   "B": 6,
+   "C": 7,
+   "cant-tell": 6,
+   "tile-grout": 1
+  }
+ },
+ "counts_after_addendum": {
+  "scored": 197,
+  "dropped": 5,
+  "pending": 1
+ }
+}

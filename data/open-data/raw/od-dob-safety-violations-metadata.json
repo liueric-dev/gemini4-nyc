@@ -1,0 +1,1842 @@
+{
+  "id" : "855j-jady",
+  "name" : "DOB Safety Violations",
+  "assetType" : "dataset",
+  "attribution" : "Department of Buildings (DOB)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1697646128,
+  "description" : "This data set includes newer civil penalties (commonly referred to as ‘DOB Violations’) that were issued or payable in DOB NOW.  For older civil penalties, see the <a href=\"https://data.cityofnewyork.us/d/3h2n-5cm9\">DOB Violations</a> data set (note: some violations are duplicated in both data sets).  Separately, summonses that are issued by DOB but adjudicated by OATH/ECB are in the <a href=\"https://data.cityofnewyork.us/d/6bgk-3dad\">DOB ECB Violations</a> data set.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 12207,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40384933,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1706041508,
+  "publicationGroup" : 19331975,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1795202017,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 19439383,
+  "totalTimesRated" : 0,
+  "viewCount" : 23261,
+  "viewLastModified" : 1795201653,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1700671436,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6102911,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1700671412,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "reviewer" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1700671436,
+      "failureCount" : 0,
+      "startedAt" : 1700671436,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 588648606,
+    "name" : "BIN",
+    "dataTypeName" : "text",
+    "description" : "Building Identification Number assigned by Department of City Planning",
+    "fieldName" : "bin",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149819556,
+    "cachedContents" : {
+      "non_null" : "1135652",
+      "largest" : "5901800",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1035381",
+        "count" : "1425"
+      }, {
+        "item" : "3347532",
+        "count" : "881"
+      }, {
+        "item" : "2096863",
+        "count" : "701"
+      }, {
+        "item" : "1047955",
+        "count" : "659"
+      }, {
+        "item" : "3343740",
+        "count" : "656"
+      }, {
+        "item" : "1014453",
+        "count" : "637"
+      }, {
+        "item" : "1086079",
+        "count" : "525"
+      }, {
+        "item" : "3837620",
+        "count" : "517"
+      }, {
+        "item" : "3335129",
+        "count" : "375"
+      }, {
+        "item" : "1086514",
+        "count" : "365"
+      }, {
+        "item" : "1088961",
+        "count" : "355"
+      }, {
+        "item" : "3347736",
+        "count" : "353"
+      }, {
+        "item" : "2005898",
+        "count" : "348"
+      }, {
+        "item" : "1001004",
+        "count" : "338"
+      }, {
+        "item" : "1001394",
+        "count" : "326"
+      }, {
+        "item" : "1035791",
+        "count" : "316"
+      }, {
+        "item" : "3378157",
+        "count" : "315"
+      }, {
+        "item" : "1081419",
+        "count" : "309"
+      }, {
+        "item" : "3257059",
+        "count" : "304"
+      }, {
+        "item" : "3103615",
+        "count" : "293"
+      } ],
+      "smallest" : "1000000",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648607,
+    "name" : "Violation Issue Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date of violation issuance",
+    "fieldName" : "violation_issue_date",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 149818966,
+    "cachedContents" : {
+      "non_null" : "1135652",
+      "largest" : "2026-11-18T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2023-10-23T00:00:00.000",
+        "count" : "58775"
+      }, {
+        "item" : "2023-06-30T00:00:00.000",
+        "count" : "45590"
+      }, {
+        "item" : "2023-06-20T00:00:00.000",
+        "count" : "45439"
+      }, {
+        "item" : "2023-08-11T00:00:00.000",
+        "count" : "37628"
+      }, {
+        "item" : "2025-01-31T00:00:00.000",
+        "count" : "32111"
+      }, {
+        "item" : "2025-09-18T00:00:00.000",
+        "count" : "29763"
+      }, {
+        "item" : "2023-11-14T00:00:00.000",
+        "count" : "27344"
+      }, {
+        "item" : "2025-10-31T00:00:00.000",
+        "count" : "27289"
+      }, {
+        "item" : "2023-04-25T00:00:00.000",
+        "count" : "25638"
+      }, {
+        "item" : "2026-01-08T00:00:00.000",
+        "count" : "21505"
+      }, {
+        "item" : "2025-11-14T00:00:00.000",
+        "count" : "20121"
+      }, {
+        "item" : "2025-10-10T00:00:00.000",
+        "count" : "19501"
+      }, {
+        "item" : "2024-09-23T00:00:00.000",
+        "count" : "18677"
+      }, {
+        "item" : "2023-10-02T00:00:00.000",
+        "count" : "17069"
+      }, {
+        "item" : "2024-10-11T00:00:00.000",
+        "count" : "15533"
+      }, {
+        "item" : "2019-11-08T00:00:00.000",
+        "count" : "14064"
+      }, {
+        "item" : "2011-12-13T00:00:00.000",
+        "count" : "13861"
+      }, {
+        "item" : "2024-09-11T00:00:00.000",
+        "count" : "13699"
+      }, {
+        "item" : "2018-04-06T00:00:00.000",
+        "count" : "13473"
+      }, {
+        "item" : "2026-10-29T00:00:00.000",
+        "count" : "12417"
+      } ],
+      "smallest" : "1989-10-12T00:00:00.000",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "view" : "date",
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648608,
+    "name" : "Violation Number",
+    "dataTypeName" : "text",
+    "description" : "The violation identifier",
+    "fieldName" : "violation_number",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344144,
+    "cachedContents" : {
+      "non_null" : "1135652",
+      "largest" : "VIO-FTP-EN-EGRDEO-202512-0002851",
+      "null" : "0",
+      "top" : [ {
+        "item" : "081512EACC100968",
+        "count" : "54"
+      }, {
+        "item" : "100810VCAT101922",
+        "count" : "54"
+      }, {
+        "item" : "100112EVCAT100579",
+        "count" : "51"
+      }, {
+        "item" : "100810VCAT100794",
+        "count" : "51"
+      }, {
+        "item" : "111210JVIOS00095",
+        "count" : "44"
+      }, {
+        "item" : "032103LL108101077",
+        "count" : "43"
+      }, {
+        "item" : "022709LL108101233",
+        "count" : "42"
+      }, {
+        "item" : "022709LL108100954",
+        "count" : "40"
+      }, {
+        "item" : "100810VCAT101620",
+        "count" : "40"
+      }, {
+        "item" : "032108LL108101182",
+        "count" : "40"
+      }, {
+        "item" : "040207LL108101127",
+        "count" : "40"
+      }, {
+        "item" : "111904LL108100936",
+        "count" : "40"
+      }, {
+        "item" : "100105LL108101419",
+        "count" : "40"
+      }, {
+        "item" : "100112EVCAT101108",
+        "count" : "40"
+      }, {
+        "item" : "121311EVCAT101169",
+        "count" : "40"
+      }, {
+        "item" : "030801LL108100984",
+        "count" : "39"
+      }, {
+        "item" : "031000LL108101022",
+        "count" : "39"
+      }, {
+        "item" : "042104LL108100989",
+        "count" : "39"
+      }, {
+        "item" : "100112JVIOS00114",
+        "count" : "39"
+      }, {
+        "item" : "012099LL108101017",
+        "count" : "39"
+      } ],
+      "smallest" : "010109B08634",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648609,
+    "name" : "Violation Type",
+    "dataTypeName" : "text",
+    "description" : "The type of violation issued",
+    "fieldName" : "violation_type",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344143,
+    "cachedContents" : {
+      "non_null" : "1135276",
+      "largest" : "VCAT1",
+      "null" : "376",
+      "top" : [ {
+        "item" : "LBLVIO",
+        "count" : "242159"
+      }, {
+        "item" : "FTC-AEU-HAZ",
+        "count" : "167406"
+      }, {
+        "item" : "LL6291",
+        "count" : "145712"
+      }, {
+        "item" : "FTF-PL-PER",
+        "count" : "110668"
+      }, {
+        "item" : "FTC-VT-CAT1-CO",
+        "count" : "75828"
+      }, {
+        "item" : "FTF-EN-BENCH",
+        "count" : "62032"
+      }, {
+        "item" : "FTF-VT-CAT1-CO",
+        "count" : "42455"
+      }, {
+        "item" : "FTC-VT-PER-CO",
+        "count" : "36948"
+      }, {
+        "item" : "FTC-BE-EXT-LP",
+        "count" : "35527"
+      }, {
+        "item" : "ACC1",
+        "count" : "27183"
+      }, {
+        "item" : "FTF-VT-PER-CO",
+        "count" : "26528"
+      }, {
+        "item" : "HBLVIO",
+        "count" : "19213"
+      }, {
+        "item" : "EVCAT1",
+        "count" : "18515"
+      }, {
+        "item" : "LL1081",
+        "count" : "17480"
+      }, {
+        "item" : "FTP-EN-EGRDEA",
+        "count" : "15833"
+      }, {
+        "item" : "FTF-EN-EARCX",
+        "count" : "14144"
+      }, {
+        "item" : "FISPNRF",
+        "count" : "10234"
+      }, {
+        "item" : "FTF-VT-CAT1-NJ",
+        "count" : "9053"
+      }, {
+        "item" : "FTF-EN-LL97320",
+        "count" : "7350"
+      }, {
+        "item" : "FTC-VT-CAT1-HA",
+        "count" : "7151"
+      } ],
+      "smallest" : "ACC1",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648610,
+    "name" : "Violation Remarks",
+    "dataTypeName" : "text",
+    "description" : "Note recorded about the violation",
+    "fieldName" : "violation_remarks",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344142,
+    "cachedContents" : {
+      "non_null" : "635777",
+      "largest" : "WAS DISMISSED AN ERROR",
+      "null" : "499875",
+      "top" : [ {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2022 INSPECTION REPORT",
+        "count" : "23375"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2018 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "21507"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2021 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "20958"
+      }, {
+        "item" : "Violation Issued-Failure To File 2022 Cat1 Test Affirmation of Correction",
+        "count" : "20801"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2020 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "19679"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2019 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "19120"
+      }, {
+        "item" : "VIOLATION ISSUED-FAILURE TO FILE 2024 EXTERNAL LOW PRESSURE INSPECTION",
+        "count" : "18473"
+      }, {
+        "item" : "Violation Issued-Failure To File 2022 Periodic Inspection Affirmation of Correction",
+        "count" : "17069"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2017 INSPECTION REPORT",
+        "count" : "17033"
+      }, {
+        "item" : "Violation Issued-Failure To File 2023 External Low Pressure Inspection Report",
+        "count" : "16949"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2016 INSPECTION REPORT",
+        "count" : "13433"
+      }, {
+        "item" : "Cycle 1, Sub-cycle D (premises is in Community District 12)",
+        "count" : "12308"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2015 INSPECTION REPORT",
+        "count" : "11079"
+      }, {
+        "item" : "Violation Issued-Failure To File 2022 Periodic Inspection Report",
+        "count" : "10946"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2010 INSPECTION REPORT",
+        "count" : "10912"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2012 INSPECTION REPORT",
+        "count" : "10869"
+      }, {
+        "item" : "Violation Issued-Failure To File 2020 Cat1 Test Affirmation of Correction",
+        "count" : "10866"
+      }, {
+        "item" : "Cycle 2, Sub-cycle A (premises is in Community District 1)",
+        "count" : "10395"
+      }, {
+        "item" : "Violation Issued-Failure To File 2024 Cat1 Test Affirmation of Correction",
+        "count" : "10042"
+      }, {
+        "item" : "VIOLATION ISSUED FOR FAILURE TO FILE ANNUAL BOILER 2013 INSPECTION REPORT",
+        "count" : "9988"
+      } ],
+      "smallest" : "00097895",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648611,
+    "name" : "Violation Status",
+    "dataTypeName" : "text",
+    "description" : "The status of the violation",
+    "fieldName" : "violation_status",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344141,
+    "cachedContents" : {
+      "non_null" : "1135649",
+      "largest" : "Waived - Pending Dismissal",
+      "null" : "3",
+      "top" : [ {
+        "item" : "Active",
+        "count" : "701286"
+      }, {
+        "item" : "Dismissed",
+        "count" : "430610"
+      }, {
+        "item" : "Disputed Successfully",
+        "count" : "2802"
+      }, {
+        "item" : "Waived - Pending Dismissal",
+        "count" : "511"
+      }, {
+        "item" : "Pending Dismissal",
+        "count" : "319"
+      }, {
+        "item" : "Cured",
+        "count" : "113"
+      }, {
+        "item" : "Paid  - Pending Dismissal",
+        "count" : "8"
+      } ],
+      "smallest" : "Active",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648612,
+    "name" : "Device Number",
+    "dataTypeName" : "text",
+    "description" : "The devices identification number",
+    "fieldName" : "device_number",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344139,
+    "cachedContents" : {
+      "non_null" : "284392",
+      "largest" : "5W99",
+      "null" : "851260",
+      "top" : [ {
+        "item" : "1P7287",
+        "count" : "44"
+      }, {
+        "item" : "3P5007",
+        "count" : "43"
+      }, {
+        "item" : "1P10393",
+        "count" : "43"
+      }, {
+        "item" : "1F4871",
+        "count" : "43"
+      }, {
+        "item" : "3F2717",
+        "count" : "43"
+      }, {
+        "item" : "1P28109",
+        "count" : "43"
+      }, {
+        "item" : "3P2004",
+        "count" : "43"
+      }, {
+        "item" : "3P3840",
+        "count" : "42"
+      }, {
+        "item" : "3P2891",
+        "count" : "42"
+      }, {
+        "item" : "3P452",
+        "count" : "42"
+      }, {
+        "item" : "3F5039",
+        "count" : "42"
+      }, {
+        "item" : "3F3963",
+        "count" : "42"
+      }, {
+        "item" : "3F5317",
+        "count" : "42"
+      }, {
+        "item" : "2S265",
+        "count" : "42"
+      }, {
+        "item" : "2F399",
+        "count" : "42"
+      }, {
+        "item" : "2P2409",
+        "count" : "42"
+      }, {
+        "item" : "3P3572",
+        "count" : "41"
+      }, {
+        "item" : "1E1105",
+        "count" : "41"
+      }, {
+        "item" : "1E1106",
+        "count" : "41"
+      }, {
+        "item" : "3F5359",
+        "count" : "41"
+      } ],
+      "smallest" : "1B0988287",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648613,
+    "name" : "Device Type",
+    "dataTypeName" : "text",
+    "description" : "The specific type of device",
+    "fieldName" : "device_type",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344138,
+    "cachedContents" : {
+      "non_null" : "1135652",
+      "largest" : "Structurally Compromised Buildings",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Boiler",
+        "count" : "443829"
+      }, {
+        "item" : "Elevators",
+        "count" : "284396"
+      }, {
+        "item" : "AEUHAZ",
+        "count" : "167406"
+      }, {
+        "item" : "Gas Piping - LL152",
+        "count" : "110668"
+      }, {
+        "item" : "Benchmarking - LL84",
+        "count" : "63842"
+      }, {
+        "item" : "Facades",
+        "count" : "18846"
+      }, {
+        "item" : "Energy Grade - LL33",
+        "count" : "15834"
+      }, {
+        "item" : "Retro-Commissioning - LL87",
+        "count" : "14144"
+      }, {
+        "item" : "GHG Emissions - LL97",
+        "count" : "8450"
+      }, {
+        "item" : "Retaining Walls",
+        "count" : "2466"
+      }, {
+        "item" : "Parking Structures",
+        "count" : "1775"
+      }, {
+        "item" : "Emergency Power",
+        "count" : "1315"
+      }, {
+        "item" : "Sprinklers",
+        "count" : "1275"
+      }, {
+        "item" : "Structurally Compromised Buildings",
+        "count" : "920"
+      }, {
+        "item" : "Photoluminescent",
+        "count" : "486"
+      } ],
+      "smallest" : "AEUHAZ",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648614,
+    "name" : "Cycle End Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The end date of the compliance cycle",
+    "fieldName" : "cycle_end_date",
+    "position" : 9,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 149818328,
+    "cachedContents" : {
+      "non_null" : "748836",
+      "largest" : "2030-02-20T00:00:00.000",
+      "null" : "386816",
+      "top" : [ {
+        "item" : "2022-12-31T00:00:00.000",
+        "count" : "87142"
+      }, {
+        "item" : "2024-12-31T00:00:00.000",
+        "count" : "54720"
+      }, {
+        "item" : "2023-12-31T00:00:00.000",
+        "count" : "52854"
+      }, {
+        "item" : "2020-12-31T00:00:00.000",
+        "count" : "48193"
+      }, {
+        "item" : "2018-12-31T00:00:00.000",
+        "count" : "45526"
+      }, {
+        "item" : "2021-12-31T00:00:00.000",
+        "count" : "44588"
+      }, {
+        "item" : "2019-12-31T00:00:00.000",
+        "count" : "43010"
+      }, {
+        "item" : "2017-12-31T00:00:00.000",
+        "count" : "31310"
+      }, {
+        "item" : "2016-12-31T00:00:00.000",
+        "count" : "22224"
+      }, {
+        "item" : "2025-12-31T00:00:00.000",
+        "count" : "21502"
+      }, {
+        "item" : "2015-12-31T00:00:00.000",
+        "count" : "20510"
+      }, {
+        "item" : "2012-12-31T00:00:00.000",
+        "count" : "16707"
+      }, {
+        "item" : "2014-12-31T00:00:00.000",
+        "count" : "16133"
+      }, {
+        "item" : "2013-12-31T00:00:00.000",
+        "count" : "13030"
+      }, {
+        "item" : "1993-12-31T00:00:00.000",
+        "count" : "12325"
+      }, {
+        "item" : "1992-12-31T00:00:00.000",
+        "count" : "11677"
+      }, {
+        "item" : "2008-12-31T00:00:00.000",
+        "count" : "11657"
+      }, {
+        "item" : "2009-11-15T00:00:00.000",
+        "count" : "11067"
+      }, {
+        "item" : "2010-11-15T00:00:00.000",
+        "count" : "10935"
+      }, {
+        "item" : "2007-12-31T00:00:00.000",
+        "count" : "10909"
+      } ],
+      "smallest" : "1988-12-31T00:00:00.000",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "view" : "date",
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648615,
+    "name" : "Borough",
+    "dataTypeName" : "text",
+    "description" : "The borough where the violating condition was observed",
+    "fieldName" : "borough",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344136,
+    "cachedContents" : {
+      "non_null" : "1133031",
+      "largest" : "Staten Island",
+      "null" : "2621",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "389927"
+      }, {
+        "item" : "Manhattan",
+        "count" : "320938"
+      }, {
+        "item" : "Queens",
+        "count" : "226431"
+      }, {
+        "item" : "Bronx",
+        "count" : "153624"
+      }, {
+        "item" : "Staten Island",
+        "count" : "42111"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648616,
+    "name" : "Block",
+    "dataTypeName" : "number",
+    "description" : "The block where the violating condition was observed",
+    "fieldName" : "block",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 149344129,
+    "cachedContents" : {
+      "non_null" : "1131070",
+      "largest" : "99999",
+      "null" : "4582",
+      "top" : [ {
+        "item" : "1280",
+        "count" : "2100"
+      }, {
+        "item" : "2450",
+        "count" : "2092"
+      }, {
+        "item" : "5778",
+        "count" : "1398"
+      }, {
+        "item" : "3173",
+        "count" : "1375"
+      }, {
+        "item" : "16",
+        "count" : "1365"
+      }, {
+        "item" : "2605",
+        "count" : "1193"
+      }, {
+        "item" : "787",
+        "count" : "1156"
+      }, {
+        "item" : "1957",
+        "count" : "1070"
+      }, {
+        "item" : "5141",
+        "count" : "1024"
+      }, {
+        "item" : "1515",
+        "count" : "1012"
+      }, {
+        "item" : "2180",
+        "count" : "1008"
+      }, {
+        "item" : "1171",
+        "count" : "970"
+      }, {
+        "item" : "788",
+        "count" : "967"
+      }, {
+        "item" : "1271",
+        "count" : "952"
+      }, {
+        "item" : "3024",
+        "count" : "944"
+      }, {
+        "item" : "140",
+        "count" : "940"
+      }, {
+        "item" : "1860",
+        "count" : "940"
+      }, {
+        "item" : "1924",
+        "count" : "886"
+      }, {
+        "item" : "1509",
+        "count" : "865"
+      }, {
+        "item" : "1292",
+        "count" : "835"
+      } ],
+      "smallest" : "0",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "noCommas" : "true",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648617,
+    "name" : "Lot",
+    "dataTypeName" : "number",
+    "description" : "The lot where the violating condition was observed",
+    "fieldName" : "lot",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 149344130,
+    "cachedContents" : {
+      "non_null" : "1131070",
+      "largest" : "9999",
+      "null" : "4582",
+      "top" : [ {
+        "item" : "1",
+        "count" : "123166"
+      }, {
+        "item" : "7501",
+        "count" : "62285"
+      }, {
+        "item" : "7502",
+        "count" : "24511"
+      }, {
+        "item" : "10",
+        "count" : "19064"
+      }, {
+        "item" : "5",
+        "count" : "17939"
+      }, {
+        "item" : "6",
+        "count" : "17559"
+      }, {
+        "item" : "7",
+        "count" : "16025"
+      }, {
+        "item" : "2",
+        "count" : "15521"
+      }, {
+        "item" : "40",
+        "count" : "15447"
+      }, {
+        "item" : "20",
+        "count" : "15376"
+      }, {
+        "item" : "21",
+        "count" : "14967"
+      }, {
+        "item" : "29",
+        "count" : "14928"
+      }, {
+        "item" : "11",
+        "count" : "14882"
+      }, {
+        "item" : "8",
+        "count" : "14471"
+      }, {
+        "item" : "30",
+        "count" : "14437"
+      }, {
+        "item" : "33",
+        "count" : "14030"
+      }, {
+        "item" : "12",
+        "count" : "13973"
+      }, {
+        "item" : "25",
+        "count" : "13851"
+      }, {
+        "item" : "15",
+        "count" : "13835"
+      }, {
+        "item" : "3",
+        "count" : "13804"
+      } ],
+      "smallest" : "0",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648618,
+    "name" : "House Number",
+    "dataTypeName" : "text",
+    "description" : "The address number where the violating condition was observed",
+    "fieldName" : "house_number",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344135,
+    "cachedContents" : {
+      "non_null" : "1133006",
+      "largest" : "ASTORIA POOL",
+      "null" : "2646",
+      "top" : [ {
+        "item" : "1",
+        "count" : "5102"
+      }, {
+        "item" : "2",
+        "count" : "3878"
+      }, {
+        "item" : "100",
+        "count" : "3093"
+      }, {
+        "item" : "101",
+        "count" : "2892"
+      }, {
+        "item" : "15",
+        "count" : "2670"
+      }, {
+        "item" : "71",
+        "count" : "2592"
+      }, {
+        "item" : "200",
+        "count" : "2550"
+      }, {
+        "item" : "11",
+        "count" : "2521"
+      }, {
+        "item" : "20",
+        "count" : "2415"
+      }, {
+        "item" : "55",
+        "count" : "2178"
+      }, {
+        "item" : "40",
+        "count" : "2172"
+      }, {
+        "item" : "50",
+        "count" : "2154"
+      }, {
+        "item" : "10",
+        "count" : "2126"
+      }, {
+        "item" : "105",
+        "count" : "2111"
+      }, {
+        "item" : "9",
+        "count" : "2050"
+      }, {
+        "item" : "114",
+        "count" : "2032"
+      }, {
+        "item" : "120",
+        "count" : "2010"
+      }, {
+        "item" : "16",
+        "count" : "1982"
+      }, {
+        "item" : "250",
+        "count" : "1965"
+      }, {
+        "item" : "21",
+        "count" : "1958"
+      } ],
+      "smallest" : "1",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648619,
+    "name" : "Street",
+    "dataTypeName" : "text",
+    "description" : "The address name where the violating condition was observed",
+    "fieldName" : "street",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344134,
+    "cachedContents" : {
+      "non_null" : "1133006",
+      "largest" : "ZULETTE AVENUE",
+      "null" : "2646",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "20755"
+      }, {
+        "item" : "5 AVENUE",
+        "count" : "11814"
+      }, {
+        "item" : "3 AVENUE",
+        "count" : "10293"
+      }, {
+        "item" : "JAMAICA AVENUE",
+        "count" : "8844"
+      }, {
+        "item" : "7 AVENUE",
+        "count" : "6660"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "6305"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "6049"
+      }, {
+        "item" : "8 AVENUE",
+        "count" : "5884"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "5640"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "5517"
+      }, {
+        "item" : "2 AVENUE",
+        "count" : "5514"
+      }, {
+        "item" : "FLATBUSH AVENUE",
+        "count" : "5485"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "4989"
+      }, {
+        "item" : "BEDFORD AVENUE",
+        "count" : "4983"
+      }, {
+        "item" : "ATLANTIC AVENUE",
+        "count" : "4679"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "4673"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "4661"
+      }, {
+        "item" : "1 AVENUE",
+        "count" : "4560"
+      }, {
+        "item" : "NORTHERN BOULEVARD",
+        "count" : "4402"
+      }, {
+        "item" : "LIBERTY AVENUE",
+        "count" : "4051"
+      } ],
+      "smallest" : "100 AVENUE",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648620,
+    "name" : "City",
+    "dataTypeName" : "text",
+    "description" : "The city where the violating condition was observed",
+    "fieldName" : "city",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344133,
+    "cachedContents" : {
+      "non_null" : "1135652",
+      "largest" : "New York",
+      "null" : "0",
+      "top" : [ {
+        "item" : "New York",
+        "count" : "1135652"
+      } ],
+      "smallest" : "New York",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648621,
+    "name" : "State",
+    "dataTypeName" : "text",
+    "description" : "The state where the violating condition was observed",
+    "fieldName" : "state",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344132,
+    "cachedContents" : {
+      "non_null" : "1135652",
+      "largest" : "New York",
+      "null" : "0",
+      "top" : [ {
+        "item" : "New York",
+        "count" : "1135652"
+      } ],
+      "smallest" : "New York",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648622,
+    "name" : "Postcode",
+    "dataTypeName" : "text",
+    "description" : "The postal code where the violating condition was observed",
+    "fieldName" : "zip",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 149344131,
+    "cachedContents" : {
+      "non_null" : "1132093",
+      "largest" : "11697",
+      "null" : "3559",
+      "top" : [ {
+        "item" : "11201",
+        "count" : "17239"
+      }, {
+        "item" : "11211",
+        "count" : "16483"
+      }, {
+        "item" : "11101",
+        "count" : "16090"
+      }, {
+        "item" : "11226",
+        "count" : "15818"
+      }, {
+        "item" : "11221",
+        "count" : "15606"
+      }, {
+        "item" : "11216",
+        "count" : "15299"
+      }, {
+        "item" : "11206",
+        "count" : "15277"
+      }, {
+        "item" : "11207",
+        "count" : "14837"
+      }, {
+        "item" : "10013",
+        "count" : "14636"
+      }, {
+        "item" : "10001",
+        "count" : "14242"
+      }, {
+        "item" : "11385",
+        "count" : "13989"
+      }, {
+        "item" : "11219",
+        "count" : "13952"
+      }, {
+        "item" : "10011",
+        "count" : "13319"
+      }, {
+        "item" : "10003",
+        "count" : "13120"
+      }, {
+        "item" : "10019",
+        "count" : "13094"
+      }, {
+        "item" : "10027",
+        "count" : "13025"
+      }, {
+        "item" : "11238",
+        "count" : "12976"
+      }, {
+        "item" : "11220",
+        "count" : "12945"
+      }, {
+        "item" : "11237",
+        "count" : "12676"
+      }, {
+        "item" : "11233",
+        "count" : "12638"
+      } ],
+      "smallest" : "10000",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 588648627,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "Latitude of the site's location",
+    "fieldName" : "latitude",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151065844,
+    "cachedContents" : {
+      "non_null" : "1130950",
+      "largest" : "40.913838",
+      "null" : "4702",
+      "top" : [ {
+        "item" : "40.752301",
+        "count" : "1425"
+      }, {
+        "item" : "40.645338",
+        "count" : "1186"
+      }, {
+        "item" : "40.753629",
+        "count" : "707"
+      }, {
+        "item" : "40.794577",
+        "count" : "701"
+      }, {
+        "item" : "40.780566",
+        "count" : "659"
+      }, {
+        "item" : "40.692115",
+        "count" : "656"
+      }, {
+        "item" : "40.749196",
+        "count" : "551"
+      }, {
+        "item" : "40.663665",
+        "count" : "523"
+      }, {
+        "item" : "40.69802",
+        "count" : "386"
+      }, {
+        "item" : "40.81139",
+        "count" : "383"
+      }, {
+        "item" : "40.740102",
+        "count" : "365"
+      }, {
+        "item" : "40.753045",
+        "count" : "355"
+      }, {
+        "item" : "40.694858",
+        "count" : "353"
+      }, {
+        "item" : "40.706205",
+        "count" : "338"
+      }, {
+        "item" : "40.639488",
+        "count" : "337"
+      }, {
+        "item" : "40.713001",
+        "count" : "335"
+      }, {
+        "item" : "40.6905",
+        "count" : "317"
+      }, {
+        "item" : "40.762818",
+        "count" : "316"
+      }, {
+        "item" : "40.715916",
+        "count" : "316"
+      }, {
+        "item" : "40.768446",
+        "count" : "311"
+      } ],
+      "smallest" : "40.499227",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648623,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "Longitude of the site's location",
+    "fieldName" : "longitude",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151065840,
+    "cachedContents" : {
+      "non_null" : "1130950",
+      "largest" : "-73.700384",
+      "null" : "4702",
+      "top" : [ {
+        "item" : "-73.978081",
+        "count" : "1433"
+      }, {
+        "item" : "-74.022864",
+        "count" : "1185"
+      }, {
+        "item" : "-73.884162",
+        "count" : "701"
+      }, {
+        "item" : "-73.956046",
+        "count" : "659"
+      }, {
+        "item" : "-73.960658",
+        "count" : "656"
+      }, {
+        "item" : "-73.990959",
+        "count" : "637"
+      }, {
+        "item" : "-73.991948",
+        "count" : "533"
+      }, {
+        "item" : "-73.935418",
+        "count" : "520"
+      }, {
+        "item" : "-73.974986",
+        "count" : "376"
+      }, {
+        "item" : "-73.984079",
+        "count" : "365"
+      }, {
+        "item" : "-73.98718",
+        "count" : "362"
+      }, {
+        "item" : "-73.965444",
+        "count" : "355"
+      }, {
+        "item" : "-74.000282",
+        "count" : "355"
+      }, {
+        "item" : "-73.894096",
+        "count" : "348"
+      }, {
+        "item" : "-74.009154",
+        "count" : "338"
+      }, {
+        "item" : "-74.004181",
+        "count" : "328"
+      }, {
+        "item" : "-73.992572",
+        "count" : "327"
+      }, {
+        "item" : "-73.973641",
+        "count" : "316"
+      }, {
+        "item" : "-73.911699",
+        "count" : "293"
+      }, {
+        "item" : "-73.952656",
+        "count" : "290"
+      } ],
+      "smallest" : "-74.254022",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648628,
+    "name" : "Community Board",
+    "dataTypeName" : "number",
+    "description" : "Community Boards are volunteer-run neighborhood organizations that work on all kinds of issues pertinent to their communities, often working with elected city officials in doing so. Community Board members, ﻿who can be as young as 16﻿, are appointed by Borough Presidents and City Council representatives. They serve two-year terms. There are 59 Community Boards in NYC, each of which represents a unique geographical area, known as a Community District. Note: as a column header, “Community Board” (which refers to a group of Board members) is often used to mean “Community District” (the geographical area) instead.",
+    "fieldName" : "community_board",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151065845,
+    "cachedContents" : {
+      "non_null" : "1130950",
+      "largest" : "595",
+      "null" : "4702",
+      "top" : [ {
+        "item" : "105",
+        "count" : "51988"
+      }, {
+        "item" : "301",
+        "count" : "44260"
+      }, {
+        "item" : "303",
+        "count" : "35039"
+      }, {
+        "item" : "108",
+        "count" : "34753"
+      }, {
+        "item" : "302",
+        "count" : "31595"
+      }, {
+        "item" : "401",
+        "count" : "29582"
+      }, {
+        "item" : "104",
+        "count" : "29287"
+      }, {
+        "item" : "107",
+        "count" : "27916"
+      }, {
+        "item" : "102",
+        "count" : "27587"
+      }, {
+        "item" : "312",
+        "count" : "26856"
+      }, {
+        "item" : "407",
+        "count" : "26825"
+      }, {
+        "item" : "110",
+        "count" : "25589"
+      }, {
+        "item" : "103",
+        "count" : "25139"
+      }, {
+        "item" : "412",
+        "count" : "24541"
+      }, {
+        "item" : "304",
+        "count" : "24030"
+      }, {
+        "item" : "101",
+        "count" : "23148"
+      }, {
+        "item" : "106",
+        "count" : "23052"
+      }, {
+        "item" : "317",
+        "count" : "22613"
+      }, {
+        "item" : "305",
+        "count" : "22028"
+      }, {
+        "item" : "308",
+        "count" : "21895"
+      } ],
+      "smallest" : "101",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648625,
+    "name" : "Council District",
+    "dataTypeName" : "number",
+    "description" : "The City Council is the lawmaking body of NYC, on equal footing with the mayor in terms of governing power. Besides legislating, the Council has sole approval power over the city budget, and is the final decision-maker in land use matters. There are 51 City Council members in total, each representing a unique geographical area, called a Council District.",
+    "fieldName" : "council_district",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151065842,
+    "cachedContents" : {
+      "non_null" : "1130950",
+      "largest" : "51",
+      "null" : "4702",
+      "top" : [ {
+        "item" : "4",
+        "count" : "56775"
+      }, {
+        "item" : "3",
+        "count" : "55446"
+      }, {
+        "item" : "1",
+        "count" : "45290"
+      }, {
+        "item" : "33",
+        "count" : "41848"
+      }, {
+        "item" : "34",
+        "count" : "38239"
+      }, {
+        "item" : "2",
+        "count" : "34257"
+      }, {
+        "item" : "9",
+        "count" : "33508"
+      }, {
+        "item" : "36",
+        "count" : "32834"
+      }, {
+        "item" : "35",
+        "count" : "31519"
+      }, {
+        "item" : "37",
+        "count" : "28447"
+      }, {
+        "item" : "39",
+        "count" : "27437"
+      }, {
+        "item" : "26",
+        "count" : "27388"
+      }, {
+        "item" : "38",
+        "count" : "27267"
+      }, {
+        "item" : "8",
+        "count" : "25983"
+      }, {
+        "item" : "41",
+        "count" : "25567"
+      }, {
+        "item" : "6",
+        "count" : "24755"
+      }, {
+        "item" : "40",
+        "count" : "23243"
+      }, {
+        "item" : "17",
+        "count" : "23147"
+      }, {
+        "item" : "7",
+        "count" : "22215"
+      }, {
+        "item" : "44",
+        "count" : "22199"
+      } ],
+      "smallest" : "1",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  }, {
+    "id" : 588648629,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "The BBL (Borough, Block, and Lot) is a unique combination of three numeric codes - a 1-digit borough number, a block number (up to 5 digits) and a lot number (up to 4 digits) -- designated and modified by the Department of Finance (DOF). BBLs are used by various city agencies to identify real estate for taxes, zoning, construction, and other purposes.",
+    "fieldName" : "bbl",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151065846,
+    "cachedContents" : {
+      "non_null" : "1121511",
+      "largest" : "5270000501",
+      "null" : "14141",
+      "top" : [ {
+        "item" : "1012800001",
+        "count" : "1425"
+      }, {
+        "item" : "3057780001",
+        "count" : "1377"
+      }, {
+        "item" : "2026050040",
+        "count" : "1155"
+      }, {
+        "item" : "1015157502",
+        "count" : "659"
+      }, {
+        "item" : "3019247501",
+        "count" : "657"
+      }, {
+        "item" : "1007870001",
+        "count" : "637"
+      }, {
+        "item" : "5030247502",
+        "count" : "632"
+      }, {
+        "item" : "1007810010",
+        "count" : "525"
+      }, {
+        "item" : "3015097501",
+        "count" : "522"
+      }, {
+        "item" : "3075560150",
+        "count" : "482"
+      }, {
+        "item" : "2024440001",
+        "count" : "467"
+      }, {
+        "item" : "1001670001",
+        "count" : "459"
+      }, {
+        "item" : "3020230001",
+        "count" : "450"
+      }, {
+        "item" : "3048290001",
+        "count" : "441"
+      }, {
+        "item" : "3022447501",
+        "count" : "437"
+      }, {
+        "item" : "5016517501",
+        "count" : "382"
+      }, {
+        "item" : "4065170001",
+        "count" : "379"
+      }, {
+        "item" : "5016687502",
+        "count" : "367"
+      }, {
+        "item" : "1008800024",
+        "count" : "365"
+      }, {
+        "item" : "1007027501",
+        "count" : "356"
+      } ],
+      "smallest" : "0",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588648624,
+    "name" : "Census Tract (2020)",
+    "dataTypeName" : "number",
+    "description" : "The Census Tract (Census 2020) field indicates the U.S. Census Tract where the site is located. Please note that as part of the geocoding process, leading and trailing zeros are dropped",
+    "fieldName" : "census_tract_2020_",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 151065841,
+    "cachedContents" : {
+      "non_null" : "1130950",
+      "largest" : "157903",
+      "null" : "4702",
+      "top" : [ {
+        "item" : "33",
+        "count" : "5487"
+      }, {
+        "item" : "21",
+        "count" : "5273"
+      }, {
+        "item" : "39",
+        "count" : "4866"
+      }, {
+        "item" : "96",
+        "count" : "4123"
+      }, {
+        "item" : "65",
+        "count" : "4060"
+      }, {
+        "item" : "37",
+        "count" : "4051"
+      }, {
+        "item" : "7",
+        "count" : "4036"
+      }, {
+        "item" : "101",
+        "count" : "3964"
+      }, {
+        "item" : "43",
+        "count" : "3860"
+      }, {
+        "item" : "122",
+        "count" : "3831"
+      }, {
+        "item" : "76",
+        "count" : "3826"
+      }, {
+        "item" : "1502",
+        "count" : "3734"
+      }, {
+        "item" : "9",
+        "count" : "3652"
+      }, {
+        "item" : "71",
+        "count" : "3647"
+      }, {
+        "item" : "41",
+        "count" : "3628"
+      }, {
+        "item" : "113",
+        "count" : "3580"
+      }, {
+        "item" : "84",
+        "count" : "3568"
+      }, {
+        "item" : "109",
+        "count" : "3555"
+      }, {
+        "item" : "232",
+        "count" : "3463"
+      }, {
+        "item" : "92",
+        "count" : "3455"
+      } ],
+      "smallest" : "1",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 588648626,
+    "name" : "Neighborhood Tabulation Area (NTA) (2020)",
+    "dataTypeName" : "text",
+    "description" : "NTAs are small area boundaries, created by the Department of City Planning (DCP) to aggregate population projections in a small area.. Each NTA approximates a minimum population of 15,000. While NTAs were initially created to support PlaNYC, the thirty-year (2000-2030) sustainability plan for NYC, NTAs are now also being used to present data from the Decennial Census and American Community Survey. NTA boundaries and their associated names do not definitively represent neighborhood boundaries.",
+    "fieldName" : "neighborhood_tabulation_area_nta_2020_",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151065843,
+    "cachedContents" : {
+      "non_null" : "1130950",
+      "largest" : "Yankee Stadium-Macombs Dam Park",
+      "null" : "4702",
+      "top" : [ {
+        "item" : "Midtown-Times Square",
+        "count" : "29542"
+      }, {
+        "item" : "Upper East Side-Carnegie Hill",
+        "count" : "18892"
+      }, {
+        "item" : "Bedford-Stuyvesant (West)",
+        "count" : "18394"
+      }, {
+        "item" : "Crown Heights (North)",
+        "count" : "17397"
+      }, {
+        "item" : "Midtown South-Flatiron-Union Square",
+        "count" : "17214"
+      }, {
+        "item" : "Chelsea-Hudson Yards",
+        "count" : "16953"
+      }, {
+        "item" : "Bedford-Stuyvesant (East)",
+        "count" : "15814"
+      }, {
+        "item" : "Borough Park",
+        "count" : "14355"
+      }, {
+        "item" : "Harlem (North)",
+        "count" : "14066"
+      }, {
+        "item" : "Williamsburg",
+        "count" : "13654"
+      }, {
+        "item" : "Upper West Side (Central)",
+        "count" : "13634"
+      }, {
+        "item" : "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+        "count" : "13314"
+      }, {
+        "item" : "Bushwick (West)",
+        "count" : "13110"
+      }, {
+        "item" : "East Williamsburg",
+        "count" : "12968"
+      }, {
+        "item" : "East Village",
+        "count" : "12339"
+      }, {
+        "item" : "East Midtown-Turtle Bay",
+        "count" : "12138"
+      }, {
+        "item" : "Sunset Park (West)",
+        "count" : "12028"
+      }, {
+        "item" : "Hell's Kitchen",
+        "count" : "12011"
+      }, {
+        "item" : "Flushing-Willets Point",
+        "count" : "11896"
+      }, {
+        "item" : "Financial District-Battery Park City",
+        "count" : "11541"
+      } ],
+      "smallest" : "Allerton",
+      "count" : "1135652",
+      "cardinality" : "1135652"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "violation_issue_date",
+        "ascending" : false
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "DOB_NOW_Safety_Violations_Data_Dictionary.xlsx",
+      "assetId" : "9e8abcb0-c377-4b5f-a5ed-7c4cf490b2b7",
+      "name" : "DOB_NOW_Safety_Violations_Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Update Frequency Details" : "The underlying data changes second-to-second in the system of record.",
+        "Date Made Public" : "11/22/2023",
+        "Update Frequency" : "Daily",
+        "Data Change Frequency" : "Daily"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Buildings (DOB)"
+      }
+    },
+    "rowLabel" : "safety violations",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 588648607,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dob", "boiler", "elevator", "safety", "violation", "cycle" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

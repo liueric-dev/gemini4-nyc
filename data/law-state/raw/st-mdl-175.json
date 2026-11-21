@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 175 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "175",
+    "title" : "Alcoves",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "175",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 175. Alcoves. 1. Every alcove, except a cooking space or foyer,\\nshall be deemed a living room and shall open into an immediately\\nadjoining living room which opens directly on a yard or street and in\\nbuildings not over two stories in height, such living room may open\\ndirectly on an outer court or on a court, not less than four feet in\\nwidth, extending from street to yard. Such an alcove shall be separately\\nlighted and ventilated, and of such size as provided for other living\\nrooms, unless it has an opening at least thirty-two and one-half square\\nfeet or more in area opening into a living room immediately adjoining.\\n  2. No part of any room shall be enclosed or subdivided at any time,\\nwholly or in part, by a curtain, portiere, fixed or movable partition or\\nany other device unless each enclosed or subdivided part meets all of\\nthe requirements for a separate living room or a lawful alcove.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "174",
+      "title" : "Size of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "174",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "176",
+      "title" : "Cooking spaces",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "176",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

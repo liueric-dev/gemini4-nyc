@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 232-C in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "232-C",
+    "title" : "Holding over by a tenant after expiration of a term longer than one month; effect of acceptance of rent",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "232-C",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 232-c. Holding over by a tenant after expiration of a term longer\\nthan one month; effect of acceptance of rent. Where a tenant whose term\\nis longer than one month holds over after the expiration of such term,\\nsuch holding over shall not give to the landlord the option to hold the\\ntenant for a new term solely by virtue of the tenant's holding over. In\\nthe case of such a holding over by the tenant, the landlord may proceed,\\nin any manner permitted by law, to remove the tenant, or, if the\\nlandlord shall accept rent for any period subsequent to the expiration\\nof such term, then, unless an agreement either express or implied is\\nmade providing otherwise, the tenancy created by the acceptance of such\\nrent shall be a tenancy from month to month commencing on the first day\\nafter the expiration of such term.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "232-B",
+      "title" : "Notification to terminate monthly tenancy or tenancy from month to month outside the city of New York",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-10-18" ],
+      "docLevelId" : "232-B",
+      "activeDate" : "2019-10-18"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "233",
+      "title" : "Manufactured home parks; duties, responsibilities",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-04-19", "2019-06-28", "2019-07-19", "2021-04-23" ],
+      "docLevelId" : "233",
+      "activeDate" : "2021-04-23"
+    }
+  }
+}

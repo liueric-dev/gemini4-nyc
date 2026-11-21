@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 28: New York City Construction Codes > Chapter 11: The New York City Electrical Code > Chapter 11: The New York City Electrical Code > Article 1101: Enactment and Update of the New York City Electrical Code > 84.4 Validity of permit.
+
+84.4 Validity of permit.
+The issuance or granting of a permit shall not be construed to be a permit for, or an approval of, any violation of any of the provisions of this code or of any other law. Permits presuming to give authority to violate or cancel the provisions of this code or other law shall not be valid. The issuance of a permit based on construction documents and other data shall not prevent the commissioner from requiring the correction of errors in the construction documents and other data. The commissioner is also authorized to prevent occupancy or use of a structure where in violation of this code or of any other law.

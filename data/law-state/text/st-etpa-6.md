@@ -1,0 +1,349 @@
+Emergency Tenant Protection Act 576/74 (Open Legislation law id ETP, Chapter 1974) > § 6 Regulation of rents
+
+Source: https://legislation.nysenate.gov/api/3/laws/ETP/6 | Open Legislation activeDate: 2024-10-18 | published versions: 2014-09-22, 2015-06-26, 2015-07-03, 2019-06-28, 2021-12-24, 2022-11-25, 2024-05-03, 2024-10-18
+
+  § 6. Regulation of rents. a. Notwithstanding the provisions of any
+lease or other rental agreement, no owner shall, on or after the first
+day of the first month or other rental period following a declaration of
+emergency pursuant to section three, which date shall be referred to in
+this act as the local effective date, charge or collect any rent in
+excess of the initial legal regulated rent or adjusted initial legal
+regulated rent until such time as a different legal regulated rent shall
+be authorized pursuant to guidelines adopted by a rent guidelines board
+pursuant to section four.
+  b. The initial legal regulated rents for housing accommodations in a
+city having a population of less than one million or a town or village
+as to which a declaration of emergency has been made pursuant to this
+act shall be:
+  (1) For housing accommodations subject to the emergency housing rent
+control law which become vacant on or after the local effective date of
+this act, the rent agreed to by the landlord and the tenant and reserved
+in a lease or provided for in a rental agreement; provided that such
+initial legal regulated rent may be adjusted on application of the owner
+or tenant pursuant to subdivision a of section nine of this act; and
+provided further that no increase of such initial regulated rent
+pursuant to annual guidelines adopted by the rent guidelines board shall
+become effective until the expiration of the first lease or rental
+agreement taking effect after the local effective date, but in no event
+before one year from the commencement of such rental agreement.
+  (2) For all other housing accommodations, the rent reserved in the
+last effective lease or other rental agreement; provided that an initial
+rent based upon the rent reserved in a lease or other rental agreement
+which became effective on or after January first, nineteen hundred
+seventy-four may be adjusted on application of the tenant pursuant to
+subdivision b of section nine of this act or on application of either
+the owner or tenant pursuant to subdivision a of such section; and
+further provided that if a lease is entered into for such housing
+accommodations after the local effective date, but before the effective
+date of the first guidelines applicable to such accommodations, the
+lease may provide for an adjustment of rent pursuant to such guidelines,
+to be effective on the first day of the month next succeeding the
+effective date of such guidelines.
+  c. The initial legal regulated rents for housing accommodations in a
+city having a population of one million or more shall be the initial
+rent established pursuant to the New York city rent stabilization law of
+nineteen hundred sixty-nine as amended.
+  d. Provision shall be made pursuant to regulations under this act for
+individual adjustment of rents where:
+  (1) there has been a substantial modification or increase of dwelling
+space, or installation of new equipment or improvements or new furniture
+or furnishings, provided in or to a tenant's housing accommodation, on
+written informed tenant consent to the rent increase. In the case of a
+vacant housing accommodation, tenant consent shall not be required.
+Except as provided in subparagraph (B) of this paragraph, the increase
+in the legal regulated rent for the affected housing accommodation shall
+be one-one hundred sixty-eighth, in the case of a building with
+thirty-five or fewer housing accommodations or one-one hundred eightieth
+in the case of a building with more than thirty-five housing
+accommodations where such increase takes effect on or after the
+effective date of the chapter of the laws of two thousand nineteen that
+amended this paragraph, of the total actual cost incurred by the
+landlord up to an amount set forth in this paragraph in providing such
+reasonable and verifiable modification or increase in dwelling space,
+furniture, furnishings, or equipment, including the cost of installation
+but excluding finance charges and any costs that exceed reasonable costs
+established by rules and regulations promulgated by the division of
+housing and community renewal. Such rules and regulations shall include:
+(i) requirements for work to be done by licensed contractors and a
+prohibition on common ownership between the landlord and the contractor
+or vendor; and (ii) a requirement that the owner resolve within the
+dwelling space all outstanding hazardous or immediately hazardous
+violations of the Uniform Fire Prevention and Building Code (Uniform
+Code), New York City Fire Code, or New York City Building and Housing
+Maintenance Codes, if applicable. Provided further that an owner who is
+entitled to a rent increase pursuant to this paragraph shall not be
+entitled to a further rent increase based upon the installation of
+similar equipment, or new furniture or furnishings within the useful
+life of such new equipment, or new furniture or furnishings. Provided
+further that the recoverable costs incurred by the landlord, pursuant to
+this paragraph, shall be limited to an aggregate cost pursuant to the
+following:
+  (A) thirty thousand dollars that may be expended in a fifteen-year
+period beginning with the first individual apartment improvement on or
+after June fourteenth, two thousand nineteen, provided further that:
+  (1) if there is a tenant in place at the time the individual apartment
+improvement is undertaken, no costs incurred by the landlord shall be
+recoverable pursuant to this subparagraph unless the landlord obtains
+written tenant consent from the tenant in place at the time the
+individual apartment improvement was undertaken;
+  (2) increases to the legal regulated rent pursuant to this
+subparagraph shall be permanent; and
+  (3) the thirty thousand dollars may be expended, in the aggregate, on
+any number of separate individual apartment improvements in a
+fifteen-year period, but in no event shall costs above thirty thousand
+dollars be recoverable in a fifteen-year period pursuant to this
+subparagraph.
+  (B) fifty thousand dollars that may be expended in a fifteen-year
+period beginning with the first individual apartment improvement on or
+after June fourteenth, two thousand nineteen, pursuant to regulation,
+operational bulletin or such other guidance as the division of housing
+and community renewal may issue, provided further that:
+  (1) costs shall only be recoverable by a landlord pursuant to this
+subparagraph for an individual apartment improvement undertaken during a
+vacancy;
+  (2) costs shall only be recoverable by a landlord pursuant to this
+subparagraph for an individual apartment improvement if (i) the
+apartment was timely registered as vacant by no later than the
+thirty-first of December in each of two thousand twenty-two, two
+thousand twenty-three, and two thousand twenty-four, provided that a
+landlord may recover costs on this basis no more than once, or (ii) if
+the apartment is vacant following a period of continuous occupancy of at
+least twenty-five years that occurred immediately prior to the
+commencement of such individual apartment improvement;
+  (3) costs shall only be recoverable by a landlord pursuant to this
+subparagraph if such landlord has received prior certification to
+recover costs pursuant to this subparagraph from the division of housing
+and community renewal based on establishing that the landlord satisfies
+one of the eligibility criteria delineated in clause two of this
+subparagraph, provided further that such certification shall not be
+deemed as evidence that the work performed or costs claimed for the
+individual apartment improvement was substantiated or to otherwise act
+as a defense in any subsequent rent overcharge proceeding,
+determination, or audit;
+  (4) increases to the legal regulated rent pursuant to this
+subparagraph shall be permanent;
+  (5) the increase in the legal regulated rent for the affected housing
+accommodation shall be one-one hundred forty-fourth, in the case of a
+building with thirty-five or fewer housing accommodations or one-one
+hundred fifty-sixth in the case of a building with more than thirty-five
+housing accommodations where such increase takes effect on or after the
+effective date of the chapter of the laws of two thousand twenty-four
+that amended this paragraph, of the total actual cost incurred by the
+landlord up to fifty thousand dollars in providing such reasonable and
+verifiable modification or increase in dwelling space, furniture,
+furnishings, or equipment, including the cost of installation but
+excluding finance charges and any costs that exceed reasonable costs
+established by rules and regulations promulgated by the division of
+housing and community renewal;
+  (6) costs shall only be recoverable by a landlord pursuant to this
+subparagraph for an individual apartment improvement if, immediately
+prior to undertaking such individual apartment improvement, the landlord
+submits to the division of housing and community renewal any evidence
+that the division of housing and community renewal deems necessary and
+requests pursuant to regulation, operational bulletin or other guidance,
+demonstrating that the improvement was necessitated by a sub-standard
+condition or exceeding its useful life immediately prior to the
+landlord's work to improve the unit and the landlord's planned work to
+improve the unit. Such evidence shall include, but shall not be limited
+to, photos of any areas, aspects or appliances in the apartment that
+will be improved, and any necessary permits required to undertake the
+improvements;
+  (7) costs shall only be recoverable by a landlord pursuant to this
+subparagraph for an individual apartment improvement if, immediately
+subsequent to undertaking the individual apartment improvement, the
+landlord submits to the division of housing and community renewal any
+evidence that the division of housing and community renewal deems
+necessary and requests pursuant to regulation, operational bulletin or
+other guidance, evidence of the completed work. Such evidence shall
+include, but shall not be limited to, photographs of the completed work,
+itemized receipts for all parts, materials, appliances, and labor costs,
+and proof of payment. Provided further, the division of housing and
+community renewal shall require the payment of a fee that equals one
+percent of the amount claimed for the individual apartment improvement
+at the time of such filing;
+  (8) for costs recoverable pursuant to item (ii) of clause two of this
+subparagraph, the fifty thousand dollars may be expended, in the
+aggregate, on any number of separate individual apartment improvements
+in a fifteen-year period, but in no event shall costs above fifty
+thousand dollars be recoverable in a fifteen-year period pursuant to
+this subparagraph;
+  (9) the division of housing and community renewal may perform an audit
+of any individual apartment improvement conducted pursuant to this
+subparagraph to determine whether the individual apartment improvement
+was undertaken in the manner described and to the extent claimed by the
+landlord, whether the costs claimed were substantiated by records, and
+whether the rent was properly adjusted. Such audit may incorporate an
+inspection of the accommodation at bar. The landlord and the tenant
+living in the accommodation may participate in such audit. In the event
+the audit finds that the recoverable costs claimed by the landlord
+cannot be substantiated, the resulting overcharge shall be considered to
+be willful. In addition, the division of housing and community renewal
+may issue any fines or penalties set forth in regulations;
+  (10) the division of housing and community renewal shall perform
+random on-site inspections, as it deems necessary, for any unit for
+which the owner seeks to recover costs pursuant to this subparagraph;
+and
+  (11) no owner shall be eligible for the rent increase based on
+individual apartment improvements pursuant to this subparagraph if,
+within the five year period prior to filing such individual apartment
+improvement, any unit within any building owned by any owner of the
+building in which the unit for which the owner seeks an individual
+apartment improvement is located, including but not limited to partial
+or beneficial owners, has been the subject of an award or determination
+by the division of housing and community renewal or a court of competent
+jurisdiction for treble damages due to an overcharge or the owner of the
+building in which the unit is located has been the subject of an award
+or determination by the division of housing and community renewal or a
+court of competent jurisdiction for harassment of any tenants, provided
+that such owner shall provide an affidavit confirming such owner's
+eligibility under this clause to the division of housing and community
+renewal at the same time as, and in addition to, any other materials the
+division of housing and community renewal shall require an owner to
+submit pursuant to clause six of this subparagraph, and provided further
+that such affidavit shall not be deemed to be evidence of compliance
+with this clause or a defense in any subsequent rent overcharge
+proceeding, determination, or audit.
+  (2) there has been since January first, nineteen hundred seventy-four
+an increase in the rental value of the housing accommodations as a
+result of a substantial rehabilitation of the building or the housing
+accommodation therein which materially adds to the value of the property
+or appreciably prolongs its life, excluding ordinary repairs,
+maintenance, and replacements, or
+  (3) there has been since January first, nineteen hundred seventy-four
+a major capital improvement essential for the preservation, energy
+efficiency, functionality, or infrastructure of the entire building,
+improvement of the structure including heating, windows, plumbing and
+roofing, but shall not be for operation costs or unnecessary cosmetic
+improvements. An adjustment under this paragraph shall be in an amount
+sufficient to amortize the cost of the improvements pursuant to this
+paragraph over a twelve-year period for a building with thirty-five or
+fewer housing accommodations, or a twelve and one-half period for a
+building with more than thirty-five housing accommodations and shall be
+removed from the legal regulated rent thirty years from the date the
+increase became effective inclusive of any increases granted by the
+applicable rent guidelines board, for any determination issued by the
+division of housing and community renewal after the effective date of
+the chapter of the laws of two thousand nineteen that amended this
+paragraph. Temporary major capital improvement increases shall be
+collectable prospectively on the first day of the first month beginning
+sixty days from the date of mailing notice of approval to the tenant.
+Such notice shall disclose the total monthly increase in rent and the
+first month in which the tenant would be required to pay the temporary
+increase. An approval for a temporary major capital improvement increase
+shall not include retroactive payments. The collection of any increase
+shall not exceed two percent in any year from the effective date of the
+order granting the increase over the rent set forth in the schedule of
+gross rents, with collectability of any dollar excess above said sum to
+be spread forward in similar increments and added to the rent as
+established or set in future years. Upon vacancy, the landlord may add
+any remaining balance of the temporary major capital improvement
+increase to the legal regulated rent. Notwithstanding any other
+provision of the law, the collection of any rent increases for any
+renewal lease commencing on or after June 14, 2019, due to any major
+capital improvements approved on or after June 16, 2012 and before June
+16, 2019 shall not exceed two percent in any year for any tenant in
+occupancy on the date the major capital improvement was approved, or
+  (3-a) an application for a temporary major capital improvement
+increase has been filed, a tenant shall have sixty days from the date of
+mailing of a notice of a proceeding in which to answer or reply. The
+state division of housing and community renewal shall provide any
+responding tenant with the reasons for the division's approval or denial
+of such application; or
+  (4) an owner by application to the state division of housing and
+community renewal for increases in the rents in excess of the rent
+adjustment authorized by the rent guidelines board under this act
+establishes a hardship, and the state division finds that the rate of
+rent adjustment is not sufficient to enable the owner to maintain
+approximately the same ratio between operating expenses, including taxes
+and labor costs but excluding debt service, financing costs, and
+management fees, and gross rents which prevailed on the average over the
+immediate preceding five year period, or for the entire life of the
+building if less than five years, or
+  (5) as an alternative to the hardship application provided under
+paragraph four of this subdivision, owners of buildings acquired by the
+same owner or a related entity owned by the same principals three years
+prior to the date of application may apply to the division for increases
+in excess of the level of applicable guideline increases established
+under this law based on a finding by the commissioner that such
+guideline increases are not sufficient to enable the owner to maintain
+an annual gross rent income for such building which exceeds the annual
+operating expenses of such building by a sum equal to at least five
+percent of such gross rent. For the purposes of this paragraph,
+operating expenses shall consist of the actual, reasonable, costs of
+fuel, labor, utilities, taxes, other than income or corporate franchise
+taxes, fees, permits, necessary contracted services and non-capital
+repairs, insurance, parts and supplies, management fees and other
+administrative costs and mortgage interest. For the purposes of this
+paragraph, mortgage interest shall be deemed to mean interest on a bona
+fide mortgage including an allocable portion of charges related thereto.
+Criteria to be considered in determining a bona fide mortgage other than
+an institutional mortgage shall include; condition of the property,
+location of the property, the existing mortgage market at the time the
+mortgage is placed, the term of the mortgage, the amortization rate, the
+principal amount of the mortgage, security and other terms and
+conditions of the mortgage. The commissioner shall set a rental value
+for any unit occupied by the owner or a person related to the owner or
+unoccupied at the owner's choice for more than one month at the last
+regulated rent plus the minimum number of guidelines increases or, if no
+such regulated rent existed or is known, the commissioner shall impute a
+rent consistent with other rents in the building. The amount of hardship
+increase shall be such as may be required to maintain the annual gross
+rent income as provided by this paragraph. The division shall not grant
+a hardship application under this paragraph or paragraph four of this
+subdivision for a period of three years subsequent to granting a
+hardship application under the provisions of this paragraph. The
+collection of any increase in the rent for any housing accommodation
+pursuant to this paragraph shall not exceed six percent in any year from
+the effective date of the order granting the increase over the rent set
+forth in the schedule of gross rents, with collectability of any dollar
+excess above said sum to be spread forward in similar increments and
+added to the rent as established or set in future years. No application
+shall be approved unless the owner's equity in such building exceeds
+five percent of: (i) the arms length purchase price of the property;
+(ii) the cost of any capital improvements for which the owner has not
+collected a surcharge; (iii) any repayment of principal of any mortgage
+or loan used to finance the purchase of the property or any capital
+improvements for which the owner has not collected a surcharge; and (iv)
+any increase in the equalized assessed value of the property which
+occurred subsequent to the first valuation of the property after
+purchase by the owner. For the purposes of this paragraph, owner's
+equity shall mean the sum of (i) the purchase price of the property less
+the principal of any mortgage or loan used to finance the purchase of
+the property, (ii) the cost of any capital improvement for which the
+owner has not collected a surcharge less the principal of any mortgage
+or loan used to finance said improvement, (iii) any repayment of the
+principal of any mortgage or loan used to finance the purchase of the
+property or any capital improvement for which the owner has not
+collected a surcharge, and (iv) any increase in the equalized assessed
+value of the property which occurred subsequent to the first valuation
+of the property after purchase by the owner.
+  This subdivision shall apply to accommodations outside a city of one
+million or more.
+  e. Notwithstanding any contrary provisions of this act, on and after
+July first, nineteen hundred eighty-four the legal regulated rent shall
+be the rent registered pursuant to section twelve-a of this act subject
+to any modification imposed pursuant to this act.
+  f. Notwithstanding any inconsistent provision of law, rule,
+regulation, contract, agreement, lease or other obligation, no owner, in
+addition to the authorized collection of rent, shall demand, receive or
+retain a security deposit or advance payment which exceeds the rent of
+one month for or in connection with the use or occupancy of a housing
+accommodation by (i) any tenant who is sixty-five years of age or older
+for any lease or lease renewal entered into after July 1, 1996 or (ii)
+any tenant who is receiving disability retirement benefits or
+supplemental security income pursuant to the federal social security act
+for any lease or lease renewal entered into after July 1, 2002.
+  f-1. An owner, lessor or agent thereof shall be prohibited from
+assessing a lessee any fee, surcharge or other charges for legal
+services in connection with the operation or rental of a residential
+unit unless the owner, lessor or agent has the legal authority to do so
+pursuant to a court order. Legal services include, but are not limited
+to, court fees, legal representation, attorney fees, notary public
+charges, and administrative fees incurred by the owner, lessor or agent
+in connection with management of the building, including actions and
+proceedings in a court of law. Any agreement or assessment to the
+contrary shall be void as contrary to public policy.
+  g. No owner of a housing accommodation subject to the provisions of
+this section shall impose any surcharge for the installation and use of
+a tenant-installed air conditioner unit where the tenant pays for
+electric utility service.

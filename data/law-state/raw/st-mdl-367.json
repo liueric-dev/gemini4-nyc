@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 367 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "367",
+    "title" : "Effect of invalidity in part",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "367",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 367. Effect of invalidity in part. If any term, part, provision,\\narticle, section, subdivision or paragraph of this chapter shall be held\\nunconstitutional, or ineffective in whole or in part, then to the extent\\nthat it is not unconstitutional or ineffective, this chapter and such\\nterm, part, provision, article, section, subdivision or paragraph\\nthereof shall be in full force and effect; and such determination shall\\nnot be deemed to invalidate the remaining terms, parts, provisions,\\narticles, sections, subdivisions or paragraphs thereof.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A11" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A11",
+      "title" : "Laws Repealed; Saving Clauses; Effect",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "11",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "366",
+      "title" : "Saving clauses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "366",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

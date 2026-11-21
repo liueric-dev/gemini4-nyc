@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 227-D in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "227-D",
+    "title" : "Discrimination based on domestic violence status; prohibited",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2015-10-30", "2016-01-22" ],
+    "docLevelId" : "227-D",
+    "activeDate" : "2016-01-22",
+    "text" : "  § 227-d. Discrimination based on domestic violence status; prohibited.\\n1. Definitions. For the purposes of this section, a person is a\\n\"domestic violence victim\" and possesses \"domestic violence victim\\nstatus\" if such person is or has been, or is a parent accompanied by a\\nminor child or children who is or has been, in a situation in which such\\nperson or child is a victim of an act that would constitute a violent\\nfelony offense as enumerated in section 70.02 of the penal law, or a\\nfamily offense as enumerated in subdivision one of section eight hundred\\ntwelve of the family court act, and such act is alleged to have been\\ncommitted by a member of the same family or household, as defined in\\nsubdivision one of section eight hundred twelve of the family court act.\\n  2. Discrimination based on domestic violence victim status prohibited.\\n(a) No person, firm or corporation owning or managing any building used\\nfor dwelling purposes, or the agent of such person, firm or corporation,\\nshall, because of such person's or family member's domestic violence\\nvictim status, (1) refuse to rent a residential unit to any person or\\nfamily, when, but for such status, rental would not have been refused,\\n(2) discriminate in the terms, conditions, or privileges of any such\\nrental, when, but for such status, such discrimination would not have\\noccurred, or (3) print or circulate, or cause to be printed or\\ncirculated, any statement, advertisement or publication which expresses,\\ndirectly or indirectly, any limitation, specification, or\\ndiscrimination. A violation of this subdivision shall be a misdemeanor\\nand, on conviction thereof, shall be punished by a fine of not less than\\none thousand dollars and not more than two thousand dollars for each\\noffense; provided, however, that it shall be a defense that such person,\\nfirm, corporation or agent refused to rent a residential unit on any\\nother lawful ground.\\n  (b) (1) Where discriminatory conduct prohibited by this subdivision\\nhas occurred, such person or family shall have a cause of action in any\\ncourt of appropriate jurisdiction for compensatory and punitive damages,\\nwith such punitive damages not exceeding two thousand dollars for each\\noffense, and declaratory and injunctive relief; and (2) in all actions\\nbrought under this section, reasonable attorneys' fees as determined by\\nthe court may be awarded to a prevailing party, provided, however, that\\na prevailing defendant in order to recover such reasonable attorneys'\\nfees must make a motion requesting such fees and show that the action or\\nproceeding brought was frivolous. In order to find the action or\\nproceeding to be frivolous, the court must find one or more of the\\nfollowing: (i) the action was commenced, used or continued in bad faith,\\nsolely to delay or prolong the resolution of the litigation or to harass\\nor maliciously injure another; or (ii) the action was commenced or\\ncontinued in bad faith without any reasonable basis and could not be\\nsupported by a good faith argument for an extension, modification or\\nreversal of existing law. If the action or proceeding was promptly\\ndiscontinued when the party or attorney learned or should have learned\\nthat the action or proceeding lacked such a reasonable basis, the court\\nmay find that the party or the attorney did not act in bad faith.\\n  (c) Nothing in this section shall be construed as limiting the ability\\nof a person, firm or corporation owning or managing a building used for\\ndwelling purposes, or the agent of such person, firm or corporation,\\nfrom applying reasonable standards not based on or derived from domestic\\nviolence victim status in determining the eligibility of a person or\\nfamily seeking to rent a residential unit.\\n  (d) This section shall not apply to buildings used for dwelling\\npurposes that are owner occupied and have two or fewer residential\\nunits.\\n  3. A person, firm, or corporation owning or managing a building used\\nfor dwelling purposes or agent of such person, firm or corporation shall\\nnot be civilly liable to other tenants, guests, invitees, or licensees\\narising from reasonable and good faith efforts to comply with this\\nsection.\\n  4. Nothing in this section shall be construed as prohibiting a person,\\nfirm or corporation owning or managing a building used for dwelling\\npurposes, or the agent of such person, firm or corporation, from:\\n  (a) providing or preserving a rental preference in any public or\\nprivate housing for victims of domestic violence;\\n  (b) providing any other assistance to victims of domestic violence in\\nobtaining or retaining any public or private housing; or\\n  (c) responding to an inquiry or request by an applicant, tenant, or\\nleaseholder who is a victim of domestic violence.\\n  5. Nothing in this section shall be construed as prohibiting a\\nmunicipality from retaining or promulgating local laws or ordinances\\nimposing additional or enhanced protections prohibiting discrimination\\nagainst victims of domestic violence.\\n  6. Nothing in this section shall be construed as limiting,\\ndiminishing, or otherwise affecting any rights under existing law.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "227-C",
+      "title" : "Termination of residential lease by victims of domestic violence",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-12-27" ],
+      "docLevelId" : "227-C",
+      "activeDate" : "2019-12-27"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "227-E",
+      "title" : "Landlord duty to mitigate damages",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28" ],
+      "docLevelId" : "227-E",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

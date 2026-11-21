@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 796 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "796",
+    "title" : "Definitions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+    "docLevelId" : "796",
+    "activeDate" : "2023-06-16",
+    "text" : "  § 796. Definitions. As used in this article:\\n  1. \"Owner\" means the owner or owners of the dwelling, mortgagee or\\nvendee in possession, assignee of rents, receiver, executor, trustee,\\nlessee, agent, or any other person or entity directly or indirectly in\\ncontrol of a dwelling, but shall not include a receiver appointed\\npursuant to section three hundred nine of the multiple dwelling law.\\n  2. \"Dwelling\" or \"premises\" means any building or structure or portion\\nthereof which is occupied in whole or in part as the home, residence or\\nsleeping place of one or more human beings and is either rented, leased,\\nlet or hired out, to be occupied as such, including, but not limited to,\\nan apartment building, a condominium, a townhouse, a single-family house\\nor a multiple-family residence building. \"Dwelling\" or \"premises\" shall\\nalso include premises zoned for mixed residential and commercial use,\\nprovided that a portion of such premises are, in fact, occupied by one\\nor more tenants for residential purposes.\\n  3. \"Commissioner\" means the commissioner, chief supervisor or chief\\nofficer of a department.\\n  4. \"Department\" means a department, agency or office.\\n  5. \"Municipality\" means a county, city, town or village.\\n  6. \"Person\" means an individual, partnership, corporation,\\nassociation, trust or other group or legal entity, however organized.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-C",
+      "title" : "Special Proceedings By Tenants of Dwellings For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2022-12-23", "2023-01-06", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2023-06-16"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-A",
+      "title" : "Jurisdiction; court; venue",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-A",
+      "activeDate" : "2023-06-16"
+    }
+  }
+}

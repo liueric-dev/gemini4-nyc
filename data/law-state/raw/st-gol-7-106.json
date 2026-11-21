@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 7-106 in GOB law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "GOB",
+    "lawName" : "General Obligations",
+    "locationId" : "7-106",
+    "title" : "Money deposited or advanced for certain installations; waiver void",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "7-106",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 7-106. Money deposited or advanced for certain installations; waiver\\nvoid. 1. Whenever any non-public moneys shall be deposited or advanced\\nby the owner of an occupied residential dwelling on a contract for the\\ninstallation of a private connection to a public sewer line as security\\nfor payments or to be applied to payments upon such contract when due,\\nsuch money, with interest accruing thereon, if any, until repaid or so\\napplied, shall continue to be the money of the person making such\\ndeposit or advance and shall be a trust fund in the possession of the\\nperson with whom such deposit or advance shall be made and shall be\\ndeposited in a bank, trust company, savings bank, savings and loan\\nassociation, federal savings and loan association or federal mutual\\nsavings bank and shall not be mingled with other funds or become an\\nasset of such trustee.\\n  2. Any provision of a contract whereby a person who has deposited or\\nadvanced money on a contract for the installation of a private\\nconnection to a public sewer line as security for payments or to be\\napplied to payments upon such contract when due waives any provision of\\nthis section is absolutely void.\\n",
+    "parentLocationIds" : [ "-CH24-A", "A7", "A7T1" ],
+    "parents" : [ {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "-CH24-A",
+      "title" : "General Obligations",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2017-10-27", "2019-12-13", "2021-04-09", "2026-07-24" ],
+      "docLevelId" : "24-A",
+      "activeDate" : "2026-07-24"
+    }, {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "A7",
+      "title" : "Obligations Relating to Property Received As Security",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "A7T1",
+      "title" : "Money Deposited As Security to Be Held In Trust In Certain Cases",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2025-11-21" ],
+      "docLevelId" : "1",
+      "activeDate" : "2025-11-21"
+    } ],
+    "prevSibling" : {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "7-105",
+      "title" : "Landlord failing to turn over deposits made by tenants or licensees and to notify tenants or licensees thereof in certain cases",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-105",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "7-107",
+      "title" : "Deposits made by tenants of rent stabilized dwelling units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2025-10-17", "2025-11-21" ],
+      "docLevelId" : "7-107",
+      "activeDate" : "2025-11-21"
+    }
+  }
+}

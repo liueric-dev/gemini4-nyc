@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 233-B in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "233-B",
+    "title" : "Manufactured home parks; rent increases",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2019-06-28", "2019-07-19", "2019-12-20" ],
+    "docLevelId" : "233-B",
+    "activeDate" : "2019-12-20",
+    "text" : "  * § 233-b. Manufactured home parks; rent increases. 1. The provisions\\nof this section shall apply to all manufactured homes located in a\\nmanufactured home park as defined in section two hundred thirty-three of\\nthis article, however manufactured homes located in manufactured home\\nparks that are subject to a regulatory agreement with a governmental\\nentity to preserve affordable housing or that otherwise limits rent\\nincreases are exempt from the provisions of this section.\\n  2. Increases in rent shall not exceed a three percent increase above\\nthe rent since the current rent became effective. In this section, rent\\nshall mean all costs, including all rent, fees, charges, assessments,\\nand utilities. Notwithstanding the above, a manufactured home park owner\\nis permitted to increase the rent in excess of three percent above the\\nrent since the current rent became effective, due to:\\n  (a) Increases in the manufactured home park owner's operating\\nexpenses.\\n  (b) Increases in the manufactured home park owner's property taxes on\\nsuch park.\\n  (c) Increases in costs which are directly related to capital\\nimprovements in the park.\\n  3. An increase above three percent may be challenged by an aggrieved\\nmanufactured homeowner as unjustified. Multiple aggrieved manufactured\\nhomeowners may join in the same action where there is a common question\\nof law and fact.\\n  4. Within ninety days of the proposed increase, an aggrieved\\nmanufactured homeowner may challenge such increase by filing an action\\nin the court of appropriate subject matter jurisdiction where the real\\nproperty is located seeking a declaratory judgment that the rent\\nincrease is unjustifiable.\\n  5. In any proceeding under this section there shall be an irrebuttable\\npresumption that a rent increase is justifiable when the amount of such\\nincrease does not exceed the tenant's pro-rata share in operating costs\\nand property taxes for the manufactured home park in which the\\nmanufactured home owner resides.\\n  6. (a) In determining whether a rent increase is permissible, the\\ncourt shall consider the provisions of paragraphs (a), (b) and (c) of\\nsubdivision two of this section. Notwithstanding the above, rent\\nincreases shall not exceed six percent above the rent since the current\\nrent became effective, except upon the approval of a temporary hardship\\napplication by the court. In addition to the provisions of this\\nparagraph and paragraphs (b) and (c) of this subdivision the court shall\\ntake into account the following factors when determining whether to\\ngrant a temporary hardship application:\\n  (i) The amount of increase being sought by the park owners;\\n  (ii) The ability of the manufactured home owner to pay such increase\\nincluding whether the increase would have an unreasonable adverse impact\\non the manufactured home owner;\\n  (iii) The amount of time and notice the manufactured home owner may\\nneed in order to pay a temporary rent increase;\\n  (iv) The duration the park owners intend for the temporary rent\\nincrease to last;\\n  (v) The cause of the hardship the rent increase is being requested to\\nalleviate, including whether the hardship was due to owner negligence\\nand malfeasance;\\n  (vi) The ability of the park owners to utilize other means besides a\\nrent increase to alleviate said hardship;\\n  (vii) The likelihood that the property the manufactured home park is\\nlocated on will go into foreclosure if a temporary rent increase above\\nsix percent is not granted;\\n  (viii) Any other factor that will jeopardize the ability of the park\\nto legally operate.\\n  (b) A court order approving a temporary hardship application shall\\nstate for each manufactured home owner:\\n  (i) The amount of the rent increase;\\n  (ii) The date the rent increase is to take effect;\\n  (iii) The date the increase is to end;\\n  (iv) The amount the rent will return to; and\\n  (v) The court's findings as to the factors necessitating a temporary\\nincrease.\\n  (c) Upon a finding by the court that the manufactured home park should\\nbe granted a hardship exemption, the amount of any rent increase shall\\nbe the minimum amount to alleviate the hardship. An order granting a\\ntemporary rent increase shall not exceed six months. The order must be\\nserved on the manufactured home owners and all known legal tenants\\npursuant to the rules of civil procedure within thirty days of the court\\norder, the cost of which shall be on the manufactured home park owner.\\n  7. The court may condition its approval of any rent increase upon the\\nredress of conditions in the manufactured home park which threaten the\\nhealth and safety of the manufactured home tenant.\\n  8. While a challenge to a rent increase pursuant to this section is\\npending, manufactured home park tenants shall pay the amount of the rent\\nincrease to the manufactured home park owner who shall hold such amounts\\nin escrow pending a mediated agreement between the parties or a final\\ndecision from the courts, provided, however, that no manufactured home\\npark tenant shall be evicted for non-payment of the rent increase prior\\nto the final disposition of the matter by the court in the county where\\nthe manufactured home park is located. Failure by the manufactured home\\npark owner to place such challenged rent increase in escrow shall be\\npunishable by a civil penalty of not more than five hundred dollars. If\\nthe petitioners appeal, the manufactured home park owner may remove the\\nrent increase funds from escrow, mingle such funds with any other funds,\\nand commence a nonpayment proceeding in the court of appropriate\\njurisdiction against a tenant who has not paid the increase of rent. If\\nthe court enters a final judgment declaring the rent increases or any\\npart thereof unjustifiable and impermissible, the manufactured home park\\nowner shall refund the amount of the impermissible increase to each\\ntenant household.\\n  * NB There are 2 § 233-b's\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "233-A",
+      "title" : "Sale of manufactured home parks",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19", "2023-10-27", "2024-04-26" ],
+      "docLevelId" : "233-A",
+      "activeDate" : "2024-04-26"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "233-B*2",
+      "title" : "Campgrounds",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-12-20", "2020-04-24" ],
+      "docLevelId" : "233-B*2",
+      "activeDate" : "2020-04-24"
+    }
+  }
+}

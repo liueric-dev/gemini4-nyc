@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 31 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "31",
+    "title" : "Size of rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "31",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 31. Size of rooms. 1. The provisions of this section, except\\nsubdivision six, shall apply only to multiple dwellings erected after\\nApril eighteenth, nineteen hundred twenty-nine, and shall apply to all\\nsuch dwellings unless otherwise expressly limited.\\n  2. Except as in this section and in section thirty-three otherwise\\nexpressly provided, rooms, except kitchens, water-closet compartments\\nand bathrooms, shall meet the following minimum requirements as to size:\\n  a. In each apartment in a class A multiple dwelling there shall be at\\nleast one living room containing at least one hundred thirty-two square\\nfeet of floor area.\\n  b. Every living room, except as provided in paragraph e, shall contain\\nat least eighty square feet of floor space.\\n  c. Every room shall be at least eight feet high, the measurements to\\nbe taken from the finished floor to the finished underside of the\\nceiling beams except that as many as four beams crossing the ceiling of\\nany basement room may be disregarded if none of them exceeds twelve\\ninches in width or extends below the ceiling more than six inches.\\n  d. Every living room shall be at least eight feet in its least\\nhorizontal dimension, except as provided in paragraph e and except that\\nany number of bedrooms up to one-half of the total number in any\\napartment containing three or more bedrooms may have a least horizontal\\ndimension of seven feet or more.\\n  e. A one-room apartment in a class B multiple dwelling may be as small\\nas sixty square feet in its floor area and six feet in its least\\ndimension.\\n  3. The requirements of this section with respect to the least\\nhorizontal dimension and the minimum area of rooms shall not be\\napplicable to any room in a fireproof class B multiple dwelling occupied\\nas a lodging house in which every apartment, other than one apartment\\noccupied exclusively by a person or persons engaged in the maintenance\\nor supervision of such multiple dwelling, consists of one room and in\\nwhich every such room opens directly upon a public hall.\\n  4. Dining bays with a floor area of fifty-five square feet or less\\nshall not be considered as rooms or alcoves and shall not be required to\\ncomply with the provisions of section thirty-two. Every such dining bay\\nshall be equipped with such appropriate permanent fittings as may be\\nrequired by the department and shall be provided with at least one\\nwindow opening directly upon a street or upon a lawful yard, court or\\nspace above a setback. Such window shall have an area of at least\\none-eighth of the floor area of such dining bay.\\n  5. A portion of any apartment used as an entrance hall to such\\napartment may be designated as a foyer. Such a foyer shall not be\\nconsidered a room if the department shall so permit and if either\\n  a. Its floor area does not exceed ten per centum of the total floor\\narea of such apartment, or\\n  b. Every room in such apartment exceeds in area the minimum required\\narea of such room by more than twenty per centum and the floor area of\\nsuch foyer does not exceed twenty per centum of the floor area of such\\napartment.\\n  6. a. Exept in class B dwellings and dormitories, no room shall be\\noccupied for sleeping purposes by more than two adults, considering\\nchildren of twelve years of age or more as adults and two children\\nbetween the ages of two and eleven years inclusive as the equivalent of\\none adult. Children under two years of age need not be considered as\\noccupants. No room shall have sleeping accomodations for more persons\\nthan can be accommodated in conformity with the provisions of this\\nsubdivision.\\n  b. Every room in every dwelling, whenever erected, shall have at least\\nfour hundred cubic feet of air for each adult, and two hundred cubic\\nfeet of air for each child occupying such room. Except in class B\\ndwellings, dormitories and except as otherwise provided in subdivision\\ntwo of section thirty-one or in section thirty-four for dwellings\\nerected after April eighteenth, nineteen hundred twenty-nine, and in\\nsections one hundred seventy-four, two hundred fourteen and two hundred\\nsixteen, every living room shall (1) contain sixty square feet or more\\nof floor space, (2) be at least six feet wide at its narrowest part, (3)\\nif a sleeping room, contain seventy-five square feet or more of floor\\nspace and (4) if less than seventy-five square feet in floor area, shall\\nnot be occupied by more than one adult.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "30",
+      "title" : "Lighting and ventilation of rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "30",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "32",
+      "title" : "Alcoves",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "32",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

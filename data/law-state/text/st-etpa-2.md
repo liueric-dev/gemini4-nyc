@@ -1,0 +1,32 @@
+Emergency Tenant Protection Act 576/74 (Open Legislation law id ETP, Chapter 1974) > § 2 Legislative finding
+
+Source: https://legislation.nysenate.gov/api/3/laws/ETP/2 | Open Legislation activeDate: 2019-06-28 | published versions: 2014-09-22, 2015-06-26, 2015-07-03, 2019-06-28
+
+  § 2. Legislative finding. The legislature hereby finds and declares
+that a serious public emergency continues to exist in the housing of a
+considerable number of persons in the state of New York, that such
+emergency necessitates the intervention of federal, state and local
+government in order to prevent speculative, unwarranted and abnormal
+increases in rents; that there continues to exist in many areas of the
+state an acute shortage of housing accommodations caused by continued
+high demand, attributable in part to new household formations and
+decreased supply, in large measure attributable to reduced availability
+of federal subsidies, and increased costs of construction and other
+inflationary factors; that a substantial number of persons residing in
+housing not presently subject to the provisions of this act or the
+emergency housing rent control law or the local emergency housing rent
+control act are being charged excessive and unwarranted rents and rent
+increases; that preventive action by the legislature continues to be
+imperative in order to prevent exaction of unjust, unreasonable and
+oppressive rents and rental agreements and to forestall profiteering,
+speculation and other disruptive practices tending to produce threats to
+the public health, safety and general welfare; that in order to prevent
+uncertainty, hardship and dislocation, the provisions of this act are
+necessary and designed to protect the public health, safety and general
+welfare; that the transition from regulation to a normal market of free
+bargaining between landlord and tenant, while the ultimate objective of
+state policy, must take place with due regard for such emergency; and
+that the policy herein expressed shall be subject to determination of
+the existence of a public emergency requiring the regulation of
+residential rents within any city, town or village by the local
+legislative body of such city, town or village.

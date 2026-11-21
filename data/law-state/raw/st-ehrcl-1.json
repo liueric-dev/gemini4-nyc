@@ -1,0 +1,38 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "1",
+    "title" : "Declaration and findings; termination",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2019-07-05" ],
+    "docLevelId" : "1",
+    "activeDate" : "2019-07-05",
+    "text" : " Chapter 274 of the laws of 1946 and as amended generally by chapter 337\\n         of the laws of 1961 Emergency housing rent control law\\n  Section 1. Declaration and findings; termination. 1. The legislature\\nhereby finds that a serious public emergency continues to exist in the\\nhousing of a considerable number of persons in the state of New York\\nwhich emergency was created by war, the effects of war and the aftermath\\nof hostilities; that such emergency necessitated the intervention of\\nfederal, state and local government in order to prevent speculative,\\nunwarranted and abnormal increases in rents; that there continues to\\nexist an acute shortage of dwellings; that unless residential rents and\\nevictions continue to be regulated and controlled, disruptive practices\\nand abnormal conditions will produce serious threats to the public\\nhealth, safety and general welfare; that to prevent such perils to\\nhealth, safety and welfare, preventive action by the legislature\\ncontinues to be imperative; that such action is necessary in order to\\nprevent exactions of unjust, unreasonable and oppressive rents and\\nrental agreements and to forestall profiteering, speculation and other\\ndisruptive practices tending to produce threats to the public health;\\nthat the transition from regulation to a normal market of free\\nbargaining between landlord and tenant, while still the objective of\\nstate policy, must be administered with due regard for such emergency;\\nthat in order to prevent uncertainty, hardship and dislocation, the\\nprovisions of this act are declared to be necessary and designed to\\nprotect the public health, safety and general welfare.\\n  2. The provisions of this act, and all regulations, orders and\\nrequirements thereunder shall remain in full force and effect\\nthereafter.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "2",
+      "title" : "Definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "2",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

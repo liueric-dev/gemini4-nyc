@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 172 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "172",
+    "title" : "Yards and courts",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "172",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 172. Yards and courts. 1. Except as provided in subdivision two,\\nthere shall be a yard thirteen feet or more in depth across the entire\\nlot in the rear of every converted dwelling, or an outer court three\\nfeet or more in width which alone or with any open space at the rear of\\nthe dwelling equals the required area of such a yard.\\n  2. On a corner lot there shall be a yard ten feet or more in depth\\nacross the entire lot. Such yard shall be thirteen feet or more in depth\\nfor any part of the yard which is more than sixty feet from any side\\nstreet bounding such lot. The provisions of this subdivision need not\\napply to a dwelling situated on a corner lot if (a) the required windows\\nof all living rooms in such a dwelling open directly upon a street (b)\\nthe height and bulk of the dwelling are not increased and (c) the bulk\\nof the dwelling above the first story is not increased.\\n  3. The bottom of a yard may be as high as but not above the second\\ntier of beams, provided the first story is used exclusively for business\\npurposes and there is no living room in or below the first story; and\\nprovided also that whenever any means of egress from the upper stories\\nopens into such yard, a portion of the yard ten feet or more in depth\\nand open from the ground up shall be maintained at the rear of any\\nextension of the dwelling.\\n  4. In the rear of every converted dwelling on a corner lot an\\nextension of the dwelling over the yard may be built up to the second\\ntier of beams, provided such extension does not obstruct any required\\nmeans of egress from the upper stories.\\n  5. Except as provided in subdivisions three and four, the required\\nyard or court and unoccupied space shall be open and unobstructed from\\nthe ground up.\\n  6. The restrictions of this section and those of subdivisions one and\\ntwo of section one hundred seventy-one in regard to bulk and volume\\nshall not apply to extensions erected before April thirteenth, nineteen\\nhundred forty, in conformity with the provision of a local zoning\\nresolution which restricted bulk and volume.\\n  7. Nothing in this section shall be deemed to permit extensions in the\\nyards or courts of any converted dwelling, or to permit business or\\ncommercial uses therein, which may be contrary to any local zoning law,\\nordinance or regulation.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "173",
+      "title" : "Windows in rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "173",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

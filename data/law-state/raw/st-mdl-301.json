@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 301 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "301",
+    "title" : "Certificate of compliance or occupancy",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-06-10" ],
+    "docLevelId" : "301",
+    "activeDate" : "2022-06-10",
+    "text" : "  § 301. Certificate of compliance or occupancy. 1. No multiple dwelling\\nshall be occupied in whole or in part until the issuance of a\\ncertificate by the department that said dwelling conforms in all\\nrespects to the requirements of this chapter, to the building code and\\nrules and to all other applicable law, except that no such certificate\\nshall be required in the case of:\\n  a. Any class B multiple dwelling existing on April eighteenth,\\nnineteen hundred twenty-nine, for which a certificate of occupancy was\\nnot required before such date and in which no changes or alterations\\nhave been made except in compliance with this chapter, and\\n  b. Any old-law tenement, or any class A multiple dwelling erected\\nafter April twelfth, nineteen hundred one, which was occupied for two\\nyears immediately before January first, nineteen hundred nine, and in\\nwhich no changes or alterations have been made except in compliance with\\nthe tenement house law or this chapter, or wherein:\\n  (1) two or more apartments are combined creating larger residential\\nunits, and\\n  (2) the total legal number of families within the building is being\\ndecreased, and\\n  (3) the bulk of the buildings is not being increased\\n  These exceptions shall not be deemed to relieve any owner from the\\nobligation to make every alteration required in any old-law tenement or\\nother multiple dwelling in compliance with the applicable provisions of\\nthis chapter.\\n  2. Except as above provided, no dwelling constructed as or altered or\\nconverted into a multiple dwelling after April eighteenth, nineteen\\nhundred twenty-nine, shall be occupied in whole or in part until the\\nissuance of a certificate of compliance or occupancy.\\n  3. Such certificate shall be issued within ten days after written\\napplication therefor if the dwelling shall be entitled thereto. The\\ndepartment shall, on request of the owner or of his certified agent,\\nissue a certificate of compliance or occupancy for any existing multiple\\ndwelling not requiring such certificate, provided that, after an\\ninspection by the department, no violations are found against such\\ndwelling.\\n  4. The head of the department may, on the request of the owner or his\\ncertified agent, issue a temporary certificate of compliance or\\noccupancy for a multiple dwelling or a section or a part thereof for a\\nperiod of ninety days or less, provided that such certificate shall bear\\nthe endorsement that the dwelling has been inspected by the department\\nand complies with all the requirements of this chapter, and that such\\ntemporary occupancy will not jeopardize life, health or property. Such\\ntemporary certificate may be renewed at the discretion of the head of\\nthe department for similar periods but shall not extend, together with\\nsuch renewals, beyond a total period of two years from the date of its\\noriginal issuance.\\n  5. A certificate, a record in the department, or a statement signed by\\nthe head of the department that a certificate has been issued, may be\\nrelied upon by every person who in good faith purchases a multiple\\ndwelling or who in good faith lends money upon the security of a\\nmortgage covering such a dwelling. Whenever any person has so relied\\nupon such a certificate, no claim that such dwelling had not, prior to\\nthe issuance of such certificate, conformed in all respects to the\\nprovisions of this chapter shall be made against such person or against\\nthe interest of such person in a multiple dwelling to which such a\\ncertificate applies or concerning which such a statement has been\\nissued.\\n  6. Notwithstanding any general or local law to the contrary, a\\ncertificate issued for any multiple dwelling organized pursuant to the\\nprovisions of article nine-B of the real property law, shall be deemed\\nissued for each dwelling unit contained within such multiple dwelling in\\nfull compliance with the requirements of this section.\\n  7. a. Any certificate by the department authorizing occupancy of a\\ndwelling as a Class B hotel shall also authorize occupancy of units in\\nsuch dwelling for permanent residence purposes notwithstanding any\\nprovision of this chapter or of any state law, local law, ordinance,\\nresolution or regulation that would otherwise prohibit such occupancy,\\nrequire a change or alteration to the dwelling, or require a new or\\namended certificate, provided that: (1) such occupancy for permanent\\nresidence purposes shall be subject to the approval of the local housing\\nagency in its discretion; (2) a portion of such dwelling shall be\\nlocated within a district that under the local zoning regulations or\\nordinances permits residential uses or within four hundred feet of such\\na district, and such dwelling shall not be located in an industrial\\nbusiness zone established pursuant to chapter six-D of title twenty-two\\nof the administrative code of the city of New York; (3) in the case of a\\nproperty at which any hotel workers are represented by a collective\\nbargaining representative, prior to the proposed conversion of such\\nproperty to occupancy for permanent residence purposes, the collective\\nbargaining representative shall be notified in writing of the proposed\\nconversion, and the property owner shall certify prior to the local\\nhousing agency approving such occupancy that the collective bargaining\\nrepresentative has mutually agreed in a separate writing with the\\nproperty owner to undertake the specific conversion described in the\\nwritten notice; and (4) such dwelling shall meet the conditions in\\nparagraph b of this subdivision. Alterations to the configuration of any\\nsuch units shall be permitted and shall comply with any applicable\\nrequirements of any state law, local law, ordinance, resolution or\\nregulation relating to Class B hotels. If occupancy for permanent\\nresidence purposes is authorized under the provisions of this\\nsubdivision within a district where the local zoning regulations or\\nordinances would not otherwise permit such use, the residential tenants\\nshall be notified of the district's zoning.\\n  b. Occupancy of units in a dwelling shall not be authorized under the\\nprovisions of paragraph a of this subdivision unless such units are (1)\\nfinanced by the state pursuant to and in compliance with the provisions\\nof article thirty-one of the private housing finance law; or (2)\\npurchased, acquired, or financed by a local housing agency, for the\\npurpose of creating supportive and/or affordable housing to be operated\\nby an appropriate nonprofit organization pursuant to a regulatory\\nagreement or contract with such local agency for low-income households\\nor people experiencing homelessness immediately prior to entering such\\nhousing, where tenants shall earn no more than sixty percent of the area\\nmedian income and all units are rent stabilized and subject to permanent\\naffordability restrictions. For purposes of this paragraph, \"appropriate\\nnonprofit organization\", \"affordable housing\", \"experiencing\\nhomelessness\", \"rent stabilized\", and \"permanent affordability\\nrestrictions\" shall have the same meaning as defined in article\\nthirty-one of the private housing finance law.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "300",
+      "title" : "Permits",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "300",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302",
+      "title" : "Unlawful occupation",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

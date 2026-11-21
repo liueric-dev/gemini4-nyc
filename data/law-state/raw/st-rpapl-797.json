@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 797 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "797",
+    "title" : "Jurisdiction; courts; venue",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-10", "2023-03-17", "2024-01-05" ],
+    "docLevelId" : "797",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 797. Jurisdiction; courts; venue. 1. Except as prohibited under\\nsubdivision three of this section, a special proceeding for judgment\\ndirecting repairs of conditions and other relief in residential real\\nproperty constituting violation of applicable local and state housing\\nstandards or section two hundred thirty-five-b of the real property law\\nmay be maintained in a county court, justice court, district court, or\\ncity court.\\n  2. The place of trial of the special proceeding shall be within the\\njurisdictional area of the court in which the residential real property\\nor a portion thereof is situated.\\n  3. A special proceeding pursuant to this article shall not be\\nmaintained in any court within the counties of Nassau, Suffolk,\\nRichmond, New York, Bronx, Kings or Queens.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-D",
+      "title" : "Special Proceedings By Tenants For Judgment Directing Repairs of Conditions and Other Relief In Residential Real Property Constituting Violation of Applicable Local or State Housing Standards or Real Property Law §",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-01-05"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-A",
+      "title" : "Person who may maintain proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-A",
+      "activeDate" : "2024-01-05"
+    }
+  }
+}

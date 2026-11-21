@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 9 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "9",
+    "title" : "Application for adjustment of initial legal regulated rent",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "9",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 9. Application for adjustment of initial legal regulated rent. a.\\nThe owner or tenant of a housing accommodation described in paragraph\\none or two of subdivision b of section six may, within sixty days of the\\nlocal effective date of this act or the commencement of the first\\ntenancy thereafter, whichever is later, file with the state division of\\nhousing and community renewal an application for adjustment of the\\ninitial legal regulated rent for such housing accommodation. The state\\ndivision of housing and community renewal may adjust such initial legal\\nregulated rent upon a finding that the presence of unique or peculiar\\ncircumstances materially affecting the initial legal regulated rent has\\nresulted in a rent which is substantially different from the rents\\ngenerally prevailing in the same area for substantially similar housing\\naccommodations.\\n  b. The tenant of a housing accommodation described in paragraph two,\\nsubdivision b, of section six may file with the state division of\\nhousing and community renewal, within ninety days after notice has been\\nreceived pursuant to subdivision c of this section, an application for\\nadjustment of the initial legal regulated rent for such housing\\naccommodation. Such tenant need only allege that such rent is in excess\\nof the fair market rent and shall present such facts which, to the best\\nof his information and belief, support such allegation. The rent\\nguidelines board shall promulgate as soon as practicable after its\\ncreation guidelines for the determination of fair market rents for\\nhousing accommodations as to which an application may be made pursuant\\nto this subdivision. In rendering a determination on an application\\nfiled pursuant to this subdivision b, the state division of housing and\\ncommunity renewal shall be guided by such guidelines. Where the state\\ndivision of housing and community renewal has determined that the rent\\ncharged is in excess of the fair market rent it shall order a refund, of\\nany excess paid since January first, nineteen hundred seventy-four or\\nthe date of the commencement of the tenancy, whichever is later. Such\\nrefund shall be made by the landlord in cash or as a credit against\\nfuture rents over a period not in excess of six months.\\n  c. Upon receipt of any application filed pursuant to this section\\nnine, the state division of housing and community renewal shall notify\\nthe owner or tenant, as the case may be, and provide a copy to him of\\nsuch application. Such owner or tenant shall be afforded a reasonable\\nopportunity to respond to the application. A hearing may be held upon\\nthe request of either party, or the division may hold a hearing on its\\nown motion. The division shall issue a written opinion to both the\\ntenant and the owner upon rendering its determination.\\n  d. Within thirty days after the local effective date of this act the\\nowner of housing accommodations described in paragraph two of\\nsubdivision b of section six, as to which an emergency has been declared\\npursuant to this act, shall give notice in writing by certified mail to\\nthe tenant of each such housing accommodation on a form prescribed by\\nthe state division of housing and community renewal of the initial legal\\nregulated rent for such housing accommodation and of such tenant's right\\nto file an application for adjustment of the initial legal regulated\\nrent of such housing accommodation.\\n  e. The initial legal regulated rents for housing accommodations in a\\ncity having a population of one million or more shall be subject to\\nadjustment in accordance with the provisions of the New York city rent\\nstabilization law as amended.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "8",
+      "title" : "Administration",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2020-04-17" ],
+      "docLevelId" : "8",
+      "activeDate" : "2020-04-17"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "10",
+      "title" : "Regulations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "10",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

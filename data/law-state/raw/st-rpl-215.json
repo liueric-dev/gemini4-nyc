@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 215 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "215",
+    "title" : "Necessity for good cause",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-05-03" ],
+    "docLevelId" : "215",
+    "activeDate" : "2024-05-03",
+    "text" : "  * § 215. Necessity for good cause. No landlord shall, by action to\\nevict or to recover possession, by exclusion from possession, by failure\\nto renew any lease, or otherwise, remove any tenant from housing\\naccommodations covered by section two hundred fourteen of this article\\nexcept for good cause as defined in section two hundred sixteen of this\\narticle.\\n  * NB Repealed June 15, 2034\\n",
+    "parentLocationIds" : [ "-CH50", "A6-A" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A6-A",
+      "title" : "Good Cause Eviction Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "6-A",
+      "activeDate" : "2024-05-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "214",
+      "title" : "Covered housing accommodations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "214",
+      "activeDate" : "2024-05-03"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "216",
+      "title" : "Grounds for removal of tenants",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "216",
+      "activeDate" : "2024-05-03"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+Emergency Tenant Protection Act 576/74 (Open Legislation law id ETP, Chapter 1974) > § 4 Establishment of rent guidelines boards; duties
+
+Source: https://legislation.nysenate.gov/api/3/laws/ETP/4 | Open Legislation activeDate: 2026-02-06 | published versions: 2014-09-22, 2015-06-26, 2015-07-03, 2019-06-28, 2026-02-06
+
+  § 4. Establishment of rent guidelines boards; duties. a. In each
+county wherein any city having a population of less than one million or
+any town or village has determined the existence of an emergency
+pursuant to section three of this act, there shall be created a rent
+guidelines board to consist of nine members appointed by the
+commissioner of housing and community renewal upon recommendation of the
+county legislature, except that a rent guidelines board created
+subsequent to the effective date of the chapter of the laws of two
+thousand nineteen that amended this section shall consist of nine
+members appointed by the commissioner of housing and community renewal
+upon recommendations of the local legislative body of each city having a
+population of less than one million or town or village which has
+determined the existence of an emergency pursuant to section three of
+this act. Such recommendation shall be made within thirty days after the
+first local declaration of an emergency in such county; two such members
+shall be representative of tenants, two shall be representative of
+owners of property, and five shall be public members each of whom shall
+have had at least five years experience in either finance, economics or
+housing. One public member shall be designated by the commissioner to
+serve as chairman and shall hold no other public office. No member,
+officer or employee of any municipal rent regulation agency or the state
+division of housing and community renewal and no person who owns or
+manages real estate covered by this law or who is an officer of any
+owner or tenant organization shall serve on a rent guidelines board. One
+public member, one member representative of tenants and one member
+representative of owners shall serve for a term ending two years from
+January first next succeeding the date of their appointment; one public
+member, one member representative of tenants and one member
+representative of owners shall serve for terms ending three years from
+the January first next succeeding the date of their appointment and
+three public members shall serve for terms ending four years from
+January first next succeeding the dates of their appointment.
+Thereafter, all members shall serve for terms of four years each.
+Members shall continue in office until their successors have been
+appointed and qualified. The commissioner shall fill any vacancy which
+may occur by reason of death, resignation or otherwise in a manner
+consistent with the original appointment. A member may be removed by the
+commissioner for cause, but not without an opportunity to be heard in
+person or by counsel, in his defense, upon not less than ten days
+notice. Compensation for the members of the board shall be at the rate
+of one hundred dollars per day, for no more than twenty days a year,
+except that the chairman shall be compensated at the rate of one hundred
+twenty-five dollars a day for no more than thirty days a year. The board
+shall be provided staff assistance by the division of housing and
+community renewal. The compensation of such members and the costs of
+staff assistance shall be paid by the division of housing and community
+renewal which shall be reimbursed in the manner prescribed in section
+four of this act. The local legislative body of each city having a
+population of less than one million and each town and village in which
+an emergency has been determined to exist as herein provided shall be
+authorized to designate one person who shall be representative of
+tenants and one person who shall be representative of owners of property
+to serve at its pleasure and without compensation to advise and assist
+the county rent guidelines board in matters affecting the adjustment of
+rents for housing accommodations in such city, town or village as the
+case may be.
+  a-1. Notwithstanding the provisions of subdivision a of this section
+to the contrary, in each county that became subject to this act pursuant
+to the chapter of the laws of two thousand nineteen that amended this
+section, the commissioner shall reconstitute the existing rent
+guidelines board subsequent to any initial local declaration of
+emergency within such county for the purpose of ensuring representation
+of all cities having a population of less than one million and all towns
+and villages within such county having determined the existence of an
+emergency in accordance with this act are represented, pursuant to rules
+and regulations promulgated by the division of housing and community
+renewal.
+  b. A county rent guidelines board shall establish annual guidelines
+for rent adjustments which, at its sole discretion may be varied and
+different for and within the several zones and jurisdictions of the
+board, and in determining whether rents for housing accommodations as to
+which an emergency has been declared pursuant to this act shall be
+adjusted, shall consider among other things (1) the economic condition
+of the residential real estate industry in the affected area including
+such factors as the prevailing and projected (i) real estate taxes and
+sewer and water rates, (ii) gross operating maintenance costs (including
+insurance rates, governmental fees, cost of fuel and labor costs), (iii)
+costs and availability of financing (including effective rates of
+interest), (iv) over-all supply of housing accommodations and over-all
+vacancy rates, (2) relevant data from the current and projected cost of
+living indices for the affected area, (3) such other data as may be made
+available to it. As soon as practicable after its creation and
+thereafter not later than July first of each year, a rent guidelines
+board shall file with the state division of housing and community
+renewal its findings for the preceding calendar year, and shall
+accompany such findings with a statement of the maximum rate or rates of
+rent adjustment, if any, for one or more classes of accommodation
+subject to this act, authorized for leases or other rental agreements
+commencing during the next succeeding twelve months. The standards for
+rent adjustments may be applicable for the entire county or may be
+varied according to such zones or jurisdictions within such county as
+the board finds necessary to achieve the purposes of this subdivision. A
+rent guidelines board shall not establish annual guidelines for rent
+adjustments based on the current rental cost of a unit or on the amount
+of time that has elapsed since another rent increase was authorized
+pursuant to this chapter.
+  The standards for rent adjustments established annually shall be
+effective for leases commencing on October first of each year and during
+the next succeeding twelve months whether or not the board has filed its
+findings and statement of the maximum rate or rates of rent adjustment
+by July first of each year. If such lease is entered into before such
+filing by the board, it may provide for the rent to be adjusted by the
+rates then in effect, subject to change by the applicable rates of rent
+adjustment when filed, such change to be effective as of the date of the
+commencement of the lease. Said lease must provide that, if the new
+rates of rent adjustment differ for leases of different terms, the
+tenant has the option of changing the original lease term to any other
+term for which a rate of rent adjustment is set by the board, with the
+rental to be adjusted accordingly.
+  Where a city, town or village shall act to determine the existence of
+public emergency pursuant to section three of this act subsequent to the
+establishment of annual guidelines for rent adjustments of the
+accommodations subject to this act, the rent guidelines board as soon as
+practicable thereafter shall file its findings and rates of rent
+adjustment for leases or other rental agreements for the housing
+accommodations in such a city, town or village, which rates shall be
+effective for leases or other rental agreements commencing on or after
+the effective date of the determination.
+  c. In a city having a population of one million or more, the rent
+guidelines board shall be the rent guidelines board established pursuant
+to the New York city rent stabilization law of nineteen hundred
+sixty-nine as amended, and such board shall have the powers granted
+pursuant to the New York city rent stabilization law of nineteen hundred
+sixty-nine as amended.
+  d. Maximum rates of rent adjustment shall not be established more than
+once annually for any housing accommodation within a board's
+jurisdiction. Once established, no such rate shall, within the one-year
+period, be adjusted by any surcharge, supplementary adjustment or other
+modification.
+  e. Notwithstanding any other provision of this act, the adjustment for
+vacancy leases covered by the provisions of this act shall be determined
+exclusively pursuant to section ten of this act. Rent guidelines boards
+shall no longer promulgate adjustments for vacancy leases.

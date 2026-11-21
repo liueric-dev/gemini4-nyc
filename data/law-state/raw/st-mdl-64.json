@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 64 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "64",
+    "title" : "Lighting; gas meters; gas and oil appliances",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "64",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 64. Lighting; gas meters; gas and oil appliances. 1. Every multiple\\ndwelling after July first, nineteen hundred fifty-five, shall be\\nadequately equipped throughout all stories and cellars for lighting by\\ngas or electricity, with proper fixtures at every light outlet,\\nincluding lighting for all means of egress leading to the street, yards\\nor courts, and for every room, water-closet compartment, bathroom, stair\\nor public hall.\\n  2. No gas meter, other than a replacement meter, installed in a\\nmultiple dwelling after July first, nineteen hundred fifty-five, shall\\nbe located in any boiler room or other room or space containing a\\nheating boiler, nor in any stair hall, nor in any public hall above the\\ncellar or above the lowest story if there is no cellar, except that in\\nany multiple dwelling where there is an existing gas meter located in\\nany boiler room or other room or space containing a heating boiler, one\\nadditional gas meter may be installed in such room or space, provided\\nsuch additional gas meter is installed adjacent to such existing gas\\nmeter and is used in conjunction with the supply of gas for a gas-fired\\nheating boiler or a gas-fired water heater used as a central source of\\nsupply of heat or hot water for the tenants residing in such multiple\\ndwelling. Such additional gas meter may be installed only upon condition\\nthat space heaters or hot water appliances in the apartments are\\neliminated. For the purposes of this subdivision, the term \"gas meter\"\\nshall not include any instrument, device or apparatus used to measure\\nthe consumption of gas where no gas, manufactured, natural or mixed, is\\ncontained in or flows through such instrument, device or apparatus,\\nprovided that such instrument, device or apparatus is approved by and\\ninstalled under the supervision of the city agency vested by law with\\njurisdiction to inspect and test wiring and appliances for electric\\nlight, heat and power and provided further that the location of such\\ninstrument, device or apparatus is approved by the department.\\n  3. It shall be unlawful to place, use, or to maintain in a condition\\nintended, arranged or designed for use, any gas-fired cooking appliance,\\nlaundry stove, heating stove, range or water heater or combination of\\nsuch appliances in any room or space used for living or sleeping in any\\nnew or existing multiple dwelling unless such room or space has a window\\nopening to the outer air or such gas appliance is vented to the outer\\nair. All automatically operated gas appliances shall be equipped with a\\ndevice which shall shut off automatically the gas supply to the main\\nburners when the pilot light in such appliance is extinguished. A gas\\nrange or the cooking portion of a gas appliance incorporating a room\\nheater shall not be deemed an automatically operated gas appliance.\\nHowever, burners in gas ovens and broilers which can be turned on and\\noff or ignited by non-manual means shall be equipped with a device which\\nshall shut off automatically the gas supply to those burners when the\\noperation of such non-manual means fails. All gas appliances shall be\\nconnected directly to the gas supply by means of rigid piping or other\\napproved connectors or connections of incombustible materials. All such\\nautomatically operated gas appliances and devices shall be approved by\\nthe local agency empowered to grant the same.\\n  4. It shall be unlawful to use, or to maintain in a condition\\nintended, arranged or designed for use, in any multiple dwelling any\\noil-burning equipment for heating or cooking, unless such equipment has\\nbeen approved for design, manufacture and appropriate safety and\\nventilating requirements by the local board of standards and appeals;\\nprovided, however, that in a city having a population of one million or\\nmore, approval of such equipment for use in any multiple dwelling shall\\nbe made by the commissioner of buildings or the fire commissioner, as\\nappropriate, in accordance with local law.\\n  5. All appliances in use after June thirtieth, nineteen hundred\\nfifty-five, shall conform to the provisions of subdivisions three and\\nfour of this section except that appliances now in use shall conform to\\nsuch provisions not later than June thirtieth, nineteen hundred\\nfifty-six.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "63",
+      "title" : "Sub-curb uses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "63",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "65",
+      "title" : "Boiler rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "65",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

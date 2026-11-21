@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 13 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "13",
+    "title" : "Application of chapter to existing dwellings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "13",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 13. Application of chapter to existing dwellings. Any building\\nerected and occupied on or before April eighteenth, nineteen hundred\\ntwenty-nine, or thereafter, as a tenement, which is not recorded as such\\nin the department, shall be required to comply with all the provisions\\ngoverning dwellings of like class or kind erected after such date.\\nExcept as otherwise expressly required in this section and in sections\\nnine and twenty-five, subdivision six of section thirty-one, and\\nsections thirty-three, sixty-six and sixty-seven and in articles six and\\nseven, nothing in this chapter shall be construed to require any change\\nin the construction, use or occupancy of any multiple dwelling lawfully\\noccupied as such on April eighteenth, nineteen hundred twenty-nine,\\nunder the provisions of all local laws, ordinances, rules and\\nregulations applicable thereto on such date; but should the occupancy of\\nany such dwelling be changed to any other kind or class after such date,\\nsuch dwelling shall be required to comply with the provisions of section\\nnine.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A2",
+      "title" : "Miscellaneous Application Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-11-26" ],
+      "docLevelId" : "2",
+      "activeDate" : "2023-11-26"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "12",
+      "title" : "Prohibited uses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "12",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "14",
+      "title" : "Application of chapter to uncompleted dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "14",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

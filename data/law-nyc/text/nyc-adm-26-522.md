@@ -1,0 +1,7 @@
+# NYC Administrative Code > Title 26: Housing and Buildings > Chapter 5: Unlawful Eviction > § 26-522 Definitions.
+
+§ 26-522 Definitions.
+a. For the purpose of this chapter the following terms shall have the following meanings:
+(1) "Dwelling unit" means a dwelling unit as such term is defined in subdivision thirteen of section 27-2004 of the housing maintenance code.
+(2) "Owner" means an owner as defined in section 27-2004 of the housing maintenance code.
+b. For the purposes of this chapter a "person" shall not include a government employee acting within the scope of employment.

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 746 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "746",
+    "title" : "Stipulations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2021-12-31", "2022-04-01" ],
+    "docLevelId" : "746",
+    "activeDate" : "2022-04-01",
+    "text" : "  § 746. Stipulations. 1. In any proceeding under this article, if a\\nstipulation is made, on the occasion of a court appearance in the\\nproceeding, setting forth an agreement between the parties, other than a\\nstipulation solely to adjourn or stay the proceeding, and either the\\npetitioner or the respondent is not represented by counsel, the court\\nshall fully describe the terms of the stipulation to that party on the\\nrecord.\\n  2. No stipulation required to be on the record by subdivision one of\\nthis section may be approved by the court unless the court first\\nconducts an allocution on the record that shall, at a minimum, find the\\nfollowing:\\n  (a) the identity of the parties and whether all necessary parties have\\nbeen named in the proceeding;\\n  (b) the authority of the signatory to the stipulation if the named\\nparty is not present; and\\n  (c) shall further find:\\n  (i) that the unrepresented party understands that he or she may try\\nthe case if he or she does not agree with the proposed stipulation or if\\nan acceptable stipulation cannot be negotiated;\\n  (ii) where the other party is represented, whether the party's\\nattorney inappropriately gave legal advice to the unrepresented litigant\\nor whether the unrepresented litigant is agreeing to the proposed\\nstipulation as a result of undue duress;\\n  (iii) whether the unrepresented respondent agrees with or contests any\\nallegation in the petition and predicate notices;\\n  (iv) that the unrepresented party is aware of and understands claims\\nor defenses he or she may have in the proceeding and is aware of the\\navailable options in light of those claims or defenses, especially where\\nthe stipulation provides for a surrender of the dwelling unit or the\\nconversion of a nonpayment proceeding into a holdover proceeding;\\n  (v) that the unrepresented litigant's claims or defenses are\\nadequately addressed in the stipulation;\\n  (vi) that the unrepresented party understands and agrees to the terms\\nof the stipulation;\\n  (vii) that the unrepresented party understands the effect of\\nnon-compliance with the terms of the stipulation by either side and what\\nthe deadlines and procedures are for addressing such non-compliance,\\nincluding how to restore the case to the court calendar to obtain relief\\nunder or from the stipulation;\\n  (viii) in all non-payment cases, including where the unrepresented\\nparty indicates that he or she intends to apply for public assistance\\nbenefits or to a charity to pay rent that is sought in the proceeding\\nand that the court has determined to be owing to the petitioner, that an\\nappropriate rent breakdown is included in the stipulation; and\\n  (ix) that the unrepresented party understands the implications of a\\njudgment against him or her and the legal requirement that the\\npetitioner provide a satisfaction of judgment upon payment.\\n  3. The court may use a court attorney to conference a case to\\ndetermine the unrepresented party's claims or defenses and his or her\\nunderstanding of all available options in light of those claims or\\ndefenses, or any of the other elements of the allocution required by\\nthis section. However, such conference may not substitute for an\\nallocution by the court and, where it is used, the results shall be\\nreported to the court, which shall note on the record that such\\nconference occurred.\\n  4. Notwithstanding the foregoing, where the court, in its discretion,\\ndetermines that, in the interests of justice, inclusion in the\\nallocution required by subdivision two of this section of one or more\\nfindings described in paragraph (c) of such subdivision is or are not\\nnecessary given the history of the case, prior appearances or other\\nfactors, excluding a court attorney conference provided for in\\nsubdivision three above, such finding or findings may be omitted and the\\nreason for such omission shall be set forth on the record.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "745",
+      "title" : "Trial",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19", "2019-07-26" ],
+      "docLevelId" : "745",
+      "activeDate" : "2019-07-26"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "747",
+      "title" : "Judgment",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "747",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

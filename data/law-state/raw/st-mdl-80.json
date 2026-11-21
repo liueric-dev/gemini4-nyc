@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 80 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "80",
+    "title" : "Cleanliness",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "80",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 80. Cleanliness. 1. The owner shall keep all and every part of a\\nmultiple dwelling, the lot on which it is situated, and the roofs,\\nyards, courts, passages, areas or alleys appurtenant thereto, clean and\\nfree from vermin, dirt, filth, garbage or other thing or matter\\ndangerous to life or health.\\n  2. The owner of every multiple dwelling or part thereof shall\\nthoroughly cleanse and keep clean at all times, to the satisfaction of\\nthe department, every public or service part thereof, including every\\nroom, passage, stair, floor, window, door, wall, ceiling, water-closet\\nor toilet compartment, cesspool, drain, hall and cellar in such public\\nor service part.\\n  3. All carpets and rugs which are permitted in any public part of a\\nmultiple dwelling shall be taken up and cleaned by the owner at least\\nonce a year or as much oftener as the department shall deem necessary.\\n  4. The interior surfaces of walls throughout every part of every\\nmultiple dwelling, whether in public or in tenant-occupied parts, shall\\nbe painted or papered and the ceilings kalsomined or painted by the\\nowner. The walls and ceilings shall be rekalsomined, repapered or\\nrepainted by the owner whenever necessary to keep the said surfaces in a\\nsanitary condition. No wall paper shall be placed upon such a wall or\\nceiling surface unless all existing wall paper shall be first removed\\ntherefrom and such wall or ceiling thoroughly cleaned and repaired.\\n  5. Any tenant shall be punishable as provided in section three hundred\\nfour for the existence of conditions in violation of the provisions of\\nthis chapter within his apartment to the extent that such conditions are\\ncaused by him, by members of his family or by his guests, and are under\\nhis control; but this provision shall not be construed to relieve the\\nowner of any liability or duty under this section, except where a\\nviolation is caused and continued solely by the tenant or those under\\nhis control.\\n  6. Every dwelling erected after January first, nineteen hundred\\nforty-seven, shall be so constructed as to be rat-proof. The agency of a\\ncity authorized by law to make rules supplemental to laws regulating\\nconstruction, maintenance, use and area of buildings shall have the\\npower to make rules and regulations to supplement the requirements of\\nthis subdivision.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T3",
+      "title" : "Sanitation and Health",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "79",
+      "title" : "Heating",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "79",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "81",
+      "title" : "Receptacles for waste matter",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "81",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

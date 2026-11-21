@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 101 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "101",
+    "title" : "Requirements for fireproof construction",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "101",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 101. Requirements for fireproof construction. 1. Every such dwelling\\nexceeding six stories or seventy-five feet in height shall be fireproof.\\nNo multiple dwelling shall be altered so as to exceed either of such\\nheights without being made fireproof.\\n  2. In a fireproof multiple dwelling the walls, floors, roof, stairs\\nand public halls shall all be fireproof except as provided in\\nsubdivision three. No beams, lintels or other structural members shall\\nbe of wood.  No wood or other inflammable material shall be used in any\\nof the partitions, furrings or ceilings. For the portion of a multiple\\ndwelling more than one hundred fifty feet above the curb level, no wood\\nshall be used except as provided in subdivision three and except for\\ninterior trim of windows.\\n  3. The foregoing requirements shall not be construed as prohibiting:\\n  a. Elsewhere than within, or in the openings to, the public halls,\\nstairs and shafts, the use of wood for sleepers, grounds, nailing\\nblocks, underflooring, finish flooring, interior doors with their\\nassemblies and saddles, floor base not more than one foot in height,\\npicture and wall moulding, shelving, closet and kitchen fixtures,\\ncupboards, cabinets and wardrobes.\\n  b. The use of wood for windows and for interior trim and finish backed\\nsolidly against, or filled with, incombustible material when located not\\nmore than one hundred fifty feet above the curb level and elsewhere than\\nwithin, or in the openings to, the public halls, stairs and shafts.\\n  c. The use within apartments of wood for decorative wall panelling,\\nwainscoting, mantels or other interior finish, and the use in an\\nentrance hall of wall panelling or wainscoting made of fireproof wood or\\nother material capable of successfully withstanding standard fire tests\\nprescribed in the local building code and in a manner approved by the\\ndepartment.\\n  d. Where fireproof doors are required, the use for such doors, with\\ntheir assemblies and saddles, of material and construction capable of\\nsuccessfully withstanding a one-hour standard fire test prescribed in\\nthe local building code and in a manner approved by the department.\\nShould any door required to be fireproof be found to have deteriorated\\nso that it shall after installation fail to conform to the standard fire\\ntests prescribed, such door shall be removed by the owner and replaced\\nby him with a door capable of successfully withstanding such tests.\\n  4. All materials combustible in their natural state which are\\nconstructed, processed or protected so that they will not support\\ncombustion shall, before being installed in a multiple dwelling for any\\nof the uses herein specified, be permanently identified by label or\\nmarking with the name of the manufacturer and the year of manufacture in\\na manner approved by the department.\\n  5. When required to be fireproof, any outer wall or any wall or\\npartition which carries any load in addition to its own weight shall,\\nunless otherwise in this chapter expressly required, be constructed of\\nmaterials capable of successfully withstanding a four-hour standard fire\\ntest prescribed in the local building code and in a manner approved by\\nthe department. When required to be fireproof, any wall or partition\\nwhich carries only its own weight, other than an outer wall, shall be\\nconstructed of materials capable of successfully withstanding a one-hour\\nstandard fire test prescribed in the local building code and in a manner\\napproved by the department.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "102",
+      "title" : "Stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "102",
+      "activeDate" : "2026-08-28"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1815*2 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1815*2",
+    "title" : "Access to daytime pro se part",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1815*2",
+    "activeDate" : "2014-09-22",
+    "text" : "  * § 1815. Access to daytime pro se part. 1. Senior citizens, disabled\\npersons and members of the work force whose normal work schedule\\nrequires them to work during evening hours may institute a small claims\\naction or proceeding returnable to the daytime pro se part of the court.\\n  2. The clerk of the court shall verbally inform all claimants who\\nappear to qualify or who submit adequate documentation, upon\\ncommencement of the small claims action, of the right to have any small\\nclaims heard in the daytime pro se part upon such terms as provided\\nherein.  Notwithstanding any inconsistent provision of law, a claimant\\nshall have the right upon presenting proof to the clerk that he is\\nsixty-five years of age or older, that he is disabled as defined in\\nsubdivision twenty-one of section two hundred ninety-two of the\\nexecutive law or that he is employed in a capacity which requires him to\\nwork during evening hours and the court shall proceed to hear the case\\naccording to the practice and procedure applicable to the small claims\\npart.\\n  3. The clerk of the court shall publicize the availability of such\\nforum. Such publicity shall include but not be limited to prerecorded\\ntaped messages and large signs in English and Spanish to be posted in\\nconspicuous locations in each small claims court clerk's office,\\nadvising the public of the availability.\\n  * NB There are 2 § 1815's\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1815",
+      "title" : "Appearance by non-attorney representatives",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1815",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

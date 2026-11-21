@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 161 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "161",
+    "title" : "Application of article five-A",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "161",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 161. Application of article five-A. The provisions of this article\\nshall apply to garden-type maisonette dwelling projects erected under\\nplans filed with the department on or after April eighteenth, nineteen\\nhundred fifty-four. They shall apply to all such dwellings unless their\\napplication is expressly limited to dwellings of a particular class.\\nThey shall apply in addition to, and not in substitution for, the\\nprovisions of article three. Such dwellings need not comply with the\\nprovisions of sections twenty-eight, thirty-five, thirty-six, fifty,\\nfifty-four, and sixty-five, or with articles four, five, six or seven of\\nthis chapter, but such dwellings shall comply with all of the provisions\\nof the building code applicable to residential buildings of this type\\nand kind. A garden-type maisonette dwelling project, which is erected in\\naccordance with the applicable provisions of this chapter for fireproof\\nor non-fireproof dwellings other than the provisions of this article\\nfive-A, shall not be required to comply with the provisions of this\\narticle.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5-A",
+      "title" : "Garden-type Maisonette Dwelling Projects",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "162",
+      "title" : "Single ownership",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "162",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 143 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "143",
+    "title" : "Construction of first floor",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "143",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 143. Construction of first floor. 1. The first floor above the\\nlowest cellar, or, if there be no cellar, above the lowest story, shall\\nbe fireproof or, if the dwelling be three stories or less in height,\\nfire-retarded. Said first floor shall be unpierced except for a stair\\nleading to a cellar as provided in section one hundred fifty, for lawful\\npipes, conduits and ducts and for dumbwaiter and elevator shafts. Any\\nsuch dumbwaiter and elevator shafts shall be equipped at all openings\\nbelow the said first floor with fireproof doors and assemblies with the\\ndoors self-closing.\\n  2. Whenever the lowest cellar does not extend over more than half the\\narea of the dwelling, that portion of the first floor directly over such\\ncellar and the entire second floor above such cellar shall be\\nconstructed as in this section prescribed for the first floor above the\\nlowest cellar. Whenever the lowest cellar extends over more than half,\\nbut not all, of the area of the dwelling, only that portion of the first\\nfloor directly over such cellar need be constructed as in this section\\nprescribed for the first floor above the lowest cellar.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "142",
+      "title" : "Sub-curb uses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "142",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "144",
+      "title" : "Egress from dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "144",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

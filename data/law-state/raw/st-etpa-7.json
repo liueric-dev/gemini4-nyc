@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 7 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "7",
+    "title" : "Maintenance of services",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "7",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 7. Maintenance of services. a. In order to collect a rent adjustment\\nauthorized pursuant to the provisions of subdivision b of section four,\\nthe owner of housing accommodations subject to this act located in a\\ncity having a population of less than one million or a town or village\\nmust file with the state division of housing and community renewal on a\\nform which it shall prescribe, a written certification that he is\\nmaintaining and will continue to maintain all services furnished on the\\ndate upon which this act becomes a law or required to be furnished by\\nany law, ordinance or regulation applicable to the premises. In addition\\nto any other remedy afforded by law, any tenant may apply to the state\\ndivision of housing and community renewal for a reduction in the rent to\\nthe level in effect prior to its most recent adjustment, and the state\\ndivision of housing and community renewal may so reduce the rent if it\\nfinds that the owner has failed to maintain such services. The owner\\nshall be supplied with a copy of the application and shall be permitted\\nto file an answer thereto. A hearing may be held upon the request of\\neither party, or the state division of housing and community renewal may\\nhold a hearing upon its own motion. The state division of housing and\\ncommunity renewal may consolidate the proceedings for two or more\\npetitions applicable to the same building. If the state division of\\nhousing and community renewal finds that the owner has knowingly filed a\\nfalse certification, it shall, in addition to abating the rent, assess\\nthe owner with the reasonable costs of the proceeding, including\\nreasonable attorneys' fees, and impose a penalty not in excess of two\\nhundred fifty dollars for each false certification. The amount of the\\nreduction in rent ordered by the state division of housing and community\\nrenewal under this subdivision shall be reduced by any credit, abatement\\nor offset in rent which the tenant has received pursuant to section two\\nhundred thirty-five-b of the real property law, that relates to one or\\nmore conditions covered by such order.\\n  b. In order to collect a rent adjustment authorized pursuant to the\\nprovisions of subdivision c of section four, the owner of housing\\naccommodations located in a city having a population of more than one\\nmillion shall comply with the requirements with respect to the\\nmaintenance of services of the New York city rent stabilization law of\\nnineteen hundred sixty-nine.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "6",
+      "title" : "Regulation of rents",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2021-12-24", "2022-11-25", "2024-05-03", "2024-10-18" ],
+      "docLevelId" : "6",
+      "activeDate" : "2024-10-18"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "8",
+      "title" : "Administration",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2020-04-17" ],
+      "docLevelId" : "8",
+      "activeDate" : "2020-04-17"
+    }
+  }
+}

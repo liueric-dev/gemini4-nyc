@@ -1,0 +1,8 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 3: City-Aided Limited Profit Housing Companies > § 3-25 Miscellaneous Provisions.
+
+§ 3-25 Miscellaneous Provisions.
+(a) HPD Discretion. All determinations to be made by HPD in accordance with this chapter shall be in the sole discretion of HPD.
+(a-1) Waiver. Rules may be waived in exceptional circumstances upon the initiative of the commissioner if, in the opinion of the commissioner, their application to a specific case, or under an emergency condition, may be shown to effect undue hardship.
+(b) Statutory Authority Not Limited. Nothing in this chapter shall be deemed to limit HPD's authority pursuant to applicable laws.
+(c) Technical Violations. Provided that there has been a good faith effort to comply with this chapter, technical violations of this chapter by HPD shall not invalidate any action taken pursuant to this chapter, nor shall such technical violations give rise to any rights, claims or causes of action against HPD or the City of New York. The Commissioner, upon good cause shown, may alter the timing or sequence of the actions described in this chapter, provided all affected parties are given reasonable notice.
+(d) Severability. If any clause, sentence, paragraph, section or part of this chapter should be adjudged by any court of competent jurisdiction, to be invalid, such judgment shall not affect, impair, or invalidate the remainder thereof, but shall be confined in its operation to the clause, sentence, paragraph, section or part thereof correctly involved in the controversy in which such judgment shall have been rendered.

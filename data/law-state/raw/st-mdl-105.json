@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 105 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "105",
+    "title" : "Separation and ventilation of stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "105",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 105. Separation and ventilation of stairs. 1. In a dwelling in which\\none or more passenger elevators are maintained and operated opening upon\\na public hall at every story, all stairs, fire-stairs and fire-towers\\nshall be completely separated from one another and from every elevator\\nshaft by fireproof walls. They shall be constructed of fireproof\\nmaterial throughout and shall contain no wood or other inflammable\\nmaterial of any kind, except that handrails of hardwood may be provided.\\n  2. Access to stairs, fire-stairs and fire-tower balconies from any\\npublic vestibule or other public hall shall be through fireproof doors\\nand assemblies, with the doors self-closing and at least three feet\\nwide, or through pairs of such doors at least four feet wide, containing\\nin either case a fixed sash glazed with wire glass at least three\\nhundred sixty square inches in area.\\n  3. Every stair hall shall be ventilated by a window, or by movable\\nlouvres in the skylight having an opening of at least one hundred\\nforty-four square inches, or by an opening of at least one hundred\\nforty-four square inches near the top of the stair shaft and\\ncommunicating directly with the outer air. If a window is provided which\\ndoes not open upon a street or yard, it shall be fireproof and glazed\\nwith wire glass of good quality and have no pane more than three hundred\\nsixty square inches in area.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "104",
+      "title" : "Bulkheads",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "104",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "106",
+      "title" : "Cellar and basement stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "106",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

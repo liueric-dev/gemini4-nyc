@@ -1,0 +1,5 @@
+# NYC Administrative Code > Title 8: Civil Rights > § 8-128 Institution of actions or proceedings.
+
+§ 8-128 Institution of actions or proceedings.
+Where any of the provisions of this chapter authorize an application to be made, or an action or proceeding to be commenced on behalf of the commission in a court, such application may be made or such action or proceeding may be instituted only by the corporation counsel, such attorneys employed by the commission as are designated by the corporation counsel or other persons designated by the corporation counsel.
+Editor's note: For related unconsolidated provisions, see Appendix A at L.L. 1991/039.

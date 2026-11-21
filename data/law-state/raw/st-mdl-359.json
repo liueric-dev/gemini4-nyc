@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 359 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "359",
+    "title" : "Receivership",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "359",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 359. Receivership. Whenever the lien or liens established by\\njudgment pursuant to this article shall amount to one thousand dollars\\nor more, and there be no stay pending appeal, the department shall\\nappoint a receiver of the rents and profits of such premises. Such\\nreceiver shall give security for the performance of his duties in the\\nmanner and form fixed by the department. He shall have the powers and\\nduties of a receiver of rents and profits of real estate appointed by\\nthe supreme court; provided, that the corporation counsel shall act as\\nhis counsel and the receiver shall not be allowed any expenditure for\\ncounsel fees, and his commissions shall be ten per centum of his\\ncollections, which sum shall be full compensation for his services and\\nthose of any agent or agents whom he may employ. Such receivership shall\\ncontinue until the amount of such liens with interest thereon at the\\nrate of six per centum, and of the commissions, have been fully paid;\\nprovided, that nothing in this section shall be construed to prevent any\\nprior lienor from applying to the court in a proper case for a receiver\\nof the premises.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A10" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A10",
+      "title" : "Prostitution",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "10",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "358",
+      "title" : "Sale of premises",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "358",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "360",
+      "title" : "Cancellation of notice of pendency of action",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "360",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

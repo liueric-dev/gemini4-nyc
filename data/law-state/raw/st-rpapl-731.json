@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 731 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "731",
+    "title" : "Commencement; notice of petition",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+    "docLevelId" : "731",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 731. Commencement; notice of petition. 1. The special proceeding\\nprescribed by this article shall be commenced by petition and a notice\\nof petition. A notice of petition may be issued only by an attorney,\\njudge or the clerk of the court; it may not be issued by a party\\nprosecuting the proceeding in person.\\n  2. Except as provided in section 732, relating to a proceeding for\\nnon-payment of rent, the notice of petition shall specify the time and\\nplace of the hearing on the petition and state that if respondent shall\\nfail at such time to interpose and establish any defense that he may\\nhave, he may be precluded from asserting such defense or the claim on\\nwhich it is based in any other proceeding or action.\\n  3. In the city of New York, when the petitioner seeks to make an\\napplication pursuant to subdivision two of section seven hundred\\nforty-five of this article, the notice of petition shall advise the\\nrespondent of the requirements of subdivision two of section seven\\nhundred forty-five of this article.\\n  4. In an action premised on a tenant defaulting in the payment of\\nrent, payment to the landlord of the full amount of rent due, when such\\npayment is made at any time prior to the hearing on the petition, shall\\nbe accepted by the landlord and renders moot the grounds on which the\\nspecial proceeding was commenced.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "721",
+      "title" : "Person who may maintain proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "721",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "732",
+      "title" : "Special provisions applicable in non-payment proceeding if the rules so provide",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19" ],
+      "docLevelId" : "732",
+      "activeDate" : "2019-07-19"
+    }
+  }
+}

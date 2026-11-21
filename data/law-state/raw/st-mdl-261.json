@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 261 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "261",
+    "title" : "Recovery of possession of certain non-complying premises restricted during emergency period",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "261",
+    "activeDate" : "2014-09-22",
+    "text" : "  * § 261. Recovery of possession of certain non-complying premises\\nrestricted during emergency period. 1. Legislative finding. The public\\nemergency which existed at the time of the enactment of and which was\\ndeclared in chapter six hundred seventy-five of the laws of nineteen\\nhundred thirty-eight, and in acts amendatory thereof, having continued\\nand still existing, there having been and there being an acute shortage\\nof such dwellings, and the intents and purposes of such provisions\\nhaving, in a great many instances, been circumvented by landlords giving\\ntheir tenants thirty days' notice terminating their tenancy and\\ninstituting proceedings for their removal, the necessity for legislative\\nintervention, by the enactment of the provisions of this section, and\\ntheir application, until July first, nineteen hundred forty-nine, is\\nhereby declared as a matter of legislative determination, and the\\nprovisions of this section shall remain in force and effect only until\\nsuch date.\\n  2. For the period during which any old-law tenement or any converted\\ndwelling shall fail to comply with the applicable provisions of article\\nsix or seven, no action or proceeding by an owner to recover possession\\nof such dwelling or any part thereof from a tenant and to remove such\\ntenant therefrom for the reason that the tenant holds over and continues\\nin possession of the demised dwelling or any part thereof after the\\nexpiration of his term without the permission of the owner, shall be\\nmaintainable except:\\n  a. A proceeding to recover such possession upon the ground that the\\nperson is holding over and is objectionable, in which case the owner\\nshall establish to the satisfaction of the court that the person holding\\nover is objectionable; or\\n  b. A proceeding when the owner of record of the dwelling, being a\\nnatural person, seeks in good faith to recover possession of a room or\\nrooms therein for the immediate and personal occupancy by himself and\\nhis family as a dwelling; or\\n  c. A proceeding where the petitioner shows to the satisfaction of the\\ncourt that he desires in good faith to recover the dwelling for the\\npurpose of altering or demolishing the same with the intention of\\nproviding or constructing more dwelling units, plans for which shall\\nhave been duly approved by the department in accordance with the\\nprovisions of any applicable local law.\\n  d. In pending proceedings for the recovery of such dwelling on the\\ngrounds that the occupant holds over after the expiration of his term, a\\nwarrant shall not be issued unless the petitioner establishes to the\\nsatisfaction of the court that the proceeding is one mentioned in the\\nexceptions enumerated in this subdivision.\\n  3. The provisions of this section shall not be construed to apply to\\nan action or proceeding by an owner to recover possession of such\\ndwelling or any part thereof from a tenant and to remove such tenant\\ntherefrom for the reason that the tenant holds over and continues in\\npossession of the demised dwelling or any part thereof without the\\npermission of the owner after a default in the payment of the rent.\\n  * NB Expired July 1, 1949\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-A",
+      "title" : "Temporary Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "260",
+      "title" : "Recovery of rent for certain non-complying premises restricted during emergency period",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "260",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "262",
+      "title" : "Alteration of uncompleted buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "262",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 68 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "68",
+    "title" : "Smoke detecting devices",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "68",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 68. Smoke detecting devices. 1. This section shall apply to all\\nmultiple dwellings, whenever constructed, provided however, that for the\\npurposes of this section the term \"multiple dwelling\" shall also include\\nany dwelling accommodation used as a temporary or permanent residence\\nlocated in any building owned as a condominium or cooperative.\\n  2. (a) The owner of every multiple dwelling to which the provisions of\\nthis section apply shall equip each apartment or other separate living\\nunit in such multiple dwelling with approved and operational smoke\\ndetecting devices in conformity with the state fire prevention and\\nbuilding code; provided, however, that any multiple dwelling not subject\\nto the provisions of such code may, in the alternative, be equipped with\\nbattery-operated smoke detecting devices of a type accepted by the\\ndivision of housing and community renewal.\\n  (b) In hotels and other class B multiple dwellings, and in any portion\\nof a class A multiple dwelling used for single room occupancy, at least\\none smoke detecting device shall be located within each room used for\\nsleeping purposes. In any other multiple dwelling or portion thereof,\\nthere shall be at least one smoke detecting device located within each\\napartment or separate living unit, in an area so that it is clearly\\naudible in each bedroom or other room used for sleeping purposes, with\\nintervening doors closed; provided, however, that no smoke detecting\\ndevice be located more than ten feet from the entrance to any bedroom or\\nother room used for sleeping purposes.\\n  (c) Each smoke detecting device shall include a test device to permit\\nthe occupant to readily determine if it is operational.\\n  (d) In addition to complying with the provisions of this section, the\\ntype, location, number, and manner of installation of smoke detecting\\ndevices shall be in accordance with standards prescribed by the state\\nfire prevention and building code council.\\n  3. (a) With respect to class A multiple dwellings, other than any\\nportion of any such dwelling used for single room occupancy, and\\nnotwithstanding the provisions of section seventy-eight or any other\\nprovision of this chapter, or of any law or requirement, state or local,\\nthe duties of the owner and tenant with respect to smoke detecting\\ndevices installed pursuant to this section shall be as provided in\\nsubdivisions four and five of this section.\\n  (b) With respect to a class B multiple dwelling, or any portion of a\\nclass A multiple dwelling used for single room occupancy, the provisions\\nof subdivision five of this section shall not apply, and smoke detecting\\ndevices installed as required by this section shall be subject to the\\nprovisions of section seventy-eight of this chapter.\\n  (c) The owner of every multiple dwelling shall keep such records as\\nthe state fire prevention and building code council shall prescribe\\nrelating to the installation and maintenance of smoke detecting devices\\nin the building and make such records available to any local code\\nenforcement official on request.\\n  4. In addition to initially providing and installing the smoke\\ndetecting devices, the owner shall:\\n  (a) replace within thirty days after the receipt of written notice any\\nsuch device which becomes inoperable within one year of the installation\\nof such device due to a defect in the manufacture of such device and\\nthrough no fault of the occupant of the apartment or other unit;\\n  (b) upon the occurrence of a vacancy, replace or properly equip any\\nsuch device which has been removed or rendered inoperable, so as to\\nprovide operational smoke detecting devices for any new tenant; and\\n  (c) notify tenants in writing, individually or through posting of a\\nnotice in a common area of the building, of the respective duties of\\nowners and tenants under this section.\\n  5. Except as provided in paragraph (b) of subdivision three of this\\nsection, the tenant shall keep and maintain any smoke detecting device\\ninstalled pursuant to this section in good repair and replace any such\\ndevice which becomes inoperable during his occupancy.\\n  6. An owner need not furnish or install a smoke detecting device where\\none has already been installed, provided that (a) the type of such\\ndevice and the manner of its installation comply with the provisions of\\nthis section and the standards prescribed by the state fire prevention\\nand building code council, (b) the existing device is tested and found\\nto be operational, and (c) the existence of such device in lieu of an\\nowner-furnished device is noted on the records kept by the owner\\npursuant to paragraph (c) of subdivision three of this section.\\n  7. This section shall not apply within cities with a population of one\\nmillion or more, provided however, any local law in such cities relating\\nto smoke detecting devices shall provide for the installation and\\nmaintenance of smoke detecting devices in dwelling accommodations\\nlocated in buildings owned as condominiums or cooperatives.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "67",
+      "title" : "Hotels and certain other class A and class B dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "67",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

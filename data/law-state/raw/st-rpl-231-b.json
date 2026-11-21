@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 231-B in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "231-B",
+    "title" : "Flood history and risk notice in residential leases",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-30", "2023-03-10", "2023-06-23" ],
+    "docLevelId" : "231-B",
+    "activeDate" : "2023-06-23",
+    "text" : "  § 231-b. Flood history and risk notice in residential leases. 1. Every\\nresidential lease shall provide notice of the following information\\nrelated to the previous flood history and current flood risk of the\\nleased premises, as follows:\\n  (a) whether any or all of the leased premises is located wholly or\\npartially in a Federal Emergency Management Agency (\"FEMA\") designated\\nfloodplain;\\n  (b) whether any or all of the leased premises is located wholly or\\npartially in the Special Flood Hazard Area (\"SFHA\"; \"100-year\\nfloodplain\") according to FEMA's current Flood Insurance Rate Maps for\\nthe leased premises' area;\\n  (c) whether any or all of the leased premises is located wholly or\\npartially in a Moderate Risk Flood Hazard Area (\"500-year floodplain\")\\naccording to FEMA's current Flood Insurance Rate Maps for the leased\\npremises' area; and\\n  (d) any prior flood damage to the leased premises due to a natural\\nflood event, such as heavy rainfall, coastal storm surge, tidal\\ninundation, or river overflow, that the lessor knows or reasonably\\nshould know has occurred to such premises and the nature of any such\\ndamage.\\n  2. Every residential lease shall also contain the following notice to\\ntenants: \"Flood insurance is available to renters through the Federal\\nEmergency Management Agency's (FEMA's) National Flood Insurance Program\\n(NFIP) to cover your personal property and contents in the event of a\\nflood. A standard renter's insurance policy does not typically cover\\nflood damage. You are encouraged to examine your policy to determine\\nwhether you are covered.\"\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "231-A",
+      "title" : "Sprinkler system notice in residential leases",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2014-12-05" ],
+      "docLevelId" : "231-A",
+      "activeDate" : "2014-12-05"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "231-C",
+      "title" : "Good cause eviction law notice",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03", "2025-08-22" ],
+      "docLevelId" : "231-C",
+      "activeDate" : "2025-08-22"
+    }
+  }
+}

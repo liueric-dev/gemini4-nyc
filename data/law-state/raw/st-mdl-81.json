@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 81 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "81",
+    "title" : "Receptacles for waste matter",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "81",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 81. Receptacles for waste matter. 1. The owner of every multiple\\ndwelling shall provide proper and suitable conveniences or receptacles\\nfor ashes, rubbish, garbage, refuse and other waste matter and shall\\narrange for the removal of such waste matter daily.\\n  2. No person shall place ashes, garbage, rubbish, filth, urine or\\nfecal matter in any place in a multiple dwelling other than the place\\nprovided therefor, or keep any such matter in his apartment or upon his\\npremises such length of time as to create a nuisance as defined in\\nsection three hundred nine.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T3",
+      "title" : "Sanitation and Health",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "80",
+      "title" : "Cleanliness",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "80",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "82",
+      "title" : "Privacy",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "82",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

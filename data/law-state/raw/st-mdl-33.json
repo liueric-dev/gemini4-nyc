@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 33 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "33",
+    "title" : "Cooking spaces",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "33",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 33. Cooking spaces. 1. Every space which is intended, arranged or\\ndesigned for cooking or warming of food shall be either a kitchen or\\nkitchenette. The term \"kitchen\" shall mean such a space eighty square\\nfeet or more in floor area. The term \"kitchenette\" shall mean such a\\nspace which is less than eighty square feet in floor area.\\n  2. Every cooking space shall be deemed to be in compliance with this\\nsection if such space was accepted or approved by the department on or\\nbefore June thirtieth, nineteen hundred ninety-five, and is maintained\\nin accordance with such acceptance or approval.\\n  3. Except as provided in sections sixty-one and sixty-seven and\\nsubdivision two of this section, a kitchen or kitchenette shall be\\nunlawful unless it is constructed, arranged and maintained in compliance\\nwith the following applicable provisions:\\n  a. The ceiling and walls, exclusive of doors, of all kitchenettes\\nshall be fire-retarded or in lieu thereof such space shall be equipped\\nwith one or more sprinkler heads to fuse at a temperature not higher\\nthan two hundred twelve degrees Fahrenheit. Such heads shall be\\nconnected to the water supply through a pipe of at least one-half inch\\ninside diameter.\\n  b. In every kitchen and kitchenette, all combustible material\\nimmediately underneath or within one foot of any apparatus used for\\ncooking or warming of food shall be fire-retarded or covered with\\nasbestos at least three-sixteenths of an inch in thickness and\\ntwenty-six gauge metal or with fire-resistive material of equivalent\\nrating, except where such apparatus is installed in accordance with\\nrequirements established by the department in conformity with generally\\naccepted safety standards for such apparatus. There shall always be at\\nleast two feet of clear space above any exposed cooking surface of such\\napparatus.\\n  c. Every kitchenette constructed after July first, nineteen hundred\\nforty-nine, shall be provided with a window opening upon a street or\\nupon a yard, court, shaft, or upon any space above a setback. Such\\nwindow shall be at least one foot wide, have a total area of at least\\nthree square feet and be at least ten per centum of the superficial\\nfloor area of such kitchenette. In lieu of such window, such kitchenette\\nmay be provided with mechanical ventilation to provide at least six\\nchanges per hour of the air volume of such kitchenette or, when such\\nkitchenette is on the top story, may have a skylight at least one foot\\nwide with a total area of at least four square feet or one-eighth of the\\narea of the kitchenette, whichever is greater, and shall have\\nventilating openings of at least one-half of the area of the skylight.\\n  d. Every kitchenette constructed after July first, nineteen hundred\\nforty-nine, may be equipped with a door or doors, provided the lower\\nportion of each such door has a metal grille containing at least\\nforty-eight square inches of clear openings or, in lieu of such a\\ngrille, there are two clear open spaces, each of at least twenty-four\\nsquare inches, one between the bottom of the door and the floor, and the\\nother between the top of each such door and the head jamb.\\n  e. Every kitchen and kitchenette shall be provided with gas or\\nelectricity or both, and shall be equipped for artificial lighting.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "32",
+      "title" : "Alcoves",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "32",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "34",
+      "title" : "Rooms in basements and cellars",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "34",
+      "activeDate" : "2026-08-28"
+    }
+  }
+}

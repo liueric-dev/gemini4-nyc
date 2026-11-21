@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 796-A in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "796-A",
+    "title" : "Jurisdiction; court; venue",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+    "docLevelId" : "796-A",
+    "activeDate" : "2023-06-16",
+    "text" : "  § 796-a. Jurisdiction; court; venue. 1. A special proceeding for a\\njudgment directing the deposit of rents into court and the use of such\\nmonies for the purpose of remedying conditions at a dwelling dangerous\\nto life, health or safety may be maintained by tenant or tenants of the\\ndwelling in the county court, district court or city court having\\njurisdiction in the municipality in which the dwelling is located.\\n  2. A special proceeding as described in subdivision one of this\\nsection may also be commenced by the commissioner of the department\\ncharged with enforcement of the housing maintenance code in the\\nmunicipality where the dwelling is located.\\n  (a) If the proceeding is instituted by such commissioner, one-third or\\nmore of the tenants of the dwelling may, at any time thereafter during\\nthe pendency of the proceeding or after final judgment pursuant to\\nsection seven hundred ninety-six-h or seven hundred ninety-six-i of this\\narticle, petition for substitution of themselves in place and instead of\\nsuch commissioner. Such substitution shall be ordered by the court\\nunless good reason to the contrary shall be shown.\\n  (b) A special proceeding pursuant to the provisions of this article\\nmay only be commenced with respect to the same premises by one\\nmunicipality at a time.\\n  3. The place of trial of the special proceeding shall be within the\\ncounty in which the dwelling or a portion thereof from which the rents\\nissue is situated.\\n  4. The provisions of this article shall not apply to dwellings located\\nin the city of New York or in the counties of Nassau, Suffolk, Rockland\\nand Westchester or in any cities, towns or villages of such counties.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-C",
+      "title" : "Special Proceedings By Tenants of Dwellings For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2022-12-23", "2023-01-06", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2023-06-16"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796",
+      "title" : "Definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796",
+      "activeDate" : "2023-06-16"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-B",
+      "title" : "Grounds for the proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-B",
+      "activeDate" : "2023-06-16"
+    }
+  }
+}

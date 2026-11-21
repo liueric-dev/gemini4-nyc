@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 227-B in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "227-B",
+    "title" : "Termination of certain contracts by senior citizens",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "227-B",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 227-b. Termination of certain contracts by senior citizens. 1. In\\nany lease or contract for a senior citizen who has attained the age of\\nsixty-two or older to reside in those facilities set forth in\\nsubdivision one of section two hundred twenty-seven-a of this article\\nexcept for residential health care facility (as defined in section\\ntwenty-eight hundred one of the public health law) and any other\\nfacilities operated for the specific purpose of housing senior citizens\\nwhich offer ancillary services to accommodate senior citizens, there\\nshall be implied a covenant by the lessor or owner of such facilities to\\npermit such senior citizen, or other person obligated by any part of\\nsuch lease or contract on behalf of such senior citizen, to cancel such\\nlease or contract until midnight of the third business day after which\\nsuch person has signed such lease or contract. Where any provision of\\nsuch lease or contract or any law or regulations affords a longer period\\nto cancel than the period provided in this subdivision, such longer\\nperiod shall govern.\\n  2. Cancellation occurs when written notice of cancellation is given to\\nthe owner or lessor.\\n  3. Notice of cancellation, if given by mail, shall be deemed given on\\nthe date of the postmark.\\n  4. The form of notice of cancellation shall not be prescribed by such\\nlease or contract. Notice of cancellation shall be sufficient if it\\nindicates the intention of the senior citizen or other person obligated\\nfor any part of the contract on behalf of such senior citizen to cancel\\nsuch lease or contract.\\n  5. Where a person exercises their right to cancel a lease or contract\\npursuant to this section, and such person has terminated a lease or\\nrental agreement under section two hundred twenty-seven-a of this\\narticle, such person shall have the right to reinstate such original\\nlease or rental agreement until midnight of the fifth business day after\\nthe notice of termination required under subdivision two of section two\\nhundred twenty-seven-a of this article has been delivered. Notice of\\nintent to reinstate a lease or rental agreement pursuant to this\\nsubdivision shall be made in writing and delivered to the lessor or\\nowner or to the owner's or lessor's agent by the lessee or tenant. If\\nsuch notice is given by mail, it shall be deemed given on the date of\\nthe postmark. Such original lease or rental agreement shall continue to\\nbe in effect for the period stated in such agreement as if there had\\nbeen no interruption in the lease period.\\n  6. Any lease or rental agreement entered into by a lessor or owner to\\nrelet the premises being vacated by the senior citizen pursuant to a\\nnotice served pursuant to section two hundred twenty-seven-a of this\\narticle shall be subject to the provisions of this section. In the event\\na senior citizen exercises his or her right of reinstatement pursuant to\\nthis section such lease or rental agreement to relet the premises shall\\nbe canceled. In such event the owner or lessor shall have no obligation\\nto (a) the prospective tenant other than refund of any rent or security\\npaid to such owner or lessor by the prospective tenant, or (b) any\\nbroker, agent or other party in connection with such reletting.\\n  7. Any broker's fee or commission paid in connection with the lease or\\ncontract referred to in subdivision one of this section or reletting\\nreferred to in subdivision six of this section shall be refunded to the\\nparty who paid such fee or commission if such lease or contract referred\\nto in subdivision one of this section is canceled pursuant to this\\nsection or if such lease or rental agreement referred to in subdivision\\nsix of this section is canceled or terminated.\\n  8. Notwithstanding any other provision of this section, any person who\\nenters senior citizen housing prior to midnight of the third business\\nday after the day on which such person has signed a lease or contract\\nfor such housing and subsequently cancels such lease or contract shall\\nbe financially responsible for room, board and services received while\\nsuch person was a resident in such housing in the same manner and to the\\nsame extent had the lease or contract not been canceled pursuant to the\\nprovisions of this section.\\n  9. Such lease or contract referred to in subdivision one of this\\nsection shall include a statement notifying the senior citizen of his or\\nher right to cancel such lease or contract pursuant to the provisions of\\nthis section. Such statement shall include in conspicuous print, of at\\nleast eighteen point type, an explanation of a senior citizen's right to\\ncancel a lease or contract referred to in subdivision one of this\\nsection and all other applicable requirements and duties relating\\nthereto. Such notice shall read as follows:\\n                       NOTICE TO SENIOR CITIZENS:\\n                    A. CONTRACT OR LEASE CANCELLATION\\n  SECTION 227-b OF THE REAL PROPERTY LAW OF THE STATE OF NEW YORK ALLOWS\\nFOR THE CANCELLATION OF A CONTRACT OR LEASE ENTERED INTO BY SENIOR\\nCITIZENS WITH CERTAIN HEALTH CARE FACILITIES, ADULT CARE FACILITIES OR\\nOTHER SENIOR CITIZEN HOUSING FACILITIES.\\nWho is eligible?\\n  Any senior citizen who is age sixty-two years or older.\\nWhat kind of facilities does this law apply to?\\n  This law will apply if the senior citizen is canceling a contract or\\n  lease with:\\n    a. An adult care facility;\\n    b. Other senior citizen housing facilities.\\nHow do you cancel the contract or lease?\\n  The senior citizen is allowed to cancel a contract or lease entered\\n  into with any of the above mentioned facilities until midnight of the\\n  third business day after which the contract or lease was signed by the\\n  senior citizen. Cancellation occurs when written notice of\\n  cancellation is given to the owner of the facility. Notice of\\n  cancellation, if given by mail, shall be deemed given on the date of\\n  the postmark.\\n                  B. REINSTATEMENT OF A RESIDENTIAL LEASE\\n  SECTION 227-B OF THE REAL PROPERTY LAW OF THE STATE OF NEW YORK ALLOWS\\nSENIOR CITIZENS TO REINSTATE A RESIDENTIAL LEASE UNDER CERTAIN\\nCONDITIONS.\\nWho is eligible?\\n  Any senior citizen who has exercised his or her right to cancel a\\n  lease or contract with an adult care facility or a senior citizen\\n  housing facility and has terminated a residential lease under Section\\n  227-a of the Real Property Law of the State of New York.\\nHow do you reinstate a residential lease?\\n  The senior citizen is allowed to reinstate a residential lease until\\n  midnight of the fifth business day after the notice of termination\\n  required under subdivision two of section 227-a of the real property\\n  law has been delivered. Reinstatement occurs when written notice of\\n  reinstatement is given to the landlord. Notice of reinstatement, if\\n  given by mail, shall be deemed given on the date of the postmark.\\n  10. Any agreement by a senior citizen waiving or modifying any of the\\nrights set forth in this section shall be void as contrary to public\\npolicy.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "227-A",
+      "title" : "Termination of residential lease by senior citizens or individuals with a disability moving to a residence of a family member or entering...",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-10-11" ],
+      "docLevelId" : "227-A",
+      "activeDate" : "2019-10-11"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "227-C",
+      "title" : "Termination of residential lease by victims of domestic violence",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-12-27" ],
+      "docLevelId" : "227-C",
+      "activeDate" : "2019-12-27"
+    }
+  }
+}

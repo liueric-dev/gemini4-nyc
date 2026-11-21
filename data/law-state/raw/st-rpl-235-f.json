@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 235-F in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "235-F",
+    "title" : "Unlawful restrictions on occupancy",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "235-F",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 235-f. Unlawful restrictions on occupancy. 1. As used in this\\nsection, the terms:\\n  (a) \"Tenant\" means a person occupying or entitled to occupy a\\nresidential rental premises who is either a party to the lease or rental\\nagreement for such premises or is a statutory tenant pursuant to the\\nemergency housing rent control law or the city rent and rehabilitation\\nlaw or article seven-c of the multiple dwelling law.\\n  (b) \"Occupant\" means a person, other than a tenant or a member of a\\ntenant's immediate family, occupying a premises with the consent of the\\ntenant or tenants.\\n  2. It shall be unlawful for a landlord to restrict occupancy of\\nresidential premises, by express lease terms or otherwise, to a tenant\\nor tenants or to such tenants and immediate family. Any such restriction\\nin a lease or rental agreement entered into or renewed before or after\\nthe effective date of this section shall be unenforceable as against\\npublic policy.\\n  3. Any lease or rental agreement for residential premises entered into\\nby one tenant shall be construed to permit occupancy by the tenant,\\nimmediate family of the tenant, one additional occupant, and dependent\\nchildren of the occupant provided that the tenant or the tenant's spouse\\noccupies the premises as his primary residence.\\n  4. Any lease or rental agreement for residential premises entered into\\nby two or more tenants shall be construed to permit occupancy by\\ntenants, immediate family of tenants, occupants and dependent children\\nof occupants; provided that the total number of tenants and occupants,\\nexcluding occupants' dependent children, does not exceed the number of\\ntenants specified in the current lease or rental agreement, and that at\\nleast one tenant or a tenants' spouse occupies the premises as his\\nprimary residence.\\n  5. The tenant shall inform the landlord of the name of any occupant\\nwithin thirty days following the commencement of occupancy by such\\nperson or within thirty days following a request by the landlord.\\n  6. No occupant nor occupant's dependent child shall, without express\\nwritten permission of the landlord, acquire any right to continued\\noccupancy in the event that the tenant vacates the premises or acquire\\nany other rights of tenancy; provided that nothing in this section shall\\nbe construed to reduce or impair any right or remedy otherwise available\\nto any person residing in any housing accommodation on the effective\\ndate of this section which accrued prior to such date.\\n  7. Any provision of a lease or rental agreement purporting to waive a\\nprovision of this section is null and void.\\n  8. Nothing in this section shall be construed as invalidating or\\nimpairing the operation of, or the right of a landlord to restrict\\noccupancy in order to comply with federal, state or local laws,\\nregulations, ordinances or codes.\\n  9. Any person aggrieved by a violation of this section may maintain an\\naction in any court of competent jurisdiction for:\\n  (a) an injunction to enjoin and restrain such unlawful practice;\\n  (b) actual damages sustained as a result of such unlawful practice;\\nand\\n  (c) court costs.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-E",
+      "title" : "Duty to provide a written receipt",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2021-12-31" ],
+      "docLevelId" : "235-E",
+      "activeDate" : "2021-12-31"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-G",
+      "title" : "Electronic billing and/or payment of rent",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "235-G",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 2 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "2",
+    "title" : "Legislative finding",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "2",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 2. Legislative finding. It is hereby declared that intensive\\noccupation of multiple dwelling sites, overcrowding of multiple dwelling\\nrooms, inadequate provision for light and air, and insufficient\\nprotection against the defective provision for escape from fire, and\\nimproper sanitation of multiple dwellings in certain areas of the state\\nare a menace to the health, safety, morals, welfare, and reasonable\\ncomfort of the citizens of the state; and that the establishment and\\nmaintenance of proper housing standards requiring sufficient light, air,\\nsanitation and protection from fire hazards are essential to the public\\nwelfare.  Therefore the provisions hereinafter prescribed are enacted\\nand their necessity in the public interest is hereby declared as a\\nmatter of legislative determination.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A1",
+      "title" : "Introductory Provisions; Definitions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "1",
+      "title" : "Short title",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "3",
+      "title" : "Application to cities, towns and villages",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

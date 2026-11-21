@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 276 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "276",
+    "title" : "Definition of an artist",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-07-29" ],
+    "docLevelId" : "276",
+    "activeDate" : "2022-07-29",
+    "text" : "  § 276. Definition of an artist. As used in this article, the word\\n\"artist\" means a person who is regularly engaged in the fine arts, such\\nas painting and sculpture or in the performing or creative arts,\\nincluding choreography and filmmaking, or in the composition of music on\\na professional basis, and is so certified by the city department of\\ncultural affairs and/or state council on the arts. For joint living-work\\nquarters for artists limited to artists' occupancy by local zoning\\nresolution, any permanent occupant whose residence therein began on or\\nbefore December fifteenth, two thousand twenty-one shall be deemed to\\nmeet such occupancy requirements under the same rights as an artist so\\ncertified in accordance with applicable law.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-B" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-B",
+      "title" : "Joint Living-work Quarters For Artists, or General Residential Occupancy of Loft, Commercial or Manufacturing Buildings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-B",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "275",
+      "title" : "Legislative findings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "275",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "277",
+      "title" : "Occupancy permitted",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "277",
+      "activeDate" : "2026-08-28"
+    }
+  }
+}

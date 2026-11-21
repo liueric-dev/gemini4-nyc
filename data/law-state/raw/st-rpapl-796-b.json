@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 796-B in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "796-B",
+    "title" : "Grounds for the proceeding",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+    "docLevelId" : "796-B",
+    "activeDate" : "2023-06-16",
+    "text" : "  § 796-b. Grounds for the proceeding. One-third or more of the tenants\\noccupying a multiple residence dwelling or a tenant occupying a single\\nresidence dwelling or the commissioner of the department charged with\\nenforcement of the housing maintenance code in the municipality where\\nthe dwelling is located may maintain a special proceeding as provided in\\nthis article, upon the grounds that there exists in such dwelling, or in\\nany part thereof:\\n  1. a lack of heat, running water, light, electricity, adequate sewage\\ndisposal facilities, or any other condition dangerous to life, health or\\nsafety, which has existed for five days, or an infestation by rodents,\\nor any combination of such conditions; or\\n  2. a course of conduct by the owner or the owner's agents of\\nharassment, illegal eviction, continued deprivation of services or other\\nacts dangerous to life, health or safety.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-C",
+      "title" : "Special Proceedings By Tenants of Dwellings For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2022-12-23", "2023-01-06", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2023-06-16"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-A",
+      "title" : "Jurisdiction; court; venue",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-A",
+      "activeDate" : "2023-06-16"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "796-C",
+      "title" : "Commencement; notice of petition; time and manner of service",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2022-12-23", "2023-03-10", "2023-06-16" ],
+      "docLevelId" : "796-C",
+      "activeDate" : "2023-06-16"
+    }
+  }
+}

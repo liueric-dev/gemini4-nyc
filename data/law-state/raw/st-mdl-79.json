@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 79 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "79",
+    "title" : "Heating",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "79",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 79. Heating. 1. Every multiple dwelling exceeding two stories in\\nheight and erected after April eighteenth, nineteen hundred twenty-nine,\\nand every garden-type maisonette dwelling project erected after April\\neighteenth, nineteen hundred fifty-four, shall be provided with heat. On\\nand after November first, nineteen hundred fifty-nine, every multiple\\ndwelling shall be provided with heat or the equipment or facilities\\ntherefor.  During the months between October first and May thirty-first,\\nsuch heat and the equipment or facilities shall be sufficient to\\nmaintain the minimum temperatures required by local law, ordinance, rule\\nor regulation, in all portions of the dwelling used or occupied for\\nliving purposes provided, however, that such minimum temperatures shall\\nbe as follows:  (a) sixty-eight degrees Fahrenheit during the hours\\nbetween six o'clock in the morning and ten o'clock in the evening,\\nwhenever the outdoor temperature falls below fifty-five degrees\\nFahrenheit, notwithstanding the provisions of paragraph a of subdivision\\nfour of section three of this chapter, and (b) at least fifty-five\\ndegrees Fahrenheit during the hours between ten o'clock in the evening\\nand six o'clock in the morning, whenever the outdoor temperature falls\\nbelow forty degrees Fahrenheit. Nothing in this section shall be deemed\\nto relieve any owner of the duty of providing centrally supplied or\\nother approved source of heat prior to November first, nineteen hundred\\nfifty-nine in any case where such heat is required by this chapter or\\nany other law, ordinance, rule or regulation to be supplied in a\\ndwelling prior to said date. The heating system in dwellings used for\\nsingle room occupancy shall be in conformity with the requirements of\\nsection two hundred forty-eight.\\n  2. The provisions of subdivision one shall not apply to any dwelling\\n(a) which is located in a resort community and is rented or occupied on\\na seasonal basis between April fifteenth and October fourteenth during\\nany calendar year and is not occupied for living purposes during the\\nremainder of such year, except that occupancy of any such dwelling by\\nthe family of a caretaker thereof or by the family of the owner thereof\\nduring the remainder of the year shall be permitted; or (b) which the\\ndepartment of city planning certifies is in an area to be acquired for a\\npublic improvement or for development or redevelopment and for which (1)\\na request for acquisition has been submitted to the mayor by a public\\nagency or (2) a plan for a development or redevelopment project has\\nreceived preliminary or first approval of the city planning commission;\\nor (c) for which a demolition permit has been or shall be issued by the\\nmunicipality pursuant to local law or ordinance.\\n  3. The exemption provided in subdivisions two (b) and two (c) of this\\nsection shall be valid for a period of six months after the date of the\\napproval of the slum clearance or urban renewal plan or the date of such\\ncertification or the date of the issuance of the demolition permit, as\\nthe case may be, but such exemption may be extended from time to time by\\nthe department provided, however, that such exemption shall not extend\\nbeyond November first, nineteen hundred sixty-one.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T3",
+      "title" : "Sanitation and Health",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "78",
+      "title" : "Repairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "78",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "80",
+      "title" : "Cleanliness",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "80",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

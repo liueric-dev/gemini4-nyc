@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 193 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "193",
+    "title" : "Frame buildings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "193",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 193. Frame buildings. No frame building shall be erected or\\nmaintained upon the same lot with a dwelling converted after April\\ntwenty-eighth, nineteen hundred thirty, nor shall any frame building not\\noccupied on April thirteenth, nineteen hundred forty, as a multiple\\ndwelling be altered or converted to such use; except that if the walls\\nof a frame converted dwelling are faced with a veneer of brick and the\\nentrance story is occupied by not more than one family, such entrance\\nstory may be altered so that it may be occupied by two families.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "192",
+      "title" : "Cellar entrance",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "192",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "194",
+      "title" : "Sprinkler heads in rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "194",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

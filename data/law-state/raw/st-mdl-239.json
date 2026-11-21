@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 239 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "239",
+    "title" : "Tower fire-escapes and supplemental stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "239",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 239. Tower fire-escapes and supplemental stairs. In fireproof\\ntenements tower fire-escapes or stairs which are supplemental to the\\nstairs required by law may be installed providing such tower\\nfire-escapes or stairs shall be shut off from all other parts of the\\ndwelling by brick walls or partitions of terra cotta blocks at least\\nfour inches thick, or hollow cement blocks at least four inches thick\\nwhich have successfully withstood a three-hour standard fire test and\\nbeen approved by the department, and have fireproof doors and assemblies\\nwith the doors self-closing at all openings. Whenever such supplementary\\nstairs are provided they shall be constructed in accordance with such\\nsupplementary regulations as may be adopted by the department. Such\\ntower fire-escapes or stairs shall not be used as service stairs and\\nshall be kept adequately lighted at all times and free from encumbrance.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "238",
+      "title" : "Stair and entrance halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "238",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "240",
+      "title" : "First tier of beams",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "240",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

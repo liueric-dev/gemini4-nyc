@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 54 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "54",
+    "title" : "Cellar entrance",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "54",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 54. Cellar entrance. There shall be a direct entrance to the cellar,\\nor to the lowest story if there be no cellar, from the outside of every\\nmultiple dwelling erected after April eighteenth, nineteen hundred\\ntwenty-nine, except that in non-fireproof multiple dwellings erected\\nafter such date which are three stories or less in height and occupied\\nby not more than two families on any story, any stair leading to such\\ncellar or lowest story may be located inside the dwelling provided it is\\nenclosed in fireproof walls and fireproof doors and assemblies with the\\ndoors self-closing, at both the level of such cellar or lowest story and\\nthat of the story above. No such outside entrance existing in any\\nmultiple dwelling on April eighteenth, nineteen hundred twenty-nine,\\nshall be obstructed.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "53",
+      "title" : "Fire-escapes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "53",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "55",
+      "title" : "Wainscoting",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "55",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

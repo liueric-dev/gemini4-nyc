@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 210 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "210",
+    "title" : "Contempt",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "210",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 210. Contempt. All of the provisions of law governing civil and\\ncriminal contempts in like instances in supreme court shall apply in\\nthis court, except that this court shall have no power to punish for\\ncontempt a judge or justice of any court.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "209",
+      "title" : "Provisional remedies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-06-19" ],
+      "docLevelId" : "209",
+      "activeDate" : "2026-06-19"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "211",
+      "title" : "Joinder of causes of action in complaint; effect on jurisdiction",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "211",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

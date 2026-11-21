@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 235-D in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "235-D",
+    "title" : "Harassment",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "235-D",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 235-d. Harassment. 1. Notwithstanding any other provision of law,\\nwithin a city having a population of one million or more, it shall be\\nunlawful and shall constitute harassment for any landlord of a building\\nwhich at any time was occupied for manufacturing or warehouse purposes,\\nor other person acting on his behalf, to engage in any course of\\nconduct, including, but not limited to intentional interruption or\\ndiscontinuance or willful failure to restore services customarily\\nprovided or required by written lease or other rental agreement, which\\ninterferes with or disturbs the comfort, repose, peace or quiet of a\\ntenant in the tenant's use or occupancy of rental space if such conduct\\nis intended to cause the tenant (i) to vacate a building or part\\nthereof; or (ii) to surrender or waive any rights of such tenant under\\nthe tenant's written lease or other rental agreement.\\n  2. The lawful termination of a tenancy or lawful refusal to renew or\\nextend a written lease or other rental agreement shall not constitute\\nharassment for purposes of this section.\\n  3. As used in this section the term \"tenant\" means only a person or\\nbusiness occupying or residing at the premises pursuant to a written\\nlease or other rental agreement, if such premises are located in a\\nbuilding which at any time was occupied for manufacturing or warehouse\\npurposes and a certificate of occupancy for residential use of such\\nbuilding is not in effect at the time of the last alleged acts or\\nincidents upon which the harassment claim is based.\\n  4. A tenant may apply to the supreme court for an order enjoining acts\\nor practices which constitute harassment under subdivision one of this\\nsection; and upon sufficient showing, the supreme court may issue a\\ntemporary or permanent injunction, restraining order or other order, all\\nof which may, as the court determines in the exercise of its sound\\ndiscretion, be granted without bond. In the event the court issues a\\npreliminary injunction it shall make provision for an expeditious trial\\nof the underlying action.\\n  5. The powers and remedies set forth in this section shall be in\\naddition to all other powers and remedies in relation to harassment\\nincluding the award of damages. Nothing contained herein shall be\\nconstrued to amend, repeal, modify or affect any existing local law or\\nordinance, or provision of the charter or administrative code of the\\ncity of New York, or to limit or restrict the power of the city to amend\\nor modify any existing local law, ordinance or provision of the charter\\nor administrative code, or to restrict or limit any power otherwise\\nconferred by law with respect to harassment.\\n  6. Any agreement by a tenant in a written lease or other rental\\nagreement waiving or modifying his rights as set forth in this section\\nshall be void as contrary to public policy.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-C",
+      "title" : "Unconscionable lease or clause",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "235-C",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "235-E",
+      "title" : "Duty to provide a written receipt",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2021-12-31" ],
+      "docLevelId" : "235-E",
+      "activeDate" : "2021-12-31"
+    }
+  }
+}

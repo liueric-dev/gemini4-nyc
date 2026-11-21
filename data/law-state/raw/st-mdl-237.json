@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 237 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "237",
+    "title" : "Stair construction",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "237",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 237. Stair construction. 1. Every stair in a tenement erected after\\nApril twelfth, nineteen hundred one, shall be accessible on the entrance\\nstory from a street or street court, or from an inner court which\\nconnects directly with a street.\\n  2. All such stairs shall have risers of eight inches or less and\\ntreads at least ten inches in clear width and three feet in clear\\nlength.\\n  3. Winding stairs shall be unlawful except in a tenement provided with\\na passenger elevator. When winding stairs or radial steps are installed\\nor used, the strings from which the risers radiate shall be curved on a\\ncircle of at least one foot diameter, the treads shall be at least four\\ninches wide at the string, not including the nosing, and the angle\\nformed by the face of each riser and the string shall not diverge more\\nthan forty degrees from a line normal to the string at the intersection\\nof such riser. It shall be unlawful to construct new winding stairs.\\n  4. Stairs constructed after April eighteenth, nineteen hundred\\ntwenty-nine, shall comply with the provisions of subdivisions two to six\\ninclusive of section fifty-two.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "236",
+      "title" : "Stairs in fireproof tenements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "236",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "238",
+      "title" : "Stair and entrance halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "238",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

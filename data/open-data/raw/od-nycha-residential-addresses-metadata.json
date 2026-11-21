@@ -1,0 +1,1973 @@
+{
+  "id" : "3ub5-4ph8",
+  "name" : "NYCHA Residential Addresses",
+  "assetType" : "dataset",
+  "attribution" : "NYC Housing Authority (NYCHA)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1611080718,
+  "description" : "List of NYCHA residential addresses.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 3794,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41130282,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1739201709,
+  "publicationGroup" : 17951958,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1779217098,
+  "rowsUpdatedBy" : "d2qk-x9en",
+  "tableId" : 19778835,
+  "totalTimesRated" : 0,
+  "viewCount" : 22737,
+  "viewLastModified" : 1779217095,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1613432327,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6742047,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1613432327,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1613432327,
+      "failureCount" : 0,
+      "startedAt" : 1613432327,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 605565857,
+    "name" : "DEVELOPMENT",
+    "dataTypeName" : "text",
+    "description" : "Development name",
+    "fieldName" : "development",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212760,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "WYCKOFF GARDENS",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CLASON POINT GARDENS",
+        "count" : "192"
+      }, {
+        "item" : "POMONOK",
+        "count" : "121"
+      }, {
+        "item" : "BREUKELEN",
+        "count" : "94"
+      }, {
+        "item" : "MARCY",
+        "count" : "70"
+      }, {
+        "item" : "THROGGS NECK",
+        "count" : "64"
+      }, {
+        "item" : "WOODSIDE",
+        "count" : "55"
+      }, {
+        "item" : "QUEENSBRIDGE SOUTH",
+        "count" : "49"
+      }, {
+        "item" : "RED HOOK WEST",
+        "count" : "49"
+      }, {
+        "item" : "RED HOOK EAST",
+        "count" : "48"
+      }, {
+        "item" : "QUEENSBRIDGE NORTH",
+        "count" : "47"
+      }, {
+        "item" : "BROWNSVILLE",
+        "count" : "46"
+      }, {
+        "item" : "VLADECK",
+        "count" : "46"
+      }, {
+        "item" : "RAVENSWOOD",
+        "count" : "45"
+      }, {
+        "item" : "INGERSOLL",
+        "count" : "45"
+      }, {
+        "item" : "GLENWOOD",
+        "count" : "40"
+      }, {
+        "item" : "PELHAM PARKWAY",
+        "count" : "38"
+      }, {
+        "item" : "SHEEPSHEAD BAY",
+        "count" : "36"
+      }, {
+        "item" : "WSUR (BROWNSTONES)",
+        "count" : "36"
+      }, {
+        "item" : "KINGSBOROUGH",
+        "count" : "35"
+      }, {
+        "item" : "BARUCH",
+        "count" : "34"
+      } ],
+      "smallest" : "1162-1176 WASHINGTON AVENUE",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565858,
+    "name" : "TDS #",
+    "dataTypeName" : "number",
+    "description" : "Tenant Data System number",
+    "fieldName" : "tds",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212761,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "582",
+      "null" : "0",
+      "top" : [ {
+        "item" : "11",
+        "count" : "192"
+      }, {
+        "item" : "53",
+        "count" : "121"
+      }, {
+        "item" : "56",
+        "count" : "94"
+      }, {
+        "item" : "21",
+        "count" : "70"
+      }, {
+        "item" : "63",
+        "count" : "64"
+      }, {
+        "item" : "33",
+        "count" : "55"
+      }, {
+        "item" : "79",
+        "count" : "49"
+      }, {
+        "item" : "5",
+        "count" : "49"
+      }, {
+        "item" : "4",
+        "count" : "48"
+      }, {
+        "item" : "505",
+        "count" : "47"
+      }, {
+        "item" : "6",
+        "count" : "46"
+      }, {
+        "item" : "16",
+        "count" : "46"
+      }, {
+        "item" : "48",
+        "count" : "45"
+      }, {
+        "item" : "14",
+        "count" : "45"
+      }, {
+        "item" : "44",
+        "count" : "40"
+      }, {
+        "item" : "39",
+        "count" : "38"
+      }, {
+        "item" : "36",
+        "count" : "36"
+      }, {
+        "item" : "178",
+        "count" : "36"
+      }, {
+        "item" : "10",
+        "count" : "35"
+      }, {
+        "item" : "64",
+        "count" : "34"
+      } ],
+      "smallest" : "1",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565859,
+    "name" : "BUILDING #",
+    "dataTypeName" : "text",
+    "description" : "NYCHA building number",
+    "fieldName" : "building",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212758,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "9",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "254"
+      }, {
+        "item" : "2",
+        "count" : "225"
+      }, {
+        "item" : "3",
+        "count" : "216"
+      }, {
+        "item" : "4",
+        "count" : "204"
+      }, {
+        "item" : "5",
+        "count" : "179"
+      }, {
+        "item" : "6",
+        "count" : "158"
+      }, {
+        "item" : "7",
+        "count" : "143"
+      }, {
+        "item" : "8",
+        "count" : "131"
+      }, {
+        "item" : "9",
+        "count" : "119"
+      }, {
+        "item" : "10",
+        "count" : "108"
+      }, {
+        "item" : "11",
+        "count" : "98"
+      }, {
+        "item" : "12",
+        "count" : "94"
+      }, {
+        "item" : "13",
+        "count" : "90"
+      }, {
+        "item" : "14",
+        "count" : "83"
+      }, {
+        "item" : "15",
+        "count" : "71"
+      }, {
+        "item" : "16",
+        "count" : "70"
+      }, {
+        "item" : "18",
+        "count" : "66"
+      }, {
+        "item" : "17",
+        "count" : "65"
+      }, {
+        "item" : "20",
+        "count" : "55"
+      }, {
+        "item" : "19",
+        "count" : "55"
+      } ],
+      "smallest" : "1",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565882,
+    "name" : "STAIRHALL#",
+    "dataTypeName" : "text",
+    "description" : "NYCHA stairhall number\n",
+    "fieldName" : "stairhall_",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156718640,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "776",
+      "null" : "0",
+      "top" : [ {
+        "item" : "002",
+        "count" : "117"
+      }, {
+        "item" : "001",
+        "count" : "117"
+      }, {
+        "item" : "003",
+        "count" : "116"
+      }, {
+        "item" : "004",
+        "count" : "111"
+      }, {
+        "item" : "005",
+        "count" : "110"
+      }, {
+        "item" : "006",
+        "count" : "104"
+      }, {
+        "item" : "007",
+        "count" : "94"
+      }, {
+        "item" : "008",
+        "count" : "88"
+      }, {
+        "item" : "009",
+        "count" : "80"
+      }, {
+        "item" : "011",
+        "count" : "75"
+      }, {
+        "item" : "010",
+        "count" : "74"
+      }, {
+        "item" : "012",
+        "count" : "70"
+      }, {
+        "item" : "013",
+        "count" : "67"
+      }, {
+        "item" : "014",
+        "count" : "64"
+      }, {
+        "item" : "015",
+        "count" : "61"
+      }, {
+        "item" : "016",
+        "count" : "54"
+      }, {
+        "item" : "017",
+        "count" : "50"
+      }, {
+        "item" : "018",
+        "count" : "47"
+      }, {
+        "item" : "022",
+        "count" : "45"
+      }, {
+        "item" : "020",
+        "count" : "44"
+      } ],
+      "smallest" : "001",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565860,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "Bronx, Brooklyn, Manhattan, Queens, Staten Island",
+    "fieldName" : "borough",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212762,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "STATEN ISLAND",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "981"
+      }, {
+        "item" : "BRONX",
+        "count" : "691"
+      }, {
+        "item" : "MANHATTAN",
+        "count" : "596"
+      }, {
+        "item" : "QUEENS",
+        "count" : "586"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "101"
+      } ],
+      "smallest" : "BRONX",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565861,
+    "name" : "HOUSE #",
+    "dataTypeName" : "text",
+    "description" : "House number",
+    "fieldName" : "house",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212763,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "998",
+      "null" : "0",
+      "top" : [ {
+        "item" : "60",
+        "count" : "19"
+      }, {
+        "item" : "70",
+        "count" : "16"
+      }, {
+        "item" : "50",
+        "count" : "15"
+      }, {
+        "item" : "40",
+        "count" : "14"
+      }, {
+        "item" : "80",
+        "count" : "12"
+      }, {
+        "item" : "30",
+        "count" : "12"
+      }, {
+        "item" : "340",
+        "count" : "10"
+      }, {
+        "item" : "300",
+        "count" : "10"
+      }, {
+        "item" : "75",
+        "count" : "9"
+      }, {
+        "item" : "20",
+        "count" : "8"
+      }, {
+        "item" : "45",
+        "count" : "8"
+      }, {
+        "item" : "38",
+        "count" : "8"
+      }, {
+        "item" : "55",
+        "count" : "8"
+      }, {
+        "item" : "130",
+        "count" : "7"
+      }, {
+        "item" : "420",
+        "count" : "7"
+      }, {
+        "item" : "330",
+        "count" : "7"
+      }, {
+        "item" : "140",
+        "count" : "7"
+      }, {
+        "item" : "131",
+        "count" : "6"
+      }, {
+        "item" : "65",
+        "count" : "6"
+      }, {
+        "item" : "335",
+        "count" : "6"
+      } ],
+      "smallest" : "1",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565862,
+    "name" : "STREET",
+    "dataTypeName" : "text",
+    "description" : "Street",
+    "fieldName" : "street",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212764,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "YORK STREET",
+      "null" : "0",
+      "top" : [ {
+        "item" : "PARSONS BOULEVARD",
+        "count" : "52"
+      }, {
+        "item" : "METCALF AVENUE",
+        "count" : "51"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "49"
+      }, {
+        "item" : "LAFAYETTE AVENUE",
+        "count" : "42"
+      }, {
+        "item" : "12TH STREET",
+        "count" : "40"
+      }, {
+        "item" : "159TH STREET",
+        "count" : "39"
+      }, {
+        "item" : "KISSENA BOULEVARD",
+        "count" : "37"
+      }, {
+        "item" : "VERNON BOULEVARD",
+        "count" : "34"
+      }, {
+        "item" : "COLUMBIA STREET",
+        "count" : "33"
+      }, {
+        "item" : "FOUNTAIN AVENUE",
+        "count" : "31"
+      }, {
+        "item" : "EAST 105TH STREET",
+        "count" : "31"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "30"
+      }, {
+        "item" : "10TH STREET",
+        "count" : "30"
+      }, {
+        "item" : "BLAKE AVENUE",
+        "count" : "29"
+      }, {
+        "item" : "CLASON POINT LANE NORTH",
+        "count" : "26"
+      }, {
+        "item" : "EAST 108TH STREET",
+        "count" : "25"
+      }, {
+        "item" : "SUTTER AVENUE",
+        "count" : "25"
+      }, {
+        "item" : "NOBLE AVENUE",
+        "count" : "25"
+      }, {
+        "item" : "WILLIAMS AVENUE",
+        "count" : "25"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "24"
+      } ],
+      "smallest" : "102ND AVENUE",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565863,
+    "name" : "ADDRESS",
+    "dataTypeName" : "text",
+    "description" : "Address",
+    "fieldName" : "address",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212765,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "9 MONUMENT WALK",
+      "null" : "0",
+      "top" : [ {
+        "item" : "143 GATES AVENUE",
+        "count" : "4"
+      }, {
+        "item" : "733 SNEDIKER AVENUE",
+        "count" : "4"
+      }, {
+        "item" : "367 DOUGLASS STREET",
+        "count" : "3"
+      }, {
+        "item" : "75 WAVERLY AVENUE",
+        "count" : "3"
+      }, {
+        "item" : "71 WAVERLY AVENUE",
+        "count" : "3"
+      }, {
+        "item" : "353 BERRIMAN STREET",
+        "count" : "2"
+      }, {
+        "item" : "129-04 142ND STREET",
+        "count" : "2"
+      }, {
+        "item" : "1502 BEACH 12TH STREET",
+        "count" : "2"
+      }, {
+        "item" : "2926 WEST 25TH STREET",
+        "count" : "2"
+      }, {
+        "item" : "182 ADELPHI STREET",
+        "count" : "2"
+      }, {
+        "item" : "2950 WEST 35TH STREET",
+        "count" : "2"
+      }, {
+        "item" : "140 EAST 91ST STREET",
+        "count" : "2"
+      }, {
+        "item" : "359 BERRIMAN STREET",
+        "count" : "2"
+      }, {
+        "item" : "100-38 FRANCIS LEWIS BOULEVARD",
+        "count" : "2"
+      }, {
+        "item" : "178-14 BAISLEY BOULEVARD",
+        "count" : "2"
+      }, {
+        "item" : "70 NEW LANE",
+        "count" : "2"
+      }, {
+        "item" : "341 BERRIMAN STREET",
+        "count" : "2"
+      }, {
+        "item" : "458 ATKINS AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "116-31 FARMERS BOULEVARD",
+        "count" : "2"
+      }, {
+        "item" : "153 BEACH 59TH STREET",
+        "count" : "2"
+      } ],
+      "smallest" : "1000 TRINITY AVENUE",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565864,
+    "name" : "CITY",
+    "dataTypeName" : "text",
+    "description" : "City",
+    "fieldName" : "city",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212766,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "WOODSIDE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BROOKLYN",
+        "count" : "981"
+      }, {
+        "item" : "BRONX",
+        "count" : "691"
+      }, {
+        "item" : "NEW YORK",
+        "count" : "596"
+      }, {
+        "item" : "FLUSHING",
+        "count" : "131"
+      }, {
+        "item" : "JAMAICA",
+        "count" : "106"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "101"
+      }, {
+        "item" : "LONG ISLAND CITY",
+        "count" : "96"
+      }, {
+        "item" : "ASTORIA",
+        "count" : "67"
+      }, {
+        "item" : "FAR ROCKAWAY",
+        "count" : "55"
+      }, {
+        "item" : "WOODSIDE",
+        "count" : "55"
+      }, {
+        "item" : "SAINT ALBANS",
+        "count" : "32"
+      }, {
+        "item" : "QUEENS VILLAGE",
+        "count" : "17"
+      }, {
+        "item" : "SOUTH OZONE PARK",
+        "count" : "8"
+      }, {
+        "item" : "SPRINGFIELD GARDENS",
+        "count" : "8"
+      }, {
+        "item" : "CAMBRIA HEIGHTS",
+        "count" : "5"
+      }, {
+        "item" : "ARVERNE",
+        "count" : "3"
+      }, {
+        "item" : "HOLLIS",
+        "count" : "1"
+      }, {
+        "item" : "COLLEGE POINT",
+        "count" : "1"
+      }, {
+        "item" : "SOUTH RICHMOND HILL",
+        "count" : "1"
+      } ],
+      "smallest" : "ARVERNE",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565865,
+    "name" : "STATE",
+    "dataTypeName" : "text",
+    "description" : "State",
+    "fieldName" : "state",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212767,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "NY",
+      "null" : "0",
+      "top" : [ {
+        "item" : "NY",
+        "count" : "2955"
+      } ],
+      "smallest" : "NY",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565866,
+    "name" : "ZIP CODE",
+    "dataTypeName" : "number",
+    "description" : "Zip Code",
+    "fieldName" : "zip_code",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212768,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "11693",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10473",
+        "count" : "252"
+      }, {
+        "item" : "11206",
+        "count" : "135"
+      }, {
+        "item" : "10029",
+        "count" : "133"
+      }, {
+        "item" : "10002",
+        "count" : "131"
+      }, {
+        "item" : "11212",
+        "count" : "122"
+      }, {
+        "item" : "11231",
+        "count" : "97"
+      }, {
+        "item" : "11101",
+        "count" : "96"
+      }, {
+        "item" : "11208",
+        "count" : "93"
+      }, {
+        "item" : "10009",
+        "count" : "86"
+      }, {
+        "item" : "10456",
+        "count" : "75"
+      }, {
+        "item" : "11236",
+        "count" : "75"
+      }, {
+        "item" : "10465",
+        "count" : "71"
+      }, {
+        "item" : "11433",
+        "count" : "70"
+      }, {
+        "item" : "11367",
+        "count" : "69"
+      }, {
+        "item" : "11205",
+        "count" : "65"
+      }, {
+        "item" : "11233",
+        "count" : "64"
+      }, {
+        "item" : "11229",
+        "count" : "58"
+      }, {
+        "item" : "11377",
+        "count" : "55"
+      }, {
+        "item" : "11365",
+        "count" : "52"
+      }, {
+        "item" : "11207",
+        "count" : "49"
+      } ],
+      "smallest" : "10001",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565867,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "description" : "Building Identification Center",
+    "fieldName" : "bin",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212756,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "5157567",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1075623",
+        "count" : "11"
+      }, {
+        "item" : "4455431",
+        "count" : "8"
+      }, {
+        "item" : "4451594",
+        "count" : "8"
+      }, {
+        "item" : "4455420",
+        "count" : "7"
+      }, {
+        "item" : "1075621",
+        "count" : "7"
+      }, {
+        "item" : "1075625",
+        "count" : "6"
+      }, {
+        "item" : "2092739",
+        "count" : "6"
+      }, {
+        "item" : "3326974",
+        "count" : "6"
+      }, {
+        "item" : "4455436",
+        "count" : "6"
+      }, {
+        "item" : "2092736",
+        "count" : "6"
+      }, {
+        "item" : "2117758",
+        "count" : "5"
+      }, {
+        "item" : "2092693",
+        "count" : "5"
+      }, {
+        "item" : "2092186",
+        "count" : "5"
+      }, {
+        "item" : "2092740",
+        "count" : "5"
+      }, {
+        "item" : "2092690",
+        "count" : "5"
+      }, {
+        "item" : "2092032",
+        "count" : "5"
+      }, {
+        "item" : "4455437",
+        "count" : "5"
+      }, {
+        "item" : "2092741",
+        "count" : "5"
+      }, {
+        "item" : "2092746",
+        "count" : "5"
+      }, {
+        "item" : "2092189",
+        "count" : "5"
+      } ],
+      "smallest" : "1003142",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 605565868,
+    "name" : "BLOCK",
+    "dataTypeName" : "number",
+    "description" : "Tax Block",
+    "fieldName" : "block",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212759,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "16114",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3633",
+        "count" : "130"
+      }, {
+        "item" : "6792",
+        "count" : "121"
+      }, {
+        "item" : "538",
+        "count" : "62"
+      }, {
+        "item" : "3591",
+        "count" : "62"
+      }, {
+        "item" : "465",
+        "count" : "49"
+      }, {
+        "item" : "8158",
+        "count" : "48"
+      }, {
+        "item" : "470",
+        "count" : "47"
+      }, {
+        "item" : "260",
+        "count" : "42"
+      }, {
+        "item" : "738",
+        "count" : "41"
+      }, {
+        "item" : "7978",
+        "count" : "40"
+      }, {
+        "item" : "1719",
+        "count" : "40"
+      }, {
+        "item" : "323",
+        "count" : "35"
+      }, {
+        "item" : "1344",
+        "count" : "32"
+      }, {
+        "item" : "1738",
+        "count" : "30"
+      }, {
+        "item" : "4292",
+        "count" : "30"
+      }, {
+        "item" : "5564",
+        "count" : "30"
+      }, {
+        "item" : "1696",
+        "count" : "29"
+      }, {
+        "item" : "10125",
+        "count" : "29"
+      }, {
+        "item" : "1688",
+        "count" : "26"
+      }, {
+        "item" : "5582",
+        "count" : "24"
+      } ],
+      "smallest" : "51",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 605565869,
+    "name" : "LOT",
+    "dataTypeName" : "number",
+    "description" : "Tax Lot",
+    "fieldName" : "lot",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212769,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "9078",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1742"
+      }, {
+        "item" : "2",
+        "count" : "119"
+      }, {
+        "item" : "100",
+        "count" : "99"
+      }, {
+        "item" : "30",
+        "count" : "99"
+      }, {
+        "item" : "50",
+        "count" : "58"
+      }, {
+        "item" : "101",
+        "count" : "46"
+      }, {
+        "item" : "16",
+        "count" : "39"
+      }, {
+        "item" : "15",
+        "count" : "37"
+      }, {
+        "item" : "10",
+        "count" : "35"
+      }, {
+        "item" : "21",
+        "count" : "33"
+      }, {
+        "item" : "61",
+        "count" : "31"
+      }, {
+        "item" : "200",
+        "count" : "31"
+      }, {
+        "item" : "33",
+        "count" : "30"
+      }, {
+        "item" : "75",
+        "count" : "24"
+      }, {
+        "item" : "20",
+        "count" : "23"
+      }, {
+        "item" : "24",
+        "count" : "23"
+      }, {
+        "item" : "23",
+        "count" : "19"
+      }, {
+        "item" : "205",
+        "count" : "18"
+      }, {
+        "item" : "1001",
+        "count" : "18"
+      }, {
+        "item" : "19",
+        "count" : "17"
+      } ],
+      "smallest" : "1",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565870,
+    "name" : "BOROUGH/BLOCK/LOT #",
+    "dataTypeName" : "number",
+    "description" : "Combination of borough code, tax block, and tax lot ",
+    "fieldName" : "borough_block_lot",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212757,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "5035320500",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2036330001",
+        "count" : "130"
+      }, {
+        "item" : "4067920030",
+        "count" : "87"
+      }, {
+        "item" : "2035910001",
+        "count" : "62"
+      }, {
+        "item" : "3005380001",
+        "count" : "62"
+      }, {
+        "item" : "4007380050",
+        "count" : "41"
+      }, {
+        "item" : "3017190001",
+        "count" : "40"
+      }, {
+        "item" : "3079780001",
+        "count" : "40"
+      }, {
+        "item" : "1003230001",
+        "count" : "35"
+      }, {
+        "item" : "4067920001",
+        "count" : "34"
+      }, {
+        "item" : "4004650001",
+        "count" : "34"
+      }, {
+        "item" : "3081580001",
+        "count" : "32"
+      }, {
+        "item" : "3013440001",
+        "count" : "31"
+      }, {
+        "item" : "3042920061",
+        "count" : "30"
+      }, {
+        "item" : "2055640001",
+        "count" : "30"
+      }, {
+        "item" : "3017380001",
+        "count" : "30"
+      }, {
+        "item" : "1016960001",
+        "count" : "29"
+      }, {
+        "item" : "3016880001",
+        "count" : "26"
+      }, {
+        "item" : "4101250033",
+        "count" : "24"
+      }, {
+        "item" : "1011540101",
+        "count" : "24"
+      }, {
+        "item" : "3035610001",
+        "count" : "24"
+      } ],
+      "smallest" : "1001110100",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 605565871,
+    "name" : "CENSUS TRACT (2020)",
+    "dataTypeName" : "number",
+    "description" : "2020 census tract",
+    "fieldName" : "census_tract_2010",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212770,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "122702",
+      "null" : "0",
+      "top" : [ {
+        "item" : "46",
+        "count" : "130"
+      }, {
+        "item" : "122702",
+        "count" : "121"
+      }, {
+        "item" : "25",
+        "count" : "112"
+      }, {
+        "item" : "85",
+        "count" : "97"
+      }, {
+        "item" : "982",
+        "count" : "94"
+      }, {
+        "item" : "2001",
+        "count" : "88"
+      }, {
+        "item" : "144",
+        "count" : "71"
+      }, {
+        "item" : "255",
+        "count" : "70"
+      }, {
+        "item" : "572",
+        "count" : "68"
+      }, {
+        "item" : "163",
+        "count" : "55"
+      }, {
+        "item" : "912",
+        "count" : "54"
+      }, {
+        "item" : "202",
+        "count" : "54"
+      }, {
+        "item" : "25402",
+        "count" : "53"
+      }, {
+        "item" : "94402",
+        "count" : "40"
+      }, {
+        "item" : "180",
+        "count" : "36"
+      }, {
+        "item" : "1002",
+        "count" : "35"
+      }, {
+        "item" : "177",
+        "count" : "34"
+      }, {
+        "item" : "910",
+        "count" : "34"
+      }, {
+        "item" : "2601",
+        "count" : "33"
+      }, {
+        "item" : "162",
+        "count" : "32"
+      } ],
+      "smallest" : "6",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565872,
+    "name" : "NEIGHBORHOOD TABULATION AREA CODE",
+    "dataTypeName" : "text",
+    "description" : "Neighborhood Tabulation Area (NTA) code ",
+    "fieldName" : "neighborhood_tabulation_area",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212771,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "SI0203",
+      "null" : "0",
+      "top" : [ {
+        "item" : "BX0902",
+        "count" : "236"
+      }, {
+        "item" : "QN0105",
+        "count" : "141"
+      }, {
+        "item" : "BK0601",
+        "count" : "124"
+      }, {
+        "item" : "QN0802",
+        "count" : "121"
+      }, {
+        "item" : "BK1602",
+        "count" : "120"
+      }, {
+        "item" : "MN0302",
+        "count" : "112"
+      }, {
+        "item" : "MN1102",
+        "count" : "102"
+      }, {
+        "item" : "BK1803",
+        "count" : "94"
+      }, {
+        "item" : "BK0301",
+        "count" : "89"
+      }, {
+        "item" : "MN0303",
+        "count" : "88"
+      }, {
+        "item" : "MN1101",
+        "count" : "73"
+      }, {
+        "item" : "BX1002",
+        "count" : "71"
+      }, {
+        "item" : "QN1202",
+        "count" : "70"
+      }, {
+        "item" : "BK1503",
+        "count" : "68"
+      }, {
+        "item" : "BK0302",
+        "count" : "60"
+      }, {
+        "item" : "BX1104",
+        "count" : "58"
+      }, {
+        "item" : "BK0203",
+        "count" : "56"
+      }, {
+        "item" : "QN0104",
+        "count" : "55"
+      }, {
+        "item" : "BX0101",
+        "count" : "53"
+      }, {
+        "item" : "BK0505",
+        "count" : "52"
+      } ],
+      "smallest" : "BK0103",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565873,
+    "name" : "NEIGHBORHOOD TABULATION AREA NAME",
+    "dataTypeName" : "text",
+    "description" : "Neighborhood Tabulation Area (NTA) name ",
+    "fieldName" : "neighborhood_tabulation_area_1",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 128212772,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "Williamsbridge-Olinville",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Soundview-Clason Point",
+        "count" : "236"
+      }, {
+        "item" : "Queensbridge-Ravenswood-Dutch Kills",
+        "count" : "141"
+      }, {
+        "item" : "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+        "count" : "124"
+      }, {
+        "item" : "Pomonok-Electchester-Hillcrest",
+        "count" : "121"
+      }, {
+        "item" : "Brownsville",
+        "count" : "120"
+      }, {
+        "item" : "Lower East Side",
+        "count" : "112"
+      }, {
+        "item" : "East Harlem (North)",
+        "count" : "102"
+      }, {
+        "item" : "Canarsie",
+        "count" : "94"
+      }, {
+        "item" : "Bedford-Stuyvesant (West)",
+        "count" : "89"
+      }, {
+        "item" : "East Village",
+        "count" : "88"
+      }, {
+        "item" : "East Harlem (South)",
+        "count" : "73"
+      }, {
+        "item" : "Throgs Neck-Schuylerville",
+        "count" : "71"
+      }, {
+        "item" : "South Jamaica",
+        "count" : "70"
+      }, {
+        "item" : "Sheepshead Bay-Manhattan Beach-Gerritsen Beach",
+        "count" : "68"
+      }, {
+        "item" : "Bedford-Stuyvesant (East)",
+        "count" : "60"
+      }, {
+        "item" : "Allerton",
+        "count" : "58"
+      }, {
+        "item" : "Fort Greene",
+        "count" : "56"
+      }, {
+        "item" : "Astoria (East)-Woodside (North)",
+        "count" : "55"
+      }, {
+        "item" : "Mott Haven-Port Morris",
+        "count" : "53"
+      }, {
+        "item" : "East New York-City Line",
+        "count" : "52"
+      } ],
+      "smallest" : "Allerton",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565874,
+    "name" : "COMMUNITY DISTRICT",
+    "dataTypeName" : "number",
+    "description" : "Community district",
+    "fieldName" : "community_district",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212773,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "18",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "464"
+      }, {
+        "item" : "1",
+        "count" : "397"
+      }, {
+        "item" : "9",
+        "count" : "304"
+      }, {
+        "item" : "11",
+        "count" : "233"
+      }, {
+        "item" : "2",
+        "count" : "183"
+      }, {
+        "item" : "8",
+        "count" : "179"
+      }, {
+        "item" : "12",
+        "count" : "159"
+      }, {
+        "item" : "18",
+        "count" : "134"
+      }, {
+        "item" : "6",
+        "count" : "129"
+      }, {
+        "item" : "5",
+        "count" : "127"
+      }, {
+        "item" : "10",
+        "count" : "127"
+      }, {
+        "item" : "16",
+        "count" : "126"
+      }, {
+        "item" : "7",
+        "count" : "107"
+      }, {
+        "item" : "13",
+        "count" : "97"
+      }, {
+        "item" : "15",
+        "count" : "68"
+      }, {
+        "item" : "4",
+        "count" : "61"
+      }, {
+        "item" : "14",
+        "count" : "58"
+      }, {
+        "item" : "17",
+        "count" : "2"
+      } ],
+      "smallest" : "1",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565875,
+    "name" : "CITY COUNCIL DISTRICT",
+    "dataTypeName" : "number",
+    "description" : "City council district",
+    "fieldName" : "city_council_district",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212774,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "50",
+      "null" : "0",
+      "top" : [ {
+        "item" : "18",
+        "count" : "284"
+      }, {
+        "item" : "8",
+        "count" : "226"
+      }, {
+        "item" : "42",
+        "count" : "215"
+      }, {
+        "item" : "26",
+        "count" : "196"
+      }, {
+        "item" : "41",
+        "count" : "180"
+      }, {
+        "item" : "36",
+        "count" : "132"
+      }, {
+        "item" : "2",
+        "count" : "129"
+      }, {
+        "item" : "24",
+        "count" : "121"
+      }, {
+        "item" : "17",
+        "count" : "119"
+      }, {
+        "item" : "13",
+        "count" : "109"
+      }, {
+        "item" : "1",
+        "count" : "102"
+      }, {
+        "item" : "35",
+        "count" : "100"
+      }, {
+        "item" : "28",
+        "count" : "97"
+      }, {
+        "item" : "38",
+        "count" : "97"
+      }, {
+        "item" : "27",
+        "count" : "74"
+      }, {
+        "item" : "47",
+        "count" : "73"
+      }, {
+        "item" : "49",
+        "count" : "70"
+      }, {
+        "item" : "46",
+        "count" : "68"
+      }, {
+        "item" : "16",
+        "count" : "67"
+      }, {
+        "item" : "9",
+        "count" : "66"
+      } ],
+      "smallest" : "1",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565876,
+    "name" : "STATE ASSEMBLY DISTRICT",
+    "dataTypeName" : "number",
+    "description" : "Sate assembly district",
+    "fieldName" : "state_assembly_district",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212775,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "87",
+      "null" : "0",
+      "top" : [ {
+        "item" : "85",
+        "count" : "323"
+      }, {
+        "item" : "60",
+        "count" : "203"
+      }, {
+        "item" : "56",
+        "count" : "177"
+      }, {
+        "item" : "36",
+        "count" : "163"
+      }, {
+        "item" : "68",
+        "count" : "160"
+      }, {
+        "item" : "55",
+        "count" : "126"
+      }, {
+        "item" : "65",
+        "count" : "123"
+      }, {
+        "item" : "27",
+        "count" : "122"
+      }, {
+        "item" : "74",
+        "count" : "108"
+      }, {
+        "item" : "57",
+        "count" : "107"
+      }, {
+        "item" : "79",
+        "count" : "101"
+      }, {
+        "item" : "51",
+        "count" : "97"
+      }, {
+        "item" : "32",
+        "count" : "91"
+      }, {
+        "item" : "69",
+        "count" : "80"
+      }, {
+        "item" : "82",
+        "count" : "71"
+      }, {
+        "item" : "31",
+        "count" : "70"
+      }, {
+        "item" : "41",
+        "count" : "68"
+      }, {
+        "item" : "84",
+        "count" : "66"
+      }, {
+        "item" : "80",
+        "count" : "58"
+      }, {
+        "item" : "34",
+        "count" : "55"
+      } ],
+      "smallest" : "23",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565877,
+    "name" : "STATE SENATE DISTRICT",
+    "dataTypeName" : "number",
+    "description" : "State senate district",
+    "fieldName" : "state_senate_district",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212776,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "59",
+      "null" : "0",
+      "top" : [ {
+        "item" : "25",
+        "count" : "375"
+      }, {
+        "item" : "34",
+        "count" : "344"
+      }, {
+        "item" : "29",
+        "count" : "248"
+      }, {
+        "item" : "27",
+        "count" : "229"
+      }, {
+        "item" : "23",
+        "count" : "228"
+      }, {
+        "item" : "19",
+        "count" : "213"
+      }, {
+        "item" : "59",
+        "count" : "165"
+      }, {
+        "item" : "32",
+        "count" : "149"
+      }, {
+        "item" : "14",
+        "count" : "136"
+      }, {
+        "item" : "16",
+        "count" : "131"
+      }, {
+        "item" : "30",
+        "count" : "129"
+      }, {
+        "item" : "26",
+        "count" : "127"
+      }, {
+        "item" : "10",
+        "count" : "98"
+      }, {
+        "item" : "47",
+        "count" : "94"
+      }, {
+        "item" : "12",
+        "count" : "55"
+      }, {
+        "item" : "20",
+        "count" : "43"
+      }, {
+        "item" : "18",
+        "count" : "42"
+      }, {
+        "item" : "21",
+        "count" : "40"
+      }, {
+        "item" : "36",
+        "count" : "33"
+      }, {
+        "item" : "33",
+        "count" : "32"
+      } ],
+      "smallest" : "10",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565878,
+    "name" : "US CONGRESSIONAL DISTRICT",
+    "dataTypeName" : "number",
+    "description" : "Congressional district",
+    "fieldName" : "us_congressional_district",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212777,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "15",
+      "null" : "0",
+      "top" : [ {
+        "item" : "8",
+        "count" : "542"
+      }, {
+        "item" : "14",
+        "count" : "450"
+      }, {
+        "item" : "7",
+        "count" : "439"
+      }, {
+        "item" : "10",
+        "count" : "356"
+      }, {
+        "item" : "13",
+        "count" : "266"
+      }, {
+        "item" : "15",
+        "count" : "252"
+      }, {
+        "item" : "5",
+        "count" : "236"
+      }, {
+        "item" : "6",
+        "count" : "131"
+      }, {
+        "item" : "12",
+        "count" : "113"
+      }, {
+        "item" : "11",
+        "count" : "101"
+      }, {
+        "item" : "9",
+        "count" : "69"
+      } ],
+      "smallest" : "5",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565879,
+    "name" : "PRIVATELY MANAGED",
+    "dataTypeName" : "text",
+    "description" : "A \"Yes\" indicates developments managed by a private management company.",
+    "fieldName" : "privately_managed",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 155325070,
+    "cachedContents" : {
+      "non_null" : "85",
+      "largest" : "YES",
+      "null" : "2870",
+      "top" : [ {
+        "item" : "YES",
+        "count" : "85"
+      } ],
+      "smallest" : "YES",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565880,
+    "name" : "LATITUDE",
+    "dataTypeName" : "number",
+    "description" : "Latitude",
+    "fieldName" : "latitude",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212754,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "40.876983",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.684973",
+        "count" : "4"
+      }, {
+        "item" : "40.656766",
+        "count" : "4"
+      }, {
+        "item" : "40.679051",
+        "count" : "3"
+      }, {
+        "item" : "40.695477",
+        "count" : "3"
+      }, {
+        "item" : "40.695376",
+        "count" : "3"
+      }, {
+        "item" : "40.694519",
+        "count" : "3"
+      }, {
+        "item" : "40.675096",
+        "count" : "3"
+      }, {
+        "item" : "40.795644",
+        "count" : "2"
+      }, {
+        "item" : "40.590809",
+        "count" : "2"
+      }, {
+        "item" : "40.697513",
+        "count" : "2"
+      }, {
+        "item" : "40.594467",
+        "count" : "2"
+      }, {
+        "item" : "40.671795",
+        "count" : "2"
+      }, {
+        "item" : "40.672182",
+        "count" : "2"
+      }, {
+        "item" : "40.667376",
+        "count" : "2"
+      }, {
+        "item" : "40.611336",
+        "count" : "2"
+      }, {
+        "item" : "40.575122",
+        "count" : "2"
+      }, {
+        "item" : "40.825103",
+        "count" : "2"
+      }, {
+        "item" : "40.821472",
+        "count" : "2"
+      }, {
+        "item" : "40.820856",
+        "count" : "2"
+      }, {
+        "item" : "40.818911",
+        "count" : "2"
+      } ],
+      "smallest" : "40.57201",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  }, {
+    "id" : 605565881,
+    "name" : "LONGITUDE",
+    "dataTypeName" : "number",
+    "description" : "Longitude",
+    "fieldName" : "longitude",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 128212755,
+    "cachedContents" : {
+      "non_null" : "2955",
+      "largest" : "-73.731469",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-73.897644",
+        "count" : "4"
+      }, {
+        "item" : "-73.962381",
+        "count" : "4"
+      }, {
+        "item" : "-73.980843",
+        "count" : "3"
+      }, {
+        "item" : "-73.968154",
+        "count" : "3"
+      }, {
+        "item" : "-73.968134",
+        "count" : "3"
+      }, {
+        "item" : "-73.97932",
+        "count" : "3"
+      }, {
+        "item" : "-73.94052",
+        "count" : "2"
+      }, {
+        "item" : "-73.748419",
+        "count" : "2"
+      }, {
+        "item" : "-73.93971",
+        "count" : "2"
+      }, {
+        "item" : "-73.922474",
+        "count" : "2"
+      }, {
+        "item" : "-73.767028",
+        "count" : "2"
+      }, {
+        "item" : "-73.940772",
+        "count" : "2"
+      }, {
+        "item" : "-74.078579",
+        "count" : "2"
+      }, {
+        "item" : "-73.910168",
+        "count" : "2"
+      }, {
+        "item" : "-73.978474",
+        "count" : "2"
+      }, {
+        "item" : "-73.95178",
+        "count" : "2"
+      }, {
+        "item" : "-73.980502",
+        "count" : "2"
+      }, {
+        "item" : "-73.868658",
+        "count" : "2"
+      }, {
+        "item" : "-74.000656",
+        "count" : "2"
+      }, {
+        "item" : "-73.921676",
+        "count" : "2"
+      } ],
+      "smallest" : "-74.165019",
+      "count" : "2955",
+      "cardinality" : "2955"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "NYCHA_Residential_Addresses_Data_Dictionary.xlsx",
+      "assetId" : "1a2a2689-5252-4a69-9998-5b9ca0f2d66d",
+      "name" : "NYCHA_Residential_Addresses_Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "2/15/2021",
+        "Update Frequency" : "As needed"
+      },
+      "Dataset Information" : {
+        "Agency" : "New York City Housing Authority (NYCHA)"
+      }
+    },
+    "rowLabel" : "NYCHA residential address",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "nycha", "development", "residential", "public housing", "residential addresses", "housing" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 143-B in SOS law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "SOS",
+    "lawName" : "Social Services",
+    "locationId" : "143-B",
+    "title" : "Avoidance of abuses in connection with rent checks",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "143-B",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 143-b. Avoidance of abuses in connection with rent checks.  1.\\nWhenever a recipient of public assistance and care is eligible for or\\nentitled to receive aid or assistance in the form of a payment for or\\ntoward the rental of any housing accommodations occupied by such\\nrecipient or his family, such payment may be made directly by the public\\nwelfare department to the landlord.\\n  2. Every public welfare official shall have power to and may withhold\\nthe payment of any such rent in any case where he has knowledge that\\nthere exists or there is outstanding any violation of law in respect to\\nthe building containing the housing accommodations occupied by the\\nperson entitled to such assistance which is dangerous, hazardous or\\ndetrimental to life or health. A report of each such violation shall be\\nmade to the appropriate public welfare department by the appropriate\\ndepartment or agency having jurisdiction over violations.\\n  3. Every public welfare official shall have the power to initiate or\\nto request the recipient to initiate before the appropriate housing rent\\ncommission any proper proceeding for the reduction of maximum rents\\napplicable to any housing accommodation occupied by a person entitled to\\nassistance in the form of a rent payment whenever such official has\\nknowledge that essential services which such person is entitled to\\nreceive are not being maintained by the landlord or have been\\nsubstantially reduced by the landlord.\\n  4. The public welfare department may obtain and maintain current\\nrecords of violations in buildings where welfare recipients reside which\\nrelate to conditions which are dangerous, hazardous or detrimental to\\nlife or health.\\n  5. (a) It shall be a valid defense in any action or summary proceeding\\nagainst a welfare recipient for non-payment of rent to show existing\\nviolations in the building wherein such welfare recipient resides which\\nrelate to conditions which are dangerous, hazardous or detrimental to\\nlife or health as the basis for non-payment.\\n  (b) In any such action or proceeding the plaintiff or landlord shall\\nnot be entitled to an order or judgment awarding him possession of the\\npremises or providing for removal of the tenant, or to a money judgment\\nagainst the tenant, on the basis of non-payment of rent for any period\\nduring which there was outstanding any violation of law relating to\\ndangerous or hazardous conditions or conditions detrimental to life or\\nhealth. For the purposes of this paragraph such violation of law shall\\nbe deemed to have been removed and no longer outstanding upon the date\\nwhen the condition constituting a violation was actually corrected, such\\ndate to be determined by the court upon satisfactory proof submitted by\\nthe plaintiff or landlord.\\n  (c) The defenses provided herein in relation to an action or\\nproceeding against a welfare recipient for non-payment of rent shall\\napply only with respect to violations reported to the appropriate public\\nwelfare department by the appropriate department or agency having\\njurisdiction over violations.\\n  6. Nothing in this section shall prevent the public welfare department\\nfrom making provision for payment of the rent which was withheld\\npursuant to this section upon proof satisfactory to it that the\\ncondition constituting a violation was actually corrected. Where rents\\nwere reduced by order of the appropriate rent commission, the public\\nwelfare department may make provision for payment of the reduced rent in\\nconformity with such order.\\n",
+    "parentLocationIds" : [ "-CH55", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "SOS",
+      "lawName" : "Social Services",
+      "locationId" : "-CH55",
+      "title" : "Social Services",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-01-23", "2015-12-25", "2016-09-16", "2016-11-11", "2017-04-28", "2017-12-01", "2019-04-19", "2021-04-02", "2021-04-23", "2021-12-31", "2022-01-07", "2023-03-03", "2023-05-12", "2023-05-19" ],
+      "docLevelId" : "55",
+      "activeDate" : "2023-05-19"
+    }, {
+      "lawId" : "SOS",
+      "lawName" : "Social Services",
+      "locationId" : "A5",
+      "title" : "Assistance and Care",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-12-25", "2019-01-11", "2021-04-23", "2021-12-31", "2023-05-12" ],
+      "docLevelId" : "5",
+      "activeDate" : "2023-05-12"
+    }, {
+      "lawId" : "SOS",
+      "lawName" : "Social Services",
+      "locationId" : "A5T1",
+      "title" : "General Provisions",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22", "2019-05-03", "2021-04-23", "2021-12-03", "2021-12-17", "2021-12-31", "2022-03-04", "2022-07-22", "2022-12-16", "2023-05-12", "2023-12-29", "2024-02-16" ],
+      "docLevelId" : "1",
+      "activeDate" : "2024-02-16"
+    } ],
+    "prevSibling" : {
+      "lawId" : "SOS",
+      "lawName" : "Social Services",
+      "locationId" : "143-A",
+      "title" : "Information to be given to public welfare officials by retail instalment sellers, small loan companies and sales finance companies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "143-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "SOS",
+      "lawName" : "Social Services",
+      "locationId" : "143-C",
+      "title" : "Avoidance of abuses in connection with rent security deposits",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "143-C",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

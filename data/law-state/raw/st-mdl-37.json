@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 37 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "37",
+    "title" : "Artificial hall lighting",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "37",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 37. Artificial hall lighting. 1. In every multiple dwelling the\\nowner shall provide a light or lights, each of at least sixty watts\\nincandescent or twenty watts cool white fluorescent or equivalent\\nillumination, for every vestibule and entrance hall in every public\\nhall, stair, fire-stair and fire-tower on every floor. Said light or\\nlights shall be located as prescribed by the department, but, in every\\nstair, fire-stair or fire-tower, shall be so located that every part\\nthereof shall be lighted.\\n  2. Except as provided in subdivision three, every such light shall be\\nturned on by the owner at sunset every day and shall not be turned off\\nby the owner until the following sunrise. Every such light shall be kept\\nburning daily from sunset until sunrise, but if it becomes extinguished\\nand remains so without the knowledge or consent of the owner he shall\\nnot be liable. The burden shall be upon the owner to show that the light\\nbecame and remained extinguished without his knowledge or consent.\\n  3. Every light in every fire-stair and fire-tower at every story, and\\nin every stair and public hall at every story where there is no window\\nopening to the outer air, shall be kept burning continuously except that\\nthis provision shall not apply to public halls lighted as provided in\\nsubdivision eleven of section two hundred seventeen.\\n  4. When the natural light in any public hall in a multiple dwelling is\\nnot sufficient to permit a person to read the names on a mail box or\\nother receptacle for mail, the owner shall install a lighting fixture\\ndirectly over such mail box or receptacle and maintain it in serviceable\\ncondition, so that a light may be turned on at any time for the\\nconvenience of tenants or the mail carrier.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "36",
+      "title" : "Windows and skylights for public halls and stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "36",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

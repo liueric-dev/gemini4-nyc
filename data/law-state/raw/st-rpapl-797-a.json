@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 797-A in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "797-A",
+    "title" : "Person who may maintain proceeding",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+    "docLevelId" : "797-A",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 797-a. Person who may maintain proceeding. 1. The proceeding may be\\nmaintained by any party, known herein as a tenant, who is an occupant of\\nresidential real property for thirty consecutive days or longer under an\\nagreement not created by deed.\\n  2. The proceeding may be maintained by one or more tenants of a\\nresidential property.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-D",
+      "title" : "Special Proceedings By Tenants For Judgment Directing Repairs of Conditions and Other Relief In Residential Real Property Constituting Violation of Applicable Local or State Housing Standards or Real Property Law §",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-01-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797",
+      "title" : "Jurisdiction; courts; venue",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2023-03-17", "2024-01-05" ],
+      "docLevelId" : "797",
+      "activeDate" : "2024-01-05"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-B",
+      "title" : "Respondent",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-B",
+      "activeDate" : "2024-01-05"
+    }
+  }
+}

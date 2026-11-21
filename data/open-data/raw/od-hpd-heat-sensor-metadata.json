@@ -1,0 +1,1241 @@
+{
+  "id" : "h4mf-f24e",
+  "name" : "Buildings Selected for the Heat Sensor Program (HSP)",
+  "assetType" : "dataset",
+  "attribution" : "NYC Department of Housing Preservation and Development (HPD)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1628187598,
+  "description" : "Every two years beginning in July 2020, the Department of Housing Preservation and Development (HPD) designates 50 class \"A\" multiple dwellings with heat violations and complaints for participation in a program requiring installation of heat sensors.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 1986,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 39495035,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1681394969,
+  "publicationGroup" : 18407694,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1793561440,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 19125366,
+  "totalTimesRated" : 0,
+  "viewCount" : 2938,
+  "viewLastModified" : 1720620119,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1628607824,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 5436606,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1628607824,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1628607825,
+      "failureCount" : 0,
+      "startedAt" : 1628607824,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "d5dp-fses",
+      "displayName" : "afinkel"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 574345057,
+    "name" : "BUILDING_ID",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "building_id",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977660,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "949348",
+      "null" : "0",
+      "top" : [ {
+        "item" : "87089",
+        "count" : "2"
+      }, {
+        "item" : "81990",
+        "count" : "1"
+      }, {
+        "item" : "73528",
+        "count" : "1"
+      }, {
+        "item" : "162817",
+        "count" : "1"
+      }, {
+        "item" : "92542",
+        "count" : "1"
+      }, {
+        "item" : "949348",
+        "count" : "1"
+      }, {
+        "item" : "59926",
+        "count" : "1"
+      }, {
+        "item" : "645029",
+        "count" : "1"
+      }, {
+        "item" : "116882",
+        "count" : "1"
+      }, {
+        "item" : "49400",
+        "count" : "1"
+      }, {
+        "item" : "142782",
+        "count" : "1"
+      }, {
+        "item" : "806759",
+        "count" : "1"
+      }, {
+        "item" : "23557",
+        "count" : "1"
+      }, {
+        "item" : "332319",
+        "count" : "1"
+      }, {
+        "item" : "25089",
+        "count" : "1"
+      }, {
+        "item" : "60531",
+        "count" : "1"
+      }, {
+        "item" : "25272",
+        "count" : "1"
+      }, {
+        "item" : "97575",
+        "count" : "1"
+      }, {
+        "item" : "304248",
+        "count" : "1"
+      }, {
+        "item" : "445349",
+        "count" : "1"
+      } ],
+      "smallest" : "816",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 574345058,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "borough",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138977650,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "Staten Island",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Bronx",
+        "count" : "83"
+      }, {
+        "item" : "Brooklyn",
+        "count" : "56"
+      }, {
+        "item" : "Manhattan",
+        "count" : "40"
+      }, {
+        "item" : "Queens",
+        "count" : "19"
+      }, {
+        "item" : "Staten Island",
+        "count" : "2"
+      } ],
+      "smallest" : "Bronx",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345059,
+    "name" : "NUMBER",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "number",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 142938186,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "995",
+      "null" : "0",
+      "top" : [ {
+        "item" : "55",
+        "count" : "3"
+      }, {
+        "item" : "354",
+        "count" : "2"
+      }, {
+        "item" : "50",
+        "count" : "2"
+      }, {
+        "item" : "900",
+        "count" : "2"
+      }, {
+        "item" : "133",
+        "count" : "2"
+      }, {
+        "item" : "2112",
+        "count" : "2"
+      }, {
+        "item" : "130",
+        "count" : "2"
+      }, {
+        "item" : "532",
+        "count" : "1"
+      }, {
+        "item" : "1202",
+        "count" : "1"
+      }, {
+        "item" : "716",
+        "count" : "1"
+      }, {
+        "item" : "5314",
+        "count" : "1"
+      }, {
+        "item" : "947",
+        "count" : "1"
+      }, {
+        "item" : "1055",
+        "count" : "1"
+      }, {
+        "item" : "2076",
+        "count" : "1"
+      }, {
+        "item" : "1802",
+        "count" : "1"
+      }, {
+        "item" : "340",
+        "count" : "1"
+      }, {
+        "item" : "1651",
+        "count" : "1"
+      }, {
+        "item" : "2899",
+        "count" : "1"
+      }, {
+        "item" : "915",
+        "count" : "1"
+      }, {
+        "item" : "825",
+        "count" : "1"
+      } ],
+      "smallest" : "10-01",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345060,
+    "name" : "STREET",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "street",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138977652,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "WOODYCREST AVENUE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "ST NICHOLAS AVENUE",
+        "count" : "5"
+      }, {
+        "item" : "EAST 163 STREET",
+        "count" : "3"
+      }, {
+        "item" : "HONEYWELL AVENUE",
+        "count" : "3"
+      }, {
+        "item" : "GRAND CONCOURSE",
+        "count" : "3"
+      }, {
+        "item" : "BERGEN STREET",
+        "count" : "3"
+      }, {
+        "item" : "57 AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "DEAN STREET",
+        "count" : "2"
+      }, {
+        "item" : "FRANKLIN AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "BROADWAY",
+        "count" : "2"
+      }, {
+        "item" : "UNIVERSITY AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "VYSE AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "RALPH AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "GERARD AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "73 AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "TIEBOUT AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "EAST 180 STREET",
+        "count" : "2"
+      }, {
+        "item" : "MORNINGSIDE AVENUE",
+        "count" : "2"
+      }, {
+        "item" : "MADISON STREET",
+        "count" : "2"
+      }, {
+        "item" : "OLINVILLE AVENUE",
+        "count" : "2"
+      } ],
+      "smallest" : "150 STREET",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345061,
+    "name" : "TOTAL_UNITS",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "total_units",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977653,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "321",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6",
+        "count" : "12"
+      }, {
+        "item" : "16",
+        "count" : "12"
+      }, {
+        "item" : "8",
+        "count" : "9"
+      }, {
+        "item" : "53",
+        "count" : "7"
+      }, {
+        "item" : "12",
+        "count" : "7"
+      }, {
+        "item" : "9",
+        "count" : "7"
+      }, {
+        "item" : "20",
+        "count" : "7"
+      }, {
+        "item" : "11",
+        "count" : "6"
+      }, {
+        "item" : "4",
+        "count" : "6"
+      }, {
+        "item" : "3",
+        "count" : "5"
+      }, {
+        "item" : "49",
+        "count" : "4"
+      }, {
+        "item" : "13",
+        "count" : "4"
+      }, {
+        "item" : "40",
+        "count" : "4"
+      }, {
+        "item" : "21",
+        "count" : "4"
+      }, {
+        "item" : "55",
+        "count" : "3"
+      }, {
+        "item" : "10",
+        "count" : "3"
+      }, {
+        "item" : "7",
+        "count" : "3"
+      }, {
+        "item" : "23",
+        "count" : "3"
+      }, {
+        "item" : "35",
+        "count" : "3"
+      }, {
+        "item" : "22",
+        "count" : "3"
+      } ],
+      "smallest" : "3",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345062,
+    "name" : "PROGRAM_START_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "program_start_date",
+    "position" : 6,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 138977646,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "2025-06-11T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2022-07-01T00:00:00.000",
+        "count" : "50"
+      }, {
+        "item" : "2024-07-01T00:00:00.000",
+        "count" : "50"
+      }, {
+        "item" : "2025-06-11T00:00:00.000",
+        "count" : "50"
+      }, {
+        "item" : "2020-07-01T00:00:00.000",
+        "count" : "50"
+      } ],
+      "smallest" : "2020-07-01T00:00:00.000",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 574345063,
+    "name" : "CURRENT_STATUS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "current_status",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138977654,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "Active",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Active",
+        "count" : "200"
+      } ],
+      "smallest" : "Active",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345064,
+    "name" : "DISCHARGE_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "discharge_date",
+    "position" : 8,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 139206804,
+    "cachedContents" : {
+      "non_null" : "0",
+      "null" : "200",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345074,
+    "name" : "Postcode",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "postcode",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 146537684,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "11691",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10467",
+        "count" : "12"
+      }, {
+        "item" : "11233",
+        "count" : "11"
+      }, {
+        "item" : "10459",
+        "count" : "9"
+      }, {
+        "item" : "10457",
+        "count" : "9"
+      }, {
+        "item" : "10460",
+        "count" : "8"
+      }, {
+        "item" : "10026",
+        "count" : "8"
+      }, {
+        "item" : "11213",
+        "count" : "7"
+      }, {
+        "item" : "10456",
+        "count" : "6"
+      }, {
+        "item" : "10031",
+        "count" : "6"
+      }, {
+        "item" : "11216",
+        "count" : "6"
+      }, {
+        "item" : "10027",
+        "count" : "5"
+      }, {
+        "item" : "10453",
+        "count" : "5"
+      }, {
+        "item" : "10451",
+        "count" : "5"
+      }, {
+        "item" : "11203",
+        "count" : "5"
+      }, {
+        "item" : "10472",
+        "count" : "4"
+      }, {
+        "item" : "10468",
+        "count" : "4"
+      }, {
+        "item" : "10455",
+        "count" : "4"
+      }, {
+        "item" : "10458",
+        "count" : "4"
+      }, {
+        "item" : "11367",
+        "count" : "4"
+      }, {
+        "item" : "10466",
+        "count" : "3"
+      } ],
+      "smallest" : "10001",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 574345066,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "latitude",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977655,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "40.894054",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.726054",
+        "count" : "2"
+      }, {
+        "item" : "40.854382",
+        "count" : "2"
+      }, {
+        "item" : "40.736848",
+        "count" : "2"
+      }, {
+        "item" : "40.845331",
+        "count" : "2"
+      }, {
+        "item" : "40.820883",
+        "count" : "1"
+      }, {
+        "item" : "40.845067",
+        "count" : "1"
+      }, {
+        "item" : "40.670504",
+        "count" : "1"
+      }, {
+        "item" : "40.753852",
+        "count" : "1"
+      }, {
+        "item" : "40.826405",
+        "count" : "1"
+      }, {
+        "item" : "40.643229",
+        "count" : "1"
+      }, {
+        "item" : "40.880427",
+        "count" : "1"
+      }, {
+        "item" : "40.823993",
+        "count" : "1"
+      }, {
+        "item" : "40.823405",
+        "count" : "1"
+      }, {
+        "item" : "40.843593",
+        "count" : "1"
+      }, {
+        "item" : "40.63582",
+        "count" : "1"
+      }, {
+        "item" : "40.82646",
+        "count" : "1"
+      }, {
+        "item" : "40.832201",
+        "count" : "1"
+      }, {
+        "item" : "40.674672",
+        "count" : "1"
+      }, {
+        "item" : "40.822053",
+        "count" : "1"
+      }, {
+        "item" : "40.800206",
+        "count" : "1"
+      } ],
+      "smallest" : "40.601719",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345067,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "longitude",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977656,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "-73.765313",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-73.882122",
+        "count" : "2"
+      }, {
+        "item" : "-73.865062",
+        "count" : "2"
+      }, {
+        "item" : "-73.816125",
+        "count" : "2"
+      }, {
+        "item" : "-73.886672",
+        "count" : "1"
+      }, {
+        "item" : "-73.878571",
+        "count" : "1"
+      }, {
+        "item" : "-73.914116",
+        "count" : "1"
+      }, {
+        "item" : "-73.94798",
+        "count" : "1"
+      }, {
+        "item" : "-73.89821",
+        "count" : "1"
+      }, {
+        "item" : "-73.870803",
+        "count" : "1"
+      }, {
+        "item" : "-73.941289",
+        "count" : "1"
+      }, {
+        "item" : "-73.910288",
+        "count" : "1"
+      }, {
+        "item" : "-73.945496",
+        "count" : "1"
+      }, {
+        "item" : "-73.882108",
+        "count" : "1"
+      }, {
+        "item" : "-73.861621",
+        "count" : "1"
+      }, {
+        "item" : "-73.765853",
+        "count" : "1"
+      }, {
+        "item" : "-73.917862",
+        "count" : "1"
+      }, {
+        "item" : "-73.944727",
+        "count" : "1"
+      }, {
+        "item" : "-73.987751",
+        "count" : "1"
+      }, {
+        "item" : "-73.939853",
+        "count" : "1"
+      }, {
+        "item" : "-73.902321",
+        "count" : "1"
+      } ],
+      "smallest" : "-74.171244",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345068,
+    "name" : "Community Board",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "community_board",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977657,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "17",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "21"
+      }, {
+        "item" : "4",
+        "count" : "18"
+      }, {
+        "item" : "9",
+        "count" : "18"
+      }, {
+        "item" : "12",
+        "count" : "18"
+      }, {
+        "item" : "10",
+        "count" : "17"
+      }, {
+        "item" : "5",
+        "count" : "17"
+      }, {
+        "item" : "2",
+        "count" : "15"
+      }, {
+        "item" : "7",
+        "count" : "14"
+      }, {
+        "item" : "8",
+        "count" : "14"
+      }, {
+        "item" : "6",
+        "count" : "11"
+      }, {
+        "item" : "11",
+        "count" : "9"
+      }, {
+        "item" : "1",
+        "count" : "8"
+      }, {
+        "item" : "16",
+        "count" : "7"
+      }, {
+        "item" : "17",
+        "count" : "7"
+      }, {
+        "item" : "14",
+        "count" : "5"
+      }, {
+        "item" : "15",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345069,
+    "name" : "Council District",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "council_district",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977658,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "49",
+      "null" : "0",
+      "top" : [ {
+        "item" : "15",
+        "count" : "22"
+      }, {
+        "item" : "17",
+        "count" : "17"
+      }, {
+        "item" : "9",
+        "count" : "17"
+      }, {
+        "item" : "41",
+        "count" : "13"
+      }, {
+        "item" : "14",
+        "count" : "11"
+      }, {
+        "item" : "36",
+        "count" : "10"
+      }, {
+        "item" : "16",
+        "count" : "10"
+      }, {
+        "item" : "12",
+        "count" : "9"
+      }, {
+        "item" : "40",
+        "count" : "8"
+      }, {
+        "item" : "7",
+        "count" : "7"
+      }, {
+        "item" : "35",
+        "count" : "6"
+      }, {
+        "item" : "8",
+        "count" : "6"
+      }, {
+        "item" : "10",
+        "count" : "5"
+      }, {
+        "item" : "45",
+        "count" : "5"
+      }, {
+        "item" : "37",
+        "count" : "4"
+      }, {
+        "item" : "24",
+        "count" : "4"
+      }, {
+        "item" : "18",
+        "count" : "4"
+      }, {
+        "item" : "11",
+        "count" : "4"
+      }, {
+        "item" : "1",
+        "count" : "4"
+      }, {
+        "item" : "21",
+        "count" : "4"
+      } ],
+      "smallest" : "1",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  }, {
+    "id" : 574345070,
+    "name" : "Census Tract (2020)",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "census_tract",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977648,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "100804",
+      "null" : "0",
+      "top" : [ {
+        "item" : "363",
+        "count" : "5"
+      }, {
+        "item" : "216",
+        "count" : "3"
+      }, {
+        "item" : "303",
+        "count" : "3"
+      }, {
+        "item" : "173",
+        "count" : "3"
+      }, {
+        "item" : "379",
+        "count" : "3"
+      }, {
+        "item" : "12101",
+        "count" : "3"
+      }, {
+        "item" : "455",
+        "count" : "3"
+      }, {
+        "item" : "149",
+        "count" : "2"
+      }, {
+        "item" : "377",
+        "count" : "2"
+      }, {
+        "item" : "77907",
+        "count" : "2"
+      }, {
+        "item" : "361",
+        "count" : "2"
+      }, {
+        "item" : "36501",
+        "count" : "2"
+      }, {
+        "item" : "355",
+        "count" : "2"
+      }, {
+        "item" : "269",
+        "count" : "2"
+      }, {
+        "item" : "12901",
+        "count" : "2"
+      }, {
+        "item" : "340",
+        "count" : "2"
+      }, {
+        "item" : "226",
+        "count" : "2"
+      }, {
+        "item" : "21502",
+        "count" : "2"
+      }, {
+        "item" : "22902",
+        "count" : "2"
+      }, {
+        "item" : "257",
+        "count" : "2"
+      } ],
+      "smallest" : "6",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 574345071,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "bin",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977647,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "5112687",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2013177",
+        "count" : "2"
+      }, {
+        "item" : "2007315",
+        "count" : "1"
+      }, {
+        "item" : "2024145",
+        "count" : "1"
+      }, {
+        "item" : "2006556",
+        "count" : "1"
+      }, {
+        "item" : "2003246",
+        "count" : "1"
+      }, {
+        "item" : "2002176",
+        "count" : "1"
+      }, {
+        "item" : "2051421",
+        "count" : "1"
+      }, {
+        "item" : "3378134",
+        "count" : "1"
+      }, {
+        "item" : "2002742",
+        "count" : "1"
+      }, {
+        "item" : "4028944",
+        "count" : "1"
+      }, {
+        "item" : "3035972",
+        "count" : "1"
+      }, {
+        "item" : "3038244",
+        "count" : "1"
+      }, {
+        "item" : "3063037",
+        "count" : "1"
+      }, {
+        "item" : "2005212",
+        "count" : "1"
+      }, {
+        "item" : "2056262",
+        "count" : "1"
+      }, {
+        "item" : "4004934",
+        "count" : "1"
+      }, {
+        "item" : "2050000",
+        "count" : "1"
+      }, {
+        "item" : "4451515",
+        "count" : "1"
+      }, {
+        "item" : "2092029",
+        "count" : "1"
+      }, {
+        "item" : "1063086",
+        "count" : "1"
+      } ],
+      "smallest" : "1003225",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 574345072,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "bbl",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138977649,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "5028770025",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2031240001",
+        "count" : "2"
+      }, {
+        "item" : "2031250006",
+        "count" : "2"
+      }, {
+        "item" : "4067020001",
+        "count" : "2"
+      }, {
+        "item" : "2026037501",
+        "count" : "1"
+      }, {
+        "item" : "3014840004",
+        "count" : "1"
+      }, {
+        "item" : "2031070036",
+        "count" : "1"
+      }, {
+        "item" : "3050370006",
+        "count" : "1"
+      }, {
+        "item" : "1016600019",
+        "count" : "1"
+      }, {
+        "item" : "2043410075",
+        "count" : "1"
+      }, {
+        "item" : "3046320006",
+        "count" : "1"
+      }, {
+        "item" : "2037830012",
+        "count" : "1"
+      }, {
+        "item" : "3054170020",
+        "count" : "1"
+      }, {
+        "item" : "2030050007",
+        "count" : "1"
+      }, {
+        "item" : "3051730035",
+        "count" : "1"
+      }, {
+        "item" : "4034600047",
+        "count" : "1"
+      }, {
+        "item" : "3014470013",
+        "count" : "1"
+      }, {
+        "item" : "3014330047",
+        "count" : "1"
+      }, {
+        "item" : "1020970047",
+        "count" : "1"
+      }, {
+        "item" : "3041680012",
+        "count" : "1"
+      }, {
+        "item" : "4012600041",
+        "count" : "1"
+      } ],
+      "smallest" : "1002710037",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 574345073,
+    "name" : "Neighborhood Tabulation Area (NTA) (2020)",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "nta",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138977659,
+    "cachedContents" : {
+      "non_null" : "200",
+      "largest" : "Williamsburg",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Crown Heights (North)",
+        "count" : "8"
+      }, {
+        "item" : "Harlem (South)",
+        "count" : "8"
+      }, {
+        "item" : "West Farms",
+        "count" : "7"
+      }, {
+        "item" : "Concourse-Concourse Village",
+        "count" : "7"
+      }, {
+        "item" : "Ocean Hill",
+        "count" : "7"
+      }, {
+        "item" : "Mount Hope",
+        "count" : "6"
+      }, {
+        "item" : "Harlem (North)",
+        "count" : "6"
+      }, {
+        "item" : "Williamsbridge-Olinville",
+        "count" : "5"
+      }, {
+        "item" : "Bedford-Stuyvesant (East)",
+        "count" : "5"
+      }, {
+        "item" : "Hamilton Heights-Sugar Hill",
+        "count" : "5"
+      }, {
+        "item" : "Longwood",
+        "count" : "5"
+      }, {
+        "item" : "Allerton",
+        "count" : "5"
+      }, {
+        "item" : "Crotona Park East",
+        "count" : "5"
+      }, {
+        "item" : "Kew Gardens Hills",
+        "count" : "4"
+      }, {
+        "item" : "Hunts Point",
+        "count" : "4"
+      }, {
+        "item" : "Soundview-Bruckner-Bronx River",
+        "count" : "4"
+      }, {
+        "item" : "University Heights (North)-Fordham",
+        "count" : "4"
+      }, {
+        "item" : "Mount Eden-Claremont (West)",
+        "count" : "3"
+      }, {
+        "item" : "Corona",
+        "count" : "3"
+      }, {
+        "item" : "Manhattanville-West Harlem",
+        "count" : "3"
+      } ],
+      "smallest" : "Allerton",
+      "count" : "200",
+      "cardinality" : "200"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Heat Sensors__Data_Dictionary.xlsx",
+      "assetId" : "cc6d8fe6-32bb-4a9a-93a8-2f6b44b3f434",
+      "name" : "Heat Sensors__Data_Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "8/10/2021",
+        "Update Frequency" : "Monthly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Housing Preservation and Development (HPD)"
+      }
+    },
+    "rowLabel" : "",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "housing; heat sensors program; sensors; hpd" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 241.05 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "241.05",
+    "title" : "Harassment of a rent regulated tenant in the first degree",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2019-12-06", "2019-12-13", "2020-06-05", "2026-06-05" ],
+    "docLevelId" : "241.05",
+    "activeDate" : "2026-06-05",
+    "text" : "§ 241.05 Harassment of a rent regulated tenant in the first degree.\\n  An owner is guilty of harassment of a rent regulated tenant in the\\nfirst degree when:\\n  1. With intent to induce a rent regulated tenant to vacate a housing\\naccommodation, such owner:\\n  (a) With intent to cause physical injury to such tenant, causes such\\ninjury to such tenant or to a third person; or\\n  (b) Recklessly causes physical injury to such tenant or to a third\\nperson; or\\n  2. With intent to induce two or more rent regulated tenants occupying\\ndifferent housing accommodations in one residential building, or two\\nrent regulated tenants occupying different housing accommodations in two\\nseparate residential buildings, to vacate such housing accommodations,\\nsuch owner intentionally engages in a systematic ongoing course of\\nconduct that:\\n  (a) impairs the habitability of such housing accommodations; or\\n  (b) creates or maintains a condition which endangers the safety or\\nhealth of one or more of the dwellings' rent regulated tenants; or\\n  (c) is reasonably likely to interfere with or disturb, and does\\ninterfere with or disturb, the comfort, repose, peace or quiet of one or\\nmore of such rent regulated tenants in their use and occupancy of such\\nhousing accommodations including, but not limited to, the interruption\\nor discontinuance of essential services; or\\n  3. Such owner commits the crime of harassment of a rent regulated\\ntenant in the second degree as defined in section 241.02 of this article\\nand has previously been convicted within the preceding five years of\\nsuch crime or the crime of harassment of a rent regulated tenant in the\\nfirst degree.\\n  The good faith commencement and pursuit of a lawful eviction action by\\nan owner against a rent regulated tenant in a court of competent\\njurisdiction shall not, by itself, constitute a \"systematic ongoing\\ncourse of conduct\" in violation of paragraph (c) of subdivision two of\\nthis section.\\n  Harassment of a rent regulated tenant in the first degree is a class E\\nfelony.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA241" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA241",
+      "title" : "Harassment of Rent Regulated Tenants",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2019-12-06", "2026-06-05" ],
+      "docLevelId" : "241",
+      "activeDate" : "2026-06-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "241.02",
+      "title" : "Harassment of a rent regulated tenant in the second degree",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-12-06", "2019-12-13", "2020-06-05" ],
+      "docLevelId" : "241.02",
+      "activeDate" : "2020-06-05"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "241.07",
+      "title" : "Aggravated harassment of a rent regulated tenant",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2026-06-05" ],
+      "docLevelId" : "241.07",
+      "activeDate" : "2026-06-05"
+    }
+  }
+}

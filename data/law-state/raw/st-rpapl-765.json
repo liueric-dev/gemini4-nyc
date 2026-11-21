@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 765 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "765",
+    "title" : "Effect of redemption upon lease",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "765",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 765. Effect of redemption upon lease.  Where a redemption is made,\\nas prescribed in this article, the rights of the person redeeming are\\nsubject to a lease, if any, executed by the petitioner since the warrant\\nwas issued, so far that the new lessee, his assigns, undertenants, or\\nother representatives, upon complying with the terms of the lease, may\\nhold the premises so leased until twelve o'clock, noon, of the first day\\nof May next succeeding the redemption. And in all other respects, the\\nperson so redeeming, his assigns and representatives succeed to all the\\nrights and liabilities of the petitioner under such a lease.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "763",
+      "title" : "Redemption by creditor of lessee",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "763",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "767",
+      "title" : "Order of redemption; liability of persons redeeming",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "767",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

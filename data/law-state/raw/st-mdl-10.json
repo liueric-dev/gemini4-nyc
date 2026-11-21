@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 10 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "10",
+    "title" : "Time for compliance",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "10",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 10. Time for compliance. All alterations required by this chapter\\nupon dwellings erected before its adoption by or application to any\\ncity, town or village, in whole or in part, shall, unless specifically\\nprovided otherwise in this chapter, be made not later than five years\\nafter such adoption or application, or at such earlier date as may be\\ndeemed necessary by the department in order to remove a condition\\ndangerous or detrimental to life or health.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A2",
+      "title" : "Miscellaneous Application Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-11-26" ],
+      "docLevelId" : "2",
+      "activeDate" : "2023-11-26"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "9",
+      "title" : "Buildings converted or altered",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "9",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "11",
+      "title" : "Dwellings damaged or moved",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "11",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

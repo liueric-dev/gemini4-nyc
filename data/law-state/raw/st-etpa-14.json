@@ -1,0 +1,38 @@
+{
+  "success" : true,
+  "message" : "Law document for location 14 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "14",
+    "title" : "Application of act",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "14",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 14. Application of act. The provisions of this act shall be\\napplicable:\\n  a. in the city of New York; and\\n  b. in all counties within the state of New York outside the city of\\nNew York and shall become and remain effective only in a city, town or\\nvillage located therein as provided in section three of this act.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "13",
+      "title" : "Cooperation with other governmental agencies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "13",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : null
+  }
+}

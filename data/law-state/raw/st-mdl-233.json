@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 233 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "233",
+    "title" : "Bulkheads and scuttles",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "233",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 233. Bulkheads and scuttles. 1. Every tenement, except as in this\\nsection otherwise provided, shall have in the roof a fireproof bulkhead\\nwith a fireproof door and after January first, nineteen hundred\\nfifty-seven, the door shall be self-closing. Bulkheads existing on April\\neighteenth, nineteen hundred twenty-nine, shall be lawful and may be\\nreplaced or repaired with material conforming to the material of which\\nsuch bulkhead consisted on such date.\\n  2. A bulkhead in the roof of an old-law tenement which is more than a\\nbasement and four other stories in height or which is a basement and\\nfour other stories in height and occupied by three or more families on\\nany story, may be of wood covered with metal on the outside and\\nfire-retarded on the inside. Such a bulkhead shall be equipped with a\\nfire-retarded door and assembly with the door self-closing.\\n  3. In any old-law tenement which is four stories or less in height or\\nwhich is a basement and four other stories in height and occupied by not\\nmore than two families on any story, no bulkhead shall be required\\nprovided such tenement is equipped with a scuttle located in the ceiling\\nof a public hall on the top story and with access thereto direct,\\nuninterrupted and easily accessible to all tenants. All such scuttles\\nshall be at least twenty-one inches in width and twenty-eight inches in\\nlength. They shall be constructed so as to be readily opened, covered on\\nthe outside with metal and provided with stairs or stationary iron\\nladders leading thereto.\\n  4. Every required stair in every tenement erected after April\\neighteenth, nineteen hundred twelve, which is more than a basement and\\nthree other stories in height shall extend to and through a bulkhead in\\nthe roof. Such bulkhead shall have a fireproof door and assembly with\\nthe door self-closing and may be constructed of wood covered with metal\\non the outside and fire-retarded on the inside.\\n  5. Stairs leading to required bulkheads shall be fireproof and\\nconstructed as specified in sections two hundred thirty-four to two\\nhundred thirty-eight inclusive, except that any such stairs existing on\\nApril eighteenth, nineteen hundred twenty-nine, shall be permitted\\nwithout alteration, and that any such stairs constructed after such date\\nin any old-law tenement may have such width and angle of ascent, and\\nrisers and treads of such dimensions, as approved by the department.\\nAll stairs to required bulkheads shall be provided with a guide or hand\\nrail.\\n  6. Bulkhead doors and scuttles shall not be self-locking, and shall be\\nfastened on the inside with movable bolts, hooks, or a lock which does\\nnot require a key to open it from the inside of the dwelling. All key\\nlocks are unlawful and where existing shall be removed.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "232",
+      "title" : "Fire-escapes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "232",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "234",
+      "title" : "Stairs and public halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "234",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

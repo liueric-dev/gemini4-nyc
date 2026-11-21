@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 8 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "8",
+    "title" : "Procedure",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "8",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 8. Procedure. 1. After the issuance of any regulation or order by\\nthe commission any person subject to any provision of such regulation or\\norder may, in accordance with regulations to be prescribed by the\\ncommission, file a protest against such regulation or order specifically\\nsetting forth his objections to any such provisions and affidavits or\\nother written evidence in support of such objections. Statements in\\nsupport of any such regulation or order may be received and incorporated\\nin the record of the proceedings at such times and in accordance with\\nsuch regulations as may be prescribed by the commission. Within a\\nreasonable time after the filing of any protest under this subdivision\\nthe commission shall either grant or deny such protest in whole or in\\npart, notice such protest for hearing, or provide an opportunity to\\npresent further evidence in connection therewith. In the event that the\\ncommission denies any such protest in whole or in part, the commission\\nshall inform the protestant of the grounds upon which such decision is\\nbased, and of any economic data and other facts of which the commission\\nhas taken official notice.\\n  2. In the administration of this act the commission may take official\\nnotice of economic data and other facts, including facts found by the\\ncommission as a result of action taken under section four.\\n  3. Any proceedings under this section may be limited by the commission\\nto the filing of affidavits, or other written evidence, and the filing\\nof briefs.\\n  4. Any protest filed under this section shall be granted or denied by\\nthe commission, or granted in part and the remainder of it denied,\\nwithin a reasonable time after it is filed. If the commission does not\\nact finally within a period of ninety days after the protest is filed,\\nthe protest shall be deemed to be denied. However, the commission may\\ngrant one extension not to exceed thirty days with the consent of the\\nparty filing such protest; any further extension may only be granted\\nwith the consent of all parties to the protest. No proceeding may be\\nbrought pursuant to article seventy-eight of the civil practice law and\\nrules to challenge any order or determination which is subject to such\\nprotest unless such review has been sought and either (1) a\\ndetermination thereon has been made or (2) the ninety-day period\\nprovided for determination of the protest (or any extension thereof) has\\nexpired. If the commission does not act finally within a period of\\nninety days after the entry of an order of remand to the commission by\\nthe court in a proceeding instituted pursuant to section nine, the order\\npreviously made by the commission shall be deemed reaffirmed. However,\\nthe commission may grant one extension not to exceed thirty days with\\nthe consent of the petitioner; any further extension may only be granted\\nwith the consent of all parties to the petition.\\n  5. The commission shall compile and make available for public\\ninspection at reasonable hours at its principal office and at each\\nappropriate local office a copy of each decision hereafter rendered by\\nit upon granting, or denying, in whole or in part, any protests filed\\nunder this section.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "7",
+      "title" : "Cooperation with other governmental agencies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "7",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "8-A",
+      "title" : "Major capital improvements and individual apartment improvements in rent regulated units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28", "2024-05-03", "2024-10-18" ],
+      "docLevelId" : "8-A",
+      "activeDate" : "2024-10-18"
+    }
+  }
+}

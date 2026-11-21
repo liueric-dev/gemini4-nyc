@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 185 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "185",
+    "title" : "Cellar ceilings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "185",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 185. Cellar ceilings. 1. Except as provided in paragraph g of\\nsubdivision three of section one hundred seventy-one, the ceiling of the\\ncellar, or of the lowest story if there be no cellar, shall be\\nfire-retarded unless such dwelling is three stories or less in height\\nand the ceiling has already been plastered in a manner satisfactory to\\nthe department.\\n  2. In lieu of the requirements set forth in subdivision 1. hereof,\\nbuildings existing November first, nineteen hundred forty-nine, in\\ncities having a population between five hundred thousand and one million\\nhaving three stories or less in height and containing no more than six\\nfamilies or eight roomers or lodgers, with no human occupancy in the\\ncellar or basement may comply by:\\n  I. providing two means of egress to any area of the third floor used\\nfor human occupancy; and\\n  II. providing approved safety controls on all fuel burning devices in\\nbasement or cellar; and\\n  III. fire-stopping of all openings in cellar or basement ceiling or\\nopenings leading to the floors above from cellar or basement such as,\\nbut not limited to, stud channels, openings around conduits, soil and\\nwater pipes, ducts, pipe chases, and by complying with either IV or V\\nhereof;\\n  IV. providing an approved sprinkler system throughout entire cellar or\\nbasement area; or\\n  V. a. providing fire-retarded ceilings at the first floor level; and\\n  b. providing sprinkler head or heads above each hot water heater,\\nfurnace and all other fuel burning devices in basement or cellar; and\\n  c. fire-stopping all the interior entrances to any area of the third\\nfloor used for human occupancy at the second floor level with\\nfire-retarded partitions, or equal construction, and a fire-retarded\\nself-closing door and assembly.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "186",
+      "title" : "Extension roofs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "186",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 12: Smoke Detecting Devices, Carbon Monoxide Detecting Devices and Natural Gas Detecting Devices in Multiple Dwellings and Private Dwellings > § 12-12 Form for Notices for Suspected Gas Leak Procedures.
+
+§ 12-12 Form for Notices for Suspected Gas Leak Procedures.
+A sample notice, as required by subdivisions (a) and (b) of 28 RCNY § 12-11 follows. The language used in the sample notice below may be used by an owner for both of the notices required by such subdivisions (a) and (b).
+NOTICEThe law requires the owner of the premises to advise tenants that when they suspect that a gas leak has occurred, they should take the following actions:1. Quickly open nearby doors and windows and then leave the building immediately; do not attempt to locate the leak. Do not turn on or off any electrical appliances, do not smoke or light matches or lighters, and do not use a house-phone or cell-phone within the building;2. After leaving the building, from a safe distance away from the building, call 911 immediately to report the suspected gas leak;3. After calling 911, call the gas service provider for this building as follows:___________________Provider___________________Number
+(Added City Record 9/18/2017, eff. 10/18/2017)

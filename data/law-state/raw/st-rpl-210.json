@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 210 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "210",
+    "title" : "Short title",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-05-03" ],
+    "docLevelId" : "210",
+    "activeDate" : "2024-05-03",
+    "text" : "  * § 210. Short title. This article shall be cited as the \"good cause\\neviction law\".\\n  * NB Repealed June 15, 2034\\n",
+    "parentLocationIds" : [ "-CH50", "A6-A" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A6-A",
+      "title" : "Good Cause Eviction Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "6-A",
+      "activeDate" : "2024-05-03"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "211",
+      "title" : "Definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "211",
+      "activeDate" : "2024-05-03"
+    }
+  }
+}

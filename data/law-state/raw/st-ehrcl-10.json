@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 10 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "10",
+    "title" : "Prohibitions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "10",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 10. Prohibitions. 1. It shall be unlawful, regardless of any\\ncontract, lease or other obligation heretofore or hereafter entered\\ninto, for any person to demand or receive any rent for any housing\\naccommodations in excess of the maximum rent or otherwise to do or omit\\nto do any act, in violation of any regulation, order or requirement\\nhereunder, or to offer, solicit, attempt or agree to do any of the\\nforegoing.\\n  2. It shall be unlawful for any person to remove or attempt to remove\\nfrom any housing accommodations the tenant or occupant thereof or to\\nrefuse to renew the lease or agreement for the use of such\\naccommodations, because such tenant or occupant has taken, or proposes\\nto take, action authorized or required by this act or any regulation,\\norder or requirement thereunder.\\n  3. It shall be unlawful for any officer or employee of the commission,\\nor for any official adviser or consultant to the commission, to\\ndisclose, otherwise than in the course of official duty, any information\\nobtained under this act, or to use any such information for personal\\nbenefit.\\n  4. Nothing in this act shall be construed to require any person to\\noffer any housing accommodations for rent, but housing accommodations\\nalready on the rental market may be withdrawn only after prior written\\napproval of the state rent commission, if such withdrawal requires that\\na tenant be evicted from such accommodations.\\n  5. It shall be unlawful for any landlord or any person acting on his\\nbehalf, with intent to cause the tenant to vacate, to engage in any\\ncourse of conduct (including, but not limited to, interruption or\\ndiscontinuance of essential services) which interferes with or disturbs\\nor is intended to interfere with or disturb the comfort, repose, peace\\nor quiet of the tenant in his use or occupancy of the housing\\naccommodations.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "9",
+      "title" : "Judicial review",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "9",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "11",
+      "title" : "Enforcement",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "11",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

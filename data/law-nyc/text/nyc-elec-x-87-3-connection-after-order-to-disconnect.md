@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 28: New York City Construction Codes > Chapter 11: The New York City Electrical Code > Chapter 11: The New York City Electrical Code > Article 1101: Enactment and Update of the New York City Electrical Code > 87.3 Connection after order to disconnect.
+
+87.3 Connection after order to disconnect.
+No person shall cause or permit electrical energy to be supplied to the wiring or appliances so sealed until the same shall have been made safe and the commissioner shall have authorized the reconnection and use of such wiring or appliances. When an installation is maintained in violation of this code, and in violation of a notice issued pursuant to the provisions of this section, the commissioner shall institute appropriate action to prevent, restrain, correct or abate the violation.

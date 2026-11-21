@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 146 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "146",
+    "title" : "Egress from apartments",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "146",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 146. Egress from apartments. 1. There shall be at least two means of\\negress from every apartment or suite. Such means shall be remote from\\neach other. Except where it opens into a stair as permitted in\\nsubdivision three, one means shall be to a public hall connecting with a\\nstair, fire-stair or fire-tower, not more than fifty feet distant from\\nsuch means. In dwellings erected under plans filed in the department\\nafter September first, nineteen hundred fifty-one, such stair,\\nfire-stair or fire-tower shall be enclosed. The other required means of\\negress shall open either directly upon a fire-escape or directly on a\\nfire-tower balcony or a public vestibule or other public hall connecting\\nwith a stair, fire-stair or fire-tower balcony.\\n  2. Except as hereinafter provided for dwellings two stories or less in\\nheight such balcony, vestibule, hall or stair shall be separated from\\nthe public hall or stair on which the first means of egress opens by a\\nfireproof wall, unpierced unless by an opening equipped with a fireproof\\ndoor and assembly with the door self-closing. Such door shall not be\\nheld open by any device whatever. In a dwelling two stories or less in\\nheight, the separating wall may be fire-retarded on both sides in lieu\\nof being fireproof.\\n  3. In a dwelling three stories or less in height and occupied by four\\nfamilies or less on each story, and in any section of a class A dwelling\\nwhich is two stories or less in height and occupied by four families or\\nless on each story, a means of egress from an apartment may open\\ndirectly into a stair without the intervention of a public hall.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "145",
+      "title" : "Fire-escapes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "145",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "147",
+      "title" : "Bulkheads and scuttles",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "147",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

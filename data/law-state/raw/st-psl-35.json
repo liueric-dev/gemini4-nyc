@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 35 in PBS law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PBS",
+    "lawName" : "Public Service",
+    "locationId" : "35",
+    "title" : "Reconnection of service",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "35",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 35. Reconnection of service.  1. The commission shall by regulation\\nestablish reasonable conditions under which an electric or gas\\ncorporation or municipality shall be required to take all actions within\\nsuch corporation or municipality's control and, where applicable,\\nconsistent with the provision of the agreement for commodity service, if\\nany, between the corporation and the customer, provided such provisions\\nare consistent with this article to reconnect service to residential\\ncustomers. Such conditions shall include, but not be limited to,\\nrequirements for reconnection of service within twenty-four hours,\\nunless prevented by circumstances beyond the utility's or municipality's\\ncontrol, (a) upon receipt by a corporation or municipality of the full\\namount of arrears which were the basis for termination of service, (b)\\nupon the signing of a deferred payment plan together with a down payment\\nbased on criteria to be established by the commission, provided that no\\nsuch down payment shall exceed one-half of the amount which was the\\nbasis of termination, or the amount of three months billing, whichever\\nis less, (c) upon the direction of the commission, (d) upon the receipt\\nof a commitment of a direct payment or a written guarantee of payment\\nfrom the social services official of the social services district in\\nwhich the customer resides or (e) where the utility or municipality has\\nnotice that a serious impairment to health or safety is likely to result\\nif service is not reconnected. With respect to reconnection on the basis\\nof serious impairment of health or safety doubts shall be resolved in\\nfavor of reconnection of service. The chairman shall designate such\\nofficers and employees as he deems necessary to act on requests for\\nservice reconnections.\\n  2. Where any utility corporation or municipality is required to\\nreconnect service within twenty-four hours and fails or neglects to do\\nso without good cause as determined by the commission, it shall forfeit\\nand pay to the customer the sum of not less than twenty-five dollars nor\\nmore than fifty dollars per day for each day thereafter, as determined\\nby the commission, that such service is not supplied.\\n",
+    "parentLocationIds" : [ "-CH48", "A2" ],
+    "parents" : [ {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "-CH48",
+      "title" : "Public Service",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-11-06", "2018-08-31", "2021-11-12", "2022-08-19", "2023-09-22", "2024-06-21", "2025-12-26" ],
+      "docLevelId" : "48",
+      "activeDate" : "2025-12-26"
+    }, {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "A2",
+      "title" : "Residential Gas, Electric and Steam Utility Service",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2020-04-17", "2021-11-05", "2021-11-12", "2021-11-19", "2023-12-29", "2024-02-09" ],
+      "docLevelId" : "2",
+      "activeDate" : "2024-02-09"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "34",
+      "title" : "Discontinuance of utility service in two family dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "34",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PBS",
+      "lawName" : "Public Service",
+      "locationId" : "36",
+      "title" : "Residential service deposits",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "36",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

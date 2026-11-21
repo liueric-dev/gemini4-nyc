@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 763 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "763",
+    "title" : "Redemption by creditor of lessee",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "763",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 763. Redemption by creditor of lessee.  In a case specified in\\nsection 761, a judgment creditor of the lessee whose judgment was\\ndocketed in the county before the precept was issued, or a mortgagee of\\nthe lease whose mortgage was duly recorded in the county before the\\nprecept was issued, unless by the terms of the lease the lessee shall\\nhave waived his right to redeem, or such lessee, or his executor,\\nadministrator or assignee shall have subsequently waived the right to\\nredeem by a written instrument filed and recorded in the office in which\\nthe lease is recorded, or if not so recorded, in the office in which\\ndeeds are required to be recorded of the county in which the leased\\npremises are located, before such judgment was docketed or such mortgage\\nrecorded, or such judgment creditor or mortgagee himself shall have\\nwaived in writing his right to redeem, may at any time before the\\nexpiration of one year after the execution of the warrant, unless a\\nredemption has been made as prescribed in section 761, file with the\\ncourt which issued the warrant a notice specifying his interest and the\\nsum due to him, describing the premises, and stating that it is his\\nintention to redeem as prescribed in this section. If a redemption is\\nnot made by the lessee, his executor, administrator or assignee within a\\nyear after the execution of the warrant, the person so filing a notice,\\nor, if two or more persons have filed such notices the one who holds the\\nfirst lien, at any time before two o'clock of the day, not a Sunday or a\\npublic holiday, next succeeding the last day of the year, may redeem for\\nhis own benefit in like manner as the lessee, his executor,\\nadministrator or assignee might have so redeemed. Where two or more\\njudgment creditors or mortgagees have filed such notices, the holder of\\nthe second lien may so redeem at any time before two o'clock of the day,\\nnot a Sunday or a public holiday, next succeeding that in which the\\nholder of the first lien might have redeemed; and the holder of the\\nthird and each subsequent lien may redeem in like manner at any time\\nbefore two o'clock of the day, not a Sunday or a public holiday, next\\nsucceeding that in which his predecessor might have redeemed. But a\\nsecond or subsequent redemption is not valid unless the person redeeming\\npays or tenders to each of his predecessors who has redeemed the sum\\npaid by him to redeem and also the sum due upon his judgment or\\nmortgage; or deposits those sums with the court for the benefit of his\\npredecessor or predecessors.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "761",
+      "title" : "Redemption by lessee",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "761",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "765",
+      "title" : "Effect of redemption upon lease",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "765",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 148 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "148",
+    "title" : "Public stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "148",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 148. Public stairs. 1. Every stair, fire-stair and fire-tower shall,\\nexcept as otherwise provided in subdivisions three and four of this\\nsection and section one hundred forty-nine, be constructed as provided\\nfor fire-stairs in sections one hundred two and one hundred five for\\nfireproof dwellings.\\n  2. Every stair, fire-stair and fire-tower shall be at least three feet\\nin clear width throughout, and at all floor levels shall have landings\\nat least three feet six inches in clear width.\\n  3. Every stair, fire-stair and fire-tower shall be completely\\nseparated from every other stair, fire-stair and fire-tower and from\\nevery public hall and shaft by fireproof walls, with fireproof doors and\\nassemblies, with the doors self-closing and without transoms, at all\\nopenings, except that in dwellings two stories or less in height such\\nwalls may be fire-retarded on both sides in lieu of being fireproof. The\\ndoors giving access to such stairs shall not be held open by any device\\nwhatever.\\n  4. Except in the case of an interior enclosed stair separated from and\\ndirectly accessible to the public hall by a self-closing fireproof door\\nand except as provided in subdivision five, there shall be provided to\\nlight and ventilate every stair at every story a window or windows\\nopening on a street, court, yard or space above a setback. At least one\\nsuch window shall be at least two feet six inches wide and five feet\\nhigh unless it opens on a street, in which case its minimum height shall\\nbe four feet. The aggregate area of such window or windows at each story\\nshall be at least eighteen square feet. On the top story a ventilating\\nskylight may be substituted for a window. At the entrance story or at\\nthe roof level a sash door, such as described in section thirty-five,\\nopening to the outer air may be substituted for such window.\\n  5. In a dwelling occupied by two families or less on every story:\\n  a. If such dwelling is three stories or less in height, there may be\\nprovided for any stair, in lieu of windows, a stairwell sixteen inches\\nor more in clear width extending from the entrance story to the roof.\\n  b. If such dwelling is a class A dwelling and is two stories or less\\nin height, there may be provided for any stair, in lieu of windows, a\\nstairwell six inches or more in clear width. For the purposes of this\\nparagraph a section of a class A multiple dwelling may be deemed a\\nseparate multiple dwelling.\\n  c. If such dwelling is two stories in height and has no public hall on\\nthe first story, no stairwell or stair windows need be provided.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "147",
+      "title" : "Bulkheads and scuttles",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "147",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "149",
+      "title" : "Public halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "149",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

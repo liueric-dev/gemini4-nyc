@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 783 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "783",
+    "title" : "Defense of warranty of habitability inapplicable",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "783",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 783. Defense of warranty of habitability inapplicable.\\nNotwithstanding any other provision of law, in any proceeding for the\\npayment of rent commenced by an administrator appointed pursuant to this\\narticle, the provisions of section two hundred thirty-five-b of the real\\nproperty law pertaining to the warranty of habitability shall not be a\\ndefense to such a proceeding for rent which accrues during the period of\\ntime that a judgment or an order pursuant to this article is in effect,\\nunless the court determines that the conditions upon which such defense\\nis based were caused by the failure of such administrator to perform his\\nduties in a reasonable manner.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "782",
+      "title" : "\"Dwelling\" defined",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "782",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

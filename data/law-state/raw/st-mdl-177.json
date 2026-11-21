@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 177 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "177",
+    "title" : "Rooms in basements and cellars",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "177",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 177. Rooms in basements and cellars. 1. No room in any cellar shall\\nbe occupied for living purposes, except as provided in subdivision six\\nof section thirty-four or in subdivision three of this section.\\n  2. A room occupied for living purposes in a basement shall comply with\\nthe requirements of sections one hundred seventy-three and one hundred\\nseventy-four except as provided in subdivision four of this section.\\n  3. Where more than sixty per centum of the height of a cellar is below\\nthe level of the curb on which a dwelling faces, but the floor of such\\ncellar is approximately at the level of the yard thereof and such yard\\nis not less than thirty feet in depth at every point, the department may\\npermit the use of such cellar for living purposes if it shall deem such\\ncellar adequately lighted and ventilated and habitable.  When permission\\nis granted such a cellar shall be deemed a basement.\\n  4. The basement of a converted dwelling may be used for living\\npurposes without meeting the requirements of subdivisions one and two of\\nsection one hundred seventy-three if such dwelling meets the other\\napplicable requirements of such section and of this chapter, including\\nthe following:\\n  a. Such a dwelling shall not exceed three stories, including the\\nbasement, in height.\\n  b. It shall be occupied by not more than one family on any story,\\nincluding the basement. For the purposes of this subdivision a family\\nshall not be deemed to include any boarders, lodgers or roomers.\\n  c. It shall have at least one court two feet or more in width\\nextending across the entire depth of the lot from the street to the\\nyard.\\n  d. The department shall deem the basement to be adequately lighted and\\nventilated, free of any dampness, sanitary and habitable.\\n  e. There shall be a separate water-closet compartment within the\\nbasement apartment conforming to the provisions of section two hundred.\\n  f. Such dwelling shall not be required to comply with section one\\nhundred eighty-seven if a scuttle is provided conforming to section one\\nhundred eighty-eight.\\n  (g) This subdivision is applicable only to buildings noted, classified\\nor recorded as such converted dwellings in the department prior to\\nJanuary first, nineteen hundred sixty-six.\\n  5. Notwithstanding any provisions of this section or of subdivision\\nfive of section three hundred, an apartment or room in a cellar which\\nwas occupied for living purposes at any time on or after October first,\\nnineteen hundred fifty-two may thereafter continue to be occupied for\\nsuch purposes until July first, nineteen hundred sixty-seven in\\naccordance with the conditions imposed by subdivision five of section\\ntwo hundred sixteen.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "176",
+      "title" : "Cooking spaces",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "176",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "178",
+      "title" : "Lighting and ventilation of stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "178",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

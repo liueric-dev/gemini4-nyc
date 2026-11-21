@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 744 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "744",
+    "title" : "Eviction based on domestic violence victim status prohibited",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2015-10-30", "2016-01-22" ],
+    "docLevelId" : "744",
+    "activeDate" : "2016-01-22",
+    "text" : "  § 744. Eviction based on domestic violence victim status prohibited.\\n1.  A tenant shall not be removed from possession of a residential unit\\npursuant to this article because of such person's domestic violence\\nvictim status, as defined in section two hundred twenty-seven-d of the\\nreal property law. It shall be a defense to a proceeding to recover\\npossession of a residential unit that a landlord seeks such recovery\\nbecause of a person's domestic violence victim status, and that, but for\\nsuch status, the landlord would not seek to recover possession. A\\nlandlord may rebut such defense by showing that he or she seeks to\\nrecover possession of a residential unit because of any other lawful\\nground.\\n  2. Nothing in this section shall restrict a landlord's legal rights to\\nrecover possession of a residential unit on grounds not based on or\\nderived from domestic violence victim status.\\n  3. A landlord shall not be civilly liable to other tenants, guests,\\ninvitees, or licensees arising from reasonable and good faith efforts to\\ncomply with this section.\\n  4. This section shall not apply to buildings used for dwelling\\npurposes that are owner occupied and have two or fewer residential\\nunits.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "743",
+      "title" : "Answer",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19" ],
+      "docLevelId" : "743",
+      "activeDate" : "2019-07-19"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "745",
+      "title" : "Trial",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2019-07-19", "2019-07-26" ],
+      "docLevelId" : "745",
+      "activeDate" : "2019-07-26"
+    }
+  }
+}

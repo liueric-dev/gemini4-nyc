@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 63 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "63",
+    "title" : "Sub-curb uses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "63",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 63. Sub-curb uses. 1. When any living room is below the level of the\\nhighest curb in front of any multiple dwelling erected after April\\neighteenth, nineteen hundred twenty-nine, in accordance with the\\nprovisions of paragraph f of subdivision one of section thirty-four, all\\nportions of such dwelling below such level shall be fireproof throughout\\nexcept that windows therein need not be fireproof but shall be of\\nincombustible material and may be glazed with plain glass.\\n  2. Except in multiple dwellings which do not exceed eighty feet in\\nheight measured from the lowest point of any curb on which any part of\\nthe dwelling faces, at least one means of egress from any apartment or\\nsuite of rooms below the level of the highest curb in front of such a\\ndwelling shall lead directly to the street in front of said dwelling and\\nat least one such means to the yard or street in the rear of said\\ndwelling.  Every yard in the rear of every such multiple dwelling,\\nregardless of the height of such dwelling, shall at the lowest level of\\nsuch yard be provided with a fire passage in compliance with the\\nrequirements for such a passage in paragraph f of subdivision five of\\nsection twenty-six.\\n  3. Notwithstanding any other provisions of this section the department\\nmay require such additional means of egress from the said dwelling or\\nprotection from fire as the department may deem necessary for the safety\\nof the occupants.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "62",
+      "title" : "Parapets, guard railings and wires",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "62",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "64",
+      "title" : "Lighting; gas meters; gas and oil appliances",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "64",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

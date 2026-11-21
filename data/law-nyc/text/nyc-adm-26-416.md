@@ -1,0 +1,5 @@
+# NYC Administrative Code > Title 26: Housing and Buildings > Chapter 3: Rent Control > § 26-416 Unauthorized legal fees.
+
+§ 26-416 Unauthorized legal fees.
+An owner, lessor or agent thereof shall be prohibited from assessing a lessee any fee, surcharge or other charges for legal services in connection with the operation or rental of a residential unit unless the owner, lessor or agent has the legal authority to do so pursuant to a court order. Legal services include, but are not limited to, court fees, legal representation, attorney fees, notary public charges, and administrative fees incurred by the owner, lessor or agent in connection with management of the building, including actions and proceedings in a court of law. Any agreement or assessment to the contrary shall be void as contrary to public policy.
+(2021 N.Y. Laws Ch. 695, 12/21/2021, eff. 12/21/2021)

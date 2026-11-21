@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 715 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "715",
+    "title" : "Grounds and procedure where use or occupancy is illegal",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22" ],
+    "docLevelId" : "715",
+    "activeDate" : "2016-01-22",
+    "text" : "  § 715. Grounds and procedure where use or occupancy is illegal. 1. An\\nowner or tenant, including a tenant of one or more rooms of an apartment\\nhouse, tenement house or multiple dwelling, of any premises within two\\nhundred feet from other demised real property used or occupied in whole\\nor in part as a bawdy-house, or house or place of assignation for lewd\\npersons, or for purposes of prostitution, or for any illegal trade,\\nbusiness or manufacture, or any domestic corporation organized for the\\nsuppression of vice, subject to or which submits to visitation by the\\nstate department of social services and possesses a certificate from\\nsuch department of such fact and of conformity with regulations of the\\ndepartment, or any duly authorized enforcement agency of the state or of\\na subdivision thereof, under a duty to enforce the provisions of the\\npenal law or of any state or local law, ordinance, code, rule or\\nregulation relating to buildings, may serve personally upon the owner or\\nlandlord of the premises so used or occupied, or upon his agent, a\\nwritten notice requiring the owner or landlord to make an application\\nfor the removal of the person so using or occupying the same. If the\\nowner or landlord or his agent does not make such application within\\nfive days thereafter; or, having made it, does not in good faith\\ndiligently prosecute it, the person, corporation or enforcement agency\\ngiving the notice may bring a proceeding under this article for such\\nremoval as though the petitioner were the owner or landlord of the\\npremises, and shall have precedence over any similar proceeding\\nthereafter brought by such owner or landlord or to one theretofore\\nbrought by him and not prosecuted diligently and in good faith. Proof of\\nthe ill repute of the demised premises or of the inmates thereof or of\\nthose resorting thereto shall constitute presumptive evidence of the\\nunlawful use of the demised premises required to be stated in the\\npetition for removal. Both the person in possession of the property and\\nthe owner or landlord shall be made respondents in the proceeding.\\n  2. For purposes of this section, two or more convictions of any person\\nor persons had, within a period of one year, for any of the offenses\\ndescribed in section 230.00, 230.05, 230.06, 230.11, 230.12, 230.13,\\n230.20, 230.25, 230.30, 230.32 or 230.40 of the penal law arising out of\\nconduct engaged in at the same real property consisting of a dwelling as\\nthat term is defined in subdivision four of section four of the multiple\\ndwelling law shall be presumptive evidence of conduct constituting use\\nof the premises for purposes of prostitution.\\n  3. For the purposes of this section, two or more convictions of any\\nperson or persons had, within a period of one year, for any of the\\noffenses described in section 225.00, 225.05, 225.10, 225.15, 225.20,\\n225.30, 225.32, 225.35 or 225.40 of the penal law, arising out of\\nconduct engaged in at the same premises consisting of a dwelling as that\\nterm is defined in subdivision four of section four of the multiple\\ndwelling law shall be presumptive evidence of unlawful use of such\\npremises and of the owner's knowledge of the same.\\n  4. A court granting a petition pursuant to this section may, in\\naddition to any other order provided by law, make an order imposing and\\nrequiring the payment by the respondent of a civil penalty not exceeding\\nfive thousand dollars to the municipality in which the subject premises\\nis located and, the payment of reasonable attorneys fees and the costs\\nof the proceeding to the petitioner. In any such case multiple\\nrespondents shall be jointly and severally liable for any payment so\\nordered and the amounts of such payments shall constitute a lien upon\\nthe subject realty.\\n  5. For the purposes of a proceeding under this section, an enforcement\\nagency of the state or of a subdivision thereof, which may commence a\\nproceeding under this section, may subpoena witnesses, compel their\\nattendance, examine them under oath before himself or a court and\\nrequire that any books, records, documents or papers relevant or\\nmaterial to the inquiry be turned over to him for inspection,\\nexamination or audit, pursuant to the civil practice law and rules. If a\\nperson subpoenaed to attend upon such inquiry fails to obey the command\\nof a subpoena without reasonable cause, or if a person in attendance\\nupon such inquiry shall, without reasonable cause, refuse to be sworn or\\nto be examined or to answer a question or to produce a book or paper,\\nwhen ordered to do so by the officer conducting such inquiry, he shall\\nbe guilty of a class B misdemeanor.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "713-A",
+      "title" : "Special proceeding for termination of adult home and residence for adults admission agreements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "713-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "715-A",
+      "title" : "Grounds and procedure for removal of commercial tenants for unlicensed cannabis retail sale",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-05-12", "2024-04-26" ],
+      "docLevelId" : "715-A",
+      "activeDate" : "2024-04-26"
+    }
+  }
+}

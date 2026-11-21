@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 171 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "171",
+    "title" : "Alterations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "171",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 171. Alterations. 1. A building, other than a frame building,\\noriginally occupied as a one-family or two-family dwelling may be\\naltered to a converted dwelling if its bulk and volume has not been\\nincreased since April eighteenth, nineteen hundred twenty-nine, and if\\nit is converted in conformity with the other provisions of this article.\\n  2. Except as permitted in subdivision nine of section nine and\\nsubdivision six of section one hundred seventy-two, it shall be\\nunlawful:\\n  a. To increase the height or number of stories of any converted\\ndwelling or to increase the height or number of stories of any building\\nin converting it to a multiple dwelling.\\n  b. To reduce the room or window area of any converted dwelling or make\\nany other alteration therein if such alteration decreases the light,\\nventilation, fire protection or sanitation thereof.\\n  c. To convert to a multiple dwelling any dwelling which exceeds six\\nstories in height unless it was occupied as a multiple dwelling on April\\nfifteenth, nineteen hundred thirty;\\n  d. To convert any dwelling to a class A multiple dwelling occupied by\\nfive families or more upon any story unless such dwelling is fireproof\\nor is converted in conformity with the requirements of subdivision three\\nor was occupied as a class A multiple dwelling on April fifteenth,\\nnineteen hundred thirty.\\n  e. To combine any converted dwelling with another building which\\nexceeds six stories in height.\\n  f. To enlarge or extend any converted dwelling so as to exceed by more\\nthan twenty-five per centum the area which such dwelling had on any\\nfloor at the time of its conversion, except as provided in paragraph h.\\n  g. To convert to a multiple dwelling any dwelling not so converted\\nbefore April fifteenth, nineteen hundred thirty, if after such date it\\nhas been increased in number of stories or combined with another\\nbuilding more than six stories in height or enlarged or extended so as\\nto exceed by more than twenty-five per centum the area of such dwelling\\nor its area on any floor as shown by the plan approved by the department\\nbefore its erection, except as provided in paragraph h.\\n  h. Paragraphs f and g shall not apply to, or be deemed to prohibit,\\nany rear extension of the first story of any converted dwelling\\npermitted under the provisions of section one hundred seventy-two.\\n  3. Converted dwellings six stories or less in height may be combined\\nif such dwellings when combined conform to the requirements of this\\nsubdivision.\\n  a. No frame building shall be a part of any such combination.\\n  b. Every entrance hall, stair hall, public hall, stair and stair\\nenclosures shall be constructed of fireproof materials throughout and\\nevery door opening therefrom and door assembly shall be fireproof with\\nthe door self-closing and without transoms. Every public hall shall be\\nat least three feet six inches in clear width and enclosed with masonry\\nwalls not less than eight inches in thickness. Every stair and stair\\nhall shall be constructed and arranged throughout as provided in\\nsections thirty-five, thirty-six, fifty and fifty-two, and as provided\\nin sections one hundred two, one hundred five and one hundred six for\\nfireproof dwellings erected after April eighteenth, nineteen hundred\\ntwenty-nine, and shall be at least three feet in clear width with all\\nlandings at floor levels at least three feet six inches in clear width.\\nIn every combination of three or more such dwellings, fire-stairs shall\\nbe located so that there shall be horizontal access in the public hall\\nfrom every apartment to two or more fire-stairs, one or more of which\\nshall be within fifty feet horizontally in the line of travel of one or\\nmore required means of egress from such apartment.  Every stair,\\nfire-stair and fire-tower shall extend to the roof through a fireproof\\nbulkhead constructed in compliance with the provisions of section one\\nhundred four for fireproof multiple dwellings.\\n  c. The ceiling of the cellar, or of the lowest story, if there be no\\ncellar, shall be fire-retarded.\\n  d. There shall be at least two means of egress from every apartment or\\nsuite of rooms containing three or more living rooms. Such means shall\\nbe remote from each other, with the first means opening to a public hall\\nwhich is connected with a stair not more than fifty feet distant from\\nsuch means of egress. The second means of egress shall be directly\\naccessible to a fire-tower or fire-stair, or to an outside fire-escape.\\n  e. No window to the outer air shall be required opening from any\\npublic hall, vestibule, stair, or stair hall artificially lighted and\\nventilated mechanically as provided in section one hundred seven for\\nfireproof multiple dwellings. If any windows are provided, they and\\ntheir assemblies shall be fireproof and glazed with wire glass, and if\\nsuch windows are used in lieu of mechanical ventilation and artificial\\nlighting, they shall also be arranged as provided for stairs and public\\nhalls in non-fireproof multiple dwellings erected after April\\neighteenth, nineteen hundred twenty-nine.\\n  f. No elevator shall be required, but should one be installed it shall\\nconform to the provisions of section fifty-one relating to elevators and\\nsection one hundred five for fireproof dwellings.\\n  g. None of the combined dwellings shall be required to comply with\\nsections one hundred seventy-eight, one hundred eighty-five, one hundred\\neighty-seven, one hundred eighty-eight and one hundred ninety or with\\nsubdivisions one, two and three of section one hundred eighty-nine.\\n  h. When any business is conducted in any portion of dwellings so\\ncombined, the ceilings and walls of such portion shall be fire-retarded\\nand every door and door assembly shall be fireproof with the door\\nself-closing.\\n  4. Nothing in this article shall be deemed to prohibit a combination\\nof class A and B occupancy in any converted dwelling. If more than fifty\\nper centum of the rooms therein are used for class A occupancy, the\\ndwelling shall be deemed a class A dwelling, otherwise a class B\\ndwelling.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "170-A",
+      "title" : "Notwithstanding any other provision of this chapter, a dwelling, other than a frame dwelling, three stories or less in height erected aft...",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "170-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

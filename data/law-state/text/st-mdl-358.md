@@ -1,0 +1,14 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 10 Prostitution > § 358 Sale of premises
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/358 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 358. Sale of premises.  At any time after the entry of any judgment
+establishing a lien upon such premises the department, if there be no
+stay pending appeal, may apply to the court for leave to sell such
+premises. Upon such application the court may order such premises sold
+at public auction, subject to taxes, assessments, water rates, mortgages
+and mechanics' liens. The deed to the purchaser shall be made by the
+department.  The justices of the appellate division of the supreme court
+of any judicial department may establish rules of practice which shall
+be followed by the department charged with the enforcement of this
+chapter in the conduct of such sales in such judicial department.

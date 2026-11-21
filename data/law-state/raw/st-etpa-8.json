@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 8 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "8",
+    "title" : "Administration",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2020-04-17" ],
+    "docLevelId" : "8",
+    "activeDate" : "2020-04-17",
+    "text" : "  § 8. Administration. a. Whenever a city having a population of less\\nthan one million, or a town or village has determined the existence of\\nan emergency pursuant to section three of this act, the state division\\nof housing and community renewal shall be designated as the sole\\nadministrative agency to administer the regulation of residential rents\\nas provided in this act. The costs incurred by the state division of\\nhousing and community renewal in administering such regulation shall be\\npaid by such city, town or village. Such local resolution shall\\nforthwith be transmitted to the state division of housing and community\\nrenewal and shall be accompanied by an initial payment in an amount\\npreviously determined by the commissioner of housing and community\\nrenewal as necessary to defray the division's anticipated first year\\ncost. Thereafter, annually, after the close of the fiscal year of the\\nstate, the commissioner of housing and community renewal shall determine\\nthe amount of all costs incurred and shall certify to each such city,\\ntown or village its proportionate share of such costs, after first\\ndeducting therefrom the amount of such initial payment. The amount so\\ncertified shall be paid to the commissioner by such city, town or\\nvillage within ninety days after the receipt of such certification. In\\nthe event that the amount thereof is not paid to the commissioner as\\nherein prescribed, the commissioner shall certify the unpaid amount to\\nthe comptroller, and the comptroller shall withhold such amount from the\\nnext succeeding payment of per capita assistance to be apportioned to\\nsuch city, town or village.\\n  b. The legislative body of any city, town or village acting to impose\\nregulation of residential rents pursuant to the provisions of this act\\nmay impose on the owner of every building containing housing\\naccommodations subject to such regulation an annual charge for each such\\naccommodation in such amount as it determines to be necessary for the\\nexpenses to be incurred in the administration of such regulation.\\n  c. Whenever a city having a population of one million or more has\\ndetermined the existence of an emergency pursuant to section three of\\nthis act, the provisions of this act and the New York city rent\\nstabilization law of nineteen hundred sixty-nine shall be administered\\nby the state division of housing and community renewal as provided in\\nthe New York city rent stabilization law of nineteen hundred sixty-nine,\\nas amended, or as otherwise provided by law. The costs incurred by the\\nstate division of housing and community renewal in administering such\\nregulation shall be paid by such city. All payments for such\\nadministration shall be transmitted to the state division of housing and\\ncommunity renewal as follows: on or after April first of each year\\ncommencing with April, nineteen hundred eighty-four, the commissioner of\\nhousing and community renewal, in consultation with the director of the\\nbudget, shall determine an amount necessary to defray the division's\\nanticipated annual cost, and one-quarter of such amount shall be paid by\\nsuch city on or before July first of such year, one-quarter of such\\namount on or before October first of such year, one-quarter of such\\namount on or before January first of the following year and one-quarter\\nof such amount on or before March thirty-first of the following year.\\nAfter the close of the fiscal year of the state, the commissioner, in\\nconsultation with the director of the budget, shall determine the amount\\nof all actual costs incurred in such fiscal year and shall certify such\\namount to such city. If such certified amount shall differ from the\\namount paid by the city for such fiscal year, appropriate adjustments\\nshall be made in the next quarterly payment to be made by such city. In\\nthe event that the amount thereof is not paid to the commissioner, in\\nconsultation with the director of the budget, as herein prescribed, the\\ncommissioner, in consultation with the director of the budget, shall\\ncertify the unpaid amount to the comptroller, and the comptroller shall,\\nto the extent not otherwise prohibited by law, withhold such amount from\\nany state aid payable to such city. In no event shall the amount imposed\\non the owners exceed twenty dollars per unit per year.\\n  d. Notwithstanding subdivision c of this section or any other\\nprovision of law to the contrary, whenever the state has incurred any\\ncosts as a result of administering the rent regulation program for a\\ncity having a population of one million or more in accordance with\\nsubdivision c of this section, on or after April first of each year, the\\ncommissioner of housing and community renewal, in consultation with the\\ndirector of the budget, shall determine an amount necessary to defray\\nthe state's anticipated annual cost. In the event that the division does\\nnot send a bill to the city to defray such costs in accordance with\\nsubdivision c of this section, it shall submit to the city an invoice\\nshowing all such costs as soon as practicable after the start of the\\nstate fiscal year in which the costs are to be incurred. The director of\\nthe budget may direct any other state agency to reduce the amount of any\\nother payment or payments owed to such city or any department, agency,\\nor instrumentality thereof; provided however, that such reduction shall\\nbe made no sooner than thirty days after the transmittal of the invoice\\nof costs, and shall be in an amount equal to the costs incurred by the\\nstate in administering the rent regulation program for such city in\\naccordance with subdivision c of this section. Within thirty days of the\\nreceipt of the invoice of costs, the city may send to the division, in\\nwritten form, requests for additional information relating to such\\ncosts, including any recommendations on which local assistance payment\\nwould be reduced. If the director of the budget makes such direction in\\naccordance with this subdivision, the impacted city shall not make the\\npayments required by subdivision c of this section, and the division of\\nhousing and community renewal shall notify such city in writing of what\\npayment or payments will be reduced and the amount of the reduction and\\nshall suballocate, as necessary, the value of the costs it incurred to\\nthe agency or agencies which reduces the payments to such city or any\\ndepartment, agency or authority thereof in accordance with this\\nsubdivision.\\n  e. The failure to pay the prescribed assessment not to exceed twenty\\ndollars per unit for any housing accommodation subject to this act or\\nthe New York city rent stabilization law of nineteen hundred sixty-nine\\nshall constitute a charge due and owing such city, town or village which\\nhas imposed an annual charge for each such housing accommodation\\npursuant to subdivision b of this section. Any such city, town or\\nvillage shall be authorized to provide for the enforcement of the\\ncollection of such charges by commencing an action or proceeding for the\\nrecovery of such fees or by the filing of a lien upon the building and\\nlot. Such methods for the enforcement of the collection of such charges\\nshall be the sole remedy for the enforcement of this section.\\n  f. The division shall maintain at least one office in each county\\nwhich is governed by the rent stabilization law of nineteen hundred\\nsixty-nine or this act; provided, however, that the division shall not\\nbe required to maintain an office in the counties of Nassau, Rockland,\\nor Richmond.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "7",
+      "title" : "Maintenance of services",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "7",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "9",
+      "title" : "Application for adjustment of initial legal regulated rent",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "9",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

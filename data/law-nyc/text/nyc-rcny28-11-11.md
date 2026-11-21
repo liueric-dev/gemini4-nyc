@@ -1,0 +1,6 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 11: [Lead-based Paint Abatement; Dwellings; Children] > § 11-11 Audit and Inspection by the Department.
+
+§ 11-11 Audit and Inspection by the Department.
+(a) Upon the issuance of a commissioner's order to abate by the commissioner of the department of health and mental hygiene pursuant to 24 RCNY Health Code § 173.13, the department shall require that an owner submit to it all records required to be kept by such owner pursuant to Article 14 of the Housing Maintenance Code and these rules. If such order to abate has been issued, such records shall be submitted to the department within 45 days of written demand for such records by the department. In all other cases, the time period for submission shall be stated in writing to the owner, and shall be in the discretion of the department, but shall be no less than 45 days.
+(b) The department may undertake any inspection and enforcement actions it deems necessary under applicable law and these rules based upon its review of the records submitted by an owner pursuant to subdivision (a) of this section, or where an owner refuses or fails to produce any of the required records as required by these rules or pursuant to any proper order.
+(Amended City Record 11/8/2019, eff. 12/8/2019)

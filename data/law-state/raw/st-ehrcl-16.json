@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 16 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "16",
+    "title" : "Except for matters pending before the commission, no action or proceeding, civil or criminal, pending at the time when this act as amende...",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "16",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 16. Except for matters pending before the commission, no action or\\nproceeding, civil or criminal, pending at the time when this act as\\namended shall take effect, brought by or against the commission, shall\\nbe affected or abated by the enactment of this act or by anything\\ntherein contained. No existing right or remedy of any character shall be\\nlost or impaired or affected by such enactment.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "15",
+      "title" : "Separability",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "15",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "17",
+      "title" : "Short title",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "17",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

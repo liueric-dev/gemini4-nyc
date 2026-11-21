@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 767 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "767",
+    "title" : "Order of redemption; liability of persons redeeming",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "767",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 767. Order of redemption; liability of persons redeeming.  The\\nperson redeeming, as prescribed in this article or the owner of the\\nproperty so redeemed, may present to the court which issued the warrant\\na petition setting forth the facts of the redemption and praying for an\\norder establishing the rights and liabilities of the parties upon the\\nredemption, whereupon the court must make an order requiring the other\\nparty to the redemption to show cause at a time and place therein\\nspecified why the prayer of the petition should not be granted. The\\norder to show cause must be made returnable not less than two nor more\\nthan ten days after it is granted; and it must be served at least two\\ndays before it is returnable. Upon the return thereof, the court must\\nhear the allegations and proofs of the parties and must make such a\\njudgment as justice requires. The costs and expenses must be paid by the\\npetitioner. The judgment, or a certified copy thereof, may be recorded\\nin like manner as a deed. A person, other than the lessee, who redeems\\nas prescribed in this article succeeds to all the duties and liabilities\\nof the lessee accruing after the redemption as if he was named as lessee\\nin the lease.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "765",
+      "title" : "Effect of redemption upon lease",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "765",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "768",
+      "title" : "Unlawful eviction",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28" ],
+      "docLevelId" : "768",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

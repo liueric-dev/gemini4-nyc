@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 226-B in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "226-B",
+    "title" : "Right to sublease or assign",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "226-B",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 226-b. Right to sublease or assign. 1. Unless a greater right to\\nassign is conferred by the lease, a tenant renting a residence may not\\nassign his lease without the written consent of the owner, which consent\\nmay be unconditionally withheld without cause provided that the owner\\nshall release the tenant from the lease upon request of the tenant upon\\nthirty days notice if the owner unreasonably withholds consent which\\nrelease shall be the sole remedy of the tenant. If the owner reasonably\\nwithholds consent, there shall be no assignment and the tenant shall not\\nbe released from the lease.\\n  2. (a) A tenant renting a residence pursuant to an existing lease in a\\ndwelling having four or more residential units shall have the right to\\nsublease his premises subject to the written consent of the landlord in\\nadvance of the subletting. Such consent shall not be unreasonably\\nwithheld.\\n  (b) The tenant shall inform the landlord of his intent to sublease by\\nmailing a notice of such intent by certified mail, return receipt\\nrequested. Such request shall be accompanied by the following\\ninformation: (i) the term of the sublease, (ii) the name of the proposed\\nsublessee, (iii) the business and permanent home address of the proposed\\nsublessee, (iv) the tenant's reason for subletting, (v) the tenant's\\naddress for the term of the sublease, (vi) the written consent of any\\ncotenant or guarantor of the lease, and (vii) a copy of the proposed\\nsublease, to which a copy of the tenant's lease shall be attached if\\navailable, acknowledged by the tenant and proposed subtenant as being a\\ntrue copy of such sublease.\\n  (c) Within ten days after the mailing of such request, the landlord\\nmay ask the tenant for additional information as will enable the\\nlandlord to determine if rejection of such request shall be\\nunreasonable. Any such request for additional information shall not be\\nunduly burdensome.  Within thirty days after the mailing of the request\\nfor consent, or of the additional information reasonably asked for by\\nthe landlord, whichever is later, the landlord shall send a notice to\\nthe tenant of his consent or, if he does not consent, his reasons\\ntherefor. Landlord's failure to send such a notice shall be deemed to be\\na consent to the proposed subletting. If the landlord consents, the\\npremises may be sublet in accordance with the request, but the tenant\\nthereunder, shall nevertheless remain liable for the performance of\\ntenant's obligations under said lease. If the landlord reasonably\\nwithholds consent, there shall be no subletting and the tenant shall not\\nbe released from the lease. If the landlord unreasonably withholds\\nconsent, the tenant may sublet in accordance with the request and may\\nrecover the costs of the proceeding and attorneys fees if it is found\\nthat the owner acted in bad faith by withholding consent.\\n  3. The provisions of this section shall apply to leases entered into\\nor renewed before or after the effective date of this section, however\\nthey shall not apply to public housing and other units for which there\\nare constitutional or statutory criteria covering admission thereto nor\\nto a proprietary lease, viz.: a lease to, or held by, a tenant entitled\\nthereto by reason of ownership of stock in a corporate owner of premises\\nwhich operates the same on a cooperative basis.\\n  4. With respect to units covered by the emergency tenant protection\\nact of nineteen seventy-four or the rent stabilization law of nineteen\\nhundred sixty-nine the exercise of the rights granted by this section\\nshall be subject to the applicable provisions of such laws. Nothing\\ncontained in this section two hundred twenty-six-b shall be deemed to\\naffect the rights, if any, of any tenant subject to title Y of chapter\\n51 of the administrative code of the city of New York or the emergency\\nhousing rent control law.\\n  5. Any sublet or assignment which does not comply with the provisions\\nof this section shall constitute a substantial breach of lease or\\ntenancy.\\n  6. Any provision of a lease or rental agreement purporting to waive a\\nprovision of this section is null and void.\\n  7. The provisions of this section except for items in paragraph (b) of\\nsubdivision two of this section not previously required, shall apply to\\nall actions and proceedings pending on the effective date of this\\nsection.\\n  8. Nothing contained in this section shall be deemed to prevent or\\nlimit the right of a tenant to sell improvements to a unit pursuant to\\narticle seven-C of the multiple dwelling law.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "226-A",
+      "title" : "Effect of new lease on tenant's right to remove fixtures or improvements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "226-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "226-C",
+      "title" : "Notice of rent increase or non-renewal of residential tenancy",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28", "2019-10-18", "2021-12-31", "2024-05-03", "2025-08-22" ],
+      "docLevelId" : "226-C",
+      "activeDate" : "2025-08-22"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 701 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "701",
+    "title" : "Jurisdiction; courts; venue",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "701",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 701. Jurisdiction; courts; venue.  1. A special proceeding to\\nrecover real property may be maintained in a county court, the court of\\na police justice of the village, a justice court, a court of civil\\njurisdiction in a city, or a district court.\\n  2. The place of trial of the special proceeding shall be within the\\njurisdictional area of the court in which the real property or a portion\\nthereof is situated; except that where the property is located in an\\nincorporated village which includes parts of two or more towns the\\nproceeding may be tried by a justice of the peace of any such town who\\nkeeps an office in the village.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "702",
+      "title" : "Rent in a residential dwelling",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2019-06-28", "2022-01-07" ],
+      "docLevelId" : "702",
+      "activeDate" : "2022-01-07"
+    }
+  }
+}

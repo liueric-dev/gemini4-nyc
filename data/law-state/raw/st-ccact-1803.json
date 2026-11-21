@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1803 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1803",
+    "title" : "Commencement of action upon small claim",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2021-10-29", "2022-09-02", "2023-07-07" ],
+    "docLevelId" : "1803",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 1803. Commencement of action upon small claim.  (a) Small claims\\nshall be commenced upon the payment by the claimant of a filing fee of\\nfifteen dollars for claims in the amount of one thousand dollars or less\\nand twenty dollars for claims in the amount of more than one thousand\\ndollars, without the service of a summons and, except by special order\\nof the court, without the service of any pleading other than a statement\\nof his cause of action by the claimant or someone in his behalf to the\\nclerk, who shall reduce the same to a concise, written form and record\\nit in a docket kept especially for such purpose. Such procedure shall\\nprovide for the sending of notice of such claim by ordinary first class\\nmail and certified mail with return receipt requested to the party\\ncomplained against (1) at his residence, if he resides within the city\\nof New York, and his residence is known to the claimant, (2) at his\\noffice or place of regular employment within the city of New York if he\\ndoes not reside therein or his residence within the city of New York is\\nnot known to the claimant, or (3) where claimant is or was a tenant or\\nlessee of real property owned by the defendant and the claim relates to\\nsuch tenancy or lease and the notice of claim cannot be sent under\\nparagraph one or two of this subdivision, at any place in the state\\nwhere plaintiff may mail or otherwise deliver rent.  If, after the\\nexpiration of twenty-one days, such ordinary first class mailing has not\\nbeen returned as undeliverable, the party complained against shall be\\npresumed to have received notice of such claim. Such notice shall\\ninclude a clear description of the procedure for filing a counterclaim,\\npursuant to subdivision (c) of this section.\\n  Such procedure shall further provide for an early hearing upon and\\ndetermination of such claim. No filing fee, however, shall be demanded\\nor received on small claims of employees who shall comply with § 1912\\n(a) of this act which is hereby made applicable, except that necessary\\nmailing costs shall be paid.\\n  (b) The clerk shall furnish every claimant, upon commencement of the\\naction, with information written in clear and coherent language which\\nshall be prescribed and furnished by the office of court administration,\\nconcerning the small claims court. Such information shall include, but\\nnot be limited to, an explanation of the following terms and procedures;\\nadjournments, counterclaims, jury trial requests, subpoenas,\\narbitration, collection methods and fees, the responsibility of the\\njudgment creditor to collect data on the judgment debtor's assets, the\\nability of the court prior to entering judgment to order examination of\\nor disclosure by, the defendant and restrain him, the utilization of\\nsection eighteen hundred twelve of this article concerning treble damage\\nawards and information subpoenas including, but not limited to, specific\\nquestions to be used on information subpoenas, and the claimant's right\\nto notify the appropriate state or local licensing or certifying\\nauthority of an unsatisfied judgment if it arises out of the carrying\\non, conducting or transaction of a licensed or certified business or if\\nsuch business appears to be engaged in fraudulent or illegal acts or\\notherwise demonstrates fraud or illegality in the carrying on,\\nconducting or transaction of its business and a list of at least the\\nmost prominent state or local licensing or certifying authorities and a\\ndescription of the business categories such licensing or certifying\\nauthorities oversee. The information shall be available in English.\\nLarge signs in English shall be posted in conspicuous locations in each\\nsmall claims court clerk's office, advising the public of its\\navailability.\\n  (c) A defendant who wishes to file a counterclaim shall do so by\\nfiling with the clerk a statement containing such counterclaim within\\nfive days of receiving the notice of claim. At the time of such filing\\nthe defendant shall pay to the clerk a filing fee of five dollars plus\\nthe cost of mailings which are required pursuant to this subdivision.\\nThe clerk shall forthwith send notice of the counterclaim by ordinary\\nfirst class mail to the claimant. If the defendant fails to file the\\ncounterclaim in accordance with the provisions of this subdivision, the\\ndefendant retains the right to file the counterclaim, however the\\nclaimant may, but shall not be required to, request and obtain\\nadjournment of the hearing to a later date. The claimant may reply to\\nthe counterclaim but shall not be required to do so.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1802",
+      "title" : "Parts for the determination of small claims established",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1802",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1804",
+      "title" : "Informal and simplified procedure on small claims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2021-08-06", "2023-07-07" ],
+      "docLevelId" : "1804",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

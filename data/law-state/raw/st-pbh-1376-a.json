@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1376-A in PBH law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PBH",
+    "lawName" : "Public Health",
+    "locationId" : "1376-A",
+    "title" : "Sale of consumer products containing lead or cadmium",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1376-A",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 1376-a. Sale of consumer products containing lead or cadmium.  1. In\\nthe absence of a federal standard for a specific type of product, the\\ncommissioner shall establish the maximum quantity of lead or cadmium\\n(and the manner of testing therefor) which may be released from glazed\\nceramic tableware, crystal, china and other consumer products.  Such\\nmaximum quantity shall be based on the best available scientific data\\nand shall insure the safety of the public by reducing its exposure to\\nlead and cadmium to the lowest practicable level. The commissioner may\\namend such maximum quantity (and the manner of testing therefor) where\\nnecessary or appropriate for the safety of the public. Until such\\nmaximum quantity of lead or cadmium established by the commissioner is\\neffective, no glazed ceramic tableware shall be offered for sale which\\nreleases lead in excess of 7 parts per million, or cadmium in excess of\\n..5 parts per million.\\n  2. The commissioner is hereby empowered to order the recall of or\\nconfiscation of glazed ceramic tableware, crystal, china or other\\nconsumer products offered for sale which do not meet the standards set\\nforth in or pursuant to this section.\\n  3. The commissioner of health may waive the provisions of this section\\nin whole or in part upon a finding by the commissioner in a particular\\ninstance that there is no significant threat to the public health; with\\nrespect to miniatures the commissioner shall do so, on terms and\\nconditions he or she shall establish, upon a final judicial or\\nadministrative finding that there is no immediate public health threat\\nin that instance.\\n",
+    "parentLocationIds" : [ "-CH45", "A13", "A13T10" ],
+    "parents" : [ {
+      "lawId" : "PBH",
+      "lawName" : "Public Health",
+      "locationId" : "-CH45",
+      "title" : "Public Health",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2014-11-28", "2015-01-23", "2015-03-20", "2015-05-01", "2015-08-21", "2015-11-06", "2015-12-18", "2015-12-25", "2016-07-01", "2016-07-29", "2016-09-09", "2016-12-02", "2017-04-28", "2017-08-04", "2017-10-27", "2017-12-22", "2018-04-20", "2018-04-27", "2018-05-04", "2018-07-13", "2019-01-04", "2019-01-25", "2019-04-19", "2019-08-09", "2019-09-06", "2019-10-04", "2019-10-11", "2019-11-15", "2019-11-29", "2019-12-13", "2019-12-27", "2020-01-24", "2020-04-17", "2020-04-24", "2020-12-04", "2020-12-28", "2021-01-01", "2021-04-09", "2021-04-23", "2021-06-04", "2021-06-18", "2022-03-04", "2022-07-01", "2022-08-19", "2022-11-25", "2022-12-02", "2022-12-23", "2022-12-30", "2023-01-06", "2023-03-31", "2023-04-28", "2023-05-12", "2023-06-23", "2023-11-10", "2023-11-26", "2023-12-15", "2023-12-22", "2023-12-29", "2024-03-29", "2024-05-03", "2024-06-07", "2024-08-09", "2024-12-20", "2024-12-27", "2025-03-21", "2025-10-24", "2025-11-14", "2025-12-19", "2025-12-26", "2026-01-30", "2026-02-13", "2026-02-27", "2026-05-22" ],
+      "docLevelId" : "45",
+      "activeDate" : "2026-05-22"
+    }, {
+      "lawId" : "PBH",
+      "lawName" : "Public Health",
+      "locationId" : "A13",
+      "title" : "Nuisances and Sanitation",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2021-12-03", "2022-03-04", "2022-11-25", "2023-05-12", "2023-06-23", "2025-11-14" ],
+      "docLevelId" : "13",
+      "activeDate" : "2025-11-14"
+    }, {
+      "lawId" : "PBH",
+      "lawName" : "Public Health",
+      "locationId" : "A13T10",
+      "title" : "Control of Lead Poisoning",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22", "2021-12-03", "2022-03-04", "2023-05-12", "2023-06-23" ],
+      "docLevelId" : "10",
+      "activeDate" : "2023-06-23"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PBH",
+      "lawName" : "Public Health",
+      "locationId" : "1375",
+      "title" : "Enforcement agencies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1375",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PBH",
+      "lawName" : "Public Health",
+      "locationId" : "1377",
+      "title" : "State rental registry and proactive inspections to identify lead hazards",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-05-12", "2023-06-23", "2025-11-07" ],
+      "docLevelId" : "1377",
+      "activeDate" : "2025-11-07"
+    }
+  }
+}

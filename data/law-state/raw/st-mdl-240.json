@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 240 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "240",
+    "title" : "First tier of beams",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "240",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 240. First tier of beams. 1. In all tenements erected after April\\ntwelfth, nineteen hundred one, which are five stories or more in height,\\nthe first floor above the lowest cellar, or, if there be no cellar,\\nabove the basement or other lowest story, shall be fireproof; and all\\nexposed portions of any iron or steel beams below the floor arches shall\\nbe fire-retarded.\\n  2. In all non-fireproof tenements erected after such date which are\\nfour stories or less in height, the ceiling of the lowest cellar, or, if\\nthere be no cellar, of the basement or other lowest story, shall be\\nfire-retarded or covered with plaster boards at least one-half inch in\\nthickness, with all joints made true and well pointed.\\n  3. In all old-law tenements which are four stories or more in height\\nthe ceiling of the cellar, or, if there be no cellar, of the basement or\\nother lowest story, shall be fire-retarded.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "239",
+      "title" : "Tower fire-escapes and supplemental stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "239",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "241",
+      "title" : "Partitions; fire-stopping",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "241",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

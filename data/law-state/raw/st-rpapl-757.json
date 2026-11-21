@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 757 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "757",
+    "title" : "Eviction as the result of foreclosure",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2019-06-28" ],
+    "docLevelId" : "757",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 757. Eviction as the result of foreclosure. In the event that a\\nlessee is removed from real property pursuant to this article, and the\\nleased real property was the subject of a foreclosure proceeding\\npursuant to this chapter or the subject of a tax foreclosure proceeding,\\nthe court records relating to any such lessee shall be sealed and be\\ndeemed confidential. No disclosure or use of such information relating\\nto any such lessee shall be authorized, and the use of such information\\nshall be prohibited.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "756-A",
+      "title" : "Stay of action or proceeding when a party's claim to title is in dispute",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-11-17", "2023-12-15" ],
+      "docLevelId" : "756-A",
+      "activeDate" : "2023-12-15"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "761",
+      "title" : "Redemption by lessee",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "761",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

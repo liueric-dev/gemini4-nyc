@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 232 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "232",
+    "title" : "Fire-escapes",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "232",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 232. Fire-escapes. 1. All fire-escapes erected after April\\neighteenth, nineteen hundred twenty-nine, shall be arranged and\\nconstructed in conformity with the provisions of section fifty-three.\\n  2. As specifically indicated in subdivision nine of section\\nfifty-three, a wire, chain, cable, vertical ladder, or rope fire-escape\\nis an unlawful means of egress from any apartment. Every such\\nfire-escape shall be removed and replaced, if required as a means of\\negress, by a system of fire-escapes constructed and arranged as provided\\nin section fifty-three.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "231",
+      "title" : "Egress",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "231",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "233",
+      "title" : "Bulkheads and scuttles",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "233",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

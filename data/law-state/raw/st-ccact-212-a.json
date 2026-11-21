@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 212-A in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "212-A",
+    "title" : "Declaratory judgments involving obligations of insurers and de novo review under part 137 of the rules of the chief administrator of the ...",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+    "docLevelId" : "212-A",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 212-a. Declaratory judgments involving obligations of insurers and\\nde novo review under part 137 of the rules of the chief administrator of\\nthe courts (22 NYCRR Part 137). The court shall have the jurisdiction\\ndefined in section 3001 of the CPLR to make a declaratory judgment with\\nrespect to:\\n  (a) any controversy involving the obligation of an insurer to\\nindemnify or defend a defendant in an action in which the amount sought\\nto be recovered does not exceed $50,000; and\\n  (b) actions commenced by a party aggrieved by an arbitration award\\nrendered pursuant to part 137 of the rules of the chief administrator in\\nwhich the amount in dispute does not exceed $50,000.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "212",
+      "title" : "Additional jurisdiction and powers",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "212",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "213",
+      "title" : "Jurisdiction for rescission or reformation of certain transactions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "213",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

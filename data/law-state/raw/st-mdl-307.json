@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 307 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "307",
+    "title" : "Liens",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "307",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 307. Liens. Every fine imposed by judgment under section three\\nhundred four upon an owner shall be a lien upon the premises in relation\\nto which the fine is imposed from the time of the filing of a certified\\ncopy of said judgment in the office of the clerk of the county in which\\nsuch premises are situated, subject only to taxes, assessments and water\\nrates and to such mortgage and mechanics' liens as may exist thereon\\nprior to such filing; and it shall be the duty of the department upon\\nthe entry of said judgment to file such certified copy forthwith, and\\nsuch copy shall be forthwith indexed by such clerk in the index of\\nmechanics' liens.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "306",
+      "title" : "Judicial procedure and orders",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "306",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "308",
+      "title" : "Notice of pendency of action",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "308",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

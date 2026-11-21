@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 194 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "194",
+    "title" : "Sprinkler heads in rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "194",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 194. Sprinkler heads in rooms. 1. On and after July first, nineteen\\nhundred fifty-seven, in every room used for class B occupancy whether in\\na class A or class B non-fireproof converted dwelling, there shall be\\none or more sprinkler heads. Such sprinkler heads shall be installed in\\naccordance with the supplementary rules and regulations of the\\ndepartment. This requirement shall not apply to dwellings which have a\\nrequired second means of egress.\\n  2. The requirements of this section shall not apply to a dwelling\\nlocated within an area designated on the master plan as an area suitable\\nfor development and redevelopment, provided (a) that the agency in\\ncharge of such clearance shall have certified to the department on or\\nbefore February first, nineteen hundred fifty-nine that the dwelling\\nwill be demolished within one year after the service of notice of\\nviolation and (b) that the dwelling is not in violation of any rules and\\nregulations relating to overoccupancy, egress or fire protection. Such\\ntemporary exemption from the requirements of this section may be\\nextended for an additional period of not more than six months upon\\nrenewal of such certification of demolition and safety.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "193",
+      "title" : "Frame buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "193",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

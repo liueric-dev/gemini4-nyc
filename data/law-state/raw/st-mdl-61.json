@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 61 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "61",
+    "title" : "Business uses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "61",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 61. Business uses. 1. Except as may be otherwise provided by any\\nlocal law, ordinance, rule or regulation, business may be conducted in\\nany multiple dwelling including:\\n  a. Baking and fat-boiling as provided in section fifty-nine,\\n  b. Storage of passenger motor vehicles as provided in section sixty,\\nand\\n  c. Any manufacturing business in which seven or more persons are\\nemployed, or any employment agency as defined in section one hundred\\nseventy-one of the general business law other than a non-profit\\nemployment agency in a fireproof class B multiple dwelling owned and\\noccupied by a non-profit corporation organized for and engaged\\nexclusively in promoting religious, education or philanthropic purposes,\\nprovided that every means of egress from such a business space shall be\\nseparate and distinct from and without means of communication with any\\nmeans of egress from the dwelling portion of the building.\\n  2. The number of means of egress from the portion of any multiple\\ndwelling where business is conducted shall be in conformity with those\\nprovisions of the local laws, ordinances, rules and regulations covering\\nmeans of egress from buildings in which a like business is conducted.\\n  3. There shall be no manufacturing business conducted above the second\\nfloor of any non-fireproof multiple dwelling.\\n  4. Where business is conducted in any multiple dwelling erected before\\nApril eighteenth, nineteen hundred twenty-nine, such business space\\nshall also comply with all the following requirements in a manner which\\nthe department shall deem adequate to prevent the spread of fire:\\n  a. Within or appurtenant to such space, all pipe chases and openings\\naround flues shall be fire-stopped, and such flues shall be kept in good\\norder and repair.\\n  b. All other openings from such space into non-fireproof shafts or\\ninto entrance halls shall either be sealed with fire-retarded material\\nor equipped with a self-closing fire-retarded door or window with\\nfire-retarded assemblies.\\n  5. Where business is conducted in any non-fireproof multiple dwelling\\nerected after April eighteenth, nineteen hundred twenty-nine, the walls\\nand ceiling of such business space shall be fire-retarded.  The\\ndepartment may also require the walls and ceilings of any business space\\nin any multiple dwelling erected before such date to be fire-retarded\\nwhen the department shall deem such requirement necessary for the\\nprotection of the occupants.\\n  6. If the ground story of any non-fireproof multiple dwelling is\\nextended for business purposes, the underside of the roof of such\\nextension shall be fire-retarded. If there are fire-escapes above such\\nextension, its roof shall be fireproof.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "60",
+      "title" : "Motor vehicle storage",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "60",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "62",
+      "title" : "Parapets, guard railings and wires",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "62",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

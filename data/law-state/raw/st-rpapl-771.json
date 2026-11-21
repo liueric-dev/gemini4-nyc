@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 771 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "771",
+    "title" : "Commencement; notice of petition; time and manner of service",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "771",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 771. Commencement; notice of petition; time and manner of service.\\n1. A special proceeding prescribed by this article shall be commenced by\\nthe service of a petition and notice of petition.  A notice of petition\\nmay be issued only by a judge or the clerk of the court.\\n  2. The notice of petition shall specify the time and place of the\\nhearing on the petition and state that if at such time, a defense to\\nsuch petition is not interposed and established by the owner or any\\nmortgagee or lienor of record, a final judgment may be rendered\\ndirecting that the rents due on the date of entry of such judgment from\\nthe petitioning tenants and the rents due on the dates of service of\\nsuch judgment on all other tenants occupying such dwelling, from such\\nother tenants, shall be deposited with the administrator appointed\\npursuant to section seven hundred seventy-eight of this article, and any\\nrents to become due in the future from such petitioners and from all\\nother tenants occupying such dwelling shall be deposited with such\\nadministrator as they fall due; and that such deposited rents shall be\\nused, subject to the court's direction, to the extent necessary to\\nremedy the condition or conditions alleged in the petition.\\n  3. The notice of petition and petition shall be served upon the owner\\nof such dwelling last registered with the department of housing\\npreservation and development of such city pursuant to article forty-one\\nof chapter twenty-six of the administrative code of the city of New York\\nand in Nassau, Suffolk, Rockland and Westchester counties upon the\\nperson set forth as the owner on the last recorded deed to the rented\\nproperty and upon every mortgagee and lienor of record, and upon the\\ncity of New York, at least five days before the time at which the\\npetition is noticed to be heard.\\n  4. The proof of service shall be filed with the court before which the\\npetition is to be heard on or before the return date.\\n  5. Manner of service. a. Service of the notice of petition and\\npetition shall be made by personally delivering them to the person or\\npersons required to be served pursuant to subdivision three of this\\nsection. Service upon the city of New York shall be made by personal\\ndelivery to the commissioner of the city department charged with\\nenforcement of the housing maintenance code of such city, or to an agent\\nduly authorized to accept such service on his behalf. If service cannot\\nwith due diligence be made within the city upon an owner, mortgagee or\\nlienor of record in such manner, it shall be made:\\n  (1) upon the owner last registered with the department of housing\\npreservation and development pursuant to article forty-one of chapter\\ntwenty-six of the administrative code of the city of New York and in\\nNassau, Suffolk, Rockland and Westchester counties upon the person set\\nforth as the owner on the last recorded deed to the rented property by\\ndelivering to and leaving personally with the person designated pursuant\\nto article forty-one of chapter twenty-six of such code as managing\\nagent of the subject dwelling, and in Nassau, Suffolk, Rockland and\\nWestchester counties upon the person designated as the managing agent of\\nthe rented property if one shall have been designated, a copy of the\\nnotice of petition and petition;\\n  (2) upon a mortgagee or lienor of record, by registered or certified\\nmail, return receipt requested, at the address set forth in the recorded\\nmortgage or lien.\\n  b. If such personal service upon the person designated pursuant to\\narticle forty-one of chapter twenty-six of the administrative code of\\nthe city of New York as managing agent of the subject dwelling and in\\nNassau, Suffolk, Rockland and Westchester counties upon the person set\\nforth as the owner on the last recorded deed to the rented property\\ncannot be made with due diligence, service upon such last registered\\nowner shall be made by affixing a copy of the notice and petition upon a\\nconspicuous part of the subject dwelling; and in addition, within two\\ndays after such affixing, by sending a copy thereof by registered or\\ncertified mail, return receipt requested, to the owner at the last\\naddress registered by him with the department of housing preservation\\nand development or, in the absence of such registration, to the address\\nset forth in the last recorded deed with respect to such premises.\\n  6. Notice to non-petitioning tenants. Notice of the proceeding shall\\nbe given to the non-petitioning tenants occupying the dwelling by\\naffixing a copy of the notice of petition and petition upon a\\nconspicuous part of the subject dwelling.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "770",
+      "title" : "Grounds for the proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "770",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "772",
+      "title" : "Contents of petition",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "772",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

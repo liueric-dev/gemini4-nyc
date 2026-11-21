@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 797-F in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "797-F",
+    "title" : "Contents of the petition",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+    "docLevelId" : "797-F",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 797-f. Contents of the petition. 1. The petition shall be verified\\nby the person authorized to maintain the proceeding under section seven\\nhundred ninety-seven-a of this article or by a legal representative,\\nattorney, or agent of such person pursuant to rule three hundred twenty\\nof the civil practice law and rules. The attorney of such person may\\nverify upon information and belief.\\n  2. Every petition shall:\\n  a. State the interest of the petitioner in the premises for which\\nrelief under this article is sought;\\n  b. Describe the premises that is the subject of the petition;\\n  c. State the facts upon which the special proceeding is based,\\nincluding those conditions constituting violation of applicable state or\\nlocal housing standards or section two hundred thirty-five-b of the real\\nproperty law; and\\n  d. State the relief sought. Such relief may include an order to\\nrepair, a monetary judgment in favor of petitioner for diminished value\\nof real property, and an order reducing future rent until violations\\nhave been cured.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-D",
+      "title" : "Special Proceedings By Tenants For Judgment Directing Repairs of Conditions and Other Relief In Residential Real Property Constituting Violation of Applicable Local or State Housing Standards or Real Property Law §",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-01-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-E",
+      "title" : "Manner of service of notice of petition and petition; when service complete",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-E",
+      "activeDate" : "2024-01-05"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "797-G",
+      "title" : "Notice to local housing standard enforcement agency",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-10", "2024-01-05" ],
+      "docLevelId" : "797-G",
+      "activeDate" : "2024-01-05"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 13: Stays of Legal Action Regarding Violations of the Multiple Dwelling Law and the Housing Maintenance Code > § 13-09 Effect of Compliance.
+
+§ 13-09 Effect of Compliance.
+If the new owner properly and substantially corrects the violations for which a stay is granted, the Department may, in its discretion, recommend to the Office of the Comptroller waiver of any potential causes of action for civil penalties which have accrued pursuant to the Housing Maintenance Code for the violations which have been corrected pursuant to the stay agreement. If the Office of the Comptroller approves such waiver, a written statement of such waiver, signed and dated by the person making such waiver and indicating the Comptroller's approval, shall be made part of the records of the Department. Any such waiver shall be binding and irrevocable.

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 715-A in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "715-A",
+    "title" : "Grounds and procedure for removal of commercial tenants for unlicensed cannabis retail sale",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2023-05-12", "2024-04-26" ],
+    "docLevelId" : "715-A",
+    "activeDate" : "2024-04-26",
+    "text" : "  § 715-a. Grounds and procedure for removal of commercial tenants for\\nunlicensed cannabis retail sale.  1. Any duly authorized enforcement\\nagency of the state or of a subdivision thereof, under a duty to enforce\\nthe provisions of the penal law or of any state or local law, ordinance,\\ncode, rule or regulation relating to buildings, or the cannabis control\\nboard, office of cannabis management or the attorney general pursuant to\\nsection one hundred thirty-eight-a of the cannabis law, may serve\\npersonally upon the owner or landlord of real property authorized or\\notherwise intended or advertised, in whole or part, for use to buy, sell\\nor otherwise provide goods or services, or for other business,\\ncommercial, professional services or manufacturing activities, or upon\\ntheir agent, a written notice requiring the owner or landlord to make an\\napplication for the removal of a commercial tenant so using or occupying\\nthe same for a violation of article two hundred twenty-two of the penal\\nlaw or article six of the cannabis law involving the unlicensed sale of\\ncannabis or products marketed or labeled as such. If the owner or\\nlandlord or their agent does not make such application within five days\\nthereafter; or, having made it, does not in good faith diligently\\nprosecute it, the enforcement agency giving the notice may bring a\\nproceeding under this article for such removal as though the petitioner\\nwere the owner or landlord of the premises, and shall have precedence\\nover any similar proceeding thereafter brought by such owner or landlord\\nor to one theretofore brought by them and not prosecuted diligently and\\nin good faith. An enforcement agency authorized to bring a petition\\nhereunder may do so on their own initiative or upon a referral from an\\nagency of the state or a subdivision thereof. The person in possession\\nof the property, as well as any lessee or sublessee and the owner or\\nlandlord shall be made respondents in the proceeding.\\n  2. A court, upon a finding of such violation may, in addition to any\\nother order provided by law:\\n  (a) grant a petition pursuant to this section ordering the immediate\\nremoval of such tenant;\\n  (b) impose and require the payment by any respondent not otherwise\\nsubject to a civil penalty under section sixteen or one hundred\\ntwenty-five of the cannabis law, who has been found to have knowingly\\npermitted such a violation, a civil penalty not exceeding five times the\\namount of rent charged, owed, or paid, as the case may be, for the\\nduration of the violation, which may be calculated from the date the\\nowner or landlord respondent received notice of the violation to the\\ndate the unlicensed activity is abated, for which a respondent shall be\\nrequired to provide sufficient proof thereof, including but not limited\\nto a sworn statement by a local law enforcement or other governmental\\nentity that the unlicensed activity has been abated; provided, however,\\nthat in a city with a population of over one million the civil penalty\\nshall be fifty thousand dollars. The landlord or property owner shall\\nalso provide a copy of any executed lease with such tenant;\\n  (c) order the payment of reasonable attorneys fees and the costs of\\nthe proceeding to the petitioner; and\\n  (d) order that any such multiple respondents shall be jointly and\\nseverally liable for any payment so ordered under this subdivision.\\n  3. For the purposes of a proceeding under this section, an enforcement\\nagency of the state or of a subdivision thereof, which may commence a\\nproceeding under this section, may subpoena witnesses, compel their\\nattendance, examine them under oath before themselves or a court and\\nrequire that any books, records, documents or papers relevant or\\nmaterial to the inquiry be turned over to them for inspection,\\nexamination or audit, pursuant to the civil practice law and rules.\\n  4. The use or occupancy of premises customarily or habitually for the\\nunlicensed retail sale of cannabis or products marketed or labeled as\\nsuch shall constitute an illegal trade, manufacture, or other business\\nfor the purposes of section two hundred thirty-one of the real property\\nlaw.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "715",
+      "title" : "Grounds and procedure where use or occupancy is illegal",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22" ],
+      "docLevelId" : "715",
+      "activeDate" : "2016-01-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "721",
+      "title" : "Person who may maintain proceeding",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "721",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

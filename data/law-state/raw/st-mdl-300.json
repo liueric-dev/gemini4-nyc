@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 300 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "300",
+    "title" : "Permits",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "300",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 300. Permits. 1. It shall be unlawful to commence the construction\\nor alteration of a multiple dwelling or any part or section thereof, or\\nof any building or structure on the same lot with such a dwelling, or\\nthe alteration or conversion of a building for use as a multiple\\ndwelling, or the moving of a dwelling from one lot to another, until the\\nissuance of a permit by the department upon compliance with all of the\\nfollowing requirements:\\n  a. The owner, or a registered architect or licensed professional\\nengineer designated by the owner as his agent, shall file with the\\ndepartment, upon a form furnished by it, a detailed statement of the\\nspecifications for the construction, alteration, conversion or moving of\\nsuch dwelling or structure and for its use and occupancy, together with\\nas many complete copies of the plans of such work as may be required by\\nthe department.\\n  b. Such statement shall give the name and residence, by street and\\nnumber, of the owner of such dwelling or structure. If such\\nconstruction, alteration, conversion or moving is proposed to be done by\\nany other person than the owner of the land in fee, such statement shall\\nalso contain the name and residence, by street and number, of every\\nperson interested in such land and dwelling, either as owner, as lessee\\nor in any representative capacity.\\n  c. Such statement shall be verified by an affidavit of the person\\nmaking it. Said affidavit shall allege that said specifications and\\nplans are true and contain a correct description of such dwelling or\\nstructure, of the class and kind thereof, of its occupancy of the lot\\nand of the proposed work. No architect or engineer shall be recognized\\nas the agent of the owner unless he shall file with the department a\\nwritten instrument, signed by the owner, designating him as such agent.\\nAny false allegation in respect to a material point shall be deemed\\nperjury.\\n  d. Such specifications, plans and statements shall be filed in the\\ndepartment, which shall cause them to be examined. If such plans and\\nspecifications conform to the provisions of this chapter, to the\\nbuilding code and regulations, and to all other applicable law, they\\nshall be approved by the department, and a written certificate to that\\neffect shall be issued to the person entitled thereto.\\n  2. The construction, alteration, conversion or moving of such dwelling\\nor structure or any section or part thereof shall be in accordance with\\nsuch approved specifications, plans and statements. The department may\\napprove changes in any plans, specifications and statements previously\\napproved by it, provided that when so changed they are in conformity\\nwith law and with the provision of subdivision four.\\n  3. Nothing contained in this section shall prevent the department from\\nissuing a permit for the erection of the foundation or cellar walls of a\\ndwelling, provided plans have been filed and approved in the department\\nfor the erection of such walls, but no construction above the first tier\\nof beams shall be authorized under such permit.\\n  4. Any permit or approval which may be issued by the department, but\\nunder which no work has been done above the foundation or cellar walls\\nwithin two years from the time of the issuance of such permit or\\napproval, shall expire. The department may reissue any permit or renew\\nany approval that has so expired, but shall require, except as otherwise\\nprovided in subdivision one of section twenty-six, that the plans be\\nmade to conform with any amendments to any laws applicable thereto that\\nmay have been enacted after the approval of the original application.\\n  5. Any permit or approval issued for plans filed prior to December\\nfifteenth, nineteen hundred sixty-one, where such plans do not comply\\nwith the provisions of paragraph d of subdivision one of section\\ntwenty-six, shall expire on December fifteenth, nineteen hundred\\nsixty-seven.\\n  6. No room in a cellar or basement shall be occupied for living\\npurposes unless the department shall issue a written permit for such\\noccupancy after all the applicable provisions of law have been complied\\nwith. If such permit is refused or revoked, the reason for such action\\nshall be stated by the department in writing and a copy of such\\nstatement shall be recorded by the department and be accessible to the\\npublic. In a tenement such permit shall be kept readily accessible in\\nthe main living room of the apartment containing such cellar or basement\\nroom.\\n  7. The department shall have power to revoke or cancel any permit or\\napproval in case of any failure to comply with any of the provisions of\\nthis chapter, or in case any false allegation or representation is made\\nin any specifications, plans or statements submitted or filed for such\\npermit or approval.\\n  8. All specifications, plans, permits and statements filed in the\\ndepartment shall be public records and shall not be removed from the\\ndepartment.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "301",
+      "title" : "Certificate of compliance or occupancy",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-06-10" ],
+      "docLevelId" : "301",
+      "activeDate" : "2022-06-10"
+    }
+  }
+}

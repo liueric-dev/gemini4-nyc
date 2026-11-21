@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 214 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "214",
+    "title" : "Covered housing accommodations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-05-03" ],
+    "docLevelId" : "214",
+    "activeDate" : "2024-05-03",
+    "text" : "  * § 214. Covered housing accommodations. Where this article applies,\\nit shall apply to all housing accommodations except a:\\n  1. premises owned by a small landlord provided that in connection with\\nany eviction proceeding in which the landlord claims an exemption from\\nthe provisions of this article on the basis of being a small landlord,\\nsuch landlord shall provide to the tenant or tenants subject to the\\nproceeding the name of each natural person who owns or is a beneficial\\nowner of, directly or indirectly, in whole or in part, the housing\\naccommodation at issue in the proceeding, the number of units owned,\\njointly or separately, by each such natural person owner, and the\\naddresses of any such units, excluding each natural person owner's\\nprincipal residence; provided further that if the landlord is an entity,\\norganized under the laws of this state or of any other jurisdiction,\\nthen such landlord shall provide to the tenant or tenants subject to the\\nproceeding the name of each natural person with a direct or indirect\\nownership interest in such entity or any affiliated entity, the number\\nof units owned, jointly or separately, by each such natural person\\nowner, and the addresses of any such units, excluding each natural\\nperson owner's principal residence;\\n  2. owner-occupied housing accommodation with no more then ten units;\\n  3. unit on or within a housing accommodation where such unit is sublet\\npursuant to section two hundred twenty-six-b of this chapter, or\\notherwise, where the sublessor seeks in good faith to recover possession\\nof such housing accommodation for their own personal use and occupancy;\\n  4. unit on or within a housing accommodation where the possession, use\\nor occupancy of which is solely incident to employment and such\\nemployment is being or has been lawfully terminated;\\n  5. unit on or within a housing accommodation where such unit is\\notherwise subject to regulation of rents or evictions pursuant to local,\\nstate or federal law, rule, or regulation;\\n  6. unit on or within a housing accommodation where such unit must be\\naffordable to tenants at a specific income level pursuant to statute,\\nregulation, restrictive declaration, or pursuant to a regulatory\\nagreement with a local, state, or federal government entity;\\n  7. unit on or within a housing accommodation owned as a condominium or\\ncooperative, or a unit on or within a housing accommodation subject to\\nan offering plan submitted to the office of the attorney general,\\nprovided that nothing herein shall abrogate or otherwise limit any\\nrights or obligations a tenant residing in a unit within a condominium\\nor cooperative or a purchaser, owner, or offeror of a condominium or\\ncooperative unit has pursuant to any other state law;\\n  8. housing accommodation for which a temporary or permanent\\ncertificate of occupancy was issued on or after the first of January,\\ntwo thousand nine, for a period of time of thirty years following\\nissuance of such certificate;\\n  9. unit on or within a housing accommodation that qualifies as a\\nseasonal use dwelling unit pursuant to subdivisions four and five of\\nsection 7-108 of the general obligations law;\\n  10. housing accommodation in a hospital as defined in subdivision one\\nof section twenty-eight hundred one of the public health law, continuing\\ncare retirement community licensed pursuant to article forty-six or\\nforty-six-A of the public health law, assisted living residence licensed\\npursuant to article forty-six-B of the public health law, adult care\\nfacility licensed pursuant to article seven of the social services law,\\nsenior residential community that have submitted an offering plan to the\\nattorney general, and not-for-profit independent retirement community\\nthat offer personal emergency response, housekeeping, transportation and\\nmeals to their residents;\\n  11. manufactured home located on or in a manufactured home park as\\ndefined in section two hundred thirty-three of the real property law;\\n  12. hotel room or other transient use covered by the definition of a\\nclass B multiple dwelling under subdivision nine of section four of the\\nmultiple dwelling law, regardless of whether such use is located in a\\njurisdiction in which the multiple dwelling law applies;\\n  13. dormitory owned and operated by an institution of higher education\\nor a kindergarten and grades 1 to 12, inclusive, school;\\n  14. housing accommodation within and for use by a religious facility\\nor institution; and\\n  15. unit on or within a housing accommodation where the monthly rent\\nis greater than the percent of fair market rent established pursuant to\\nparagraph (a) of subdivision two of section two hundred thirteen of this\\narticle in a local law of a village, town, or city, other than the city\\nof New York, adopting the provisions of this article pursuant to\\nsubdivision one of section two hundred thirteen of this article, or two\\nhundred forty-five percent of the fair market rent, provided that fair\\nmarket rent shall refer to the figure published by the United States\\ndepartment of housing and urban development, for the county in which the\\nhousing accommodation is located, as shall be published by the division\\nof housing and community renewal no later than the first of August in\\nany given year. The division of housing and community renewal shall\\npublish the fair market rent and two hundred forty-five percent of the\\nfair market rent for each unit type for which such fair market rent is\\npublished by the United States department of housing and urban\\ndevelopment for each county in New York state in the annual publication\\nrequired pursuant to subdivision seven of section two hundred eleven of\\nthis article.\\n  * NB Repealed June 15, 2034\\n",
+    "parentLocationIds" : [ "-CH50", "A6-A" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A6-A",
+      "title" : "Good Cause Eviction Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "6-A",
+      "activeDate" : "2024-05-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "213",
+      "title" : "Voluntary participation by local governments outside the city of New York",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "213",
+      "activeDate" : "2024-05-03"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "215",
+      "title" : "Necessity for good cause",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "215",
+      "activeDate" : "2024-05-03"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 749 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "749",
+    "title" : "Warrant",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2018-08-24", "2019-06-28" ],
+    "docLevelId" : "749",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 749. Warrant. 1. Upon rendering a final judgment for petitioner, the\\ncourt shall issue a warrant directed to the sheriff of the county or to\\nany constable or marshal of the city in which the property, or a portion\\nthereof, is situated, or, if it is not situated in a city, to any\\nconstable of any town in the county, describing the property, stating\\nthe earliest date upon which execution may occur pursuant to the order\\nof the court, and commanding the officer to remove all persons named in\\nthe proceeding, provided upon a showing of good cause, the court may\\nissue a stay of re-letting or renovation of the premises for a\\nreasonable period of time.\\n  2. (a) The officer to whom the warrant is directed and delivered shall\\ngive at least fourteen days' notice, in writing and in the manner\\nprescribed in this article for the service of a notice of petition, to\\nthe person or persons to be evicted or dispossessed and shall execute\\nthe warrant on a business day between the hours of sunrise and sunset.\\n  (b) Such officer shall check such property for the presence of a\\ncompanion animal prior to executing such warrant and coordinate with\\nsuch person or persons to be evicted or dispossessed to provide for the\\nsafe and proper care of such companion animal or animals. If such\\npersons to be evicted or dispossessed cannot be found after reasonable\\nefforts are made to coordinate with such persons, or if such person is\\nfound and declines to take possession of such animal or animals, such\\nofficer shall promptly coordinate with the duly incorporated humane\\nsociety, duly incorporated society for the prevention of cruelty to\\nanimals or pound maintained by or under contract or agreement with the\\nmunicipality in which the animal was found for the safe removal of such\\ncompanion animal or animals. Such officer shall make reasonable efforts\\nto provide notice to the person or persons to be evicted regarding the\\nlocation of such companion animal or animals. Disposition of such\\ncompanion animal or animals shall be in accordance with the provisions\\nof sections one hundred seventeen and three hundred seventy-four of the\\nagriculture and markets law, and all other laws, rules and regulations\\nthat govern the humane treatment of animals. \"Companion animal,\" as used\\nin this paragraph, shall have the same meaning as provided in\\nsubdivision five of section three hundred fifty of the agriculture and\\nmarkets law.\\n  3. Nothing contained herein shall deprive the court of the power to\\nstay or vacate such warrant for good cause shown prior to the execution\\nthereof, or to restore the tenant to possession subsequent to execution\\nof the warrant. In a judgment for non-payment of rent, the court shall\\nvacate a warrant upon tender or deposit with the court of the full rent\\ndue at any time prior to its execution, unless the petitioner\\nestablishes that the tenant withheld the rent due in bad faith.\\nPetitioner may recover by action any sum of money which was payable at\\nthe time when the special proceeding was commenced and the reasonable\\nvalue of the use and occupation to the time when the warrant was issued,\\nfor any period of time with respect to which the agreement does not make\\nany provision for payment of rent.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "747",
+      "title" : "Judgment",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "747",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "749-A",
+      "title" : "New York city marshals",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-07-05", "2026-07-03" ],
+      "docLevelId" : "749-A",
+      "activeDate" : "2026-07-03"
+    }
+  }
+}

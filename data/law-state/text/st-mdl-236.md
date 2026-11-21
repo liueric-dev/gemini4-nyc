@@ -1,0 +1,46 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 7 Tenements > Title 2 Fire Protection > § 236 Stairs in fireproof tenements
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/236 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 236. Stairs in fireproof tenements. 1. Except as in this section
+otherwise provided, every fireproof tenement erected after May
+fifteenth, nineteen hundred two, containing more than thirty-six
+apartments or suites of rooms above the entrance story shall have an
+additional stair for every additional thirty-six apartments or suites or
+fraction thereof.
+  2. If such a tenement contains not more than forty-eight apartments or
+suites above the entrance story, in lieu of an additional stair the
+stairs, stair halls and entrance halls throughout the entire tenement
+may each be at least one-half wider than is specified in sections two
+hundred thirty-four, two hundred thirty-seven and two hundred
+thirty-eight.
+  3. If such a tenement contains more than seventy-two apartments or
+suites but not more than eighty-four above the entrance story, in lieu
+of three stairs there may be only two stairs, provided that one of such
+stairs and the stair and entrance halls connected therewith are at least
+one-half wider than is specified in sections two hundred thirty-four,
+two hundred thirty-seven and two hundred thirty-eight.
+  4. For the purposes of this section a janitor's apartment in a
+penthouse shall not be construed as an additional apartment.
+  5. The number of apartments on any story in any fireproof tenement may
+be altered, if the number of living rooms on such story is not increased
+by more than thirty per centum. If the number of living rooms on any
+story or section thereof above the entrance story exceeds thirty, there
+shall be an additional stair for each thirty rooms or fraction thereof
+on any such story or section thereof, except that if the number of
+living rooms on any such story or section does not exceed forty, in lieu
+of an additional stair one stair and every public hall connected
+therewith may be at least one-half wider than is specified in sections
+two hundred thirty-four, two hundred thirty-seven and two hundred
+thirty-eight; but in every such tenement erected before May sixteenth,
+nineteen hundred thirteen, and altered as herein permitted, the
+occupants of each additional apartment shall have access to at least two
+independent means of egress, which shall be made to conform to the
+requirements of section two hundred thirty-one for fireproof tenements
+erected after such date.
+  6. Whenever the total number of rooms, exclusive of bathrooms,
+water-closet compartments, and cooking spaces less than eighty square
+feet in area, in any fireproof tenement or section thereof is decreased
+through the process of an alteration, the number of apartments may be
+altered and the provisions of this section which relate to additional
+stairs shall not be applicable.

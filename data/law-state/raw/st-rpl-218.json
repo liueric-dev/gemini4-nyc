@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 218 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "218",
+    "title" : "Waiver of rights void",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-05-03" ],
+    "docLevelId" : "218",
+    "activeDate" : "2024-05-03",
+    "text" : "  * § 218. Waiver of rights void. Any agreement by a tenant heretofore\\nor hereinafter entered into in a written lease or other rental agreement\\nwaiving or modifying their rights as set forth in this article shall be\\nvoid as contrary to public policy.\\n  * NB Repealed June 15, 2034\\n",
+    "parentLocationIds" : [ "-CH50", "A6-A" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A6-A",
+      "title" : "Good Cause Eviction Law",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "6-A",
+      "activeDate" : "2024-05-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "217",
+      "title" : "Preservation of existing requirements of law",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-05-03" ],
+      "docLevelId" : "217",
+      "activeDate" : "2024-05-03"
+    },
+    "nextSibling" : null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 264 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "264",
+    "title" : "Conversion of certain dwellings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "264",
+    "activeDate" : "2014-09-22",
+    "text" : "  * § 264. Conversion of certain dwellings. 1. Notwithstanding any\\ninconsistent provision of this chapter or of any other law, it shall be\\nlawful until July first, nineteen hundred forty-nine, for any owner to\\nconvert a non-fireproof dwelling which is not of frame construction, not\\nmore than a basement and two additional stories in height, and not\\noccupied by more than two families, for occupancy by not more than three\\nfamilies, in accordance with the provisions of this section, providing\\nsuch dwelling was existing on April eighth, nineteen hundred forty-six,\\nor was erected thereafter under plans on file with the department on or\\nbefore such date.\\n  2. The provisions of article six of this chapter shall not apply to\\nconversion of dwellings under this section, except in so far as\\ncompliance therewith is expressly required as provided in or pursuant to\\nthis section.\\n  3. Conversion of such dwellings under this section must be made:\\n  a. In full compliance with the provisions of sections one hundred\\nseventy-six, one hundred seventy-seven, and one hundred eighty-eight, of\\nsubdivision two of section one hundred eighty-nine, and of section two\\nhundred;\\n  b. In full compliance with the provisions of section one hundred\\neighty-five, except that if a cellar ceiling is plastered and in good\\nrepair only the area of the ceiling over any boiler located in the\\ncellar and for three feet beyond need be covered with fire-retarding\\nmaterial;\\n  c. In full compliance with the provisions of section one hundred\\neighty-seven unless such conversion was completed under authority of\\nthis section before July first, nineteen hundred forty-seven, and\\n  d. In compliance with such additional provisions of article six of\\nthis chapter, and no other, as may be specifically required by, and in\\naccordance with, rules and regulations of the department where the\\nconversion is proposed to be made.\\n  4. A plan of alteration to effect conversion of any such dwelling\\nunder this section shall be filed with such department and, when\\napproved by it, shall constitute a lawful plan for three family\\noccupancy of such dwelling.\\n  * NB Expired July 1, 1949\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-A",
+      "title" : "Temporary Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "262",
+      "title" : "Alteration of uncompleted buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "262",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

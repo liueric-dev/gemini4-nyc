@@ -1,0 +1,1556 @@
+{
+  "id" : "hcir-3275",
+  "name" : "Buildings Selected for the Alternative Enforcement Program (AEP)",
+  "assetType" : "dataset",
+  "attribution" : "NYC Department of Housing Preservation and Development (HPD)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1544456847,
+  "description" : "Each year, the Department of Housing Preservation and Development (HPD) designates severely distressed multiple dwellings for participation in the Alternative Enforcement Program (AEP). HPD is required by law to submit and post an annual summary report of all AEP buildings. This dataset includes all buildings selected for participation in the AEP and the current status of the building in the program.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 11562,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1549033491,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 30325325,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1544457220,
+  "publicationGroup" : 15754499,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1793563291,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 15754499,
+  "totalTimesRated" : 0,
+  "viewCount" : 21694,
+  "viewLastModified" : 1656683345,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1545064317,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1077998,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1545064317,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 387287895,
+    "name" : "BUILDING_ID",
+    "dataTypeName" : "number",
+    "description" : "The Building ID is a unique numeric identifier assigned to each building by HPD.",
+    "fieldName" : "building_id",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276119,
+    "cachedContents" : {
+      "largest" : "972500",
+      "non_null" : "4387",
+      "average" : "245277.5532802427",
+      "null" : "0",
+      "top" : [ {
+        "item" : "77585",
+        "count" : "5"
+      }, {
+        "item" : "22529",
+        "count" : "4"
+      }, {
+        "item" : "3438",
+        "count" : "4"
+      }, {
+        "item" : "218950",
+        "count" : "4"
+      }, {
+        "item" : "335768",
+        "count" : "4"
+      }, {
+        "item" : "66211",
+        "count" : "4"
+      }, {
+        "item" : "56597",
+        "count" : "4"
+      }, {
+        "item" : "66685",
+        "count" : "4"
+      }, {
+        "item" : "187705",
+        "count" : "4"
+      }, {
+        "item" : "208652",
+        "count" : "4"
+      }, {
+        "item" : "283278",
+        "count" : "4"
+      }, {
+        "item" : "317512",
+        "count" : "4"
+      }, {
+        "item" : "809284",
+        "count" : "4"
+      }, {
+        "item" : "120425",
+        "count" : "4"
+      }, {
+        "item" : "270263",
+        "count" : "4"
+      }, {
+        "item" : "41668",
+        "count" : "4"
+      }, {
+        "item" : "43445",
+        "count" : "3"
+      }, {
+        "item" : "43442",
+        "count" : "3"
+      }, {
+        "item" : "45372",
+        "count" : "3"
+      }, {
+        "item" : "5592",
+        "count" : "3"
+      } ],
+      "smallest" : "56",
+      "not_null" : "2637",
+      "count" : "4387",
+      "sum" : "646796908",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 387287902,
+    "name" : "BOROUGH",
+    "dataTypeName" : "text",
+    "description" : "The Borough is the borough where the building is located.",
+    "fieldName" : "boro",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 74276126,
+    "cachedContents" : {
+      "largest" : "Staten Island",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "2141"
+      }, {
+        "item" : "Bronx",
+        "count" : "1290"
+      }, {
+        "item" : "Manhattan",
+        "count" : "667"
+      }, {
+        "item" : "Queens",
+        "count" : "260"
+      }, {
+        "item" : "Staten Island",
+        "count" : "29"
+      } ],
+      "smallest" : "Bronx",
+      "not_null" : "2637",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287896,
+    "name" : "NUMBER",
+    "dataTypeName" : "text",
+    "description" : "The House Number is the street number in the building's address. E.g, the house number is '100' in '100 Gold Street.' ",
+    "fieldName" : "phn",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 74276120,
+    "cachedContents" : {
+      "largest" : "997A",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "180",
+        "count" : "13"
+      }, {
+        "item" : "509",
+        "count" : "12"
+      }, {
+        "item" : "105",
+        "count" : "12"
+      }, {
+        "item" : "20",
+        "count" : "12"
+      }, {
+        "item" : "304",
+        "count" : "11"
+      }, {
+        "item" : "234",
+        "count" : "10"
+      }, {
+        "item" : "192",
+        "count" : "9"
+      }, {
+        "item" : "541",
+        "count" : "9"
+      }, {
+        "item" : "540",
+        "count" : "9"
+      }, {
+        "item" : "311",
+        "count" : "9"
+      }, {
+        "item" : "515",
+        "count" : "9"
+      }, {
+        "item" : "257",
+        "count" : "9"
+      }, {
+        "item" : "504",
+        "count" : "9"
+      }, {
+        "item" : "315",
+        "count" : "9"
+      }, {
+        "item" : "561",
+        "count" : "8"
+      }, {
+        "item" : "645",
+        "count" : "8"
+      }, {
+        "item" : "455",
+        "count" : "8"
+      }, {
+        "item" : "137",
+        "count" : "8"
+      }, {
+        "item" : "136",
+        "count" : "8"
+      }, {
+        "item" : "203",
+        "count" : "8"
+      } ],
+      "smallest" : "1",
+      "not_null" : "2637",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287901,
+    "name" : "STREET",
+    "dataTypeName" : "text",
+    "description" : "The Street Name is the name of the street in the building's address. E.g, the street name is 'Gold Street' in '100 Gold Street.' ",
+    "fieldName" : "street_address",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 74276125,
+    "cachedContents" : {
+      "largest" : "YORK AVENUE",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "AMSTERDAM AVENUE",
+        "count" : "40"
+      }, {
+        "item" : "HANCOCK STREET",
+        "count" : "31"
+      }, {
+        "item" : "ST NICHOLAS AVENUE",
+        "count" : "30"
+      }, {
+        "item" : "GREENE AVENUE",
+        "count" : "28"
+      }, {
+        "item" : "EASTERN PARKWAY",
+        "count" : "28"
+      }, {
+        "item" : "PARK PLACE",
+        "count" : "28"
+      }, {
+        "item" : "UNIVERSITY AVENUE",
+        "count" : "28"
+      }, {
+        "item" : "ST JOHNS PLACE",
+        "count" : "27"
+      }, {
+        "item" : "PROSPECT AVENUE",
+        "count" : "26"
+      }, {
+        "item" : "MORRIS AVENUE",
+        "count" : "26"
+      }, {
+        "item" : "NOSTRAND AVENUE",
+        "count" : "26"
+      }, {
+        "item" : "FULTON STREET",
+        "count" : "26"
+      }, {
+        "item" : "4 AVENUE",
+        "count" : "26"
+      }, {
+        "item" : "MADISON STREET",
+        "count" : "25"
+      }, {
+        "item" : "PACIFIC STREET",
+        "count" : "25"
+      }, {
+        "item" : "LINDEN BOULEVARD",
+        "count" : "25"
+      }, {
+        "item" : "CHAUNCEY STREET",
+        "count" : "24"
+      }, {
+        "item" : "HALSEY STREET",
+        "count" : "24"
+      }, {
+        "item" : "OCEAN AVENUE",
+        "count" : "24"
+      }, {
+        "item" : "WILSON AVENUE",
+        "count" : "23"
+      } ],
+      "smallest" : "102 AVENUE",
+      "not_null" : "2637",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287900,
+    "name" : "TOTAL_UNITS",
+    "dataTypeName" : "number",
+    "description" : "Total Units reflects the number of units in the building as of the report run date and may vary from the unit count reported when the building was selected for the AEP program. HPD records indicated that all the buildings had at least three dwelling units at the time of selection. ",
+    "fieldName" : "total_units",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276124,
+    "cachedContents" : {
+      "largest" : "294",
+      "non_null" : "4387",
+      "average" : "13.38907849829352",
+      "null" : "0",
+      "top" : [ {
+        "item" : "6",
+        "count" : "690"
+      }, {
+        "item" : "3",
+        "count" : "601"
+      }, {
+        "item" : "8",
+        "count" : "342"
+      }, {
+        "item" : "4",
+        "count" : "303"
+      }, {
+        "item" : "16",
+        "count" : "193"
+      }, {
+        "item" : "21",
+        "count" : "137"
+      }, {
+        "item" : "20",
+        "count" : "131"
+      }, {
+        "item" : "9",
+        "count" : "104"
+      }, {
+        "item" : "7",
+        "count" : "94"
+      }, {
+        "item" : "10",
+        "count" : "90"
+      }, {
+        "item" : "12",
+        "count" : "81"
+      }, {
+        "item" : "5",
+        "count" : "75"
+      }, {
+        "item" : "24",
+        "count" : "72"
+      }, {
+        "item" : "11",
+        "count" : "68"
+      }, {
+        "item" : "23",
+        "count" : "68"
+      }, {
+        "item" : "25",
+        "count" : "66"
+      }, {
+        "item" : "26",
+        "count" : "60"
+      }, {
+        "item" : "17",
+        "count" : "54"
+      }, {
+        "item" : "15",
+        "count" : "50"
+      }, {
+        "item" : "19",
+        "count" : "47"
+      } ],
+      "smallest" : "1",
+      "not_null" : "2637",
+      "count" : "4387",
+      "sum" : "35307",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287894,
+    "name" : "AEP_START_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the building was selected for participation in the AEP. All buildings in a particular round will have the same start date.",
+    "fieldName" : "aep_start_date",
+    "position" : 6,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 74276118,
+    "cachedContents" : {
+      "largest" : "2026-02-02T00:00:00.000",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2026-02-02T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2019-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2020-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2021-02-01T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2022-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2023-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2024-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2025-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2015-02-02T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2016-02-01T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2017-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2018-01-31T00:00:00.000",
+        "count" : "250"
+      }, {
+        "item" : "2012-01-31T00:00:00.000",
+        "count" : "200"
+      }, {
+        "item" : "2009-11-12T00:00:00.000",
+        "count" : "200"
+      }, {
+        "item" : "2011-01-31T00:00:00.000",
+        "count" : "200"
+      }, {
+        "item" : "2008-11-13T00:00:00.000",
+        "count" : "200"
+      }, {
+        "item" : "2013-01-31T00:00:00.000",
+        "count" : "200"
+      }, {
+        "item" : "2007-11-13T00:00:00.000",
+        "count" : "200"
+      }, {
+        "item" : "2014-01-31T00:00:00.000",
+        "count" : "187"
+      } ],
+      "smallest" : "2007-11-13T00:00:00.000",
+      "not_null" : "2637",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 387287899,
+    "name" : "# OF B/C VIOLATIONS AT START",
+    "dataTypeName" : "number",
+    "description" : "The count of hazardous and immediately hazardous violations open on the date the building was selected for participation in the AEP. ",
+    "fieldName" : "of_b_c_violations_at_start",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276123,
+    "cachedContents" : {
+      "largest" : "6541",
+      "non_null" : "4387",
+      "average" : "547.3962836556693",
+      "null" : "0",
+      "top" : [ {
+        "item" : "380",
+        "count" : "14"
+      }, {
+        "item" : "205",
+        "count" : "13"
+      }, {
+        "item" : "292",
+        "count" : "12"
+      }, {
+        "item" : "143",
+        "count" : "12"
+      }, {
+        "item" : "240",
+        "count" : "11"
+      }, {
+        "item" : "323",
+        "count" : "11"
+      }, {
+        "item" : "173",
+        "count" : "11"
+      }, {
+        "item" : "108",
+        "count" : "10"
+      }, {
+        "item" : "169",
+        "count" : "10"
+      }, {
+        "item" : "221",
+        "count" : "10"
+      }, {
+        "item" : "354",
+        "count" : "10"
+      }, {
+        "item" : "407",
+        "count" : "10"
+      }, {
+        "item" : "248",
+        "count" : "10"
+      }, {
+        "item" : "159",
+        "count" : "10"
+      }, {
+        "item" : "247",
+        "count" : "10"
+      }, {
+        "item" : "341",
+        "count" : "10"
+      }, {
+        "item" : "209",
+        "count" : "10"
+      }, {
+        "item" : "146",
+        "count" : "10"
+      }, {
+        "item" : "423",
+        "count" : "10"
+      }, {
+        "item" : "284",
+        "count" : "9"
+      } ],
+      "smallest" : "25",
+      "not_null" : "2637",
+      "count" : "4387",
+      "sum" : "1443484",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287898,
+    "name" : "CURRENT_STATUS",
+    "dataTypeName" : "text",
+    "description" : "\"Active\" buildings are currenty participating in program. \"Discharged\" buildings have met a statutory requirement for removal from the program. ",
+    "fieldName" : "current_status",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 74276122,
+    "cachedContents" : {
+      "largest" : "AEP Discharged",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "AEP Discharged",
+        "count" : "3529"
+      }, {
+        "item" : "AEP Active",
+        "count" : "858"
+      } ],
+      "smallest" : "AEP Active",
+      "not_null" : "2637",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287893,
+    "name" : "DISCHARGE_DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the building was removed from the program. ",
+    "fieldName" : "discharge_date",
+    "position" : 9,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 74276117,
+    "cachedContents" : {
+      "largest" : "2026-10-22T00:00:00.000",
+      "non_null" : "3529",
+      "null" : "858",
+      "top" : [ {
+        "item" : "2011-04-06T00:00:00.000",
+        "count" : "34"
+      }, {
+        "item" : "2016-06-14T00:00:00.000",
+        "count" : "15"
+      }, {
+        "item" : "2018-06-19T00:00:00.000",
+        "count" : "13"
+      }, {
+        "item" : "2015-06-18T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2013-05-30T00:00:00.000",
+        "count" : "11"
+      }, {
+        "item" : "2013-06-20T00:00:00.000",
+        "count" : "11"
+      }, {
+        "item" : "2012-06-20T00:00:00.000",
+        "count" : "11"
+      }, {
+        "item" : "2011-03-23T00:00:00.000",
+        "count" : "11"
+      }, {
+        "item" : "2020-09-30T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2018-06-05T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2021-06-09T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2021-06-15T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2016-06-15T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2016-06-08T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2017-06-28T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2019-06-17T00:00:00.000",
+        "count" : "9"
+      }, {
+        "item" : "2018-06-18T00:00:00.000",
+        "count" : "9"
+      }, {
+        "item" : "2021-04-21T00:00:00.000",
+        "count" : "9"
+      }, {
+        "item" : "2015-06-02T00:00:00.000",
+        "count" : "9"
+      }, {
+        "item" : "2017-06-23T00:00:00.000",
+        "count" : "9"
+      } ],
+      "smallest" : "2007-12-21T00:00:00.000",
+      "not_null" : "1927",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 387287897,
+    "name" : "AEP_ROUND",
+    "dataTypeName" : "text",
+    "description" : "The round identifies a group of buildings selected for the AEP annually. ",
+    "fieldName" : "aep_round",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 74276121,
+    "cachedContents" : {
+      "largest" : "Aep Round 9",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Aep Round 19",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 8",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 11",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 17",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 9",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 10",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 16",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 14",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 15",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 18",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 12",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 13",
+        "count" : "250"
+      }, {
+        "item" : "Aep Round 2",
+        "count" : "200"
+      }, {
+        "item" : "Aep Round 6",
+        "count" : "200"
+      }, {
+        "item" : "Aep Round 4",
+        "count" : "200"
+      }, {
+        "item" : "Aep Round 3",
+        "count" : "200"
+      }, {
+        "item" : "Aep Round 5",
+        "count" : "200"
+      }, {
+        "item" : "Aep Round 1",
+        "count" : "200"
+      }, {
+        "item" : "Aep Round 7",
+        "count" : "187"
+      } ],
+      "smallest" : "Aep Round 1",
+      "not_null" : "2637",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287891,
+    "name" : "Postcode",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "postcode",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276115,
+    "cachedContents" : {
+      "largest" : "11692",
+      "non_null" : "4387",
+      "average" : "10856.64323708207",
+      "null" : "0",
+      "top" : [ {
+        "item" : "11233",
+        "count" : "230"
+      }, {
+        "item" : "11221",
+        "count" : "201"
+      }, {
+        "item" : "11207",
+        "count" : "185"
+      }, {
+        "item" : "11237",
+        "count" : "176"
+      }, {
+        "item" : "11226",
+        "count" : "170"
+      }, {
+        "item" : "10456",
+        "count" : "143"
+      }, {
+        "item" : "11216",
+        "count" : "137"
+      }, {
+        "item" : "11213",
+        "count" : "135"
+      }, {
+        "item" : "10031",
+        "count" : "129"
+      }, {
+        "item" : "10457",
+        "count" : "128"
+      }, {
+        "item" : "11212",
+        "count" : "125"
+      }, {
+        "item" : "10458",
+        "count" : "115"
+      }, {
+        "item" : "10460",
+        "count" : "112"
+      }, {
+        "item" : "11208",
+        "count" : "108"
+      }, {
+        "item" : "10467",
+        "count" : "102"
+      }, {
+        "item" : "10459",
+        "count" : "99"
+      }, {
+        "item" : "11203",
+        "count" : "97"
+      }, {
+        "item" : "10453",
+        "count" : "94"
+      }, {
+        "item" : "10032",
+        "count" : "75"
+      }, {
+        "item" : "11225",
+        "count" : "74"
+      } ],
+      "smallest" : "10001",
+      "not_null" : "2632",
+      "count" : "4387",
+      "sum" : "28574685",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 387287884,
+    "name" : "Latitude",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "latitude",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276108,
+    "cachedContents" : {
+      "largest" : "40.906251",
+      "non_null" : "4387",
+      "average" : "40.74021570060790",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.842664",
+        "count" : "5"
+      }, {
+        "item" : "40.860053",
+        "count" : "4"
+      }, {
+        "item" : "40.686021",
+        "count" : "4"
+      }, {
+        "item" : "40.655593",
+        "count" : "4"
+      }, {
+        "item" : "40.854571",
+        "count" : "4"
+      }, {
+        "item" : "40.829176",
+        "count" : "4"
+      }, {
+        "item" : "40.838595",
+        "count" : "4"
+      }, {
+        "item" : "40.648747",
+        "count" : "4"
+      }, {
+        "item" : "40.852148",
+        "count" : "4"
+      }, {
+        "item" : "40.676487",
+        "count" : "4"
+      }, {
+        "item" : "40.642074",
+        "count" : "4"
+      }, {
+        "item" : "40.806844",
+        "count" : "4"
+      }, {
+        "item" : "40.822471",
+        "count" : "4"
+      }, {
+        "item" : "40.681297",
+        "count" : "4"
+      }, {
+        "item" : "40.830054",
+        "count" : "4"
+      }, {
+        "item" : "40.692798",
+        "count" : "4"
+      }, {
+        "item" : "40.873363",
+        "count" : "4"
+      }, {
+        "item" : "40.858585",
+        "count" : "4"
+      }, {
+        "item" : "40.823974",
+        "count" : "4"
+      }, {
+        "item" : "40.662633",
+        "count" : "4"
+      } ],
+      "smallest" : "40.573495",
+      "not_null" : "2632",
+      "count" : "4387",
+      "sum" : "107228.247724000000004",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287885,
+    "name" : "Longitude",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "longitude",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276109,
+    "cachedContents" : {
+      "largest" : "-73.734376",
+      "non_null" : "4387",
+      "average" : "-73.91958646732523",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-73.888943",
+        "count" : "5"
+      }, {
+        "item" : "-73.902015",
+        "count" : "4"
+      }, {
+        "item" : "-73.91808",
+        "count" : "4"
+      }, {
+        "item" : "-73.926143",
+        "count" : "4"
+      }, {
+        "item" : "-73.930193",
+        "count" : "4"
+      }, {
+        "item" : "-73.95055",
+        "count" : "4"
+      }, {
+        "item" : "-73.926181",
+        "count" : "4"
+      }, {
+        "item" : "-73.921596",
+        "count" : "4"
+      }, {
+        "item" : "-73.912664",
+        "count" : "4"
+      }, {
+        "item" : "-73.900622",
+        "count" : "4"
+      }, {
+        "item" : "-73.922322",
+        "count" : "4"
+      }, {
+        "item" : "-73.898973",
+        "count" : "4"
+      }, {
+        "item" : "-73.950205",
+        "count" : "4"
+      }, {
+        "item" : "-73.891292",
+        "count" : "4"
+      }, {
+        "item" : "-73.893497",
+        "count" : "4"
+      }, {
+        "item" : "-73.94798",
+        "count" : "4"
+      }, {
+        "item" : "-73.951588",
+        "count" : "4"
+      }, {
+        "item" : "-73.897584",
+        "count" : "4"
+      }, {
+        "item" : "-73.949869",
+        "count" : "4"
+      }, {
+        "item" : "-73.891052",
+        "count" : "4"
+      } ],
+      "smallest" : "-74.159977",
+      "not_null" : "2632",
+      "count" : "4387",
+      "sum" : "-194556.35158200000001",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287886,
+    "name" : "Community Board",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "community_board",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276110,
+    "cachedContents" : {
+      "largest" : "18",
+      "non_null" : "4387",
+      "average" : "7.577887537993921",
+      "null" : "0",
+      "top" : [ {
+        "item" : "4",
+        "count" : "551"
+      }, {
+        "item" : "3",
+        "count" : "514"
+      }, {
+        "item" : "5",
+        "count" : "468"
+      }, {
+        "item" : "12",
+        "count" : "406"
+      }, {
+        "item" : "9",
+        "count" : "387"
+      }, {
+        "item" : "7",
+        "count" : "257"
+      }, {
+        "item" : "8",
+        "count" : "254"
+      }, {
+        "item" : "17",
+        "count" : "243"
+      }, {
+        "item" : "6",
+        "count" : "229"
+      }, {
+        "item" : "16",
+        "count" : "208"
+      }, {
+        "item" : "1",
+        "count" : "187"
+      }, {
+        "item" : "14",
+        "count" : "174"
+      }, {
+        "item" : "10",
+        "count" : "168"
+      }, {
+        "item" : "11",
+        "count" : "152"
+      }, {
+        "item" : "2",
+        "count" : "137"
+      }, {
+        "item" : "13",
+        "count" : "24"
+      }, {
+        "item" : "15",
+        "count" : "15"
+      }, {
+        "item" : "18",
+        "count" : "13"
+      } ],
+      "smallest" : "1",
+      "not_null" : "2632",
+      "count" : "4387",
+      "sum" : "19945",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287887,
+    "name" : "Council District",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "council_district",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276111,
+    "cachedContents" : {
+      "largest" : "50",
+      "non_null" : "4387",
+      "average" : "27.43275075987842",
+      "null" : "0",
+      "top" : [ {
+        "item" : "37",
+        "count" : "397"
+      }, {
+        "item" : "41",
+        "count" : "331"
+      }, {
+        "item" : "36",
+        "count" : "317"
+      }, {
+        "item" : "15",
+        "count" : "288"
+      }, {
+        "item" : "17",
+        "count" : "260"
+      }, {
+        "item" : "42",
+        "count" : "203"
+      }, {
+        "item" : "40",
+        "count" : "195"
+      }, {
+        "item" : "14",
+        "count" : "189"
+      }, {
+        "item" : "10",
+        "count" : "188"
+      }, {
+        "item" : "16",
+        "count" : "185"
+      }, {
+        "item" : "7",
+        "count" : "163"
+      }, {
+        "item" : "9",
+        "count" : "160"
+      }, {
+        "item" : "35",
+        "count" : "157"
+      }, {
+        "item" : "34",
+        "count" : "133"
+      }, {
+        "item" : "45",
+        "count" : "133"
+      }, {
+        "item" : "12",
+        "count" : "110"
+      }, {
+        "item" : "8",
+        "count" : "110"
+      }, {
+        "item" : "38",
+        "count" : "106"
+      }, {
+        "item" : "11",
+        "count" : "85"
+      }, {
+        "item" : "18",
+        "count" : "62"
+      } ],
+      "smallest" : "1",
+      "not_null" : "2632",
+      "count" : "4387",
+      "sum" : "72203",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  }, {
+    "id" : 387287888,
+    "name" : "Census Tract",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "census_tract",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276112,
+    "cachedContents" : {
+      "largest" : "120803",
+      "non_null" : "4387",
+      "average" : "4997.632978723404",
+      "null" : "0",
+      "top" : [ {
+        "item" : "369",
+        "count" : "37"
+      }, {
+        "item" : "261",
+        "count" : "37"
+      }, {
+        "item" : "269",
+        "count" : "37"
+      }, {
+        "item" : "379",
+        "count" : "35"
+      }, {
+        "item" : "373",
+        "count" : "35"
+      }, {
+        "item" : "437",
+        "count" : "33"
+      }, {
+        "item" : "363",
+        "count" : "31"
+      }, {
+        "item" : "245",
+        "count" : "30"
+      }, {
+        "item" : "151",
+        "count" : "30"
+      }, {
+        "item" : "251",
+        "count" : "30"
+      }, {
+        "item" : "175",
+        "count" : "30"
+      }, {
+        "item" : "36501",
+        "count" : "29"
+      }, {
+        "item" : "429",
+        "count" : "29"
+      }, {
+        "item" : "271",
+        "count" : "28"
+      }, {
+        "item" : "265",
+        "count" : "28"
+      }, {
+        "item" : "431",
+        "count" : "28"
+      }, {
+        "item" : "241",
+        "count" : "28"
+      }, {
+        "item" : "220",
+        "count" : "27"
+      }, {
+        "item" : "22301",
+        "count" : "26"
+      }, {
+        "item" : "385",
+        "count" : "25"
+      } ],
+      "smallest" : "2",
+      "not_null" : "2632",
+      "count" : "4387",
+      "sum" : "13153770",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 387287892,
+    "name" : "BIN",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "bin",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276116,
+    "cachedContents" : {
+      "largest" : "5142323",
+      "non_null" : "4383",
+      "average" : "2593724.582731076",
+      "null" : "4",
+      "top" : [ {
+        "item" : "2000000",
+        "count" : "7"
+      }, {
+        "item" : "3000000",
+        "count" : "6"
+      }, {
+        "item" : "2010049",
+        "count" : "5"
+      }, {
+        "item" : "2013318",
+        "count" : "4"
+      }, {
+        "item" : "2015418",
+        "count" : "4"
+      }, {
+        "item" : "3102567",
+        "count" : "4"
+      }, {
+        "item" : "2011203",
+        "count" : "4"
+      }, {
+        "item" : "2009557",
+        "count" : "4"
+      }, {
+        "item" : "3075861",
+        "count" : "4"
+      }, {
+        "item" : "1061743",
+        "count" : "4"
+      }, {
+        "item" : "3085401",
+        "count" : "4"
+      }, {
+        "item" : "3103977",
+        "count" : "4"
+      }, {
+        "item" : "3041003",
+        "count" : "4"
+      }, {
+        "item" : "1061845",
+        "count" : "4"
+      }, {
+        "item" : "3106170",
+        "count" : "4"
+      }, {
+        "item" : "3045921",
+        "count" : "4"
+      }, {
+        "item" : "1057699",
+        "count" : "4"
+      }, {
+        "item" : "3039108",
+        "count" : "4"
+      }, {
+        "item" : "3116556",
+        "count" : "3"
+      }, {
+        "item" : "3118757",
+        "count" : "3"
+      } ],
+      "smallest" : "1000000",
+      "not_null" : "2628",
+      "count" : "4387",
+      "sum" : "6818901928",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 387287890,
+    "name" : "BBL",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "bbl",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 74276114,
+    "cachedContents" : {
+      "largest" : "5032840005",
+      "non_null" : "4383",
+      "average" : "2555781583.722708",
+      "null" : "4",
+      "top" : [ {
+        "item" : "1022480092",
+        "count" : "9"
+      }, {
+        "item" : "2043520010",
+        "count" : "5"
+      }, {
+        "item" : "2029550040",
+        "count" : "5"
+      }, {
+        "item" : "3013910061",
+        "count" : "5"
+      }, {
+        "item" : "3038350026",
+        "count" : "4"
+      }, {
+        "item" : "3015130014",
+        "count" : "4"
+      }, {
+        "item" : "4008307501",
+        "count" : "4"
+      }, {
+        "item" : "1020710045",
+        "count" : "4"
+      }, {
+        "item" : "3014540022",
+        "count" : "4"
+      }, {
+        "item" : "3016580009",
+        "count" : "4"
+      }, {
+        "item" : "2030310047",
+        "count" : "4"
+      }, {
+        "item" : "3033130006",
+        "count" : "4"
+      }, {
+        "item" : "1020740007",
+        "count" : "4"
+      }, {
+        "item" : "3046900061",
+        "count" : "4"
+      }, {
+        "item" : "2032500071",
+        "count" : "4"
+      }, {
+        "item" : "1019060062",
+        "count" : "4"
+      }, {
+        "item" : "2031430132",
+        "count" : "4"
+      }, {
+        "item" : "2029130043",
+        "count" : "4"
+      }, {
+        "item" : "3047260039",
+        "count" : "4"
+      }, {
+        "item" : "3047800001",
+        "count" : "4"
+      } ],
+      "smallest" : "1000530006",
+      "not_null" : "2628",
+      "count" : "4387",
+      "sum" : "6719149783607",
+      "cardinality" : "4387"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 387287889,
+    "name" : "NTA",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "nta",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 74276113,
+    "cachedContents" : {
+      "largest" : "Woodside",
+      "non_null" : "4387",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Crown Heights (North)",
+        "count" : "186"
+      }, {
+        "item" : "Bedford-Stuyvesant (East)",
+        "count" : "181"
+      }, {
+        "item" : "Bushwick (East)",
+        "count" : "177"
+      }, {
+        "item" : "Bushwick (West)",
+        "count" : "156"
+      }, {
+        "item" : "Ocean Hill",
+        "count" : "151"
+      }, {
+        "item" : "Bedford-Stuyvesant (West)",
+        "count" : "134"
+      }, {
+        "item" : "East New York-New Lots",
+        "count" : "105"
+      }, {
+        "item" : "Hamilton Heights-Sugar Hill",
+        "count" : "105"
+      }, {
+        "item" : "Washington Heights (South)",
+        "count" : "102"
+      }, {
+        "item" : "Flatbush",
+        "count" : "100"
+      }, {
+        "item" : "East Flatbush-Erasmus",
+        "count" : "95"
+      }, {
+        "item" : "Concourse-Concourse Village",
+        "count" : "95"
+      }, {
+        "item" : "Williamsbridge-Olinville",
+        "count" : "83"
+      }, {
+        "item" : "Belmont",
+        "count" : "83"
+      }, {
+        "item" : "Mount Hope",
+        "count" : "80"
+      }, {
+        "item" : "Tremont",
+        "count" : "78"
+      }, {
+        "item" : "Morrisania",
+        "count" : "77"
+      }, {
+        "item" : "East Flatbush-Remsen Village",
+        "count" : "74"
+      }, {
+        "item" : "Soundview-Bruckner-Bronx River",
+        "count" : "71"
+      }, {
+        "item" : "East New York (North)",
+        "count" : "70"
+      } ],
+      "smallest" : "Allerton",
+      "not_null" : "2632",
+      "count" : "4387",
+      "cardinality" : "4387"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfClass" : "",
+    "rdfSubject" : "0",
+    "attachments" : [ {
+      "filename" : "20181210_Buildings Selected for the Alternative Enforcement Program (AEP) Data Dictionary.xlsx",
+      "assetId" : "ff2f6f74-6cfa-4bcb-9c76-e4439b1f86d7",
+      "blobId" : "",
+      "name" : "20181210_Buildings Selected for the Alternative Enforcement Program (AEP) Data Dictionary.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "12/17/2018",
+        "Update Frequency" : "Monthly"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Housing Preservation and Development (HPD)"
+      }
+    },
+    "rowLabel" : "Building",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "housing; alternative enforcement program; aep; hpd" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

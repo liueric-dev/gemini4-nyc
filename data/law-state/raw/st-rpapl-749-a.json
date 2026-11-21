@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 749-A in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "749-A",
+    "title" : "New York city marshals",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-07-05", "2026-07-03" ],
+    "docLevelId" : "749-A",
+    "activeDate" : "2026-07-03",
+    "text" : "  * § 749-a. New York city marshals. A marshal of the city of New York\\nshall provide notice of execution of a warrant of eviction by physical\\nposting of the notice and by an electronic filing. For purposes of this\\nsection, \"electronic filing\" shall mean an electronic filing as\\ndescribed in section twenty-one hundred three-a of the New York city\\ncivil court act.\\n  * NB Repealed June 30, 2028\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "749",
+      "title" : "Warrant",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2018-08-24", "2019-06-28" ],
+      "docLevelId" : "749",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "751",
+      "title" : "Stay upon paying rent or giving undertaking; discretionary stay outside city of New York",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "751",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

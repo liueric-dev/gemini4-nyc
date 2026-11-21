@@ -1,0 +1,12 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 11: [Lead-based Paint Abatement; Dwellings; Children] > § 11-09 Certification of Correction of Lead-Based Paint Hazard Violation.
+
+§ 11-09 Certification of Correction of Lead-Based Paint Hazard Violation.
+(a) A registered owner or registered officer or director of a corporate owner or registered managing agent must submit a certification of correction of a lead-based paint hazard violation issued pursuant to § 27-2056.6 or § 27-2056.6.1 of Article 14 of the Housing Maintenance Code and these rules within five (5) days of the date set for correction in the notice of violation. Such certification must be made in writing, under oath by the registered owner, a registered officer or director of a corporate owner or by the registered managing agent and must include the following:
+(1) the date that the violation was corrected, and a statement that the violation was corrected in compliance with Article 14 of the Housing Maintenance Code and 28 RCNY § 11-06;
+(2) the results of laboratory tests performed by an independent laboratory certified by the state of New York for lead-contaminated dust clearance tests performed pursuant to § 27-2056.11(b) and (d) of the Housing Maintenance Code and 28 RCNY § 11-06(g)(1)(ix)(C) and (D);
+(3) a copy of the certificate of training required pursuant to 28 RCNY § 11-06(b)(2)(iii) qualifying the person who performed the lead-contaminated dust clearance testing; and
+(4) a sworn statement by the person or firm who performed the work necessary to correct the violation that such work was performed in accordance with the applicable provisions of § 27-2056.11 of Article 14 of the Housing Maintenance Code and the applicable provisions of 28 RCNY § 11-06; and
+(5) a copy of the certification by the United States environmental protection agency of the firm that performed the work as required pursuant to 28 RCNY § 11-06(b)(2)(i).
+(b) Certification of a lead-based paint hazard violation issued pursuant to § 27-2056.6 or § 27-2056.6.1 shall be rejected by the department unless the results of the laboratory tests for the required lead-contaminated dust clearance tests are submitted with the certification, and such laboratory test results comply with the standards specified in 28 RCNY § 11-06(g)(1)(ix)(D).
+(c) Failure to file a certification of correction of such violation shall establish a prima facie case that such violation has not been corrected.
+(Amended City Record 2/14/2025, eff. 3/16/2025)

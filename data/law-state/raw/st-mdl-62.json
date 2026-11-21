@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 62 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "62",
+    "title" : "Parapets, guard railings and wires",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "62",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 62. Parapets, guard railings and wires. 1. Every open area of a\\nroof, terrace, areaway, outside stair, stair landing, retaining wall or\\nporch and every stair window of a multiple dwelling erected after April\\neighteenth, nineteen hundred twenty-nine, shall be protected in a manner\\napproved by the department by a parapet wall or a guard railing three\\nfeet six inches or more in height above the level of such area, or, in\\nthe case of a stair window, above the level of the floor adjacent\\nthereto, unless the department shall deem that such protection is not\\nnecessary for safety. In any multiple dwelling where a bulkhead door or\\nscuttle cover opens within four feet of the edge of the roof, that part\\nof the roof which is immediately adjacent to such door or cover shall be\\nadequately protected. Such protection shall consist of guard rails or\\nparapet walls extending at least three feet six inches above the level\\nof the roof, and shall be arranged and placed in a manner approved by\\nthe department, but shall not be required for such bulkhead door or\\nscuttle cover when the bulkhead or scuttle on such dwelling is\\nimmediately adjacent to, and also on the same level as or on a lower\\nlevel than, the roof of a contiguous building. This subdivision shall\\nnot apply to the open area of a roof of a garden-type maisonette\\ndwelling project.\\n  2. All radio, antennae or other wires over any roof shall, unless\\notherwise permitted by the department, be kept ten feet or more above\\nsuch roof, and no radio, television antennae or other wires shall be\\nattached to any fire escape or to any soil or vent line extending above\\nthe roof.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "61",
+      "title" : "Business uses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "61",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "63",
+      "title" : "Sub-curb uses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "63",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,5488 @@
+{
+ "seed": 20261121,
+ "targets": {
+  "leak": 10,
+  "mold": 30,
+  "peeling-paint": 10,
+  "wall-ceiling-damage": 10,
+  "pests": 10,
+  "smoke-co-detector": 10,
+  "window": 10,
+  "heat-hot-water": 6
+ },
+ "moved_dev_groups": [
+  "openverse-flickr:https://www.flickr.com/photos/51794331@N00",
+  "commons:RASHIKA AGARWAL",
+  "openverse-flickr:https://www.flickr.com/photos/103842879@N03",
+  "commons:NPS Photo",
+  "openverse-flickr:https://www.flickr.com/photos/35254493@N05",
+  "openverse-flickr:https://www.flickr.com/photos/84118271@N00",
+  "openverse-flickr:https://www.flickr.com/photos/37176760@N06",
+  "commons:Heinscher"
+ ],
+ "counts_by_core_type": {
+  "leak": 12,
+  "wall-ceiling-damage": 10,
+  "peeling-paint": 12,
+  "mold": 30,
+  "pests": 10,
+  "smoke-co-detector": 10,
+  "window": 10,
+  "heat-hot-water": 6
+ },
+ "items": [
+  {
+   "id": "med-0586",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0586.jpg",
+   "sha256": "bcd3a8d12ff0b1aed3bfd6a73eccdc09462e68979a95acd1b40c167b066b9592",
+   "category": "problem",
+   "draft_label": [
+    "heat-hot-water"
+   ],
+   "draft_facts": "reading=about 2C (36F); caption: 2 degrees indoors at midday with the heater on; temple lodging (shukubo), Japan",
+   "problem_locations": [
+    {
+     "region": "wall thermometer beside paper screen door, column at about 2C / 36F"
+    }
+   ],
+   "source_caption": "2 degrees indoors at midday with the heater on",
+   "source_url": "https://www.flickr.com/photos/32967799@N02/3507136158",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "temple lodging (shukubo)",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/32967799@N02",
+   "needs_mold_bin": false,
+   "picked_because": "core:heat-hot-water"
+  },
+  {
+   "id": "med-0240",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0240.jpg",
+   "sha256": "d7bf5cb15d2f96d3a3168ff3cb2875d3e876ce6145eac0be1424ce26ca234a70",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "mold"
+   ],
+   "draft_facts": "ceiling patch about 3-6 sq ft",
+   "problem_locations": [
+    {
+     "region": "dark water-damaged and mouldy patch on a sloped ceiling with a stain running down the wall above a clothes rack"
+    }
+   ],
+   "source_caption": "A large black moldy wet area drips through a white flat ceiling. The roof of the old hotel was almost completely flat. Every time it rained dozens of leaks would find their way into the building.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:7_Mammoth_Cave_Hotel_Water_Damage_(07718eef-10d9-4b15-b3d0-573126bcbb8b).JPG",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:NPS Photo",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group commons:NPS Photo)"
+  },
+  {
+   "id": "med-0815",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0815.jpg",
+   "sha256": "44ac1057b86a278135e5428f891be3d3dcf870596b5989ea232c31d61ef9d272",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small strip along sill; house remodel",
+   "problem_locations": [
+    {
+     "region": "dark mildew along the bottom rail of a window frame and sill, lower centre"
+    }
+   ],
+   "source_caption": "Busted: all the windows were GLUED on - so mildew was rampant",
+   "source_url": "https://www.flickr.com/photos/7186186@N07/3089777164",
+   "license": "CC BY-ND 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/7186186@N07",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0814",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0814.jpg",
+   "sha256": "0f168a00b198e33483874c7b11f028c2681949d6c9fe4ec9cab22bf81f501766",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=whole pane visible; bathroom window",
+   "problem_locations": [
+    {
+     "region": "black mould spots across a frosted bathroom window pane, whole frame"
+    }
+   ],
+   "source_caption": "mold",
+   "source_url": "https://www.flickr.com/photos/35254493@N05/3270124426",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/35254493@N05",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/35254493@N05)"
+  },
+  {
+   "id": "med-0659",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0659.jpg",
+   "sha256": "36bb17ed4549cceaf23c4756a90e616922f6b5eca0a21363a757c91ce07bb1be",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window glass (tags brokenwindow)",
+   "problem_locations": [
+    {
+     "region": "two double-hung windows with large broken holes in upper panes"
+    }
+   ],
+   "source_caption": "inside and out",
+   "source_url": "https://www.flickr.com/photos/8586177@N03/5145565350",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "possibly derelict house",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/8586177@N03",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0825",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0825.jpg",
+   "sha256": "59dc674c074325995b719fe269acac1014fe15ee27dbf455f93912e5d8203139",
+   "category": "problem",
+   "draft_label": [
+    "peeling-paint"
+   ],
+   "draft_facts": "apartment building common area (co-op entrance vestibule, Yonkers NY); small flakes",
+   "problem_locations": [
+    {
+     "region": "several small paint flakes lifting from green ceiling, upper centre and lower centre"
+    }
+   ],
+   "source_caption": "IMG_0316",
+   "source_url": "https://www.flickr.com/photos/72438389@N00/6473646723",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/72438389@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0824",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0824.jpg",
+   "sha256": "5c5509a09f24f2cc9f6ec25781953b03a39ad108f375aef810f3f5cd13580743",
+   "category": "problem",
+   "draft_label": [
+    "peeling-paint"
+   ],
+   "draft_facts": "apartment building common area (co-op entrance vestibule, Yonkers NY); small flakes",
+   "problem_locations": [
+    {
+     "region": "small chips of paint flaking off a green ceiling near the wall edge, upper centre and right"
+    }
+   ],
+   "source_caption": "IMG_0318",
+   "source_url": "https://www.flickr.com/photos/72438389@N00/6473646747",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/72438389@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0601",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0601.jpg",
+   "sha256": "22ea87f84549561907b8502b47469180bad7420804ff739df841f7116a35fb63",
+   "category": "problem",
+   "draft_label": [
+    "heat-hot-water"
+   ],
+   "draft_facts": "reading=55.0F inside at 9:20am (daytime); caption: It's Cold Inside... and outside too.",
+   "problem_locations": [
+    {
+     "region": "home weather station display showing INSIDE 55.0F and OUTSIDE 29.3F at 9:20am, top"
+    }
+   ],
+   "source_caption": "It's Cold Inside... and outside too.",
+   "source_url": "https://www.flickr.com/photos/36259387380@N01/30858417833",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/36259387380@N01",
+   "needs_mold_bin": false,
+   "picked_because": "core:heat-hot-water"
+  },
+  {
+   "id": "med-0834",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0834.jpg",
+   "sha256": "0ea4208600478e4bc4c51beef3b0c0514c00a1ec3af8f7daebbb42f21718ef8f",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small-medium; house bathroom window sill",
+   "problem_locations": [
+    {
+     "region": "black mould and damp on wall backing under removed tiles below a bathroom window sill, centre"
+    }
+   ],
+   "source_caption": "Moldy window",
+   "source_url": "https://www.flickr.com/photos/84118271@N00/7784589444",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/84118271@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/84118271@N00)"
+  },
+  {
+   "id": "med-0126",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0126.jpg",
+   "sha256": "c741dd6db49ca2bd064207798d85e5f91318316ec70e2f77c52ac8f014cc7cf0",
+   "category": "problem",
+   "draft_label": [
+    "mold",
+    "leak"
+   ],
+   "draft_facts": "area=large, most of ceiling, over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "mould and water staining spread across a bedroom ceiling around a ceiling fan"
+    }
+   ],
+   "source_caption": "New Orleans after Hurricane Katrina: Mold sprouted from minor storm leaks in bedroom of an unflooded home. (People evacuated were not allowed back in the city for more than a month, so many returned to sights like this.) Carrollton neighborhood, Uptown.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Mold_on_Ceiling_on_House_on_Dublin_Street_New_Orleans_after_Katrina.jpg",
+   "license": "CC BY 3.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Infrogmation",
+   "needs_mold_bin": true,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0820",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0820.jpg",
+   "sha256": "edebf56666dd5a4d022949868a03789d8ce860e2ba9873757fff135151b64a1f",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small; rented home",
+   "problem_locations": [
+    {
+     "region": "dark mould patch on window reveal behind blind chain, centre"
+    }
+   ],
+   "source_caption": "Mould",
+   "source_url": "https://www.flickr.com/photos/51794331@N00/5610193672",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/51794331@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/51794331@N00)"
+  },
+  {
+   "id": "med-0639",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0639.jpg",
+   "sha256": "31649dd2c84be14cbda07dade0edd833998f95868750be80445afa4fb95289bf",
+   "category": "problem",
+   "draft_label": [
+    "leak"
+   ],
+   "draft_facts": "active leak through bathroom ceiling fixture",
+   "problem_locations": [
+    {
+     "region": "water streaming from a ceiling light fixture above a shower curtain"
+    }
+   ],
+   "source_caption": "bathroom ceiling waterfall",
+   "source_url": "https://www.flickr.com/photos/62526061@N00/1499628",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/62526061@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0804",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0804.jpg",
+   "sha256": "b762854feb428a754f3870cb637376143d489f990f1d5066dfe4c9c80b7f3086",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=house mouse; indoors; house per caption",
+   "problem_locations": [
+    {
+     "region": "house mouse running along wall baseboard on wood floor, centre"
+    }
+   ],
+   "source_caption": "a story of a mouse in the house.",
+   "source_url": "https://www.inaturalist.org/observations/250756848",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "inaturalist:2121347",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0254",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0254.jpg",
+   "sha256": "28837ef3f747d6e08fe4e7048ef962c2d566d75589b3d946970a326bf5ea3ec3",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage",
+    "peeling-paint"
+   ],
+   "draft_facts": "area about 1 sq ft",
+   "problem_locations": [
+    {
+     "region": "plaster broken away from a yellow painted wall exposing the brick behind"
+    }
+   ],
+   "source_caption": "Cracked wall",
+   "source_url": "https://www.flickr.com/photos/8581973@N02/521943309",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/8581973@N02",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0614",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0614.jpg",
+   "sha256": "ff79d5b43715fa0e021841f5a0ecfc2423a7f33323cfff3301139333acb3d31b",
+   "category": "problem",
+   "draft_label": [
+    "heat-hot-water"
+   ],
+   "draft_facts": "no thermometer visible; caption (Bundesarchiv, Berlin 1947): coal shortage brought the cold into apartments, Berlin at minus 20 degrees; people bundled up indoors",
+   "problem_locations": [
+    {
+     "region": "woman wearing hood, scarf and coat while cooking at a kitchen stove, whole frame"
+    }
+   ],
+   "source_caption": "For documentary purposes the German Federal Archive often retained the original image captions, which may be erroneous, biased, obsolete or politically extreme. Berlin, Eisseskälte in der Küche Illus-Heinscher Berlin bei 20 Grad Kälte. Bei der großen Kohlenknappheit ist auch in den Wohnungen die Kälte fast unerträglich. In dem einzigen geheizten Raum der Wohnung, der Küche, kann die Hausfrau nur ihrer Arbeit nachgehen, wenn sie sich recht winterlich anzieht. 1947",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S76007-001,_Berlin,_Eissesk%C3%A4lte_in_der_K%C3%BCche.jpg",
+   "license": "CC BY-SA 3.0 de",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "commons:Heinscher",
+   "needs_mold_bin": false,
+   "picked_because": "core:heat-hot-water (moved group commons:Heinscher)"
+  },
+  {
+   "id": "med-0835",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0835.jpg",
+   "sha256": "1e0374997bcb7622a43c0890ba2ebb1a352b74f9bcd8476661cf13589f11aaa6",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small (sill strip); garage window of a house",
+   "problem_locations": [
+    {
+     "region": "dark grime or mould along a wooden window sill and frame corner, lower half and right"
+    }
+   ],
+   "source_caption": "Sill",
+   "source_url": "https://www.flickr.com/photos/13522901@N00/10933889126",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "house garage",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/13522901@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0565",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0565.jpg",
+   "sha256": "8ede7840d9c42ad4f531fa5f4c46586bb2526f5aefe28b90d87aa9c473d2e274",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "battery removed/dangling",
+   "problem_locations": [
+    {
+     "region": "smoke alarm held in hand with 9V battery pulled out and 'WARNING BATTERY REMOVED' flag showing"
+    }
+   ],
+   "source_caption": "One battery short of a smoke alarm",
+   "source_url": "https://www.flickr.com/photos/8495857@N04/1821592374",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/8495857@N04",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0655",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0655.jpg",
+   "sha256": "f1602cbedda9151cf0e2a41779ae8d3b45abd19cc0522f4adfcca78d104a0360",
+   "category": "problem",
+   "draft_label": [
+    "peeling-paint"
+   ],
+   "draft_facts": "close-up",
+   "problem_locations": [
+    {
+     "region": "grey paint flaking off in patches exposing brick-red layer beneath"
+    }
+   ],
+   "source_caption": "Flaking Paint",
+   "source_url": "https://www.flickr.com/photos/11018968@N00/2280374318",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/11018968@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0555",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0555.jpg",
+   "sha256": "fd30f909b12a0823d54fd181c27b53dd1801e36708d2306b3fbd94c0159b4439",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "detector missing/disconnected, wires exposed (caption: Smoke Detector?)",
+   "problem_locations": [
+    {
+     "region": "detector head missing, open base on ceiling with red, black and orange wires hanging out, centre"
+    }
+   ],
+   "source_caption": "Smoke Detector?",
+   "source_url": "https://www.flickr.com/photos/62616836@N00/4037837649",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/62616836@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0557",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0557.jpg",
+   "sha256": "ce2ff73069bc61391d8e31a6a86da3028df278f38427bc00547616fd50ee70f8",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "cover off",
+   "problem_locations": [
+    {
+     "region": "smoke detector with cover removed, circuit, sensor and 9V battery exposed"
+    }
+   ],
+   "source_caption": "smoke detector squircle",
+   "source_url": "https://www.flickr.com/photos/53133240@N00/67090946",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/53133240@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0046",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0046.jpg",
+   "sha256": "7726548e8f680227f9196d6b832251d478254b4b4e0f19db550cc1c9e255b3e2",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=rodent (gnaw damage to food packaging); indoors; sign only, no animal visible",
+   "problem_locations": [
+    {
+     "region": "coffee bag gnawed open with shredded foil scraps scattered on counter, centre and around"
+    }
+   ],
+   "source_caption": "A clothes peg closing a bag does not avoid rodents to open it.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:A_clothes_peg_closing_a_bag_does_not_avoid_rodents_to_open_it..JPG",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Havang(nl)",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0841",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0841.jpg",
+   "sha256": "6c13f944f5b0ca557b9ab15c109e114c6337171e444ff31cd398d9f1b75c8dbf",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=medium (diffuse speckling over ceiling patch); hotel shower (London)",
+   "problem_locations": [
+    {
+     "region": "black mould speckles across a shower ceiling below the tiles, centre"
+    }
+   ],
+   "source_caption": "Moldy Shower in London",
+   "source_url": "https://www.flickr.com/photos/92544710@N00/72020041",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "no (hotel shower)",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/92544710@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0291",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0291.jpg",
+   "sha256": "d4d007afa7f86bd8daa9da529431bce2f017823fbac9f1d2ab891ca6929c4272",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "repair in progress (caption: patching a hole in the drywall, part i)",
+   "problem_locations": [
+    {
+     "region": "square hole cut in drywall with a wooden backing board inside, screws around it"
+    }
+   ],
+   "source_caption": "Patching a hole in the drywall - part i",
+   "source_url": "https://www.flickr.com/photos/46126365@N00/291046187",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/46126365@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:wall-ceiling-damage"
+  },
+  {
+   "id": "med-0831",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0831.jpg",
+   "sha256": "ef8b5a15d3177efa5ab6cd7b4e5fca86cceab93c948ee1d07e2fe7536e632283",
+   "category": "problem",
+   "draft_label": [
+    "mold",
+    "peeling-paint"
+   ],
+   "draft_facts": "area=medium (lower wall about 1-2 m wide); bedroom",
+   "problem_locations": [
+    {
+     "region": "damp-damaged wall beside a bed with blotchy staining and bubbling, flaking paint along lower wall, centre-left"
+    }
+   ],
+   "source_caption": "Mold Bedroom 2",
+   "source_url": "https://www.flickr.com/photos/103842879@N03/14140226453",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/103842879@N03",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/103842879@N03)"
+  },
+  {
+   "id": "med-0526",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0526.jpg",
+   "sha256": "467a744d674e343bc29555b927aa023327931782c57f4422e334aab00af06b18",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "detector missing, only mounting plate (caption: The Night Terror)",
+   "problem_locations": [
+    {
+     "region": "bare detector mounting plate on ceiling with no detector attached, centre"
+    }
+   ],
+   "source_caption": "The Night Terror",
+   "source_url": "https://www.flickr.com/photos/77395664@N00/5240085731",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/77395664@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0495",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0495.jpg",
+   "sha256": "ed173e4fe9a8a31a030a61e3ac58ee35fe3e21dd5f3033a10a40a2e8058e418c",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "flood repair",
+   "problem_locations": [
+    {
+     "region": "hallway with the lower part of the drywall cut away after flooding, exposed studs"
+    }
+   ],
+   "source_caption": "Baton Rouge, LA, June 19, 2001 -- This house in Baton Rouge sustained flood damage during tropical storm Allison. Photo by Butch DuCote/ FEMA News Photo.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_1590_-_Photograph_by_Butch_DuCote_taken_on_06-19-2001_in_Louisiana.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Butch DuCote",
+   "needs_mold_bin": false,
+   "picked_because": "core:wall-ceiling-damage"
+  },
+  {
+   "id": "med-0125",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0125.jpg",
+   "sha256": "515aa4f92cc5ecbf10949e233251171cfdecf2ee9b3825e43e239f52cc59cf76",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "peeling-paint"
+   ],
+   "draft_facts": "apartment; leak from unit above",
+   "problem_locations": [
+    {
+     "region": "ceiling paint and plaster peeled and bulging after water came through from the flat above, upper half"
+    }
+   ],
+   "source_caption": "Akuter Wasserschaden durch Frischwasser in Mietwohnung",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Frischwassereinbruch_durch_Geschossdecke_von_dar%C3%BCberliegender_Wohnung.jpg",
+   "license": "CC BY-SA 3.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Johann H. Addicks",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0818",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0818.jpg",
+   "sha256": "0c17859967d3999d79d1a2abb7d368996525d4b1d672064ee52f04de52c08b7b",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small strip on window reveal; rented home",
+   "problem_locations": [
+    {
+     "region": "greenish-dark mould on window reveal beside roller blind, upper centre and lower right"
+    }
+   ],
+   "source_caption": "Mould",
+   "source_url": "https://www.flickr.com/photos/51794331@N00/5609614387",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/51794331@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/51794331@N00)"
+  },
+  {
+   "id": "med-0096",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0096.jpg",
+   "sha256": "f0b3b07f4e53e80747600082aaa16473b15d29152781223a82b1628d0b1345ee",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage",
+    "peeling-paint"
+   ],
+   "draft_facts": "cracks across the whole frame",
+   "problem_locations": [
+    {
+     "region": "network of cracks across a plaster wall with patches of paint chipped away, right side"
+    }
+   ],
+   "source_caption": "photograph of a wall",
+   "source_url": "https://www.pexels.com/photo/photograph-of-a-wall-12326418/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:EmmanuelCorreia",
+   "needs_mold_bin": false,
+   "picked_because": "core:wall-ceiling-damage"
+  },
+  {
+   "id": "med-0314",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0314.jpg",
+   "sha256": "580a23c8d05d013394ad960986542dedb368716c8a802b45009db4b485a7fe82",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=unknown, spots across frame",
+   "problem_locations": [
+    {
+     "region": "scattered black and grey mould spots across a white painted wall"
+    }
+   ],
+   "source_caption": "wall in stains",
+   "source_url": "https://www.pexels.com/photo/wall-in-stains-18063450/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:thepaintedsquare",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0249",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0249.jpg",
+   "sha256": "6fc4c2256a35ca28e7ed1bff330661c7544d8857ff5401e65a0401ecc4d3f970",
+   "category": "problem",
+   "draft_label": [
+    "peeling-paint"
+   ],
+   "draft_facts": "restaurant ceiling",
+   "problem_locations": [
+    {
+     "region": "paint peeling from a wooden plank ceiling around a ceiling fan"
+    }
+   ],
+   "source_caption": "ceiling fan in the restaurant",
+   "source_url": "https://www.flickr.com/photos/88654826@N00/14251069211",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/88654826@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0789",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0789.jpg",
+   "sha256": "c56890a045aa631dbb67706bf034cb865647eae14db3d2b6298726bf171cc813",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=bed bug; indoors",
+   "problem_locations": [
+    {
+     "region": "bed bug on painted white door frame or wall trim, centre"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.inaturalist.org/observations/265617811",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "inaturalist:3008966",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0201",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0201.jpg",
+   "sha256": "cfdf97e719424f6328927d30e5d0f682855abcde7d334e5b24f7a87aef1f9573",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "caption: Ceiling problem",
+   "problem_locations": [
+    {
+     "region": "ceiling torn open to the joists and wall plaster stripped, debris piled on the floor"
+    }
+   ],
+   "source_caption": "Ceiling problem",
+   "source_url": "https://www.flickr.com/photos/87372250@N00/3702170669",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/87372250@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:wall-ceiling-damage"
+  },
+  {
+   "id": "med-0760",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0760.jpg",
+   "sha256": "cc3e81bc2855727947475f587989b6415b4a32883bc37590bb71f0bb88707438",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window glass on a barn (caption)",
+   "problem_locations": [
+    {
+     "region": "old barn wall with door and window, window panes broken out (black and white)"
+    }
+   ],
+   "source_caption": "Old barn with broken windows",
+   "source_url": "https://www.flickr.com/photos/9763931@N04/6043745953",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/9763931@N04",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0724",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0724.jpg",
+   "sha256": "80d69b846661d6d28949137e81bfe0859bd6474c7dfca494c85fcb9b766f6ea1",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "battery compartment open/battery removed (caption: battery replacement)",
+   "problem_locations": [
+    {
+     "region": "smoke alarm with battery door open, 9V battery pulled out by hand"
+    }
+   ],
+   "source_caption": "Smoke Detector battery replacement",
+   "source_url": "https://www.flickr.com/photos/55216729@N06/30890259041",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/55216729@N06",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0410",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0410.jpg",
+   "sha256": "f784301fb4d6d1822f1a2daef045ab72003971e4f1ca66d28a10e03893fc5bfa",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage",
+    "mold"
+   ],
+   "draft_facts": "room-wide",
+   "problem_locations": [
+    {
+     "region": "flood-damaged living room with ceiling material hanging down and stained walls, two people clearing it"
+    }
+   ],
+   "source_caption": "Chalmette, LA., October 18, 2005 - A resident of Chalmette, LA walks through the the front of her damaged home. There is mold growing on all the walls and furniture. She and her family were trying to salvage personal items from their home which was damaged by flooding during Hurricane Katrina. Patsy Lynch/FEMA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_17464_-_Photograph_by_Patsy_Lynch_taken_on_10-18-2005_in_Louisiana.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Patsy Lynch",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0764",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0764.jpg",
+   "sha256": "d23de2bad0f53d63657b08f3344c2f28abbdc2120efb661e192ddd8e03a6c6c3",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken/cracked window glass on a residential window (Seattle; tags urbandecay)",
+   "problem_locations": [
+    {
+     "region": "apartment window with cracked/broken pane and dog looking out between curtains"
+    }
+   ],
+   "source_caption": "cracked window and dog",
+   "source_url": "https://www.flickr.com/photos/18161271@N00/5833079019",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/18161271@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0672",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0672.jpg",
+   "sha256": "c239b0692f9be5d368f96fbc66fbb834a22440ced0a325dbb2c90a84c793b1ad",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window glass on floor; window itself not in frame (caption: Paris 2004 apartment)",
+   "problem_locations": [
+    {
+     "region": "shards of window glass lying on apartment floor below a chair, centre right"
+    }
+   ],
+   "source_caption": "Broken window glass on apartment floor after break-in by firefighters due to water leak, Paris 2004",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Broken_window_glass_on_apartment_floor_after_break-in_by_firefighters_due_to_water_leak,_Paris_2004.jpg",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "commons:Syced",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0566",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0566.jpg",
+   "sha256": "84ef0d45e751edebc39e9380f8975f8835ded16a46b4fc24fc564b8e85892469",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "battery removed",
+   "problem_locations": [
+    {
+     "region": "open battery compartment of smoke alarm with 'WARNING BATTERY HAS BEEN REMOVED' flag, no battery"
+    }
+   ],
+   "source_caption": "Fire alarm humor",
+   "source_url": "https://www.flickr.com/photos/24273955@N07/3246406030",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/24273955@N07",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0674",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0674.jpg",
+   "sha256": "f6645725c20407d687ed31803e3b4d46dceb46d5bba7798141827c93412fccb3",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken windows on a new block of flats (caption)",
+   "problem_locations": [
+    {
+     "region": "apartment block facade with an enclosed balcony whose windows are smashed, centre right"
+    }
+   ],
+   "source_caption": "Broken windows at a new block of flats in the Enthusiasts Street",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Broken_window_(%D1%80%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D0%BE%D0%B5_%D0%BE%D0%BA%D0%BD%D0%BE).JPG",
+   "license": "CC BY-SA 3.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Miass",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0113",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0113.jpg",
+   "sha256": "d7f2fd45f0118306bf8b472f60e5a78d3ded8e9947e5aacc418709abc87d9c28",
+   "category": "problem",
+   "draft_label": [
+    "leak"
+   ],
+   "draft_facts": "small stains, under 1 sq ft each; active leak not visible",
+   "problem_locations": [
+    {
+     "region": "faint brown water stain marks on a white ceiling and wall near a corner, centre and lower left"
+    }
+   ],
+   "source_caption": "Wasserschaden an einer Wohnungsdecke in Berlin-Wedding, Deutschland",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Wasserschaden_lub_2025-01-19.jpg",
+   "license": "CC BY 4.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Lukas Beck",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0671",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0671.jpg",
+   "sha256": "b89f5b684d1dae4bb12124c7bcfb8e8bb49908307b5796ac4260c2bc85e41b8f",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window glass in apartment (caption: broken by firefighters during a water-leak break-in, Paris 2004)",
+   "problem_locations": [
+    {
+     "region": "uPVC apartment window seen from inside with a large hole broken through the glass beside the handle, night"
+    }
+   ],
+   "source_caption": "Broken window glass in apartment after break-in by firefighters due to water leak, Paris 2004",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Broken_window_glass_in_apartment_after_break-in_by_firefighters_due_to_water_leak,_Paris_2004.jpg",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Syced",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0780",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0780.jpg",
+   "sha256": "825fe0b4cec9024353fb1210dac0671445f6f1f04d76109f4ca918558bf251b3",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=house mouse (dead); indoors",
+   "problem_locations": [
+    {
+     "region": "small dead house mouse on light tile floor near wall, centre"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.inaturalist.org/observations/247477209",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "inaturalist:7699639",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0499",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0499.jpg",
+   "sha256": "6337f2bd505d1cc792aa47a07f8405659a34b026045a7b1944b1abe589cc5cb4",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "dining room with mould on the red walls and a worker in protective suit"
+    }
+   ],
+   "source_caption": "New Orleans after Hurricane Katrina: Mold in flood damaged home in Navarre section of the Lakeview/West End neighborhood, with homeowner in protective gear while salvaging some possessions.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:WestendMoldyDiningroom.jpg",
+   "license": "CC BY 2.5",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Infrogmation",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0530",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0530.jpg",
+   "sha256": "fd9473bbd509d7632990bb4574ac054c919679cf51548730f11e796c72c11545",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "cover off",
+   "problem_locations": [
+    {
+     "region": "smoke alarm with cover removed showing circuit, sensor chamber and 9V battery"
+    }
+   ],
+   "source_caption": "Smoke Alarm",
+   "source_url": "https://www.flickr.com/photos/72645397@N00/12003728",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/72645397@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0670",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0670.jpg",
+   "sha256": "842004ddcdd0ea0deb1cb961e03c093f46b2692f4810e61b6495592d0f84f3aa",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window glass in apartment (caption: broken by firefighters during a water-leak break-in, Paris 2004)",
+   "problem_locations": [
+    {
+     "region": "uPVC apartment window seen from inside with a cracked/broken pane near the handle, night outside"
+    }
+   ],
+   "source_caption": "Broken window glass in apartment after break-in by firefighters due to water leak, Paris 2004",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Broken_window_glass_in_apartment_after_break-in_by_firefighters_due_to_water_leak,_Paris_2004_2.jpg",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Syced",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0497",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0497.jpg",
+   "sha256": "96461196732bd570812b9ed52cc111502b75716a5bb19fcdebcbeef3927cd6db",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=room-wide, over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "living room walls and furniture covered in mould after flooding"
+    }
+   ],
+   "source_caption": "Interior of house in Eastern New Orleans, showing floodline and mold from flooding in the Hurricane Katrina levee failure disaster.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Moldy_Livingroom_Eastern_New_Orleans_after_Katrina.jpg",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:King Prince",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0809",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0809.jpg",
+   "sha256": "d9a224b4fad3bace330e1c9e89cae709c85c34cad85fcfe3226799d79493efff",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=house mouse; indoors; inside house per caption",
+   "problem_locations": [
+    {
+     "region": "house mouse on floor in front of dark sliding door track, centre"
+    }
+   ],
+   "source_caption": "Maybe brought in by a cat, or found its own way inside the house? Bit wobbly on its legs.",
+   "source_url": "https://www.inaturalist.org/observations/38317363",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "inaturalist:58314",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0406",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0406.jpg",
+   "sha256": "6491a422e73916d928cc1859a6d36490005eddcc619a6856357e7ae326d77e41",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=whole wall, over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "wall of a flooded house covered in grey-green mould around a framed picture, worker in protective gear"
+    }
+   ],
+   "source_caption": "New Orleans, LA., 10/23/2005 -- This New Orleans resident searches for salvageable items in her home located the Lower 9th Ward following Hurricane Katrina. Many of the homes were like this one with mold damage to the ceiling. Andrea Booher/FEMA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_24781_-_Photograph_by_Andrea_Booher_taken_on_10-23-2005_in_Louisiana.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Andrea Booher",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0817",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0817.jpg",
+   "sha256": "59d0152c370bfca68ed3488001dd73fe6eb9d9c94435be2ea5897cbdb75f4da8",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small (palm-sized patches); rented home",
+   "problem_locations": [
+    {
+     "region": "brownish damp or mould patches on wall next to window frame, centre-right"
+    }
+   ],
+   "source_caption": "Mould",
+   "source_url": "https://www.flickr.com/photos/51794331@N00/5609613981",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/51794331@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/51794331@N00)"
+  },
+  {
+   "id": "med-0594",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0594.jpg",
+   "sha256": "b8dad2774012fc2d82a0b096cb9a674040447cdda53082917e709adf3ffbbd94",
+   "category": "problem",
+   "draft_label": [
+    "heat-hot-water"
+   ],
+   "draft_facts": "reading=63.4F at 8:49 PM (clock's indoor temperature, location not stated)",
+   "problem_locations": [
+    {
+     "region": "radio-controlled wall clock showing 8:49 PM, Sun 3/27 and 63.4F"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Atomic_clock.jpg",
+   "license": "CC BY-SA 3.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:commons-601267",
+   "needs_mold_bin": false,
+   "picked_because": "core:heat-hot-water"
+  },
+  {
+   "id": "med-0768",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0768.jpg",
+   "sha256": "c5b70373dc87863f049b2b613ea7844546d15a9a1961b32697e51b0244f08836",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window, boarded (caption: boarded window; tags abandoned, Schenectady NY)",
+   "problem_locations": [
+    {
+     "region": "small window in concrete wall with glass missing and plywood behind a broken pane"
+    }
+   ],
+   "source_caption": "boarded window",
+   "source_url": "https://www.flickr.com/photos/75001512@N00/2580822366",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "possibly derelict building",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/75001512@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0411",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0411.jpg",
+   "sha256": "f0b393b1a7663c4dead76003cd71cfb1ead7a7cae3fa3529a953b9e6df74d7f5",
+   "category": "problem",
+   "draft_label": [
+    "mold",
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "area=over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "room with black mould spreading over the walls above wrecked furniture and debris"
+    }
+   ],
+   "source_caption": "Interior of home in the Gentilly section of New Orleans affected by the Hurricane Katrina levee failure disaster in 2005. Trashed and warped furniture in disarray where the flood water left them, mold growing on walls. House is listed for FEMA demolition. If this does not break your Heart I do not know what will.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Painters_Street_New_Orleans_interior.jpg",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Karen Apricot",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0772",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0772.jpg",
+   "sha256": "0ec39f5cfdf58fa5cc6dc0f1813ef8c601a136fc0b855ac435ec7764275a79e3",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=german cockroach; indoors; found in kitchen per caption, Brooklyn",
+   "problem_locations": [
+    {
+     "region": "german cockroach on crumpled white tissue, centre"
+    }
+   ],
+   "source_caption": "Found in the kitchen, killed with alcohol.",
+   "source_url": "https://www.inaturalist.org/observations/191912438",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "inaturalist:20485",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0832",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0832.jpg",
+   "sha256": "321b823b51aef05a1b0cba32668e6325b9c0088463ba8ba5bdc9d24aa2bea759",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=small (caulk line about 1 m); home bathroom tub",
+   "problem_locations": [
+    {
+     "region": "black mould in the caulk line where the bathtub meets the tub surround, lower centre"
+    }
+   ],
+   "source_caption": "Moldy Old Caulk",
+   "source_url": "https://www.flickr.com/photos/11018968@N00/2735755968",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/11018968@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0676",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0676.jpg",
+   "sha256": "b26b53b1c59c77458ba27aa7f73cca5267b3a4e6d94c963f50406fe665bd14ca",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken glass in window (caption, Tallinn); exterior view of wooden house",
+   "problem_locations": [
+    {
+     "region": "window in wooden house wall with cracked panes, centre"
+    }
+   ],
+   "source_caption": "Broken glass in window in Kassisaba, Tallinn, Estonia.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Broken_glass_in_window.JPG",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Dmitry G",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0758",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0758.jpg",
+   "sha256": "1a4d904a40cda2063bb07877094fe3a68c5039506a876abe9b44163ddd3ded22",
+   "category": "problem",
+   "draft_label": [
+    "window"
+   ],
+   "draft_facts": "broken window glass (caption: hailstone-smashed window, 2nd floor of a motel)",
+   "problem_locations": [
+    {
+     "region": "motel sliding window with right pane smashed by hail, curtains visible, decorative grille below"
+    }
+   ],
+   "source_caption": "Hailstone-smashed window from 4 July 2010 hailstorm (2nd floor of west-facing side of a motel, Limon, eastern Colorado, USA)",
+   "source_url": "https://www.flickr.com/photos/47445767@N05/15151124635",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/47445767@N05",
+   "needs_mold_bin": false,
+   "picked_because": "core:window"
+  },
+  {
+   "id": "med-0667",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0667.jpg",
+   "sha256": "fc190e7221005de32b15b514b943e7334c0dec4a1442992f2e0534e003bfd21f",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "caption mentions vindication over mould; setting not shown",
+   "problem_locations": [
+    {
+     "region": "mould speckles spread across a wall surface"
+    }
+   ],
+   "source_caption": "VINDICATION! At the price of a filing cabinet. Still think there's no mold in my apartment, #link #roscoe?!",
+   "source_url": "https://www.flickr.com/photos/97096289@N04/15466243819",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/97096289@N04",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0593",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0593.jpg",
+   "sha256": "0468d2d75b453826f36978706d6fa75fd8c42e8a7b05f411913e9e2818527e4b",
+   "category": "problem",
+   "draft_label": [
+    "heat-hot-water"
+   ],
+   "draft_facts": "reading=15.5C on room thermostat display (caption says it has a temperature display; may be room temperature, could be setpoint)",
+   "problem_locations": [
+    {
+     "region": "wall room thermostat (Busch-Jaeger) with display showing 15.5C, dial below"
+    }
+   ],
+   "source_caption": "Digitaler Heizungsthermostat (Raumthermostat) der Schalterserie Reflex Si von Busch-Jäger. Der Schalter bietet eine Vorwahl des Heizprogramms und eine Temperaturanzeige",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Heizungsthermostat_mit_Temperaturanzeige.jpg",
+   "license": "CC BY 4.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "commons:SchmiAlf",
+   "needs_mold_bin": false,
+   "picked_because": "core:heat-hot-water"
+  },
+  {
+   "id": "med-0071",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0071.jpg",
+   "sha256": "1378950f66d2232cddc0d5bb5cc710e279d854ba786a801b80e6f26685d187cf",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=unknown (vertical streaks)",
+   "problem_locations": [
+    {
+     "region": "two vertical streaks of black mould running down a white painted wall"
+    }
+   ],
+   "source_caption": "close up of a stained wall",
+   "source_url": "https://www.pexels.com/photo/close-up-of-a-stained-wall-7506161/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:eva-bronzini",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0250",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0250.jpg",
+   "sha256": "49bce99b655e2d52dbf45be9d515594d2af05934447ca578b012325e016dd126",
+   "category": "problem",
+   "draft_label": [
+    "peeling-paint"
+   ],
+   "draft_facts": "ceiling",
+   "problem_locations": [
+    {
+     "region": "patches of white paint peeled off a ceiling showing grey plaster beneath"
+    }
+   ],
+   "source_caption": "peeling ceiling",
+   "source_url": "https://www.flickr.com/photos/53133240@N00/73185214",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/53133240@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0156",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0156.jpg",
+   "sha256": "07cce682c5e4c427c5b5db85e503f0cafda4269583ad1d290f6095f9f934fcb4",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=a few sq ft, likely under 10 sq ft visible",
+   "problem_locations": [
+    {
+     "region": "dark mould along the bottom of the wall and up the corner beside a window with blinds, above stained carpet"
+    }
+   ],
+   "source_caption": "Nashville, TN, May 24, 2010 -- After flood waters recede, dangerous mold spores can begin to grow within 24 to 48 hours on a varity of household surfaces. FEMA and local health officials are providing mold remediation information to the public. Martin Grube/FEMA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_44263_-_Mold_Remediation_Awareness.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Martin Grube",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0649",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0649.jpg",
+   "sha256": "4044f338dd4045d164e487de68f28cbef361e982cb16635f0c3bc52641ba5fba",
+   "category": "problem",
+   "draft_label": [
+    "peeling-paint"
+   ],
+   "draft_facts": "close-up",
+   "problem_locations": [
+    {
+     "region": "white wall paint cracked and lifting in large flakes"
+    }
+   ],
+   "source_caption": "Peeling Paint",
+   "source_url": "https://www.flickr.com/photos/11018968@N00/2280373954",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/11018968@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:peeling-paint"
+  },
+  {
+   "id": "med-0405",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0405.jpg",
+   "sha256": "73c2b508b89da741e79a36859cf4eb6e3346e4d3849a26687e306c791142023a",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "mold"
+   ],
+   "draft_facts": "caption: dampness penetration, roof leakage",
+   "problem_locations": [
+    {
+     "region": "water-stained and mottled ceiling boards between joists from roof leakage and damp"
+    }
+   ],
+   "source_caption": "This is a photo of ASI monument number",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Dampness_penetration_due_to_failure_of_damp_proof_course;_leakage_of_roof_thereby_leading_to_timber_defects.jpg",
+   "license": "CC BY-SA 4.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:RASHIKA AGARWAL",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group commons:RASHIKA AGARWAL)"
+  },
+  {
+   "id": "med-0191",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0191.jpg",
+   "sha256": "c3ec44d5454f211fdbe1893b62be380859cf1759f1b4808685844f0c9bb0ef92",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "caption: cracked leaking ceiling",
+   "problem_locations": [
+    {
+     "region": "crack along the ceiling near the wall corner, upper centre"
+    }
+   ],
+   "source_caption": "cracked-leaking ceiling",
+   "source_url": "https://www.flickr.com/photos/48525676@N03/5765861528",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/48525676@N03",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0637",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0637.jpg",
+   "sha256": "0f1723340aa76625e436868225a18531b6eac5204930b79a220f5b8ff146432a",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=strip along ceiling edge, under 10 sq ft",
+   "problem_locations": [
+    {
+     "region": "dark mould spots along the bathroom ceiling where it meets the wall above the window and tiles"
+    }
+   ],
+   "source_caption": "Bathroom ceiling - BEFORE",
+   "source_url": "https://www.flickr.com/photos/89953410@N00/1779849027",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/89953410@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0806",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0806.jpg",
+   "sha256": "6db6933602c797d66420e3a347f1227d0cf2bff86aa039d33c4e50b8b1fe9dbd",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=house mouse (killed by cat); indoors; kitchen floor per caption",
+   "problem_locations": [
+    {
+     "region": "dead or injured house mouse on white kitchen surface, centre"
+    }
+   ],
+   "source_caption": "Gift from cat on kitchen floor",
+   "source_url": "https://www.inaturalist.org/observations/157611031",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "inaturalist:5686",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0407",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0407.jpg",
+   "sha256": "bc9c1ee887f736af6015b7b91486129425bcdf9aed9c2f22eb643001ea7ea8b1",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "green and black mould covering a wall around a framed picture"
+    }
+   ],
+   "source_caption": "New Orleans, LA., 10/23/2005 -- Damaged photograph on a wall of a home in the Lower 9th Ward. Flood waters from Hurricane Katrina destroyed everything in the house and turned the walls green from mold. Andrea Booher/FEMA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_24768_-_Photograph_by_Andrea_Booher_taken_on_10-23-2005_in_Louisiana.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Andrea Booher",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0241",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0241.jpg",
+   "sha256": "92b8359f8bfeaced4c1eefe8105ff3342694b4cb62386dba0d9b3de9b111c16e",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "historic house after water damage",
+   "problem_locations": [
+    {
+     "region": "dark mould on the lower wall around old pipes in an empty room with water-stained floor"
+    }
+   ],
+   "source_caption": "Water damage inside the Chief John Ross House and Park in Rossville, Georgia Water damage inside the Chief John Ross House and Park in Rossville, Georgia; https://www.nps.gov/places/john-ross-house-and-association-history-museum.htm Keywords: trte; trail of tears national historic trail; nht; national historic trail; rossville; ga; walker county; john ross house and park; facilities; structures; and assets; cabin; cultural resources; american indian; cherokee; historic location; nrhp; certified site; nhl; natural resources; forest; Georgia; (Trail of Tears National Historic Trail State)",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Water_damage_inside_the_Chief_John_Ross_House_and_Park_in_Rossville,_Georgia_(2675f3d6-3759-4d5f-b092-1f7d3532a441).JPG",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:National Trails Office (US National Park Service)",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0723",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0723.jpg",
+   "sha256": "e21a4902ac32f0283de8c72d90e05a2f0ba2b5b28ebc62385130d45149b1f214",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "detector removed and opened (caption: Fixing the smoke detector)",
+   "problem_locations": [
+    {
+     "region": "smoke detector removed from ceiling and opened on a table, batteries and circuit exposed, hands working on it"
+    }
+   ],
+   "source_caption": "Fixing the smoke detector",
+   "source_url": "https://www.flickr.com/photos/19604783@N00/4087644406",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/19604783@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0729",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0729.jpg",
+   "sha256": "adc23590b7319967d500f1d0c661dde172a4614a66d049f214c2014d2e7bcaf1",
+   "category": "problem",
+   "draft_label": [
+    "heat-hot-water"
+   ],
+   "draft_facts": "reading=14 (degrees, unit not shown; caption: 14 degrees; tags cold freezing room)",
+   "problem_locations": [
+    {
+     "region": "space heater control panel showing ROOM TEMP 14 degrees with heater element glowing"
+    }
+   ],
+   "source_caption": "14 degrees",
+   "source_url": "https://www.flickr.com/photos/37176760@N06/4321402978",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/37176760@N06",
+   "needs_mold_bin": false,
+   "picked_because": "core:heat-hot-water (moved group openverse-flickr:https://www.flickr.com/photos/37176760@N06)"
+  },
+  {
+   "id": "med-0492",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0492.jpg",
+   "sha256": "b192826d368098413163d74620343415a116e37cdb34f1c1717d78e7b4ee5a35",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "flood-damaged home under repair",
+   "problem_locations": [
+    {
+     "region": "room stripped to the studs after flooding, wall drywall removed all round, debris on floor"
+    }
+   ],
+   "source_caption": "Belfry, KY, June 6, 2009 -- Removed insulation from the walls of Carrie Charles house in Belfry, KY. FEMA encourages residents affected by natural disasters rebuild better, stronger and safer. Rob Melendez/FEMA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_41326_-_Damaged_home_interior_in_Kentucky.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Rob Melendez",
+   "needs_mold_bin": false,
+   "picked_because": "core:wall-ceiling-damage"
+  },
+  {
+   "id": "med-0819",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0819.jpg",
+   "sha256": "a463ddf3406540f2ef157bdbe884016bab0dee043948a84dc4fd2503b449b25f",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=diffuse speckling; rented home",
+   "problem_locations": [
+    {
+     "region": "scattered small dark mould spots across painted wall, whole frame"
+    }
+   ],
+   "source_caption": "Mould",
+   "source_url": "https://www.flickr.com/photos/51794331@N00/5609614153",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/51794331@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold (moved group openverse-flickr:https://www.flickr.com/photos/51794331@N00)"
+  },
+  {
+   "id": "med-0188",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0188.jpg",
+   "sha256": "8b39aa5a4a60900a2a71cd69369c3619daef2e7c4e46afa248118e3e316d453f",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "peeling-paint"
+   ],
+   "draft_facts": "small area, about 2 sq ft",
+   "problem_locations": [
+    {
+     "region": "water-damaged patch where wall meets ceiling with bubbled and peeled paint, centre"
+    }
+   ],
+   "source_caption": "Water damage in the ceiling",
+   "source_url": "https://www.flickr.com/photos/75041855@N00/2758948417",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/75041855@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0294",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0294.jpg",
+   "sha256": "6f92c9658a344a4fdf9075c0e2ea4d5e404620ce197acb49133d30a705a5c846",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "caption says the building fire alarm has been broken for months; this is an alarm box, not a smoke detector",
+   "problem_locations": [
+    {
+     "region": "building fire alarm box covered with a handwritten note reading in case of fire call 911"
+    }
+   ],
+   "source_caption": "The fire alarm in the building has been broken for months... My landlord's solution is extremely safe! #fdny #slumlord",
+   "source_url": "https://www.flickr.com/photos/43579961@N00/14984624092",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/43579961@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0493",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0493.jpg",
+   "sha256": "af5bc982a4a1085efab77e5142cd11be5d7dae04a76de1b818979fa6f0b364af",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "peeling-paint"
+   ],
+   "draft_facts": "caption: interior of a home in Puerto Rico",
+   "problem_locations": [
+    {
+     "region": "stained, peeling ceiling over a flooded dining room with wet floor"
+    }
+   ],
+   "source_caption": "Ponce, Puerto Rico, October 4, 2008 -- Luz Maldonadotakes a break from cleaning up her friends flood damaged home in the Ponce area. Andrea Booher/FEMA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:FEMA_-_39111_-_Interior_of_a_home_in_Puerto_Rico.jpg",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Andrea Booher",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0496",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0496.jpg",
+   "sha256": "90c5e36750c0b8d05b816d951513c969a3160749461728ed814c315e9ce38227",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=large, over 10 sq ft",
+   "problem_locations": [
+    {
+     "region": "dark mould covering the wall behind a stopped mantel clock and clutter"
+    }
+   ],
+   "source_caption": "New Orleans after Hurricane Katrina levee failure disaster. Interior of formerly flooded house showing mold.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Katrina_clock_Jesse_171.jpg",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:King Prince",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0568",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0568.jpg",
+   "sha256": "c489a2dd5fd8a2c72c8ee76f79f1f6099178fd7b65a234133f7d28f9cc35d720",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "detector covered by dust cap (disabled); office (caption: New Bryght Office)",
+   "problem_locations": [
+    {
+     "region": "ceiling smoke detector with orange protective dust cap still fitted over sensor, centre"
+    }
+   ],
+   "source_caption": "Smoke alarm at New Bryght Office - Roland in Vancouver (021)",
+   "source_url": "https://www.flickr.com/photos/35034347371@N01/246780594",
+   "license": "CC0 1.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/35034347371@N01",
+   "needs_mold_bin": false,
+   "picked_because": "core:smoke-co-detector"
+  },
+  {
+   "id": "med-0196",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0196.jpg",
+   "sha256": "27b013e345e0c866dc40e34a7940145bb2f4379e7820895a49ad8bc96e696893",
+   "category": "problem",
+   "draft_label": [
+    "leak"
+   ],
+   "draft_facts": "not a home",
+   "problem_locations": [
+    {
+     "region": "bucket and wet-floor sign under a leaking ceiling in a station hall"
+    }
+   ],
+   "source_caption": "The ceiling at the Vienna train station was leaking",
+   "source_url": "https://www.flickr.com/photos/82365211@N00/2699518228",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/82365211@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0259",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0259.jpg",
+   "sha256": "b304b3d4004e79fbde63f3e2262d3b2379fa25189c14957e8408f8a2301251b6",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "caption: pinhole leak shoots hole through drywall",
+   "problem_locations": [
+    {
+     "region": "ragged hole in a yellow drywall surface with water staining around it, centre"
+    }
+   ],
+   "source_caption": "Pinhole leak shoots hole through drywall",
+   "source_url": "https://www.flickr.com/photos/74163253@N00/3104786247",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/74163253@N00",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0792",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0792.jpg",
+   "sha256": "535970e41eb819c9995c5d9933946ceb409c37e4499515f54a092d97f55b6f04",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=american cockroach; indoors; apartment bathroom per caption",
+   "problem_locations": [
+    {
+     "region": "american cockroach on tiled bathroom wall, centre"
+    }
+   ],
+   "source_caption": "Nocturnal visitor to apartment bathroom.",
+   "source_url": "https://www.inaturalist.org/observations/329448147",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "inaturalist:2883211",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0498",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0498.jpg",
+   "sha256": "864698abc0df30a0672a710fd53fdfbff1d37b7c3edc2f39a3b006582b192e17",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=over 30 sq ft",
+   "problem_locations": [
+    {
+     "region": "hallway walls blotched with dark mould leading to a doorway"
+    }
+   ],
+   "source_caption": "New Orleans after Hurricane Katrina: Hallway of flood damaged home in Navarre neighborhood, with large blooms of toxic mold on walls.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:WestendToxicHallway.jpg",
+   "license": "CC BY 2.5",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Infrogmation",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0072",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0072.jpg",
+   "sha256": "cb7b99fae9082a5b9efbda2a49ba3821c32b43f3d6a4805ab2bacf82c9cb8f03",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=unknown",
+   "problem_locations": [
+    {
+     "region": "scattered black mould spots across a white wall"
+    }
+   ],
+   "source_caption": "abundance of stains",
+   "source_url": "https://www.pexels.com/photo/abundance-of-stains-18063447/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:thepaintedsquare",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0122",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0122.jpg",
+   "sha256": "187679a5355a76ac218005c76126bda3fa97b22522bf2757e93f79f96b6d8b68",
+   "category": "problem",
+   "draft_label": [
+    "leak"
+   ],
+   "draft_facts": "area about one tile; drop ceiling",
+   "problem_locations": [
+    {
+     "region": "large brown water stain on a white acoustic ceiling tile near the corner, upper centre"
+    }
+   ],
+   "source_caption": "Damage of a ceiling panel caused by a leaking pipe",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ceiling_water_damage.jpg",
+   "license": "CC BY 3.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Atomicdragon136",
+   "needs_mold_bin": false,
+   "picked_because": "core:leak"
+  },
+  {
+   "id": "med-0801",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0801.jpg",
+   "sha256": "4c08ec0e48526e08de15811b7a705af123c590e628612e3a00ad4e5599e4acba",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=german cockroach (dead); indoors; infested house per caption",
+   "problem_locations": [
+    {
+     "region": "dead german cockroach on its back on striped fabric, centre"
+    }
+   ],
+   "source_caption": "Found in a german roach infested house.",
+   "source_url": "https://www.inaturalist.org/observations/259235452",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "inaturalist:7038147",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0812",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "local/images/med-0812.jpg",
+   "sha256": "368352d8287674219c3e5f2365e19fa7d5b65dfc6dcffac40f634fa5a447aaaa",
+   "category": "problem",
+   "draft_label": [
+    "mold"
+   ],
+   "draft_facts": "area=diffuse speckling over upper shower enclosure; home bathroom (toiletries, rubber duck)",
+   "problem_locations": [
+    {
+     "region": "faint dark mould speckles on upper shower walls and ceiling corner above curtain rod, centre"
+    }
+   ],
+   "source_caption": "Shower mold",
+   "source_url": "https://www.flickr.com/photos/14521465@N00/2767485469",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/14521465@N00",
+   "needs_mold_bin": true,
+   "picked_because": "core:mold"
+  },
+  {
+   "id": "med-0808",
+   "section": "core-photos",
+   "media_type": "image",
+   "file": "images/med-0808.jpg",
+   "sha256": "8544a77d75b28341b44dafb427c4e4879e55ee352c6efce34d5331881ef630b5",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=house mouse (trapped); indoors; caught inside house per caption",
+   "problem_locations": [
+    {
+     "region": "snap trap with caught mouse on wooden counter edge, centre"
+    }
+   ],
+   "source_caption": "Another one. This one caught inside the house.",
+   "source_url": "https://www.inaturalist.org/observations/47061347",
+   "license": "CC BY",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "inaturalist:58314",
+   "needs_mold_bin": false,
+   "picked_because": "core:pests"
+  },
+  {
+   "id": "med-0334",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0334.jpg",
+   "sha256": "0944f578d2289f7c658f59245c1e6572710a55093146f1b4c9321c67d8281bb2",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "no pests visible; kitchen",
+   "problem_locations": [
+    {
+     "region": "clean grey kitchen counter with sink and under-cabinet lights, whole frame"
+    }
+   ],
+   "source_caption": "real estate, interior, house, luxury, sofa, living room, table, floor, wooden, chair, decor, pillow, cabinet, bed room, bathroom, kitchen, view, window, art, design, hallway, lamp, carpet, shelf, home",
+   "source_url": "https://pixabay.com/photos/real-estate-interior-house-luxury-8589981/",
+   "license": "Pixabay license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pixabay:23555986",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0309",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0309.jpg",
+   "sha256": "6adc6e62095cfc40cd39c3ad106f0671f80f77a48db2541b1f350253164290fe",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "mirror over sink in bathroom",
+   "source_url": "https://www.pexels.com/photo/mirror-over-sink-in-bathroom-15456260/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Mirza Farhan",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0166",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0166.jpg",
+   "sha256": "220645f65524deba460d5673e74d6b02419d4d33e04559d3443f01344a746a3d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern minimalist living room interior design",
+   "source_url": "https://www.pexels.com/photo/modern-minimalist-living-room-interior-design-29252368/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Mateusz Pielech",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0630",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0630.jpg",
+   "sha256": "66b3eebb677c117e0d173df4822bf1f179a1befb88eccf96c07daaebd717136e",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "UrbaneApts / One Bedroom / Main",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3184148978",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0207",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0207.jpg",
+   "sha256": "95d1747f1b8982de99c9d8e038d908218f793e8698161209e233244f3ed59076",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Custom built-in storage systems",
+   "source_url": "https://www.flickr.com/photos/25186605@N04/17336941525",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/25186605@N04",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0548",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0548.jpg",
+   "sha256": "650e07dd90519fdbc89ce5ac04d2e369f67ffae65bb43bbfd8ca7a36331cc56a",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact window guard (exterior grille); Charleston SC",
+   "problem_locations": [
+    {
+     "region": "ground-floor window with intact iron window guard and flower box"
+    }
+   ],
+   "source_caption": "Red-orange window box with iron window guard, Church Street, Charleston, SC",
+   "source_url": "https://www.flickr.com/photos/28643687@N08/29171329510",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/28643687@N08",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0439",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0439.jpg",
+   "sha256": "051590a78067557f046614fb218443a7418ba3ce363dac35a44edc1de2f8e79b",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern apartment corridor with wooden door",
+   "source_url": "https://www.pexels.com/photo/modern-apartment-corridor-with-wooden-door-39338441/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Mateusz Pielech",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0461",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0461.jpg",
+   "sha256": "3e523dcc53b9e9d2537b023fd2815d33c1306b202670db264e54cc0cccd8e8d6",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Remodeled Living Room (from dining room)",
+   "source_url": "https://www.flickr.com/photos/30281826058@N01/2072557684",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/30281826058@N01",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0458",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0458.jpg",
+   "sha256": "34eda5254a5f3be30d6e76c47d5e861a368774676fc77f4cb1b912b596b21350",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "My new living room, Odijk, Netherlands - 290",
+   "source_url": "https://www.flickr.com/photos/47035764@N03/16506169449",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/47035764@N03",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0167",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0167.jpg",
+   "sha256": "fdf7c21e83836f4a8eafed64202d499cb732881604d1fc8effd93754d02a0423",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "sofa and plants in a living room",
+   "source_url": "https://www.pexels.com/photo/sofa-and-plants-in-a-living-room-7851903/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Gabriela Pons",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0474",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0474.jpg",
+   "sha256": "a3c81587a43077ecd2355143aba044ecc3a87ce3eb0408c8ec78a9d1cdc1e78c",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for wall-ceiling-damage: unfinished but sound drywall",
+   "problem_locations": [
+    {
+     "region": "new drywall with taped and mudded seams in an empty room"
+    }
+   ],
+   "source_caption": "B&B / Apartment bedroom",
+   "source_url": "https://www.flickr.com/photos/17187321@N00/1404295762",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/17187321@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0770",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0770.jpg",
+   "sha256": "4c49f7216ca944789c4188e5f5c7660604eae35adc6274f8a9e25aa6926374c3",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact CO alarm",
+   "problem_locations": [
+    {
+     "region": "intact carbon monoxide alarm on wall, green light on"
+    }
+   ],
+   "source_caption": "co alarm",
+   "source_url": "https://www.flickr.com/photos/60436643@N00/2041855113",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/60436643@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0488",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0488.jpg",
+   "sha256": "44bb91175374219c5453cc14f0b14c6743a1591600a799fb346d625c4d8ab834",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Apartment - Kitchen - DSC01709_ep",
+   "source_url": "https://www.flickr.com/photos/13484951@N00/19557771088",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/13484951@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0501",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0501.jpg",
+   "sha256": "ff0c692fcce5c0f6831bde4f2657dc617a91c0745528cb8472156c8af2593ba4",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector; hotel (caption: Rauchmelder im Hotel Ibis Budget Graz)",
+   "problem_locations": [
+    {
+     "region": "intact ceiling-style fire detector below warning sign"
+    }
+   ],
+   "source_caption": "Rauchmelder im Hotel Ibis Budget Graz",
+   "source_url": "https://commons.wikimedia.org/wiki/File:18-05-31-graz_RRK3233.jpg",
+   "license": "GFDL 1.2",
+   "committable": "unsure",
+   "residential": "no",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Ralf Roletschek",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0694",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0694.jpg",
+   "sha256": "f2feb496424494dcb20528c18df40aa9791361a2ab487bbba69940a1e87c9db2",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for smoke-co-detector: alarm strobe, not a detector",
+   "problem_locations": [
+    {
+     "region": "red fire alarm strobe on hallway wall"
+    }
+   ],
+   "source_caption": "Fire Strobe",
+   "source_url": "https://www.flickr.com/photos/25132305@N05/3799701288",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "no",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/25132305@N05",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0561",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0561.jpg",
+   "sha256": "ff2d7bf983bff109faa4970e278d7f0ecf18939de821b0bc6b3ebdbaf6b01e1d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector; basement",
+   "problem_locations": [
+    {
+     "region": "intact combination smoke/CO alarm mounted near wood joist and insulation, lower left"
+    }
+   ],
+   "source_caption": "A modern smoke detector -a",
+   "source_url": "https://www.flickr.com/photos/55289779@N00/8312336010",
+   "license": "CC0 1.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/55289779@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0691",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0691.jpg",
+   "sha256": "742e7fb93cea3e34d0c36380b94f728a208d54061a4674e47a2925f347840c70",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector (caption: Apartment fire alarm in Japan)",
+   "problem_locations": [
+    {
+     "region": "intact apartment fire alarm (Panasonic) on ceiling with red indicator"
+    }
+   ],
+   "source_caption": "Apartment fire alarm in Japan, Panasonic",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Apartment_fire_alarm_in_Japan,_Panasonic.jpg",
+   "license": "CC0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Syced",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0292",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0292.jpg",
+   "sha256": "9b98fba62d7f64cd473b9c8809ce3f1ef771a14481532c953875bfe28e5b378d",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for wall-ceiling-damage: repair in progress",
+   "problem_locations": [
+    {
+     "region": "drywall hole filled with a new patch piece and compound, not yet painted"
+    }
+   ],
+   "source_caption": "Patching a hole in the drywall - part ii",
+   "source_url": "https://www.flickr.com/photos/46126365@N00/291046189",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/46126365@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0598",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0598.jpg",
+   "sha256": "4a27c9557e64b12e094d4fa408b2b3187bc39d8e9c96ff91033c2dce317733fc",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for heat-hot-water: the 16.0C reading is the OUTDOOR sensor (switch at OUT)",
+   "problem_locations": [
+    {
+     "region": "in-out door thermometer with switch set to OUT showing 16.0C"
+    }
+   ],
+   "source_caption": "In-out door thermometer, temperature in Moscow at 3:05 pm on the 6th of November, 2013",
+   "source_url": "https://commons.wikimedia.org/wiki/File:In-out_door_thermometer,_Moscow,_2013-11-06.JPG",
+   "license": "CC BY-SA 3.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Brateevsky",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0211",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0211.jpg",
+   "sha256": "29d0c56a9e27c24c724383cc360f17ea606a289badc48e4e392c66a143857588",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for mold and leak stains: deliberate finish",
+   "problem_locations": [
+    {
+     "region": "mottled grey microcement wall with display niches"
+    }
+   ],
+   "source_caption": "figurines and a vase in the niches of a wall covered with decorative grey venetian plaster",
+   "source_url": "https://www.pexels.com/photo/figurines-and-a-vase-in-the-niches-of-a-wall-covered-with-decorative-grey-venetian-plaster-18533258/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:name:AnnRoth 20",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0459",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0459.jpg",
+   "sha256": "85721cad6afd333e1ed6a8019b2e2af067df95d4fe1abb14e43cc0aab762f15d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "New living room #1",
+   "source_url": "https://www.flickr.com/photos/19026588@N00/2086268311",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/19026588@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0277",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0277.jpg",
+   "sha256": "d40d40d924102f7738803c52bbb722e08b43d84f9778487a1a13d90145eff9b8",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests (plastic cockroach per title)",
+   "problem_locations": [
+    {
+     "region": "plastic toy cockroach on blue and white fabric, centre"
+    }
+   ],
+   "source_caption": "Tim, the plastic cockroach",
+   "source_url": "https://www.flickr.com/photos/24174786@N00/52995754",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/24174786@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0179",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0179.jpg",
+   "sha256": "90314cc74a1b4992e52900f5911afa6c5bfdba8fe8ae8562ff182118bd89d62a",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "kitchen interior with white tiles and furniture",
+   "source_url": "https://www.pexels.com/photo/kitchen-interior-with-white-tiles-and-furniture-19966764/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Alex Tyson",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0468",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0468.jpg",
+   "sha256": "3d7ebbeaa266d075018ed4967242855e289316fabacc8ad55e349f3a9eef782d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Apartment - Bedroom - DSC01708_ep",
+   "source_url": "https://www.flickr.com/photos/13484951@N00/19123228734",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/13484951@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0481",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0481.jpg",
+   "sha256": "521be69fae7bb723657bc42046f4b24975094bfc629a2abd9c823f1a5e35fff5",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Sands Apartments - Kitchen Appliances",
+   "source_url": "https://www.flickr.com/photos/41894178767@N01/5414637456",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/41894178767@N01",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0234",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0234.jpg",
+   "sha256": "03da0c688cf849b21560af9741cc3626a660a44015dbd47312fb24225540e8df",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern minimalist home hallway interior design",
+   "source_url": "https://www.pexels.com/photo/modern-minimalist-home-hallway-interior-design-39338478/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Mateusz Pielech",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0562",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0562.jpg",
+   "sha256": "c144508a9ecd207b909db8583edc6004ec23780c442387df5bde19992cfb41c4",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector",
+   "problem_locations": [
+    {
+     "region": "intact detector on textured ceiling, close-up"
+    }
+   ],
+   "source_caption": "Smoke detector",
+   "source_url": "https://www.flickr.com/photos/50318388@N00/2488952136",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/50318388@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0574",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0574.jpg",
+   "sha256": "7507bddce9b5f32d20a8fb9f819da4edb51e7047758b1a811f663b567364c8eb",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for window: condensation, not broken glass",
+   "problem_locations": [
+    {
+     "region": "old white-framed multi-pane window with heavy condensation and drips, panes intact"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.pexels.com/photo/30695799/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:pexels-p-30695799",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0436",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0436.jpg",
+   "sha256": "605754ecdf3635423a632033892f99cd9c0a3de073ac09c5030c94e40232f4a4",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "a modern kitchen with black sink and countertop",
+   "source_url": "https://www.pexels.com/photo/a-modern-kitchen-with-black-sink-and-countertop-20604660/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:TurnKey Apartments",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0084",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0084.jpg",
+   "sha256": "786c9d3956629610f3a2865ad48b2a17ded722b9cf69a24944cea2769a09eed8",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "interior design of shower",
+   "source_url": "https://www.pexels.com/photo/interior-design-of-shower-19980232/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Alex Tyson",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0085",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0085.jpg",
+   "sha256": "eb5f7852842c3954cd6d4f831006ef3aad9150f540fa1fc435cb4bf524ef1179",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "toilet seat in bathroom in black and white",
+   "source_url": "https://www.pexels.com/photo/toilet-seat-in-bathroom-in-black-and-white-19980239/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Alex Tyson",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0627",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0627.jpg",
+   "sha256": "603f5c17d333f1141fadcee485f06d3a66e2675a22b6f616035721670c596797",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "UrbaneApts / One Bedroom / Main",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3183317105",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0748",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0748.jpg",
+   "sha256": "94940c7272261ab588f3d7a24f3f65c13c22e20ff52a9c1debcd484a59f20253",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for window: shattered tempered safety glass, likely vehicle or door glass, not clearly a home window",
+   "problem_locations": [
+    {
+     "region": "crazed safety glass pattern with pavement visible behind"
+    }
+   ],
+   "source_caption": "safety glass, shattered, pavement visible through it",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Brokensafetyglasswindow.JPG",
+   "license": "CC BY-SA 4.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "commons:Mercurywoodrose",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0282",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0282.jpg",
+   "sha256": "7d3cef0a409d252b52284152c8dd0ae73eff2dc4a410480f87f4303af9460f39",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests (ground beetle, not a household pest; resembles a cockroach); indoors; kitchen per caption",
+   "problem_locations": [
+    {
+     "region": "dark ground beetle (Amara aenea) on speckled kitchen counter or floor, centre"
+    }
+   ],
+   "source_caption": "Kitchen interloper",
+   "source_url": "https://www.inaturalist.org/observations/40184550",
+   "license": "CC BY-NC",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "inaturalist:464262",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0312",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0312.jpg",
+   "sha256": "e2549c02732821420d2a92040748261c050706a3f6f1f6065add39b11faf8c7a",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern indoor apartment hallway with railings",
+   "source_url": "https://www.pexels.com/photo/modern-indoor-apartment-hallway-with-railings-33806350/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Valentin Ivantsov",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0771",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0771.jpg",
+   "sha256": "b85056d2e6de4fd862592d91eaa865cf1b156bae3459870ee906e0ec828a941a",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector",
+   "problem_locations": [
+    {
+     "region": "wired smoke detector on white wall/ceiling corner with red cable"
+    }
+   ],
+   "source_caption": "Smoke Alarm",
+   "source_url": "https://www.flickr.com/photos/39528829@N06/8495675177",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/39528829@N06",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0749",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0749.jpg",
+   "sha256": "ac42e6e403bec59af7562c590ed8bb4ade75a1752bf3d5d4d36c56a19ff7ade2",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact window bars (window guard) on old building",
+   "problem_locations": [
+    {
+     "region": "window with intact iron bars and wooden shutters"
+    }
+   ],
+   "source_caption": "Cristal roto de ventana de la Alquería del Foraster; edificación en el parque de Marchalenes, Valencia (España).",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cristal_roto_de_ventana_-_Alqueria_del_Foraster.JPG",
+   "license": "CC BY-SA 4.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Dorieo",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0155",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0155.jpg",
+   "sha256": "92b536da0ef2a64eaa1d58279ea6921465f067639fc2f0b886fa4b255ad09175",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "a person holding a knob on a gas stove",
+   "source_url": "https://www.pexels.com/photo/a-person-holding-a-knob-on-a-gas-stove-8172864/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:kindelmedia",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0486",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0486.jpg",
+   "sha256": "36b665e04f1103e9dc8c84c3618ee497f15117c1b41425af9663ec4751da9c5e",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Apartment kitchen",
+   "source_url": "https://www.flickr.com/photos/82365211@N00/5952728275",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/82365211@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0205",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0205.jpg",
+   "sha256": "75266847e231cef6e2703a6df0639cb6943f17a0d52397557d8b5ce2980b90fb",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Recycled Wood Flooring",
+   "source_url": "https://www.flickr.com/photos/25186605@N04/16714470544",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/25186605@N04",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0490",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0490.jpg",
+   "sha256": "af93580f7556605cb657762e7a5994fb5b6a6ba5087d2244d6b73a4e719cf3d9",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Tokyo apartment kitchen",
+   "source_url": "https://www.flickr.com/photos/31295868@N06/14133883884",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/31295868@N06",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0177",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0177.jpg",
+   "sha256": "d039d66172dae2c0b54c47f9ae8ff61ea22fb1d52bf265797634bfd8ab187f72",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "minimalist kitchen furniture",
+   "source_url": "https://www.pexels.com/photo/minimalist-kitchen-furniture-7303726/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:cup-of-couple",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0572",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0572.jpg",
+   "sha256": "9d073459cf570a1380ac74f2fdce4bd14d5329fb53c8a887f827b194a2edb330",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for window: condensation on intact glass",
+   "problem_locations": [
+    {
+     "region": "multi-pane window covered in condensation, frame intact, centre"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.pexels.com/photo/6431960/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:pexels-p-6431960",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0533",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0533.jpg",
+   "sha256": "0b391ec48344457efa1a3c827541f5b19ee7ded26318dc607f5e53ee643e8cf6",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector",
+   "problem_locations": [
+    {
+     "region": "intact smoke detector on textured ceiling, left"
+    }
+   ],
+   "source_caption": "smoke detector",
+   "source_url": "https://www.flickr.com/photos/86176189@N00/3146475333",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/86176189@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0628",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0628.jpg",
+   "sha256": "b8602d7e8d105840c3ebc2130449c9c8f63e7c01074df74fecb1e1fb2141d97a",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "UrbaneApts / One Bedroom / 14 mile Crooks",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3183655792",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0582",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0582.jpg",
+   "sha256": "3f468e95ccf6692533e92ff49cc287954584bcfb96d7740a252a34759224d07d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "reading=24.0C normal",
+   "problem_locations": [
+    {
+     "region": "programmable thermostat showing ROOM TEMP 24.0, centre"
+    }
+   ],
+   "source_caption": "Honeywell thermostat",
+   "source_url": "https://www.flickr.com/photos/151653494@N04/33174362881",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/151653494@N04",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0638",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0638.jpg",
+   "sha256": "93fba2a3d28f10294084fc9f2ba30c4fdfd82e837f624b7b88143b60add01a78",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for mold: same spot after remediation",
+   "problem_locations": [
+    {
+     "region": "the same bathroom ceiling after cleaning and repainting, no mould visible"
+    }
+   ],
+   "source_caption": "Bathroom ceiling - AFTER",
+   "source_url": "https://www.flickr.com/photos/89953410@N00/1779849011",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/89953410@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0629",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0629.jpg",
+   "sha256": "cbb214b1a54124e5b12b0125954ddb7097cc9956f99ce0276577674753821c94",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "UrbaneApts / One Bedroom / Main",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3183308703",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0168",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0168.jpg",
+   "sha256": "19868476bc1b7d2d795dc13137e1468fc76ada764f23d1e5f2400ecc246db5e3",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "wide angle shot of an apartment with brown leather furniture",
+   "source_url": "https://www.pexels.com/photo/wide-angle-shot-of-an-apartment-with-brown-leather-furniture-19966812/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Alex Tyson",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0549",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0549.jpg",
+   "sha256": "7c332dc5d4390def94ea5411381d6b023d8ec908e634e6f947bb14dc76fda75d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact window guards (exterior)",
+   "problem_locations": [
+    {
+     "region": "two townhouse windows with intact curved iron window guards, Greenwich Village NYC"
+    }
+   ],
+   "source_caption": "Gracefully sculpted iron window guards, Christopher Street, Greenwich Village, New York",
+   "source_url": "https://www.flickr.com/photos/28643687@N08/33151175785",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/28643687@N08",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0634",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0634.jpg",
+   "sha256": "c41e8f8ad750935f2f2cfce8ca109101d9c0e67ac9b603b4deb03fbd6aeeb7d3",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Lansdowne Apartment Interior",
+   "source_url": "https://www.flickr.com/photos/51207064@N00/6115015779",
+   "license": "CC BY-ND 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/51207064@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0438",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0438.jpg",
+   "sha256": "3e033e898ce69a5e19f188914d64a7493e7b0f1547d8b07d78c16efc014a38ad",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "open door with windows in house",
+   "source_url": "https://www.pexels.com/photo/open-door-with-windows-in-house-19966758/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Alex Tyson",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0632",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0632.jpg",
+   "sha256": "538bb98e7c18305f7a756d23e6a471277e494f58442b8e32589f59681074d5e9",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Urbane Apts / One Bedroom / Breckenridge",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3525273951",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0178",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0178.jpg",
+   "sha256": "9a7788c226e320b6bf8c55200e6a54af99f31af5314111aef3435df56c1cc130",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern kitchen interior with granite countertops",
+   "source_url": "https://www.pexels.com/photo/modern-kitchen-interior-with-granite-countertops-37771016/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Nilzo Farías",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0429",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0429.jpg",
+   "sha256": "cb20ba661361f58fb3ea8e32aeb23b01bf0856065590ba6583e6707ed932e587",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "door to bathroom",
+   "source_url": "https://www.pexels.com/photo/door-to-bathroom-15743371/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:Ushindinamegabe",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0090",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0090.jpg",
+   "sha256": "b14e4b01f4d7096a317b2d73d58bbd3d04cdc68299fae9873f95d21eeb7789d4",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for mold",
+   "problem_locations": [
+    {
+     "region": "condensation and dirt streaks on window glass, not mould"
+    }
+   ],
+   "source_caption": "brown wooden framed glass window",
+   "source_url": "https://www.pexels.com/photo/brown-wooden-framed-glass-window-12693323/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:name:Rene Slot",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0631",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0631.jpg",
+   "sha256": "8761f41eee311db61d65360366be15577802c635a686f97a887be67927e1cc2e",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "UrbaneApts / One Bedroom / Main",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3184145172",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0457",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0457.jpg",
+   "sha256": "eee79ae32c3b655ec956445033a55081e51d88e7db3de30c38e79e65c1b1d654",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "'Willaimsburg View', United States, New York, New York City, Brooklyn, Williamsburg",
+   "source_url": "https://www.flickr.com/photos/44028103@N07/12889291825",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/44028103@N07",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0600",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0600.jpg",
+   "sha256": "5a50b7408bbf305fa0cad36e8a1609328fa8b6c874547636fd0d1fa859800a40",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for smoke-co-detector: aspirating sampling pipe, not a missing detector; commercial building",
+   "problem_locations": [
+    {
+     "region": "red VESDA smoke detector sampling pipe with caution label along ceiling, no detector head visible"
+    }
+   ],
+   "source_caption": "Demonstration of a Clean Agent Fire Suppression System VESDA smoke detector sampling pipe Afton Historical Museum Afton, Minnesota, USA",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Afton_Historical_Museum_Clean_Agent_Fire_Suppression_System_Demonstration-07.jpg",
+   "license": "CC BY-SA 4.0",
+   "committable": "yes",
+   "residential": "no",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Myotus",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0504",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0504.jpg",
+   "sha256": "5dcdfe25b370b55542ff0a25d1ec99c53ba12b6d695745dff2ec21bb7086d8e7",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for heat-hot-water; reading=22.3 (unit not shown; likely C) normal",
+   "problem_locations": [
+    {
+     "region": "wall thermostat display showing 22.3, centre"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.pexels.com/photo/7616651/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:pexels-p-7616651",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0532",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0532.jpg",
+   "sha256": "d901802a11c284516b809756f420a641aec64793546bce8c96dc43f26c28dde1",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector",
+   "problem_locations": [
+    {
+     "region": "intact smoke detector on ceiling next to light fixture"
+    }
+   ],
+   "source_caption": "light and smoke detector",
+   "source_url": "https://www.flickr.com/photos/86176189@N00/4221967901",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/86176189@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0328",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0328.jpg",
+   "sha256": "dd0f6ed645336af44d5c8f97b94badbd4fe35c8d486cb69aff911ffc72ae9f01",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests (dark lint clump, could read as a nest or dead rodent)",
+   "problem_locations": [
+    {
+     "region": "clump of dark grey washer-dryer lint on granite counter next to sink, centre"
+    }
+   ],
+   "source_caption": "LG combo washer dryer lint at 8mo",
+   "source_url": "https://www.flickr.com/photos/67542112@N00/5720657580",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/67542112@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0465",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0465.jpg",
+   "sha256": "cc451c7a198501606bcbaefafa3d0bbe95f36c8e6b2b6e3380bddcba7b562e27",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Sands Apartments - Bedroom Closet",
+   "source_url": "https://www.flickr.com/photos/41894178767@N01/5414641938",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/41894178767@N01",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0460",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0460.jpg",
+   "sha256": "3b921b888fc7455c23536bd5090fbde7c686b122968cf9d6069cecbb254f9c4d",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "My new apartment, Odijk, Netherlands - 282",
+   "source_url": "https://www.flickr.com/photos/47035764@N03/16578633425",
+   "license": "CC BY-NC-ND 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/47035764@N03",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0769",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0769.jpg",
+   "sha256": "0915f4dd548dd92416c6938a71398290d37443d743dc4eaf798f9962de41817c",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact CO alarm in a home (caption: CO Detector)",
+   "problem_locations": [
+    {
+     "region": "Kidde plug-in CO alarm reading 0 on a window sill next to foam weatherstrip"
+    }
+   ],
+   "source_caption": "Triptych: Fire and Safety: CO Detector",
+   "source_url": "https://www.flickr.com/photos/42595976@N06/24695533570",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/42595976@N06",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0539",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0539.jpg",
+   "sha256": "bd49066d9aa42931e2bd1bc68f1a390bcb63ef32eb4b6fa63b81f739a66a65f4",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact CO alarm",
+   "problem_locations": [
+    {
+     "region": "intact carbon monoxide alarm on ceiling, centre"
+    }
+   ],
+   "source_caption": "carbon monoxide detector",
+   "source_url": "https://www.flickr.com/photos/17974986@N00/36803100486",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/17974986@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0464",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0464.jpg",
+   "sha256": "070d80f19020926c77af15e2c1958a8204ad8b6cfdcf6a898ff6ac4f9f6a21bf",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Sands Apartments - Bedroom",
+   "source_url": "https://www.flickr.com/photos/41894178767@N01/5414029303",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/41894178767@N01",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0204",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0204.jpg",
+   "sha256": "86dc8619e7edae41306dfffc08fed43c07b58be107dbee2c6bacf423a7444219",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Sustainable Kitchen - Recycled Wood Flooring and Ceiling",
+   "source_url": "https://www.flickr.com/photos/25186605@N04/17336540631",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/25186605@N04",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0324",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0324.jpg",
+   "sha256": "82d7ce2ba0a3a6d9323df8718ff18ecdb80427f69d088c3d296978d3d54eab49",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests (coffee beans scattered like droppings); indoors; kitchen floor",
+   "problem_locations": [
+    {
+     "region": "spilled coffee beans on kitchen floor tiles below wooden cabinet, lower centre"
+    }
+   ],
+   "source_caption": "Coffee Close",
+   "source_url": "https://www.flickr.com/photos/45416094@N02/4355648359",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/45416094@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0692",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0692.jpg",
+   "sha256": "c0c2f171536e7f58d86dab6911cdbe3075bcc57383b0dbbe2e18e88625cd4d2c",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for smoke-co-detector: ceiling speaker, not a detector",
+   "problem_locations": [
+    {
+     "region": "round ceiling speaker grille on textured ceiling, centre right"
+    }
+   ],
+   "source_caption": "Ceiling speaker grill",
+   "source_url": "https://www.flickr.com/photos/12068800@N00/5638390849",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/12068800@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0311",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0311.jpg",
+   "sha256": "86b44563cc5f8477ce98a543c070f5038cc2b7eb520d57f79d1f8ee00570668b",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern kitchen interior with granite countertops",
+   "source_url": "https://www.pexels.com/photo/modern-kitchen-interior-with-granite-countertops-37771026/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Nilzo Farías",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0558",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0558.jpg",
+   "sha256": "3a358a12dabdd3dca85f3100b422e4f0873c6628061a0dcf4a6e6597abd623da",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for smoke-co-detector: dirty but intact detector",
+   "problem_locations": [
+    {
+     "region": "ceiling smoke detector with cobwebs and dust but intact, centre"
+    }
+   ],
+   "source_caption": "smoke detector",
+   "source_url": "https://www.flickr.com/photos/49968232@N00/6266965",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/49968232@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0482",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0482.jpg",
+   "sha256": "baa44c711eee8b6814b79c4f8ab811b2f149d2024d69e81b29f43995cc395b69",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Apartment - kitchen",
+   "source_url": "https://www.flickr.com/photos/28359281@N07/5170875449",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/28359281@N07",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0338",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0338.jpg",
+   "sha256": "95bf1cfae30fcf549aca653552fd4f32133ac65fdadc28e58df03ff8175a4b6f",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "no pests or droppings visible; under kitchen sink",
+   "problem_locations": [
+    {
+     "region": "under-sink plumbing traps, hoses and valves in a clean cabinet, whole frame"
+    }
+   ],
+   "source_caption": "under the sink, that's where they hide (IMG_6569)",
+   "source_url": "https://www.flickr.com/photos/65154145@N00/3724492356",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/65154145@N00",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0583",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0583.jpg",
+   "sha256": "e36672fac0cb1ae97420c77e5e55bae82d4b7a7c3a235d2bd8c906589938aac0",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "reading=20.0 (likely C) normal",
+   "problem_locations": [
+    {
+     "region": "Vaillant room thermostat showing 20.0 next to blind switch"
+    }
+   ],
+   "source_caption": "Thermostat",
+   "source_url": "https://www.flickr.com/photos/22528972@N05/5299872792",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/22528972@N05",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0327",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0327.jpg",
+   "sha256": "c1d4180e8d8063d89f7dbe656b92f600df1dbc9bbf20d050e8b38aedbed0d96b",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests (coffee grounds resembling droppings); indoors; coffee shop floor per tags",
+   "problem_locations": [
+    {
+     "region": "coffee grounds scattered across tile floor, centre"
+    }
+   ],
+   "source_caption": "Mat Mocha",
+   "source_url": "https://www.flickr.com/photos/14929095@N02/4337230092",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "no",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/14929095@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0444",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0444.jpg",
+   "sha256": "5e1d84474c1646792a06d60a69962d1832ce55dd796cdb68c5f3daa1dba86bd9",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "hallway of a bright modern apartment",
+   "source_url": "https://www.pexels.com/photo/hallway-of-a-bright-modern-apartment-19966785/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Alex Tyson",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0570",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0570.jpg",
+   "sha256": "f3f5d8d2520ab19c12a0db078b144a27b1b7a433fa34f84ddfdbfd6c1f7ae3ee",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector",
+   "problem_locations": [
+    {
+     "region": "intact smoke alarm on ceiling near corner, centre"
+    }
+   ],
+   "source_caption": "In #gigatownnsn smoke alarms will send an alert to the house computer when their batteries need replacing #gigahome",
+   "source_url": "https://www.flickr.com/photos/100087993@N03/12314513353",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/100087993@N03",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0235",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0235.jpg",
+   "sha256": "fd8fbff2847c67157c999471de98a05c2061383b3b3b966dd007a8766dbd6979",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern minimalist interior hallway design",
+   "source_url": "https://www.pexels.com/photo/modern-minimalist-interior-hallway-design-39338477/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Mateusz Pielech",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0317",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0317.jpg",
+   "sha256": "442ccfe66c05ace7320d387caf398cf2ff7d314e6ecdc1f162d3d11d61933f56",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "modern bright kitchen with stainless steel appliances",
+   "source_url": "https://www.pexels.com/photo/modern-bright-kitchen-with-stainless-steel-appliances-40775871/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Peter Vang",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0216",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0216.jpg",
+   "sha256": "26467946a5b97ebe9aed29da1beeba988814a5ece5f01016bcfdef30ea7da19c",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for mold and leak: shadow only",
+   "problem_locations": [
+    {
+     "region": "window-frame shadow on a plain wall"
+    }
+   ],
+   "source_caption": "black and white photo of a wall",
+   "source_url": "https://www.pexels.com/photo/black-and-white-photo-of-a-wall-1687016/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:Phael",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0140",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0140.jpg",
+   "sha256": "dd4aff0f853e478a345d810f0c8f7fb7e40e372d8c2f5a82ecd692f9d5db21f0",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "close up photo of staircase handrail",
+   "source_url": "https://www.pexels.com/photo/close-up-photo-of-staircase-handrail-10719652/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:nikitaxnikitin",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0550",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0550.jpg",
+   "sha256": "65e3766162f4f29d0a1d70381838e07b8d0f84e1ed4775689fcc364b17b3e952",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact window guard",
+   "problem_locations": [
+    {
+     "region": "apartment building windows, right window with intact window guard bars, AC unit in left window, NYC"
+    }
+   ],
+   "source_caption": "Charles Street, Greenwich Village, New York City",
+   "source_url": "https://www.flickr.com/photos/28643687@N08/17226322882",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/28643687@N08",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0579",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0579.jpg",
+   "sha256": "399bfaeb7d87dbd92667caf0ca5ea1cdb058cdd78f4f87faefe32e214f7e72a1",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for heat-hot-water: 16.5 is a heating setpoint, not a measured room temperature",
+   "problem_locations": [
+    {
+     "region": "Nest thermostat in hand showing HEAT SET TO 16.5, centre"
+    }
+   ],
+   "source_caption": "Nest programmable, learning thermostat",
+   "source_url": "https://www.flickr.com/photos/63483222@N03/15793449229",
+   "license": "CC BY-NC-SA 2.0",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/63483222@N03",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0213",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0213.jpg",
+   "sha256": "9b857cee9853299be3545f72e063f69b7bbcdccbb59951bdad6a4c5d1b56344e",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for wall-ceiling-damage: decorative exposed brick",
+   "problem_locations": [
+    {
+     "region": "plaster deliberately cut away to show brick beside a lamp"
+    }
+   ],
+   "source_caption": "cozy corner in rustic istanbul apartment",
+   "source_url": "https://www.pexels.com/photo/cozy-corner-in-rustic-istanbul-apartment-36067079/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "pexels:name:Semiha Kocatürk",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0597",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0597.jpg",
+   "sha256": "f1956e6b4c6609b834f7d493810a6c8c983f61980123eff0094b31748eec9eec",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for heat-hot-water: 62 is the setpoint; room reading=70F normal",
+   "problem_locations": [
+    {
+     "region": "LUX programmable thermostat showing HEAT HOLD, room 70F, setpoint 62F"
+    }
+   ],
+   "source_caption": "Photo by Dennis Murphy, Aston, PA, own work, taken with a Nikon D7100 digital camera, 9/30/2014. Lux Products TX9600TS Universal 7-Day Programmable Touch Screen Thermostat.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Lux_Products_TX9600TS_Thermostat.jpg",
+   "license": "GFDL",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "commons:Dennis Murphy",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0206",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0206.jpg",
+   "sha256": "4c14eac6acb6f6a4f182f169c0cf93951418a2e176da6ece1056fb0209f8152b",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Manna House",
+   "source_url": "https://www.flickr.com/photos/25186605@N04/17336544351",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/25186605@N04",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0383",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0383.jpg",
+   "sha256": "d05012911048379797f076880b90a00b021e46b654505c4540ded39fd3960b88",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "cozy cat resting on a radiator indoors",
+   "source_url": "https://www.pexels.com/photo/cozy-cat-resting-on-a-radiator-indoors-32839381/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:name:Nikos Kazancakis",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0479",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0479.jpg",
+   "sha256": "5d8bf7757addf3a3b756c132af1cd5a81e22910f52cc7453fbfb126734e7353f",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "Sands Apartments - Kitchen Sink and Cupboards",
+   "source_url": "https://www.flickr.com/photos/41894178767@N01/5414636492",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/41894178767@N01",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0633",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0633.jpg",
+   "sha256": "1effdfbd7496b363262c16671a8f95803471ff8a02247294a7ae36d19c2c0574",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "UrbaneApts / One Bedroom / Main",
+   "source_url": "https://www.flickr.com/photos/34170343@N02/3184147708",
+   "license": "CC BY-SA 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "openverse-flickr:https://www.flickr.com/photos/34170343@N02",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0176",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "local/images/med-0176.jpg",
+   "sha256": "96fd63c5ef884d1f399f0b367af752af020efe553e40f9fdc1b8b8cc575a2b75",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "",
+   "problem_locations": [],
+   "source_caption": "kitchen counter with utensils under hanging cupboard",
+   "source_url": "https://www.pexels.com/photo/kitchen-counter-with-utensils-under-hanging-cupboard-6370035/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": null,
+   "group_id": "pexels:skylar-kang",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0615",
+   "section": "negatives",
+   "media_type": "image",
+   "file": "images/med-0615.jpg",
+   "sha256": "c233387f0afa3c5e09ac3e053c97cd1cf5c1e50ca5c08cfd4d4713977a779008",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for heat-hot-water: reading=81F indoor (warm)",
+   "problem_locations": [
+    {
+     "region": "home weather station on kitchen counter showing OUTDOOR 89F and INDOOR 81F"
+    }
+   ],
+   "source_caption": "www.yourbestdigs.com You are free to: Share — copy and redistribute the material in any medium or format Adapt — remix, transform, and build upon the material for any purpose, even commercially. You must give appropriate credit and provide a link to www.yourbestdigs.com home page, or the original post, here: www.yourbestdigs.com/reviews/best-indoor-outdoor-thermome...",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Home_weather_station_on_kitchen_counter_next_to_succulent_(28428117591).jpg",
+   "license": "CC BY 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": null,
+   "group_id": "commons:Your Best Digs",
+   "needs_mold_bin": false,
+   "picked_because": "negatives"
+  },
+  {
+   "id": "med-0287",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0287.mp4",
+   "sha256": "496f677de613b53e16acfcdd358e42048b25eb0357c28739b31bb57895053afe",
+   "category": "problem",
+   "draft_label": [
+    "leak"
+   ],
+   "draft_facts": "active roof leak into apartment, water collected in container; apartment interior",
+   "problem_locations": [
+    {
+     "start_s": 4.2,
+     "end_s": 13.0,
+     "description": "cup/pot on carpet collecting dripping water"
+    },
+    {
+     "start_s": 16.8,
+     "end_s": 67.0,
+     "description": "dark ceiling beside lit ceiling fan where water is dripping from ceiling"
+    },
+    {
+     "start_s": 71.0,
+     "end_s": 83.6,
+     "description": "container on carpet with collected water"
+    }
+   ],
+   "source_caption": "https://www.anetcomputers.com",
+   "source_url": "https://archive.org/details/apartment-roof-leak-2-14-26",
+   "license": "CC BY-NC-ND 4.0",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 83.63,
+   "group_id": "internet:help@anetcomputers.com",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0617",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0617.mp4",
+   "sha256": "37410bfbd07a640d8477aef8892fdfe8005832c0bce327e90e9f6d00fec0d34e",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "low-battery chirp described on screen; detector removed from ceiling for battery change",
+   "problem_locations": [
+    {
+     "start_s": 40.0,
+     "end_s": 44.5,
+     "description": "ceiling smoke alarm with on-screen text one bird-like chirp every 30 to 60 seconds (low-battery signal)"
+    },
+    {
+     "start_s": 45.0,
+     "end_s": 52.5,
+     "description": "same alarm taken off the ceiling, held in hand with battery drawer open"
+    },
+    {
+     "description": "16-25 and 53-62: intact ceiling alarm and dorm/hotel room (no defect)"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.dvidshub.net/video/816853/smoke-detector-safety",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes (dorm/lodging room)",
+   "label_confidence": "medium",
+   "duration_s": 82.26,
+   "group_id": "dvids:Matthew C Clouse and Senior Airman Alexandria Fulton",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0352",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0352.mp4",
+   "sha256": "3b723b4026817180ec58b2845424c6702402b2fe60dcebee9de3136431772bc9",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "crack in wall",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 29.9,
+     "description": "same type of open crack in white plaster wall, vertical framing"
+    }
+   ],
+   "source_caption": "Crack In Concrete Wall Texture",
+   "source_url": "https://www.pexels.com/video/crack-in-concrete-wall-texture-7830152/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": 29.93,
+   "group_id": "pexels:gabby-k",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0625",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0625.mp4",
+   "sha256": "761ce599ea198e67891243dce36e9bbdbe4e0dd640f3648e638331d5843d5b3e",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact CO alarm; on-screen text describes alarm beep patterns",
+   "problem_locations": [
+    {
+     "description": "21-25 and 37-42: plug-in CO alarm on wall outlet, intact"
+    },
+    {
+     "start_s": 42.0,
+     "end_s": 50.0,
+     "description": "CO alarm held in hands (product close-up)"
+    },
+    {
+     "start_s": 50.0,
+     "end_s": 55.0,
+     "description": "CO alarm back on outlet"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.dvidshub.net/video/819983/carbon-monoxide-safety",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": 83.67,
+   "group_id": "dvids:Matthew C Clouse and Senior Airman Alexandria Fulton",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0372",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0372.mp4",
+   "sha256": "d3fab6c4b114d7c241e62ea28594c9fc1f7411037f49f4bc244e44a173f01e00",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "ordinary room with radiator cover",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 30.0,
+     "description": "man stretching in a living room"
+    },
+    {
+     "description": "radiator under window with curtains"
+    }
+   ],
+   "source_caption": "Video of a Man Stretching",
+   "source_url": "https://www.pexels.com/video/video-of-a-man-stretching-7226842/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": 30.04,
+   "group_id": "pexels:thirdman",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0351",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0351.mp4",
+   "sha256": "faa7cb8d293020b48136114d8dcb9215464c4f674efb9ad7146c99670c60ec9d",
+   "category": "problem",
+   "draft_label": [
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "crack in wall",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 27.5,
+     "description": "long open crack running down a white plaster/concrete wall (static close-up)"
+    }
+   ],
+   "source_caption": "A Crack on the Wall",
+   "source_url": "https://www.pexels.com/video/a-crack-on-the-wall-7830155/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "medium",
+   "duration_s": 27.5,
+   "group_id": "pexels:gabby-k",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0856",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0856.mp4",
+   "sha256": "6e52021ac1e36ef6683cec726acfe2c6fbb4f22f507dd78bda64f83b2d34280c",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "clean ordinary apartment (Malaga, Spain)",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 138.7,
+     "description": "tour of a clean holiday apartment: dining area with harbour view 0-20, balcony views 20-40, bathroom 50-70, kitchen 75-100, bedroom/wardrobes 110-138"
+    }
+   ],
+   "source_caption": "I won a one week stay at a GlobalCityBreak apartment in Malaga, Spain in a Facebook competition. If you use our photos, please link to the Europe a la Carte Travel Blog: www.europealacarte.co.uk/blog/ Source: https://www.flickr.com/photos/8026448@N06/5056151193 Uploader: Karen Bryan",
+   "source_url": "https://archive.org/details/Flickr-5056151193",
+   "license": "CC BY-ND 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 138.68,
+   "group_id": "internet:emijrp@gmail.com",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0413",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0413.mp4",
+   "sha256": "74a9a0135c442966ccdeb9286121f83d16a0278a2e6c8fc6587e62023a3c34b5",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests; toy lure on a cat wand, not a real roach or mouse",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 18.4,
+     "description": "dark insect-like lure on a string dragged across parquet floor, white cat chases it"
+    }
+   ],
+   "source_caption": "Playing Catch The Bait With A Cat",
+   "source_url": "https://www.pexels.com/video/playing-catch-the-bait-with-a-cat-6864986/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 18.4,
+   "group_id": "pexels:cottonbro",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0344",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0344.mp4",
+   "sha256": "e21381d26dc17714a32b832d09bce32e85f3898e0646bd3941996ca803ae0271",
+   "category": "problem",
+   "draft_label": [
+    "plumbing-fixture"
+   ],
+   "draft_facts": "dripping faucet",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 25.2,
+     "description": "dark faucet aerator with water drop forming and falling repeatedly (drops visible ~12-23 s)"
+    }
+   ],
+   "source_caption": "Dripping Tap in Close Up",
+   "source_url": "https://www.pexels.com/video/dripping-tap-in-close-up-10811027/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "high",
+   "duration_s": 25.19,
+   "group_id": "pexels:jose-lizardo-2625343",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0851",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0851.mp4",
+   "sha256": "edd839adf65a055a569f219b4894d7e3ca7eef5967d24068ccbcc6bbd6df3fe0",
+   "category": "problem",
+   "draft_label": [
+    "leak"
+   ],
+   "draft_facts": "storm-surge flooding of ground-floor apartments (Hoboken NJ, Hurricane Sandy, per caption); flood water, not a pipe leak",
+   "problem_locations": [
+    {
+     "start_s": 1.6,
+     "end_s": 30.0,
+     "description": "below-street entrance and stairwell of a ground-floor apartment filled with dark floodwater up to the door handles, debris floating, seen from the sidewalk railing"
+    }
+   ],
+   "source_caption": "Every ground floor apartment in Hoboken, NJ was a total loss. This apartment across the street from Fiore's Deli on Adams Street still has water up to the door knobs. The man who lives here almost drowned. He was inside his apartment when a storm surge of 2-feet above street level swept into this neighborhood. The flood waters rushing into his apartment came so fast, and were so strong, that they prevented him from opening his door from the inside. His upstairs neighbors jumped into the flood waters, pried open his door and saved his life. Source: https://www.flickr.com/photos/46704884@N03/8149344513 Uploader: https://www.flickr.com/photos/accarrino/",
+   "source_url": "https://archive.org/details/Flickr-8149344513",
+   "license": "CC BY-ND 2.0",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 31.77,
+   "group_id": "internet:emijrp@gmail.com",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0288",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0288.mov",
+   "sha256": "556d5d1e0099f718162ebcf6c8d03b23c6eaa5fa87e20d1abc0e79eb5d818245",
+   "category": "problem",
+   "draft_label": [
+    "leak",
+    "peeling-paint",
+    "wall-ceiling-damage"
+   ],
+   "draft_facts": "common area hallway (on-screen email says 36 Saint Marks Place NYC water damage in hallways); on-screen HPD violation list mentions leaks and plaster",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 9.0,
+     "description": "hallway wall beside window with water streaks and staining under fresh paint"
+    },
+    {
+     "start_s": 45.0,
+     "end_s": 50.0,
+     "description": "same wall (photo)"
+    },
+    {
+     "start_s": 50.0,
+     "end_s": 53.5,
+     "description": "corner wall with large areas of peeling paint and water-damaged, crumbling plaster"
+    },
+    {
+     "start_s": 10.0,
+     "end_s": 44.0,
+     "description": "screen recordings of emails, 311 notices and HPD violation list (no scene)"
+    },
+    {
+     "start_s": 56.0,
+     "end_s": 101.5,
+     "description": "black screen labelled Audio Playing"
+    }
+   ],
+   "source_caption": "Housing Preservation &amp; Development : Citi Urban Management Housing Code Violations ( Medium )",
+   "source_url": "https://archive.org/details/housing-preservation-and-development-citi-urban-management-housing-code-violations-slumlord",
+   "license": "CC0 1.0",
+   "committable": "yes",
+   "residential": "yes, apartment building hallway (NYC)",
+   "label_confidence": "medium",
+   "duration_s": 101.48,
+   "group_id": "internet:outreach@citiresidents.org",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0368",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0368.mp4",
+   "sha256": "fb948c89dee922430b887ddf22bd077dfc7e8452f8f991ac684bc97a70842823",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "clean ordinary home",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 20.9,
+     "description": "smooth walkthrough of a bright staged house interior (hall, stairs, living and dining area)"
+    }
+   ],
+   "source_caption": "Video of a House Interior",
+   "source_url": "https://www.pexels.com/video/video-of-a-house-interior-7578546/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "high",
+   "duration_s": 20.95,
+   "group_id": "pexels:kindelmedia",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0848",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0848.mp4",
+   "sha256": "94951d0114300a8531080fc0b3b52628f1aa4882acd9657a8fdacbec4219955b",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "clean ordinary apartment, empty",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 385.2,
+     "description": "handheld walkthrough of an empty, clean apartment on move-in day (kitchen 19-60, living room with fireplace 77-115, balcony 115-175, bedrooms and closets 190-330, bathroom ~270, windows)"
+    },
+    {
+     "description": "no defects seen"
+    }
+   ],
+   "source_caption": "Moving to Wisconsin, this is our new apartment the day we moved in.",
+   "source_url": "https://archive.org/details/WestonTrexlerNewApartmentEmpty_0",
+   "license": "CC BY-NC-SA 2.5",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 385.23,
+   "group_id": "internet:westont@gmail.com",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0360",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0360.mp4",
+   "sha256": "8a8102cf5906520df1e0ca8e1d734dd0d9a7fd33ffe7647c6c59787a6f79a762",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=mouse eating stored seeds; looks like shed, porch or bird-feeder area, not clearly a home",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 31.3,
+     "description": "mouse sitting in a bowl of sunflower seeds, wooden surroundings"
+    }
+   ],
+   "source_caption": "Close up of a Mouse Eating Sunflower Seeds",
+   "source_url": "https://www.pexels.com/video/close-up-of-a-mouse-eating-sunflower-seeds-12281161/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "low",
+   "duration_s": 31.3,
+   "group_id": "pexels:stefan-239928581",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0363",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0363.mp4",
+   "sha256": "50d4d25f221338dc2bace6cf6bfb6d543a639c9ccfac1d46dc6f0b846b19dabf",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact radiator with smart valve",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 8.7,
+     "description": "smart thermostatic valve on a white panel radiator, display lit, hand turns valve"
+    }
+   ],
+   "source_caption": "Adjusting Smart Thermostat on Radiator",
+   "source_url": "https://www.pexels.com/video/adjusting-smart-thermostat-on-radiator-35999366/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 8.73,
+   "group_id": "pexels:jakub-bukowski-2159357498",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0414",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0414.mp4",
+   "sha256": "7201b78e2f11a71e584f7e5e6665ae05b37488e5ee02f2a38578423d456b7533",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for pests; cat toy resembling a mouse or bug",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 3.0,
+     "description": "dark furry lure dangling on string over parquet floor"
+    },
+    {
+     "start_s": 3.0,
+     "end_s": 12.4,
+     "description": "cat chasing it"
+    }
+   ],
+   "source_caption": "Playing Bait With A Pet Cat",
+   "source_url": "https://www.pexels.com/video/playing-bait-with-a-pet-cat-6864984/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 12.4,
+   "group_id": "pexels:cottonbro",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0420",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0420.webm",
+   "sha256": "797a368fd2c674a23f15bdb15cbcfa451258a68221a3383969212f100ff259d4",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "detector looks intact; problem (low battery) is only in the audio chirp and on-screen text",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 4.0,
+     "description": "title cards saying this is the sound of a smoke alarm whose battery needs replacing"
+    },
+    {
+     "start_s": 4.0,
+     "end_s": 47.8,
+     "description": "still image of a ceiling smoke detector while the low-battery chirp sounds"
+    }
+   ],
+   "source_caption": "Knowing this sound could save your life - it means replace the battery",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Smoke_detector_alarm_battery_beep.webm",
+   "license": "CC BY-SA 4.0",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "low",
+   "duration_s": 47.78,
+   "group_id": "commons:JoBrodie",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0855",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0855.mp4",
+   "sha256": "37bf52cc9ccfd5344d93593a2d46df051cca01302bc02bb55d3cb43390414769",
+   "category": "problem",
+   "draft_label": [
+    "pests"
+   ],
+   "draft_facts": "pest=rat (brown rat per related upload; UK); outdoors at back of a building",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 30.3,
+     "description": "night-vision camera-trap view of a rat moving on a ledge/shelf beside a building wall with a fire escape and pipes"
+    }
+   ],
+   "source_caption": "Camera Trap worked beautifully, all Rat Trap did was succeed in making rat fatter with Marks & Spencer's best Cornish Cruncher cheese !! :-S Source: https://www.flickr.com/photos/26614168@N00/5864442320 Uploader: https://www.flickr.com/photos/fftang/",
+   "source_url": "https://archive.org/details/Flickr-5864442320",
+   "license": "CC BY-NC 2.0",
+   "committable": "unsure",
+   "residential": "no (building exterior)",
+   "label_confidence": "low",
+   "duration_s": 30.27,
+   "group_id": "internet:emijrp@gmail.com",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0355",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0355.mp4",
+   "sha256": "07bee4521a500b26601fbfd68f18808136a87b1c93747bf7662b65a21e2cab69",
+   "category": "look-alike",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "look-alike for wall-ceiling-damage or peeling-paint; textured painted brick, intact",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 30.0,
+     "description": "painted white brick wall with uneven plaster patch edge"
+    }
+   ],
+   "source_caption": "Detail of White Brick Wall",
+   "source_url": "https://www.pexels.com/video/detail-of-white-brick-wall-7830059/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "unclear",
+   "label_confidence": "low",
+   "duration_s": 30.0,
+   "group_id": "pexels:gabby-k",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0375",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0375.mp4",
+   "sha256": "9014b31713d00db5b7de90ce3431e780f0239c87e76b2004de82eb26c7ae68c0",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "ordinary dim room",
+   "problem_locations": [
+    {
+     "start_s": 0.0,
+     "end_s": 45.5,
+     "description": "dim dining room at sunset, curtains moving at open window"
+    }
+   ],
+   "source_caption": "Moody Indoor Scene at Sunset",
+   "source_url": "https://www.pexels.com/video/moody-indoor-scene-at-sunset-39310418/",
+   "license": "Pexels license",
+   "committable": "unsure",
+   "residential": "yes",
+   "label_confidence": "medium",
+   "duration_s": 45.52,
+   "group_id": "pexels:ozgur-surmeli-124841273",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0626",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0626.mp4",
+   "sha256": "4815908ad4b5da414c44a6382014727664fa9f884d42a75810ea95b3044064d5",
+   "category": "no-problem",
+   "draft_label": [
+    "none"
+   ],
+   "draft_facts": "intact detector being tested",
+   "problem_locations": [
+    {
+     "start_s": 47.0,
+     "end_s": 50.0,
+     "description": "person reaching up to test an intact ceiling smoke/CO detector in a hallway"
+    },
+    {
+     "description": "rest: CO risk montage"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.dvidshub.net/video/770476/carbon-monoxide",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "yes",
+   "label_confidence": "low",
+   "duration_s": 67.07,
+   "group_id": "dvids:Jessie L Perkins",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0619",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0619.mp4",
+   "sha256": "83ff58bb7d570ccd96c3a10e8daa8b039e19e2b58ecbf30aadbc1cf405df7f9b",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "unmounted detectors on table (demonstration); intact ceiling detector at 22-26",
+   "problem_locations": [
+    {
+     "start_s": 16.0,
+     "end_s": 22.0,
+     "description": "two smoke alarms lying loose on a table, not mounted"
+    },
+    {
+     "start_s": 22.0,
+     "end_s": 25.0,
+     "description": "mascot beside an intact ceiling alarm"
+    },
+    {
+     "description": "26: ceiling alarm with tag"
+    },
+    {
+     "start_s": 38.0,
+     "end_s": 42.0,
+     "description": "mascot holding a loose alarm"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.dvidshub.net/video/939030/psa-smoke-alarms-make-them-work-you",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "low",
+   "duration_s": 64.0,
+   "group_id": "dvids:Airman 1st Class Richard Rubio II",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0859",
+   "section": "videos",
+   "media_type": "video",
+   "file": "local/videos/med-0859.mp4",
+   "sha256": "21dd70e9ab83249a9170ca6533b8839a3838488fa36cc06f5b183e139e1b830f",
+   "category": "problem",
+   "draft_label": [
+    "mold",
+    "flooring"
+   ],
+   "draft_facts": "tenant-supplied photos of apartment conditions at Huntington Place Apartments (Brooklyn Park MN, 2022); mould area near shower roughly 1-2 square feet",
+   "problem_locations": [
+    {
+     "start_s": 52.0,
+     "end_s": 53.0,
+     "description": "wall surface with dark speckled growth"
+    },
+    {
+     "start_s": 53.0,
+     "end_s": 55.0,
+     "description": "utility closet with water heater and stained walls (photo cutaway)"
+    },
+    {
+     "start_s": 55.0,
+     "end_s": 57.0,
+     "description": "broken, cracked floor tiles"
+    },
+    {
+     "start_s": 92.0,
+     "end_s": 98.0,
+     "description": "shower head against a wall/ceiling covered with dark mould spots"
+    },
+    {
+     "start_s": 144.0,
+     "end_s": 162.0,
+     "description": "underside of wooden kitchen cabinets (cutaway, defect unclear)"
+    },
+    {
+     "description": "rest: tenant organizers interviewed outdoors"
+    }
+   ],
+   "source_caption": "Huntington Place Residents Organize and Demand Repairs [Archive, July 2, 2022]",
+   "source_url": "https://archive.org/details/huntington-place-residents-organize-and-demand-repairs-2160p",
+   "license": "CC BY-NC-SA 4.0",
+   "committable": "unsure",
+   "residential": "yes (apartment complex)",
+   "label_confidence": "medium",
+   "duration_s": 264.75,
+   "group_id": "internet:info@unicornriot.ninja",
+   "needs_mold_bin": true,
+   "picked_because": "videos"
+  },
+  {
+   "id": "med-0618",
+   "section": "videos",
+   "media_type": "video",
+   "file": "videos/med-0618.mp4",
+   "sha256": "2538017e6461c0527a92ce00c37ab8e76ca4272a8d19ae47681939ee6dcf381e",
+   "category": "problem",
+   "draft_label": [
+    "smoke-co-detector"
+   ],
+   "draft_facts": "detector detached and in hand (demonstration), battery area shown",
+   "problem_locations": [
+    {
+     "start_s": 13.0,
+     "end_s": 41.0,
+     "description": "fire inspector holds a smoke alarm off the ceiling, turns it over, shows the label and battery area"
+    },
+    {
+     "description": "0-13 and 41-54.8: inspector talking"
+    }
+   ],
+   "source_caption": "",
+   "source_url": "https://www.dvidshub.net/video/860046/fire-prevention-smoke-alarm-tips",
+   "license": "public-domain",
+   "committable": "yes",
+   "residential": "unclear",
+   "label_confidence": "low",
+   "duration_s": 54.82,
+   "group_id": "dvids:Sgt. Quang Do",
+   "needs_mold_bin": false,
+   "picked_because": "videos"
+  }
+ ]
+}

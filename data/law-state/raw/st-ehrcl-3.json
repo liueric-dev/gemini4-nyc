@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 3 in ERL law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ERL",
+    "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+    "locationId" : "3",
+    "title" : "Temporary state housing rent commission",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "3",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 3. Temporary state housing rent commission. 1. There is hereby\\ncreated a temporary state commission, to be known as the temporary state\\nhousing rent commission. Such commission shall consist of one\\ncommissioner, to be known as the state rent administrator, who shall be\\nappointed by the governor, by and with the advice and consent of the\\nsenate, and who shall serve during the pleasure of the governor. He\\nshall receive an annual salary to be provided by law. He shall be\\nentitled to his expenses actually and necessarily incurred by him in the\\nperformance of his duties.\\n  2. The commission shall establish and maintain such offices within the\\nstate as the commission may deem necessary, and shall designate one of\\nthem as its principal office. The commission may appoint such officers,\\ncounsel, employees and agents as the commission may deem necessary, fix\\ntheir compensation within the limitations provided by law, and prescribe\\ntheir duties. All employees of the commission shall be appointed in\\naccordance with the provisions of the civil service law and rules.\\n  3. Any officer or employee under federal or municipal civil service\\nselected by the commission may, with the consent of the appropriate\\ngovernmental agency by which he is or has been employed, be transferred\\nwithout further examination or qualification to comparable offices,\\npositions and employment under the commission. Any such officer or\\nemployee who has been appointed to an office or position under the rules\\nand classifications of the state or any municipal civil service\\ncommission, shall retain, upon such transfer, the civil service\\nclassification and status which he had prior to such transfer. Any such\\nofficer or employee who at the time of transfer has a temporary or\\nprovisional appointment shall be subject to removal, examination or\\ntermination as though such transfer had not been made. The commission\\nmay, by agreement with the appropriate federal agency and state civil\\nservice commission, make similar provision for any federal officer or\\nemployee so transferred. Notwithstanding the provisions of any other\\nlaw, any such officer or employee so transferred, pursuant to the\\nprovisions of this section, who is a member or beneficiary under any\\nexisting municipal pension or retirement system, shall continue to have\\nall rights, privileges, obligations and status with respect to such\\nfund, system or systems as are now prescribed by law, but during the\\nperiod of his employment by the commission, all contributions to any\\npension or retirement fund or system to be paid by the employer on\\naccount of such officer or employee, shall be paid by the commission.\\nThe commission may by agreement with the appropriate federal agency,\\nmake similar provisions relating to retirement for any federal officer\\nor employee so transferred.\\n",
+    "parentLocationIds" : [ "-ROOT" ],
+    "parents" : [ {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "-ROOT",
+      "title" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "ROOT",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "2",
+      "title" : "Definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "2",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ERL",
+      "lawName" : "Emergency Housing Rent Control Law 274/46 337/61",
+      "locationId" : "4",
+      "title" : "General powers and duties of the commission",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2021-12-24", "2022-11-25", "2024-05-03", "2024-10-18" ],
+      "docLevelId" : "4",
+      "activeDate" : "2024-10-18"
+    }
+  }
+}

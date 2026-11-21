@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 217 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "217",
+    "title" : "Lighting and ventilation of public halls and stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "217",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 217. Lighting and ventilation of public halls and stairs. 1.  In\\nevery tenement erected after April twelfth, nineteen hundred one, which\\nexceeds four stories in height or is occupied by three families or more\\non any story, every public hall shall have at least one window opening\\ndirectly upon a street, yard or court. Such window shall be located at\\nthe end of the hall and at right angles to its length, with an\\nadditional window in each thirty feet of hall or fraction thereof beyond\\nthe first sixty feet from such end window if the tenement was erected\\nafter April eighteenth, nineteen hundred twelve; or, if the window is\\nnot thus located at the end of the hall, there shall be at least one\\nwindow opening directly upon a street, yard or court in every twenty\\nfeet of the length of the hall or fraction thereof, measured from one\\nend of hall; but the foregoing provisions shall not apply to that\\nportion of an entrance hall between the entrance and the first flight of\\nstairs if the entrance door contains five square feet or more of glazed\\nsurface.\\n  2. When the length of any recess or return off of a public hall in\\nsuch a tenement does not exceed twice its width, no window shall be\\nrequired therein. But wherever the length of a recess or return exceeds\\ntwice its width there shall be an additional window or windows meeting\\nthe requirements for a separate public hall.\\n  3. Except as provided in subdivision four, a tenement erected after\\nApril twelfth, nineteen hundred one, which is four stories or less in\\nheight and occupied by not more than two families on any story shall\\neither have windows in its public halls as above provided or a stairwell\\ntwelve inches or more in width extending from the entrance story to the\\nroof. In such a tenement, except as provided in subdivision four, every\\nentrance door shall contain five square feet or more of glazed surface,\\nand all doors leading from the public halls shall be provided with\\ntranslucent glass panels five square feet or more in area for each door\\nand fixed transoms of translucent glass over each door.\\n  4. Neither such windows nor such a stairwell shall be required in\\ncities of one million or more population in tenements which do not\\nexceed three stories in height or fifty-five feet in depth and which are\\noccupied by not more than one family on any story and in which the\\nstairs descend in a straight and continuous run from the top story to\\nthe entrance story with proper landings at each story. Such tenements\\nshall not be required to have glass panels or transoms in the doors\\nleading from the public halls.\\n  5. In every public hall that is provided with a window or windows in a\\ntenement erected after April twelfth, nineteen hundred one, at least one\\nsuch window shall be at least two feet six inches wide and five feet\\nhigh.\\n  6. In every such tenement there shall be provided, at every floor\\nlevel, a window opening upon a street, yard, court or space above a\\nsetback to light and ventilate every stair. Every such required window\\nshall be of the size required by subdivision five, except that a window\\nopening upon a street need be only four feet high. On the top story a\\nventilating skylight of the same dimensions shall be accepted in lieu of\\na window for that story.\\n  7. In every such tenement there shall be in the roof, directly over\\neach stairwell, a ventilating skylight provided with ridge ventilators\\nhaving an opening of at least forty square inches, or provided with\\nfixed or movable louvres. The roof of every such skylight shall have at\\nleast twenty square feet of glazed surface. If the stairs and public\\nhalls are not provided at each story with windows opening directly to\\nthe outer air, the skylights shall be provided with ridge ventilators\\nand also with fixed or movable louvres or movable sashes.\\n  8. A sash door shall be deemed the equivalent of a window for the\\npurposes of this section if it contains the amount of glazed surface\\nprescribed for such windows.\\n  9. In all old-law tenements the public halls and stairs shall be\\nprovided with such skylights, ventilators, windows in bulkheads or other\\nmeans of lighting and ventilation as may be deemed practicable by the\\ndepartment.\\n  10. All skylights installed in old-law tenements after April\\neighteenth, nineteen hundred twenty-nine, shall be provided with ridge\\nventilators having an opening of at least forty square inches and also\\nwith fixed or movable louvres or with movable sashes. They shall be of\\nsuch size as may be determined to be practicable by the department, and\\nthe roofs of such skylights shall be glazed with plain glass equipped\\nwith suitable wire screen above and below.\\n  11. Whenever a public hall in any old-law tenement four stories or\\nmore in height is not light enough in the daytime to permit a person to\\nread in every part thereof without the aid of artificial light, every\\ndoor at the end of such hall or opening therefrom into a room shall have\\na wire glass panel or panels of an aggregate area of at least four\\nsquare feet; or in lieu thereof such hall may be lighted by a window or\\nwindows opening upon a street or upon a lawful yard, court or shaft,\\nwith the plane of each such window at right angles to the length of the\\nhall. In any such tenement any public hall or stair which is not\\nprovided with a window opening directly upon a street or yard and which\\nis not sufficiently lighted in the opinion of the department shall be\\nprovided by the owner with artificial light, which shall be kept burning\\nat all times.\\n  12. Any part of a public hall that is shut off from any other part of\\nsuch hall by a door or doors shall be deemed a separate hall for the\\npurposes of this section.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "216",
+      "title" : "Rooms in basements and cellars",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "216",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "218",
+      "title" : "Alterations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "218",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 29: New York City Fire Code > Chapter 2: New York City Fire Code > Chapter 10: Means of Egress > 1027.4.1 Incidental furnishings.
+
+1027.4.1 Incidental furnishings.
+A building hallway corridor or elevator lobby may be furnished with a console table, console bench, mirror, and umbrella stand, provided that the minimum required egress width is maintained. All such furnishings must be incidental to hallway use in that the purpose of such furnishings is primarily decorative and/or for the convenience of persons passing through the hallways. Incidental furnishings shall not include furniture used to hold or store clothing or other combustible items, or storage in the hallway of furniture, such as beds and dining room tables, whose primary purpose is not decorative or for the temporary accommodation of passersby.

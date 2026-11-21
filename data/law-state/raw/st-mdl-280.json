@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 280 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "280",
+    "title" : "Legislative findings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "280",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 280. Legislative findings. The legislature hereby finds and declares\\nthat a serious public emergency exists in the housing of a considerable\\nnumber of persons in cities having a population of over one million,\\nwhich emergency has been created by the increasing number of conversions\\nof commercial and manufacturing loft buildings to residential use\\nwithout compliance with applicable building codes and laws and without\\ncompliance with local laws regarding minimum housing maintenance\\nstandards; that many such buildings do not conform to minimum standards\\nfor health, safety and fire protection; that housing maintenance\\nservices essential to maintain health, safety and fire protection are\\nnot being provided in many such buildings; that as a consequence of the\\nacute shortage of housing as found and declared in the emergency tenant\\nprotection act of nineteen seventy-four the tenants in such buildings\\nwould suffer great hardship if forced to relocate; that as a result of\\nthe uncertain status of the tenancy in question the courts have been\\nincreasingly burdened with disputes between landlords and tenants\\nregarding their respective rights and obligations under the existing\\ncircumstances; that some courts have declared such buildings \"de facto\"\\nmultiple dwellings; that illegal and unregulated residential conversions\\nundermine the integrity of the local zoning resolution and threaten loss\\nof jobs and industry; that the intervention of the state and local\\ngovernments is necessary to effectuate legalization, consistent with the\\nlocal zoning resolution, of the present illegal living arrangements in\\nsuch \"de facto\" multiple dwellings, and to establish a system whereby\\nresidential rentals can be reasonably adjusted so that residential\\ntenants can assist in paying the cost of such legalization without being\\nforced to relocate; that in order to prevent uncertainty, hardship, and\\ndislocation, the provisions of this article are necessary and designed\\nto protect the public health, safety and general welfare.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-C",
+      "title" : "Legalization of Interim Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-07-03" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2015-07-03"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "281",
+      "title" : "Definition of \"interim multiple dwelling\"",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "281",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}

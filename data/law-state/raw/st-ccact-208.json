@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 208 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "208",
+    "title" : "Counterclaims",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+    "docLevelId" : "208",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 208. Counterclaims. The court shall have jurisdiction of\\ncounterclaims as follows:\\n  (a) Of any counterclaim the subject matter of which would be within\\nthe jurisdiction of the court if sued upon separately.\\n  (b) Of any counterclaim for money only, without regard to amount.\\n  (c) Of any counterclaim for:\\n  1. the rescission or reformation of the transaction upon which the\\nplaintiff's cause of action is founded, if the amount in controversy on\\nsuch counterclaim does not exceed $50,000; or\\n  2. an accounting between partners after the dissolution of the\\npartnership, where the book value of the partnership assets does not\\nexceed $50,000 and the plaintiff's cause of action arises out of the\\npartnership.\\n  (d) In an action commenced in the housing part by the city department\\ncharged with enforcing the multiple dwelling law, housing maintenance\\ncode, or other state or local laws applicable to the enforcement of\\nproper housing standards, no counterclaim may be interposed or\\nmaintained except if it relates to an action or proceeding specified in\\nsubdivision (a) of § 110 of this act.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "207",
+      "title" : "Small claims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "207",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "209",
+      "title" : "Provisional remedies",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-06-19" ],
+      "docLevelId" : "209",
+      "activeDate" : "2026-06-19"
+    }
+  }
+}

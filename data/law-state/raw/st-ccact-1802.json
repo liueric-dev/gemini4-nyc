@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1802 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1802",
+    "title" : "Parts for the determination of small claims established",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1802",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 1802. Parts for the determination of small claims established.  The\\nchief administrator shall assign the times and places for holding, and\\nthe judges who shall hold, one or more parts of the court in each county\\nfor the hearing of small claims as herein defined, and the rules may\\nregulate the practice and procedure controlling the determination of\\nsuch claims and prescribe and furnish the forms for instituting the\\nsame. There shall be at least one evening session of each part every\\nmonth for the hearing of small claims, provided however, that the chief\\nadministrator may provide for exemption from this requirement where\\nthere exists no demonstrated need for evening sessions. Such practice,\\nprocedure and forms shall differ from the practice, procedure and forms\\nused in the court for other than small claims, notwithstanding any\\nprovision of law to the contrary. They shall constitute a simple,\\ninformal and inexpensive procedure for the prompt determination of such\\nclaims in accordance with the rules and principles of substantive law.\\nThe procedure established pursuant to this article shall not be\\nexclusive of but shall be alternative to the procedure now or hereafter\\nestablished with respect to actions commenced in the court by the\\nservice of a summons. No rule to be enacted pursuant to this article\\nshall dispense with or interfere with the taking of stenographic minutes\\nof any hearing of any small claim hereunder.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1801",
+      "title" : "Small claims defined",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-12-20", "2021-10-29", "2022-09-02", "2023-07-07" ],
+      "docLevelId" : "1801",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1803",
+      "title" : "Commencement of action upon small claim",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2021-10-29", "2022-09-02", "2023-07-07" ],
+      "docLevelId" : "1803",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

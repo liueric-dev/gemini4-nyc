@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 8 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "8",
+    "title" : "General application of chapter to dwellings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "8",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 8. General application of chapter to dwellings. All the requirements\\nof this chapter shall apply to all kinds and classes of multiple\\ndwellings, except where there are specific provisions, requirements or\\nexceptions for one or more kinds or classes.  A specific provision for\\none kind or class of dwelling shall apply only to that kind or class of\\ndwelling to which such reference is made. Whenever a specific provision\\nis inconsistent with a general provision of this chapter, the specific\\nprovision shall apply and take precedence. The department shall have\\npower to classify dwellings in accordance with the provisions of this\\nchapter.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A2",
+      "title" : "Miscellaneous Application Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-11-26" ],
+      "docLevelId" : "2",
+      "activeDate" : "2023-11-26"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "9",
+      "title" : "Buildings converted or altered",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "9",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 142 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "142",
+    "title" : "Sub-curb uses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "142",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 142. Sub-curb uses. 1. When such a dwelling is more than eighty feet\\nin height measured from the lowest point of the yard or of any curb on\\nwhich any part of the dwelling faces, whichever is lower, and any room\\nin such dwelling below the level of the highest curb which any part of\\nsuch dwelling faces is occupied for living purposes as permitted in\\nparagraph f of subdivision one of section thirty-four, the yard at the\\nlevel of such highest curb shall be set back so as to be at least eight\\nfeet greater in depth than the yard below such level unless the yard\\nopens directly upon a street.\\n  2. If such a dwelling is erected upon an interior lot running through\\nfrom street to street, the wall of the dwelling facing the lowest street\\nshall, at the level of the highest curb on which any part of such\\ndwelling faces, be set back at least eight feet.\\n  3. The setback of the yard or wall required by each of the two\\npreceding subdivisions shall be a fire-terrace. Nothing herein contained\\nshall be construed to permit a yard of smaller dimensions below the\\nlevel of such fire-terrace than required by paragraph f of subdivision\\none of section thirty-four.\\n  4. From each apartment below the level of such highest curb at least\\none means of egress shall lead directly to such fire-terrace in a manner\\napproved by the department. Such fire-terrace shall be protected by a\\nguard railing approved by the department, and shall afford safe and\\nunobstructed access either directly to a street or to a covered\\nfireproof passage at least three feet in width and seven feet in height\\nleading directly and without obstruction to a street.\\n  5. In all portions of such dwellings below the level of the highest\\ncurb all structural members, partitions, furrings and ceilings shall be\\nconstructed of incombustible materials.\\n  6. Apartments may also be occupied for living purposes in cellars and\\nbasements in accordance with the provisions of subdivision six of\\nsection thirty-four.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "141",
+      "title" : "Height",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "141",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "143",
+      "title" : "Construction of first floor",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "143",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

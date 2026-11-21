@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 231 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "231",
+    "title" : "Lease, when void; liability of landlord where premises are occupied for unlawful purpose",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22" ],
+    "docLevelId" : "231",
+    "activeDate" : "2016-01-22",
+    "text" : "  § 231. Lease, when void; liability of landlord where premises are\\noccupied for unlawful purpose. 1. Whenever the lessee or occupant other\\nthan the owner of any building or premises, shall use or occupy the\\nsame, or any part thereof, for any illegal trade, manufacture or other\\nbusiness, the lease or agreement for the letting or occupancy of such\\nbuilding or premises, or any part thereof shall thereupon become void,\\nand the landlord of such lessee or occupant may enter upon the premises\\nso let or occupied.\\n  2. The owner of real property, knowingly leasing or giving possession\\nof the same to be used or occupied, wholly or partly, for any unlawful\\ntrade, manufacture or business, or knowingly permitting the same to be\\nso used, is liable severally, and also jointly with one or more of the\\ntenants or occupants thereof, for any damage resulting from such\\nunlawful use, occupancy, trade, manufacture or business.\\n  3. For the purposes of this section, two or more convictions of any\\nperson or persons had, within a period of one year, for any of the\\noffenses described in section 230.00, 230.05, 230.06, 230.11, 230.12,\\n230.13, 230.20, 230.25, 230.30, 230.32 or 230.40 of the penal law\\narising out of conduct engaged in at the same premises consisting of a\\ndwelling as that term is defined in subdivision four of section four of\\nthe multiple dwelling law shall be presumptive evidence of unlawful use\\nof such premises and of the owners knowledge of the same.\\n  4. Any lease or agreement hereafter executed for the letting or\\noccupancy of real property or any portion thereof, to be used by the\\nlessee as a residence, which contains therein a provision pledging\\npersonal property exempt by law from levy and sale by virtue of an\\nexecution, as security for the payment of rent due or to become due\\nthereunder, is void as to such provision.\\n  * 5. The attorney general may commence an action or proceeding in the\\nsupreme court to enjoin the continued unlawful trade, manufacture or\\nbusiness in such premises.\\n  * NB There are 2 sub 5's\\n  * 5. For the purposes of this section, two or more convictions of any\\nperson or persons had, within a period of one year, for any of the\\noffenses described in section 225.00, 225.05, 225.10, 225.15, 225.20,\\n225.30, 225.32, 225.35 or 225.40 of the penal law, arising out of\\nconduct engaged in at the same premises consisting of a dwelling as that\\nterm is defined in subdivision four of section four of the multiple\\ndwelling law shall be presumptive evidence of unlawful use of such\\npremises and of the owner's knowledge of the same.\\n  * NB There are 2 sub 5's\\n  6. Any owner or tenant, including a tenant of one or more rooms of an\\napartment house, tenement house or multiple dwelling of any premises\\nwithin two hundred feet of the demised real property, may commence an\\naction or proceeding in supreme court to enjoin the continued unlawful\\ntrade, manufacture or other business in such premises.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "230",
+      "title" : "Right of tenants to form, join or participate in tenants' groups",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "230",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "231-A",
+      "title" : "Sprinkler system notice in residential leases",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2014-12-05" ],
+      "docLevelId" : "231-A",
+      "activeDate" : "2014-12-05"
+    }
+  }
+}

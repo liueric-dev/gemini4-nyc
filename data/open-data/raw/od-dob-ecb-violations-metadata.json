@@ -1,0 +1,620 @@
+{
+  "id" : "6bgk-3dad",
+  "name" : "DOB ECB Violations",
+  "assetType" : "dataset",
+  "attribution" : "Department of Buildings (DOB)",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1448398193,
+  "description" : "This data set includes summonses issued by the Department of Buildings that are adjudicated by OATH/ECB. Separately, civil penalties (commonly referred to as ‘DOB Violations’) are found in the <a href=\"https://data.cityofnewyork.us/d/855j-jady\">DOB Safety Violations </a> (for newer issuances) and <a href=\"https://data.cityofnewyork.us/d/3h2n-5cm9\">DOB Violations </a>  (for older issuances) data sets.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 51761,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 39979249,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1695154909,
+  "publicationGroup" : 5736799,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1795198724,
+  "rowsUpdatedBy" : "5fuc-pqz2",
+  "tableId" : 19294523,
+  "totalTimesRated" : 0,
+  "viewCount" : 126500,
+  "viewLastModified" : 1795196826,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1449850231,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 5781039,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1449850231,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 581247685,
+    "name" : "ISN_DOB_BIS_EXTRACT",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "isn_dob_bis_extract",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843372,
+    "width" : 328,
+    "format" : { }
+  }, {
+    "id" : 581247686,
+    "name" : "ECB_VIOLATION_NUMBER",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "ecb_violation_number",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843373,
+    "width" : 340,
+    "format" : { }
+  }, {
+    "id" : 581247687,
+    "name" : "ECB_VIOLATION_STATUS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "ecb_violation_status",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843374,
+    "width" : 340,
+    "format" : { }
+  }, {
+    "id" : 581247688,
+    "name" : "DOB_VIOLATION_NUMBER",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "dob_violation_number",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843375,
+    "width" : 340,
+    "format" : { }
+  }, {
+    "id" : 581247689,
+    "name" : "BIN",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "bin",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843376,
+    "width" : 136,
+    "format" : { }
+  }, {
+    "id" : 581247690,
+    "name" : "BORO",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "boro",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843377,
+    "width" : 148,
+    "format" : { }
+  }, {
+    "id" : 581247691,
+    "name" : "BLOCK",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "block",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843378,
+    "width" : 160,
+    "format" : { }
+  }, {
+    "id" : 581247692,
+    "name" : "LOT",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "lot",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843379,
+    "width" : 136,
+    "format" : { }
+  }, {
+    "id" : 581247693,
+    "name" : "HEARING_DATE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "hearing_date",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843380,
+    "width" : 244,
+    "format" : { }
+  }, {
+    "id" : 581247694,
+    "name" : "HEARING_TIME",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "hearing_time",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843381,
+    "width" : 244,
+    "format" : { }
+  }, {
+    "id" : 581247695,
+    "name" : "SERVED_DATE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "served_date",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843382,
+    "width" : 232,
+    "format" : { }
+  }, {
+    "id" : 581247696,
+    "name" : "ISSUE_DATE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "issue_date",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843383,
+    "width" : 220,
+    "format" : { }
+  }, {
+    "id" : 581247697,
+    "name" : "SEVERITY",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "severity",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843384,
+    "width" : 196,
+    "format" : { }
+  }, {
+    "id" : 581247698,
+    "name" : "VIOLATION_TYPE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "violation_type",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843385,
+    "width" : 268,
+    "format" : { }
+  }, {
+    "id" : 581247699,
+    "name" : "RESPONDENT_NAME",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_name",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843386,
+    "width" : 280,
+    "format" : { }
+  }, {
+    "id" : 581247700,
+    "name" : "RESPONDENT_HOUSE_NUMBER",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_house_number",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843387,
+    "width" : 376,
+    "format" : { }
+  }, {
+    "id" : 581247701,
+    "name" : "RESPONDENT_STREET",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_street",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843388,
+    "width" : 304,
+    "format" : { }
+  }, {
+    "id" : 581247702,
+    "name" : "RESPONDENT_CITY",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_city",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843389,
+    "width" : 280,
+    "format" : { }
+  }, {
+    "id" : 581247703,
+    "name" : "RESPONDENT_ZIP",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "respondent_zip",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843390,
+    "width" : 268,
+    "format" : { }
+  }, {
+    "id" : 581247704,
+    "name" : "VIOLATION_DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "violation_description",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843391,
+    "width" : 352,
+    "format" : { }
+  }, {
+    "id" : 581247733,
+    "name" : "PENALITY_IMPOSED",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "penality_imposed",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 148519284,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247732,
+    "name" : "AMOUNT_PAID",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "amount_paid",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 148519283,
+    "width" : 232,
+    "format" : { }
+  }, {
+    "id" : 581247731,
+    "name" : "BALANCE_DUE",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "balance_due",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 148519282,
+    "width" : 232,
+    "format" : { }
+  }, {
+    "id" : 581247708,
+    "name" : "INFRACTION_CODE1",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code1",
+    "position" : 24,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843395,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247709,
+    "name" : "SECTION_LAW_DESCRIPTION1",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description1",
+    "position" : 25,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843396,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247710,
+    "name" : "INFRACTION_CODE2",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code2",
+    "position" : 26,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843397,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247711,
+    "name" : "SECTION_LAW_DESCRIPTION2",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description2",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843398,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247712,
+    "name" : "INFRACTION_CODE3",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code3",
+    "position" : 28,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843399,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247713,
+    "name" : "SECTION_LAW_DESCRIPTION3",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description3",
+    "position" : 29,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843400,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247714,
+    "name" : "INFRACTION_CODE4",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code4",
+    "position" : 30,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843401,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247715,
+    "name" : "SECTION_LAW_DESCRIPTION4",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description4",
+    "position" : 31,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843402,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247716,
+    "name" : "INFRACTION_CODE5",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code5",
+    "position" : 32,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843403,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247717,
+    "name" : "SECTION_LAW_DESCRIPTION5",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description5",
+    "position" : 33,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843404,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247718,
+    "name" : "INFRACTION_CODE6",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code6",
+    "position" : 34,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843405,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247719,
+    "name" : "SECTION_LAW_DESCRIPTION6",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description6",
+    "position" : 35,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843406,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247720,
+    "name" : "INFRACTION_CODE7",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code7",
+    "position" : 36,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843408,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247721,
+    "name" : "SECTION_LAW_DESCRIPTION7",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description7",
+    "position" : 37,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843409,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247722,
+    "name" : "INFRACTION_CODE8",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code8",
+    "position" : 38,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843411,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247723,
+    "name" : "SECTION_LAW_DESCRIPTION8",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description8",
+    "position" : 39,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843413,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247724,
+    "name" : "INFRACTION_CODE9",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code9",
+    "position" : 40,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843415,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247725,
+    "name" : "SECTION_LAW_DESCRIPTION9",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description9",
+    "position" : 41,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843417,
+    "width" : 388,
+    "format" : { }
+  }, {
+    "id" : 581247726,
+    "name" : "INFRACTION_CODE10",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "infraction_code10",
+    "position" : 42,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843419,
+    "width" : 304,
+    "format" : { }
+  }, {
+    "id" : 581247727,
+    "name" : "SECTION_LAW_DESCRIPTION10",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "section_law_description10",
+    "position" : 43,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843421,
+    "width" : 400,
+    "format" : { }
+  }, {
+    "id" : 581247728,
+    "name" : "AGGRAVATED_LEVEL",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "aggravated_level",
+    "position" : 44,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843423,
+    "width" : 292,
+    "format" : { }
+  }, {
+    "id" : 581247729,
+    "name" : "HEARING_STATUS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "hearing_status",
+    "position" : 45,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843425,
+    "width" : 268,
+    "format" : { }
+  }, {
+    "id" : 581247730,
+    "name" : "CERTIFICATION_STATUS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "certification_status",
+    "position" : 46,
+    "renderTypeName" : "text",
+    "tableColumnId" : 32843427,
+    "width" : 340,
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "DD_DOB_ECB_Violations_2019-07-10.xlsx",
+      "assetId" : "824ab7b0-4416-4dac-ba0f-c3fae9311c8c",
+      "name" : "DD_DOB_ECB_Violations_2019-07-10.xlsx"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "12/11/2015",
+        "Update Frequency" : "Every weekday"
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Buildings (DOB)"
+      }
+    },
+    "rowLabel" : "Row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "dob", "buildings", "violation ecb", "nov", "2018od4a-report" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

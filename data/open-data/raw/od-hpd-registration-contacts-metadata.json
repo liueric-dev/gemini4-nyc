@@ -1,0 +1,1317 @@
+{
+  "id" : "feu5-w2e2",
+  "name" : "Registration Contacts",
+  "assetType" : "dataset",
+  "attribution" : "Department of Housing Preservation and Development (HPD)",
+  "attributionLink" : "http://www1.nyc.gov/site/hpd/about/open-data.page",
+  "averageRating" : 0,
+  "category" : "Housing & Development",
+  "createdAt" : 1384809379,
+  "description" : "Contains information about organizations or individuals listed on a Multiple Dwelling Registration form.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 30029,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40326694,
+  "provenance" : "official",
+  "publicationAppendEnabled" : true,
+  "publicationDate" : 1704141122,
+  "publicationGroup" : 1360221,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1793818227,
+  "rowsUpdatedBy" : "d5dp-fses",
+  "tableId" : 19415301,
+  "totalTimesRated" : 0,
+  "viewCount" : 34654,
+  "viewLastModified" : 1793818025,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1565273906,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6032866,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1565273906,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 587736420,
+    "name" : "RegistrationContactID",
+    "dataTypeName" : "number",
+    "description" : "Unique identifier of RegistrationContact\n",
+    "fieldName" : "registrationcontactid",
+    "position" : 1,
+    "renderTypeName" : "number",
+    "tableColumnId" : 16367163,
+    "width" : 214,
+    "cachedContents" : {
+      "non_null" : "744753",
+      "largest" : "97031711",
+      "null" : "0",
+      "top" : [ {
+        "item" : "91541103",
+        "count" : "68"
+      }, {
+        "item" : "91541105",
+        "count" : "68"
+      }, {
+        "item" : "91541106",
+        "count" : "68"
+      }, {
+        "item" : "91541104",
+        "count" : "68"
+      }, {
+        "item" : "20737212",
+        "count" : "12"
+      }, {
+        "item" : "41841411",
+        "count" : "10"
+      }, {
+        "item" : "33488611",
+        "count" : "9"
+      }, {
+        "item" : "91323606",
+        "count" : "7"
+      }, {
+        "item" : "91323605",
+        "count" : "7"
+      }, {
+        "item" : "91323603",
+        "count" : "7"
+      }, {
+        "item" : "11474011",
+        "count" : "7"
+      }, {
+        "item" : "33488612",
+        "count" : "7"
+      }, {
+        "item" : "10108511",
+        "count" : "7"
+      }, {
+        "item" : "91323604",
+        "count" : "7"
+      }, {
+        "item" : "91323613",
+        "count" : "7"
+      }, {
+        "item" : "43148912",
+        "count" : "6"
+      }, {
+        "item" : "40513711",
+        "count" : "6"
+      }, {
+        "item" : "12816012",
+        "count" : "6"
+      }, {
+        "item" : "38176712",
+        "count" : "5"
+      }, {
+        "item" : "13556512",
+        "count" : "5"
+      } ],
+      "smallest" : "3",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 587736421,
+    "name" : "RegistrationID",
+    "dataTypeName" : "number",
+    "description" : "Unique identifier of owning Registration\n",
+    "fieldName" : "registrationid",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 16367164,
+    "width" : 189,
+    "cachedContents" : {
+      "non_null" : "744753",
+      "largest" : "970317",
+      "null" : "0",
+      "top" : [ {
+        "item" : "915411",
+        "count" : "272"
+      }, {
+        "item" : "913236",
+        "count" : "35"
+      }, {
+        "item" : "391381",
+        "count" : "24"
+      }, {
+        "item" : "334886",
+        "count" : "20"
+      }, {
+        "item" : "418414",
+        "count" : "19"
+      }, {
+        "item" : "18228",
+        "count" : "18"
+      }, {
+        "item" : "299995",
+        "count" : "18"
+      }, {
+        "item" : "207372",
+        "count" : "18"
+      }, {
+        "item" : "0",
+        "count" : "18"
+      }, {
+        "item" : "381767",
+        "count" : "16"
+      }, {
+        "item" : "392174",
+        "count" : "16"
+      }, {
+        "item" : "431489",
+        "count" : "15"
+      }, {
+        "item" : "391554",
+        "count" : "14"
+      }, {
+        "item" : "101085",
+        "count" : "13"
+      }, {
+        "item" : "114740",
+        "count" : "13"
+      }, {
+        "item" : "128160",
+        "count" : "13"
+      }, {
+        "item" : "135565",
+        "count" : "12"
+      }, {
+        "item" : "433779",
+        "count" : "12"
+      }, {
+        "item" : "345957",
+        "count" : "12"
+      }, {
+        "item" : "405137",
+        "count" : "12"
+      } ],
+      "smallest" : "0",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 587736422,
+    "name" : "Type",
+    "dataTypeName" : "text",
+    "description" : "\"Individual Owner\", \"Corporate Owner\", \"Managing Agent\", \"Head Officer\", \"Officer\", \"Shareholder\"\n",
+    "fieldName" : "type",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367165,
+    "width" : 148,
+    "cachedContents" : {
+      "non_null" : "744753",
+      "largest" : "SiteManager",
+      "null" : "0",
+      "top" : [ {
+        "item" : "SiteManager",
+        "count" : "155841"
+      }, {
+        "item" : "Agent",
+        "count" : "148387"
+      }, {
+        "item" : "HeadOfficer",
+        "count" : "120552"
+      }, {
+        "item" : "CorporateOwner",
+        "count" : "114462"
+      }, {
+        "item" : "Officer",
+        "count" : "65309"
+      }, {
+        "item" : "IndividualOwner",
+        "count" : "47234"
+      }, {
+        "item" : "JointOwner",
+        "count" : "44873"
+      }, {
+        "item" : "Shareholder",
+        "count" : "41835"
+      }, {
+        "item" : "Lessee",
+        "count" : "6260"
+      } ],
+      "smallest" : "Agent",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736423,
+    "name" : "ContactDescription",
+    "dataTypeName" : "text",
+    "description" : "Description of contact\n",
+    "fieldName" : "contactdescription",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367166,
+    "width" : 218,
+    "cachedContents" : {
+      "non_null" : "743265",
+      "largest" : "xiao qin fu",
+      "null" : "1488",
+      "top" : [ {
+        "item" : "GEN.PART",
+        "count" : "326379"
+      }, {
+        "item" : "INDIV",
+        "count" : "101097"
+      }, {
+        "item" : "JOINT",
+        "count" : "101022"
+      }, {
+        "item" : "CORP",
+        "count" : "97159"
+      }, {
+        "item" : "CONDO",
+        "count" : "44426"
+      }, {
+        "item" : "CO-OP",
+        "count" : "34679"
+      }, {
+        "item" : "LLC",
+        "count" : "12743"
+      }, {
+        "item" : "TRUST",
+        "count" : "7253"
+      }, {
+        "item" : "Trust",
+        "count" : "4359"
+      }, {
+        "item" : "PARTNERSHIP/LLC",
+        "count" : "1520"
+      }, {
+        "item" : "trust",
+        "count" : "1489"
+      }, {
+        "item" : "ESTATE",
+        "count" : "1093"
+      }, {
+        "item" : "TRUSTEE",
+        "count" : "786"
+      }, {
+        "item" : "Trustee",
+        "count" : "706"
+      }, {
+        "item" : "TRUSt",
+        "count" : "482"
+      }, {
+        "item" : "INC",
+        "count" : "395"
+      }, {
+        "item" : "HDFC",
+        "count" : "370"
+      }, {
+        "item" : "llc",
+        "count" : "328"
+      }, {
+        "item" : "TIL",
+        "count" : "292"
+      }, {
+        "item" : "LP",
+        "count" : "266"
+      } ],
+      "smallest" : ".",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736424,
+    "name" : "CorporationName",
+    "dataTypeName" : "text",
+    "description" : "If applicable\n",
+    "fieldName" : "corporationname",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367167,
+    "width" : 280,
+    "cachedContents" : {
+      "non_null" : "195912",
+      "largest" : "Z&Z PROPERTY MANAGEMENT LLC",
+      "null" : "548841",
+      "top" : [ {
+        "item" : "FirstService Residential",
+        "count" : "559"
+      }, {
+        "item" : "AKAM ASSOCIATES, INC.",
+        "count" : "530"
+      }, {
+        "item" : "N/A",
+        "count" : "510"
+      }, {
+        "item" : "C&C APARTMENT MANAGEMENT",
+        "count" : "505"
+      }, {
+        "item" : "FREESTONE PROPERTY GROUP LLC",
+        "count" : "434"
+      }, {
+        "item" : "METRO MANAGEMENT DEVELOPMENT",
+        "count" : "433"
+      }, {
+        "item" : "DOUGLAS ELLIMAN PROPERTY MANAGEMENT",
+        "count" : "398"
+      }, {
+        "item" : "WAVECREST MGMT GROUP",
+        "count" : "396"
+      }, {
+        "item" : "CONCORD MANAGEMENT OF NY LLC",
+        "count" : "275"
+      }, {
+        "item" : "SHINDA MANAGEMENT CORPORATION",
+        "count" : "253"
+      }, {
+        "item" : "QUEENS FRESH MEADOWS, LLC",
+        "count" : "244"
+      }, {
+        "item" : "THE ANDREWS ORGANIZATION",
+        "count" : "239"
+      }, {
+        "item" : "ORSID NY",
+        "count" : "230"
+      }, {
+        "item" : "TOWNHOUSE RENTAL, LLC",
+        "count" : "224"
+      }, {
+        "item" : "Daisy Management",
+        "count" : "211"
+      }, {
+        "item" : "CHOICE NY MANAGEMENT",
+        "count" : "209"
+      }, {
+        "item" : "ROSE PROPERTY MGMT GRP LLC",
+        "count" : "206"
+      }, {
+        "item" : "IMPACT REAL ESTATE MANAGEMENT",
+        "count" : "204"
+      }, {
+        "item" : "Eastchester Heights property owner LLC",
+        "count" : "199"
+      }, {
+        "item" : "NEW BEDFORD MANAGEMENT CORP.",
+        "count" : "198"
+      } ],
+      "smallest" : "`",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736425,
+    "name" : "Title",
+    "dataTypeName" : "text",
+    "description" : "Contact person information\n",
+    "fieldName" : "title",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367168,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "120250",
+      "largest" : "XO",
+      "null" : "624503",
+      "top" : [ {
+        "item" : "PRESIDENT",
+        "count" : "16491"
+      }, {
+        "item" : "MEMBER",
+        "count" : "15874"
+      }, {
+        "item" : "OWNER",
+        "count" : "9854"
+      }, {
+        "item" : "MANAGER",
+        "count" : "6263"
+      }, {
+        "item" : "OFFICER",
+        "count" : "5745"
+      }, {
+        "item" : "MANAGING AGENT",
+        "count" : "3574"
+      }, {
+        "item" : "PARTNER",
+        "count" : "3235"
+      }, {
+        "item" : "VICE PRESIDENT",
+        "count" : "2937"
+      }, {
+        "item" : "MANAGING MEMBER",
+        "count" : "2707"
+      }, {
+        "item" : "TRUSTEE",
+        "count" : "2376"
+      }, {
+        "item" : "AGENT",
+        "count" : "2001"
+      }, {
+        "item" : "SECRETARY",
+        "count" : "1906"
+      }, {
+        "item" : "TREASURER",
+        "count" : "1661"
+      }, {
+        "item" : "Owner",
+        "count" : "1588"
+      }, {
+        "item" : "Member",
+        "count" : "1584"
+      }, {
+        "item" : "PRES",
+        "count" : "1536"
+      }, {
+        "item" : "JOINT OWNER",
+        "count" : "1374"
+      }, {
+        "item" : "President",
+        "count" : "1222"
+      }, {
+        "item" : "BOARD PRESIDENT",
+        "count" : "988"
+      }, {
+        "item" : "DIRECTOR",
+        "count" : "961"
+      } ],
+      "smallest" : "`",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736426,
+    "name" : "FirstName",
+    "dataTypeName" : "text",
+    "description" : "Contact person information\n",
+    "fieldName" : "firstname",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367169,
+    "width" : 146,
+    "cachedContents" : {
+      "non_null" : "627789",
+      "largest" : "ZYXMAA",
+      "null" : "116964",
+      "top" : [ {
+        "item" : "MICHAEL",
+        "count" : "8294"
+      }, {
+        "item" : "DAVID",
+        "count" : "7538"
+      }, {
+        "item" : "JOSEPH",
+        "count" : "6592"
+      }, {
+        "item" : "JOHN",
+        "count" : "6050"
+      }, {
+        "item" : "ROBERT",
+        "count" : "4549"
+      }, {
+        "item" : "ANTHONY",
+        "count" : "3465"
+      }, {
+        "item" : "MARIA",
+        "count" : "3349"
+      }, {
+        "item" : "JAMES",
+        "count" : "3126"
+      }, {
+        "item" : "PETER",
+        "count" : "3068"
+      }, {
+        "item" : "GEORGE",
+        "count" : "2968"
+      }, {
+        "item" : "MARK",
+        "count" : "2853"
+      }, {
+        "item" : "RICHARD",
+        "count" : "2647"
+      }, {
+        "item" : "David",
+        "count" : "2610"
+      }, {
+        "item" : "DANIEL",
+        "count" : "2430"
+      }, {
+        "item" : "ANDREW",
+        "count" : "2330"
+      }, {
+        "item" : "STEVEN",
+        "count" : "2309"
+      }, {
+        "item" : "JOSE",
+        "count" : "2241"
+      }, {
+        "item" : "FRANK",
+        "count" : "2239"
+      }, {
+        "item" : "THOMAS",
+        "count" : "2205"
+      }, {
+        "item" : "PAUL",
+        "count" : "2182"
+      } ],
+      "smallest" : "=",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736427,
+    "name" : "MiddleInitial",
+    "dataTypeName" : "text",
+    "description" : "Contact person information\n",
+    "fieldName" : "middleinitial",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367170,
+    "width" : 146,
+    "cachedContents" : {
+      "non_null" : "100499",
+      "largest" : "Z",
+      "null" : "644254",
+      "top" : [ {
+        "item" : "A",
+        "count" : "13353"
+      }, {
+        "item" : "M",
+        "count" : "9973"
+      }, {
+        "item" : "J",
+        "count" : "7866"
+      }, {
+        "item" : "C",
+        "count" : "5990"
+      }, {
+        "item" : "S",
+        "count" : "5720"
+      }, {
+        "item" : "L",
+        "count" : "5582"
+      }, {
+        "item" : "E",
+        "count" : "5509"
+      }, {
+        "item" : "R",
+        "count" : "4786"
+      }, {
+        "item" : "D",
+        "count" : "4262"
+      }, {
+        "item" : "G",
+        "count" : "3421"
+      }, {
+        "item" : "H",
+        "count" : "3415"
+      }, {
+        "item" : "P",
+        "count" : "3242"
+      }, {
+        "item" : "K",
+        "count" : "2959"
+      }, {
+        "item" : "F",
+        "count" : "2901"
+      }, {
+        "item" : "T",
+        "count" : "2771"
+      }, {
+        "item" : "B",
+        "count" : "2757"
+      }, {
+        "item" : "W",
+        "count" : "2151"
+      }, {
+        "item" : "N",
+        "count" : "2055"
+      }, {
+        "item" : "Y",
+        "count" : "1921"
+      }, {
+        "item" : "V",
+        "count" : "1631"
+      } ],
+      "smallest" : "`",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736428,
+    "name" : "LastName",
+    "dataTypeName" : "text",
+    "description" : "Contact person information\n",
+    "fieldName" : "lastname",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367171,
+    "width" : 143,
+    "cachedContents" : {
+      "non_null" : "627308",
+      "largest" : "ZZHANG",
+      "null" : "117445",
+      "top" : [ {
+        "item" : "CHEN",
+        "count" : "4314"
+      }, {
+        "item" : "LIN",
+        "count" : "2584"
+      }, {
+        "item" : "LI",
+        "count" : "1908"
+      }, {
+        "item" : "LEE",
+        "count" : "1886"
+      }, {
+        "item" : "WONG",
+        "count" : "1756"
+      }, {
+        "item" : "SINGH",
+        "count" : "1712"
+      }, {
+        "item" : "RODRIGUEZ",
+        "count" : "1661"
+      }, {
+        "item" : "CHAN",
+        "count" : "1637"
+      }, {
+        "item" : "COHEN",
+        "count" : "1463"
+      }, {
+        "item" : "Chen",
+        "count" : "1431"
+      }, {
+        "item" : "TORRES",
+        "count" : "1431"
+      }, {
+        "item" : "BROWN",
+        "count" : "1380"
+      }, {
+        "item" : "ZHENG",
+        "count" : "1350"
+      }, {
+        "item" : "FRIEDMAN",
+        "count" : "1334"
+      }, {
+        "item" : "WANG",
+        "count" : "1289"
+      }, {
+        "item" : "SCHWARTZ",
+        "count" : "1265"
+      }, {
+        "item" : "HUANG",
+        "count" : "1234"
+      }, {
+        "item" : "PEREZ",
+        "count" : "1199"
+      }, {
+        "item" : "LIU",
+        "count" : "1183"
+      }, {
+        "item" : "WU",
+        "count" : "1128"
+      } ],
+      "smallest" : "`",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736429,
+    "name" : "BusinessHouseNumber",
+    "dataTypeName" : "text",
+    "description" : "Contact address information\n",
+    "fieldName" : "businesshousenumber",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367172,
+    "width" : 209,
+    "cachedContents" : {
+      "non_null" : "584588",
+      "largest" : "YI-2",
+      "null" : "160165",
+      "top" : [ {
+        "item" : "99",
+        "count" : "2972"
+      }, {
+        "item" : "20",
+        "count" : "2719"
+      }, {
+        "item" : "575",
+        "count" : "2557"
+      }, {
+        "item" : "50",
+        "count" : "2373"
+      }, {
+        "item" : "9",
+        "count" : "2227"
+      }, {
+        "item" : "1",
+        "count" : "2144"
+      }, {
+        "item" : "2",
+        "count" : "2138"
+      }, {
+        "item" : "6",
+        "count" : "2126"
+      }, {
+        "item" : "80",
+        "count" : "2009"
+      }, {
+        "item" : "40",
+        "count" : "2002"
+      }, {
+        "item" : "909",
+        "count" : "1954"
+      }, {
+        "item" : "770",
+        "count" : "1952"
+      }, {
+        "item" : "11",
+        "count" : "1918"
+      }, {
+        "item" : "55",
+        "count" : "1789"
+      }, {
+        "item" : "15",
+        "count" : "1760"
+      }, {
+        "item" : "29",
+        "count" : "1736"
+      }, {
+        "item" : "7",
+        "count" : "1728"
+      }, {
+        "item" : "250",
+        "count" : "1686"
+      }, {
+        "item" : "8",
+        "count" : "1636"
+      }, {
+        "item" : "156",
+        "count" : "1621"
+      } ],
+      "smallest" : "=",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736430,
+    "name" : "BusinessStreetName",
+    "dataTypeName" : "text",
+    "description" : "Contact address information\n",
+    "fieldName" : "businessstreetname",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367173,
+    "width" : 215,
+    "cachedContents" : {
+      "non_null" : "584749",
+      "largest" : "ZULETTE AVENUE",
+      "null" : "160004",
+      "top" : [ {
+        "item" : "BROADWAY",
+        "count" : "10147"
+      }, {
+        "item" : "PARK AVENUE",
+        "count" : "4447"
+      }, {
+        "item" : "NORTHERN BLVD",
+        "count" : "3173"
+      }, {
+        "item" : "THIRD AVENUE",
+        "count" : "2749"
+      }, {
+        "item" : "FIFTH AVENUE",
+        "count" : "2456"
+      }, {
+        "item" : "JAMAICA AVE",
+        "count" : "2192"
+      }, {
+        "item" : "WEST 57TH STREET",
+        "count" : "1916"
+      }, {
+        "item" : "MADISON AVENUE",
+        "count" : "1889"
+      }, {
+        "item" : "Broadway",
+        "count" : "1728"
+      }, {
+        "item" : "LEXINGTON AVENUE",
+        "count" : "1639"
+      }, {
+        "item" : "BEDFORD AVE",
+        "count" : "1574"
+      }, {
+        "item" : "PARK AVE",
+        "count" : "1484"
+      }, {
+        "item" : "Fifth Avenue",
+        "count" : "1325"
+      }, {
+        "item" : "LEXINGTON AVE",
+        "count" : "1243"
+      }, {
+        "item" : "THIRD AVE",
+        "count" : "1230"
+      }, {
+        "item" : "METROPOLITAN AVE",
+        "count" : "1221"
+      }, {
+        "item" : "5TH AVENUE",
+        "count" : "1159"
+      }, {
+        "item" : "BOWERY",
+        "count" : "1132"
+      }, {
+        "item" : "JAMAICA AVENUE",
+        "count" : "1124"
+      }, {
+        "item" : "QUEENS BLVD",
+        "count" : "1099"
+      } ],
+      "smallest" : "=",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736431,
+    "name" : "BusinessApartment",
+    "dataTypeName" : "text",
+    "description" : "Contact address information\n",
+    "fieldName" : "businessapartment",
+    "position" : 12,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367174,
+    "width" : 200,
+    "cachedContents" : {
+      "non_null" : "257609",
+      "largest" : "Z&J",
+      "null" : "487144",
+      "top" : [ {
+        "item" : "1",
+        "count" : "15461"
+      }, {
+        "item" : "2",
+        "count" : "7193"
+      }, {
+        "item" : "2ND FL",
+        "count" : "5791"
+      }, {
+        "item" : "3",
+        "count" : "4460"
+      }, {
+        "item" : "14TH F",
+        "count" : "3441"
+      }, {
+        "item" : "1ST FL",
+        "count" : "3037"
+      }, {
+        "item" : "OFFICE",
+        "count" : "2950"
+      }, {
+        "item" : "1A",
+        "count" : "2796"
+      }, {
+        "item" : "4",
+        "count" : "2777"
+      }, {
+        "item" : "1R",
+        "count" : "2591"
+      }, {
+        "item" : "BSMT",
+        "count" : "2561"
+      }, {
+        "item" : "9TH FL",
+        "count" : "2512"
+      }, {
+        "item" : "6TH FL",
+        "count" : "2454"
+      }, {
+        "item" : "201",
+        "count" : "2372"
+      }, {
+        "item" : "11TH F",
+        "count" : "2368"
+      }, {
+        "item" : "3RD FL",
+        "count" : "2349"
+      }, {
+        "item" : "SUITE",
+        "count" : "2334"
+      }, {
+        "item" : "1F",
+        "count" : "2150"
+      }, {
+        "item" : "1B",
+        "count" : "2087"
+      }, {
+        "item" : "Suite",
+        "count" : "1984"
+      } ],
+      "smallest" : "`",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736432,
+    "name" : "BusinessCity",
+    "dataTypeName" : "text",
+    "description" : "Contact address information\n",
+    "fieldName" : "businesscity",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367175,
+    "width" : 172,
+    "cachedContents" : {
+      "non_null" : "584962",
+      "largest" : "Zurich",
+      "null" : "159791",
+      "top" : [ {
+        "item" : "Brooklyn",
+        "count" : "121041"
+      }, {
+        "item" : "New York",
+        "count" : "86556"
+      }, {
+        "item" : "BROOKLYN",
+        "count" : "69410"
+      }, {
+        "item" : "NEW YORK",
+        "count" : "28839"
+      }, {
+        "item" : "Bronx",
+        "count" : "28484"
+      }, {
+        "item" : "BRONX",
+        "count" : "18326"
+      }, {
+        "item" : "Staten Island",
+        "count" : "11334"
+      }, {
+        "item" : "BKLYN",
+        "count" : "10929"
+      }, {
+        "item" : "Astoria",
+        "count" : "8969"
+      }, {
+        "item" : "Flushing",
+        "count" : "8003"
+      }, {
+        "item" : "Jamaica",
+        "count" : "6342"
+      }, {
+        "item" : "Great Neck",
+        "count" : "5336"
+      }, {
+        "item" : "ASTORIA",
+        "count" : "5077"
+      }, {
+        "item" : "NY",
+        "count" : "4913"
+      }, {
+        "item" : "FLUSHING",
+        "count" : "4737"
+      }, {
+        "item" : "Forest Hills",
+        "count" : "4462"
+      }, {
+        "item" : "Ridgewood",
+        "count" : "4230"
+      }, {
+        "item" : "JAMAICA",
+        "count" : "3637"
+      }, {
+        "item" : "Whitestone",
+        "count" : "3332"
+      }, {
+        "item" : "STATEN ISLAND",
+        "count" : "3180"
+      } ],
+      "smallest" : "`",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736433,
+    "name" : "BusinessState",
+    "dataTypeName" : "text",
+    "description" : "Contact address information\n",
+    "fieldName" : "businessstate",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367176,
+    "width" : 183,
+    "cachedContents" : {
+      "non_null" : "583977",
+      "largest" : "WY",
+      "null" : "160776",
+      "top" : [ {
+        "item" : "NY",
+        "count" : "567653"
+      }, {
+        "item" : "NJ",
+        "count" : "6788"
+      }, {
+        "item" : "FL",
+        "count" : "1918"
+      }, {
+        "item" : "CA",
+        "count" : "1256"
+      }, {
+        "item" : "PA",
+        "count" : "1126"
+      }, {
+        "item" : "CT",
+        "count" : "829"
+      }, {
+        "item" : "TX",
+        "count" : "735"
+      }, {
+        "item" : "VA",
+        "count" : "373"
+      }, {
+        "item" : "GA",
+        "count" : "340"
+      }, {
+        "item" : "MD",
+        "count" : "267"
+      }, {
+        "item" : "NC",
+        "count" : "245"
+      }, {
+        "item" : "MA",
+        "count" : "243"
+      }, {
+        "item" : "CO",
+        "count" : "194"
+      }, {
+        "item" : "OH",
+        "count" : "155"
+      }, {
+        "item" : "ME",
+        "count" : "150"
+      }, {
+        "item" : "SC",
+        "count" : "125"
+      }, {
+        "item" : "IL",
+        "count" : "116"
+      }, {
+        "item" : "RI",
+        "count" : "99"
+      }, {
+        "item" : "NH",
+        "count" : "99"
+      }, {
+        "item" : "TN",
+        "count" : "87"
+      } ],
+      "smallest" : "AK",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 587736434,
+    "name" : "BusinessZip",
+    "dataTypeName" : "text",
+    "description" : "Contact address information\n",
+    "fieldName" : "businesszip",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 16367177,
+    "width" : 165,
+    "cachedContents" : {
+      "non_null" : "584581",
+      "largest" : "XXXXXXXXX",
+      "null" : "160172",
+      "top" : [ {
+        "item" : "11219",
+        "count" : "13657"
+      }, {
+        "item" : "11211",
+        "count" : "12124"
+      }, {
+        "item" : "10016",
+        "count" : "11405"
+      }, {
+        "item" : "11205",
+        "count" : "10607"
+      }, {
+        "item" : "11215",
+        "count" : "9366"
+      }, {
+        "item" : "11204",
+        "count" : "8901"
+      }, {
+        "item" : "11385",
+        "count" : "8655"
+      }, {
+        "item" : "11222",
+        "count" : "8016"
+      }, {
+        "item" : "11214",
+        "count" : "7418"
+      }, {
+        "item" : "10019",
+        "count" : "7322"
+      }, {
+        "item" : "11220",
+        "count" : "7255"
+      }, {
+        "item" : "10001",
+        "count" : "7204"
+      }, {
+        "item" : "11201",
+        "count" : "6907"
+      }, {
+        "item" : "10022",
+        "count" : "6633"
+      }, {
+        "item" : "11209",
+        "count" : "6442"
+      }, {
+        "item" : "10017",
+        "count" : "6286"
+      }, {
+        "item" : "11230",
+        "count" : "6270"
+      }, {
+        "item" : "11216",
+        "count" : "6153"
+      }, {
+        "item" : "11375",
+        "count" : "5982"
+      }, {
+        "item" : "11231",
+        "count" : "5966"
+      } ],
+      "smallest" : "'",
+      "count" : "744753",
+      "cardinality" : "744753"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "attachments" : [ {
+      "filename" : "Registration Data Dictionary.pdf",
+      "assetId" : "04d04754-a10c-4e23-851a-a33999e7be7c",
+      "name" : "Registration Data Dictionary.pdf"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "Yes",
+        "Date Made Public" : "2/14/2014",
+        "Update Frequency" : "Monthly"
+      },
+      "Legislative Compliance" : {
+        "Geo-coding Attached?" : ""
+      },
+      "Dataset Information" : {
+        "Agency" : "Department of Housing Preservation and Development (HPD)"
+      }
+    },
+    "rowLabel" : "Organization or Individual",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "registration", "department of housing preservation and development", "hpd", "housing" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 365 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "365",
+    "title" : "Laws repealed",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "365",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 365. Laws repealed. All statutes of the state and local laws,\\nordinances and regulations of cities to which this chapter is or\\nhereafter becomes applicable, so far as inconsistent with the provisions\\nof this chapter, are hereby repealed; provided that nothing in this\\nchapter contained shall be construed as abridging the right of any city\\nto adopt local laws, ordinances, resolutions or regulations not less\\nrestrictive than the provisions of this chapter.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A11" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A11",
+      "title" : "Laws Repealed; Saving Clauses; Effect",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "11",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "366",
+      "title" : "Saving clauses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "366",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

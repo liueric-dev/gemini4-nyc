@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 163 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "163",
+    "title" : "Construction and arrangement",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "163",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 163. Construction and arrangement. Garden-type maisonette dwelling\\nprojects may be erected on condition that they comply with the following\\nprovisions:\\n  1. The dwelling units in such projects, together, or in their\\naggregate, do not exceed in superficial area thirty-five per centum of\\nthe area of the site or plot upon which such projects are erected.\\n  2. The units in such projects do not exceed two stories in height.\\n  3. Each section contains not more than two apartments in any unit.\\n  4. Every one or two-family unit is separated from all other such units\\nby an unpierced partition constructed of materials having a\\nfire-resistive rating of at least one hour and such partition extends\\nfrom the first floor above the basement or cellar of the dwelling to the\\ntop of the roof boards in such manner as to prevent the passage of fire,\\nsmoke or gases between units.\\n  5. a. A project section shall not be constructed of units which,\\ntogether, are of a greater area than three thousand square feet unless\\ndivided by unpierced fire walls of masonry or other materials having a\\nfire-resistive rating of at least three hours. Such wall shall be\\ncontinuous from the floor of the lowest level of the dwelling to the top\\nof the roof boards and be fire-stopped at floors and roof in such manner\\nas to prevent the passage of fire, smoke or gas between areas.\\n  b. Fire walls shall extend at least two feet above the level of the\\nfinished roof or, in lieu thereof, where there is a peaked or sloped\\nroof, the ceiling of the attic of all units comprising such section\\nshall be covered with gypsum plaster-boards three-eighths of an inch in\\nthickness or with other materials having the same fire-resistive rating.\\n  6. The facing of the exterior walls shall be of brick veneer not less\\nthan four inches in thickness or may be of one or a combination of other\\nmaterials; and the interior facing of such walls shall be covered with\\none-half-inch thick plaster boards and three-eighths-inch thick sanded\\ngypsum plaster or a combination of other materials which, when combined\\nwith the exterior materials shall have a fire-resistive rating of at\\nleast one hour.\\n  7. Cellar ceilings throughout shall be covered with gypsum plaster\\nboards three-eighths of an inch in thickness or with other materials\\nhaving the same fire resistive rating. A heating plant located within a\\nsection shall be completely enclosed with incombustible materials having\\na fire resistive rating of at least three hours and all openings\\ntherefrom to other parts of the dwelling shall be equipped with\\nfire-proof doors and assemblies with the doors self closing.\\n  8. Concealed vertical and horizontal draft openings shall be\\nfire-stopped with incombustible materials.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5-A",
+      "title" : "Garden-type Maisonette Dwelling Projects",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "162",
+      "title" : "Single ownership",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "162",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

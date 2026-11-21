@@ -1,0 +1,12 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 56: Internet Capable Temperature Reporting Devices > § 56-05 Record Keeping.
+
+§ 56-05 Record Keeping.
+a. An owner of a multiple dwelling selected for installation of Internet Capable Temperature Reporting Devices must maintain the following records while such dwelling is required to provide and maintain such devices, and for one additional year after the multiple dwelling is no longer subject to the installation requirement, and make such records available to the department upon request, consistent with applicable law:
+(1) identification of each dwelling unit in which a device was installed;
+(2) identification of each dwelling unit in which a device was not installed, including the reason for failure of installation;
+(3) the date of each installation, identification of manufacturer of the device installed; and the individual serial number for each device installed including any device that is installed as a replacement;
+(4) written refusal of installation of a device if the tenant refused such installation in writing;
+(5) record of refusal or no response, if the tenant did not provide access or respond to the notification in writing required by 28 RCNY § 56-03, and, in the case of no response, a record of the reasonable efforts made to gain access to the unit to install the device; and
+(6) temperature readings for each dwelling unit in which a device was installed, including hourly temperature, date, and time, for the entire time period that the multiple dwelling is participating in the program.
+b. An owner of a multiple dwelling selected pursuant to 28 RCNY § 56-02 must submit to the department, at least once during each 30-day period during the heat season for the time period that the multiple dwelling is subject to the requirements of this chapter and of Administrative Code § 27-2033.1, data collected from the Internet Capable Temperature Reporting Devices installed in such multiple dwelling pursuant to 28 RCNY § 56-04. This requirement does not apply where the tenant has opted out of installation of such Internet Capable Temperature Reporting Device pursuant to paragraph 7 of subdivision b of Administrative Code § 27-2033.1 and the property owner has submitted an affidavit indicating that all reasonable efforts were made to obtain approval from the tenant for installation.
+(Added City Record 8/26/2020, eff. 9/25/2020; amended City Record 5/2/2024, eff. 6/1/2024)

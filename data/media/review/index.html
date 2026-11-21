@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Test set review</title>
+<style>
+  body { font: 15px/1.45 system-ui, sans-serif; margin: 0; background: #f6f6f4; color: #1d1d1b; }
+  header { padding: 10px 18px; background: #fff; border-bottom: 1px solid #ddd; display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+  header b { font-size: 16px; }
+  .bar { flex: 1; min-width: 160px; height: 8px; background: #e4e4e0; border-radius: 4px; overflow: hidden; }
+  .bar div { height: 100%; background: #3c7d4b; }
+  main { display: grid; grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr); gap: 18px; padding: 18px; }
+  .media { background: #222; border-radius: 8px; display: flex; align-items: center; justify-content: center; min-height: 60vh; }
+  .media img, .media video { max-width: 100%; max-height: 78vh; }
+  .panel { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 14px 16px; }
+  .hidden-label { color: #777; font-style: italic; }
+  .k { display: inline-block; font: 12px ui-monospace, monospace; border: 1px solid #bbb; border-radius: 3px; padding: 0 4px; margin-right: 2px; background: #fafafa; }
+  button { font: inherit; padding: 6px 10px; margin: 3px 4px 3px 0; border: 1px solid #bbb; border-radius: 6px; background: #fff; cursor: pointer; }
+  button.on { background: #1d1d1b; color: #fff; border-color: #1d1d1b; }
+  .row { margin: 10px 0; }
+  .lbl { font-weight: 600; font-size: 13px; color: #555; text-transform: uppercase; letter-spacing: .03em; }
+  input[type=text] { font: inherit; width: 100%; box-sizing: border-box; padding: 5px 7px; border: 1px solid #bbb; border-radius: 5px; }
+  input.num { width: 80px; }
+  .loc { font-size: 14px; padding: 4px 0; border-top: 1px solid #eee; }
+  .loc a { cursor: pointer; color: #245e9c; }
+  .muted { color: #666; font-size: 13px; }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 10px; background: #ecebe6; margin-right: 4px; font-size: 13px; }
+  .frozen { background: #8a2b2b; color: #fff; padding: 2px 8px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<header>
+  <b>Test set review</b>
+  <span id="pos"></span>
+  <div class="bar"><div id="prog"></div></div>
+  <span id="stats" class="muted"></span>
+  <button id="nextTodo">Next unreviewed <span class="k">u</span></button>
+  <button id="freezeBtn">Freeze</button>
+  <span id="frozen"></span>
+</header>
+<main>
+  <div class="media" id="media"></div>
+  <div class="panel" id="panel"></div>
+</main>
+<div class="muted" style="padding:0 18px 18px">
+  Keys: <span class="k">←</span><span class="k">→</span> previous / next · <span class="k">space</span> show mould size hints ·
+  <span class="k">y</span> label right · <span class="k">n</span> label wrong · <span class="k">d</span> drop ·
+  mould size <span class="k">1</span> A (&lt;10 sq ft) <span class="k">2</span> B (10–30) <span class="k">3</span> C (30+) <span class="k">4</span> can't tell <span class="k">5</span> surface only on intact tile/grout/caulk ·
+  video range <span class="k">r</span> right <span class="k">w</span> wrong. Decisions save as you go.
+</div>
+<script>
+const S = { items: [], dec: {}, i: 0, shown: false, frozen: null };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const cur = () => S.items[S.i];
+const D = () => (S.dec[cur().id] ||= {});
+const SECTION = { "core-photos": "Problem photos", "negatives": "No-problem and look-alike photos", "videos": "Videos" };
+let saveTimer;
+
+async function load() {
+  const [set, dec, fr] = await Promise.all([
+    fetch("review_set.json").then(r => r.json()),
+    fetch("/api/decisions").then(r => r.json()),
+    fetch("/api/freeze").then(r => r.json()),
+  ]);
+  S.items = set.items; S.dec = dec; S.frozen = fr.frozen_at ? fr : null;
+  const first = S.items.findIndex(it => !done(it));
+  S.i = first < 0 ? 0 : first;
+  render();
+}
+
+function done(it) {
+  const d = S.dec[it.id]; if (!d) return false;
+  if (d.verdict === "drop") return !!d.drop_reason;
+  if (!d.verdict) return false;
+  if (d.verdict === "wrong" && !d.fixed_label) return false;
+  if (it.needs_mold_bin && d.verdict !== "drop" && !d.mold_bin) return false;
+  if (it.media_type === "video" && (it.draft_label || []).length && !d.range) return false;
+  return true;
+}
+
+function save() {
+  if (S.frozen) return;
+  const d = S.dec[cur().id];
+  if (d) { d.sha256 = cur().sha256; d.reviewed_at = new Date().toISOString(); }
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => fetch("/api/decisions", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(S.dec) }), 250);
+  stats();
+}
+
+function set(k, v) { if (S.frozen) return; D()[k] = v; save(); renderPanel(); }
+
+function stats() {
+  const n = S.items.length, k = S.items.filter(done).length;
+  $("#prog").style.width = (100 * k / n) + "%";
+  $("#pos").textContent = `${S.i + 1} / ${n}`;
+  const by = sec => { const xs = S.items.filter(x => x.section === sec); return `${xs.filter(done).length}/${xs.length}`; };
+  $("#stats").textContent = `done ${k} · problem photos ${by("core-photos")} · negatives ${by("negatives")} · videos ${by("videos")}`;
+  $("#frozen").innerHTML = S.frozen ? `<span class="frozen">Frozen ${esc(S.frozen.frozen_at)}</span>` : "";
+}
+
+function render() {
+  S.shown = false;
+  const it = cur();
+  const src = "/" + it.file;
+  if (it.media_type === "video") {
+    $("#media").innerHTML = `<video id="vid" src="${esc(src)}" controls preload="auto"></video>`;
+    const start = (it.problem_locations || []).find(l => typeof l.start_s === "number")?.start_s;
+    const v = $("#vid");
+    v.addEventListener("loadedmetadata", () => { if (start != null) v.currentTime = Math.max(0, start - 1); });
+  } else {
+    $("#media").innerHTML = `<img src="${esc(src)}" alt="">`;
+  }
+  renderPanel(); stats();
+}
+
+function btn(label, on, act, key) { return `<button class="${on ? "on" : ""}" data-act="${act}">${label}${key ? ` <span class="k">${key}</span>` : ""}</button>`; }
+
+function renderPanel() {
+  const it = cur(), d = S.dec[it.id] || {};
+  const locs = (it.problem_locations || []).map((l, j) => {
+    const t = typeof l.start_s === "number" ? `<a data-seek="${l.start_s}">${l.start_s}s – ${l.end_s ?? "?"}s</a> · ` : "";
+    return `<div class="loc">${t}${esc(l.description || l.region || "")}</div>`;
+  }).join("");
+  const label = (it.draft_label || []).length ? it.draft_label.map(x => `<span class="tag">${esc(x)}</span>`).join("") : `<span class="tag">none</span>`;
+  const detail = !it.needs_mold_bin || d.mold_bin || S.shown;  // mould: hide size hints until the bin is picked
+  const draft = `
+    <div class="row"><div class="lbl">Draft label</div>${label} <span class="muted">(${esc(it.category)})</span></div>` + (detail ? `
+    <div class="row"><div class="lbl">Where</div>${locs || '<span class="muted">—</span>'}</div>
+    <div class="row"><div class="lbl">Draft facts</div>${esc(it.draft_facts) || '<span class="muted">—</span>'}</div>`
+    : `<div class="row hidden-label">Mould size hints are hidden. Pick a size bin first (<span class="k">1</span>–<span class="k">5</span>), or press <span class="k">space</span> to show them.</div>`);
+  const mold = it.needs_mold_bin ? `
+    <div class="row"><div class="lbl">Mould size, total visible in this ${it.media_type === "video" ? "video" : "photo"}</div>
+      ${btn("A &lt;10 sq ft", d.mold_bin === "A", "bin:A", "1")}${btn("B 10–30", d.mold_bin === "B", "bin:B", "2")}${btn("C 30+", d.mold_bin === "C", "bin:C", "3")}
+      ${btn("Can't tell", d.mold_bin === "cant-tell", "bin:cant-tell", "4")}${btn("Surface only: intact tile, grout or caulk (tenant cleans)", d.mold_bin === "tile-grout", "bin:tile-grout", "5")}
+      <div class="muted">Judge from scale cues (tiles, outlets, doors, fixtures). Use "can't tell" when nothing shows scale.</div></div>` : "";
+  const vrange = it.media_type === "video" && (it.draft_label || []).length ? `
+    <div class="row"><div class="lbl">Time ranges</div>
+      ${btn("Right", d.range === "right", "range:right", "r")}${btn("Wrong", d.range === "wrong", "range:wrong", "w")}
+      ${d.range === "wrong" ? `<div>Correct range (s): <input class="num" type="text" id="rs" value="${esc(d.fixed_start ?? "")}" placeholder="start"> – <input class="num" type="text" id="re" value="${esc(d.fixed_end ?? "")}" placeholder="end"></div>` : ""}</div>` : "";
+  $("#panel").innerHTML = `
+    <div class="muted">${esc(SECTION[it.section])} · ${esc(it.id)} · ${esc(it.media_type)}${it.duration_s ? ` · ${Math.round(it.duration_s)} s` : ""}</div>
+    ${draft}
+    <div class="row"><div class="lbl">Is the draft label right?</div>
+      ${btn("Right", d.verdict === "right", "v:right", "y")}${btn("Wrong", d.verdict === "wrong", "v:wrong", "n")}${btn("Drop item", d.verdict === "drop", "v:drop", "d")}
+      ${d.verdict === "wrong" ? `<div class="row">Correct label (comma-separated problem types, or "none"):<input type="text" id="fix" value="${esc(d.fixed_label ?? "")}"></div>` : ""}
+      ${d.verdict === "drop" ? `<div class="row">Reason for dropping:<input type="text" id="why" value="${esc(d.drop_reason ?? "")}" placeholder="e.g. problem not visible, not a building, duplicate"></div>` : ""}
+    </div>
+    ${mold}${vrange}
+    <div class="row"><div class="lbl">Note (optional)</div><input type="text" id="note" value="${esc(d.note ?? "")}"></div>
+    <div class="row muted">${detail ? `Source caption: ${esc(it.source_caption) || "—"}<br>` : ""}${esc(it.license)} · residential: ${esc(it.residential)} · <a href="${esc(it.source_url)}" target="_blank" rel="noopener">source</a></div>
+    <div class="row">${btn("← Previous", false, "prev")}${btn("Next →", false, "next")}</div>`;
+  for (const [id, k] of [["fix", "fixed_label"], ["why", "drop_reason"], ["note", "note"], ["rs", "fixed_start"], ["re", "fixed_end"]]) {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener("input", e => { if (!S.frozen) { D()[k] = e.target.value; save(); } });
+  }
+}
+
+function go(n) { S.i = Math.max(0, Math.min(S.items.length - 1, n)); render(); }
+function act(a) {
+  if (a === "prev") return go(S.i - 1);
+  if (a === "next") return go(S.i + 1);
+  const [k, v] = a.split(":");
+  if (k === "v") { set("verdict", v); setTimeout(() => (document.getElementById(v === "wrong" ? "fix" : "why") || {}).focus?.(), 0); }
+  if (k === "bin") set("mold_bin", v);
+  if (k === "range") set("range", v);
+}
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-act]"); if (b) return act(b.dataset.act);
+  const s = e.target.closest("[data-seek]"); if (s && $("#vid")) { $("#vid").currentTime = +s.dataset.seek; $("#vid").play(); }
+});
+$("#nextTodo").addEventListener("click", () => { const j = S.items.findIndex((it, k) => k > S.i && !done(it)); go(j < 0 ? S.items.findIndex(it => !done(it)) : j); });
+$("#freezeBtn").addEventListener("click", async () => {
+  if (S.frozen) return;
+  const b = $("#freezeBtn");
+  if (b.dataset.armed !== "1") { b.dataset.armed = "1"; b.textContent = "Click again to freeze (no more edits)"; return; }
+  S.frozen = await fetch("/api/freeze", { method: "POST" }).then(r => r.json());
+  b.textContent = "Freeze"; stats();
+});
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") { if (e.key === "Escape") e.target.blur(); return; }
+  const keys = { ArrowLeft: "prev", ArrowRight: "next", y: "v:right", n: "v:wrong", d: "v:drop", "1": "bin:A", "2": "bin:B", "3": "bin:C", "4": "bin:cant-tell", "5": "bin:tile-grout", r: "range:right", w: "range:wrong" };
+  if (e.key === " ") { e.preventDefault(); S.shown = !S.shown; return renderPanel(); }
+  if (e.key === "u") return $("#nextTodo").click();
+  if (keys[e.key]) { e.preventDefault(); if (keys[e.key].startsWith("bin") && !cur().needs_mold_bin) return; if (keys[e.key].startsWith("range") && cur().media_type !== "video") return; act(keys[e.key]); }
+});
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 25: Multiple Dwellings > Subchapter A: Installation and Maintenance of Gas-Fueled Water and Space Heaters in All Portions of Dwellings Used or Occupied for Living Purposes > Part 4: Installation of Gas-fueled Heaters > § 25-25 Shut-Off Devices.
+
+§ 25-25 Shut-Off Devices.
+Each gas-fueled space or water heater installed in an apartment in a dwelling shall be equipped with an effective device which will automatically shut off the gas supply to such heater in the event that its pilot light or other constantly burning flame is extinguished, or in the event of an interruption of the gas supply to such heater. Such automatic gas shut-off device shall be of a type which, after it has shut off the supply of gas to a heater, will not permit such heater to be relighted unless such shut-off device is first reset manually.

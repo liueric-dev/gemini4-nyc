@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 226-C in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "226-C",
+    "title" : "Notice of rent increase or non-renewal of residential tenancy",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2019-06-28", "2019-10-18", "2021-12-31", "2024-05-03", "2025-08-22" ],
+    "docLevelId" : "226-C",
+    "activeDate" : "2025-08-22",
+    "text" : "  § 226-c. Notice of rent increase or non-renewal of residential\\ntenancy.  1. * (a) Whenever a landlord intends to offer to renew the\\ntenancy of an occupant in a residential dwelling unit with a rent\\nincrease equal to or greater than five percent above the current rent,\\nor the landlord does not intend to renew the tenancy, the landlord shall\\nprovide written notice as required in subdivision two of this section.\\nThe notice shall append or contain the notice required pursuant to\\nsection two hundred thirty-one-c of this article, which shall state the\\nfollowing: (i) if the unit is or is not subject to article six-A of this\\nchapter, the \"good cause eviction law\", and if the unit is exempt, such\\nnotice shall state why the unit is exempt from such law; (ii) if the\\nlandlord is not renewing the lease for a unit subject to article six-A\\nof this chapter, the lawful basis for such non-renewal; and (iii) if the\\nlandlord is increasing the rent upon an existing lease of a unit subject\\nto article six-A of this chapter above the applicable local rent\\nstandard, as defined in subdivision eight of section two hundred eleven\\nof this chapter, the justification for such increase. If the landlord\\nfails to provide timely notice, the occupant's lawful tenancy shall\\ncontinue under the existing terms of the tenancy from the date on which\\nthe landlord gave actual written notice until the notice period has\\nexpired, notwithstanding any provision of a lease or other tenancy\\nagreement to the contrary.\\n  * NB Effective August 18, 2024 until June 15, 2034\\n  * (a) Whenever a landlord intends to offer to renew the tenancy of an\\noccupant in a residential dwelling unit with a rent increase equal to or\\ngreater than five percent above the current rent, or the landlord does\\nnot intend to renew the tenancy, the landlord shall provide written\\nnotice as required in subdivision two of this section. If the landlord\\nfails to provide timely notice, the occupant's lawful tenancy shall\\ncontinue under the existing terms of the tenancy from the date on which\\nthe landlord gave actual written notice until the notice period has\\nexpired, notwithstanding any provision of a lease or other tenancy\\nagreement to the contrary.\\n  * NB Effective June 15, 2034\\n  (b) Notwithstanding paragraph (a) of this subdivision, notice shall\\nnot be required under this section to be provided by a cooperative\\nhousing corporation, other than a cooperative housing corporation\\nsubject to the provisions of article two, article four, article five or\\narticle eleven of the private housing finance law, to a tenant who is a\\ndwelling unit owner or shareholder of such corporation. Nothing in this\\nparagraph shall relieve such cooperative housing corporation of any\\notherwise applicable obligation to provide notice to such tenant\\npursuant to any other law or any agreement between the parties.\\n  2. (a) For the purposes of this section, the required notice shall be\\nbased on the cumulative amount of time the tenant has occupied the\\nresidence or the length of the tenancy in each lease, whichever is\\nlonger.\\n  (b) If the tenant has occupied the unit for less than one year and\\ndoes not have a lease term of at least one year, the landlord shall\\nprovide at least thirty days' notice.\\n  (c) If the tenant has occupied the unit for more than one year but\\nless than two years, or has a lease term of at least one year but less\\nthan two years, the landlord shall provide at least sixty days' notice.\\n  (d) If the tenant has occupied the unit for more than two years or has\\na lease term of at least two years, the landlord shall provide at least\\nninety days' notice.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "226-B",
+      "title" : "Right to sublease or assign",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "226-B",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "227",
+      "title" : "When tenant may surrender premises",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "227",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

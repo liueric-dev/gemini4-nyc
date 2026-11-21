@@ -1,0 +1,4 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 25: Multiple Dwellings > Subchapter A: Installation and Maintenance of Gas-Fueled Water and Space Heaters in All Portions of Dwellings Used or Occupied for Living Purposes > Part 4: Installation of Gas-fueled Heaters > § 25-21 Required Approvals of Appliances.
+
+§ 25-21 Required Approvals of Appliances.
+Gas-fueled space and water heaters, installed after December 18, 1957, in apartments in multiple dwellings, in lieu of centrally supplied heat or hot water where such centrally supplied heat or hot water supply is required by the Multiple Dwelling Code, and in one and two family dwellings installed after October 1, 1964 shall be types approved by the Department of Health and the American Gas Association.

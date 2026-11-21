@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 28: New York City Construction Codes > Chapter 11: The New York City Electrical Code > Chapter 11: The New York City Electrical Code > Article 1101: Enactment and Update of the New York City Electrical Code > 84.2 Required.
+
+84.2 Required.
+Any owner or authorized agent who intends to construct, add to, alter, repair, move, demolish, or change the occupancy of a building or structure, or to erect, install, add to, alter, repair, remove, convert, or replace any electrical, gas, mechanical, or plumbing system, the installation of which is regulated by this code, or to cause any such work to be done, shall first make application for construction document approval in accordance with Chapter 1 of Title 28 of the Administrative Code and this chapter and obtain the required permit.

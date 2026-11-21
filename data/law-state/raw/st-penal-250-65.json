@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.65 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.65",
+    "title" : "Additional provisions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "250.65",
+    "activeDate" : "2014-09-22",
+    "text" : "§ 250.65 Additional provisions.\\n  1. The provisions of sections 250.45, 250.50, 250.55 and 250.60 of\\nthis article do not apply with respect to any: (a) law enforcement\\npersonnel engaged in the conduct of their authorized duties; (b)\\nsecurity system wherein a written notice is conspicuously posted on the\\npremises stating that a video surveillance system has been installed for\\nthe purpose of security; or (c) video surveillance devices installed in\\nsuch a manner that their presence is clearly and immediately obvious.\\n  2. With respect to sections 250.55 and 250.60 of this article, the\\nprovisions of subdivision two of section 235.15 and subdivisions one and\\ntwo of section 235.24 of this chapter shall apply.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.60",
+      "title" : "Dissemination of an unlawful surveillance image in the first degree",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2014-11-07" ],
+      "docLevelId" : "250.60",
+      "activeDate" : "2014-11-07"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.70",
+      "title" : "Unlawful dissemination of a personal image; definitions, application",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-01-06", "2023-03-03", "2023-03-10" ],
+      "docLevelId" : "250.70",
+      "activeDate" : "2023-03-10"
+    }
+  }
+}

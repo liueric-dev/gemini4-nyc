@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 211 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "211",
+    "title" : "Joinder of causes of action in complaint; effect on jurisdiction",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+    "docLevelId" : "211",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 211. Joinder of causes of action in complaint; effect on\\njurisdiction.  Where several causes of action are asserted in the\\ncomplaint and each of them would be within the jurisdiction of the court\\nif sued upon separately, the court shall have jurisdiction of the\\naction. In such case judgment may be rendered by the court in excess of\\n$50,000 if such excess result solely because of such joinder. Nothing\\nherein shall be construed to prevent the court from granting judgment in\\nan unlimited amount on a counterclaim.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "210",
+      "title" : "Contempt",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "210",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "212",
+      "title" : "Additional jurisdiction and powers",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "212",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

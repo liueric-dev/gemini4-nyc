@@ -1,0 +1,10 @@
+# NYC Administrative Code > Title 26: Housing and Buildings > Chapter 2: Relocation Services > § 26-306 Tenant education and outreach on residential vacate orders due to damage caused by fires.
+
+§ 26-306 Tenant education and outreach on residential vacate orders due to damage caused by fires.
+a. The department of housing preservation and development, in consultation with the fire department and department of buildings, shall develop procedures to notify tenants of dwelling units in multiple dwellings regarding the issuance of residential vacate orders by the department of housing preservation and development following a fire. Such procedures shall include, but need not be limited to, posting a notice at the site about how tenants can obtain relevant information and materials in each of the designated citywide languages, as defined in section 23-1101, including:
+1. The housing information guide required pursuant to section 26-1102;
+2. Information on what actions may constitute harassment, as defined in paragraph 48 of subdivision a of section 27-2004, in relation to the issuance of residential vacate orders;
+3. Information on the process for rescinding vacate orders issued by the department of housing preservation and development; and
+4. Information on where tenants can find additional resources, including those that are available through the website of the department of housing preservation and development.
+b. The department of housing preservation and development shall designate a person on site to distribute copies of such notice to any tenants seeking additional information regarding the issuance of residential vacate orders by the department of housing preservation and development. Such copies shall be made available in each of the designated citywide languages, as defined in section 23-1101, either on site or through technology provided by the onsite designee, such as a quick response code or a near field communication tag, by which an individual with a properly equipped mobile device may directly access such notice.
+(L.L. 2024/089, 10/12/2024, eff. 2/9/2025)

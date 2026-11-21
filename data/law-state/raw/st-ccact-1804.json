@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1804 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1804",
+    "title" : "Informal and simplified procedure on small claims",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2021-08-06", "2023-07-07" ],
+    "docLevelId" : "1804",
+    "activeDate" : "2023-07-07",
+    "text" : "  § 1804. Informal and simplified procedure on small claims. The court\\nshall conduct hearings upon small claims in such manner as to do\\nsubstantial justice between the parties according to the rules of\\nsubstantive law and shall not be bound by statutory provisions or rules\\nof practice, procedure, pleading or evidence, except statutory\\nprovisions relating to privileged communications and personal\\ntransactions or communications with a decedent or person with a mental\\nillness. An itemized bill or invoice, receipted or marked paid, or two\\nitemized estimates for services or repairs, are admissible in evidence\\nand are prima facie evidence of the reasonable value and necessity of\\nsuch services and repairs. Disclosure shall be unavailable in small\\nclaims procedure except upon order of the court on showing of proper\\ncircumstances. In every small claims action, where the claim arises out\\nof the conduct of the defendant's business at the hearing on the matter,\\nthe judge or arbitrator shall determine the appropriate state or local\\nlicensing or certifying authority and any business or professional\\nassociation of which the defendant is a member. The provisions of this\\nact and the rules of this court, together with the statutes and rules\\ngoverning supreme court practice, shall apply to claims brought under\\nthis article so far as the same can be made applicable and are not in\\nconflict with the provisions of this article; in case of conflict, the\\nprovisions of this article shall control.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1803",
+      "title" : "Commencement of action upon small claim",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2021-10-29", "2022-09-02", "2023-07-07" ],
+      "docLevelId" : "1803",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1805",
+      "title" : "Remedies available; transfer of small claims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1805",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

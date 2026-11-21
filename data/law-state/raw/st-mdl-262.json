@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 262 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "262",
+    "title" : "Alteration of uncompleted buildings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "262",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 262. Alteration of uncompleted buildings.  The provisions of this\\nchapter relating to multiple dwellings erected after April eighteenth,\\nnineteen hundred twenty-nine, shall not apply to any fireproof building\\nstructurally enclosed but uncompleted on April first, nineteen hundred\\nforty-five, conforming to the provisions of the local zoning law or\\nresolution applicable to an apartment hotel, in effect at the time of\\nthe approval of the original plans filed for the construction of such\\nbuilding, and which building shall thereafter be altered and completed\\nas a class A multiple dwelling, in accordance with plans and amendments\\nthereto approved by the department. Such building, if so altered and\\ncompleted on or before July first, nineteen hundred forty-eight, may be\\nlawfully occupied thereafter as a class A multiple dwelling if it\\nconforms with the provisions of section twenty-five applicable to\\nfireproof class A multiple dwellings occupied as such before April\\neighteenth, nineteen hundred twenty-nine.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-A",
+      "title" : "Temporary Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "261",
+      "title" : "Recovery of possession of certain non-complying premises restricted during emergency period",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "261",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "264",
+      "title" : "Conversion of certain dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "264",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

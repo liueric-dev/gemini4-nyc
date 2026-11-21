@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 170-A in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "170-A",
+    "title" : "Notwithstanding any other provision of this chapter, a dwelling, other than a frame dwelling, three stories or less in height erected aft...",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "170-A",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 170-a.  Notwithstanding any other provision of this chapter, a\\ndwelling, other than a frame dwelling, three stories or less in height\\nerected after April eighteenth, nineteen hundred twenty-nine as a one or\\ntwo-family dwelling may be converted to a multiple dwelling to be\\noccupied by not more than three families in all, with a maximum\\noccupancy of two families on each floor in a two story building and one\\nfamily on each floor in a three story building, provided however that\\nall the provisions of this article are complied with and provided\\nfurther that\\n  1. No part of such dwelling shall be used for business purposes.\\n  2. No part of such dwelling shall be arranged, designed for or\\noccupied by roomers, boarders or lodgers.\\n  3. The public hall or stair partitions and soffit of stairs shall be\\nfire-retarded and said partitions fire-stopped. The apartment entrance\\ndoors and door assemblies in such hall shall be fire-proof and\\nself-closing.\\n  4. The required stairs shall comply with the provisions of subdivision\\nthree of section fifty-two of this chapter.\\n  5. No door opening shall be permitted from a garage within the\\nbuilding to the stair hall or public hall. However, any other opening to\\nthe residential portion shall be provided with a fire-proof self-closing\\ndoor, and the door assemblies shall be fire-proof.\\n  6. The cellar shall not be used for any purpose other than household\\nstorage and mechanical equipment or appliances, and the cellar ceiling\\nshall be fire-retarded.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "170",
+      "title" : "Application of article six and other provisions to converted dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "170",
+      "activeDate" : "2026-08-28"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "171",
+      "title" : "Alterations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "171",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

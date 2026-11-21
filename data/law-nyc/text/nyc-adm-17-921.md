@@ -1,0 +1,7 @@
+# NYC Administrative Code > Title 17: Health > Chapter 9: Lead > Chapter 9: Lead > Subchapter 2: Remediation of Lead-Based Paint Hazards in Schools and Facilities Providing Day Care Services > § 17-921 Lead-based paint presumption.
+
+§ 17-921 Lead-based paint presumption.
+a. All paint or similar surface-coating material on the interior of any covered facility in a structure erected before January 1, 1978, shall be presumed to be lead-based paint.
+b. The presumption established by this section may be rebutted by the operator of the covered facility or by the owner of the premises where such facility is located by submitting to the department a sworn written statement by such operator or owner supported by lead-based paint testing or sampling results, a sworn written statement by the person who performed the testing if performed by an employee or agent of such operator or owner and such other proof as the department may require. Testing performed to rebut the presumption may only be performed by a person who has been certified as an inspector or risk assessor in accordance with subparts L and Q of part 745 of title 40 of the code of federal regulations or successor regulations. The determination as to whether such proof is adequate to rebut the presumption established by this section shall be made by the department.
+(Am. L.L. 2019/064, 4/14/2019, eff. 8/12/2019)
+Editor's note: For related unconsolidated provisions, see Appendix A at L.L. 2019/064.

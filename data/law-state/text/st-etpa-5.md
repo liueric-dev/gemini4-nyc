@@ -1,0 +1,159 @@
+Emergency Tenant Protection Act 576/74 (Open Legislation law id ETP, Chapter 1974) > § 5 Housing accommodations subject to regulation
+
+Source: https://legislation.nysenate.gov/api/3/laws/ETP/5 | Open Legislation activeDate: 2024-03-08 | published versions: 2014-09-22, 2015-06-26, 2015-07-03, 2019-06-28, 2023-12-29, 2024-03-08
+
+  § 5. Housing accommodations subject to regulation. a. A declaration of
+emergency may be made pursuant to section three as to all or any class
+or classes of housing accommodations in a municipality, except:
+  (1) housing accommodations subject to the emergency housing rent
+control law, or the local emergency housing rent control act, other than
+housing accommodations subject to the New York city rent stabilization
+law of nineteen hundred sixty-nine;
+  (2) housing accommodations owned or operated by the United States, the
+state of New York, any political subdivision, agency or instrumentality
+thereof, any municipality or any public housing authority;
+  (3) housing accommodations in buildings in which rentals are fixed by
+or subject to the supervision of the state division of housing and
+community renewal under other provisions of law or the New York city
+department of housing preservation and development or the New York state
+urban development corporation, or, to the extent that regulation under
+this act is inconsistent therewith aided by government insurance under
+any provision of the National Housing Act;
+  (4) (a) housing accommodations in a building containing fewer than six
+dwelling units, other than any plot or parcel of land in cities having a
+population of one million or more which had been rented prior to May
+first, nineteen hundred fifty, for the purpose of permitting the tenant
+thereof to construct or place his own dwelling thereon and heretofore or
+hereafter decontrolled, exempt, not subject to control or exempted from
+regulation and control under the provisions of the emergency housing
+rent control law or the local emergency housing rent control act and on
+which plot or parcel of land there exists a dwelling owned and occupied
+by a tenant of such plot or parcel;
+  (b) for purposes of this paragraph four, a building shall be deemed to
+contain six or more dwelling units if it is part of a multiple family
+garden-type maisonette dwelling complex containing six or more dwelling
+units having common facilities such as a sewer line, water main or
+heating plant and operated as a unit under common ownership,
+notwithstanding that certificates of occupancy were issued for portions
+thereof as one- or two-family dwellings.
+  (5) housing accommodations in buildings completed or buildings
+substantially rehabilitated as family units on or after January first,
+nineteen hundred seventy-four; provided that an owner claiming exemption
+from rent stabilization on the basis of a substantial rehabilitation,
+where the work for such rehabilitation was initiated on or after the
+first day of January, two thousand twenty-four, shall seek approval from
+state division of housing and community renewal within one year of the
+completion of the substantial rehabilitation, and ultimately obtain such
+approval, which shall be denied on the following grounds:
+  (a) the owner or its predecessors in interest have engaged in
+harassment of tenants in the five years preceding the completion of the
+substantial rehabilitation;
+  (b) the building was not in a substandard or seriously deteriorated
+condition requiring substantial rehabilitation; or
+  (c) any additional grounds as set forth by regulation;
+  (5-a) housing accommodations located outside of a city with a
+population of one million or more in any such buildings that were vacant
+and unoccupied on June first, two thousand nineteen and had been vacant
+and unoccupied for at least the one-year period immediately preceding
+such date;
+  (6) housing accommodations owned or operated by a hospital, convent,
+monastery, asylum, public institution, or college or school dormitory or
+any institution operated exclusively for charitable or educational
+purposes on a non-profit basis other than (i) those accommodations
+occupied by a tenant on the date such housing accommodation is acquired
+by any such institution, or which are occupied subsequently by a tenant
+who is not affiliated with such institution at the time of his initial
+occupancy or (ii) permanent housing accommodations with government
+contracted services, as of and after June fourteenth, two thousand
+nineteen, to vulnerable individuals or individuals with disabilities who
+are or were homeless or at risk of homelessness; provided, however, that
+the terms of leases in existence as of June fourteenth, two thousand
+nineteen, shall only be affected upon lease renewal, and further
+provided that upon the vacancy of such housing accommodations, the legal
+regulated rent for such housing accommodations shall be the legal
+regulated rent paid for such housing accommodations by the prior tenant,
+subject only to any adjustment adopted by the applicable rent guidelines
+board;
+  (7) rooms or other housing accommodations in hotels, other than hotel
+accommodations in cities having a population of one million or more not
+occupied on a transient basis and heretofore subject to the emergency
+housing rent control law, the local emergency housing rent control act
+or to the New York city rent stabilization law of nineteen hundred
+sixty-nine;
+  (8) any motor court, or any part thereof, any trailer, or trailer
+space used exclusively for transient occupancy or any part thereof; or
+any tourist home serving transient guests exclusively, or any part
+thereof;
+  The term "motor court" shall mean an establishment renting rooms,
+cottages or cabins, supplying parking or storage facilities for motor
+vehicles in connection with such renting and other services and
+facilities customarily supplied by such establishments, and commonly
+known as motor, auto or tourist court in the community.
+  The term "tourist home" shall mean a rooming house which caters
+primarily to transient guests and is known as a tourist home in the
+community.
+  (9) non-housekeeping, furnished housing accommodations, located within
+a single dwelling unit not used as a rooming or boarding house, but only
+if:
+  (a) no more than two tenants for whom rent is paid (husband and wife
+being considered one tenant for this purpose), not members of the
+landlord's immediate family, live in such dwelling unit, and
+  (b) the remaining portion of such dwelling unit is occupied by the
+landlord or his immediate family.
+  (10) housing accommodations in buildings operated exclusively for
+charitable purposes on a non-profit basis except for permanent housing
+accommodations with government contracted services, as of and after the
+effective date of the chapter of the laws of two thousand nineteen that
+amended this paragraph, to vulnerable individuals or individuals with
+disabilities who are or were homeless or at risk of homelessness;
+provided, however, that the terms of leases in existence as of the
+effective date of the chapter of the laws of two thousand nineteen that
+amended this paragraph, shall only be affected upon lease renewal, and
+further provided that upon the vacancy of such housing accommodations,
+the legal regulated rent for such housing accommodations shall be the
+legal regulated rent paid for such housing accommodations by the prior
+tenant, subject only to any adjustment adopted by the applicable rent
+guidelines board;
+  (11) housing accommodations which are not occupied by the tenant, not
+including subtenants or occupants, as his or her primary residence, as
+determined by a court of competent jurisdiction. For the purposes of
+determining primary residency, a tenant who is a victim of domestic
+violence, as defined in section four hundred fifty-nine-a of the social
+services law, who has left the unit because of such violence, and who
+asserts an intent to return to the housing accommodation shall be deemed
+to be occupying the unit as his or her primary residence. For the
+purposes of this paragraph, where a housing accommodation is rented to a
+not-for-profit hospital for residential use, affiliated subtenants
+authorized to use such accommodations by such hospital shall be deemed
+to be tenants. For the purposes of this paragraph, where a housing
+accommodation is rented to a not-for-profit for providing, as of and
+after the effective date of the chapter of the laws of two thousand
+nineteen that amended this paragraph, permanent housing to individuals
+who are or were homeless or at risk of homelessness, affiliated
+subtenants authorized to use such accommodations by such not-for-profit
+shall be deemed to be tenants. No action or proceeding shall be
+commenced seeking to recover possession on the ground that a housing
+accommodation is not occupied by the tenant as his or her primary
+residence unless the owner or lessor shall have given thirty days notice
+to the tenant of his or her intention to commence such action or
+proceeding on such grounds.
+  (14) (i) housing accommodations owned as a cooperative or condominium
+unit which are or become vacant on or after the effective date of this
+paragraph, except that this subparagraph shall not apply to units
+occupied by non-purchasing tenants under section three hundred
+fifty-two-eee of the general business law until the occurrence of a
+vacancy. (ii) This paragraph shall not apply, however, to or become
+effective with respect to housing accommodations which the commissioner
+determines or finds the landlord or any person acting on his or her
+behalf, with intent to cause the tenant to vacate, engaged in any course
+of conduct (including, but not limited to, interruption or
+discontinuance of required services) which interfered with or disturbed
+or was intended to interfere with or disturb the comfort, repose, peace
+or quiet of the tenant in his or her use or occupancy of the housing
+accommodations. In connection with such course of conduct any other
+general enforcement provision of this act shall also apply;
+  b. Notwithstanding any other provision of this section, nothing shall
+prevent the declaration of an emergency pursuant to section three of
+this act for rental housing accommodations located in buildings or
+structures which are subject to the provisions of article eighteen of
+the private housing finance law.

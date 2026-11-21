@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 713-A in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "713-A",
+    "title" : "Special proceeding for termination of adult home and residence for adults admission agreements",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "713-A",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 713-a. Special proceeding for termination of adult home and\\nresidence for adults admission agreements. A special proceeding to\\nterminate the admission agreement of a resident of an adult home or\\nresidence for adults and discharge a resident therefrom may be\\nmaintained in a court of competent jurisdiction pursuant to the\\nprovisions of section four hundred sixty-one-h of the social services\\nlaw and nothing contained in such section shall be construed to create a\\nrelationship of landlord and tenant between the operator of an adult\\nhome or residence for adults and a resident thereof.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "713",
+      "title" : "Grounds where no landlord-tenant relationship exists",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "713",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "715",
+      "title" : "Grounds and procedure where use or occupancy is illegal",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22" ],
+      "docLevelId" : "715",
+      "activeDate" : "2016-01-22"
+    }
+  }
+}

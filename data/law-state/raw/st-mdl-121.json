@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 121 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "121",
+    "title" : "Prohibiting advertising that promotes the use of dwelling units in a class A multiple dwelling for other than permanent residence purposes",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2016-10-28" ],
+    "docLevelId" : "121",
+    "activeDate" : "2016-10-28",
+    "text" : "  § 121. Prohibiting advertising that promotes the use of dwelling units\\nin a class A multiple dwelling for other than permanent residence\\npurposes. 1. It shall be unlawful to advertise occupancy or use of\\ndwelling units in a class A multiple dwelling for occupancy that would\\nviolate subdivision eight of section four of this chapter defining a\\n\"class A\" multiple dwelling as a multiple dwelling that is occupied for\\npermanent residence purposes.\\n  2. Any person found to have violated the provisions of subdivision one\\nof this section shall be liable for a civil penalty of not more than one\\nthousand dollars for the first violation, five thousand dollars for the\\nsecond violation and seven thousand five hundred dollars for the third\\nand subsequent violations.\\n  3. For the purposes of this section, the term \"advertise\" shall mean\\nany form of communication for marketing that is used to encourage,\\npersuade or manipulate viewers, readers or listeners into contracting\\nfor goods and/or services as may be viewed through various media\\nincluding, but not limited to, newspapers, magazines, flyers, handbills,\\ntelevision commercials, radio, signage, direct mail, websites or text\\nmessages.\\n  4. Notwithstanding the provisions of section three hundred three of\\nthis chapter, in a city with a population of one million or more the\\nprovisions of this section shall be enforced by the mayor's office of\\nspecial enforcement.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T3" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T3",
+      "title" : "Certain Class a Multiple Dwellings Erected Prior to December 15, 1961",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "120",
+      "title" : "Use of dwelling units in a class A multiple dwelling for other than permanent residence purposes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "120",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : null
+  }
+}

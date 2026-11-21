@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 147 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "147",
+    "title" : "Bulkheads and scuttles",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "147",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 147. Bulkheads and scuttles. 1. Except as otherwise provided in\\nsubdivision two of this section, every required stair, fire-stair and\\nfire-tower in dwellings three stories or more in height shall have a\\nbulkhead constructed as provided for fireproof dwellings in section one\\nhundred four, except that the bulkhead of any required stair which is\\nnot required to be fireproof may be built of wood covered on the outside\\nwith twenty-six gauge metal and on the inside with wire or metal lath\\ncovered with two coats of cement plaster or other fire-retarding\\nmaterial approved by the department.\\n  2. Such a dwelling which is two stories or less in height, or is three\\nstories in height and erected pursuant to plans filed with the\\ndepartment on or after May first, nineteen hundred fifty-nine and\\noccupied by not more than one family on each story, shall be provided at\\neach required stair, fire-stair or fire-tower either with such a\\nbulkhead or with a scuttle at least two feet by three feet in size,\\nlocated in the ceiling of the public hall on the top story and so\\narranged as to provide direct and uninterrupted access to the roof.\\nEvery such scuttle shall be arranged to be readily opened, shall be\\ncovered on the outside with metal and shall be provided with stairs or a\\nstationary iron ladder or ladders leading thereto and easily accessible\\nto all the tenants of the dwelling.\\n  3. No bulkhead or other superstructure on the roof shall be used for\\nhuman occupancy.\\n  4. When a dwelling has a pitched or sloping roof with a pitch or slope\\nof more than fifteen degrees, no bulkhead or scuttle or stair or ladder\\nleading thereto shall be required.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A5", "A5T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5",
+      "title" : "Non-fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A5T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "146",
+      "title" : "Egress from apartments",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "146",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "148",
+      "title" : "Public stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "148",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

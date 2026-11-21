@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1812 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1812",
+    "title" : "Enforcement of small claims judgments",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1812",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 1812. Enforcement of small claims judgments. (a) The special\\nprocedures set forth in subdivision (b) hereof shall be available only\\nwhere:\\n  1. there is a recorded judgment of a small claims court; and\\n  2. (i) the aforesaid judgment resulted from a transaction in the\\ncourse of the trade or business of the judgment debtor, or arose out of\\na repeated course of dealing or conduct of the judgment debtor, and (ii)\\nthere are at least two other unsatisfied recorded judgments of a small\\nclaims court arising out of such trade or business or repeated course of\\ndealing or conduct, against that judgment debtor; and\\n  3. the judgment debtor failed to satisfy such judgment within a period\\nof thirty days after receipt of notice of such judgment. Such notice\\nshall be given in the same manner as provided for the service of a\\nsummons or by certified mail, return receipt requested, and shall\\ncontain a statement that such judgment exists, that at least two other\\nunsatisfied recorded judgments exist, and that failure to pay such\\njudgment may be the basis for an action, for treble the amount of such\\nunsatisfied judgment, pursuant to this section.\\n  (b) Where each of the elements of subdivision (a) of this section are\\npresent the judgment creditor shall be entitled to commence an action\\nagainst said judgment debtor for treble the amount of such unsatisfied\\njudgment, together with reasonable counsel fees, and the costs and\\ndisbursements of such action, provided, however, that in any such action\\nit shall be a defense that the judgment debtor did not have resources to\\nsatisfy such judgment within a period of thirty days after receipt of\\nnotice of such judgment. The failure to pay a judgment obtained in an\\naction pursuant to this section shall not be the basis for another such\\naction pursuant to this section.\\n  (c) Where the judgment is obtained in an action pursuant to\\nsubdivision (b), and arises from a business of the defendant, the court\\nshall, in addition to its responsibilities under this article, advise\\nthe attorney general in relation to his authority under subdivision\\ntwelve of section sixty-three of the executive law, and if such judgment\\narises from a certified or licensed business of the defendant, advise\\nthe state or local licensing or certifying authority.\\n  (d) Where a judgment has been entered in a small claims court and\\nremains unsatisfied, the small claims clerk shall, upon request, issue\\ninformation subpoenas, at nominal cost, for the judgment creditor and\\nprovide the creditor with assistance on their preparation and use. The\\ncourt shall have the same power as the supreme court to punish a\\ncontempt of court committed with respect to an information subpoena.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1811",
+      "title" : "Notice of small claims judgments and indexing of unpaid claims",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-06-19" ],
+      "docLevelId" : "1811",
+      "activeDate" : "2026-06-19"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1813",
+      "title" : "Duty to pay judgments",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1813",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

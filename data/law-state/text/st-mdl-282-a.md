@@ -1,0 +1,36 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 7-C Legalization of Interim Multiple Dwellings > § 282-a Applications for coverage of interim multiple dwellings and residential units
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/282-A | Open Legislation activeDate: 2021-12-03 | published versions: 2014-09-22, 2015-07-03, 2019-06-28, 2021-12-03
+
+  § 282-a. Applications for coverage of interim multiple dwellings and
+residential units. 1. Where any occupant has filed an application for
+coverage pursuant to this article and has received a docket number from
+the loft board, it shall be unlawful for an owner to cause or intend to
+cause such occupant to vacate, surrender or waive any rights in relation
+to such occupancy, due to repeated interruptions or discontinuances of
+essential services, or an interruption or discontinuance of an essential
+service for an extended duration or of such significance as to
+substantially impair habitability of such unit, at any time before the
+loft board has made a final determination, including appeals, to approve
+or deny such application. This section shall not grant any rights of
+continued occupancy other than those otherwise granted by law. Any
+agreement that waives or limits the benefits of this section shall be
+deemed void as against public policy. In addition to any other remedies
+provided in this article for failure to be in compliance, in article
+eight of this chapter, or in the regulations promulgated by the loft
+board, an occupant who has filed an application with the loft board for
+coverage under this article may commence an action or proceeding in a
+court of competent jurisdiction, which notwithstanding any other
+provision of law shall include the housing part of the New York city
+civil court, to enforce the provisions of this section.
+  2. It shall be unlawful for any owner to interrupt, deny, or
+discontinue essential services, or to impair the habitability of an
+interim multiple dwelling unit or building. In addition to any remedies
+provided under this article, regulations promulgated by the loft board,
+or any other law or regulation governing the housing standards, any
+occupant of an interim multiple dwelling may commence an action or
+proceeding in a court of competent jurisdiction which, notwithstanding
+any other provision of law, shall include the housing part of the New
+York city civil court, to enforce the provisions of this section. Any
+agreement that waives or limits the benefits of this section shall be
+deemed void as against public policy.

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 2 in ETP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "ETP",
+    "lawName" : "Emergency Tenant Protection Act 576/74",
+    "locationId" : "2",
+    "title" : "Legislative finding",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+    "docLevelId" : "2",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 2. Legislative finding. The legislature hereby finds and declares\\nthat a serious public emergency continues to exist in the housing of a\\nconsiderable number of persons in the state of New York, that such\\nemergency necessitates the intervention of federal, state and local\\ngovernment in order to prevent speculative, unwarranted and abnormal\\nincreases in rents; that there continues to exist in many areas of the\\nstate an acute shortage of housing accommodations caused by continued\\nhigh demand, attributable in part to new household formations and\\ndecreased supply, in large measure attributable to reduced availability\\nof federal subsidies, and increased costs of construction and other\\ninflationary factors; that a substantial number of persons residing in\\nhousing not presently subject to the provisions of this act or the\\nemergency housing rent control law or the local emergency housing rent\\ncontrol act are being charged excessive and unwarranted rents and rent\\nincreases; that preventive action by the legislature continues to be\\nimperative in order to prevent exaction of unjust, unreasonable and\\noppressive rents and rental agreements and to forestall profiteering,\\nspeculation and other disruptive practices tending to produce threats to\\nthe public health, safety and general welfare; that in order to prevent\\nuncertainty, hardship and dislocation, the provisions of this act are\\nnecessary and designed to protect the public health, safety and general\\nwelfare; that the transition from regulation to a normal market of free\\nbargaining between landlord and tenant, while the ultimate objective of\\nstate policy, must take place with due regard for such emergency; and\\nthat the policy herein expressed shall be subject to determination of\\nthe existence of a public emergency requiring the regulation of\\nresidential rents within any city, town or village by the local\\nlegislative body of such city, town or village.\\n",
+    "parentLocationIds" : [ "1974" ],
+    "parents" : [ {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1974",
+      "title" : "Emergency Tenant Protection Act 576/74",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1974",
+      "activeDate" : "2019-06-28"
+    } ],
+    "prevSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "1",
+      "title" : "Short title",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "1",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "ETP",
+      "lawName" : "Emergency Tenant Protection Act 576/74",
+      "locationId" : "3",
+      "title" : "Local determination of emergency; end of emergency",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-06-26", "2015-07-03", "2019-06-28", "2023-12-15", "2024-03-08" ],
+      "docLevelId" : "3",
+      "activeDate" : "2024-03-08"
+    }
+  }
+}

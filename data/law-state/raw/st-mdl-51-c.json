@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 51-C in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "51-C",
+    "title" : "Rights of tenants to install and maintain locks in certain entrance doors",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "51-C",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 51-c. Rights of tenants to install and maintain locks in certain\\nentrance doors. Every tenant of a multiple dwelling, except a tenant of\\na multiple dwelling under the supervision and control of a municipal\\nhousing authority, occupied by him, except as a hotel or motel, or\\ncollege or school dormitory, shall have the right to install and\\nmaintain or cause to be installed and maintained in the entrance door of\\nhis particular housing unit in such multiple dwelling, a lock, separate\\nand apart from any lock installed and maintained by the owner of such\\nmultiple dwelling, not more than three inches in circumference, as an\\nordinary incident to his tenancy, provided that a duplicate key to such\\nlock shall be supplied to the landlord or his agent upon his request;\\nand every provision of any lease hereafter made or entered into which\\nreserves or provides for the payment by such tenant of any additional\\nrent, bonus, fee or other charge or any other thing of value for the\\nright or privilege of installing and/or maintaining any such lock, shall\\nbe deemed to be void as against public policy and wholly unenforceable.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T2",
+      "title" : "Fire Protection and Safety",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "51-B",
+      "title" : "Mirrors in connection with self-service elevators",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "51-B",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "52",
+      "title" : "Stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "52",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

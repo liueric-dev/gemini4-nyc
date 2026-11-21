@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 223-B in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "223-B",
+    "title" : "Retaliation by landlord against tenant",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+    "docLevelId" : "223-B",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 223-b. Retaliation by landlord against tenant. 1. No landlord of\\npremises or units to which this section is applicable shall serve a\\nnotice to quit upon any tenant or commence any action to recover real\\nproperty or summary proceeding to recover possession of real property in\\nretaliation for:\\n  a. A good faith complaint, by or in behalf of the tenant, to the\\nlandlord, the landlord's agent or a governmental authority of the\\nlandlord's alleged violation of any health or safety law, regulation,\\ncode, or ordinance, the warranty of habitability under section two\\nhundred thirty-five-b of this article, the duty to repair under sections\\nseventy-eight, seventy-nine, and eighty of the multiple dwelling law or\\nsection one hundred seventy-four of the multiple residence law, or any\\nlaw or regulation which has as its objective the regulation of premises\\nused for dwelling purposes or which pertains to the offense of rent\\ngouging in the third, second or first degree; or\\n  b. Actions taken in good faith, by or in behalf of the tenant, to\\nsecure or enforce any rights under the lease or rental agreement, the\\nwarranty of habitability under section two hundred thirty-five-b of this\\narticle, the duty to repair under sections seventy-eight, seventy-nine,\\nand eighty of the multiple dwelling law or section one hundred\\nseventy-four of the multiple residence law, or under any other law of\\nthe state of New York, or of its governmental subdivisions, or of the\\nUnited States which has as its objective the regulation of premises used\\nfor dwelling purposes or which pertains to the offense of rent gouging\\nin the third, second or first degree; or\\n  c. The tenant's participation in the activities of a tenant's\\norganization.\\n  2. No landlord of premises or units to which this section is\\napplicable or such landlord's agent shall substantially alter the terms\\nof the tenancy in retaliation for any actions set forth in paragraphs a,\\nb, and c of subdivision one of this section. Substantial alteration\\nshall include, but is not limited to, the refusal to continue a tenancy\\nof the tenant, upon expiration of the tenant's lease, to renew the lease\\nor offer a new lease, or offering a new lease with an unreasonable rent\\nincrease; provided, however, that a landlord shall not be required under\\nthis section to offer a new lease or a lease renewal for a term greater\\nthan one year.\\n  3. A landlord shall be subject to a civil action for damages,\\nattorney's fees and costs and other appropriate relief, including\\ninjunctive and other equitable remedies, as may be determined by a court\\nof competent jurisdiction in any case in which the landlord has violated\\nthe provisions of this section.\\n  4. In any action to recover real property or summary proceeding to\\nrecover possession of real property, judgment shall be entered for the\\ntenant if the court finds that the landlord is acting in retaliation for\\nany action set forth in paragraphs a, b, and c of subdivision one of\\nthis section. Retaliation shall be asserted as an affirmative defense in\\nsuch action or proceeding. The tenant shall not be relieved of the\\nobligation to pay any rent for which he is otherwise liable.\\n  5. In an action or proceeding instituted against a tenant of premises\\nor a unit to which this section is applicable, a rebuttable presumption\\nthat the landlord is acting in retaliation shall be created if the\\ntenant establishes that the landlord served a notice to quit, or\\ninstituted an action or proceeding to recover possession, or attempted\\nto substantially alter the terms of the tenancy, within one year after:\\n  a. A good faith complaint was made, by or in behalf of the tenant, to\\nthe landlord, the landlord's agent or a governmental authority of the\\nlandlord's violation of any health or safety law, regulation, code, or\\nordinance, the warranty of habitability under section two hundred\\nthirty-five-b of this article, the duty to repair under sections\\nseventy-eight, seventy-nine, and eighty of the multiple dwelling law or\\nsection one hundred seventy-four of the multiple residence law, or any\\nlaw or regulation which has as its objective the regulation of premises\\nused for dwelling purposes or which pertains to the offense of rent\\ngouging in the third, second or first degree; or\\n  b. The tenant in good faith took action to secure or enforce against\\nthe landlord or his agents any rights under the lease or rental\\nagreement, the warranty of habitability under section two hundred\\nthirty-five-b of this article, the duty to repair under sections\\nseventy-eight, seventy-nine, and eighty of the multiple dwelling law or\\nsection one hundred seventy-four of the multiple residence law, or under\\nany other law of the state of New York, or of its governmental\\nsubdivisions, or of the United States which has as its objective the\\nregulation of premises used for dwelling purposes or which pertains to\\nthe offense of rent gouging in the third, second or first degree.\\n  c. Judgment under subdivision three or four of this section was\\nentered for the tenant in a previous action between the parties; or an\\ninspection was made, an order was entered, or other action was taken as\\na result of a complaint or act described in paragraph a or b of this\\nsubdivision.\\n  The effect of the presumption shall be to require the landlord to\\nestablish a non-retaliatory motive for his acts by a preponderance of\\nthe evidence.\\n  5-a. Any lease provision which seeks to assess a fee, penalty or\\ndollar charge, in addition to the stated rent, against a tenant because\\nsuch tenant files a bona fide complaint with the landlord, the\\nlandlord's agent or a building code officer regarding the condition of\\nsuch tenant's leased premises shall be null and void as being against\\npublic policy. A landlord or agent of the landlord who seeks to enforce\\nsuch a fee, penalty or charge shall be liable to the tenant for triple\\nthe amount of such fee, penalty or charge.\\n  6. This section shall apply to all rental residential premises except\\nowner-occupied dwellings with less than four units. However, its\\nprovisions shall not be given effect in any case in which it is\\nestablished that the condition from which the complaint or action arose\\nwas caused by the tenant, a member of the tenant's household, or a guest\\nof the tenant. Nor shall it apply in a case where a tenancy was\\nterminated pursuant to the terms of a lease as a result of a bona fide\\ntransfer of ownership.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "223-A",
+      "title" : "Remedies of lessee when possession is not delivered",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "223-A",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "224",
+      "title" : "Attornment by tenant",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "224",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

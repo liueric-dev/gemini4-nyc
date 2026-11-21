@@ -1,0 +1,30 @@
+# Rules of the City of New York > Title 24: Department of Health and Mental Hygiene > New York City Health Code > Article 173: Hazardous Substances > § 173.05 Labeling.
+
+§ 173.05 Labeling.
+(a) Label required. No person shall sell, hold for sale, transport, or give away a hazardous substance unless the labeling complies with this article. When a hazardous substance is labeled in compliance with applicable State or Federal law, this section shall not apply, except that if the Commissioner finds that the labeling of the substance is inadequate to protect the public health, the labeling of the substance shall, upon the order of the Commissioner and written notice to the manufacturer or distributor, contain such additional matter as may be required by this section.
+(b) Label contents. The label of a package or container of a hazardous substance shall bear the following information:
+(1) The name and place of business of the manufacturer, packer, distributor or seller;
+(2) The common or usual name, or if there is no common or usual name, the chemical name, or if there is no common or usual name and if the chemical name is unknown or complex, the recognized nonprotected name (not trade name only) of the hazardous substance or of each component which contributes substantially to its hazard, unless the United States Consumer Product Safety Commission by regulation permits or requires the use of a recognized generic name;
+(3) The signal word "Danger," "Warning" or "Caution" to indicate the degree of hazard. The signal word "Danger" shall be used for substances which are extremely flammable, corrosive, or highly toxic. The signal word "Warning" or "Caution" shall be used for all other hazardous substances;
+(4) An affirmative statement of the principal hazard or hazards of the substance such as "Flammable," "Extremely Flammable," "Vapor Harmful," "Causes Burns," "Absorbed through Skin" or similar words descriptive of the hazard;
+(5) Precautionary measures describing the action to be followed or avoided;
+(6) Instructions for first-aid treatment, if available;
+(7) Instructions for handling or storage on packages or containers requiring special care in handling or storage;
+(8) Instructions for final disposal of containers on retail packages or containers requiring special care in disposal; and,
+(9) The statement "Keep Out of the Reach of Children" or its practical equivalent on retail packages or containers offered for household use.
+(c) Poisons. In addition to the words, statements or other information required by subdivision (b) of this section, a hazardous substance shall bear on its label the word "Poison," a skull and crossbones symbol, directions to call a physician upon ingestion and, if available, an antidote, if such hazardous substance is highly toxic as defined in this Article.
+(d) Art materials. All art materials shall be labeled in a manner as required pursuant to the Federal Hazardous Substances Act, as amended, and related regulations.
+(e) Other substances to be labeled. When the Commissioner finds that any substance is dangerous or detrimental to the health and safety of the public, the Commissioner may require the substance to be labeled pursuant to subdivisions (b) or (c) of this section.
+(e-1) Ceramic ware not suitable for use with food. All ceramic ware not suitable for use with foods must either:
+(1) Bear two types of conspicuous warnings:
+(A) A stick-on label on a surface clearly visible to consumers that states in legible font at least 3.2 mm (0.125 inches) in height one of the following messages:
+(i) "Not for Food Use. May Poison Food,"
+(ii) "Not for Food-Use. Glaze contains lead. Food Use May Result in Lead Poisoning," or
+(iii) "Not for Food Use - Food Consumed from this Vessel [Plate] May be Harmful"; and
+(B) A legible permanent statement of a message selected from the above paragraph molded or fired onto the exterior surface of the base or, when the ceramic ware is not fired after decoration, permanently painted legible font at least 3.2 mm (0.125 inches) in height onto the exterior surface of the base; or
+(2) Bear the label described above in Subparagraph (A) of Paragraph (1) of this subdivision and have a hole bored through any potential food-contact surface.
+(f) Strong sensitizers. When the Department determines that a substance is a strong sensitizer, it may order the manufacturer, distributor or seller to label the substance pursuant to subdivision (b) of this section.
+(g) Experimental substances. Subdivisions (b) and (c) of this section shall not apply to a substance still in the development stage when it is used solely for experimental purposes and when it is known that no specific hazard exists but the potential hazard is not identified, if it bears the following label or its practical equivalent: "Important! The properties of this substance have not been fully investigated and its handling or use may be hazardous. Exercise due care."
+(h) Wrapper labels. The words, statements or other information required by this article to be borne on the label or labeling of a hazardous substance shall also appear on the outside container or wrapper, if any, of the retail package of the substance, unless the required word, statement or other information is easily legible through the outside container or wrapper, and on each place of the labeling of a hazardous substance where there are directions for use, whether written or otherwise.
+(i) Labeling to be conspicuous. All words, statements or other information required on the label or labeling shall appear in a prominent place in the English language and in conspicuous and legible type which is contrasted by typography, layout or color from other printed matter on the label, container or wrapper. If the label or labeling contains any representation in a foreign language, all words, statements or other information required to appear on the label, container or wrapper shall also appear thereon in the foreign language.
+(Amended City Record 6/19/2019, eff. 7/19/2019)

@@ -1,0 +1,6 @@
+# NYC Administrative Code > Title 26: Housing and Buildings > Chapter 7: Rent Increase Exemption for Low Income Elderly Persons and Persons with Disabilities > § 26-609 Application for benefit; credits.
+
+§ 26-609 Application for benefit; credits.
+In order to obtain the benefits to which it is entitled under this chapter, a housing company or landlord of an applicable battery park city property must file with the department of finance a sworn application, in such form as such department may prescribe, for any period in which the housing company or landlord has accorded an eligible head of the household an exemption hereunder from the payment of the maximum rent. Subject to prior or subsequent verification thereof, the department of finance shall credit the total amount of such exemptions actually accorded to occupants of dwelling units contained in the property against the real property taxes or PILOT next payable with respect to the property, on a prospective basis only. The housing company or landlord shall attach to such application copies of all rent increase exemption orders/tax abatement certificates issued to eligible heads of the household residing in dwelling units in such real property.
+(Am. L.L. 2023/109, 7/23/2023, retro. eff. 12/15/2022)
+Editor's note: For related unconsolidated provisions, see Appendix A at L.L. 2023/109.

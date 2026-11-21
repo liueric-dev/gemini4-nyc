@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 100 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "100",
+    "title" : "Application of article four",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "100",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 100. Application of article four. The provisions of this article\\nshall apply to fireproof multiple dwellings erected after April\\neighteenth, nineteen hundred twenty-nine, and to such dwellings only.\\nThey shall apply to all such fireproof dwellings unless their\\napplication is expressly limited to dwellings of a particular class.\\nThey shall apply in addition to, and not in substitution for, the\\nprovisions of article three.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

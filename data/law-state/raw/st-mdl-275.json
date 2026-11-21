@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 275 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "275",
+    "title" : "Legislative findings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "275",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 275. Legislative findings. It is hereby declared and found that in\\ncities with a population in excess of one million, large numbers of\\nloft, manufacturing, commercial, institutional, public and community\\nfacility buildings have lost, and continue to lose, their tenants to\\nmore modern premises; and that the untenanted portions of such buildings\\nconstitute a potential housing stock within such cities which is\\ncapable, when appropriately altered, of accommodating general\\nresidential use, thereby contributing to an alleviation of the housing\\nshortage most severely affecting moderate and middle income families,\\nand of accommodating joint living-work quarters for artists by making\\nreadily available space which is physically and economically suitable\\nfor use by persons regularly engaged in the arts.\\n  There is a public purpose to be served by making accommodations\\nreadily available for joint living-work quarters for artists for the\\nfollowing reasons:  persons regularly engaged in the arts require larger\\namounts of space for the pursuit of their artistic endeavors and for the\\nstorage of the materials therefor and of the products thereof than are\\nregularly to be found in dwellings subject to this article; that the\\nfinancial remunerations to be obtained from pursuit of a career in the\\narts are generally small; that as a result of such limited financial\\nremuneration persons regularly engaged in the arts generally find it\\nfinancially impossible to maintain quarters for the pursuit of their\\nartistic endeavors separate and apart from their places of residence;\\nthat the cultural life of cities of more than one million persons within\\nthis state and of the state as a whole is enhanced by the residence in\\nsuch cities of large numbers of persons regularly engaged in the arts;\\nthat the high cost of land within such cities makes it particularly\\ndifficult for persons regularly engaged in the arts to obtain the use of\\nthe amounts of space required for their work as aforesaid; and that the\\nresidential use of the space is secondary or accessory to the primary\\nuse as a place of work.\\n  It is further declared that the legislation governing the alteration\\nof such buildings to accommodate general residential use must of\\nnecessity be more restrictive than statutes heretofore in effect, which\\naffected only joint living-work quarters for artists.\\n  It is the intention of this legislation to promulgate statewide\\nminimum standards for all alterations of non-residential buildings to\\nresidential use, but the legislature is cognizant that the use of such\\nbuildings for residential purposes must be consistent with local zoning\\nordinances. The legislature further recognizes that it is the role of\\nlocalities to adopt regulations which will define in further detail the\\nmanner in which alterations should be carried out where building types\\nand conditions are peculiar to their local environment.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-B" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-B",
+      "title" : "Joint Living-work Quarters For Artists, or General Residential Occupancy of Loft, Commercial or Manufacturing Buildings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-B",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "276",
+      "title" : "Definition of an artist",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-07-29" ],
+      "docLevelId" : "276",
+      "activeDate" : "2022-07-29"
+    }
+  }
+}

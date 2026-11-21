@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 12 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "12",
+    "title" : "Prohibited uses",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "12",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 12. Prohibited uses. 1. It shall be unlawful to use any multiple\\ndwelling or any part of the lot or premises thereof for the purpose of\\nprostitution or assignation of any description.\\n  2. It shall be unlawful to keep any horse, cow, calf, swine, rabbit,\\nsheep, goat, chicken or duck, or any pigeon except Antwerp or homing\\npigeons, in or on any multiple dwelling or on the lot or premises\\nthereof unless permitted by and in accordance with local law or\\nregulation.\\n  3. It shall be unlawful to use any multiple dwelling or any part of\\nthe lot or premises thereof for the keeping, storing or handling of any\\ncombustible article or any article dangerous or detrimental to life or\\nhealth, unless a permit is obtained for such use in conformity with\\nprovisions prescribed by local law, and where such local law does not\\nexist, in conformity with provisions prescribed by the fire department.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A2",
+      "title" : "Miscellaneous Application Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-11-26" ],
+      "docLevelId" : "2",
+      "activeDate" : "2023-11-26"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "11",
+      "title" : "Dwellings damaged or moved",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "11",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "13",
+      "title" : "Application of chapter to existing dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "13",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 287 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "287",
+    "title" : "Alternative compliance",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "287",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 287. Alternative compliance. In any case in which a local building\\ncode or this chapter provides an alternative means of meeting the fire\\nand safety standards of article seven-B of this chapter, an owner of an\\ninterim multiple dwelling may, to the extent permitted by such local\\ncode or this chapter, elect to comply with the standards of such code or\\nthis chapter rather than with article seven-B. Such an election shall\\nnot affect an owner's obligations to meet the deadlines for compliance\\nset forth in this article, and in such cases references herein to\\narticle seven-B shall be deemed to include any such local building code\\nor the applicable provisions of this chapter.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-C" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-C",
+      "title" : "Legalization of Interim Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-07-03" ],
+      "docLevelId" : "7-C",
+      "activeDate" : "2015-07-03"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "286",
+      "title" : "Tenant protection",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-03", "2019-06-28" ],
+      "docLevelId" : "286",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : null
+  }
+}

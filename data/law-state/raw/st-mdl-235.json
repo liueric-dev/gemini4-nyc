@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 235 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "235",
+    "title" : "Stairs in non-fireproof tenements",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "235",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 235. Stairs in non-fireproof tenements. 1. Every non-fireproof\\ntenement erected after May fifteenth, nineteen hundred two, containing\\nmore than twenty-six apartments or suites of rooms above the entrance\\nstory shall have an additional stair for every additional twenty-six\\napartments or suites or fraction thereof; except that if such tenement\\ncontains not more than thirty-six apartments above the entrance story,\\nin lieu of an additional stair the stairs, stair halls and entrance\\nhalls throughout the entire tenement may each be at least one-half wider\\nthan is specified in sections two hundred thirty-four, two hundred\\nthirty-seven and two hundred thirty-eight.\\n  2. The number of apartments on any story in any non-fireproof tenement\\nmay be altered, if the number of living rooms on such story is not\\nincreased by more than twenty per centum. If the number of living rooms\\non any story or section thereof above the entrance story exceeds twenty,\\nthere shall be an additional stair for each twenty rooms or fraction\\nthereof on any such story or section thereof, except that if the number\\nof living rooms on any such story or section does not exceed thirty, in\\nlieu of an additional stair one stair and every public hall connected\\ntherewith may be at least one-half wider than is specified in sections\\ntwo hundred thirty-four, two hundred thirty-seven and two hundred\\nthirty-eight.\\n  3. Whenever the total number of rooms, exclusive of bathrooms,\\nwater-closet compartments, and cooking spaces less than eighty square\\nfeet in area, in any non-fireproof tenement or section thereof is\\ndecreased through the process of an alteration, the number of apartments\\nmay be altered and the provisions of this section which relate to\\nadditional stairs shall not be applicable.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7", "A7T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7",
+      "title" : "Tenements",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "234",
+      "title" : "Stairs and public halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "234",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "236",
+      "title" : "Stairs in fireproof tenements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "236",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 29: New York City Fire Code > Chapter 2: New York City Fire Code > Chapter 10: Means of Egress > 1027.3.5 Furnishings and decorations.
+
+1027.3.5 Furnishings and decorations.
+Furnishings, decorations or other objects shall not be placed so as to obstruct exits, access thereto, egress therefrom, or visibility thereof. Furnishings and decorations shall not be placed in building hallway corridors or elevator lobbies except as authorized by FC 1027.4 or other provision of this code. Hangings and draperies shall not be placed over exit doors or otherwise be located to conceal or obstruct an exit except as authorized by the commissioner. Mirrors shall not be placed on exit doors. Mirrors shall not be placed in or adjacent to any exit in such a manner as to confuse the direction of exit.

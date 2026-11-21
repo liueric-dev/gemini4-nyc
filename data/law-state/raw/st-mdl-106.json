@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 106 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "106",
+    "title" : "Cellar and basement stairs",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "106",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 106. Cellar and basement stairs.  A cellar or basement stair may be\\nlocated inside the dwelling, but shall not be located underneath a stair\\nleading to the upper stories unless it is a basement stair leading\\nupward from a basement which is the main entrance story of the dwelling,\\nor unless it is a stair leading downward from the entrance story which\\nis separated by a fireproof arch from the stair leading upward from the\\nentrance story.  Except as otherwise provided in subdivision five of\\nsection fifty-two, all inside cellar or basement stairs shall be\\nentirely enclosed with fireproof walls and be provided with fireproof\\ndoors and assemblies, with the doors self-closing, at all openings.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A4", "A4T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4",
+      "title" : "Fireproof Multiple Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2016-10-28" ],
+      "docLevelId" : "4",
+      "activeDate" : "2016-10-28"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A4T1",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "105",
+      "title" : "Separation and ventilation of stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "105",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "107",
+      "title" : "Public halls",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "107",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

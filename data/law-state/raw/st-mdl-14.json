@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 14 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "14",
+    "title" : "Application of chapter to uncompleted dwellings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "14",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 14. Application of chapter to uncompleted dwellings. 1. The\\nprovisions of this chapter relating to multiple dwellings erected after\\nApril eighteenth, nineteen hundred twenty-nine, shall not apply to any\\nmultiple dwelling for which plans were on file with the department or a\\npermit to commence building was issued by the department before August\\nninth, nineteen hundred twenty-nine, and the entire building shall have\\nbeen completed according to the plans filed with the department, subject\\nto any lawful subsequent amendment thereto, before July first, nineteen\\nhundred forty-seven.\\n  2. No provisions of any part of this section shall be deemed to\\nprohibit the amendment of any plans filed and approved before April\\neighteenth, nineteen hundred twenty-nine, if such amendment would have\\nbeen lawful before such date, or if such amendment complies with the\\nrequirements of this chapter for alterations to buildings of like class\\nand kind existing before April eighteenth, nineteen hundred twenty-nine.\\n  3. A permit to commence building issued by the department before April\\neighteenth, nineteen hundred twenty-nine, based upon plans filed and\\napproved for a multiple dwelling described in subdivision one, shall be\\ndeemed to be in compliance with section three hundred.\\n  4. The provisions of this chapter relating to multiple dwellings\\nerected and occupied as such before April eighteenth, nineteen hundred\\ntwenty-nine, shall apply to the dwellings described in this section;\\nexcept, however, that unless otherwise expressly required in article\\nthree nothing in this chapter shall be construed to require any change\\nin the plans or occupancy of any such dwelling if it be fireproof and\\nthe plans therefore when filed were in compliance with the provisions of\\nall local laws, ordinances, rules and regulations applicable thereto and\\nin effect on April eighteenth, nineteen hundred twenty-nine, or were\\nsubsequently amended to comply with such provisions.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A2",
+      "title" : "Miscellaneous Application Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-11-26" ],
+      "docLevelId" : "2",
+      "activeDate" : "2023-11-26"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "13",
+      "title" : "Application of chapter to existing dwellings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "13",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "15",
+      "title" : "Multiple dwelling emergency information",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2023-11-26", "2024-02-02", "2024-02-16" ],
+      "docLevelId" : "15",
+      "activeDate" : "2024-02-16"
+    }
+  }
+}

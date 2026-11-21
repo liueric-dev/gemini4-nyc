@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 234 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "234",
+    "title" : "Right to recover attorneys' fees in actions or summary proceedings arising out of leases of residential property",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28", "2021-12-31" ],
+    "docLevelId" : "234",
+    "activeDate" : "2021-12-31",
+    "text" : "  § 234. Right to recover attorneys' fees in actions or summary\\nproceedings arising out of leases of residential property. 1. Whenever a\\nlease of residential property shall provide that in any action or\\nsummary proceeding the landlord may recover attorneys' fees and/or\\nexpenses incurred as the result of the failure of the tenant to perform\\nany covenant or agreement contained in such lease, or that amounts paid\\nby the landlord therefor shall be paid by the tenant as additional rent,\\nthere shall be implied in such lease a covenant by the landlord to pay\\nto the tenant the reasonable attorneys' fees and/or expenses incurred by\\nthe tenant as the result of the failure of the landlord to perform any\\ncovenant or agreement on its part to be performed under the lease or in\\nthe successful defense of any action or summary proceeding commenced by\\nthe landlord against the tenant arising out of the lease, and an\\nagreement that such fees and expenses may be recovered as provided by\\nlaw in an action commenced against the landlord or by way of\\ncounterclaim in any action or summary proceeding commenced by the\\nlandlord against the tenant. A landlord may not recover attorneys' fees\\nupon a default judgment. Any waiver of this section shall be void as\\nagainst public policy.\\n  2. Notwithstanding the provisions of subdivision one of this section,\\nwhere a tenant is a dwelling unit owner or shareholder of a cooperative\\nhousing corporation, other than a cooperative housing corporation\\nsubject to the provisions of article two, article four, article five or\\narticle eleven of the private housing finance law, attorney's fees may\\nbe awarded to either party in the event of default judgment if recovery\\nof attorney's fees is provided for in the proprietary lease or occupancy\\nagreement.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "233-C",
+      "title" : "Residential ground lease cooperative apartment buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-10-04", "2025-01-03" ],
+      "docLevelId" : "233-C",
+      "activeDate" : "2025-01-03"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "234-A",
+      "title" : "Unauthorized legal fees",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2021-12-24", "2022-03-25" ],
+      "docLevelId" : "234-A",
+      "activeDate" : "2022-03-25"
+    }
+  }
+}

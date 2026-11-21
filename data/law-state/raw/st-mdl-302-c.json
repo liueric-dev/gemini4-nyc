@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 302-C in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "302-C",
+    "title" : "Right of tenant to offset payments for heat failure; certain cases",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "302-C",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 302-c. Right of tenant to offset payments for heat failure; certain\\ncases. 1. Any tenant acting alone or together with other tenants of a\\nmultiple dwelling employing an oil fired heating device for which the\\nowner is responsible and wherein there exists a lack of heat due to the\\nowner's failure to have oil supplied to the premises, may contract and\\npay for the delivery of such oil in accordance with the provisions of\\nthis section. Any payment so made shall be deductible from rent\\nproviding the following provisions have been substantially complied with\\nby the tenant or someone acting on his behalf:\\n  a. Reasonable efforts were made to contact the owner or his agent to\\ninform the owner of such failure to supply oil.\\n  b. Reasonable efforts were made to have the normal fuel supplier to\\nthe premises deliver the requested fuel.\\n  c. Delivery of fuel oil to the premises was secured from a fuel\\nsupplier regularly engaged in such business at a price within the range\\nof prices listed by the department in the index provided for in\\nsubdivision three of this section.\\n  d. The fuel supplier from whom oil is secured provided a written\\nstatement containing the following:\\n  (1) The name of the person or persons who requested the delivery; and\\n  (2) The date, time of and premises to which delivery was made; and\\n  (3) The amount, grade and price of the oil delivered; and\\n  (4) A certification that the usable fuel supply before the delivery\\nwas exhausted; and\\n  (5) The charge, if any, for refiring the burner; and\\n  (6) The amounts and from whom any payments were received.\\n  e. A tenant shall not be required to comply with the provisions of\\nparagraph a or b hereof unless the owner has continuously kept posted in\\na conspicuous place at the premises a notice containing his name,\\naddress and telephone number or that of his agent and the name, address\\nand telephone number of the fuel supplier to the premises.\\n  f. For purposes of this section, a multiple dwelling shall be\\nconsidered to lack heat if, during the months between October first and\\nMay thirty-first, while its usable fuel supply was exhausted, the\\noutdoor temperature fell below fifty-five degrees Fahrenheit at any time\\nduring the hours between six o'clock in the morning and ten o'clock in\\nthe evening.\\n  2. The deduction from rent allowed by this section shall also include\\na reasonable charge, if any, made by the supplier for refiring the oil\\nburner at the premises.\\n  3. The department charged with the enforcement of laws, ordinances and\\nregulations in relation to multiple dwellings shall:\\n  a. Maintain and, to the extent practicable, update at least bi-weekly\\nan index reflecting the range of prices of fuel oil according to grade\\nand quantity paid per gallon on deliveries within the jurisdiction of\\nthe department during the last two week period for which statistics are\\navailable; and\\n  b. Maintain and keep current and available a list of suppliers which\\nhave agreed to make deliveries of fuel oil in the circumstances, and to\\nrender such assistance as is otherwise required hereby to enable tenants\\nto obtain the benefits, contemplated by this section.\\n  4. The payment for fuel oil at a price within the range of prices\\npermitted by paragraph c of subdivision one of this section shall be\\nconclusively presumed to have been a reasonable price.\\n  5. The introduction into evidence in any action or proceeding of any\\nstatement rendered in compliance with the provisions of paragraph d of\\nsubdivision one of this section shall be presumptive of the facts stated\\ntherein. Sufficient foundation for the allowance into evidence of such\\nstatement shall consist of the oral testimony of any person named as a\\npayer of all or part of the amount indicated thereon relating the facts\\nand circumstances in which the statement was rendered.\\n  6. Any tenant who has in good faith secured and paid for fuel oil\\notherwise in conformance with the provisions of this section and against\\nwhom an action or proceeding to recover possession of the premises for\\nnonpayment of rent or any other action or proceeding attributable at\\nleast in part to the tenant seeking or taking a deduction from rent as\\nallowed by this section shall, in addition to any other amounts, be\\nentitled to recover reasonable costs and attorney's fees against an\\nowner bringing such action or proceeding.\\n  7. No owner or agent shall be entitled to recover any amounts in\\ndamages from any fuel oil supplier who attempts in good faith and acts\\nreasonably to carry out the intendment of this section except damages\\narising out of gross negligence.\\n  8. The remedy provided in this section shall not be exclusive and a\\ncourt may provide such other relief as may be just and proper in the\\ncircumstances. Nothing in this section shall be construed to limit or\\ndeny any existing constitutional, statutory, administrative or common\\nlaw right of a tenant to contract and pay for the delivery of fuel oil\\nfor the multiple dwelling in which he resides or to pay for the cost of\\nany other goods and services for such multiple dwelling. This section\\nshall not be construed to preclude any defense, counterclaim or cause of\\naction asserted by a tenant that may otherwise exist with respect to an\\nowner's failure to provide heat or any other service.\\n  9. Any agreement by a tenant of a dwelling waiving or modifying his\\nrights as set forth in this section shall be void as contrary to public\\npolicy.\\n  10. The provisions of this section shall be liberally construed so as\\nto give effect to the purposes set forth herein.\\n  * 11. Nothing contained in this section and no payment made pursuant\\nto this section shall be deemed to discharge the liability of a renter\\nwith an interest in real property pursuant to subdivision two of section\\nthree hundred four of the real property tax law from taxes levied on\\nsuch interest.\\n  * NB (Effective pending ruling by Commissioner of Internal Revenue)\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "302-B",
+      "title" : "Removal of violations by mortgagees",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "302-B",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "303",
+      "title" : "Enforcement",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "303",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

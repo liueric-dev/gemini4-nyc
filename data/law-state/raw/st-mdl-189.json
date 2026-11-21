@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 189 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "189",
+    "title" : "Stair and public hall construction",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "189",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 189. Stair and public hall construction. Except as provided in\\nparagraph g of subdivision three of section one hundred seventy-one,\\nstairs and public halls shall conform to the following provisions:\\n  1. In a dwelling more than a basement and three other stories in\\nheight or occupied by four families or more, the soffit and stringers of\\nevery stair between the lowest entrance story and the next higher story\\nand the walls and ceilings of every lowest entrance hall shall be\\nfire-retarded and in such dwellings converted on and after July first,\\nnineteen hundred fifty-eight, all doors opening to such entrance hall\\nand stairs, and the door assemblies, shall be fireproof with the doors\\nself-closing. In lieu of the requirements of this subdivision, a\\nsprinkler system may be installed in accordance with the provisions of\\nsection one hundred eighty-seven.\\n  2. Every door opening from any stair, entrance hall or other public\\nhall to any other part of the dwelling shall be self-closing. Every\\nglazed transom over any such door shall be glazed with wire glass.\\nEvery transom shall be stationary. On and after July first, nineteen\\nhundred fifty-seven, every glazed panel or other glazed opening in any\\nsuch door shall be glazed with wire glass.\\n  3. Every stair, except a basement or cellar stair, shall be two feet\\nsix inches or more in clear width. Any wooden stair may be replaced by\\nan iron stair of like dimensions. Every entrance hall shall be two feet\\neight inches or more in clear width.\\n  4. If the number of rooms in a class B dwelling is increased and there\\nare sixteen sleeping rooms or more above a basement or, if there be no\\nbasement, above the main entrance story, all partitions and ceilings\\nenclosing public halls and stairs shall be fire-retarded throughout. All\\ndoors opening to such public halls and stairs, and their assemblies,\\nshall be fireproof with the doors self-closing.  Stairs shall be\\nfireproof and shall extend from the main entrance story through a\\nbulkhead to the roof.\\n  5. On and after July first, nineteen hundred fifty-seven, every\\ninterior sash, or opening other than a door, in the walls or partitions\\nof any stair, entrance hall or other public hall, and every window\\ntherein not opening to the outer air, shall be removed and the openings\\nclosed up with material similar to the adjacent walls.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "188",
+      "title" : "Bulkheads and scuttles",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "188",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "190",
+      "title" : "Cellar stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "190",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

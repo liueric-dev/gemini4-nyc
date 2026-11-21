@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 1813 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "1813",
+    "title" : "Duty to pay judgments",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "1813",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 1813. Duty to pay judgments. (a) Any person, partnership, firm or\\ncorporation which is sued in a small claims court for any cause of\\naction arising out of its business activities, shall pay any judgment\\nrendered against it in its true name or in any name in which it conducts\\nbusiness. \"True name\" includes the legal name of a natural person and\\nthe name under which a partnership, firm or corporation is licensed,\\nregistered, incorporated or otherwise authorized to do business.\\n\"Conducting business\" as used in this section shall include, but not be\\nlimited to, maintaining signs at business premises or on business\\nvehicles; advertising; entering into contracts; and printing or using\\nsales slips, checks, invoices or receipts.  Whenever a judgment has been\\nrendered against a person, partnership, firm or corporation in other\\nthan its true name and the judgment has remained unpaid for thirty-five\\ndays after receipt by the judgment debtor of notice of its entry, the\\naggrieved judgment creditor shall be entitled to commence an action in\\nsmall claims court or in any other court of otherwise competent\\njurisdiction against such judgment debtor, notwithstanding the\\njurisdictional limit of the court, for the sum of the original judgment,\\ncosts, reasonable attorney's fees, and one hundred dollars.\\n  (b) Whenever a judgment which relates to activities for which a\\nlicense is required has been rendered against a business which is\\nlicensed by a state or local licensing authority and which remains\\nunpaid for thirty-five days after receipt by the judgment debtor of\\nnotice of its entry and the judgment has not been stayed or appealed,\\nthe state or local licensing authority shall consider such failure to\\npay if deliberate or part of a pattern of similar conduct indicating\\nrecklessness, as a basis for the revocation, suspension, conditioning or\\nrefusal to grant or renew such license. Nothing herein shall be\\nconstrued to preempt an authority's existing policy if it is more\\nrestrictive.\\n  (c) The clerk shall attach to the notice of suit required under this\\narticle a notice of the duty imposed by this section.\\n",
+    "parentLocationIds" : [ "-CH693", "A18" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A18",
+      "title" : "Small Claims",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "18",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1812",
+      "title" : "Enforcement of small claims judgments",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1812",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "1814",
+      "title" : "Designation of defendant; amendment procedure",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1814",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

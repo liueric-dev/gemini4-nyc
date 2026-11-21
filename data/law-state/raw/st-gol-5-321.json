@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 5-321 in GOB law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "GOB",
+    "lawName" : "General Obligations",
+    "locationId" : "5-321",
+    "title" : "Agreements exempting lessors from liability for negligence void and unenforceable",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "5-321",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 5-321. Agreements exempting lessors from liability for negligence\\nvoid and unenforceable. Every covenant, agreement or understanding in or\\nin connection with or collateral to any lease of real property exempting\\nthe lessor from liability for damages for injuries to person or property\\ncaused by or resulting from the negligence of the lessor, his agents,\\nservants or employees, in the operation or maintenance of the demised\\npremises or the real property containing the demised premises shall be\\ndeemed to be void as against public policy and wholly unenforceable.\\n",
+    "parentLocationIds" : [ "-CH24-A", "A5", "A5T3" ],
+    "parents" : [ {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "-CH24-A",
+      "title" : "General Obligations",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2017-10-27", "2019-12-13", "2021-04-09", "2026-07-24" ],
+      "docLevelId" : "24-A",
+      "activeDate" : "2026-07-24"
+    }, {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "A5",
+      "title" : "Creation, Definition and Enforcement of Contractual Obligations",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2026-07-24" ],
+      "docLevelId" : "5",
+      "activeDate" : "2026-07-24"
+    }, {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "A5T3",
+      "title" : "Certain Prohibited Contracts and Provisions of Contracts",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22", "2018-04-20", "2019-11-22", "2024-12-20" ],
+      "docLevelId" : "3",
+      "activeDate" : "2024-12-20"
+    } ],
+    "prevSibling" : {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "5-311",
+      "title" : "Certain agreements between husband and wife void",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5-311",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "GOB",
+      "lawName" : "General Obligations",
+      "locationId" : "5-322",
+      "title" : "Agreements exempting caterers and catering establishments from liability for negligence void and unenforceable",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "5-322",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

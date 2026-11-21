@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 776 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "776",
+    "title" : "Judgment",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "776",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 776. Judgment. The court shall render a final judgment either\\n  a. Dismissing the petition for failure to affirmatively establish the\\nallegations thereof or because of the affirmative establishment by the\\nowner or a mortgagee or lienor of record of a defense or defenses\\nspecified in section seven hundred seventy-five of this article; or\\n  b. Directing that (1) the rents due on the date of the entry of such\\njudgment from the petitioning tenants and the rents due on the dates of\\nservice of the judgment on all other residential and non-residential\\ntenants occupying such dwelling from such other tenants, shall be\\ndeposited with the administrator appointed by the court, pursuant to\\nsection seven hundred seventy-eight of this article; (2) any rents to\\nbecome due in the future from all tenants occupying such dwelling shall\\nbe deposited with such administrator as they fall due; (3) such\\ndeposited rents shall be used, subject to the court's direction, to the\\nextent necessary to remedy the condition or conditions alleged in the\\npetition and (4) upon the completion of such work in accordance with\\nsuch judgment, any remaining surplus shall be turned over to the owner,\\ntogether with a complete accounting of the rents deposited and the costs\\nincurred; and granting such other and further relief as to the court may\\nseem just and proper. A certified copy of such judgment shall be served\\npersonally upon each non-petitioning tenant occupying such dwelling and\\nupon the city of New York by service as provided in subdivision five of\\nsection seven hundred seventy-one of this article. If personal service\\non any such non-petitioning tenant cannot be made with due diligence,\\nservice on such tenant shall be made by affixing a certified copy of\\nsuch judgment on the entrance door of such tenant's apartment, store or\\nother unit and, in addition, within one day after such affixing, by\\nsending a certified copy thereof by registered mail, return receipt\\nrequested, to such tenant. Any right of the owner of such dwelling to\\ncollect such rent moneys from any petitioning tenant of such dwelling on\\nor after the date of entry of such judgment, and from any\\nnon-petitioning tenant of such dwelling on or after the date of service\\nof such judgment on such non-petitioning tenant as herein provided,\\nshall be void and unenforceable to the extent that such petitioning or\\nnon-petitioning tenant, as the case may be, has deposited such moneys\\nwith the administrator in accordance with the terms of such judgment,\\nregardless of whether such right of the owner arises from a lease,\\ncontract, agreement or understanding heretofore or hereafter made or\\nentered into or arises as a matter of law from the relationship of the\\nparties or otherwise. It shall be a valid defense in any action or\\nproceeding against any such tenant to recover possession of real\\nproperty for the non-payment of rent or for use or occupation to prove\\nthat the rent alleged to be unpaid was deposited with the administrator\\nin accordance with the terms of a judgment entered under this section.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "775",
+      "title" : "Defenses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "775",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "777",
+      "title" : "Application by mortgagee or lienor of record or other person having an interest in the property",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2020-11-13", "2020-12-18" ],
+      "docLevelId" : "777",
+      "activeDate" : "2020-12-18"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 353 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "353",
+    "title" : "Permission of owner or lessee",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "353",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 353. Permission of owner or lessee.  A multiple dwelling shall be\\ndeemed to have been used for the purposes specified in the last two\\nsections with the permission of the owner, agent or lessee thereof in\\nthe following cases:\\n  1. If summary proceedings for the removal of the tenants of such\\ndwelling or of so much thereof as is unlawfully used, shall not have\\nbeen commenced within five days after notice of such unlawful use has\\nbeen served by the department in the manner prescribed by article nine\\nof this chapter for the service of notices and orders; or having been\\ncommenced, are not in good faith diligently prosecuted to final\\ndetermination.\\n  2. If there be two or more convictions in such dwelling within a\\nperiod of six months, under sections 230.00, 230.25, or 230.40 of the\\npenal law.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A10" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A10",
+      "title" : "Prostitution",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "10",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "352",
+      "title" : "Recovery of premises",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "352",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "354",
+      "title" : "Rules of evidence",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "354",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

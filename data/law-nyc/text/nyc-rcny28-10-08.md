@@ -1,0 +1,5 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 10: Administration of Applications for Certifications of No Harassment > § 10-08 Certification.
+
+§ 10-08 Certification.
+(a) A certification shall be effective for three years from the date upon which such certification is signed by the Commissioner, which period shall be stated in such certification. Such certification shall apply to any plan approval, any alteration or demolition permit application, or any renewal of a permit issued for such plan approval, alteration or demolition permit application that is submitted to DOB during such period.
+(b) HPD shall not issue a certification unless HPD has received an affidavit of no future harassment executed by one or more individual natural persons who are, at the time of execution of such affidavit, either (i) all of the owners of the property, or (ii) principals or officers of all of the owners of the property who are authorized to sign on behalf of and bind such owners.

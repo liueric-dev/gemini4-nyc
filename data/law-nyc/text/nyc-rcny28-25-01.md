@@ -1,0 +1,4 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 25: Multiple Dwellings > Subchapter A: Installation and Maintenance of Gas-Fueled Water and Space Heaters in All Portions of Dwellings Used or Occupied for Living Purposes > Part 1: Scope > § 25-01 Scope.
+
+§ 25-01 Scope.
+These rules shall govern the installation and maintenance of gas-fueled space and water heaters in the residence portions of multiple dwellings in the City of New York, including but not limited to the installation of such devices in multiple dwellings which are installed in lieu of centrally supplied heat and hot water under the provisions of §§ 27-2028, 27-2031, 27-2032, and 27-2034 of the Administrative Code, and in one and two family residences not heated by a central heating system.

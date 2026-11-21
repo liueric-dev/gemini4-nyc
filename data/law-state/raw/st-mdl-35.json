@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 35 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "35",
+    "title" : "Entrance doors and lights",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "35",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 35. Entrance doors and lights.  In every multiple dwelling erected\\nafter April eighteenth, nineteen hundred twenty-nine, every door giving\\naccess to an entrance hall from outside the dwelling shall contain at\\nleast five square feet of glazed surface. The width of every such door\\nshall be at least seventy-five per centum of the required clear width of\\nsuch entrance hall as provided in section fifty, except that when a\\nseries of such entrance doors is provided their aggregate clear width\\nshall not be less than seventy-five per centum of the required width of\\nthe entrance hall and the clear width of each of the doors separately\\nshall be at least two feet six inches.  Such a door opening upon a\\nstreet or a court extending to a street may be of wood. Such a door\\nopening upon a yard or upon a court not extending to a street shall be\\nfireproof.\\n  The owner of every multiple dwelling shall install and maintain a\\nlight or lights at or near the outside of the front entrance-way of the\\nbuilding which shall in the aggregate provide not less than fifty watts\\nincandescent illumination for a building with a frontage up to\\ntwenty-two feet and one hundred watts incandescent illumination for a\\nbuilding with a frontage in excess of twenty-two feet, or equivalent\\nillumination and shall be kept burning from sunset every day to sunrise\\non the day following. In the case of a multiple dwelling with a frontage\\nin excess of twenty-two feet, the front entrance doors of which have a\\ncombined width in excess of five feet, there shall be at least two\\nlights, one at each side of the entrance way, with an aggregate\\nillumination of one hundred fifty watts or equivalent illumination. In\\nenforcing this provision the department shall permit owners to determine\\nfor themselves the actual location, design and nature of the\\ninstallation of such light or lights to meet practical, aesthetic and\\nother considerations, so long as the minimum level of illumination is\\nmaintained.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A3", "A3T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3",
+      "title" : "Multiple Dwellings--general Provisions",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A3T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "34",
+      "title" : "Rooms in basements and cellars",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2026-08-28" ],
+      "docLevelId" : "34",
+      "activeDate" : "2026-08-28"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "36",
+      "title" : "Windows and skylights for public halls and stairs",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "36",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

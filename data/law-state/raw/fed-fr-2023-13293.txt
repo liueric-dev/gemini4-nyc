@@ -1,0 +1,1184 @@
+<html>
+<head>
+<title>Federal Register, Volume 88 Issue 119 (Thursday, June 22, 2023)</title>
+</head>
+<body><pre>
+[Federal Register Volume 88, Number 119 (Thursday, June 22, 2023)]
+[Notices]
+[Pages 40832-40841]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2023-13293]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT
+
+[Docket No. FR-6086-N-05]
+
+
+National Standards for the Physical Inspection of Real Estate: 
+Inspection Standards
+
+AGENCY: Office of the Assistant Secretary for Housing--Federal Housing 
+Commissioner, Office of the Assistant Secretary for Community Planning 
+and Development, Office of the Assistant Secretary for Public and 
+Indian Housing, HUD.
+
+ACTION: Notice.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This notice of NSPIRE Inspection Standards serves as a 
+complementary document to the Economic Growth Regulatory Relief and 
+Consumer Protection Act: Implementation of National Standards for the 
+Physical Inspection of Real Estate (NSPIRE) rule. The rule provides 
+that HUD publish in the Federal Register a set of NSPIRE inspection 
+Standards to consolidate and align housing quality requirements and 
+associated inspection Standards across programs. After developing and 
+testing draft Standards and receiving public comment on prior versions 
+of the Standards, HUD is providing the final NSPIRE physical inspection 
+Standards to accompany HUD's final rule. Additionally, HUD is providing 
+a list of life-threatening conditions and incorporating them into the 
+NSPIRE inspection Standards in place of codifying the list, which HUD 
+proposed in the ``Housing Opportunity Through Modernization Act (HOTMA) 
+of 2016--Housing Choice Voucher (HCV) and Project Based Voucher 
+Implementation: Additional Streamlining Changes'' proposed rule. These 
+final Standards adopt the proposed Standards with changes identified in 
+this notice.
+
+DATES: July 1, 2023.
+
+FOR FURTHER INFORMATION CONTACT: Marcel M. Jemio, Real Estate 
+Assessment Center, Office of Public and Indian Housing, Department of 
+Housing and Urban Development, 550 12th
+
+[[Page 40833]]
+
+Street SW, Suite 100, Washington, DC 20410-4000, telephone number 202-
+708-1112 (this is not a toll-free number). HUD welcomes and is prepared 
+to receive calls from individuals who are deaf or hard of hearing, as 
+well as individuals with speech or communication disabilities. To learn 
+more about how to make an accessible telephone call, please visit: 
+<a href="https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs">https://www.fcc.gov/consumers/guides/telecommunications-relay-service-trs</a>.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Previous Standards and Programs
+
+    Prior to implementation of the NSPIRE rule, there were two 
+inspection models used across the majority of HUD housing programs: 
+Housing Quality Standards (HQS), developed in the 1970s and applicable 
+to housing assisted under the Housing Choice Voucher and Project Based 
+Voucher program, which were found at 24 CFR 982.401; and the Uniform 
+Physical Condition Standards (UPCS) developed in the 1990s and 
+applicable to the programs listed at 24 CFR 5.701, which were found at 
+24 CFR 5.703 with the dictionary of individual UPCS deficiencies 
+contained in a Federal Register notice.\1\
+---------------------------------------------------------------------------
+
+    \1\ 77 FR 47707 (Aug. 9, 2012), <a href="https://www.federalregister.gov/documents/2012/08/09/2012-19335/public-housing-assessment-system-phas-physical-condition-scoring-notice-and-revised-dictionary-of">https://www.federalregister.gov/documents/2012/08/09/2012-19335/public-housing-assessment-system-phas-physical-condition-scoring-notice-and-revised-dictionary-of</a>.
+---------------------------------------------------------------------------
+
+II. NSPIRE Rule
+
+    On May 11, 2023, HUD published the final rule ``Economic Growth 
+Regulatory Relief and Consumer Protection Act: Implementation of 
+National Standards for the Physical Inspection of Real Estate'' (88 FR 
+30442) to align expectations of housing quality and consolidate 
+inspection standards across HUD programs.
+    The rule at 24 CFR 5.709 explains that HUD will publish a notice 
+establishing the NSPIRE Standards and will subsequently update these 
+Standards through future Federal Register notices at least once every 
+three years with an opportunity for public comment. This will provide 
+further opportunity for the public to examine proposed changes, provide 
+pertinent comments, and suggest the inclusion of industry best 
+practices. This three-year Standards development cycle aligns with 
+cycles used by standards development organizations (SDOs) in the model 
+building codes and life safety industries. A three-year review cycle 
+will also allow HUD to be more responsive to the ever-changing public 
+and assisted housing portfolio and evolving needs and research findings 
+in the field.
+
+III. NSPIRE Standard Development and Background
+
+    The unified NSPIRE Standards will be used to evaluate compliance 
+with HUD's expectations of housing quality across the distinct programs 
+governed by the regulatory alignment offered in the NSPIRE rule. 
+Consistent with the NSPIRE rule, the unified NSPIRE standards 
+contribute to a unified inspection protocol for three different 
+overarching programs: programs for housing assisted under the U.S. 
+Housing Act of 1937 other than section 8 of the Act (``Public 
+Housing''), programs previously under the Housing Quality Standards 
+regulations at 24 CFR 982.401 (HQS regulations), and programs already 
+covered under 24 CFR part 5, subpart G (``Multifamily housing'').
+    With one exception, CPD programs are not subject to the 
+requirements or standards issued through this notice. CPD programs used 
+standards that are replaced by NSPIRE and, consistent with the preamble 
+to the final rule, HUD will be issuing program-specific notices to 
+address implementation of NSPIRE Standards for CPD programs. The one 
+exception involves the Housing Opportunities for Persons with AIDS 
+(HOPWA) program, which is the only CPD program covered by the statutory 
+requirement on installation of carbon monoxide detection devices. With 
+respect to that carbon monoxide detection requirement, the standards 
+HUD is establishing for units and inside area under this notice also 
+apply for purposes of the HOPWA program. In all other respects, this 
+notice and these standards do not apply for purposes of the HOPWA 
+program.
+    Throughout the development of NSPIRE, HUD has provided multiple 
+avenues for industry and public input on the Standards. In September 
+2019, HUD began publishing draft NSPIRE Standards on HUD's website. The 
+original and subsequent versions of the Standards represent input from 
+industry stakeholders and the public via workshops, webinars, and 
+feedback received through HUD's NSPIRE website.
+    HUD's approach to Standards development follows a defined set of 
+core principles: people-centered design, a focus on efficiency, 
+science-based rationales, continuous collaborative improvement, and 
+streamlined operations. HUD's principles of standards development are 
+designed to ensure that standards:
+    <bullet> Are developed according to an evidence-based methodology 
+that ensures reliability and defensibility;
+    <bullet> Prioritize resident health, safety, and functionality of 
+property features, ensuring that residents are living in habitable 
+homes;
+    <bullet> Promote iterative collaboration and feedback; and
+    <bullet> Focus on streamlining inspections processes, ensuring that 
+standards can be executed consistently across programs.
+    On June 17, 2022, HUD published a request for comments on a draft 
+set of NSPIRE Standards, ``Request for Comments: National Standards for 
+the Physical Inspection of Real Estate and Associated Protocols'' (87 
+FR 36426) (``proposed NSPIRE Standards notice''); HUD received 80 
+comments in response to that request for comments. HUD is now 
+finalizing these Standards with changes based on the feedback HUD has 
+received. HUD identifies the major changes and particularly pertinent 
+comments below.
+
+IV. HOTMA Life Threatening List
+
+    Under the Housing Opportunity Through Modernization Act of 2016 
+(HOTMA), as described in the preamble of the NSPIRE proposed rule and 
+NSPIRE final rule, under the HCV and Project Based Voucher (PBV) 
+programs, life-threatening deficiencies must be addressed within 24 
+hours, and all other deficiencies within 30 days or a reasonable longer 
+period as established by the Public Housing Agency (PHA).\2\ Under 
+HOTMA, PHAs can allow families participating in the HCV and PBV 
+programs to move into their unit prior to the unit passing the HQS, but 
+only if there are no life-threatening conditions identified in the 
+initial inspection.
+---------------------------------------------------------------------------
+
+    \2\ Public Law 114-201, enacted July 29, 2016.
+---------------------------------------------------------------------------
+
+    Consistent with HOTMA, HUD published a list of life-threatening 
+conditions (``HOTMA LT List'') through Federal Register notice 
+``Housing Opportunity Through Modernization Act of 2016: Implementation 
+of Various Section 8 Voucher Provisions'' (82 FR 5458).
+    In the proposed rule ``Housing Opportunity Through Modernization 
+Act of 2016--Housing Choice Voucher (HCV) and Project-Based Voucher 
+Implementation; Additional Streamlining Changes'' (85 FR 63664) 
+(``HOTMA Proposed Rule''), HUD proposed to incorporate this list into 
+24 CFR 982.401. In the proposed NSPIRE Standards notice, HUD proposed 
+to instead include the HOTMA LT List in the NSPIRE Standards. HUD 
+received comments on the HOTMA LT List in both the HOTMA Proposed Rule 
+and the Proposed NSPIRE Standards notice.
+
+[[Page 40834]]
+
+HUD has chosen to go forward with the proposal in the NSPIRE proposed 
+Standards notice and includes the HOTMA LT list in these final NSPIRE 
+Standards.
+    HUD has included the HOTMA LT List in the NSPIRE Standards and not 
+in regulation and provides this list as Table 65 of the Standards. HUD 
+believes that this consolidation is consistent with HUD's goal of 
+consolidating standards. All NSPIRE Standards apply for the HCV and PBV 
+programs, except where variant inspection standards apply.\3\ In the 
+NSPIRE Standards, Deficiencies which are considered life-threatening 
+for purposes of the HCV and PBV programs are noted with a 24-hour HCV 
+Correction Timeframe. The HOTMA LT list applies for all PHAs in the HCV 
+and PBV programs, and not only those choosing to implement the Non-
+Life-Threatening provision offered under HOTMA and PIH Notice 2017-20.
+---------------------------------------------------------------------------
+
+    \3\ The rules and procedures for variant standards and alternate 
+exceptions for the HCV and PBV programs are not changing under 
+NSPIRE and are recognized at Sec. Sec.  5.705(a)(3) and 5.703(g) of 
+the NSPIRE final rule.
+---------------------------------------------------------------------------
+
+    HUD received several comments on the HOTMA LT list. HUD carefully 
+considered each of these comments and specifically discusses two 
+overarching issues identified by commenters below.
+    First, commenters recommended local discretion in designating LT 
+conditions. For example, commenters noted that PHAs in areas with warm 
+climates may wish to require air conditioners. Commenters also 
+suggested that PHAs may wish to provide increased specificity for 
+certain technical aspects of some deficiencies. HUD notes that 
+additional LT conditions may be added locally by the PHA. This must be 
+done with HUD approval. HUD further clarifies that while local addition 
+of LT conditions is allowed, LT conditions established by HUD cannot be 
+removed at the local level.
+    Second, commenters stated that the HOTMA LT list should be codified 
+in the CFR, which would require HUD to use notice and comment 
+rulemaking to revise the LT list. Commenters stated this would provide 
+decision-making transparency and opportunity for public input.
+    The HOTMA LT list will not be codified in the CFR. This approach is 
+consistent with the prior rule, which allowed for setting standards 
+through notice. HUD will provide decision-making transparency and 
+opportunity for public input by developing updates to the Standards 
+through Federal Register notices with the prior opportunity for 
+comment. As outlined in 24 CFR 5.709, HUD will publish updates to these 
+Standards through future Federal Register notices at least once every 
+three years with an opportunity for public comment. This will allow the 
+public to examine proposed changes, provide comments, and suggest 
+changes. This will also allow HUD to more frequently revise the 
+Standards than rulemaking would allow, thereby allowing for increased 
+sensitivity to changing technologies and advancing scientific 
+understanding of building science and public health and safety.
+
+V. Changes and Clarifications to the NSPIRE Standards
+
+    After considering comments received on the proposed NSPIRE 
+Standards notice, feedback received through the NSPIRE demonstration, 
+and feedback received through input from HUD partners, industry 
+stakeholders, and the public for development of these final NSPIRE 
+Standards, HUD is now publishing this Final Standards Notice.
+    HUD received comments on numerous Standards and deficiencies in 
+response to the NSPIRE proposed Standards notice. Below, HUD discusses 
+major changes made from the NSPIRE proposed Standards notice and 
+discusses some of the comments HUD received. In addition to the broader 
+comments addressed below, numerous additional technical comments were 
+received, and those technical comments were integrated into the 
+revision leading to the final version of the NSPIRE Standards.
+
+Smoke Alarms
+
+    Consistent with the NSPIRE Final Rule, the Smoke Alarm Standard 
+incorporates prescriptive locations for the installation of smoke 
+alarms. These Standards are consistent with National Fire Protection 
+Association (NFPA) Standard 72--National Fire Alarm and Signaling Code. 
+This will introduce new requirements for smoke alarms by requiring 
+installation on each level and inside each sleeping area. This is 
+aligned with the incorporation by reference of National Fire Protection 
+Association Standard 74 or any successor standard thereto (this 
+successor standard is currently NFPA 72) in the National Fire 
+Protection Act of 1992 (Pub. L. 102-522; 15 U.S.C. 15557) and of NFPA 
+72 and successor standards in the Public and Federally Assisted Housing 
+Fire Safety Act of 2022,\4\ which was enacted after the publication of 
+the proposed NSPIRE Standards notice. The NSPIRE Smoke Alarm Standard 
+does not require that the smoke alarm have a sealed battery; however, 
+upon the effective date of the Public and Federally Assisted Housing 
+Fire Safety Act of 2022 on December 29, 2024, which is two years after 
+the date of enactment, sealed batteries will be required.
+---------------------------------------------------------------------------
+
+    \4\ See section 601, ``Public and Federally Assisted Housing 
+Fire Safety Act of 2022'' of Title VI of Division AA, Financial 
+Services Matters, Public Law 117-328, 136 Stat. 4459 (2022).
+---------------------------------------------------------------------------
+
+    Commenters raised concern about the cost of installation of smoke 
+alarms in properties where smoke alarms are not currently installed.
+    HUD believes that smoke alarms are essential to resident safety, to 
+prevent death and injury, and therefore smoke alarms are critical to 
+the NSPIRE inspection process. Additionally, smoke alarms are required 
+by federal law (Public and Federally Assisted Housing Fire Safety Act 
+of 2022). For further discussion on smoke alarms, please see additional 
+comments and responses in the Final Rule and see the RIA for analysis 
+of the benefits and costs of this change in smoke alarm inspections.
+
+Carbon Monoxide Alarms
+
+    The Final Carbon Monoxide Alarm Standard incorporates statutory 
+requirements \5\ for HUD Housing to contain carbon monoxide detectors 
+either in compliance with chapters 9 and 11 of the 2018 International 
+Fire Code (IFC) published by the International Code Council, or to 
+comply with the standards adopted by HUD through notice. As such, there 
+was a significant change from the proposed Carbon Monoxide Alarm 
+Standard in the Final Carbon Monoxide Alarm Standard regarding the 
+``Inside Area'' \6\ location. Classrooms are no longer included in the 
+Standard as an affirmative requirement for the installation of alarms 
+because the statute limits the requirement to install carbon monoxide 
+detectors to units, which HUD interprets to allow HUD to require carbon 
+monoxide detectors in units or in Inside Areas where such installation 
+protects the Unit from potential sources of carbon monoxide originating 
+from outside the unit. This Standard is substantively consistent with 
+chapters 9 and 11 of the 2018 IFC, and HUD is not adopting an alternate 
+standard.
+---------------------------------------------------------------------------
+
+    \5\ See section 101, ``Carbon Monoxide Alarms or Detectors in 
+Federally Insured Housing'' of Title I of Division Q, Financial 
+Services Provisions and Intellectual Property, of the Consolidated 
+Appropriations Act, 2021, Public Law 116-260, 134 Stat. 2162 (2020).
+    \6\ As discussed in other documents, ``Inside Area'', as well as 
+``Units'' and ``Outside area'' are the three areas of inspection.
+---------------------------------------------------------------------------
+
+    The Final NSPIRE Rule requires compliance with HUD carbon monoxide 
+standards in both the Inside Area and
+
+[[Page 40835]]
+
+the Unit. Deficiency 1 addresses both the Inside Area and Unit 
+requirement. Deficiency 1 is categorized as a ``Unit'' deficiency 
+because deficiencies will be counted per affected unit.
+    A commenter suggested that the CO requirement and related 
+inspection Standard go out as a separate rulemaking.
+    As discussed further in the NSPIRE Final Rule, because these 
+conforming rule changes merely codify a new statutory requirement, HUD 
+has determined that additional notice and public comment is 
+unnecessary.
+    A commenter inquired if carbon monoxide detectors would be required 
+if there were a fuel-burning appliance or fuel-burning fireplace 
+outside, in areas not connected to the unit.
+    In limited circumstances, if there are communicated openings to the 
+unit, a fuel-burning appliance or fireplace outside the unit may 
+trigger the CO detector requirement. However, in most circumstances, CO 
+detectors will only be required if the fuel burning appliance or 
+fireplace is directly attached to or within the unit or if an 
+unventilated garage is attached to the unit. HUD emphasizes that if 
+there is an attached, unventilated garage, CO detectors are required, 
+even if there is not a fuel-burning appliance or fuel-burning fireplace 
+in the unit or building.
+
+Door--Entry
+
+    The severity level for unit entry door has been elevated to Life-
+Threatening. Although a unit entry door may not be a fire labeled door, 
+it may still offer some level of protection from fire and smoke during 
+the outbreak of a fire. The presence of a non-fire-labeled unit entry 
+door provides residents with an opportunity to shelter in place while a 
+fire is extinguished or be rescued by emergency personnel. The health 
+and safety risk to a resident occupying a unit missing an entry door 
+during a fire could rise to the level of Life-Threatening. 
+Additionally, a missing unit entry door may negatively affect the 
+physical safety and security of resident.
+
+Egress
+
+    Deficiency criteria for this Standard have been changed to assure 
+alignment with state and local code requirements for egress. The 
+Standard now aligns with those requirements by requiring bedroom window 
+egress only for units in the building's 3rd level and below, and living 
+room windows are not considered egress for the purposes of this 
+Standard, unless there is a fire escape present.
+
+Electrical--Conductor
+
+    Commenters suggested that a missing lightbulb should not be 
+considered a Life-Threatening condition, noting that this is a commonly 
+encountered condition that is readily remedied (for example, by placing 
+a new lightbulb in the socket).
+    Given that a missing lightbulb has not been identified as a 
+systemic safety concern in the most recent research in residential 
+electrical safety, a missing light bulb will not be cited as an exposed 
+conductor. However, a missing light bulb may be cited under the 
+Lighting--Interior Standard as an inoperable fixture if a light bulb is 
+not installed during the inspection to demonstrate the fixture is in 
+proper working condition.
+    The unprotected outlet Deficiency (``An unprotected outlet is 
+present within six feet of a water source'') was moved from the 
+Electrical--Outlet and Switch Standard to the Electrical--Ground-Fault 
+Circuit Interrupter (GFCI) or Arc-Fault Circuit Interrupter (AFCI)--
+Outlet or Breaker, and GFCI is now specified as a requirement, 
+following the Final NSPIRE Rule. This was for clarity of presentation 
+of the Deficiencies and to assure compliance with the Final NSPIRE 
+Rule.
+    The Electrical--Outlet and Switch Standard and the Electrical--
+Conductor Standard, which were separate in the proposed Standards, have 
+been combined into a single Standard for the Final Standards Notice: 
+Electrical--Conductor, Outlet, and Switch. This was for clarity of 
+presentation of the Deficiencies. A Deficiency has been added to that 
+final Standard, ``Water is currently in contact with an electrical 
+conductor'' due to the shock and fire risks associated with this 
+condition.
+    A commenter expressed concern that, with a ``Leak'' deficiency in 
+the ``Electrical--Conductor'' Standard, remnant water stains (and not 
+active leaks) may be cited as a deficiency, and suggested that only 
+currently active water stains should be cited. The commenter also noted 
+that certain electronic components are designed to be used in wet 
+locations. Furthermore, the commenter stated that there is already a 
+Leak Standard, that is not specific to leaks near electrical 
+components.
+    HUD agrees with these comments and has clarified the definitions to 
+state that only active leaks are to be cited, and that leaks near a 
+component confirmed to be waterproof would not be cited. HUD clarifies 
+that a leak cited under this deficiency will not also be cited under 
+the ``Leak'' deficiency.
+    A commenter noted that there are existing local or state 
+jurisdictions that already have requirements for electrical safety.
+    HUD emphasizes that local code requirements must be met for all 
+HUD-assisted housing. Please see HUD's discussion below, under ` 
+``Safe'' Drinking Water,' on superseding local code.
+
+Fire Labeled Doors
+
+    The Fire Labeled Door Standard includes deficiency criteria 
+specific to these types of doors where present. The deficiencies 
+include function and operability criteria critical to the function of 
+these fire safety components where present in buildings.
+    A commenter suggested that the Fire Door Standard should only apply 
+if there is already an existing fire door (or doors), and that there 
+should not be an affirmative requirement for Fire Doors in HUD assisted 
+housing.
+    HUD agrees that the Fire Door Standard should only apply for Fire 
+Doors that are already present and is taking this opportunity to 
+emphasize that under NSPIRE Fire Doors will not be a new affirmative 
+requirement. HUD believes that Fire Doors are essential to resident 
+safety, to prevent death and injury, and therefore Fire Doors that are 
+present will be inspected under NSPIRE and where present must operate 
+effectively to reduce risk of death or injury due to fire and related 
+hazards.
+    A commenter stated that the Fire Door inspection may require 
+additional technical training for inspectors and inquired about 
+technical requirements for inspectors to inspect fire doors.
+    HUD acknowledges the technical training and educational 
+requirements necessary to assess Fire Doors. Training required for this 
+inspection will be provided. NSPIRE Inspectors would not be performing 
+a technically exhaustive Fire Door inspection themselves and would 
+receive training as to when to refer potential issues to an 
+appropriate, technically trained and proficient individual.
+
+Graffiti
+
+    The Graffiti Standard has been removed. In the proposed NSPIRE 
+Standards, HUD had carried Graffiti through from prior versions of HUD 
+inspection Standards. A commenter on the proposed Standards pointed out 
+that Graffiti does not have a clear health and safety risk. HUD has 
+reviewed this Standard and believes that it is unnecessary and 
+therefore is removing it from the NSPIRE Standards.
+
+[[Page 40836]]
+
+Guardrails
+
+    The Guardrail Standard includes prescriptive deficiency criteria 
+for guardrails where missing above elevated surfaces to protect from 
+fall hazards along balconies, stairs, ramps, decks, rooftops, hallways, 
+retaining walls, and other walking surfaces.
+    A commenter raised concern about the cost of installation of 
+guardrails in properties where guardrails are not currently installed.
+    HUD believes that guardrails are essential to resident safety, to 
+prevent death or injury from falls, and therefore guardrails are 
+critical to the NSPIRE inspection process. Guardrails are commonly 
+required in local codes and therefore are an existing requirement under 
+those local codes. Therefore, for many localities, this will not be a 
+new requirement, and therefore this is not expected to have a material 
+cost, under the NSPIRE rule. Please see the Final Rule's RIA for 
+further explanation and analysis.
+
+Handrails
+
+    The Handrail Standard includes a deficiency for handrails that are 
+not functionally adequate and cannot reasonably be grasped by hand to 
+provide stability or support when ascending or descending stairways.
+    The Handrail Standard also includes a new deficiency for stairs 
+where no handrail is present and there is no evidence of previous 
+installation. This deficiency is different from the deficiency for a 
+missing handrail where there is evidence of previous installation. This 
+deficiency will not be scored and there is no requirement for a 
+correction. Given the significant health impacts resulting from trip 
+and fall injuries, it would still benefit properties to address these 
+risks expeditously. The data from this deficiency will be monitored and 
+an affirmative requirement for handrails will be considered for the 
+standards in future rule making.
+
+Infestation
+
+    The Infestation Standard includes deficiencies based on discrete 
+levels of observed conditions, and refinement of the associated Health 
+and Safety categorizations.
+    Commenters discussed adverse health outcomes attributable to 
+infestation in the home and asserted that there are conditions in the 
+home related to infestation that should be categorized as Life-
+Threatening. While some infestation deficiencies would be expected to 
+have severe impacts on health and safety of the resident--for example, 
+the documented effect of cockroaches on asthma--pest infestations are 
+not documented to be life-threatening per the NSPIRE definition (i.e., 
+presenting ``a high risk of death to the resident'').
+    Commenters suggested that the Correction Timeframe should not be 
+based on eradication of the pests, but should be based on initiation of 
+an appropriate pest management plan. That is, all pests would not need 
+to be eradicated within the Correction Timeframe, but the POA should 
+have an appropriate pest management plan implemented within the 
+correction timeframe.
+    HUD confirms that initiation of an appropriate pest management plan 
+meets the requirement for correction, with the understanding that, 
+while pests may still be present at the start of the pest management 
+plan, they will be managed through the pest management plan. On-going 
+implementation of an appropriate pest management plan (i.e., a pest 
+management plan documented and initiated prior to the inspection) will 
+also satisfy this condition. Within the correction timeframe, 
+documentation must be provided for the pest management plan, and this 
+documentation must include: start date of the plan; servicing schedule; 
+methods of pest monitoring, managing and treatment; and other factors 
+as determined by HUD, the PHA, and/or other relevant authority. 
+Integrated Pest Management (IPM) is strongly encouraged; IPM, broadly 
+stated, uses prevention-based pest management methods, with a focus on:
+    <bullet> Identifying and correcting building conditions that 
+contribute to infestation;
+    <bullet> Reducing use of pesticides (especially routine or 
+untargeted pesticide application);
+    <bullet> Modification of hygiene and sanitation practices in and on 
+the property; and
+    <bullet> Assessment and on-going monitoring to assure appropriate 
+interventions as needed.
+    A commenter suggested that additional pest species should be 
+included in the Infestation Standard including ants, spiders, fleas, 
+raccoons, squirrels, and snakes.
+    The presence of any pest (i.e., an animal or animals with potential 
+impacts on resident health and safety) would constitute evidence of an 
+infestation and therefore be counted as a deficiency. The presence of 
+rats, mice, cockroaches, and bed bugs specifically are each identified 
+as separate deficiencies because they are common forms of infestation 
+that present certain health risks and challenges that HUD wishes to 
+identify specifically. This is not intended to be a complete list of 
+pests, and additional pests are noted in the ``other pests'' Deficiency 
+of the Infestation Standard. Therefore, those pests identified by the 
+commenter are covered under the Infestation Standard and would 
+constitute a deficiency if present.
+
+Mold-Like Substance
+
+    The Mold-Like Substance Standard includes deficiencies based on 
+discrete levels of observed conditions and a ventilation or 
+dehumidification requirement for bathrooms to reduce conditions 
+conducive to mold growth. The Deficiency ``Presence of mold-like at 
+very low levels is observed visually'' has been removed, as concerns 
+were raised with regards to move-in for HCV programs (presence of LT 
+conditions prevents move-in for HCV residents).
+    Commenters discussed adverse health outcomes attributable to mold 
+in the home and asserted that there are conditions in the home related 
+to mold that should be categorized as Life-Threatening.
+    HUD agrees that certain Mold-Like Substance conditions should be 
+considered Life-Threatening. Presence of Mold-like Substance at 
+extremely high levels in the Unit is considered a Life-Threatening 
+Deficiency.
+    A commenter asked whether the ventilation Deficiency in the Mold-
+Like Substance Standard includes an affirmative requirement for 
+mechanical ventilation, a window (in the bathroom), or a dehumidifier.
+    For this Standard and Deficiency, HUD is not being prescriptive as 
+to the means of reducing humidity in a bathroom. This requirement may 
+be met by one or more of the methods noted by the commenter (mechanical 
+ventilation, an openable window, a dehumidifier); however, other means 
+may also be employed to reduce the humidity below levels conducive to 
+mold growth.
+    A commenter suggested that using instrumentation such as moisture 
+meters and infrared cameras would add to the time it would take to 
+perform the inspection, and that use of the equipment would require 
+technical training.
+    HUD believes that any increased inspection time would be warranted 
+by the increased attention to critical health and safety hazards 
+related moisture and the subsequent benefits due to the identification 
+and correction of those hazards. Please see the RIA for further 
+analysis.
+    HUD clarifies that these instruments (moisture meters, IR cameras) 
+are for use
+
+[[Page 40837]]
+
+by inspectors with specific training in use of those devices.
+    A commenter asked if HUD would provide training for mold-related 
+inspection devices. HUD will not provide training for moisture meters 
+or IR cameras, but training is available from other sources.
+    A commenter stated that moisture may be due to resident activities 
+(e.g., varying use of vents, fans, or air conditioners to reduce 
+moisture and humidity) and that moisture and humidity vary across 
+climate zones, and that this variability would raise concerns about 
+general applicability of a moisture-related Standard.
+    Tenant activities will be covered in the administrative notice. 
+Also, ambient/air moisture (i.e., humidity) would not be covered under 
+a moisture deficiency; the moisture deficiency is solely limited to 
+building components.
+    A commenter expressed concern that use of instruments that would be 
+predictive of mold risk may lead to an increase in the number of cited 
+deficiencies that are not directly health and safety concerns, and that 
+this may discourage landlord participation in HUD programs and 
+subsequently decrease housing availability. A commenter also suggested 
+that, due to the predictive nature of the deficiency (that is, the 
+deficiency does not appear to cite a health or safety deficiency, but 
+the potential for such a future deficiency) and associated uncertainty 
+(including due to technical ability of the instrument user), this 
+assessment might not provide a clear health benefit to the resident, 
+while decreasing landlord participation and associated housing 
+availability.
+    The moisture meter will be used to record values for moist surfaces 
+that have already been visually identified as apparently moist by 
+visual assessment. Increased interior building moisture is a condition 
+conducive to fungal growth, with associated respiratory health 
+outcomes. This usage will also provide data for further assessment of 
+use of moisture meters in NSPIRE inspections.
+    A commenter expressed concern that recommending (and not requiring) 
+a tool would introduce increased variability of inspection outcomes, as 
+some inspectors may carry that particular piece of equipment (IR 
+Camera, in this case), whereas other inspectors may not.
+    IR Cameras are optional and will not be used on their own to cite a 
+deficiency. If a thermal anomaly is observed using an IR camera, the 
+moisture meter must be used to confirm whether there is elevated 
+moisture present. IR camera cannot be used by itself.
+    A commenter stated that use of moisture meters and IR cameras could 
+be an effective proactive assessment of potential health hazards.
+    HUD agrees that use of moisture meters and IR cameras would, with 
+proper implementation, be expected to increase the health and safety 
+related conditions of housing by adding to the available information 
+related to conditions that are conducive to mold growth.
+
+Potential Lead-Based Paint Hazards Visual Assessment
+
+    The Potential Lead-based Paint Hazards Standard includes a 
+deficiency that incorporates the HQS requirements for an enhanced 
+visual assessment for deteriorated paint where there is a child under 6 
+years of age residing in the unit. The Final Standard is unchanged from 
+the proposed Standard; however, the administrative notice will include 
+updated inspection processes for this Standard.
+
+Sprinkler Assembly
+
+    The Sprinkler Assembly Standard includes deficiencies based on 
+discrete levels of observed conditions, and refinement of the 
+associated Health and Safety categorizations. Small flecks of paint 
+will not be cited as a Deficiency in the Final NSPIRE Sprinkler 
+Assembly Standard. Corrosion has been added as a separate Deficiency in 
+the Final Standard. These changes were based on assessments of the 
+respective safety risks of these conditions.
+
+Structural System
+
+    The Structural System Standard includes a deficiency that captures 
+signs of serious structural collapse and may threaten resident safety. 
+This is different from UPCS, as serious structural deficiencies in UPCS 
+were spread across the various building components (e.g., Foundations, 
+Storm Drainage, Walls), whereas NSPIRE combines them into a single 
+Standard. Structural deficiencies were also included in HQS, and as 
+with UPCS were included as deficiencies specific to various building 
+components, for interior conditions (ceiling, wall, or floor) and the 
+building exterior (stairs, rails, porches, roof and gutters).\7\
+---------------------------------------------------------------------------
+
+    \7\ HUD Form 52580A, <a href="https://www.hud.gov/sites/dfiles/OCHCO/documents/52580A.PDF">https://www.hud.gov/sites/dfiles/OCHCO/documents/52580A.PDF</a>.
+---------------------------------------------------------------------------
+
+    A commenter asked about the technical qualifications required to 
+assess structural systems.
+    HUD acknowledges the technical training and educational 
+requirements to assess structural systems. Training required for this 
+inspection will be provided. NSPIRE Inspectors will not be making 
+structural stability assessments and would receive training as to when 
+to refer potential structural systems issues to an appropriate, 
+technically trained and proficient individual.
+
+Address and Signage
+
+    HUD received a comment raising concern about potential cost of 
+installation of address and signage (``address signage'') on buildings 
+where address signage is not currently installed.
+    HUD believes that adequate address signage is essential to resident 
+safety, to assure that emergency services can quickly and efficiently 
+find sites within a property, and therefore adequate signage is 
+critical to the NSPIRE inspection process. HUD notes that Project Signs 
+were required to be legible under the previous UPCS Standards.\8\ 
+Please see the Final Rule's RIA for further analysis.
+---------------------------------------------------------------------------
+
+    \8\ UPCS included the following deficiency: ``Deficiency: The 
+project sign is not legible or readable because of deterioration or 
+damage. Level of Deficiency: Level 1: The sign is damaged, 
+vandalized, or deteriorated, and cannot be read from a reasonable 
+distance (for example, 20 feet).'' 77 FR 47707, 47739.
+---------------------------------------------------------------------------
+
+Electrical--GFCI or AFCI--Outlet or Breaker
+
+    Commenters raised concern about the cost of installation of GFCIs 
+in properties where GFCIs are not currently installed.
+    HUD believes that GFCIs are essential to resident safety, to 
+prevent death and injury, and therefore GFCIs are critical to the 
+NSPIRE inspection process. GFCIs are commonly required in local codes 
+and therefore are an existing requirement under those local codes. 
+Therefore, for many localities, this will not be a new requirement. 
+Please see the Final Rule's RIA for additional explanation and analysis 
+of the benefits and costs associated with this Deficiency.
+    A commenter stated that using instrumentation would add time to the 
+inspection, and also add the additional cost of that instrumentation.
+    HUD believes that any increased inspection time would be warranted 
+by the increased attention to critical health and safety hazards in the 
+inspection and the subsequent benefits due to the identification and 
+correction of those hazards. HUD believes that any increased inspection 
+burden due to increased instrumentation requirements would be minimal 
+and would be warranted by the increased attention to electrical hazards 
+due to unprotected outlets, which is a critical safety
+
+[[Page 40838]]
+
+condition of the home, and the subsequent benefits due to the 
+identification and correction of such hazards in the residence.
+    A commenter suggested the word ``unprotected'' be clarified. HUD 
+has clarified that ``Unprotected'' in the GFCI Standard refers to an 
+outlet that is not GFCI protected.
+    A commenter noted that there are local or state jurisdictions that 
+already have requirements for electrical systems, including for GFCI.
+    HUD notes that this would similarly be the case for nearly all 
+NSPIRE Standards, as there are analogous state or local code 
+requirements to the NSPIRE Standards. Please see the discussion below, 
+under ` ``Safe'' Drinking Water', regarding superseding local code.
+    A commenter suggested that HUD should explicitly state that 
+inspectors are allowed to use either a receptacle tester with a GFCI 
+test button or the integral device tester during the inspection 
+process, and that HUD should not prescribe a specific tool that 
+inspectors must use, but rather include a list of tools that meet 
+industry standards.
+    HUD will allow use of either a receptacle tester with a GFCI test 
+button or the integral device tester during the inspection process. HUD 
+does not plan to prescribe a specific tool that inspectors must use but 
+will include a list of tools that meet industry standards.
+
+Fire Extinguisher
+
+    A commenter asked if tenant-owned Fire Extinguishers would be 
+inspected. Tenant-owned fire extinguishers will not be inspected under 
+NSPIRE.
+
+Window
+
+    A commenter stated that it was not clear if window screens that are 
+missing or damaged would be a deficiency.
+    If window screens are present and are damaged, this is an NSPIRE 
+Deficiency. Window screens are not a new affirmative requirement. 
+However, if window screens are present, they must be functional, and if 
+there is evidence that window screens were previously installed in a 
+location, the window screen must be present.
+
+Playgrounds
+
+    A commenter asked why there are not Standards for playgrounds in 
+NSPIRE. Though not specifically limited to playgrounds, there are 
+current NSPIRE Standards which would apply to playgrounds. For example, 
+Trip Hazard and Sharp Edges, would apply to playgrounds.
+
+Overgrown Vegetation
+
+    A commenter asked if overgrown vegetation would be inspected for. 
+There is not an overgrown vegetation deficiency or Standard per se in 
+NSPIRE; however, if the overgrown vegetation is causing an NSPIRE 
+Deficiency, for example by damaging roofing or siding materials, it 
+must be addressed. Also, vegetation management may be a component of an 
+IPM plan. NSPIRE's focus is on hazards in the unit. An IPM plan, 
+triggered by a pest deficiency, can include modifications to the site. 
+PHAs and Owners should work with an IPM consultant to tailor the IPM 
+inspection and control plan to the property. Additionally, property 
+owners must follow all local requirements, including those for 
+vegetation management, such as for nuisance or overgrown vegetation.
+
+General Comments
+
+    HUD also received comments on general topics including increased 
+on-site inspection time due to the new Standards, tenant-caused damage 
+(including resident housekeeping), tenant-owned property, and the 
+status of ``non-industry standard'' (NIS) repairs.
+    HUD believes that any increased inspection time would be warranted 
+by the increased attention to critical health and safety hazards in the 
+inspection and the subsequent benefits due to the identification and 
+correction of those hazards. Please see the Final Rule's RIA for 
+further explanation and analysis. Tenant-caused damage and tenant owned 
+property will be discussed in the administrative notice.
+    A ``non-industry standard'' (NIS) designation is not included in 
+NSPIRE. NSPIRE allows that there may be interim repairs that remove a 
+health and safety hazard even though those repairs are not permanent; 
+for example, a missing GFCI can have an interim repair such as blank 
+cover plates. Such interim repairs must be fully repaired within a 
+reasonable timeframe approved by HUD or a designee (such as a PHA). 
+Interim repairs are not required to be aesthetically pleasing or 
+conforming to other aspects of the building and HUD acknowledges that 
+such repairs may have salient qualities \9\ that disproportionately 
+attract attention, but if the interim repair effectively removes the 
+health and safety hazard until full repair is performed and if full 
+repair is completed within the required timeframe, then the interim 
+repair is acceptable under NSPIRE. If the interim repair is implemented 
+prior to the inspection, the timeline for full repair begins at the 
+time of inspection, without regard to the time of the initial, pre-
+inspection implementation of the interim repair.
+---------------------------------------------------------------------------
+
+    \9\ See Bordalo P, Gennaioli N, Shleifer A. 2021. Salience. 
+Annual Review of Economics 14, PDF available at: <a href="https://scholar.harvard.edu/files/shleifer/files/salience.12.12.2021.pdf">https://scholar.harvard.edu/files/shleifer/files/salience.12.12.2021.pdf</a>.
+---------------------------------------------------------------------------
+
+``Safe'' Drinking Water
+
+    Commenters raised concern that including drinking water in the 
+NSPIRE inspection would add to the inspection process (and time 
+required for the inspection) and that another federal agency (EPA) and 
+state and local entities already perform oversight of drinking water, 
+and that a separate entity from the POA or PHA supplies the water and 
+maintains the pipes, and that the technical and administrative burdens 
+may be too much and that this inspection process may not be technically 
+feasible given the training that may be required for water testing or 
+evaluation of water quality documentation, and also that private well 
+water is not currently regulated and it is unclear how private well 
+water would be affected by this regulatory change.
+    HUD will not inspect for water quality per se. The NSPIRE safe 
+drinking water component will only entail (1) visual inspection for 
+lead service lines and (2) assessment (via an information request, not 
+physical inspection) if there has been a water outage or water alert 
+and the response, if an outage or alert has occurred. This is solely 
+for the purpose of data collection and will not be scored. This will be 
+covered in more detail in the administrative notice.
+    Several commenters noted that there are local and state codes and 
+requirements for drinking water, and that HUD should not supersede 
+those codes.
+    HUD confirms that HUD inspection Standards do not supersede local 
+or state code, law, or regulation. The property must meet all 
+applicable property condition standards under Federal, state, and local 
+law. Conforming to HUD inspection Standards does not put the property 
+at risk of violating local or state code, law, or regulation. HUD 
+Standards may exceed local or state requirements, but they do not 
+contradict those local or state requirements. Where local or state 
+codes, laws, or regulations exceed HUD Standards, the property must 
+comply with the most stringent applicable standards.
+    A commenter raised the concern that property owners may not be 
+knowledgeable with regards to current local water alerts or the public 
+water
+
+[[Page 40839]]
+
+system serves their property, and that this may delay the lease-up 
+process.
+    HUD believes that adequate levels of technical proficiency can be 
+achieved with appropriate training. HUD believes, given that property 
+owners manage their water bills, that they are aware of the identity of 
+their local water provider.
+
+Heating Ventilation and Air Conditioning (HVAC)
+
+    Commenters recommended that HUD use the International Energy 
+Conservation Code (IECC) and the American Society of Heating, 
+Refrigerating and Air-Conditioning Engineers (ASHRAE)'s Climate 
+Classification for Building Energy Codes and Standards.\10\ This 
+climate map is also used by Energy Star (US EPA) and includes eight 
+climate map designations based on temperature and precipitation.
+---------------------------------------------------------------------------
+
+    \10\ Briggs RS, ZT Taylor, and RG Lucas. 2003. ``Climate 
+Classification for Building Energy Codes and Standards.'' PNNL-SA-
+37941, prepared by Pacific Northwest National Laboratory (PNNL). A 
+version of this map may be found in Antonopoulos, C., T. Gilbride, 
+E. Margiotta, and C. Kaltreider. Guide to Determining Climate Zone 
+by County: IECC and Building America 2021 Updates. Richland WA: 
+Pacific Northwest National Laboratory. PNNL-33270. U.S. Department 
+of Energy.
+---------------------------------------------------------------------------
+
+    HUD appreciates the technical quality of the suggested document; 
+however, it does not include all jurisdictions covered by NSPIRE (it 
+only includes U.S. States, and therefore Puerto Rico, Guam, U.S. Virgin 
+Islands, American Samoa, and the Commonwealth of Northern Mariana 
+Islands are not covered by it). HUD will require permanent heating 
+sources in all locales except for Hawaii, Puerto Rico, Guam, U.S. 
+Virgin Islands, American Samoa, and the Commonwealth of Northern 
+Mariana Islands; this follows the International Energy Conservation 
+Code (IECC). Those localities where permanent heating sources will not 
+be required are Tropical (per IECA designation).
+    A comment provided that there are local or state jurisdictions that 
+already have requirements for heating and cooling and recommended 
+deference to local code.
+    HUD notes that this would similarly be the case for nearly all 
+NSPIRE Standards, as there are analogous state or local code 
+requirements to the NSPIRE Standards. Please see HUD's discussion 
+above, under ` ``Safe'' Drinking Water', on superseding local code.
+
+Permanently Installed Heating Source
+
+    A commenter suggested that minimum temperature requirements should 
+only apply in ``heating months of the year,'' depending on location in 
+the US, and suggested that HUD use the International Energy 
+Conservation Code (IECC) and the American Society of Heating, 
+Refrigerating and Air-Conditioning Engineers (ASHRAE)'s ``Climate 
+Classification for Building Energy Codes and Standards.''
+    HUD notes that while the NSPIRE inspection might not be performed 
+at a time of the year when the resident would require heating, adequate 
+heat in the dwelling must be available when required, and the NSPIRE 
+inspection must be performed when scheduled, even if that inspection is 
+not performed when, for example, heat would be required in the 
+dwelling. Therefore, the inspection requirements must be applicable at 
+the time of inspection.
+    A commenter raised concern about the additional time (relative to a 
+UPCS inspection) this might require.
+    HUD believes that any increased inspection time would be warranted 
+by the increased attention to housing temperature, which is a critical 
+health condition of the home, and the subsequent benefits due to the 
+identification and correction of temperature related hazards.
+    A commenter noted that people with disabilities may have heating or 
+cooling requirements that are above and below those of many other 
+housing residents.
+    HUD acknowledges that some residents may have temperature needs 
+that are above or below those that are established in NSPIRE and that 
+housing providers must provide for these temperature needs for tenants 
+with disabilities as a reasonable accommodation. This may be dealt with 
+administratively, for example by a Database Adjustment.
+    A commenter stated that there are local or state jurisdictions that 
+already have requirements for heating and cooling.
+    HUD emphasizes that local code requirements must be met for all 
+HUD-assisted housing. Please see HUD's discussion above, under ` 
+``Safe'' Drinking Water', on superseding local code.
+    A commenter noted that maintaining appropriate temperatures is a 
+fire safety issue, in addition to a direct health risk and a direct 
+influence on quality of life. For example, when a unit is not able to 
+be adequately heated to safe and comfortable levels, tenants will 
+necessarily utilize other, often more dangerous means to heat their 
+homes.
+    HUD agrees that heating requirements address fire safety concerns 
+as well as health concerns.
+    Commenters noted that tenant choice may affect the point-in-time 
+temperature measurement in a Unit (i.e., the tenant may choose to have 
+the Unit be colder or warmer than a given requirement), and therefore 
+testing operability (and not indoor air temperature) of the HVAC 
+equipment would be the better inspection methodology.
+    This will be covered in the administrative notice. Temperature 
+measurement processes and protocols will be based on IPMC 602 Heating 
+Facilities (2021) \11\ and PIH Notice 2018-19.\12\
+---------------------------------------------------------------------------
+
+    \11\ Chapter 6 Mechanical And Electrical Requirements, 2021 
+International Property Maintenance Code (IPMC) [verbar] ICC Digital 
+Codes (<a href="http://iccsafe.org">iccsafe.org</a>), <a href="https://codes.iccsafe.org/content/IPMC2021P1/chapter-6-mechanical-and-electrical-requirements#IPMC2021P1_Ch06_Sec602.1">https://codes.iccsafe.org/content/IPMC2021P1/chapter-6-mechanical-and-electrical-requirements#IPMC2021P1_Ch06_Sec602.1</a>.
+    \12\ Available at: <a href="https://www.hud.gov/sites/dfiles/PIH/documents/PIH-2018-19HOTMA_HeatingStandardsNoticeFinal_rev.pdf">https://www.hud.gov/sites/dfiles/PIH/documents/PIH-2018-19HOTMA_HeatingStandardsNoticeFinal_rev.pdf</a>.
+---------------------------------------------------------------------------
+
+    A commenter asked about technical instrumentation, including the 
+need for calibration of thermometers, and effects of location where the 
+temperature is determined (e.g., different locations in a building or 
+unit will have different temperatures).
+    Proper training, including for calibration and for determining 
+location of temperature measurements, will be available for inspectors.
+    A commenter stated that there would be additional burden on the 
+inspector to carry additional equipment (i.e., a thermometer).
+    HUD believes that any increased inspection burden due to increased 
+instrumentation requirements will be minimal and will be warranted by 
+the increased attention to housing temperature, which is a critical 
+health condition of the home, and the subsequent benefits to the 
+resident due to the identification and correction of temperature 
+related hazards in the residence.
+
+Definition of Permanently Installed Heating Source
+
+    Commenters suggested that ``permanent'' be contrasted with 
+``temporary'' or ``portable'', and that ``permanent'' would have a 
+``hard'' mounting and would be directly wired to a power source or on a 
+dedicated breaker. A commenter suggested that HUD should define 
+``permanently installed heating sources'' as heating sources that are 
+attached to the building (i.e., secured and not portable). A commenter 
+suggested that the definition should include central systems, baseboard 
+heating, and permanently affixed in-wall units. A commenter noted that 
+the International Property Maintenance Code (IPMC) does not define 
+``permanently installed heating
+
+[[Page 40840]]
+
+facilities,'' but does list items that may not be considered compliant 
+with the heating facility requirement; excluded items are ``cooking 
+appliances,'' ``portable unvented fuel-burning space heaters,'' and 
+``one or more portable space heaters.'' A commenter stated that 
+``permanently installed heating sources'' could be defined as having a 
+``hard'' mounting or attached to a building and one that is directly 
+wired to a power source on a dedicated breaker, which would allow for a 
+different definition between permanent and temporary.
+    HUD agrees with the comments that a permanent heating source should 
+be neither temporary nor portable and should be directly wired to the 
+building's power source. HUD agrees that Permanent Heating Sources 
+should include central systems, baseboard heating, and permanently 
+affixed in-wall units. HUD agrees that Permanent Heating Systems should 
+not include cooking appliances or portable heaters. HUD agrees that 
+power source on a dedicated breaker is a part of the definition and 
+though that specific wording is not specifically designated, ``safely 
+connected to the unit or building electrical system'' is specified and 
+HUD believes that this is inclusive of the suggested language.
+    Additionally, HUD states in the comment responses in the final 
+NSPIRE rule that a fireplace would not be considered a permanent 
+heating source, and that permanent heating sources are: typically 
+specified as being self-fueled; permanently affixed within the unit or 
+building; safely connected to the unit or building electrical system; 
+thermostatically controlled by the unit or building; and appropriate 
+for the size of the unit.
+    These comments have been incorporated into the definition of 
+``Permanent Heating Source'' that is provided in the NSPIRE Heating, 
+Ventilation, and Air Conditioning (HVAC) Standard.
+
+Unvented, Fuel-Burning Space Heaters
+
+    Multiple commenters reiterated the critical health risks of 
+unvented space heaters. A commenter stated that space heaters may 
+impact the internal thermometers of a building and thereby cause some 
+areas to be underheated or some areas to be overheated; this will cause 
+the inefficient heating of a building and will cause energy to be 
+wasted, thereby impairing the energy efficiency of buildings.
+    A commenter stated that space heaters per se are permitted in some 
+jurisdictions and recommended that HUD should take that into 
+consideration in order to avoid adversely affecting the HCV program in 
+some localities.
+    HUD acknowledges that tenants may be using their own space heaters. 
+HUD reiterates the critical health and safety risk of unvented fuel-
+burning space heaters and emphasizes the prohibition of unvented space 
+heaters.
+
+Correction Timeframes for Severe (Non-Life Threatening) Deficiencies
+
+    Commenters recommended that, ideally, correction timeframes would 
+be addressed directly in the Standards, but also acknowledged that this 
+may not always be possible and that, while administrative processes may 
+not be the most efficient way to adjust correction times, it is 
+sometimes the only option. Commenters suggested that HUD define an 
+administrative process wherein an owner may request additional time to 
+make repairs for good cause, with defined criteria for what constitutes 
+good cause. A commenter stated that, for numerous reasons (e.g., supply 
+chain disruption, labor availability, season/outdoor weather) repairs 
+may not be possible within the required timeframes.
+    HUD agrees that, where possible, correction timeframes should be 
+addressed in the Standards notice, but also agrees that an 
+administrative process for determining a correction timeframe is 
+necessary under certain circumstances. Therefore, HUD will include 
+correction timeframes for each deficiency in the Standards, but will 
+also provide the opportunity to adjust those timeframes when necessary 
+via administrative procedure. This will be discussed in the 
+Administrative Notice.
+    HUD also notes that temporary relocation of residents is also an 
+option if appropriate repairs cannot be performed in the required 
+timeframe. Additionally, as discussed above, appropriate interim repair 
+may be allowable, if the safety and health hazard is sufficiently 
+corrected such that they no longer pose a severe health or safety risk 
+to residents of the property, or that the hazard is blocked until 
+permanent repairs can be completed. Interim repair does not remove the 
+requirement for timely and full repair of the Deficiency.
+
+The Effect of the NSPIRE Standards on Participation in HUD's Programs
+
+    For all the above changes, HUD also sought comments on whether 
+those proposed requirements, as applied to all covered housing, would 
+substantially narrow the pool of available rental housing for families 
+participating in HUD's programs.
+    A commenter asserted that the changes may limit housing 
+availability if they exceed local requirements. Commenters also noted 
+that regulatory requirements, including inspection Standards, may 
+discourage landlords from participating in voucher programs. Commenters 
+stated that the correction timeframes may discourage landlord 
+participation, and that exemptions or different time frames for natural 
+disasters, tenant/resident caused damage, season (e.g., for painting 
+outside), and labor or material constraints (including supply chain 
+disruption) could mitigate this potential discouragement.
+    Commenters stated that housing conditions should be the same with 
+regards to health and safety conditions for all housing, and that 
+conditions such as mold and pest infestations, among other conditions, 
+would not be tolerated in people's homes and that the safety, well-
+being and dignity of all must be maintained.
+    A commenter expressed concern that HUD appears to be loosening 
+standards for landlords through extending response timeframes. A 
+commenter noted that property owners receive funds to provide decent, 
+safe and healthy housing, and they can obtain additional funds to 
+remedy substandard conditions, and therefore that the new NSPIRE 
+Standards should be achievable.
+    HUD appreciates and acknowledges the concerns and comments that 
+were provided and believes that the focus on health and safety will 
+benefit residents and property owners. Additionally, inspections may 
+provide property owners and agents with a critical opportunity they 
+might not otherwise receive to examine the conditions of their units 
+and provide assurance that health and safety standards are being 
+met.\13\ HUD has included consideration of potential constraints on 
+housing availability when developing the NSPIRE Standards and believes 
+that the NSPIRE Standards are achievable. The RIA for the final rule 
+includes analysis of the costs and benefits associated with the NSPIRE 
+rule.
+---------------------------------------------------------------------------
+
+    \13\ Nisar et al, 2018. Landlord Participation Study; HUD/PD&R, 
+available at: <a href="https://www.huduser.gov/portal/sites/default/files/pdf/Landlord-Participation-Study-Final-Report.pdf">https://www.huduser.gov/portal/sites/default/files/pdf/Landlord-Participation-Study-Final-Report.pdf</a>.
+---------------------------------------------------------------------------
+
+VI. The NSPIRE Standards
+
+    As explained in the background section of this notice, previous 
+versions of the NSPIRE Standards have been published to and are 
+archived on the HUD website. For the proposed NSPIRE Standards notice, 
+HUD sought comment on Version 2.2 of the NSPIRE Standards and made them 
+available for review via
+
+[[Page 40841]]
+
+the NSPIRE web page on the HUD website.
+    The final NSPIRE Standards are available at: <a href="https://www.hud.gov/sites/dfiles/PIH/documents/6092-N-05nspire_final_standards.pdf">https://www.hud.gov/sites/dfiles/PIH/documents/6092-N-05nspire_final_standards.pdf</a>.
+    In addition to the NSPIRE Standards themselves, there have also 
+been revisions to the Health and Safety category titles and those 
+revisions are as follows:
+    1. The ``Severe Non-Life-Threatening'' category is now titled 
+``Severe'';
+    2. The ``Standard'' category is now titled ``Moderate''; and
+    3. The ``N/A'' or ``Advisory'' category is now titled ``Low''.
+    Originally, HUD intended Advisory deficiencies to act as warnings 
+to the property of issues which may rise to the level of a Moderate 
+deficiency if unaddressed. Therefore, in the proposed Standards, 
+Advisory deficiencies did not have a correction timeframe. Upon further 
+consideration, however, HUD determined that these deficiencies still 
+represent conditions that should be repaired, and therefore renamed 
+``Advisory'' to ``Low'' and, in ``Request for Comments: National 
+Standards for the Physical Inspection of Real Estate and Associated 
+Protocols, Proposed Scoring Notice'' \14\ (``the proposed Scoring 
+notice''), HUD proposed a relatively small point deduction for Low 
+deficiencies. In these final Standards, HUD is also adding a 60-day 
+correction timeframe to these deficiencies.
+---------------------------------------------------------------------------
+
+    \14\ 88 FR 18268 (April 27, 2023).
+---------------------------------------------------------------------------
+
+    Additionally, the Infestation, Mold-Like Substance, and Potential 
+Lead-Based Paint Hazards--Visual Assessment Standards will include 
+Deficiencies that are scored at the Life-Threatening level point 
+deduction,\15\ despite being defined in the Severe H&S category. These 
+Severe Health and Safety Deficiencies do not present risks consistent 
+with the Life-Threatening definition, but they do present chronic 
+health risks that are distinct from the other Severe Health and Safety 
+Deficiencies. This chronic health risk category includes deficiencies 
+that, if evident in the home or on the property, present a high risk of 
+causing or exacerbating a chronic and severe health condition; severe 
+health conditions include permanent disability or serious illness. This 
+includes cases in which the harm has a likelihood of accruing 
+irrevocably in under 24 hours and may also include risks due to longer 
+term exposure. This category does not define an additional risk ranking 
+or correction timeframe; it is a sub-category to be used for scoring.
+---------------------------------------------------------------------------
+
+    \15\ See the proposed Scoring notice for more information.
+---------------------------------------------------------------------------
+
+    There have also been changes in the presentation of information 
+with the Standards. For each inspection Standard, the definition, 
+location, deficiency, deficiency criteria, health and safety 
+determination, and correction timeframe have been listed. Further, HUD 
+believes that housing standards must focus on habitability and the 
+health and safety of residents. Each NSPIRE Standard contains 
+``rationales,'' or the reason the requirement is necessary. Rationales 
+describe the potential harm that may result from a given deficiency if 
+left uncorrected. Generally, rationales include the health, safety, 
+and/or major functional or habitability issue, and illustrate why 
+detection and remediation of the deficiency is critical to housing 
+quality. Commenters noted that rationales were not provided in the 
+version of the Standards provided with this notice. The rationales for 
+the Standards and associated deficiencies will be available on HUD's 
+Client Information Policy Systems (HUDCLIPS): <a href="https://www.hud.gov/guidance">https://www.hud.gov/guidance</a>.
+
+VII. Environmental Review
+
+    A Finding of No Significant Impact (FONSI) with respect to the 
+environment has been made in accordance with HUD regulations at 24 CFR 
+part 50 which implement section 102(2)(C) of the National Environmental 
+Policy Act of 1969 (42 U.S.C. 4332(2)(C)). The FONSI is available 
+through the Federal eRulemaking Portal at <a href="https://www.regulations.gov">https://www.regulations.gov</a>.
+
+Adrianne Todman,
+Deputy Secretary.
+[FR Doc. 2023-13293 Filed 6-21-23; 8:45 am]
+BILLING CODE 4210-67-P
+
+
+</pre></body>
+</html>

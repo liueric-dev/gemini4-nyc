@@ -1,0 +1,16 @@
+NY Real Property Law (Open Legislation law id RPP, Chapter 50) > Article 7 Landlord and Tenant > § 232-c Holding over by a tenant after expiration of a term longer than one month; effect of acceptance of rent
+
+Source: https://legislation.nysenate.gov/api/3/laws/RPP/232-C | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 232-c. Holding over by a tenant after expiration of a term longer
+than one month; effect of acceptance of rent. Where a tenant whose term
+is longer than one month holds over after the expiration of such term,
+such holding over shall not give to the landlord the option to hold the
+tenant for a new term solely by virtue of the tenant's holding over. In
+the case of such a holding over by the tenant, the landlord may proceed,
+in any manner permitted by law, to remove the tenant, or, if the
+landlord shall accept rent for any period subsequent to the expiration
+of such term, then, unless an agreement either express or implied is
+made providing otherwise, the tenancy created by the acceptance of such
+rent shall be a tenancy from month to month commencing on the first day
+after the expiration of such term.

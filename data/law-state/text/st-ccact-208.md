@@ -1,0 +1,23 @@
+New York City Civil Court Act (Open Legislation law id CCA, Chapter 693) > Article 2 Jurisdiction > § 208 Counterclaims
+
+Source: https://legislation.nysenate.gov/api/3/laws/CCA/208 | Open Legislation activeDate: 2023-07-07 | published versions: 2014-09-22, 2022-08-19, 2023-07-07
+
+  § 208. Counterclaims. The court shall have jurisdiction of
+counterclaims as follows:
+  (a) Of any counterclaim the subject matter of which would be within
+the jurisdiction of the court if sued upon separately.
+  (b) Of any counterclaim for money only, without regard to amount.
+  (c) Of any counterclaim for:
+  1. the rescission or reformation of the transaction upon which the
+plaintiff's cause of action is founded, if the amount in controversy on
+such counterclaim does not exceed $50,000; or
+  2. an accounting between partners after the dissolution of the
+partnership, where the book value of the partnership assets does not
+exceed $50,000 and the plaintiff's cause of action arises out of the
+partnership.
+  (d) In an action commenced in the housing part by the city department
+charged with enforcing the multiple dwelling law, housing maintenance
+code, or other state or local laws applicable to the enforcement of
+proper housing standards, no counterclaim may be interposed or
+maintained except if it relates to an action or proceeding specified in
+subdivision (a) of § 110 of this act.

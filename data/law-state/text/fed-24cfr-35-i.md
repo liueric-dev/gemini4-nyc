@@ -1,0 +1,86 @@
+Code of Federal Regulations > Title 24 (Housing and Urban Development) > Part 35 > Subpart I—HUD-Owned and Mortgagee-in-Possession Multifamily Property (sections: 35.800, 35.805, 35.810, 35.815, 35.820, 35.825, 35.830)
+
+Source: https://www.ecfr.gov/api/versioner/v1/full/2026-11-12/title-24.xml?part=35&subpart=I | eCFR issue date 2026-11-12, up to date as of 2026-11-19 | latest section amendment date in this unit: 2017-02-13
+
+# Subpart I—HUD-Owned and Mortgagee-in-Possession Multifamily Property
+
+[Source:64 FR 50211, Sept. 15, 1999, unless otherwise noted.]
+
+
+## § 35.800 Purpose and applicability.
+
+The purpose of this subpart I is to establish procedures to eliminate as far as practicable lead-based paint hazards in a HUD-owned multifamily residential property or a multifamily residential property for which HUD is identified as mortgagee-in-possession. The requirements of this subpart apply to any such property that is offered for sale or held or managed on or after September 15, 2000.
+
+
+## § 35.805 Definitions and other general requirements.
+
+Definitions and other general requirements that apply to this subpart are found in subpart B of this part.
+
+
+## § 35.810 Notices and pamphlet.
+
+(a) Notices. When evaluation or hazard reduction is undertaken, the Department shall provide a notice to occupants in accordance with § 35.125. A visual assessment alone is not considered an evaluation for the purposes of this part.
+
+(b) Lead hazard information pamphlet. HUD shall provide the lead hazard information pamphlet in accordance with § 35.130.
+
+[[64 FR 50211, Sept. 15, 1999, as amended at 69 FR 34272, June 21, 2004]]
+
+
+## § 35.815 Evaluation.
+
+HUD shall conduct a risk assessment and a lead-based paint inspection in accordance with § 35.1320(a) and (b). For properties to which this subpart applies on September 15, 2000, the lead-based paint inspection and risk assessment shall be conducted no later than December 15, 2000, or before publicly advertising the property for sale, whichever is sooner. For properties to which this subpart becomes applicable after September 15, 2000, the lead-based paint inspection and risk assessment shall be conducted no later than 90 days after this subpart becomes applicable or before publicly advertising the property for sale, whichever is sooner.
+
+
+## § 35.820 Interim controls.
+
+HUD shall conduct interim controls in accordance with § 35.1330 to treat the lead-based paint hazards identified in the evaluation conducted in accordance with § 35.815. Interim controls are considered completed when clearance is achieved in accordance with § 35.1340. Interim controls of all lead-based paint hazards shall be completed no later than the following schedule:
+
+(a) In units occupied by families with children of less than 6 years of age and in common areas servicing those units, interim controls shall be completed no later than 90 days after the completion of the risk assessment. In units in which a child of less than 6 years of age moves in after the completion of the risk assessment, interim controls shall be completed no later than 90 days after the move-in.
+
+(b) In all other dwelling units, common areas, and the remaining portions of the residential property, interim controls shall be completed no later than 12 months after completion of the risk assessment for those units.
+
+(c) If conveyance of the title by HUD at a sale of a HUD-owned property or a foreclosure sale caused by HUD when HUD is mortgagee-in-possession occurs before the schedule in paragraphs (a) and (b) of this section, HUD shall complete interim controls before conveyance or foreclosure, or HUD shall be responsible for assuring that interim controls are carried out by the purchaser. If interim controls are made a condition of sale, such controls shall be completed according to the following schedule:
+
+(1) In units occupied by families with children of less than 6 years of age and in common areas servicing those units, interim controls shall be completed no later than 90 days after the date of the closing of the sale. In units in which a child of less than 6 years of age moves in after the closing of the sale, interim controls shall be completed no later than 90 days after the move-in.
+
+(2) In all other dwelling units, in common areas servicing those units, and in the remaining portions of the residential property, interim controls shall be completed no later than 180 days after the closing of the sale.
+
+
+## § 35.825 Ongoing lead-based paint maintenance and reevaluation.
+
+HUD shall incorporate ongoing lead-based paint maintenance and reevaluation, in accordance with § 35.1355, into regular building operations if HUD retains ownership of the residential property for more than 12 months.
+
+
+## § 35.830 Child with an elevated blood lead level.
+
+(a) Environmental investigation. Within 15 calendar days after being notified by a public health department or other medical health care provider that a child of less than 6 years of age living in a dwelling unit owned by HUD (or where HUD is mortgagee-in-possession) has been identified as having an elevated blood lead level, HUD shall complete an environmental investigation of the dwelling unit in which the child lived at the time the blood was last sampled and of common areas servicing the dwelling unit. The requirements of this paragraph apply regardless of whether the child is or is not still living in the unit when HUD receives the notification of the elevated blood lead level. The requirements of this paragraph shall not apply if HUD conducted an environmental investigation of the unit and common areas servicing the unit between the date the child's blood was last sampled and the date when HUD received the notification of the elevated blood lead level. If HUD conducted a risk assessment of the unit and common areas servicing the unit during that period, HUD is not required to conduct another risk assessment there but it shall conduct the elements of an environmental investigation not already conducted during the risk assessment. If a public health department has already conducted an evaluation of the dwelling unit in regard to the child's elevated blood lead level case, the requirements of this paragraph shall not apply.
+
+(b) Verification. After receiving information from a person who is not a medical health care provider that a child of less than 6 years of age living in a dwelling unit covered by this subpart may have an elevated blood lead level, HUD shall immediately verify the information with the public health department or other medical health care provider. If the public health department or provider denies the request, such as because it does not have the capacity to verify that information, the HUD Realty Specialist assigned to that property shall send documentation of the denial to the HUD Office of Lead Hazard Control and Healthy Homes, which shall make an effort to verify the information. If the public health department or provider verifies that the child has an elevated blood lead level, such verification shall constitute notification, and HUD shall take the action required in paragraphs (a) and (c) of this section.
+
+(c) Lead-based paint hazard reduction. Within 30 calendar days after receiving the report of the environmental investigation conducted pursuant to paragraph (a) of this section or the evaluation from the public health department, HUD shall complete the reduction of identified lead-based paint hazards in accordance with § 35.1325 or § 35.1330. Lead-based paint hazard reduction is considered complete when clearance is achieved in accordance with § 35.1340 and the clearance report states that all lead-based paint hazards identified in the environmental investigation have been treated with interim controls or abatement or the public health department certifies that the lead-based paint hazard reduction is complete. The requirements of this paragraph do not apply if HUD, between the date the child's blood was last sampled and the date HUD received the notification of the elevated blood lead level, already conducted an environmental investigation of the unit and common areas servicing the unit and completed reduction of identified lead-based paint hazards. If HUD conducted a risk assessment of the unit and common areas servicing the unit during that period, it is not required to conduct another risk assessment there but it shall conduct the elements of an environmental investigation not already conducted during the risk assessment.
+
+(d) Notice. If lead-based paint hazard evaluation or reduction is undertaken, each owner shall provide a notice to occupants in accordance with § 35.125.
+
+(e) Reporting requirement. (1) HUD shall report the name and address of a child identified as having an elevated blood lead level to the public health department within 5 business days of being so notified by any other medical health care professional.
+
+(2) HUD shall also report each confirmed case of a child with an elevated blood lead level to the HUD Office of Lead Hazard Control and Healthy Homes within 5 business days of being so notified.
+
+(3) HUD shall provide to the HUD Office of Lead Hazard Control and Healthy Homes documentation that it has conducted the activities of paragraphs (a) through (d) of this section, within 10 business days of the deadline for each activity.
+
+(f) Other assisted dwelling units in the property. (1) If the environmental investigation conducted pursuant to paragraph (a) of this section identifies lead-based paint hazards, HUD shall, for other assisted dwelling units covered by this part in which a child under age 6 resides or is expected to reside on the date lead-based paint hazard reduction under paragraph (c) of this section, and the common areas servicing those units, is complete, conduct a risk assessment in accordance with § 35.815 within 30 calendar days after receipt of the environmental investigation report if there are 20 or fewer such other units, or 60 calendar days if there are more than 20 such other units.
+
+(2) If the risk assessment conducted under paragraph (f)(1) of this section identifies lead-based paint hazards, HUD shall complete the reduction of identified lead-based paint hazards in accordance with § 35.1325 or § 35.1330 in those units and common areas within 30 calendar days, or within 90 calendar days if more than 20 units have lead-based paint hazards such that the control work would disturb painted surfaces that total more than the de minimis threshold of § 35.1350(d). Lead-based paint hazard reduction is considered complete when clearance is achieved in accordance with § 35.1340 and the clearance report states that all lead-based paint hazards identified in the risk assessment have been treated with interim controls or abatement.
+
+(3) The requirements of this paragraph (f) do not apply if:
+
+(i) HUD, between the date the child's blood was last sampled and the date HUD received the notification of the elevated blood lead level, both conducted a risk assessment in the other assisted dwelling units covered by paragraph (f)(1) of this section and the common areas servicing those units, and conducted interim controls of identified lead-based paint hazards in accordance with § 35.820; or
+
+(ii) HUD has documentation of compliance with evaluation, notification, lead disclosure, ongoing lead-based paint maintenance, and lead-based paint management requirements under this part throughout the 12 months preceding the date HUD received the environmental investigation report pursuant to paragraph (a) of this section.
+
+(4) HUD shall provide to the HUD Office of Lead Hazard Control and Healthy Homes documentation that it has conducted the activities of paragraph (f)(1) through (2) of this section, or that it has complied with the requirements in paragraph (f)(3) of this section, within 10 business days of the deadline for each activity.
+
+(g) Closing. If the closing of a sale is scheduled during the period when HUD is responding to a case of a child with an elevated blood lead level, HUD may arrange for the completion of the procedures required by paragraphs (a) through (d) of this section by the purchaser within a reasonable period of time.
+
+(h) Extensions. The Assistant Secretary for Housing-Federal Housing Commissioner or designee may consider and approve a request for an extension of deadlines established by this section for lead-based paint inspection, risk assessment, environmental investigation, lead-based paint hazard reduction, clearance, and reporting. Such a request may be considered, however, only during the first six months during which HUD is owner or mortgagee-in-possession of a multifamily property.
+
+[[82 FR 4168, Jan. 13, 2017]]

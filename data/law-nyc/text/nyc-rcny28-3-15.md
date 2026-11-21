@@ -1,0 +1,9 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 3: City-Aided Limited Profit Housing Companies > § 3-15 Partnerships.
+
+§ 3-15 Partnerships.
+(a) Partnership agreements. Certain housing companies are permitted to become partners of partnerships formed pursuant to Section 16 of the Private Housing Finance Law. Partnership Agreements and amendments thereto are subject to prior approval in writing by HPD. Admission, withdrawal or retirement of general partners is [also] subject to the prior written approval of HPD.
+(b) Partnership distributions. All distributions of any partnership organized pursuant to § 16 of the Private Housing Finance Law are subject to the written approval of HPD. All such distributions must be in accordance with the rules of HPD and with the requirements of the Private Housing Finance Law.
+(c) Related party transactions. In the event that a housing company employs or contracts with any person or entity in which any partner of such a partnership is directly or indirectly an interested party, the partnership shall disclose such fact to HPD.
+(d) Financial records. A partnership formed pursuant to § 16 of the Private Housing Finance Law shall furnish to HPD all financial and other reports required by HPD.
+(e) Removal of directors. In the event that HPD exercises its right to remove the directors of a housing company, the housing company as a general partner shall have the right to terminate the exercise of all rights and powers by any other general partner and to exclusively exercise all rights and powers in connection with the project so long as HPD-appointed directors continue to serve.
+(f) Transfers of interests. All transfers of general partnership interests are subject to the prior written approval of HPD. HPD may require, as a condition of admission or substitution of general partners all such information regarding any proposed new general partner as it deems necessary.

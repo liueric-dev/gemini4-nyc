@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 288 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "288",
+    "title" : "Definitions",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-04-26" ],
+    "docLevelId" : "288",
+    "activeDate" : "2024-04-26",
+    "text" : "  § 288. Definitions. As used in this article, the following terms shall\\nhave the following meanings:\\n  1. The term \"community district\" shall refer to a community district\\nas established pursuant to chapter sixty-nine of the New York city\\ncharter.\\n  2. The term \"inhabited basement dwelling unit\" means a basement\\nunlawfully occupied as a residence by one or more tenants on or prior to\\nthe effective date of this article, provided that such inhabited\\nbasement dwelling unit is located in any of the community districts\\nspecified in subdivision four of section two hundred eighty-nine of this\\narticle;\\n  3. The term \"inhabited cellar dwelling unit\" means a cellar unlawfully\\noccupied as a residence by one or more tenants on or prior to the\\neffective date of this article, provided that such inhabited cellar\\ndwelling unit is located in any of the community districts specified in\\nsubdivision four of section two hundred eighty-nine of this article;\\n  4. The term \"rented\" means leased, let, or hired out, with or without\\na written agreement; and\\n  5. The term \"tenant\" means an individual to whom an inhabited basement\\ndwelling unit or an inhabited cellar dwelling unit is rented.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-D",
+      "title" : "Legalization and Conversion of Basement and Cellar Dwelling Units",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-04-26" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-04-26"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "289",
+      "title" : "Basement and cellar local laws and regulations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-04-26" ],
+      "docLevelId" : "289",
+      "activeDate" : "2024-04-26"
+    }
+  }
+}

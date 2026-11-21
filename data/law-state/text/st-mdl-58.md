@@ -1,0 +1,11 @@
+NY Multiple Dwelling Law (Open Legislation law id MDW, Chapter 61-A) > Article 3 Multiple Dwellings--general Provisions > Title 2 Fire Protection and Safety > § 58 Incombustible materials
+
+Source: https://legislation.nysenate.gov/api/3/laws/MDW/58 | Open Legislation activeDate: 2014-09-22 | published versions: 2014-09-22
+
+  § 58. Incombustible materials.  Except as may be specifically provided
+otherwise in this chapter, all required incombustible materials,
+including fireproofed wood, shall be capable of withstanding
+successfully standard fire tests as prescribed by the building code. In
+the absence of any such prescribed requirements, the department shall
+have the power to make supplementary regulations relative to standard
+fire tests for incombustible materials.

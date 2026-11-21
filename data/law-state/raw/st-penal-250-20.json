@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.20 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.20",
+    "title" : "Divulging an eavesdropping warrant",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "250.20",
+    "activeDate" : "2014-09-22",
+    "text" : "§ 250.20 Divulging an eavesdropping warrant.\\n  A person is guilty of divulging an eavesdropping warrant when,\\npossessing information concerning the existence or content of an\\neavesdropping warrant issued pursuant to article seven hundred of the\\ncriminal procedure law, or concerning any circumstances attending an\\napplication for such a warrant, he discloses such information to another\\nperson; except that such disclosure is not criminal or unlawful when\\npermitted by section 700.65 of the criminal procedure law or when made\\nto a state or federal agency specifically authorized by law to receive\\nreports concerning eavesdropping warrants, or when made in a legal\\nproceeding, or to a law enforcement officer or agency connected with the\\napplication for such warrant, or to a legislative committee or temporary\\nstate commission, or to the telephone or telegraph corporation whose\\nfacilities are involved, or to any entity operating an electronic\\ncommunications service whose facilities are involved.\\n  Divulging an eavesdropping warrant is a class A misdemeanor.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.15",
+      "title" : "Failure to report wiretapping",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.15",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.25",
+      "title" : "Tampering with private communications",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.25",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

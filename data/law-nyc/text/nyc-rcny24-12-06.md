@@ -1,0 +1,8 @@
+# Rules of the City of New York > Title 24: Department of Health and Mental Hygiene > Chapter 12: Window Falls Prevention > § 12-06 Occupant Obligation to Return Notices and Provide Information and Access to Owners.
+
+§ 12-06 Occupant Obligation to Return Notices and Provide Information and Access to Owners.
+(a) An occupant of a dwelling unit in a multiple dwelling who receives a notice provided pursuant to 24 RCNY § 12-03 must accurately fill in the required information, sign and date the notice, and return it to the owner. An occupant who receives a notice upon entry into a lease or upon commencement of occupancy must return the notice immediately. An occupant who receives an annual notice between January 1 and January 16 of a given year must return such notice by February 15 of such year.
+(b) An occupant of a dwelling unit who fails to return a completed notice form as required under subdivision (a) must allow an owner access to such dwelling unit at a reasonable time to inspect the dwelling unit to ascertain whether a child resides or will reside in the dwelling unit.
+(c) An occupant of a dwelling unit in which a child resides or will reside and an occupant who has requested the installation of window guards in a dwelling unit must allow the owner access to such dwelling unit at reasonable times to install and maintain window guards the.
+(d) An occupant of a dwelling unit in which a child resides or will reside must not obstruct or interfere with the installation of window guards, remove any such device, or install temporary window air conditioning units instead of window guards.
+(Added City Record 7/23/2025, eff. 1/1/2026)

@@ -1,0 +1,74 @@
+{
+  "success" : true,
+  "message" : "Law document for location 250.25 in PEN law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "PEN",
+    "lawName" : "Penal",
+    "locationId" : "250.25",
+    "title" : "Tampering with private communications",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "250.25",
+    "activeDate" : "2014-09-22",
+    "text" : "§ 250.25 Tampering with private communications.\\n  A person is guilty of tampering with private communications when:\\n  1. Knowing that he does not have the consent of the sender or\\nreceiver, he opens or reads a sealed letter or other sealed private\\ncommunication; or\\n  2. Knowing that a sealed letter or other sealed private communication\\nhas been opened or read in violation of subdivision one of this section,\\nhe divulges without the consent of the sender or receiver, the contents\\nof such letter or communication, in whole or in part, or a resume of any\\nportion of the contents thereof; or\\n  3. Knowing that he does not have the consent of the sender or\\nreceiver, he obtains or attempts to obtain from an employee, officer or\\nrepresentative of a telephone or telegraph corporation, by connivance,\\ndeception, intimidation or in any other manner, information with respect\\nto the contents or nature thereof of a telephonic or telegraphic\\ncommunication; except that the provisions of this subdivision do not\\napply to a law enforcement officer who obtains information from a\\ntelephone or telegraph corporation pursuant to section 250.35; or\\n  4. Knowing that he does not have the consent of the sender or\\nreceiver, and being an employee, officer or representative of a\\ntelephone or telegraph corporation, he knowingly divulges to another\\nperson the contents or nature thereof of a telephonic or telegraphic\\ncommunication; except that the provisions of this subdivision do not\\napply to such person when he acts pursuant to section 250.35.\\n  Tampering with private communications is a class B misdemeanor.\\n",
+    "parentLocationIds" : [ "-CH40", "P3", "P3TN", "P3TNA250" ],
+    "parents" : [ {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "-CH40",
+      "title" : "Penal",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-07-26", "2019-08-02", "2019-08-16", "2021-04-02", "2021-07-30", "2021-11-05", "2022-06-10", "2022-07-08", "2023-01-06", "2023-03-10", "2025-11-07", "2026-06-19" ],
+      "docLevelId" : "40",
+      "activeDate" : "2026-06-19"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3",
+      "title" : "Specific Offenses",
+      "docType" : "PART",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TN",
+      "title" : "Offenses Against Public Order, Public Sensibilities and the Right to Privacy",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "N",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "P3TNA250",
+      "title" : "Offenses Against the Right to Privacy",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10" ],
+      "docLevelId" : "250",
+      "activeDate" : "2023-03-10"
+    } ],
+    "prevSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.20",
+      "title" : "Divulging an eavesdropping warrant",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.20",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "PEN",
+      "lawName" : "Penal",
+      "locationId" : "250.30",
+      "title" : "Unlawfully obtaining communications information",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "250.30",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

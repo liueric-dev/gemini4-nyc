@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 734 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "734",
+    "title" : "Notice of petition; service on the Westchester county department of social services",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "734",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 734. Notice of petition; service on the Westchester county\\ndepartment of social services. In the county of Westchester, if the\\nlocal legislative body has, by local law, opted to require such notice,\\nservice of a copy of the notice of petition and petition in any\\nproceeding commenced against a residential tenant in accordance with the\\nprovisions of this article shall be served upon the county commissioner\\nof social services. Such service shall be made by certified mail, return\\nreceipt requested, directed to an address set forth in the local law, or\\npursuant to the provisions of the civil practice law and rules. Such\\nservice shall be made at least five days before the return date set in\\nthe notice of petition.  Proof of such service shall be filed with the\\ncourt. Failure to serve the commissioner shall not be a jurisdictional\\ndefect, and shall not be a defense to a proceeding brought pursuant to\\nthe provisions of this article.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "733",
+      "title" : "Time of service; order to show cause",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "733",
+      "activeDate" : "2019-06-28"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "735",
+      "title" : "Manner of service; filing; when service complete",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "735",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

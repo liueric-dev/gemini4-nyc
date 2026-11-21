@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 192 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "192",
+    "title" : "Cellar entrance",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "192",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 192. Cellar entrance. a. If there is a cellar, there shall be an\\nindependent entrance thereto from outside the dwelling by means of a\\nmetal fire ladder or fireproof stair leading to an opening in the\\noutside cellar wall at least two feet six inches in width and six feet\\nin height. Such entrance to the cellar may be through an areaway or\\nthrough a fireproof passageway leading directly to the street. The\\nentrance to the cellar may be closed off with a grating or doors which\\nshall not be locked or bolted unless they can be readily unbolted or\\nunlocked from the inside without a key and shall be arranged and\\nconstructed so as to be readily opened at all times.\\n  b. In lieu of the requirements set forth in subdivision a hereof,\\nbuildings existing November first, nineteen hundred forty-nine in cities\\nhaving a population between five hundred thousand and one million may\\ncomply with the following:\\n  1. shall have an unobstructed entrance through a yard or court from a\\nstreet:\\n  (a) directly to exterior dwelling entrance with interior entrance to\\nbasement or cellar direct from said entrance, or from a fire retarded\\npublic hall or stair landing, and\\n  (b) to one or more cellar or basement walls containing accessible\\nwindows.\\n  2. The stairway leading to cellar or basement shall be enclosed with\\nfire retarded partitions or equal construction and shall have a minimum\\nfire rating of one hour. Said cellar or basement entrance shall be\\nequipped with a one hour self-closing fire door assembly.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T2" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T2",
+      "title" : "Fire Protection",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "191",
+      "title" : "Wainscoting",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "191",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "193",
+      "title" : "Frame buildings",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "193",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

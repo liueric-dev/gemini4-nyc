@@ -1,0 +1,168 @@
+[{"major_category":"SAFETY","minor_category":"OUTLET COVER","problem_code":"MISSING","n":"2"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"OTHER","n":"1077"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"BASIN MISSING","n":"23"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"CONTINUOUSLY RUNS","n":"117"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"HANDRAIL MISSING FROM WALL","n":"9"}
+,{"major_category":"SAFETY","minor_category":"SPRINKLER","problem_code":"NO WATER","n":"6"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"SEWAGE","problem_code":"BROKEN/BLOCKED SEWAGE PIPE","n":"158"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"FLUSH HANDLE BROKEN OR MISSING","n":"148"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"ROACHES","n":"2456"}
+,{"major_category":"PAINT/PLASTER","minor_category":"CEILING","problem_code":"DIRTY OR UNSANITARY","n":"163"}
+,{"major_category":"PAINT/PLASTER","minor_category":"CEILING","problem_code":"HOLE OR CRACKED","n":"1047"}
+,{"major_category":"PLUMBING","minor_category":"WATER SUPPLY","problem_code":"LOW WATER PRESSURE","n":"468"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"LANDING PLATFORM BROKEN","n":"9"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"FAUCET BROKEN/MISSING/LEAKING","n":"462"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"MICE","n":"3014"}
+,{"major_category":"ELECTRIC","minor_category":"POWER OUTAGE","problem_code":"ENTIRE APARTMENT","n":"407"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"STAIRCASE SAGGING OR MISSING","n":"8"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"GARBAGE/RECYCLING STORAGE","problem_code":"MISSING OR INADEQUATE CANS/LID","n":"633"}
+,{"major_category":"GENERAL","minor_category":"VENTILATION SYSTEM","problem_code":"BROKEN OR MISSING","n":"531"}
+,{"major_category":"PLUMBING","minor_category":"RADIATOR","problem_code":"SHUT OFF VALVE BROKEN","n":"20"}
+,{"major_category":"GENERAL","minor_category":"TENANT HARASSMENT","problem_code":"HARASSMENT","n":"4"}
+,{"major_category":"ELECTRIC","minor_category":"WIRING","problem_code":"FUSE BLOWS OUT","n":"1"}
+,{"major_category":"APPLIANCE","minor_category":"REFRIGERATOR","problem_code":"SHELF BROKEN/LOOSE/MISSING","n":"2"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"ROOF DOOR/HATCH","problem_code":"LEAKING","n":"4"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"HOUSING INFORMATION NOTICE","n":"62"}
+,{"major_category":"HEAT/HOT WATER","minor_category":"ENTIRE BUILDING","problem_code":"NO HEAT AND NO HOT WATER","n":"1207"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"SINK DETACHED FROM WALL","n":"127"}
+,{"major_category":"APPLIANCE","minor_category":"REFRIGERATOR","problem_code":"BROKEN OR MISSING","n":"22"}
+,{"major_category":"PAINT/PLASTER","minor_category":"WALL","problem_code":"BULGING/HOLE/CRACKED","n":"1360"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"STAIR COVERING TORN OR MISSING","n":"5"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"ROOF DOOR/HATCH","problem_code":"BROKEN OR MISSING","n":"13"}
+,{"major_category":"ELECTRIC","minor_category":"WIRING","problem_code":"ILLEGAL","n":"118"}
+,{"major_category":"HEAT/HOT WATER","minor_category":"APARTMENT ONLY","problem_code":"NO HEAT","n":"894"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"FLOOR","problem_code":"HOLE IN NON-WALKING AREA","n":"155"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"SMOKE DETECTOR","n":"6"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"ROOFING","problem_code":"LEAKING","n":"45"}
+,{"major_category":"APPLIANCE","minor_category":"REFRIGERATOR","problem_code":"BROKEN DOOR SEAL","n":"845"}
+,{"major_category":"HEAT/HOT WATER","minor_category":"ENTIRE BUILDING","problem_code":"NO HOT WATER","n":"3447"}
+,{"major_category":"DOOR/WINDOW","minor_category":"WINDOW FRAME","problem_code":"WINDOW STUCK CLOSED OR OPEN","n":"484"}
+,{"major_category":"PLUMBING","minor_category":"BATHTUB/SHOWER","problem_code":"CHIPPED OR RUSTED","n":"430"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"FLIES","n":"261"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"FLOOR","problem_code":"BROKEN OR DEFECTIVE","n":"1290"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"PAVEMENT","problem_code":"BROKEN OR CRACKED","n":"33"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"GARBAGE/RECYCLING STORAGE","problem_code":"ACCUMULATION","n":"1174"}
+,{"major_category":"LINE OF TRAVEL","minor_category":"LINE OF TRAVEL","problem_code":"SCD SURVEY RESULTS","n":"48"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"SKYLIGHT","problem_code":"BROKEN OR MISSING","n":"20"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"STEP LOOSE/BROKEN/CRACKED/MISSING","n":"63"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"FLOOR","problem_code":"FLOOR COVERING TORN OR MISSING","n":"231"}
+,{"major_category":"ELECTRIC","minor_category":"LIGHTING","problem_code":"FIXTURE WET OR FLOODED","n":"164"}
+,{"major_category":"SAFETY","minor_category":"SPRINKLER","problem_code":"SPRINKLER MISSING","n":"6"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"ESSENTIAL SERVICE POSTING","n":"119"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"CONSECUTIVE STEPS BROKEN/MISSING","n":"17"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"ROOF DOOR/HATCH","problem_code":"NAILED OR LOCKED SHUT","n":"1"}
+,{"major_category":"HEAT/HOT WATER","minor_category":"APARTMENT ONLY","problem_code":"NO HEAT AND NO HOT WATER","n":"466"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"NO GAS OR ELECTRICITY","n":"536"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"NO WATER","n":"35"}
+,{"major_category":"SAFETY","minor_category":"SPRINKLER","problem_code":"SYSTEM BROKEN OR MISSING","n":"34"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"TANK CRACKED OR LEAKING","n":"92"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"DROP LADDER MISSING OR BROKEN","n":"35"}
+,{"major_category":"WATER LEAK","minor_category":"SLOW LEAK","problem_code":"AT WALL OR CEILING","n":"1425"}
+,{"major_category":"DOOR/WINDOW","minor_category":"DOOR FRAME","problem_code":"FRAME BROKEN","n":"318"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"BASIN BROKEN/LEAKING","n":"355"}
+,{"major_category":"PAINT/PLASTER","minor_category":"DOOR/FRAME","problem_code":"PEELING OR FLAKING PAINT","n":"97"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"ROOF DOOR/HATCH","problem_code":"NOT SELF-CLOSING","n":"37"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"SKYLIGHT","problem_code":"LEAKING","n":"6"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"CARBON MONOXIDE DETECTOR","n":"6"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"BOWL LOOSE OR WOBBLY","n":"142"}
+,{"major_category":"PLUMBING","minor_category":"WATER SUPPLY","problem_code":"SCALDING HOT WATER","n":"236"}
+,{"major_category":"ELECTRIC","minor_category":"WIRING","problem_code":"EXPOSED","n":"283"}
+,{"major_category":"PAINT/PLASTER","minor_category":"CEILING","problem_code":"CHIPPED/PEELING/FLAKING","n":"836"}
+,{"major_category":"GENERAL","minor_category":"JANITOR/SUPER","problem_code":"NO JANITOR AVAILABLE","n":"237"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"NO WATER","n":"72"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"DRAIN PIPE BLOCKED OR BROKEN","n":"499"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"STAIRS","problem_code":"BANISTER HANGING/MISSING/LOOSE","n":"19"}
+,{"major_category":"HEAT/HOT WATER","minor_category":"APARTMENT ONLY","problem_code":"NO HOT WATER","n":"2064"}
+,{"major_category":"PLUMBING","minor_category":"WATER SUPPLY","problem_code":"NO WATER","n":"1186"}
+,{"major_category":"PLUMBING","minor_category":"BATHTUB/SHOWER","problem_code":"DRAIN PIPE BLOCKED OR BROKEN","n":"38"}
+,{"major_category":"PAINT/PLASTER","minor_category":"WINDOW/FRAME","problem_code":"PEELING OR FLAKING PAINT","n":"170"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"BOWL STOPPED UP","n":"293"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"BLOCKED","n":"88"}
+,{"major_category":"PLUMBING","minor_category":"RADIATOR","problem_code":"BROKEN OR MISSING","n":"181"}
+,{"major_category":"DOOR/WINDOW","minor_category":"DOOR TO DUMBWAITER","problem_code":"BROKEN OR OPEN","n":"20"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"NO STOVE KNOB COVERS","n":"54"}
+,{"major_category":"PAINT/PLASTER","minor_category":"WALL","problem_code":"CHIPPED/PEELING/FLAKING","n":"1324"}
+,{"major_category":"ELEVATOR","minor_category":"MAINTENANCE","problem_code":"DIRTY OR UNSANITARY","n":"101"}
+,{"major_category":"PLUMBING","minor_category":"SEWER","problem_code":"BROKEN OR BLOCKED PIPE","n":"8"}
+,{"major_category":"DOOR/WINDOW","minor_category":"DOOR","problem_code":"NEEDS KEY FOR EXIT","n":"298"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"CONTROL KNOB BROKEN OR MISSING","n":"142"}
+,{"major_category":"ELECTRIC","minor_category":"POWER OUTAGE","problem_code":"HALLS AND STAIRS ONLY","n":"65"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"DISCONNECTED","n":"51"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"OVEN DOOR MISSING OR BROKEN","n":"239"}
+,{"major_category":"DOOR/WINDOW","minor_category":"DOOR","problem_code":"NOT SELF-CLOSING","n":"357"}
+,{"major_category":"SAFETY","minor_category":"WINDOW GUARD BROKEN/MISSING","problem_code":"NO CHILD UNDER 11","n":"63"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"TERMITES","n":"44"}
+,{"major_category":"GENERAL","minor_category":"COOKING GAS","problem_code":"SHUT-OFF","n":"781"}
+,{"major_category":"ELECTRIC","minor_category":"NO LIGHTING","problem_code":"ONE ROOM OR AREA","n":"637"}
+,{"major_category":"ELECTRIC","minor_category":"POWER OUTAGE","problem_code":"ENTIRE BUILDING","n":"142"}
+,{"major_category":"PLUMBING","minor_category":"BATHTUB/SHOWER","problem_code":"FAUCET BROKEN/MISSING/LEAKING","n":"476"}
+,{"major_category":"SAFETY","minor_category":"CARBON MONOXIDE DETECTOR","problem_code":"BROKEN OR MISSING","n":"492"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"BROKEN OR DEFECTIVE","n":"44"}
+,{"major_category":"ELEVATOR","minor_category":"MAINTENANCE","problem_code":"GLASS OR MIRROR BROKEN","n":"23"}
+,{"major_category":"GENERAL","minor_category":"CABINET","problem_code":"DAMAGED OR MISSING","n":"888"}
+,{"major_category":"PLUMBING","minor_category":"RADIATOR","problem_code":"MISSING OR REMOVED","n":"48"}
+,{"major_category":"PLUMBING","minor_category":"WATER SUPPLY","problem_code":"NO COLD WATER","n":"67"}
+,{"major_category":"WATER LEAK","minor_category":"DAMP SPOT","problem_code":"FROM WALL OR CEILING","n":"660"}
+,{"major_category":"PAINT/PLASTER","minor_category":"WALL","problem_code":"DIRTY OR UNSANITARY","n":"426"}
+,{"major_category":"WATER LEAK","minor_category":"HEAVY FLOW","problem_code":"FROM WALL OR CEILING","n":"30"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"GUTTER/LEADER","problem_code":"BLOCKED OR MISSING","n":"15"}
+,{"major_category":"PLUMBING","minor_category":"STEAM PIPE/RISER","problem_code":"LEAKING","n":"68"}
+,{"major_category":"PLUMBING","minor_category":"WATER SUPPLY","problem_code":"DISCOLORED WATER","n":"27"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"BOWL CRACKED OR LEAKING","n":"159"}
+,{"major_category":"WATER LEAK","minor_category":"HEAVY FLOW","problem_code":"AT WALL OR CEILING","n":"1527"}
+,{"major_category":"PAINT/PLASTER","minor_category":"RADIATOR","problem_code":"PEELING OR FLAKING PAINT","n":"138"}
+,{"major_category":"OUTSIDE BUILDING","minor_category":"PORCH/BALCONY","problem_code":"BROKEN OR MISSING RAILING","n":"9"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"FLOOR","problem_code":"SAGGING OR SLOPING","n":"412"}
+,{"major_category":"DOOR/WINDOW","minor_category":"WINDOW PANE","problem_code":"GLASS BROKEN OR MISSING","n":"312"}
+,{"major_category":"PAINT/PLASTER","minor_category":"WALL","problem_code":"COLLAPSING OR FALLING","n":"120"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"FLEAS","n":"38"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"PESTS","problem_code":"BED BUGS","n":"239"}
+,{"major_category":"ELECTRIC","minor_category":"OUTLET/SWITCH","problem_code":"MISSING COVER PLATE","n":"1"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"FLOOR","problem_code":"HOLE IN WALKING AREA","n":"228"}
+,{"major_category":"PLUMBING","minor_category":"TOILET","problem_code":"BOWL REMOVED OR MISSING","n":"16"}
+,{"major_category":"PLUMBING","minor_category":"WATER SUPPLY","problem_code":"NO HOT WATER","n":"642"}
+,{"major_category":"ELECTRIC","minor_category":"OUTLET/SWITCH","problem_code":"OUTLET SEALED OR DEFECTIVE","n":"875"}
+,{"major_category":"ELECTRIC","minor_category":"LIGHTING","problem_code":"DIMS OR FLICKERS","n":"250"}
+,{"major_category":"PLUMBING","minor_category":"RADIATOR","problem_code":"CRACKED OR LEAKING","n":"108"}
+,{"major_category":"ELEVATOR","minor_category":"MAINTENANCE","problem_code":"LIGHT FIXTURE BROKEN","n":"23"}
+,{"major_category":"GENERAL","minor_category":"CABINET","problem_code":"FALLING OFF WALL","n":"175"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"RUSTED OR PEELING","n":"28"}
+,{"major_category":"PAINT/PLASTER","minor_category":"WALL","problem_code":"TILE BROKEN OR MISSING","n":"195"}
+,{"major_category":"SAFETY","minor_category":"WINDOW GUARD BROKEN/MISSING","problem_code":"CHILD UNDER 11","n":"282"}
+,{"major_category":"PLUMBING","minor_category":"SEWER","problem_code":"BROKEN OR BLOCKED DRAIN","n":"3"}
+,{"major_category":"DOOR/WINDOW","minor_category":"WINDOW FRAME","problem_code":"LOCK BROKEN OR MISSING","n":"189"}
+,{"major_category":"SAFETY","minor_category":"SPRINKLER","problem_code":"SPRINKLER PAINTED","n":"6"}
+,{"major_category":"HEAT/HOT WATER","minor_category":"ENTIRE BUILDING","problem_code":"NO HEAT","n":"1972"}
+,{"major_category":"PLUMBING","minor_category":"BATHTUB/SHOWER","problem_code":"LEAKING INTO OTHER APARTMENT","n":"108"}
+,{"major_category":"PLUMBING","minor_category":"RADIATOR","problem_code":"AIR VALVE BROKEN OR MISSING","n":"25"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"RANGE/OVEN BROKEN OR MISSING","n":"15"}
+,{"major_category":"ELECTRIC","minor_category":"POWER OUTAGE","problem_code":"MULTIPLE ROOMS OR AREAS","n":"97"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"FALLING OFF WALL","n":"26"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"BUILDING STREET NUMBER","n":"6"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"BOILER ROOM KEY","n":"6"}
+,{"major_category":"PAINT/PLASTER","minor_category":"CEILING","problem_code":"COLLAPSING OR FALLING","n":"899"}
+,{"major_category":"PAINT/PLASTER","minor_category":"CABINET","problem_code":"PEELING OR FLAKING PAINT","n":"76"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"PIPE LEAKING","n":"325"}
+,{"major_category":"PLUMBING","minor_category":"STEAM PIPE/RISER","problem_code":"CRACKED OR BROKEN","n":"75"}
+,{"major_category":"GENERAL","minor_category":"BELL/BUZZER/INTERCOM","problem_code":"BROKEN OR MISSING","n":"847"}
+,{"major_category":"GENERAL","minor_category":"BELL/BUZZER/INTERCOM","problem_code":"INACCESSIBLE","n":"174"}
+,{"major_category":"DOOR/WINDOW","minor_category":"DOOR","problem_code":"BROKEN OR MISSING","n":"1479"}
+,{"major_category":"PLUMBING","minor_category":"BASIN/SINK","problem_code":"BASIN CHIPPED OR RUSTED","n":"81"}
+,{"major_category":"SAFETY","minor_category":"SMOKE DETECTOR","problem_code":"BROKEN OR MISSING","n":"593"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"WINDOW BROKEN OR BLOCKED","n":"207"}
+,{"major_category":"SAFETY","minor_category":"FIRE ESCAPE","problem_code":"REMOVED","n":"17"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"PILOT LIGHT OUT","n":"255"}
+,{"major_category":"PLUMBING","minor_category":"RADIATOR","problem_code":"LOOSE OR DISCONNECTED","n":"25"}
+,{"major_category":"DOOR/WINDOW","minor_category":"DOOR","problem_code":"LOCK BROKEN OR MISSING","n":"871"}
+,{"major_category":"ELECTRIC","minor_category":"LIGHTING","problem_code":"FIXTURE MISSING/HANGING/LOOSE","n":"117"}
+,{"major_category":"DOOR/WINDOW","minor_category":"WINDOW FRAME","problem_code":"LOOSE OR DEFECTIVE","n":"918"}
+,{"major_category":"GENERAL","minor_category":"SIGNAGE MISSING","problem_code":"JANITOR/SUPER EMERGENCY CONTACT","n":"19"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"MOLD","problem_code":"N/A","n":"3546"}
+,{"major_category":"FLOORING/STAIRS","minor_category":"FLOOR","problem_code":"TILE BROKEN OR MISSING","n":"554"}
+,{"major_category":"PLUMBING","minor_category":"BOILER","problem_code":"BROKEN","n":"15"}
+,{"major_category":"GENERAL","minor_category":"MAILBOX","problem_code":"BOX BROKEN OR MISSING","n":"155"}
+,{"major_category":"PLUMBING","minor_category":"BATHTUB/SHOWER","problem_code":"BROKEN OR MISSING","n":"473"}
+,{"major_category":"ELECTRIC","minor_category":"LIGHTING","problem_code":"FIXTURE SPARKS WHEN TURNED ON","n":"20"}
+,{"major_category":"APPLIANCE","minor_category":"ELECTRIC/GAS RANGE","problem_code":"NO GAS","n":"8"}
+,{"major_category":"PLUMBING","minor_category":"BATHTUB/SHOWER","problem_code":"NO WATER","n":"53"}
+,{"major_category":"UNSANITARY CONDITION","minor_category":"SEWAGE","problem_code":"RAW SEWAGE ACCUMULATION","n":"306"}]

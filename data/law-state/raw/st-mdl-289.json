@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 289 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "289",
+    "title" : "Basement and cellar local laws and regulations",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2024-04-26" ],
+    "docLevelId" : "289",
+    "activeDate" : "2024-04-26",
+    "text" : "  § 289. Basement and cellar local laws and regulations. 1.\\nNotwithstanding any other provision of this chapter to the contrary, in\\na city with a population of one million or more, the local legislative\\nbody may, by local law, establish a pilot program to address, (a) the\\nlegalization of specified inhabited basement dwelling units and\\ninhabited cellar dwelling units in existence prior to the effective date\\nof this article through conversion to legal dwelling units, or (b) the\\nconversion of other specified basement and cellar dwelling units in\\nexistence prior to the effective date of this article to legal dwelling\\nunits, provided that any such other specified basement and cellar\\ndwelling unit in existence prior to the effective date of this article\\nis located in any of the community districts specified in subdivision\\nfour of this section. The local law authorized by this section, and any\\nrules or regulations promulgated thereunder, shall be protective of\\nhealth and safety according to standards established in consultation\\nwith the fire department of the city of New York, department of\\nbuildings, and office of emergency management. The local law shall\\nfurther provide that any application to legalize or convert a basement\\nor cellar dwelling unit to a legal dwelling unit located within a flood\\nhazard area as defined in section two hundred two of the city building\\ncode shall be subject to additional health and safety standards.\\n  The local law authorized by this section, and any rules or regulations\\npromulgated thereunder, shall not be subject to environmental review,\\nincluding environmental review conducted pursuant to article eight of\\nthe environmental conservation law and any state and local regulations\\npromulgated thereunder.\\n  2. (a) The pilot program established by such local law may provide to\\nan owner accepted into the program who converts an inhabited basement\\ndwelling unit or inhabited cellar dwelling unit in accordance with a\\nlocal law authorized by this article or who otherwise abates the illegal\\noccupancy of an inhabited basement dwelling unit or inhabited cellar\\ndwelling unit, (i) freedom from any civil or administrative liability,\\ncitations, fines, penalties, judgments or any other determinations of or\\nprosecution for civil violations of this chapter, other state law or\\nlocal law or rules, and the zoning resolution of such city, and (ii)\\nrelief from any outstanding civil judgments issued in connection with\\nany such violation of such laws, rules or zoning resolution issued\\nbefore the effective date of this article.\\n  (b) Provided, however, that the provisions of subparagraphs (i) and\\n(ii) of paragraph (a) of this subdivision shall only apply to violations\\nof such laws, rules, or zoning resolution that rendered an inhabited\\nbasement dwelling unit or an inhabited cellar dwelling unit illegal\\nbefore the effective date of this article and the conduct constituting\\nsuch violation would not violate the local law adopted pursuant to this\\narticle.\\n  (c) Provided, further that such local law shall require that all\\napplications for conversions be filed by a date certain subsequent to\\nthe effective date of this article, provided that such date shall not\\nexceed five years after the effective date of this article.\\n  3. Such local law may provide that any provision of this chapter shall\\nnot be applicable to provide for the alterations necessary for the\\nconversion of a specified inhabited basement dwelling unit or inhabited\\ncellar dwelling unit or other specified basement or cellar dwelling unit\\nin existence prior to the effective date into a lawful dwelling unit.\\nAny amendment of the zoning resolution necessary to enact such program\\nshall be subject to a public hearing at the planning commission of such\\ncity, and approval by such commission and the legislative body of such\\nlocal government, provided, however, that it shall not require\\nenvironmental review, including environmental review conducted pursuant\\nto article eight of the environmental conservation law and any state and\\nlocal regulations promulgated thereunder, or any additional land use\\nreview.\\n  4. The program established by a local law enacted pursuant to this\\nsection shall be applicable only within community districts selected by\\nthe local legislative body from the following list: Bronx Community\\nDistrict nine; Bronx Community District ten; Bronx Community District\\neleven; Bronx Community District twelve; Brooklyn Community District\\nfour; Brooklyn Community District ten; Brooklyn Community District\\neleven; Brooklyn Community District seventeen; Manhattan Community\\nDistrict two; Manhattan Community District three; Manhattan Community\\nDistrict nine; Manhattan Community District ten; Manhattan Community\\nDistrict eleven; Manhattan Community District twelve; and Queens\\nCommunity District two. Prior to the adoption of the local law\\nauthorized by this section, but no later than ninety days after the\\neffective date of this article, the community board of a community\\ndistrict named in this subdivision may adopt and submit to the speaker\\nof the city council a resolution in support or opposition of the\\ninclusion of the community district in the program established by the\\nlocal law authorized by this article.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A7-D" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A7-D",
+      "title" : "Legalization and Conversion of Basement and Cellar Dwelling Units",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-04-26" ],
+      "docLevelId" : "7-D",
+      "activeDate" : "2024-04-26"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "288",
+      "title" : "Definitions",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-04-26" ],
+      "docLevelId" : "288",
+      "activeDate" : "2024-04-26"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "290",
+      "title" : "Tenant protections in inhabited basement dwelling units and inhabited cellar dwelling units",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-04-26" ],
+      "docLevelId" : "290",
+      "activeDate" : "2024-04-26"
+    }
+  }
+}

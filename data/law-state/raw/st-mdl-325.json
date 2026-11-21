@@ -1,0 +1,47 @@
+{
+  "success" : true,
+  "message" : "Law document for location 325 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "325",
+    "title" : "Registry of owner, agent and lessee",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "325",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 325. Registry of owner, agent and lessee. 1. Every owner of a\\nmultiple dwelling, every lessee of a whole dwelling and every agent or\\nother person having control of such a dwelling, shall file in the\\ndepartment a notice containing his name, address and a description of\\nthe premises, by street number or otherwise, and the class and kind of\\nthe dwelling thereon, in such manner as will enable the department to\\nfind the same; and also the number of apartments and rooms in each\\napartment on each story, and the number of families occupying the\\napartments. If such owner or lessee be a corporation, other than a\\nbanking organization as defined in section two of the banking law, a\\nnational banking association, a federal savings and loan association,\\nThe Mortgage Facilities Corporation, Savings Banks Life Insurance Fund,\\nThe Savings Banks Retirement System, an authorized insurer as defined in\\nsection one hundred seven of the insurance law, or a trust company or\\nother corporation organized under the laws of this state all the capital\\nstock of which is owned by at least twenty savings banks or a subsidiary\\ncorporation all of the capital stock of which is owned by such trust\\ncompany or other corporation, the names and residence addresses of its\\nofficers shall also be contained in such notice. A similar notice shall\\nbe filed within thirty days following an election of any new officer or\\na change of address of any such officer. The provisions of this section\\nalso shall apply to successors in title, ownership or control of any\\npremises, whether by act of the parties or by process or operation of\\nlaw and, within thirty days after such succession, particulars of such\\nownership or control shall be filed in the department. If any successor\\nin interest be under the age of twenty-one years his duly appointed\\nguardian or, if there be no guardian, his administrator shall comply\\nwith this section in his behalf.  Where after the filing of any notice\\nunder this section, the premises shall have been declared a public\\nnuisance to any extent pursuant to paragraph b of subdivision one of\\nsection three hundred nine of this chapter and such declaration shall\\nhave been filed as therein provided, the owner, if a corporation, other\\nthan a banking organization as defined in section two of the banking\\nlaw, a national banking association, a federal savings and loan\\nassociation, The Mortgage Facilities Corporation, Savings Banks Life\\nInsurance Fund, The Savings Banks Retirement System, an authorized\\ninsurer as defined in section one hundred seven of the insurance law, or\\na trust company or other corporation organized under the laws of this\\nstate all the capital stock of which is owned by at least twenty savings\\nbanks or a subsidiary corporation all of the capital stock of which is\\nowned by such trust company or other corporation, shall file a similar\\nnotice within ten days which shall in addition contain the name and\\nresidence and business address of each director and stockholder of the\\ncorporation and of each person known to have any beneficial interest in\\nsuch stock.\\n  2. In any city of over one million which, by local law, requires the\\nregistration of owners of multiple dwellings and which prescribes\\npenalties, remedies, and sanctions to be imposed for the violation of\\nsuch local registration requirements, no rent shall be recovered by the\\nowner of a multiple dwelling who fails to comply with such registration\\nrequirements until he complies with such requirements. If a resident of\\nan unregistered dwelling voluntarily pays rent or an installment of rent\\nwhen he had a right to withhold the same under this subdivision, he\\nshall not thereafter have any claim or cause of action to recover back\\nthe rent or installment of rent so paid. A voluntary payment within the\\nmeaning of this subdivision means payment other than one made pursuant\\nto judgment in an action or special proceeding.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A9" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A9",
+      "title" : "Registry of Names and Service of Papers",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "9",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : null,
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "326",
+      "title" : "Service of notices, orders and summonses",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "326",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

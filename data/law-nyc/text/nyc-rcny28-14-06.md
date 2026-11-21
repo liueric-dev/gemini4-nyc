@@ -1,0 +1,4 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 14: Rent Setting and Increases to Tenants in Division of Alternative Management Program Building > § 14-06 Alternative Rent Setting.
+
+§ 14-06 Alternative Rent Setting.
+Notwithstanding anything to the contrary contained in this chapter, and subject to the notice and other procedural requirements of this chapter, DAMP may set rents for a particular building based on a per square foot per apartment standard instead of a per Room per apartment standard. In addition, if a project consists of more than one building in a common ownership entity, rents may be set based on economic estimates of the maintenance and operating expenses of the multi-building project instead of on economic estimates relating to the maintenance and operating expenses of an individual building.

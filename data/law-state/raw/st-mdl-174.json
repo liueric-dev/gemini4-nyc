@@ -1,0 +1,65 @@
+{
+  "success" : true,
+  "message" : "Law document for location 174 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "174",
+    "title" : "Size of rooms",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "174",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 174. Size of rooms. Every living room shall contain five hundred\\nfifty cubic feet or more of air, shall be at least six feet wide at its\\nnarrowest part and shall have a minimum height of seven feet if such\\nroom is in the basement, of seven feet at all points more than six feet\\nfrom the front of such room if it is on the top story, and of eight feet\\nif on any other story, except that whenever a basement conforms to the\\nprovisions of subdivision four of section one hundred seventy-seven the\\nliving rooms in such basement may have a minimum height of six feet\\neight inches from the finished floor to the bottom of any beams\\nprojecting below the level of the finished basement ceiling and of seven\\nfeet to the ceiling between such beams.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A6", "A6T1" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6",
+      "title" : "Converted Dwellings",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "6",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A6T1",
+      "title" : "Light and Air",
+      "docType" : "TITLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "1",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "173",
+      "title" : "Windows in rooms",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "173",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "175",
+      "title" : "Alcoves",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "175",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

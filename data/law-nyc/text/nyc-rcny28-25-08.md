@@ -1,0 +1,5 @@
+# Rules of the City of New York > Title 28: Housing Preservation and Development > Chapter 25: Multiple Dwellings > Subchapter A: Installation and Maintenance of Gas-Fueled Water and Space Heaters in All Portions of Dwellings Used or Occupied for Living Purposes > Part 2: Departmental Procedures > § 25-08 Commencement of Work.
+
+§ 25-08 Commencement of Work.
+(a) It shall be unlawful to commence any construction for which a building notice has been filed until a permit for the proposed work has been issued by the borough superintendent, and it shall be unlawful to commence the installation of piping of any gas appliance until a registered plumber has filed a signed statement with the borough superintendent containing the address of said plumber and stating the he is duly authorized to proceed with the work.
+(b) The plumber shall notify in writing the borough superintendent of the Department of Buildings of the borough in which any gas-fueled space or water heater is to be installed when such work is to begin and when it will be ready for operation and inspection.

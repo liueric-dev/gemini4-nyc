@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 204 in CCA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "CCA",
+    "lawName" : "New York City Civil Court Act",
+    "locationId" : "204",
+    "title" : "Summary proceedings",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2023-01-06", "2023-03-10", "2023-07-07", "2024-01-05" ],
+    "docLevelId" : "204",
+    "activeDate" : "2024-01-05",
+    "text" : "  § 204. Summary proceedings. The court shall have jurisdiction over\\nsummary proceedings to recover possession of real property located\\nwithin the city of New York, to remove tenants therefrom, and to render\\njudgment for rent due without regard to amount, and in such a proceeding\\nafter the court has determined that a warrant of eviction be issued, it\\nshall not be necessary for the court to sign the warrant, but it may be\\nsigned by the clerk of said court. The court shall also have\\njurisdiction over special proceedings by tenants of multiple dwellings\\nin the city of New York for judgment directing deposit of rents and the\\nuse thereof for the purpose of remedying conditions dangerous to life,\\nhealth or safety, as authorized by article seven-a of the real property\\nactions and proceedings law.\\n",
+    "parentLocationIds" : [ "-CH693", "A2" ],
+    "parents" : [ {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "-CH693",
+      "title" : "New York City Civil Court",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "693",
+      "activeDate" : "2014-09-22"
+    }, {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "A2",
+      "title" : "Jurisdiction",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "2",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "203",
+      "title" : "Actions involving real property",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "203",
+      "activeDate" : "2023-07-07"
+    },
+    "nextSibling" : {
+      "lawId" : "CCA",
+      "lawName" : "New York City Civil Court Act",
+      "locationId" : "205",
+      "title" : "Interpleader",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2022-08-19", "2023-07-07" ],
+      "docLevelId" : "205",
+      "activeDate" : "2023-07-07"
+    }
+  }
+}

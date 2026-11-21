@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 702 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "702",
+    "title" : "Rent in a residential dwelling",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2019-06-28", "2022-01-07" ],
+    "docLevelId" : "702",
+    "activeDate" : "2022-01-07",
+    "text" : "  § 702. Rent in a residential dwelling. 1. In a proceeding relating to\\na residential dwelling or housing accommodation, the term \"rent\" shall\\nmean the monthly or weekly amount charged in consideration for the use\\nand occupation of a dwelling pursuant to a written or oral rental\\nagreement. No fees, charges or penalties other than rent may be sought\\nin a summary proceeding pursuant to this article, notwithstanding any\\nlanguage to the contrary in any lease or rental agreement.\\n  2. This section shall not apply to a summary proceeding in which the\\nparties are a cooperative housing corporation, other than a cooperative\\nhousing corporation subject to the provisions of article two, article\\nfour, article five or article eleven of the private housing finance law,\\nand a tenant who is a dwelling unit owner or shareholder of such\\ncorporation, provided that the proprietary lease or occupancy agreement\\nbetween the cooperative housing corporation and the tenant provides for\\nfees, charges, penalties or assessments other than rent to be\\nrecoverable in such a proceeding.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "701",
+      "title" : "Jurisdiction; courts; venue",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "701",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "711",
+      "title" : "Grounds where landlord-tenant relationship exists",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28", "2024-05-03", "2024-12-13" ],
+      "docLevelId" : "711",
+      "activeDate" : "2024-12-13"
+    }
+  }
+}

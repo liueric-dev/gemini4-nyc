@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 779 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "779",
+    "title" : "Presentation or settlement of accounts",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "779",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 779. Presentation or settlement of accounts.  The court shall\\nrequire the keeping of written accounts itemizing the receipts and\\nexpenditures under an order issued pursuant to section seven hundred\\nseventy-six or seven hundred seventy-seven of this article, which shall\\nbe open to inspection by the owner, any mortgagee or lienor or any other\\nperson having an interest in such receipts or expenditures provided,\\nhowever, notwithstanding any other provision of law to the contrary,\\nsuch information as may be in the possession of the city of New York\\nwith the department charged with the enforcement of the housing\\nmaintenance code of such city shall be available from such department\\nfor inspection only by the owner, tenant of such property, or person\\nhaving a recorded interest in the property. Upon motion of the court or\\nthe administrator or of the owner, any mortgagee or lienor of record or\\nof any person having an interest, the court may require a presentation\\nor settlement of the accounts with respect thereto. Notice of a motion\\nfor presentation or settlement of such accounts shall be served on the\\nowner, any mortgagee or other lienor of record who appeared in the\\nproceeding and any person having an interest in such receipts or\\nexpenditures.\\n",
+    "parentLocationIds" : [ "-CH81", "A7-A" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7-A",
+      "title" : "Special Proceedings By Tenants of Dwellings In the City of New York and the Counties of Nassau, Suffolk, Rockland and Westchester For Judgment Directing Deposit of Rents and the Use Thereof For the Purpose of Remedying Conditions Dangerous to Life, Health or Safety",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "7-A",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "778",
+      "title" : "Appointment of administrator",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2015-07-10", "2018-07-06", "2021-07-02", "2024-07-05" ],
+      "docLevelId" : "778",
+      "activeDate" : "2024-07-05"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "780",
+      "title" : "Waiver void",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "780",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# NYC Administrative Code > Title 27: Construction and Maintenance > Chapter 2: Housing Maintenance Code > Subchapter 2: Maintenance, Services, and Utilities > Article 4: Control of Pests and Other Asthma Allergen Triggers > Article 4: Control of Pests and Other Asthma Allergen Triggers
+
+Article 4: Control of Pests and Other Asthma Allergen Triggers
+(Am. L.L. 2018/055, 1/19/2018, eff. 1/19/2019)

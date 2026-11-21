@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 306 in MDW law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "MDW",
+    "lawName" : "Multiple Dwelling",
+    "locationId" : "306",
+    "title" : "Judicial procedure and orders",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "306",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 306. Judicial procedure and orders. 1. In case any multiple dwelling\\nor structure or any part thereof or the lot on which it is situated is\\nconstructed, altered, converted or maintained in violation of any\\nprovision of this chapter or of any order or notice of the department,\\nor in case a nuisance exists in any such dwelling or structure or part\\nthereof or upon the lot on which it is situated, the department may\\ninstitute any appropriate action or proceeding to prevent such unlawful\\nconstruction, alteration, conversion or maintenance, to restrain,\\ncorrect or abate such violation or nuisance, to prevent the occupation\\nof said dwelling or structure or any part thereof, or to prevent any\\nillegal act, conduct or business in or about such dwelling, structure or\\nlot.\\n  2. In any such action or proceeding the department may, by affidavit\\nsetting forth the facts, apply to the supreme court, or to any justice\\nthereof, or, if the premises in respect to which the action is brought\\nare situated in the city of New York, to the New York city civil court,\\nor, if the premises in respect to which the action is brought are\\nsituated in whole or in part within a district of the court, to the\\ndistrict court, or, if the premises in respect to which the action is\\nbrought are situated in whole or in part within a city outside of the\\ncity of New York, to the city court of such city, for:\\n  a. An order granting the relief for which said action or proceeding is\\nbrought, or enjoining all persons from doing or permitting to be done\\nany work in or about such dwelling, structure or lot or any part\\nthereof, or from occupying or using the same for any purpose, until the\\nentry of final judgment or order.\\n  b. An order authorizing the department to execute and carry out the\\nprovisions of any notice or order which is issued by the department and\\nnot complied with, to remove any violation specified in such notice or\\norder, or to abate any nuisance in or about such dwelling, structure or\\nlot.\\n  3. In an action to establish a lien under this chapter, the service\\nand procedure, except as otherwise provided in section three hundred\\nnine, shall be as set forth in sections three hundred twenty-six and\\nthree hundred fifty-six to three hundred sixty, both inclusive.\\n  4. The judgment in any such action may provide for the sale at public\\nauction of the property affected, and for such other remedies to secure\\nthe enforcement thereof as the court may deem proper.\\n  5. The court or any justice thereof is authorized to make any order\\nspecified in this section.\\n  6. In no case shall the city, or the department or any officer or\\nemployee thereof, be liable for costs in any action or proceeding that\\nmay be commenced pursuant to this chapter.\\n",
+    "parentLocationIds" : [ "-CH61-A", "A8" ],
+    "parents" : [ {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "-CH61-A",
+      "title" : "Multiple Dwelling",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2016-10-28", "2023-11-26", "2024-04-26" ],
+      "docLevelId" : "61-A",
+      "activeDate" : "2024-04-26"
+    }, {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "A8",
+      "title" : "Requirements and Remedies",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "8",
+      "activeDate" : "2014-09-22"
+    } ],
+    "prevSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "305",
+      "title" : "Violation of local laws and regulations",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "305",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "MDW",
+      "lawName" : "Multiple Dwelling",
+      "locationId" : "307",
+      "title" : "Liens",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "307",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

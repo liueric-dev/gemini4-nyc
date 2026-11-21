@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 226 in RPP law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPP",
+    "lawName" : "Real Property",
+    "locationId" : "226",
+    "title" : "Effect of renewal on sub-lease",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22" ],
+    "docLevelId" : "226",
+    "activeDate" : "2014-09-22",
+    "text" : "  § 226. Effect of renewal on sub-lease. The surrender of an under-lease\\nis not requisite to the validity of the surrender of the original lease,\\nwhere a new lease is given by the chief landlord. Such a surrender and\\nrenewal do not impair any right or interest of the chief landlord, his\\nlessee or the holder of an under-lease, under the original lease;\\nincluding the chief landlord's remedy by entry, for the rent or duties\\nsecured by the new lease, not exceeding the rent and duties reserved in\\nthe original lease surrendered.\\n",
+    "parentLocationIds" : [ "-CH50", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "-CH50",
+      "title" : "Real Property",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2021-08-06", "2022-12-02", "2024-03-29", "2024-05-03", "2024-12-27", "2025-03-07", "2025-05-16", "2025-12-19" ],
+      "docLevelId" : "50",
+      "activeDate" : "2025-12-19"
+    }, {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "A7",
+      "title" : "Landlord and Tenant",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2017-12-08", "2019-06-28", "2019-10-11", "2019-12-20", "2019-12-27", "2021-08-06", "2021-12-24", "2022-12-30", "2023-11-26", "2024-10-04", "2024-11-29" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-11-29"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "225",
+      "title" : "Notice of action adverse to possession of tenant",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "225",
+      "activeDate" : "2014-09-22"
+    },
+    "nextSibling" : {
+      "lawId" : "RPP",
+      "lawName" : "Real Property",
+      "locationId" : "226-A",
+      "title" : "Effect of new lease on tenant's right to remove fixtures or improvements",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "226-A",
+      "activeDate" : "2014-09-22"
+    }
+  }
+}

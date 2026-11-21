@@ -1,0 +1,56 @@
+{
+  "success" : true,
+  "message" : "Law document for location 751 in RPA law.",
+  "responseType" : "law-doc-info-detail",
+  "result" : {
+    "lawId" : "RPA",
+    "lawName" : "Real Property Actions & Proceedings",
+    "locationId" : "751",
+    "title" : "Stay upon paying rent or giving undertaking; discretionary stay outside city of New York",
+    "docType" : "SECTION",
+    "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+    "docLevelId" : "751",
+    "activeDate" : "2019-06-28",
+    "text" : "  § 751. Stay upon paying rent or giving undertaking; discretionary stay\\noutside city of New York. The respondent may, at any time before a\\nwarrant is issued, stay the issuing thereof and also stay an execution\\nto collect the costs, as follows:\\n  1. Where the lessee or tenant holds over after a default in the\\npayment of rent, or of taxes or assessments, he may effect a stay by\\ndepositing the amount of the rent due or of such taxes or assessments,\\nand interest and penalty, if any thereon due, and the costs of the\\nspecial proceeding, with the clerk of the court, or where the office of\\nclerk is not provided for, with the court, who shall thereupon, upon\\ndemand, pay the amount deposited to the petitioner or his duly\\nauthorized agent; or by delivering to the court or clerk his undertaking\\nto the petitioner in such sum as the court approves to the effect that\\nhe will pay the rent, or such taxes or assessments, and interest and\\npenalty and costs within ten days, at the expiration of which time a\\nwarrant may issue, unless he produces to the court satisfactory evidence\\nof the payment.\\n  2. Where the lessee or tenant has taken the benefit of an insolvency\\nstatute or has been adjudicated a bankrupt, he may effect a stay by\\npaying the costs of the special proceeding and by delivering to the\\ncourt or clerk his undertaking to the petitioner in such a sum as the\\ncourt approves to the effect that he will pay the rent of the premises\\nas it has become or thereafter becomes due.\\n  3. Where he continues in possession of real property which has been\\nsold by virtue of an execution against his property, he may effect a\\nstay by paying the costs of the special proceeding, and delivering to\\nthe court or clerk an affidavit that he claims the possession of the\\nproperty by virtue of a right or title acquired after the sale or as\\nguardian or trustee for another; together with his undertaking to the\\npetitioner in such a sum as the court approves to the effect that he\\nwill pay any costs and damages which may be recovered against him in an\\naction to recover the property brought against him by the petitioner\\nwithin six months thereafter; and that he will not commit any waste upon\\nor injury to the property during his occupation thereof.\\n",
+    "parentLocationIds" : [ "-CH81", "A7" ],
+    "parents" : [ {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "-CH81",
+      "title" : "Real Property Actions & Proceedings",
+      "docType" : "CHAPTER",
+      "publishedDates" : [ "2014-09-22", "2019-12-13", "2019-12-20", "2022-11-25", "2022-12-23", "2023-01-06" ],
+      "docLevelId" : "81",
+      "activeDate" : "2023-01-06"
+    }, {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "A7",
+      "title" : "Summary Proceeding to Recover Possession of Real Property",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2015-10-30", "2016-01-22", "2019-06-28", "2023-05-12", "2023-11-17", "2024-07-05" ],
+      "docLevelId" : "7",
+      "activeDate" : "2024-07-05"
+    } ],
+    "prevSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "749-A",
+      "title" : "New York city marshals",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2024-07-05", "2026-07-03" ],
+      "docLevelId" : "749-A",
+      "activeDate" : "2026-07-03"
+    },
+    "nextSibling" : {
+      "lawId" : "RPA",
+      "lawName" : "Real Property Actions & Proceedings",
+      "locationId" : "753",
+      "title" : "Stay in premises occupied for dwelling purposes",
+      "docType" : "SECTION",
+      "publishedDates" : [ "2014-09-22", "2019-06-28" ],
+      "docLevelId" : "753",
+      "activeDate" : "2019-06-28"
+    }
+  }
+}
