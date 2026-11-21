@@ -1,5 +1,12 @@
 # Data collection instructions
 
+> **Collection is finished (Nov 21, 2026).** The rules below, including "Do not commit anything" and the per-workstream write rules, were for the overnight collection agents and no longer apply. If you are building the app: work anywhere in the repo, and build and commit normally. Three things still hold:
+> - Don't edit `media/review/decisions.json`, `media/review/review_set.json` or `media/review/scoring-rules.md`. They are the frozen test labels, and their checksums are recorded.
+> - Don't commit `.env`, any `local/` folder, `media/fallback/`, `media/images/` or `media/videos/`.
+> - Files under `local/`, the media files, and paths starting `~/hackathons/` exist only on Eric's machine. Each manifest line keeps the item's `source_url` and `sha256`.
+>
+> Start with [SUMMARY.md](SUMMARY.md) for what was collected and [../docs/plan.md](../docs/plan.md) for the system design.
+
 Instructions for the sessions and agents that gather the data for the tenant advocate app. Context: [../docs/plan.md](../docs/plan.md), [../docs/REQUIREMENTS.md](../docs/REQUIREMENTS.md).
 
 ## Why this data matters

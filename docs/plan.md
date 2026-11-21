@@ -13,7 +13,7 @@ This doc records only what has been decided. Anything not yet decided is under [
 | 3 | Define the demo and the proof | Main flow decided; details deferred |
 | 4 | Scope: must-have, nice-to-have, cut | Done |
 | 5 | App requirements | Shared requirements defined; details next |
-| 6 | System design | Not started; includes how the app stores and structures the data |
+| 6 | System design | Working design below ([System design](#system-design)); the data layer and the final feature list are still being settled |
 | 7 | Prep work allowed before the event | Data collection instructions written; prep items listed below |
 
 ## Users
@@ -94,6 +94,65 @@ Worked through in order if there's time. "Uses" lists the shared building blocks
 | 12 | Lease check | A, D | Reading documents; rules on illegal clauses |
 | 13 | Shopify tie-in | B | Mapping problem types to products; only for problems that are the tenant's responsibility |
 | 14 | ADA, rent overcharge, neighbor organizing | — | Each is mostly its own build |
+
+## System design
+
+Working design, agreed Nov 21. The team is still choosing the final feature list; this is the shared base those features are added to.
+
+**Problem statement:** 5 Sigma. The task, stated for judges: given a tenant's photo, say whether it is a violation, cite the actual section, and give the class and the landlord's deadline, without false alarms or invented citations.
+
+**Input:** photos first. Video and narration are stretch items.
+
+### Pipeline
+
+One function, `analyze(photo, address)`, called by both the app and the evaluation script, so the score describes the demo path. Each step is a separate, replaceable function.
+
+| # | Step | What does it | What it does |
+|---|---|---|---|
+| 1 | Intake | Code | Takes a photo, from the grid of held-out test items or by upload. |
+| 2 | Detect | Decisions API (`gemini-decision-1`) | One yes/no question per problem type, plus a size-bin choice for mould. Thresholds are set from the dev set. If nothing clears a threshold, the answer is "nothing found". |
+| 3 | Describe | Gemini 4 Hydrogen | For each detected problem: what it is, where it is in the frame, how bad it looks. |
+| 4 | Facts | Code, live city data | A typed address gives year built, units, rent-stabilized status and open violations. The tenant is asked a question only when a rule depends on it (for example a child under 6). |
+| 5 | Map to the law | Code, no model | Problem type plus facts selects rows in the problem map: HPD order, class, deadline and section ids. Unsettled rows are shown as "class not settled". |
+| 6 | Explain and draft | Gemini 4 Carbon | Writes rights, duties, next steps and the letter from only the matched sections. Code rejects any citation or quote that isn't in the text it was given. |
+| 7 | Case record | Code | Drafting the letter saves the building, problem, class and deadline. |
+| 8 | Follow-up agent | Managed Agents | Takes a case record, checks HPD's records for the building, and drafts the next step. It drafts and never sends. Triggered by hand in the demo. |
+| 9 | Screens | Web page | Findings (evidence, law text, deadline, next step) and proof (numbers against the baseline, failures). |
+
+### Storage
+
+One SQLite file built by a script from `data/` (manifests, law text, problem map). It is a build output: it can be deleted and rebuilt at any time, and it is not committed.
+
+### Proof
+
+- **Baseline:** one Carbon call with the photo and "what violations are here, cite the law, class and deadline".
+- **Test set:** the frozen review set in `data/media/review/` (labels frozen at 08:03:23 on Nov 21, before any app code), scored by `scoring-rules.md`, with `freeze-addendum.json` applied.
+- **Headline number:** end to end. Detection right, citation real, class and deadline right.
+- **Tuning** uses dev-split items only. The test set is run once, at the end, for both the system and the baseline.
+- **Stated limit:** the test photos are public images, not NYC tenants' own.
+
+### Demo (3 minutes)
+
+1. The problem, in one sentence.
+2. A judge picks a photo from the held-out grid and types an NYC address. Findings appear with class, deadline and the quoted section; building facts change the outcome. The letter is drafted.
+3. A look-alike: surface mould on intact grout is the tenant's cleaning duty, so the app doesn't flag it.
+4. The proof page: numbers against the baseline, two failures, what changed.
+5. The follow-up agent, triggered once.
+
+### Build order
+
+1. Skeleton: backend, web page, evaluation folder, one run command.
+2. API smoke tests: Hydrogen, Carbon, the Decisions API, one Managed Agents run.
+3. Data layer: SQLite build script and lookups.
+4. Building lookup.
+5. Pipeline skeleton and the citation check.
+6. Evaluation harness and baseline.
+7. Screens.
+8. Mould size, follow-up agent, test run, rehearsal, one-minute captioned video.
+
+### Not doing
+
+Shopify track. Re-filming to catch a false certification (no footage of our own).
 
 ## Prep now (no app code)
 
