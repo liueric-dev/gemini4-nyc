@@ -12,7 +12,7 @@ A filled-in example of the main response is in [sample-response.json](sample-res
 | `GET /api/building?address=...` | Working | Address to building facts: year built, units, building type, rent-stabilized, open HPD violations |
 | `POST /api/analyze` | Working | Photo (plus optional address and answers) to findings. This is the main one |
 | `POST /api/explain` | Working | Adds the written explanation and checked quotes to an analysis made with `explain=false`. Takes `{"analysis": ...}` and returns it filled in |
-| `POST /api/ask` | Working | Answers a question typed into the chat, using only the case, its law sections and the escalation steps. Takes `{"question": ..., "analysis": <optional /api/analyze response>}`; returns `answer`, `citations` and `covered` (false when there is no source, and the answer says so) |
+| `POST /api/ask` | Working | Answers a question typed into the chat, using only the case, the rules and law for the kind of problem the question mentions, and the escalation steps. Takes `{"question": ..., "analysis": <optional /api/analyze response>, "history": <optional earlier exchange, [{"q": ..., "a": ...}]>}`; returns `answer`, `citations` and `covered` (false when there is no source, and the answer says so) |
 | `GET /api/test-items` | Working | The held-out test photos, for the "pick a photo" grid. No labels are included |
 | `GET /api/photos/{id}` | Working | The image for a test photo or an upload |
 | `POST /api/case-file` | Working | Starts the case file agent. Returns a `case_id` at once |
@@ -21,6 +21,10 @@ A filled-in example of the main response is in [sample-response.json](sample-res
 | `GET /api/results` | Working | The evaluation numbers for the proof screen |
 
 `POST /api/analyze` takes a form with `photo` (a file) or `photo_id` (a test photo's id), and optionally `address` and `answers` (a JSON object such as `{"child_under_6_resides": true}`).
+
+**Photos.** Any format a phone sends is accepted, including HEIC. A photo wider than 1600 pixels is made smaller before the models see it, and a sideways one is turned upright. A file that isn't a photo or a video gets a 415 with a sentence to show the tenant.
+
+**Follow-ups.** The response's `photo.id` identifies the upload (a photo or a video). To send answers or an address for the same picture, send `photo_id` with that id and no file. For half an hour the models' reading of the picture is reused, so a follow-up takes under a second and the findings can't change between an answer and the next.
 
 `POST /api/analyze` also takes `note`: what the tenant typed. It is read for facts the rules use (a child's age, the year built) and returned as `facts_from_description`. It is never used to decide what the photo shows.
 
@@ -48,11 +52,12 @@ Other states the screens need:
 - **Unclear, another photo needed:** `unclear` lists problems the app thought it saw but couldn't confirm. Each has `what_was_seen` and a `request` saying what photo to take next (for mould: closer, in good light, with something of known size in frame). These are not reported as problems. Show the request and let the tenant add a photo. A finding can also carry a `retake_request` next to its `questions`, when a clearer photo could answer the question (mould size is the main case).
 - **Outside the decision tree:** `out_of_scope` describes what the photo shows and whether it looks like the tenant's responsibility. A product suggestion would attach here.
 - **A weak photo:** `photo_quality` is present whenever a problem is reported. `good_for_evidence` is false when the photo is blurry or dark, too far away, shows no surroundings, or (for mould) has nothing to show scale. `retake_requests` lists what to fix, in plain words. The problem is still reported; this is advice for the tenant's own records.
-- **Address not found:** the building call returns a 404 with a message.
+- **Address not found:** the building call returns a 404 with a message. The geocoder's match is kept only if its house number is the one that was typed. A 503 means the city's records didn't answer, which is not the same thing; inside `/api/analyze` that case sets `building_error` and the photo is still answered.
+- **Facts the app looks up itself:** the year built (from the building record; asked of the tenant when there is no address) and, for heat, the outdoor temperature (National Weather Service, Central Park).
 
 ## Video
 
-`POST /api/analyze` also takes a video in the `photo` field (mp4, mov or webm, up to 100 MB). The app samples a still frame about every 3 seconds (at most 16), runs each through the photo pipeline, and reports a problem only if at least two frames confirm it. Sound is ignored.
+`POST /api/analyze` also takes a video in the `photo` field (mp4, mov, webm and the other common formats, up to 100 MB). The app samples a still frame about every 3 seconds (at most 16), runs each through the photo pipeline, and reports a problem only if at least two frames confirm it. Sound is ignored.
 
 The response has the same shape, with these additions:
 - `media_type` is `"video"`, and `video` gives the duration, the frame times, and how many frames saw each problem.

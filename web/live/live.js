@@ -28,8 +28,8 @@ function guessType(text) {
 /* ---------- state ---------- */
 const FRESH = { type: null, step: 0, desc: null, typedFirst: false,
   photo: null, isVideo: false, file: null, photoId: null,
-  address: null, building: null, addrError: null, addrSkipped: false,
-  analysis: null, answers: {}, qa: [], explained: false, error: null, busy: null, attachMenu: false,
+  address: null, building: null, addrError: null, addrDown: false, addrSkipped: false, addrLate: false,
+  analysis: null, answers: {}, qa: [], skipped: {}, explained: false, explainFailed: false, error: null, errorKind: null, busy: null, attachMenu: false,
   asked: false, letter: null, chat: [], notes: [], diyChoice: null, kit: null, owned: {}, packet: null,
   fixed: false, verified: false, awaitVerify: false, afterPhoto: null, insp: null, missed: false, exported: false };
 const S = Object.assign({ view: 'chat', typing: false, samples: null, showKit: false }, FRESH);
@@ -42,28 +42,56 @@ function set(patch, botDelay) {
   } else { Object.assign(S, patch); render(); }
 }
 const go = (patch) => () => set(patch, 500);
-function reset() { run++; if (pollTimer) clearInterval(pollTimer); set(Object.assign({ view: 'chat' }, FRESH, { answers: {}, qa: [], owned: {}, chat: [], notes: [] })); }
+function reset() { run++; if (pollTimer) clearInterval(pollTimer); set(Object.assign({ view: 'chat', typing: false }, FRESH, { answers: {}, qa: [], skipped: {}, owned: {}, chat: [], notes: [] })); }
 
 /* ---------- backend ---------- */
 async function jfetch(url, opts) {
   const r = await fetch(url, opts);
   if (!r.ok) {
     let d = 'error ' + r.status;
-    try { d = (await r.json()).detail || d; } catch (e) { /* keep the status */ }
-    throw new Error(d);
+    try { const detail = (await r.json()).detail; if (typeof detail === 'string') d = detail; } catch (e) { /* keep the status */ }
+    const err = new Error(d); err.status = r.status; // callers tell "not found" and "can't read that file" from "the service is down"
+    throw err;
   }
   return r.json();
 }
 const postJSON = (url, body) => jfetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
 
-async function lookupAddress(text) {
+const NO_ADDRESS = "I couldn't find that address in New York City. Try it with the borough, like “122 West 167th Street, Bronx”.";
+const RECORDS_DOWN = "I couldn't reach the city's building records just now. Try the address again in a moment.";
+
+// late: the address was typed after the case had moved on (skipped earlier, or a photo came first). It is then
+// shown where it was typed, and the photo is checked again with the building's facts.
+async function lookupAddress(text, late) {
   const mine = run;
   Object.assign(S, { typing: true, busy: 'Looking up your building' }); render();
-  let patch;
-  try { patch = { building: await jfetch('/api/building?address=' + encodeURIComponent(text)), address: text, addrError: null }; }
-  catch (e) { patch = { addrError: text }; }
+  let b = null, down = false;
+  try { b = await jfetch('/api/building?address=' + encodeURIComponent(text)); } catch (e) { down = e.status !== 404; }
   if (mine !== run) return;
-  Object.assign(S, patch, { typing: false, busy: null }); render();
+  Object.assign(S, { typing: false, busy: null });
+  if (late) {
+    S.chat.push({ q: text, a: b ? buildingLine(b) : down ? RECORDS_DOWN : NO_ADDRESS, sources: [], at: lastBase, aside: true });
+    if (b) Object.assign(S, { building: b, address: text, addrLate: true });
+    render();
+    if (b && S.analysis && (S.photoId || S.file)) analyse();
+    return;
+  }
+  Object.assign(S, b ? { building: b, address: text, addrError: null } : { addrError: text, addrDown: down }); render();
+}
+
+// A phone photo is 3 to 12 MB and the app needs 1600 pixels of it. Sending the small copy is what gets a photo
+// through on a weak connection. A format this browser can't draw (HEIC outside Safari) goes up as it is, and
+// the server converts it.
+async function shrink(file) {
+  if (!(file.type || '').startsWith('image/') || file.size < 1500000 || !window.createImageBitmap) return file;
+  try {
+    const bmp = await createImageBitmap(file);
+    const k = Math.min(1, 1600 / Math.max(bmp.width, bmp.height));
+    const c = document.createElement('canvas'); c.width = Math.round(bmp.width * k); c.height = Math.round(bmp.height * k);
+    c.getContext('2d').drawImage(bmp, 0, 0, c.width, c.height);
+    const blob = await new Promise((done) => c.toBlob(done, 'image/jpeg', 0.88));
+    return blob ? new File([blob], 'photo.jpg', { type: 'image/jpeg' }) : file;
+  } catch (e) { return file; }
 }
 
 // What the tenant reads while a video is checked, as [seconds waited, line]. A video takes longer than a
@@ -85,24 +113,38 @@ async function analyse() {
     if (el) el.textContent = line + ' ';
   }, 500) : null;
   const f = new FormData();
-  if (S.photoId) f.append('photo_id', S.photoId); else f.append('photo', S.file);
+  if (S.photoId) f.append('photo_id', S.photoId);
+  else { const up = await shrink(S.file); f.append('photo', up, up.name); }
   if (S.building) f.append('address', S.address);
   f.append('answers', JSON.stringify(S.answers));
   f.append('explain', 'false');
   const note = [S.typedFirst ? S.desc : null].concat(S.notes).filter(Boolean).join(' ');
   if (note) f.append('note', note);
+  let a;
+  try { a = await jfetch('/api/analyze', { method: 'POST', body: f }).finally(() => clearInterval(waitTimer)); }
+  catch (e) {
+    if (mine !== run) return;
+    const file = e.status === 413 || e.status === 415; // too big, or not a photo or video: asking again won't help
+    Object.assign(S, { typing: false, busy: null, error: String(e.message || e), errorKind: file ? 'file' : 'model', photo: null, file: null, photoId: null, analysis: null }); render();
+    return;
+  }
+  if (mine !== run) return;
+  if (a.photo) S.photoId = a.photo.id; // follow-up answers send the id, for a photo or a video, not the file again
+  if (a.photo && a.photo.url && S.file && !/^image\/(jpeg|png|webp|gif)$/.test(S.file.type)) S.photo = a.photo.url; // a format the browser can't show
+  Object.assign(S, { analysis: a, explained: false, explainFailed: false, letter: null, typing: false, busy: null, step: Math.max(S.step, 4) }); render();
+  explain(a);
+}
+
+// The written explanation arrives after the class and deadline. If it fails, the findings stay: they came from
+// the rules, and only the plain-language part is missing.
+async function explain(a) {
+  const mine = run;
+  if (!a.findings.some((x) => x.rule_id)) { S.explained = true; return; }
   try {
-    const a = await jfetch('/api/analyze', { method: 'POST', body: f }).finally(() => clearInterval(waitTimer));
-    if (mine !== run) return;
-    if (a.photo && !S.isVideo) S.photoId = a.photo.id; // follow-up answers reuse the saved upload
-    Object.assign(S, { analysis: a, explained: false, letter: null, typing: false, busy: null, step: Math.max(S.step, 4) }); render();
-    if (a.findings.some((x) => x.rule_id)) {
-      const full = await postJSON('/api/explain', { analysis: a });
-      if (mine === run && S.analysis === a) { Object.assign(S, { analysis: full, explained: true }); render(); }
-    } else S.explained = true;
+    const full = await postJSON('/api/explain', { analysis: a });
+    if (mine === run && S.analysis === a) { Object.assign(S, { analysis: full, explained: true, explainFailed: false }); render(); }
   } catch (e) {
-    if (mine !== run) return;
-    Object.assign(S, { typing: false, busy: null, error: String(e.message || e), photo: null, file: null, photoId: null, analysis: null }); render();
+    if (mine === run && S.analysis === a) { Object.assign(S, { explained: true, explainFailed: true }); render(); }
   }
 }
 
@@ -112,11 +154,37 @@ function answer(fact, value, label, question) {
   analyse();
 }
 
-async function ask(question) {
-  const mine = run, entry = { q: question, a: null, sources: [] };
+// The question the app is waiting on, if any: the first one the tenant hasn't said "not sure" to.
+function pendingQuestion() {
+  if (!S.analysis) return null;
+  for (const f of S.analysis.findings) {
+    const q = f.outcome === 'needs_answer' && f.questions.find((x) => !S.skipped[x.fact]);
+    if (q) return { f, q };
+  }
+  return null;
+}
+function notSure(q) { S.skipped[q.fact] = true; S.qa.push({ q: q.question, a: 'Not sure' }); render(); }
+
+// What a typed reply means as an answer to the app's own question, as [value, label]; undefined if it isn't one.
+function oneNumber(v) { const n = v.match(/\d+(?:\.\d+)?/g); return n && n.length === 1 && v.length <= 40 ? Number(n[0]) : null; }
+function typedAnswer(q, v) {
+  const t = v.trim().toLowerCase().replace(/[.!]+$/, '');
+  if (q.type === 'bool') return /^(y|yes|yeah|yep|yup|true|correct)\b/.test(t) ? [true, 'Yes'] : /^(n|no|nope|nah|false|none)\b/.test(t) ? [false, 'No'] : undefined;
+  if (q.type === 'enum') { const o = (q.options || []).find((x) => t === String(x).toLowerCase().replace(/_/g, ' ')); return o === undefined ? undefined : [o, o]; }
+  const n = oneNumber(v);
+  if (n === null || (q.fact === 'year_built' && (n < 1700 || n > new Date().getFullYear()))) return undefined;
+  return [n, v];
+}
+
+// opts.silent: the tenant's words are already on screen (their first message), so only the reply is added.
+// opts.at: where in the conversation the exchange belongs; by default, where it is now.
+async function ask(question, opts) {
+  const o = opts || {};
+  const mine = run, entry = { q: o.silent ? null : question, a: null, sources: [], at: o.at === undefined ? lastBase : o.at };
+  const history = S.chat.filter((c) => c.q && c.a && !c.aside).slice(-3).map((c) => ({ q: c.q, a: c.a }));
   S.chat.push(entry); render();
   try {
-    const r = await postJSON('/api/ask', { question, analysis: S.analysis });
+    const r = await postJSON('/api/ask', { question, analysis: S.analysis, history });
     if (mine !== run) return;
     entry.a = r.answer; entry.sources = [...new Set((r.citations || []).map((c) => c.citation))];
   } catch (e) { if (mine !== run) return; entry.a = "I couldn't reach the model just now. Try asking again."; }
@@ -143,22 +211,23 @@ async function fetchKit(ruleId) {
 let pollTimer = null;
 async function buildPacket() {
   const mine = run;
-  if (!S.building) { S.packet = { error: "I need your address to pull your building's record. Start a new case and add it." }; render(); return; }
-  S.packet = { status: 'starting', started: Date.now() }; render();
+  const place = { at: lastBase, after: S.chat.length }; // where in the conversation the card belongs
+  if (!S.building) { S.packet = Object.assign({ error: "I need your address to pull your building's record. Type it here and I'll look it up." }, place); render(); return; }
+  S.packet = Object.assign({ status: 'starting', started: Date.now() }, place); render();
   try {
     const r = await postJSON('/api/case-file', { analysis: S.analysis, apartment: null });
     if (mine !== run) return;
-    S.packet = { status: 'in_progress', caseId: r.case_id, started: Date.now() }; render();
+    S.packet = Object.assign({ status: 'in_progress', caseId: r.case_id, started: Date.now() }, place); render();
     pollTimer = setInterval(async () => {
       try {
         const s = await jfetch('/api/case-file/' + r.case_id);
         if (mine !== run) { clearInterval(pollTimer); return; }
-        if (s.markdown) { clearInterval(pollTimer); S.packet = { status: 'done', markdown: s.markdown, seconds: s.seconds }; render(); }
-        else if (!/progress|queued|running/i.test(s.status)) { clearInterval(pollTimer); S.packet = { error: 'The agent stopped (' + s.status + '). Try again.' }; render(); }
-        else if (S.view === 'chat') render();
+        if (s.markdown) { clearInterval(pollTimer); S.packet = Object.assign({ status: 'done', markdown: s.markdown, seconds: s.seconds }, place); render(); }
+        else if (!/progress|queued|running/i.test(s.status)) { clearInterval(pollTimer); S.packet = Object.assign({ error: 'The agent stopped (' + s.status + '). Try again.' }, place); render(); }
+        else { const el = document.getElementById('packet-sub'); if (el) el.textContent = packetSub(S.packet); } // only the seconds change: no full render, which would reset the page under the tenant
       } catch (e) { /* a dropped poll is fine; the next one retries */ }
     }, 5000);
-  } catch (e) { if (mine === run) { S.packet = { error: String(e.message || e) }; render(); } }
+  } catch (e) { if (mine === run) { S.packet = Object.assign({ error: "I couldn't start the case file just now. Try again." }, place); render(); } }
 }
 
 function showAttachMenu(open) {
@@ -203,6 +272,9 @@ function buildingLine(b) {
 const MOULD_SIZES = [['Under 10 sq ft', 5], ['10 to 30 sq ft', 15], ['30 sq ft or more', 35]];
 
 /* ---------- the conversation ---------- */
+const RETALIATION = "It's illegal for your landlord to punish you for complaining. If they try to evict you or raise your rent within a year of a complaint or inspection, the law presumes it's retaliation (NY Real Property Law § 223-b).\n\nThis doesn't apply if the owner lives in a building with fewer than 4 units.";
+let lastBase = 0; // how many messages the conversation had, before typed exchanges are placed in it
+
 function conversation() {
   const m = [];
   const bot = (t) => m.push({ t: 'bot', text: t });
@@ -215,12 +287,23 @@ function conversation() {
   const stageOf = () => ({ filed: !!res && S.step >= 9, violation: !!res && S.step >= 11 && S.insp === 'violation', noViolation: !!res && S.step >= 11 && S.insp === 'none',
     court: !!res && S.step >= 13, resolved: !!res && S.verified, fixedOn, vClass, dueDate, filing: !!res && S.step === 8 });
   let fixedOn = null, vClass = '', dueDate = '';
+  // Everything above is rebuilt from the case's state each time. What the tenant typed, the replies, and the
+  // case-file card are placed back where they happened (each remembers how long the conversation was then),
+  // so a pill tapped after a typed question shows its answer below the question, not above it.
   const done = () => {
-    S.chat.forEach((c) => {
-      user(c.q);
-      if (c.a) bot(c.a + (c.sources.length ? '\n\nSource: ' + c.sources.join('; ') : '')); else m.push({ t: 'thinking', text: 'Checking the law' });
+    lastBase = m.length;
+    const extras = S.chat.slice();
+    if (S.packet) extras.splice(Math.min(S.packet.after || 0, extras.length), 0, { packet: true, at: S.packet.at || 0 });
+    const order = extras.map((x, i) => [x, i]).sort((p, q) => (p[0].at - q[0].at) || (p[1] - q[1]));
+    const out = []; let i = 0;
+    order.forEach(([x]) => {
+      while (i < Math.min(x.at, m.length)) out.push(m[i++]);
+      if (x.packet) { out.push({ t: 'packet' }); return; }
+      if (x.q) out.push({ t: 'user', text: x.q });
+      out.push(x.a ? { t: 'bot', text: x.a + (x.sources.length ? '\n\nSource: ' + x.sources.join('; ') : '') } : { t: 'thinking', text: 'Checking the law' });
     });
-    return { m, chips, kase: { title, status, res, diy, T: { where }, sent: S.step >= 6, hasEvidence: !!S.photo, stage: stageOf() } };
+    while (i < m.length) out.push(m[i++]);
+    return { m: out, chips, kase: { title, status, res, diy, T: { where }, sent: S.step >= 6, hasEvidence: !!S.photo, stage: stageOf() } };
   };
 
   user(S.typedFirst ? S.desc : '+ ' + T.label);
@@ -228,14 +311,14 @@ function conversation() {
 
   /* address */
   bot("Case started. First, what's your address? I'll check your building's public record. You can skip this.");
-  if (S.addrError) { user(S.addrError); bot("I couldn't find that address in New York City. Try it with the borough, like “122 West 167th Street, Bronx”."); }
-  if (S.building) { user(S.address); bot(buildingLine(S.building)); }
-  else if (S.addrSkipped) user('Skip');
-  else { chips = [{ label: 'Skip', go: go({ addrSkipped: true }) }]; return done(); }
+  if (S.addrError) { user(S.addrError); bot(S.addrDown ? RECORDS_DOWN + ' Or skip this.' : NO_ADDRESS); }
+  if (S.building && !S.addrLate) { user(S.address); bot(buildingLine(S.building)); }
+  else if (S.addrSkipped === 'tapped') user('Skip');
+  else if (!S.addrSkipped) { chips = [{ label: 'Skip', go: go({ addrSkipped: 'tapped' }) }]; return done(); }
 
   /* evidence */
   bot(T.ask);
-  if (S.error) bot("I couldn't reach the model just now (" + S.error + '). Add the photo again.');
+  if (S.error) bot(S.errorKind === 'file' ? S.error : "I couldn't reach the model just now (" + S.error + '). Add the photo again.');
   if (!S.photo) { chips = [{ label: 'Pick a test photo', go: openSamples }]; return done(); }
   m.push({ t: 'photo', tag: S.isVideo ? 'Your video' : 'Your photo' });
   status = 'Checking';
@@ -259,19 +342,25 @@ function conversation() {
   S.qa.forEach((x) => { bot(x.q); user(x.a); });
 
   /* a question that changes the answer comes first */
-  const askF = a.findings.find((f) => f.outcome === 'needs_answer' && f.questions.length);
-  if (askF) {
-    const q = askF.questions[0];
-    bot(q.question);
+  const pend = pendingQuestion();
+  if (pend) {
+    const askF = pend.f, q = pend.q;
+    bot(q.question + (q.type === 'number' && q.fact !== 'mold_area_sqft' ? ' Type the number.' : ''));
     if (q.type === 'bool') chips = [['Yes', true], ['No', false]].map(([l, v]) => ({ label: l, go: () => answer(q.fact, v, l, q.question) }));
     else if (q.type === 'enum') chips = (q.options || []).map((o) => ({ label: o, go: () => answer(q.fact, o, o, q.question) }));
     else if (q.fact === 'mold_area_sqft') chips = MOULD_SIZES.map(([l, v]) => ({ label: l, go: () => answer(q.fact, v, l, q.question) }));
-    else S.awaitFact = { fact: q.fact, question: q.question };
+    chips.push({ label: 'Not sure', go: () => notSure(q) }); // every question can be passed, so no case is left stuck on one
     if (askF.retake_request) bot('Or add a clearer photo. ' + askF.retake_request);
+    if (q.fact === 'year_built' && !S.building) bot("Or type your address and I'll look it up.");
     title = askF.title; status = 'One question to answer';
     return done();
   }
-  S.awaitFact = null;
+  // a finding whose questions were all passed: say what it could be, and that the steps don't change
+  const unsettled = (f) => {
+    const cls = [...new Set((f.possible_outcomes || []).map((o) => o.class).filter(Boolean))].sort();
+    return "Without that, I can't say which class this would be" + (cls.length ? ' (it could be Class ' + (cls.length > 1 ? cls.slice(0, -1).join(', ') + ' or ' : '') + cls[cls.length - 1] + ')' : '') +
+      '. The steps are the same either way: tell your landlord in writing, then file with 311 so HPD inspects.';
+  };
 
   /* tenant's own duty: offer the fix-it-yourself kit */
   const diyF = a.findings.find((f) => f.outcome === 'not_landlord_responsibility');
@@ -300,6 +389,7 @@ function conversation() {
   if (!violations.length) {
     a.findings.forEach((f) => bot(f.outcome === 'no_violation'
       ? "From what I can see and what you've told me, this isn't a violation" + (f.scenario ? ': ' + f.scenario.toLowerCase() + '.' : '.')
+      : f.outcome === 'needs_answer' ? unsettled(f)
       : "I can see the problem, but the sources I have don't settle how HPD would class it. The steps are the same: tell your landlord in writing, then file with 311 so HPD inspects."));
     title = a.findings[0].title; status = 'Checked'; chips = more; return done();
   }
@@ -310,18 +400,17 @@ function conversation() {
   all.forEach((r) => m.push({ t: 'finding', res: r }));
   if (S.explained) all.forEach((r) => { if (r.f.explanation) bot(r.f.explanation.summary); });
   else m.push({ t: 'thinking', text: 'Reading the law for this' });
+  if (S.explainFailed) bot("I couldn't load the plain-language explanation just now. The class and deadline above come from the rules, so they still stand.");
   const q = res.f.photo_quality || a.photo_quality;
   if (q && !q.good_for_evidence) bot('For your records, a better ' + (S.isVideo ? 'shot' : 'photo') + ' would make stronger evidence:\n' + q.retake_requests.map((r) => '• ' + r).join('\n'));
   a.unclear.forEach((u) => bot("I may also be seeing something else, but I can't confirm it: " + u.what_was_seen + '\n\n' + u.request));
-  if (S.asked) {
-    user('Will I get in trouble for complaining?');
-    bot("It's illegal for your landlord to punish you for complaining. If they try to evict you or raise your rent within a year of a complaint or inspection, the law presumes it's retaliation (NY Real Property Law § 223-b).\n\nThis doesn't apply if the owner lives in a building with fewer than 4 units.");
-  }
-  if (S.packet) m.push({ t: 'packet' });
+  a.findings.filter((f) => f.outcome === 'needs_answer').forEach((f) => bot(f.title + ': ' + unsettled(f)));
+  if (!S.building && S.addrSkipped === 'auto') bot("If you type your address, I'll add your building's public record to this case.");
   if (S.step === 4) {
     chips = [{ label: 'What do I do now?', go: () => { set({ step: 5 }, 500); fetchLetter(); } }];
-    if (!S.asked) chips.push({ label: 'Will I get in trouble?', go: go({ asked: true }) });
-    if (!S.packet) chips.push({ label: 'Build my case file', dark: true, go: buildPacket });
+    if (S.explainFailed) chips.push({ label: 'Explain the law again', go: () => { set({ explained: false, explainFailed: false }); explain(S.analysis); } });
+    if (!S.asked) chips.push({ label: 'Will I get in trouble?', go: () => { S.chat.push({ q: 'Will I get in trouble for complaining?', a: RETALIATION, sources: [], at: lastBase }); set({ asked: true }); } });
+    if (!S.packet || S.packet.error) chips.push({ label: 'Build my case file', dark: true, go: buildPacket });
   }
   if (S.step >= 5) {
     user('What do I do now?');
@@ -341,8 +430,12 @@ function conversation() {
   /* ---------- escalation walk-through: notice → 311 → HPD inspection → violation → HP action ---------- */
   const inspector = res.label === 'Inspector decides';
   vClass = inspector ? 'Class B' : res.cls;
-  const vDays = res.label === 'Inspector decides' ? '30 days' : res.days;
-  dueDate = { '21 days': 'Jan 8', '30 days': 'Jan 17', '90 days': 'Mar 18' }[vDays] || 'Jan 17';
+  // The walk-through's inspection is on Dec 18. The deadline runs from there for as long as this finding's own
+  // rule gives (a Class C can be 24 hours, 14 or 21 days), not a fixed 30 days.
+  const dl = inspector ? { value: 30, unit: 'days' } : (res.f.deadline || {});
+  const noGrace = dl.unit === 'none';
+  const dueIn = dl.unit === 'days' && dl.value ? dl.value : dl.unit === 'hours' ? Math.ceil((dl.value || 24) / 24) : noGrace ? 1 : 30;
+  dueDate = new Date(2026, 11, 18 + dueIn).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   const verify = (when) => {
     fixedOn = when;
     user('Fixed');
@@ -387,7 +480,7 @@ function conversation() {
   if (S.step >= 11 && S.insp === 'violation') {
     user('They issued a violation');
     if (inspector) bot("HPD issued a violation, and the inspector set its class. It's now public on HPDONLINE, and your landlord's deadline starts today: 90 days for Class A, 30 days for Class B, 24 hours for Class C. For this walk-through, say it was Class B: fix by " + dueDate + '.\n\nThis is the official record a court will look at.');
-    else bot('HPD issued a ' + vClass + " violation. It's now public on HPDONLINE, and your landlord's deadline starts today: fix by " + dueDate + '.\n\nThis is the official record a court will look at.');
+    else bot('HPD issued a ' + vClass + " violation. It's now public on HPDONLINE, and " + (noGrace ? 'there is no grace period for this one: penalties run from today' : "your landlord's deadline starts today: fix by " + dueDate) + '.\n\nThis is the official record a court will look at.');
     status = vClass + ' violation · fix by ' + dueDate;
     if (S.step === 11) chips = [{ label: 'Skip to ' + dueDate, dark: true, go: go({ step: 12 }) }];
   }
@@ -409,7 +502,7 @@ function conversation() {
     m.push({ t: 'checklist' });
     bot('You also have the right to talk to a free tenant lawyer before you go.' + (S.building && S.building.rent_stabilized ? "\n\nBecause your building is rent-stabilized, you can also ask DHCR to lower your rent until it's fixed." : ''));
     status = 'HP action · Housing Court';
-    chips = S.packet ? [{ label: 'Open my case', dark: true, go: () => set({ view: 'case' }) }] : [{ label: 'Build my case file', dark: true, go: buildPacket }];
+    chips = S.packet && !S.packet.error ? [{ label: 'Open my case', dark: true, go: () => set({ view: 'case' }) }] : [{ label: 'Build my case file', dark: true, go: buildPacket }];
   }
   return done();
 }
@@ -429,6 +522,11 @@ function kitHTML() {
         ${p ? `<span class="prodsub ttl">${esc(p.title)}</span><span class="prodsub">${esc(p.seller || '')}</span><span class="prodprice">$${Number(p.price).toFixed(2)}</span>` : '<span class="prodsub">Not found right now</span>'}
         <span class="prodact">${buy ? `<a class="buy" href="${esc(buy)}" target="_blank" rel="noopener noreferrer">${owned ? 'Not needed' : 'Buy'}</a>` : ''}<button class="have" data-have="${i}">${owned ? 'Add it back' : 'I have this'}</button></span></div>`;
     }).join('')}</div></div>`;
+}
+
+function packetSub(p) {
+  const secs = p.started ? Math.round((Date.now() - p.started) / 1000) : 0;
+  return p.error ? p.error : p.markdown ? 'From HPD’s public record · built in ' + Math.round(p.seconds) + ' s' : 'An agent is reading your building’s HPD record · ' + secs + ' s';
 }
 
 function msgHTML(x) {
@@ -486,11 +584,9 @@ function msgHTML(x) {
       </div></div>`;
     }
     case 'packet': {
-      const p = S.packet;
-      const secs = p.started ? Math.round((Date.now() - p.started) / 1000) : 0;
-      const sub = p.error ? p.error : p.markdown ? 'From HPD’s public record · built in ' + Math.round(p.seconds) + ' s' : 'An agent is reading your building’s HPD record · ' + secs + ' s';
+      const p = S.packet, sub = packetSub(p);
       return `<div class="row"><div class="card fcard">
-        <div class="fhead"><span class="sugic">${ICON.doc}</span><span class="sugtxt" style="flex:1;min-width:0"><b>Case file${p.markdown ? ' ready' : p.error ? '' : ' in progress'}</b><span style="white-space:normal">${esc(sub)}</span></span>${p.markdown || p.error ? '' : '<span class="typing"><i></i><i></i><i></i></span>'}</div>
+        <div class="fhead"><span class="sugic">${ICON.doc}</span><span class="sugtxt" style="flex:1;min-width:0"><b>Case file${p.markdown ? ' ready' : p.error ? '' : ' in progress'}</b><span id="packet-sub" style="white-space:normal">${esc(sub)}</span></span>${p.markdown || p.error ? '' : '<span class="typing"><i></i><i></i><i></i></span>'}</div>
         ${p.markdown ? '<div class="factions"><button class="fbtn primary" data-act="packet">Open the case file</button></div>' : ''}</div></div>`;
     }
     case 'steps': {
@@ -514,7 +610,8 @@ function chatView(conv) {
   const a0 = S.analysis, q0 = a0 && (((a0.findings[0] || {}).photo_quality) || a0.photo_quality);
   const wantsRetake = a0 && (a0.nothing_found || a0.unclear.length || a0.findings.some((f) => f.retake_request || f.outcome === 'not_landlord_responsibility') || (q0 && !q0.good_for_evidence));
   const attachLabel = (S.fixed && !S.verified) ? 'Add photo of the repair' : S.type && !needAddr && !S.photo ? 'Add photo or video' : wantsRetake && S.step <= 4 ? 'Add another photo' : null;
-  const placeholder = conv.empty ? "Tell us what's wrong at home" : needAddr ? 'Your address, like 122 W 167th St, Bronx' : S.awaitFact ? 'Type a number' : S.analysis ? 'Ask a question about your case' : 'Add a photo, or ask a question';
+  const pend = pendingQuestion();
+  const placeholder = conv.empty ? "Tell us what's wrong at home" : needAddr ? 'Your address, like 122 W 167th St, Bronx' : pend && pend.q.type === 'number' ? 'Type a number' : S.analysis ? (S.building ? 'Ask a question about your case' : 'Ask a question, or type your address') : 'Add a photo, or ask a question';
   return `
     <div class="nav">
       <button class="navbtn" aria-label="Your cases" data-act="cases">${ICON.doc}${kase ? '<span class="count" aria-hidden="true">1</span>' : ''}</button>
@@ -705,25 +802,40 @@ function packetView() {
     <div class="page"><div class="md">${p && p.markdown ? md(p.markdown) : '<p>Not ready yet.</p>'}</div></div>`;
 }
 
-let lastChips = [];
+let lastChips = [], lastCount = -1, lastView = null;
 function render() {
   const app = document.getElementById('app');
   const conv = conversation();
   lastChips = conv.chips;
+  // The page is rebuilt whole, and replies arrive while the tenant is typing or reading. Carry over the
+  // half-typed message and the cursor; and if nothing new was said and they had scrolled up, stay there.
+  const box = document.getElementById('msg'), was = document.getElementById('scroll');
+  const typed = box ? { text: box.value, focus: document.activeElement === box, from: box.selectionStart, to: box.selectionEnd } : null;
+  const count = conv.m.length + (S.typing ? 1 : 0);
+  const stay = was && S.view === lastView && count === lastCount && was.scrollHeight - was.scrollTop - was.clientHeight > 60 ? was.scrollTop : null;
+  lastCount = count; lastView = S.view;
   const base = S.view === 'cases' ? sheetView(conv.kase)
     : S.view === 'samples' ? samplesView()
     : S.view === 'rule' ? ruleView(conv.kase)
     : S.view === 'packet' ? packetView()
     : S.view === 'case' && conv.kase ? caseView(conv.kase) : chatView(conv);
   app.innerHTML = STATUS_BAR + base + '<div class="homebar" aria-hidden="true"></div>';
+  const now = document.getElementById('msg');
+  if (now && typed) {
+    now.value = typed.text;
+    if (typed.focus) { now.focus(); try { now.setSelectionRange(typed.from, typed.to); } catch (e) { /* not every input type has a selection */ } }
+  }
   const sc = document.getElementById('scroll');
   if (sc) {
     const kit = S.showKit && sc.querySelector('.kit');
-    if (kit) { sc.scrollTop = Math.max(0, kit.offsetTop - 70); } else sc.scrollTop = sc.scrollHeight;
+    if (kit) { sc.scrollTop = Math.max(0, kit.offsetTop - 70); } else sc.scrollTop = stay === null ? sc.scrollHeight : stay;
   }
 }
 
 /* ---------- events ---------- */
+const SKIP_WORDS = /^(skip|no|nope|no thanks?|no thank you|not now|pass|i'?d rather not)[.!]?$/i;
+const UNSURE = /^(not sure|unsure|i'?m not sure|i (don'?t|do not) know|don'?t know|no idea|idk|skip)[.!]?$/i;
+const STREET = /\b(st|street|ave|avenue|rd|road|blvd|boulevard|pl|place|pkwy|parkway|dr|drive|ct|court|ln|lane|ter|terrace|broadway|bowery|concourse|tpke|turnpike|hwy|highway|bronx|brooklyn|queens|manhattan|staten island)\b/i;
 function startCase(type, typedDesc) { run++; set({ type, step: 1, desc: typedDesc || null, typedFirst: !!typedDesc }, 400); }
 function copyText(text, el) {
   const done = () => { el.textContent = 'Copied'; };
@@ -736,9 +848,9 @@ document.addEventListener('click', (e) => {
   const sample = e.target.closest('[data-sample]');
   if (sample) {
     const id = sample.dataset.sample;
-    if (!S.type) { run++; Object.assign(S, { type: 'other', typedFirst: false, addrSkipped: true }); }
-    if (!S.building && !S.addrSkipped) S.addrSkipped = true;
-    Object.assign(S, { view: 'chat', photo: '/api/photos/' + id, photoId: id, file: null, isVideo: false, analysis: null, answers: {}, qa: [], diyChoice: null, kit: null, owned: {}, step: 2 });
+    if (!S.type) { run++; Object.assign(S, { type: 'other', typedFirst: false }); }
+    if (!S.building && !S.addrSkipped) S.addrSkipped = 'auto'; // moved on without an address; it can still be typed later
+    Object.assign(S, { view: 'chat', photo: '/api/photos/' + id, photoId: id, file: null, isVideo: false, analysis: null, answers: {}, qa: [], skipped: {}, error: null, diyChoice: null, kit: null, owned: {}, step: 2 });
     analyse(); return;
   }
   const have = e.target.closest('[data-have]');
@@ -777,14 +889,29 @@ document.addEventListener('click', (e) => {
 document.addEventListener('submit', (e) => {
   if (e.target.id !== 'composer') return;
   e.preventDefault();
-  const v = document.getElementById('msg').value.trim();
+  const box = document.getElementById('msg'), v = box.value.trim();
   if (!v) return;
-  if (!S.type) { startCase(guessType(v), v); return; }
-  if (!S.building && !S.addrSkipped) { lookupAddress(v); return; }
-  if (S.awaitFact) {
-    const n = Number(v.replace(/[^0-9.]/g, ''));
-    if (v.replace(/[^0-9.]/g, '') !== '' && Number.isFinite(n)) { const q = S.awaitFact; S.awaitFact = null; answer(q.fact, n, v, q.question); return; }
+  box.value = ''; // render() now keeps what is in the box, so a sent message has to be cleared here
+  const isQuestion = /\?\s*$/.test(v), houseNumberFirst = /^\s*\d/.test(v);
+  // 1. The first message opens the case, and is answered: it is usually a description or a question.
+  if (!S.type) { startCase(guessType(v), v); ask(v, { silent: true, at: 2 }); return; }
+  // 2. The app has just asked for the address. An address starts with a house number; "skip" skips; anything
+  //    else is a question and is answered as one (it used to be sent to the geocoder, which always finds something).
+  if (!S.building && !S.addrSkipped) {
+    if (SKIP_WORDS.test(v)) { set({ addrSkipped: 'tapped' }, 400); return; }
+    if (houseNumberFirst && !isQuestion) { lookupAddress(v); return; }
+    ask(v); return;
   }
+  // 3. The app is waiting on one of its own questions: "yes", "no", a number or "not sure" answers it.
+  const pend = pendingQuestion();
+  if (pend) {
+    if (UNSURE.test(v)) { notSure(pend.q); return; }
+    const reply = typedAnswer(pend.q, v);
+    if (reply) { answer(pend.q.fact, reply[0], v, pend.q.question); return; }
+  }
+  // 4. An address typed later, when it was skipped at the start or a photo came first.
+  if (!S.building && houseNumberFirst && !isQuestion && STREET.test(v)) { lookupAddress(v, true); return; }
+  // 5. Everything else is a question.
   if (!S.analysis) S.notes.push(v); // said before the photo: sent along with it, and read for facts
   ask(v);
 });
@@ -795,9 +922,10 @@ document.getElementById('file').addEventListener('change', (e) => {
   const url = URL.createObjectURL(f);
   e.target.value = '';
   if (S.awaitVerify) { set({ verified: true, afterPhoto: url, awaitVerify: false }, 500); return; }
-  if (!S.type) { run++; Object.assign(S, { type: 'other', typedFirst: false, addrSkipped: true }); }
-  if (!S.building && !S.addrSkipped) S.addrSkipped = true;
-  Object.assign(S, { photo: url, file: f, isVideo: (f.type || '').startsWith('video/'), photoId: null, analysis: null, answers: {}, qa: [], diyChoice: null, kit: null, owned: {}, step: 2, view: 'chat' });
+  if (!S.type) { run++; Object.assign(S, { type: 'other', typedFirst: false }); }
+  if (!S.building && !S.addrSkipped) S.addrSkipped = 'auto'; // moved on without an address; it can still be typed later
+  const isVideo = (f.type || '').startsWith('video/') || (!f.type && /\.(mp4|mov|webm|m4v|3gp|mkv|avi)$/i.test(f.name));
+  Object.assign(S, { photo: url, file: f, isVideo, photoId: null, analysis: null, answers: {}, qa: [], skipped: {}, error: null, diyChoice: null, kit: null, owned: {}, step: 2, view: 'chat' });
   analyse();
 });
 

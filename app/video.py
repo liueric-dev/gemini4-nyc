@@ -7,6 +7,7 @@ very short clip), which keeps a single odd frame from raising a false alarm. Eac
 the times it was seen and the clearest frame, saved as a still so it can be shown and used as evidence.
 Sound is ignored. Needs ffmpeg on the machine.
 """
+import logging
 import subprocess
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -16,12 +17,16 @@ from app import building as building_mod
 from app import media, pipeline
 
 VIDEO_TYPES = {".mp4": "video/mp4", ".mov": "video/quicktime", ".webm": "video/webm", ".m4v": "video/x-m4v"}
+log = logging.getLogger("tenant")
 
 
 def duration(path: Path) -> float:
     out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
                          capture_output=True, text=True, timeout=30, check=False).stdout.strip()
-    return float(out or 0)
+    try:
+        return float(out or 0)
+    except ValueError:  # a clip recorded in the browser can report "N/A"
+        return 0.0
 
 
 def frame_times(seconds: float) -> list[float]:
@@ -73,7 +78,12 @@ def merge(per_frame: list[tuple[float, dict]]) -> tuple[list[dict], dict]:
 
 
 def analyze_video(path: Path, address: str | None = None, answers: dict | None = None,
-                  with_explanation: bool = True, save_frames: bool = True) -> dict:
+                  with_explanation: bool = True, save_frames: bool = True, note: str | None = None,
+                  seen: dict | None = None) -> dict:
+    """note: what the tenant typed, read once for facts (never shown to the step that looks at the frames).
+    seen: what the models read from each frame on an earlier run of this video, keyed by frame time. Pass the
+    same dict back for a follow-up (an answer, an address) and the frames are not looked at again; an empty
+    dict is filled in."""
     t0 = time.perf_counter()
     stills = frames(path)
     if not stills:
@@ -84,16 +94,37 @@ def analyze_video(path: Path, address: str | None = None, answers: dict | None =
             bld = building_mod.lookup(address)
         except building_mod.AddressNotFound:
             bld_error = f"No NYC address found for: {address}"
+        except Exception:  # the city's records being down must not lose the video's answer
+            log.warning("building lookup failed", exc_info=True)
+            bld_error = "The city's building records could not be reached just now."
+    said = {}
+    if note and note.strip():
+        try:
+            said = pipeline.facts_from_note(note)
+        except Exception:  # noqa: BLE001 - reading the note is a convenience; the answer doesn't depend on it
+            said = {}
+    answers = {**said, **(answers or {})}
+    seen = {} if seen is None else seen
 
     def one(item):
         t, data = item
-        return t, pipeline.analyze(data, "image/jpeg", answers=answers, with_explanation=False, building=bld)
+        frame_seen = seen.get(f"{t:.2f}") or {}
+        try:
+            res = pipeline.analyze(data, "image/jpeg", answers=answers, with_explanation=False, building=bld,
+                                   seen=frame_seen)
+        except Exception:  # one frame the models didn't answer for must not lose the other fifteen
+            log.warning("frame at %.1f s failed", t, exc_info=True)
+            return None
+        seen[f"{t:.2f}"] = frame_seen
+        return t, res
 
     # Every frame at once (there are at most `max_frames`), so the wait is one frame's time, not two rounds of
     # it. Measured Nov 21 on a 37 s clip of 12 frames: 12 s with 8 at a time, 7 s with all at once.
     with ThreadPoolExecutor(max_workers=len(stills)) as pool:
-        per_frame = list(pool.map(one, stills))
-    findings, seen = merge(per_frame)
+        per_frame = [r for r in pool.map(one, stills) if r]
+    if not per_frame:
+        raise RuntimeError("No frame of the video could be analysed")
+    findings, counts = merge(per_frame)
     by_time = dict(stills)
     best_frame = dict(per_frame)
     for f in findings:
@@ -106,11 +137,12 @@ def analyze_video(path: Path, address: str | None = None, answers: dict | None =
         "media_type": "video",
         "video": {"duration_s": round(duration(path), 1), "frames_analysed": len(per_frame),
                   "frame_times_s": [t for t, _ in per_frame], "confirming_frames_needed": confirming_frames_needed(len(per_frame)),
-                  "seen_in_frames": seen},
+                  "seen_in_frames": counts},
         "nothing_found": not findings,
         "building": bld,
         "building_error": bld_error,
         "findings": findings,
+        "facts_from_description": said,
         "unclear": [],
         "out_of_scope": None,
         "timings": {"frames_s": round(time.perf_counter() - t0, 2)},

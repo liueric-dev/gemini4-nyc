@@ -10,6 +10,7 @@ Results are cached for a day in var/runtime.db, which is separate from the rebui
 """
 import csv
 import json
+import re
 import sqlite3
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -42,6 +43,11 @@ def _soda(dataset: str, params: dict) -> list[dict]:
     return r.json()
 
 
+def _plain(s: str) -> str:
+    """A house number as typed or as returned, without case or punctuation: '39-06' and '3906' are the same."""
+    return re.sub(r"[^0-9a-z]", "", s.lower())
+
+
 def geocode(address: str) -> dict:
     r = httpx.get(GEOSEARCH, params={"text": address, "size": 1}, timeout=15)
     r.raise_for_status()
@@ -50,7 +56,12 @@ def geocode(address: str) -> dict:
         raise AddressNotFound(address)
     p = features[0]["properties"]
     pad = (p.get("addendum") or {}).get("pad") or {}
-    if not pad.get("bbl"):
+    # GeoSearch always answers with its nearest guess and marks every result the same way, so the only sign
+    # of a real match is the house number: "1600 Pennsylvania Avenue" comes back as number 218 in Brooklyn,
+    # and a sentence that isn't an address comes back as a school or a pier. Keep a result only if its house
+    # number is one the tenant typed.
+    number = _plain(p.get("housenumber") or "")
+    if not pad.get("bbl") or not number or number not in {_plain(t) for t in re.split(r"[\s,]+", address)}:
         raise AddressNotFound(address)
     return {"bbl": pad["bbl"], "bin": pad.get("bin"), "address": p.get("label"), "borough": p.get("borough"),
             "match_confidence": p.get("confidence")}

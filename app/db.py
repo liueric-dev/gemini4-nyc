@@ -122,6 +122,11 @@ def get_rule(db: sqlite3.Connection, rule_id: str) -> dict | None:
     return dict(r) if r else None
 
 
+def rules_for_type(db: sqlite3.Connection, problem_type: str) -> list[dict]:
+    """Every row of the decision matrix for one problem type, for answering a general question about it."""
+    return [dict(r) for r in db.execute("SELECT * FROM rules WHERE problem_type = ? ORDER BY id", (problem_type,))]
+
+
 def get_section(db: sqlite3.Connection, section_id: str) -> dict | None:
     r = db.execute("SELECT * FROM sections WHERE id = ?", (section_id,)).fetchone()
     return dict(r) if r else None

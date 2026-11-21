@@ -120,6 +120,110 @@ def test_video_frames_are_spread_and_a_single_odd_frame_is_not_reported(monkeypa
     assert sorted(f["problem_type"] for f in short) == ["leak", "mold"]
 
 
+def own_connection(db, monkeypatch):
+    """analyze() and ask() open and close their own connection; point them at the test database."""
+    from pathlib import Path
+
+    path, connect = Path(db.execute("PRAGMA database_list").fetchone()[2]), dbm.connect
+    monkeypatch.setattr(dbm, "connect", lambda: connect(path))
+
+
+def looked(problem_type):
+    """What look() returns for a photo that plainly shows one problem."""
+    return {"det": {"probabilities": {problem_type: 0.95}, "answers": {}},
+            "desc": {"findings": [{"problem_type": problem_type, "description": "seen", "where": "wall"}]}, "quality": None}
+
+
+def test_a_follow_up_reuses_what_was_read_from_the_photo(db, monkeypatch):
+    own_connection(db, monkeypatch)
+    monkeypatch.setitem(p.THRESHOLDS, "confirm", {"default": 0.5})
+    calls = []
+    monkeypatch.setattr(p, "look", lambda *a: calls.append(1) or looked("mold"))
+    seen: dict = {}
+    first = p.analyze(b"jpeg", seen=seen, with_explanation=False)
+    assert first["findings"][0]["outcome"] == "needs_answer" and seen["det"] and calls == [1]
+    # the tenant answers the question: same picture, so the models are not asked again
+    second = p.analyze(b"jpeg", seen=seen, answers={"mold_area_sqft": 15}, with_explanation=False)
+    assert second["findings"][0]["rule_id"] == "EO-008" and calls == [1]
+
+
+def test_without_a_building_record_the_year_built_is_asked(db, monkeypatch):
+    own_connection(db, monkeypatch)
+    monkeypatch.setitem(p.THRESHOLDS, "confirm", {"default": 0.5})
+    told = {"child_under_6_resides": True, "lead_presumption_rebutted": False, "owner_occupied_unit": False}
+    asked = p.analyze(b"jpeg", seen=looked("peeling-paint"), answers=told, with_explanation=False)["findings"][0]
+    assert asked["outcome"] == "needs_answer" and asked["questions"][0]["fact"] == "year_built"
+    settled = p.analyze(b"jpeg", seen=looked("peeling-paint"), answers={**told, "year_built": 1929},
+                        with_explanation=False)["findings"][0]
+    assert settled["rule_id"] == "EO-018" and settled["class"] == "C"
+
+
+def test_a_building_lookup_that_fails_does_not_lose_the_photo(db, monkeypatch):
+    own_connection(db, monkeypatch)
+    monkeypatch.setitem(p.THRESHOLDS, "confirm", {"default": 0.5})
+
+    def down(address):
+        raise OSError("the city's site is down")
+
+    monkeypatch.setattr(p.building_mod, "lookup", down)
+    result = p.analyze(b"jpeg", seen=looked("leak"), address="122 West 167th Street, Bronx", with_explanation=False)
+    assert result["findings"][0]["problem_type"] == "leak" and "could not be reached" in result["building_error"]
+
+
+def test_heat_uses_the_outdoor_temperature(db, monkeypatch):
+    own_connection(db, monkeypatch)
+    monkeypatch.setitem(p.THRESHOLDS, "confirm", {"default": 0.5})
+    monkeypatch.setattr(p, "_now_facts", lambda: {"hour": 15.0, "heat_season": True})
+    monkeypatch.setattr(p.weather, "outside_temp_f", lambda: 40.0)
+    cold = p.analyze(b"jpeg", seen=looked("heat-hot-water"), answers={"indoor_temp_f": 60}, with_explanation=False)
+    f = cold["findings"][0]
+    assert f["rule_id"] == "EO-059" and f["class"] == "C"
+    assert {"name": "outside_temp_f", "value": 40.0} == {k: u[k] for u in f["facts_used"] if u["name"] == "outside_temp_f"
+                                                        for k in ("name", "value")}
+
+
+def test_a_question_gets_the_rules_and_law_for_what_it_is_about(db, monkeypatch):
+    own_connection(db, monkeypatch)
+    assert p.topics("There are roaches in my kitchen") == ["pests"]
+    assert p.topics("Can my landlord raise my rent?") == []  # "landlord" is not "lead"
+    sent = {}
+
+    def model(model_id, contents, schema, level):
+        sent["prompt"], sent["ids"] = contents[0], schema["properties"]["citations"]["items"]["properties"]["section_id"]["enum"]
+        return {"covered": False, "answer": "x", "citations": []}
+
+    monkeypatch.setattr(p, "_generate_json", model)
+    p.ask("And what about bedbugs?", None, [{"q": "Is mould a violation?", "a": "It depends on the size."}])
+    assert '<rules topic="Pests">' in sent["prompt"] and "bedbugs" in sent["prompt"]
+    assert '<rules topic="Mould">' in sent["prompt"] and "Tenant: Is mould a violation?" in sent["prompt"]
+    assert "nyc-hmc-27-2017-3" in sent["ids"]  # the mould section can now be quoted
+
+
+def test_a_frame_that_fails_does_not_lose_the_video_and_the_note_is_read_once(monkeypatch, tmp_path):
+    from app import video
+
+    stills = [(1.5, b"a"), (4.5, b"b"), (7.5, b"c"), (10.5, b"d"), (13.5, b"e")]
+    notes = []
+
+    def analyze(data, mime_type, seen=None, answers=None, **kwargs):
+        if data == b"c":
+            raise TimeoutError("the model did not answer")
+        seen.update({"det": data.decode()})
+        return {"findings": [{"problem_type": "leak", "probability": 0.9, "said": answers}], "photo_quality": None}
+
+    monkeypatch.setattr(video, "frames", lambda path: stills)
+    monkeypatch.setattr(video, "duration", lambda path: 15.0)
+    monkeypatch.setattr(p, "analyze", analyze)
+    monkeypatch.setattr(p, "facts_from_note", lambda note: notes.append(note) or {"leak_source": "roof"})
+    seen: dict = {}
+    result = video.analyze_video(tmp_path / "clip.mp4", with_explanation=False, save_frames=False,
+                                 note="it comes from the roof", seen=seen)
+    assert result["video"]["frames_analysed"] == 4 and result["findings"][0]["frames_confirming"] == 4
+    assert notes == ["it comes from the roof"] and result["facts_from_description"] == {"leak_source": "roof"}
+    assert result["findings"][0]["said"] == {"leak_source": "roof"}
+    assert sorted(seen) == ["1.50", "10.50", "13.50", "4.50"]  # kept for a follow-up; the failed frame is not
+
+
 def test_video_frames_are_all_analysed_at_the_same_time(monkeypatch, tmp_path):
     import threading
 

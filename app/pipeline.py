@@ -16,6 +16,7 @@ app/thresholds.json; they are untuned defaults until the evaluation's dev run se
 """
 import base64
 import json
+import logging
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -26,9 +27,10 @@ from google import genai
 from google.genai import types
 
 from app import building as building_mod
-from app import config
+from app import config, weather
 from app import db as dbm
 
+log = logging.getLogger("tenant")
 THRESHOLDS = json.loads((config.ROOT / "app/thresholds.json").read_text())
 
 # One line per core problem type, from the labelling definitions in data/README.md.
@@ -552,17 +554,50 @@ ASK_SCHEMA_BASE = {
     "required": ["covered", "answer", "citations"],
 }
 GENERAL_SECTIONS = ["st-rpl-223-b", "nyc-hmc-27-2005", "nyc-hmc-27-2115"]
+# Words in a question that point at a problem type. A question about a problem the photo didn't show (or asked
+# before any photo) gets that type's rows of the decision matrix and its law sections. Without them the only
+# law on hand was the three general sections above, and "is mould a violation?" could not be answered.
+TOPIC_WORDS = {
+    "mold": r"mou?ld|mildew",
+    "leak": r"leak|drip|water damage|water stain|flood",
+    "peeling-paint": r"paint|\blead\b",
+    "wall-ceiling-damage": r"plaster|crack|collaps|hole in (the|my) (wall|ceiling)",
+    "pests": r"roach|\bmouse\b|\bmice\b|\brats?\b|bed ?bug|\bpests?\b|vermin|infest|exterminat|rodent",
+    "smoke-co-detector": r"smoke|carbon monoxide|detector|\balarm",
+    "window": r"window",
+    "heat-hot-water": r"\bheat|hot water|boiler|\bcold\b|freezing|temperature",
+    "exposed-wiring": r"wiring|\bwires?\b|outlet|electrical",
+    "plumbing-fixture": r"toilet|\bsink\b|faucet|bathtub|plumbing",
+    "radiator": r"radiator",
+    "flooring": r"flooring|floorboard",
+    "blocked-exit": r"fire escape|\bexit|egress",
+    "door-lock": r"\block|\bdoor\b",
+    "garbage": r"garbage|trash|rubbish",
+    "appliance": r"stove|\boven\b|fridge|refrigerator|appliance",
+    "elevator": r"elevator",
+    "stairs": r"\bstairs?\b|staircase|handrail",
+    "no-water-sewage": r"no water|sewage|\bsewer",
+}
+MAX_TOPICS, MAX_TOPIC_SECTIONS = 3, 6
 NO_SOURCE = ("I only answer from housing law and your case, so I won't guess. For a legal question I can't answer, "
              "a free tenant lawyer can help: Legal Aid Society 212-577-3300, or Legal Services NYC 917-661-4500.")
 
 
-def ask(question: str, analysis: dict | None = None) -> dict:
-    """Answer a typed question from the case, the law sections for it, and the escalation steps. Nothing else.
+def topics(text: str) -> list[str]:
+    """The problem types a piece of text is about, in the order of TOPIC_WORDS."""
+    t = text.lower()
+    return [k for k, words in TOPIC_WORDS.items() if re.search(words, t)]
+
+
+def ask(question: str, analysis: dict | None = None, history: list[dict] | None = None) -> dict:
+    """Answer a typed question from the case, the rules and law sections for it, and the escalation steps.
+    Nothing else. history is the earlier exchange, [{'q', 'a'}], so "what about that?" has something to refer to.
 
     Returns {'answer', 'citations', 'covered'}. Quotes are checked the same way as in add_explanations.
     If the material doesn't cover the question, the answer says so and points to free legal help.
     """
     analysis = analysis or {}
+    earlier = [h for h in (history or []) if isinstance(h, dict) and h.get("q") and h.get("a")][-3:]
     conn = dbm.connect()
     try:
         sections: dict[str, dict] = {}
@@ -582,6 +617,22 @@ def ask(question: str, analysis: dict | None = None) -> dict:
                     steps[s["code"]] = s
         if not steps:
             steps = {s["code"]: s for s in dbm.general_steps(conn, "A")}
+        in_case = {f["problem_type"] for f in analysis.get("findings", []) if f.get("rule_id")}
+        asked_about = [t for t in topics(" ".join([question] + [h["q"] for h in earlier])) if t not in in_case]
+        titles = {x["id"]: x["title"] for x in dbm.problem_types(conn)}
+        rule_blocks = []
+        for t in asked_about[:MAX_TOPICS]:
+            rows = dbm.rules_for_type(conn, t)
+            lines = [f"- {r['scenario']}" + ("" if r["building_kind"] == "any" else f" ({r['building_kind'].replace('_', ' ')})")
+                     + f": {r['violation_text']}. Class: {r['class'] or r['class_text'] or 'not set'}."
+                     + f" Landlord's deadline: {r['deadline_text'] or 'not set'}." for r in rows]
+            rule_blocks.append(f"<rules topic=\"{titles.get(t, t)}\">\n" + "\n".join(lines) + "\n</rules>")
+            cited: dict[str, list] = {}  # the sections most of this type's rows rest on come first
+            for r in rows:
+                for s in dbm.sections_for(conn, r["id"]):
+                    cited.setdefault(s["id"], [0, s])[0] += 1
+            for _, s in sorted(cited.values(), key=lambda c: -c[0])[:MAX_TOPIC_SECTIONS]:
+                sections.setdefault(s["id"], {**s, "_type": t})
         for sid in GENERAL_SECTIONS:
             if sid not in sections:
                 s = dbm.get_section(conn, sid)
@@ -602,18 +653,27 @@ def ask(question: str, analysis: dict | None = None) -> dict:
                           for s in steps.values())
     schema = json.loads(json.dumps(ASK_SCHEMA_BASE))
     schema["properties"]["citations"]["items"]["properties"]["section_id"]["enum"] = sorted(sections)
+    talk = "\n".join(f"Tenant: {str(h['q'])[:300]}\nYou: {str(h['a'])[:600]}" for h in earlier)
     prompt = (
-        "You are helping a New York City tenant. Answer their question using ONLY the material below: what the app "
-        "found in their photo, their building's record, the steps they can take, and the law sections.\n\n"
+        "You are helping a New York City tenant. Answer their message using ONLY the material below: what the app "
+        "found in their photo, their building's record, the housing rules for the kind of problem they mention, "
+        "the steps they can take, and the law sections.\n\n"
         "Rules:\n- Two to five plain sentences, written to the tenant.\n"
-        "- If the material answers the question, set covered to true. Add one or two citations where the law "
+        "- The message may describe a problem instead of asking a question. Then say what the rules below say "
+        "about that kind of problem.\n"
+        "- If the material answers it, set covered to true. Add one or two citations where the law "
         "sections support what you say: each quote copied word for word from a section, with that section's id.\n"
+        "- A <rules> block lists every situation the housing rules cover for one kind of problem. When the answer "
+        "depends on which situation applies (the size of the mould, a child's age, the kind of building), say what "
+        "it depends on. If no photo has been checked yet, say that a photo will let the app check their own case.\n"
         "- If the material does not answer it, set covered to false, and say in one sentence what you can't answer. "
         "Do not use outside knowledge, and do not guess.\n"
         "- Never change the class or deadline given in the findings.\n\n"
-        f"<question>{question.strip()[:1000]}</question>\n\n"
+        + (f"<earlier_in_this_chat>\n{talk}\n</earlier_in_this_chat>\n\n" if talk else "")
+        + f"<question>{question.strip()[:1000]}</question>\n\n"
         "<findings>\n" + ("\n".join(facts) or "No photo has been checked yet.") + "\n</findings>\n\n"
         + (f"<building>{building}</building>\n\n" if building else "")
+        + ("\n\n".join(rule_blocks) + "\n\n" if rule_blocks else "")
         + f"<steps>\n{step_text}\n</steps>\n\n{law}"
     )
     out = _generate_json(config.MODEL_EXPLAIN, [prompt], schema, config.EXPLAIN_THINKING)
@@ -642,15 +702,46 @@ def _now_facts() -> dict:
     return {"hour": now.hour + now.minute / 60, "heat_season": now.month >= 10 or now.month <= 5}
 
 
+def look(image: bytes, mime_type: str, timings: dict | None = None) -> dict:
+    """Everything the models read from the picture itself: {'det', 'desc', 'quality'}, all three side by side.
+
+    Kept apart from analyze() so a follow-up can reuse it. When the tenant answers a question or adds an address
+    the picture hasn't changed; asking the models again costs ten seconds and, because they don't answer the
+    same way twice, could change the findings in the middle of a conversation.
+    """
+    timings = {} if timings is None else timings
+
+    def timed(name, fn):
+        t = time.perf_counter()
+        try:
+            return fn(image, mime_type)
+        finally:
+            timings[name] = round(time.perf_counter() - t, 2)
+
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        f_qual = pool.submit(photo_quality, image, mime_type)
+        f_det = pool.submit(timed, "detect_s", detect)
+        f_desc = pool.submit(timed, "describe_s", propose)
+        det, desc = f_det.result(), f_desc.result()
+        try:
+            quality = f_qual.result()
+        except Exception:  # noqa: BLE001 - the quality note is optional; never fail an answer over it
+            quality = None
+    return {"det": det, "desc": desc, "quality": quality}
+
+
 def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = None,
             answers: dict | None = None, with_explanation: bool = True, building: dict | None = None,
-            note: str | None = None) -> dict:
+            note: str | None = None, seen: dict | None = None) -> dict:
     """building: facts already looked up (video analysis looks the address up once, not once per frame).
     note: what the tenant typed. It is read for facts only (see facts_from_note); it never reaches the step
-    that decides what the photo shows."""
+    that decides what the photo shows.
+    seen: the result of look() from an earlier run on this same picture. Pass the same dict back for a
+    follow-up and the models are not asked again; an empty dict is filled in."""
     t0 = time.perf_counter()
     timings: dict[str, float] = {}
     answers = answers or {}
+    seen = {} if seen is None else seen
 
     def timed(name, fn, *a):
         t = time.perf_counter()
@@ -660,22 +751,20 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
             timings[name] = round(time.perf_counter() - t, 2)
 
     bld, bld_error = None, None
-    with ThreadPoolExecutor(max_workers=4) as pool:  # detection, description, quality and building side by side
-        f_qual = pool.submit(photo_quality, image, mime_type)
+    with ThreadPoolExecutor(max_workers=3) as pool:  # the picture, the note and the building side by side
         f_note = pool.submit(facts_from_note, note) if note and note.strip() else None
-        f_det = pool.submit(timed, "detect_s", detect, image, mime_type)
-        f_desc = pool.submit(timed, "describe_s", propose, image, mime_type)
         f_bld = pool.submit(timed, "building_s", building_mod.lookup, address) if address and not building else None
-        det, desc = f_det.result(), f_desc.result()
+        if not seen:
+            seen.update(pool.submit(look, image, mime_type, timings).result())
+        det, desc, quality = seen["det"], seen["desc"], seen.get("quality")
         if f_bld:
             try:
                 bld = f_bld.result()
             except building_mod.AddressNotFound:
                 bld_error = f"No NYC address found for: {address}"
-        try:
-            quality = f_qual.result()
-        except Exception:  # noqa: BLE001 - the quality note is optional; never fail an answer over it
-            quality = None
+            except Exception:  # the city's records being down must not lose the photo's answer
+                log.warning("building lookup failed", exc_info=True)
+                bld_error = "The city's building records could not be reached just now."
         try:
             said = f_note.result() if f_note else {}
         except Exception:  # noqa: BLE001 - reading the note is a convenience; the answer doesn't depend on it
@@ -694,6 +783,11 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
     kind_source = "building" if (bld or {}).get("building_kind") else "assumed"
     conn = dbm.connect()
     defs = dbm.fact_defs(conn)
+    sources = {k: v["source"] for k, v in defs.items()}
+    if not (bld and bld.get("year_built")):
+        # No building record to read the year from, so the tenant is asked. Left unasked, peeling paint with a
+        # child under six could never reach the lead rules and came out weaker than the same paint without one.
+        sources["year_built"] = "ask"
     findings, to_explain = [], []
     try:
         for t in found:
@@ -703,8 +797,11 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
                 facts["year_built"] = bld["year_built"]
             if t == "heat-hot-water":
                 facts.update(_now_facts())
+                outside = weather.outside_temp_f()
+                if outside is not None:
+                    facts["outside_temp_f"] = outside
             facts.update({k: v for k, v in answers.items() if k in defs})
-            d = decide(conn, t, facts, kind, fact_sources={k: v["source"] for k, v in defs.items()})
+            d = decide(conn, t, facts, kind, fact_sources=sources)
             rule = d["rule"]
             if d["tie"]:
                 rule = pick_by_scenario(image, mime_type, d["tie"])
