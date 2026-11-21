@@ -26,6 +26,7 @@ These files are in the repository so the app can be tried without the full media
 | `med-0406.jpg` | Not required (public-domain). Author: Andrea Booher | https://commons.wikimedia.org/wiki/File:FEMA_-_24781_-_Photograph_by_Andrea_Booher_taken_on_10-23-2005_in_Louisiana.jpg |
 | `med-0594.jpg` | "Atomic clock.jpg" by unknown, CC BY-SA 3.0, via Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Atomic_clock.jpg |
 | `med-0411.jpg` | "Painters Street New Orleans interior.jpg" by Karen Apricot, CC BY-SA 2.0, via Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Painters_Street_New_Orleans_interior.jpg |
+| `med-0832.jpg` | "Moldy Old Caulk" by Editor B is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/. | https://www.flickr.com/photos/11018968@N00/2735755968 |
 | `med-0593.jpg` | "Heizungsthermostat mit Temperaturanzeige.jpg" by SchmiAlf, CC BY 4.0, via Wikimedia Commons | https://commons.wikimedia.org/wiki/File:Heizungsthermostat_mit_Temperaturanzeige.jpg |
 | `med-0250.jpg` | "peeling ceiling" by Muffet is licensed under CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/. | https://www.flickr.com/photos/53133240@N00/73185214 |
 | `med-0156.jpg` | Not required (public-domain). Author: Martin Grube | https://commons.wikimedia.org/wiki/File:FEMA_-_44263_-_Mold_Remediation_Awareness.jpg |

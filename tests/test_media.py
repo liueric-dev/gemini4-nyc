@@ -1,5 +1,6 @@
 """Uploads: any photo a phone sends is read, turned upright and kept to a size the models answer quickly."""
 import io
+import json
 
 import pytest
 from PIL import Image
@@ -50,3 +51,13 @@ def test_uploads_are_stored_by_what_they_are_not_what_the_client_said(tmp_path, 
     assert clip.suffix == ".mkv" and media.video_path(clip.stem) == clip
     assert media.save_video(b"frames", ".exe").suffix == ".bin"  # the name comes from a short list, never the client
     assert media.video_path("video-../../etc") is None and media.video_path("upload-abc") is None
+
+
+def test_pinned_photos_come_first_and_the_rest_keep_their_order():
+    ids = [it["id"] for it in media.test_items()]
+    assert "med-0832" in ids  # committed in data/media/samples, so it is on every machine
+    pinned = [p for p in media.PINNED if p in ids]
+    assert ids[: len(pinned)] == pinned
+    review = [it["id"] for it in json.loads((media.MEDIA / "review/review_set.json").read_text())["items"]]
+    rest = set(ids[len(pinned):])
+    assert ids[len(pinned):] == [i for i in review if i in rest]

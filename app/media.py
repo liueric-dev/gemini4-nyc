@@ -42,9 +42,14 @@ def _path(item: dict) -> Path | None:
     return p if p.exists() and p.suffix.lower() in MIME else None
 
 
+# Shown first in the pick-a-photo grid, for the demo. med-0832 (mould on a bathtub caulk line) is the
+# tenant's own job, so it leads to the Shopify fix-it kit: 9 of 9 runs on Nov 21 gave EO-015.
+PINNED = ("med-0832",)
+
+
 @lru_cache(maxsize=1)
 def test_items() -> list[dict]:
-    """The reviewed, frozen test photos that are on this machine. No labels are returned."""
+    """The reviewed, frozen test photos that are on this machine, pinned ones first. No labels are returned."""
     review = json.loads((MEDIA / "review/review_set.json").read_text())
     items = []
     for it in review["items"]:
@@ -52,6 +57,7 @@ def test_items() -> list[dict]:
         if m and m.get("media_type") == "image" and _path(m):
             items.append({"id": it["id"], "url": f"/api/photos/{it['id']}", "license": m.get("license"),
                           "attribution": m.get("attribution"), "source_url": m.get("source_url")})
+    items.sort(key=lambda it: PINNED.index(it["id"]) if it["id"] in PINNED else len(PINNED))  # stable: the rest keep their order
     return items
 
 
