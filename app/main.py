@@ -57,6 +57,8 @@ def page_script() -> FileResponse:
 def health() -> dict:
     return {
         "ok": True,
+        # which commit is running: Render sets RENDER_GIT_COMMIT; on a laptop this says "local"
+        "commit": os.environ.get("RENDER_GIT_COMMIT", "")[:7] or "local",
         "missing_keys": config.missing_keys(),
         "database_built": config.DB_PATH.exists(),
     }
