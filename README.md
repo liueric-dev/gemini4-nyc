@@ -117,7 +117,9 @@ uv run python eval/run_video.py --set test         # the reviewed test clips
 uv run python eval/report.py                       # write eval/results/
 ```
 
-The test photos are not in this repository (licences and size), so the evaluation and the photo grid only run where the photos are on disk. Each photo's source URL and checksum are in `data/media/manifest.jsonl`.
+**Sample media.** `data/media/samples/` holds 75 of the test photos and 5 short videos, the ones whose licences allow redistribution and were checked against their source. With only these on disk, the app's "Pick a test photo" grid shows the 75 photos; to try video, add one of the sample videos with the + button. Credits are in `data/media/samples/CREDITS.md`.
+
+The full media set is not in this repository (licences and size), so the evaluation only runs where it is on disk. Each item's source URL and checksum are in `data/media/manifest.jsonl`.
 
 ## Where things are
 

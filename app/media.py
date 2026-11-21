@@ -12,6 +12,7 @@ from app import config
 
 MEDIA = config.DATA / "media"
 UPLOADS = config.VAR / "uploads"
+SAMPLES = MEDIA / "samples"
 MIME = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
 
@@ -30,6 +31,8 @@ def _path(item: dict) -> Path | None:
     if not isinstance(raw, str) or not raw:
         return None
     p = MEDIA / raw
+    if not p.exists():
+        p = SAMPLES / Path(raw).name  # the redistributable subset that is committed to the repo
     return p if p.exists() and p.suffix.lower() in MIME else None
 
 
