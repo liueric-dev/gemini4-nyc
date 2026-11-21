@@ -1,6 +1,7 @@
 """The web API. Run with `make dev`."""
 import hashlib
 import json
+import mimetypes
 import os
 import time
 from collections import deque
@@ -84,6 +85,14 @@ def get_photo(photo_id: str) -> Response:
     return Response(content=found[0], media_type=found[1], headers={"Cache-Control": "max-age=3600"})
 
 
+def upload_type(f: UploadFile) -> str:
+    """The upload's media type. Some clients send none, or a generic one, so fall back to the file name."""
+    declared = (f.content_type or "").lower()
+    if declared.startswith(("image/", "video/")):
+        return declared
+    return mimetypes.guess_type(f.filename or "")[0] or declared
+
+
 MAX_UPLOAD = 20 * 1024 * 1024
 MAX_VIDEO = 100 * 1024 * 1024
 
@@ -105,12 +114,13 @@ def analyze(
         raise HTTPException(400, "answers must be a JSON object") from None
     if not isinstance(parsed, dict):
         raise HTTPException(400, "answers must be a JSON object")
-    if photo is not None and (photo.content_type or "").startswith("video/"):
+    kind = upload_type(photo) if photo is not None else ""
+    if photo is not None and kind.startswith("video/"):
         data = photo.file.read(MAX_VIDEO + 1)
         if len(data) > MAX_VIDEO:
             raise HTTPException(413, "Video is larger than 100 MB")
         try:
-            path = media.save_video(data, photo.content_type)
+            path = media.save_video(data, kind)
             return video.analyze_video(path, address=address or None, answers=parsed, with_explanation=explain)
         except ValueError as e:
             raise HTTPException(415, str(e)) from None
@@ -121,7 +131,7 @@ def analyze(
         if len(data) > MAX_UPLOAD:
             raise HTTPException(413, "Photo is larger than 20 MB")
         try:
-            photo_id = media.save_upload(data, photo.content_type or "")
+            photo_id = media.save_upload(data, kind)
         except ValueError as e:
             raise HTTPException(415, str(e)) from None
     if not photo_id:
