@@ -103,7 +103,7 @@ Needs Python 3.12 with [uv](https://docs.astral.sh/uv/), and Node 22 or later.
 make setup          # install dependencies
 cp .env.example .env    # then add GEMINI_API_KEY and NYC_OPENDATA_APP_TOKEN
 make db             # build the database from data/
-make dev            # API on port 8000, web page on port 5173
+make dev            # API on port 8000; open http://localhost:5173
 make test           # 23 tests, no network needed
 ```
 
@@ -123,6 +123,8 @@ The test photos are not in this repository (licences and size), so the evaluatio
 
 | Path | What |
 |---|---|
+| `web/index.html`, `web/public/app.js` | The app's screens. The design is the team's Tenard prototype ([hey-niia/tenard](https://github.com/hey-niia/tenard)), connected to the live backend |
+| `web/proof.html` | The test results page |
 | `app/pipeline.py` | The pipeline: propose, confirm, decide, explain, check |
 | `app/db.py`, `app/rule_conditions.json` | The decision matrix lookups and the conditions that select a row |
 | `app/building.py` | Address to building facts |

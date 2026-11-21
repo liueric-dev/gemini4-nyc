@@ -1,1 +1,171 @@
-<!doctype html><title>Proof</title><p>Coming next.</p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we tested Tenard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink: #3B221C; --muted: #6E6259; --soft: #4E4039; --line: #ECE4D8; --line2: #DCD1C1; --bg: #FFFCF7; --cream: #FDF1D8; --good: #2F6B4F; --bad: #A33A2B; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; font-size: 16px; line-height: 1.5; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right)) 72px max(16px, env(safe-area-inset-left)); display: flex; flex-direction: column; gap: 36px; }
+  a { color: var(--ink); font-weight: 600; }
+  h1 { margin: 8px 0 0; font-size: clamp(28px, 6vw, 40px); line-height: 1.1; letter-spacing: -.8px; text-wrap: balance; }
+  h2 { margin: 0 0 4px; font-size: 22px; letter-spacing: -.4px; }
+  p { margin: 0; max-width: 68ch; }
+  .lede { color: var(--muted); font-size: 18px; margin-top: 10px; }
+  .eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  section { display: flex; flex-direction: column; gap: 12px; }
+  .wrap { overflow-x: auto; border: 1.5px solid var(--ink); border-radius: 14px; background: #fff; }
+  table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 11px 14px; border-top: 1px solid var(--line); vertical-align: top; }
+  thead th { border-top: 0; font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; background: var(--cream); }
+  td.n { font-weight: 600; white-space: nowrap; } td.n small { font-weight: 400; color: var(--muted); }
+  td.win { color: var(--good); }
+  .note { color: var(--muted); font-size: 14px; }
+  .tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .tile { border: 1px solid var(--line2); border-radius: 14px; padding: 14px 16px; background: #fff; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .tile b { font-size: 30px; letter-spacing: -.6px; line-height: 1.1; } .tile span { color: var(--muted); font-size: 14px; }
+  ol.changes { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 10px; max-width: 72ch; }
+  ul.plain { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; max-width: 72ch; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+  .shot { border: 1px solid var(--line2); border-radius: 12px; overflow: hidden; background: #fff; display: flex; flex-direction: column; }
+  .shot img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: #F7F1E7; }
+  .shot div { padding: 8px 10px 10px; font-size: 13px; display: flex; flex-direction: column; gap: 2px; }
+  .shot .k { color: var(--muted); } .shot .bad { color: var(--bad); font-weight: 600; } .shot .ok { color: var(--good); font-weight: 600; }
+  @media (max-width: 620px) { .tiles { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <div>
+    <a href="/">← Back to Tenard</a>
+    <h1>How we tested Tenard</h1>
+    <p class="lede">We ran Tenard and a single model call on the same photos and videos, none of which we prepared for. Here is what happened, including where it fails.</p>
+  </div>
+
+  <section id="headline"><div class="tiles" id="tiles"></div></section>
+
+  <section>
+    <span class="eyebrow">The test</span>
+    <p>175 photos and 22 videos from public, licensed sources, chosen by a seeded script. One of us checked every label by hand. The labels and scoring rules were frozen with checksums at 08:03 on November 21, before any app code existed. More than half the photos show no problem, or something that only looks like one.</p>
+    <p><b>The baseline</b> is one call to Gemini 4 Argon with the photo or the whole video, asked what violations it shows and to cite the law, class and deadline. <b>Tenard</b> has a model propose problems, the Decisions API confirm each one, and code look up the class and deadline.</p>
+  </section>
+
+  <section>
+    <h2>Photos</h2>
+    <div class="wrap"><table id="photos"></table></div>
+    <p class="note">Overall accuracy is a tie. Tenard makes fewer wrong reports and fewer false alarms on look-alikes. The baseline finds more real problems.</p>
+  </section>
+
+  <section>
+    <h2>Video</h2>
+    <div class="wrap"><table id="video"></table></div>
+    <p class="note">Tenard checks a still about every three seconds and reports a problem only if two or more agree. It raised no false alarms, and it missed problems that were on screen only briefly.</p>
+  </section>
+
+  <section>
+    <h2>Mould size</h2>
+    <p>Size sets the violation class: under 10 square feet is Class A, 10 to under 30 is B, 30 or more is C. Compared with our reviewer's judgement:</p>
+    <div class="wrap"><table id="mould"></table></div>
+    <p class="note">The baseline agreed with the reviewer more often. Tenard declines when it can't tell and asks for the size or a clearer photo. Neither handles the middle size well.</p>
+  </section>
+
+  <section>
+    <h2>What we changed after seeing failures</h2>
+    <ol class="changes" id="changes"></ol>
+  </section>
+
+  <section>
+    <h2>Where it still fails</h2>
+    <ul class="plain">
+      <li><b>Leaks.</b> Water stains get reported alongside the real problem more often than the baseline does it.</li>
+      <li><b>Mid-sized mould.</b> Of six photos our reviewer put at 10 to under 30 square feet, Tenard got none right: two called smaller, four declined.</li>
+      <li><b>Missed problems.</b> The check that removes false alarms also removes some real ones, mostly detectors and leaks.</li>
+      <li><b>Short moments in video.</b> A problem visible for a few seconds can fall between the stills.</li>
+      <li><b>No predicted class for leaks or wall damage.</b> HPD issues them in more than one class and the rule isn't published, so Tenard says the inspector decides.</li>
+    </ul>
+    <p class="note">The test photos are public images, not NYC tenants' own, and these are small sets: a difference of a few items is noise. The decision rules are a draft that nobody with legal training has reviewed.</p>
+  </section>
+
+  <section>
+    <h2>Photos Tenard got wrong</h2>
+    <p class="note" id="wrongnote"></p>
+    <div class="gallery" id="wrong"></div>
+  </section>
+
+  <section>
+    <h2>Photos only Tenard got right</h2>
+    <div class="gallery" id="won"></div>
+  </section>
+</main>
+<script>
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const frac = (p) => `${p[0]} of ${p[1]}`;
+const pct = (p) => (p[1] ? Math.round(100 * p[0] / p[1]) + '%' : '');
+const NAMES = { mold: 'mould', leak: 'leak', 'peeling-paint': 'peeling paint', 'wall-ceiling-damage': 'wall or ceiling damage', pests: 'pests', 'smoke-co-detector': 'detector', window: 'window', 'heat-hot-water': 'heat' };
+const say = (a) => (a.length ? a.map((x) => NAMES[x] || x).join(', ') : 'nothing');
+
+function table(id, rows) {
+  document.getElementById(id).innerHTML = '<thead><tr><th></th><th>One model call</th><th>Tenard</th></tr></thead><tbody>' +
+    rows.map(([label, b, s, lowerIsBetter]) => {
+      const bv = b[1] ? b[0] / b[1] : b[0], sv = s[1] ? s[0] / s[1] : s[0];
+      const sWin = lowerIsBetter ? sv < bv : sv > bv, bWin = lowerIsBetter ? bv < sv : bv > sv;
+      const cell = (p, win) => `<td class="n${win ? ' win' : ''}">${p.length === 2 ? frac(p) + ` <small>${pct(p)}</small>` : p[0]}</td>`;
+      return `<tr><td>${label}</td>${cell(b, bWin)}${cell(s, sWin)}</tr>`;
+    }).join('') + '</tbody>';
+}
+
+fetch('/api/results').then((r) => r.json()).then((R) => {
+  const ps = R.photos.system.detection, pb = R.photos.baseline.detection;
+  const wrong = (d) => [d.precision[1] - d.precision[0]];
+  table('photos', [
+    ['Photos answered exactly right', pb.exact_match, ps.exact_match],
+    ['Real problems found', pb.recall, ps.recall],
+    ['Wrong reports', wrong(pb), wrong(ps), true],
+    ['False alarms on look-alike photos', pb.false_alarms['look-alike'], ps.false_alarms['look-alike'], true],
+    ['False alarms on photos with no problem', pb.false_alarms['no-problem'], ps.false_alarms['no-problem'], true],
+  ]);
+  const vs = R.video.system, vb = R.video.baseline;
+  table('video', [
+    ['Clips answered exactly right', vb.detection.exact_match, vs.detection.exact_match],
+    ['Real problems found', vb.detection.recall, vs.detection.recall],
+    ['Wrong reports', wrong(vb.detection), wrong(vs.detection), true],
+    ['False alarms on clips with no problem', vb.detection.false_alarms['no-problem'], vs.detection.false_alarms['no-problem'], true],
+    ['False alarms on look-alike clips', vb.detection.false_alarms['look-alike'], vs.detection.false_alarms['look-alike'], true],
+    ['Timestamp inside the reviewed range', vb.timestamps, vs.timestamps],
+  ]);
+  const ms = R.photos.system.mold, mb = R.photos.baseline.mold;
+  const answered = (m) => [m.exact_agreement[0], m.exact_agreement[1] - m.abstained_when_reviewer_judged[0]];
+  table('mould', [
+    ["Agreed with the reviewer's size", mb.exact_agreement, ms.exact_agreement],
+    ['Right, when it gave an answer', answered(mb), answered(ms)],
+    ['Declined when the reviewer could judge', mb.abstained_when_reviewer_judged, ms.abstained_when_reviewer_judged, true],
+    ["Declined when the reviewer couldn't tell either", mb.abstained_when_reviewer_could_not_tell, ms.abstained_when_reviewer_could_not_tell],
+  ]);
+  const v1 = R.photos.detector_only_v1.detection.exact_match;
+  const fa = (d) => d.false_alarms['look-alike'];
+  document.getElementById('tiles').innerHTML = [
+    [`${fa(ps)[0]} vs ${fa(pb)[0]}`, `false alarms on ${fa(ps)[1]} look-alike photos, Tenard against one model call`],
+    [`0 vs ${wrong(vb.detection)[0]}`, `wrong reports across ${vs.detection.exact_match[1]} test videos`],
+    [`${pct(v1)} → ${pct(ps.exact_match)}`, 'photos exactly right, first design to final'],
+  ].map(([b, s]) => `<div class="tile"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join('');
+  document.getElementById('changes').innerHTML = [
+    `<b>The first design lost to the baseline.</b> It used the Decisions API alone to spot problems and got ${frac(v1)} photos right (${pct(v1)}), against ${pct(pb.exact_match)} for one model call. It flagged too many secondary problems: a photo of broken plaster was also flagged for a leak, mould and peeling paint. We changed it so a model proposes and the Decisions API confirms, which reached ${frac(ps.exact_match)}.`,
+    '<b>A looser prompt made it worse.</b> Asking the model to list everything visible dropped the score on practice photos from 74% to 69%, so we reverted it.',
+    '<b>One cut-off for every problem was too blunt.</b> Detectors and pests almost never cause false reports; peeling paint and wall damage often do. A script now picks a cut-off per problem type, from practice photos only.',
+    "<b>Confidence says nothing about photo quality.</b> Reports the model was very sure of were right no more often than ones it was unsure of. So Tenard now asks about the photo directly: is it sharp, close enough, and showing scale?",
+    '<b>A quote can be real and still not support the claim.</b> Every quote is checked word for word against the law, then a second check confirms it supports what it is cited for.',
+  ].map((x) => `<li>${x}</li>`).join('');
+  const items = R.items || [];
+  const shot = (r, cls) => `<div class="shot"><img src="/api/photos/${esc(r.id)}" alt="" loading="lazy"><div><span><span class="k">Answer:</span> ${esc(say(r.answer))}</span><span class="${cls}">Tenard: ${esc(say(r.system))}</span><span><span class="k">One call:</span> ${esc(say(r.baseline))}</span></div></div>`;
+  const bad = items.filter((r) => !r.system_right);
+  document.getElementById('wrongnote').textContent = `All ${bad.length} of them. "Nothing" means no problem was reported.`;
+  document.getElementById('wrong').innerHTML = bad.map((r) => shot(r, 'bad')).join('');
+  document.getElementById('won').innerHTML = items.filter((r) => r.system_right && !r.baseline_right).map((r) => shot(r, 'ok')).join('');
+}).catch(() => { document.getElementById('tiles').innerHTML = '<p>The results could not be loaded. Is the API running?</p>'; });
+</script>
+</body>
+</html>
