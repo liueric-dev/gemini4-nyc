@@ -1,8 +1,11 @@
-.PHONY: setup dev api web test lint build
+.PHONY: setup db dev api web test lint build
 
 setup:        ## install Python and web dependencies
 	uv sync
 	cd web && npm install
+
+db:           ## build var/tenant.db from data/ (safe to re-run; it replaces the file)
+	uv run python scripts/build_db.py
 
 dev:          ## run the API (port 8000) and the web page (port 5173) together
 	@trap 'kill 0' INT TERM EXIT; \

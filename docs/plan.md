@@ -121,7 +121,26 @@ One function, `analyze(photo, address)`, called by both the app and the evaluati
 
 ### Storage
 
-One SQLite file built by a script from `data/` (manifests, law text, problem map). It is a build output: it can be deleted and rebuilt at any time, and it is not committed.
+One SQLite file, `var/tenant.db`, built by `make db` (`scripts/build_db.py`) from `data/`. It is a build output: it can be deleted and rebuilt at any time, and it is not committed. There is no vector index; the problem type selects the law.
+
+| Table | Holds |
+|---|---|
+| `sections` | Each law section: citation, title, full text, source link (1,730 rows) |
+| `problem_types` | The 19 problem types, 8 flagged as core |
+| `rules` | The 92 situations of the decision matrix, with class, deadline, building kind and certainty as real fields |
+| `facts` | The facts that decide a rule, where each comes from (photo, building lookup, a question), and the question to ask |
+| `rule_sources` | Which law sections and other sources each rule points to |
+| `escalation_steps`, `rule_steps` | Each escalation step, and which steps apply to each rule |
+| `hpd_orders` | HPD's 400 order numbers with descriptions and class counts |
+
+The conditions that select a rule are in `app/rule_conditions.json`, written by hand from the problem map's prose. `data/problem-map/expected-outcomes.csv` is frozen for scoring and is never edited.
+
+`app/db.py` has the three calls the pipeline needs:
+- `candidate_rules(problem_type, facts, building_kind, location)`: the rules the known facts don't rule out. Each is `matched` or `possible`, with the facts still missing (these become the questions to ask) and a flag when a condition needs judgement.
+- `sections_for(rule_id)`: the law sections for a rule, with full text.
+- `steps_for(rule_id)`: the escalation steps for a rule.
+
+Runtime data (building lookups, case records) goes in a separate file, so a rebuild never wipes it.
 
 ### Proof
 
