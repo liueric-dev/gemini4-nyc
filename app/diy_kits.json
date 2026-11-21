@@ -1,0 +1,28 @@
+{
+  "EO-015": {
+    "title": "Clean surface mould off tile, grout or caulk",
+    "items": [
+      {"name": "Mould and mildew remover", "kind": "material", "query": "mold and mildew remover spray"},
+      {"name": "Grout scrub brush", "kind": "tool", "query": "grout scrub brush"},
+      {"name": "Mould-resistant caulk", "kind": "material", "query": "mold resistant kitchen and bath caulk"}
+    ],
+    "steps": [
+      "Open a window or run the fan, and put on gloves.",
+      "Spray the remover on the grout and caulk and leave it for the time on the label. Don't mix it with other cleaners.",
+      "Scrub the grout lines with the brush, rinse, and dry the area.",
+      "If the caulk is still stained, cut it out and run a new line of mould-resistant caulk. Let it cure before you use the shower."
+    ]
+  },
+  "EO-047": {
+    "title": "Replace the smoke and carbon monoxide detector",
+    "items": [
+      {"name": "Smoke and carbon monoxide detector", "kind": "material",
+       "query": "combination smoke and carbon monoxide detector 10 year sealed battery"}
+    ],
+    "steps": [
+      "Fit the new detector where the old one was, on the ceiling or high on the wall outside the bedrooms.",
+      "Switch it on and hold the test button until the alarm sounds.",
+      "Test it once a month."
+    ]
+  }
+}

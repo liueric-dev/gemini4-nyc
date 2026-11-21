@@ -4,10 +4,14 @@ import json
 from typing import Annotated
 
 from fastapi import Body, FastAPI, File, Form, HTTPException, Response, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
 
-from app import building, case_agent, config, letter, media, pipeline, video
+from app import building, case_agent, config, letter, media, pipeline, shop, video
 
 app = FastAPI(title="Tenant advocate")
+# The chat prototype (hey-niia/tenard) is served from another origin and calls this API from the browser.
+app.add_middleware(CORSMiddleware, allow_origins=["https://hey-niia.github.io", "http://localhost:5180"],
+                   allow_methods=["GET", "POST"], allow_headers=["*"])
 
 
 @app.get("/api/health")
@@ -156,3 +160,12 @@ def draft_letter(
         return letter.draft(analysis, tenant_name, apartment)
     except ValueError as e:
         raise HTTPException(400, str(e)) from None
+
+
+@app.get("/api/diy/{rule_id}")
+def diy_kit(rule_id: str) -> dict:
+    """For a problem that is the tenant's own job: what to buy (one Shopify product per item) and the steps.
+    Only tenant-duty rules have a kit, so products never appear on a landlord's violation."""
+    if rule_id not in shop.KITS:
+        raise HTTPException(404, "There is no fix-it-yourself kit for this rule")
+    return shop.kit(rule_id)

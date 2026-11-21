@@ -1,0 +1,56 @@
+{
+    "title": "Clean surface mould off tile, grout or caulk",
+    "items": [
+        {
+            "name": "Mould and mildew remover",
+            "kind": "material",
+            "product": {
+                "title": "Lysol(R) Mold & Mildew Remover Spray, 32 oz. Spray Bottle (78915EA)",
+                "image": "https://cdn.shopify.com/s/files/1/0670/9500/3223/files/874537-200x200-0_b124f41e-93b8-44b3-8384-207030fdd9dc.jpg",
+                "price": 7.49,
+                "currency": "USD",
+                "seller": "Southeast Office Co.",
+                "rating": null,
+                "rating_count": 0,
+                "url": "https://www.southeastofficeco.com/products/lysol-brand-78915ea?variant=43983809904727&_gsid=mSYZNSAzgrBe&utm_source=shopify&utm_medium=catalog",
+                "checkout_url": "https://www.southeastofficeco.com/buy/43983809904727:1?ucp/version=2026-08-25&attribution/utm_source=shopify&attribution/utm_medium=catalog&attribution/click_id_tag=_gsid&attribution/click_id_value=mSYZNSAzgrBe&_gsid=mSYZNSAzgrBe&context/payment/0/handler=dev.shopify.shop_pay"
+            }
+        },
+        {
+            "name": "Grout scrub brush",
+            "kind": "tool",
+            "product": {
+                "title": "Grunge Buster Grout & Tile Brush",
+                "image": "https://cdn.shopify.com/s/files/1/0884/6816/0824/files/l2ao43dkl4naz430yud6.jpg",
+                "price": 7.99,
+                "currency": "USD",
+                "seller": "Grove Collaborative",
+                "rating": 4.1,
+                "rating_count": 898,
+                "url": "https://www.grove.co/products/grunge-buster?variant=49254649463096&_gsid=EJtJLocmPTzq&utm_source=shopify&utm_medium=catalog",
+                "checkout_url": "https://www.grove.co/buy/49254649463096:1?ucp/version=2026-08-25&attribution/utm_source=shopify&attribution/utm_medium=catalog&attribution/click_id_tag=_gsid&attribution/click_id_value=EJtJLocmPTzq&_gsid=EJtJLocmPTzq&context/payment/0/handler=dev.shopify.shop_pay"
+            }
+        },
+        {
+            "name": "Mould-resistant caulk",
+            "kind": "material",
+            "product": {
+                "title": "Dap 18001 Kwik Seal Adhesive Caulk (White, 5.5oz)",
+                "image": "https://cdn.shopify.com/s/files/1/0566/9054/0681/products/image_509c71df-072a-4bd0-9818-3ec7afb6d33e.jpg",
+                "price": 3.49,
+                "currency": "USD",
+                "seller": "Saber Sales",
+                "rating": 5.0,
+                "rating_count": 2,
+                "url": "https://sabersales.com/products/dap-kwik-seal-latex-cauilk?variant=41416886190217&_gsid=Cz1qfX9H77B8&utm_source=shopify&utm_medium=catalog",
+                "checkout_url": "https://sabersales.com/buy/41416886190217:1?ucp/version=2026-08-25&attribution/utm_source=shopify&attribution/utm_medium=catalog&attribution/click_id_tag=_gsid&attribution/click_id_value=Cz1qfX9H77B8&_gsid=Cz1qfX9H77B8&context/payment/0/handler=dev.shopify.shop_pay"
+            }
+        }
+    ],
+    "steps": [
+        "Open a window or run the fan, and put on gloves.",
+        "Spray the remover on the grout and caulk and leave it for the time on the label. Don't mix it with other cleaners.",
+        "Scrub the grout lines with the brush, rinse, and dry the area.",
+        "If the caulk is still stained, cut it out and run a new line of mould-resistant caulk. Let it cure before you use the shower."
+    ]
+}
