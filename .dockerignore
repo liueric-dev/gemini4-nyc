@@ -1,0 +1,14 @@
+.git
+.env
+.venv
+var
+**/__pycache__
+**/node_modules
+web/dist
+.claude-transfer
+data/*/local
+data/media/images
+data/media/videos
+data/media/fallback
+data/.venv
+data/open-data/raw

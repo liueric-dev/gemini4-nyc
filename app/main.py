@@ -1,10 +1,14 @@
 """The web API. Run with `make dev`."""
 import hashlib
 import json
+import os
+import time
+from collections import deque
 from typing import Annotated
 
 from fastapi import Body, FastAPI, File, Form, HTTPException, Response, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 
 from app import building, case_agent, config, letter, media, pipeline, shop, video
 
@@ -12,6 +16,40 @@ app = FastAPI(title="Tenant advocate")
 # The chat prototype (hey-niia/tenard) is served from another origin and calls this API from the browser.
 app.add_middleware(CORSMiddleware, allow_origins=["https://hey-niia.github.io", "http://localhost:5180"],
                    allow_methods=["GET", "POST"], allow_headers=["*"])
+
+
+# ---- a cap on the calls that cost money, so a public link can't drain the Gemini quota
+LIMITS = {"analyze": int(os.environ.get("LIMIT_ANALYZE_PER_HOUR", "300")),
+          "case": int(os.environ.get("LIMIT_CASE_FILES_PER_HOUR", "30"))}
+_calls: dict[str, deque] = {"analyze": deque(), "case": deque()}
+
+
+def spend(kind: str) -> None:
+    now, q = time.time(), _calls[kind]
+    while q and now - q[0] > 3600:
+        q.popleft()
+    if len(q) >= LIMITS[kind]:
+        raise HTTPException(429, "This demo has reached its hourly limit. Try again later.")
+    q.append(now)
+
+
+# ---- the screens: plain files, served by this process so one container is the whole app
+WEB = config.ROOT / "web"
+
+
+@app.get("/", include_in_schema=False)
+def page_index() -> FileResponse:
+    return FileResponse(WEB / "index.html")
+
+
+@app.get("/proof.html", include_in_schema=False)
+def page_proof() -> FileResponse:
+    return FileResponse(WEB / "proof.html")
+
+
+@app.get("/app.js", include_in_schema=False)
+def page_script() -> FileResponse:
+    return FileResponse(WEB / "public" / "app.js", media_type="text/javascript")
 
 
 @app.get("/api/health")
@@ -60,6 +98,7 @@ def analyze(
 ) -> dict:
     """A photo to findings. Send an uploaded photo or the id of a test photo, plus an optional address
     and answers (a JSON object of fact name to value) to questions from an earlier response."""
+    spend("analyze")
     try:
         parsed = json.loads(answers) if answers else {}
     except json.JSONDecodeError:
@@ -127,6 +166,7 @@ def start_case_file(
         case = case_agent.build_case(analysis, apartment)
     except ValueError as e:
         raise HTTPException(400, str(e)) from None
+    spend("case")
     return {"case_id": case_agent.start(case), "status": "in_progress"}
 
 

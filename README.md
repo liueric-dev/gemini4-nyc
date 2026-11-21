@@ -107,6 +107,8 @@ make dev            # API on port 8000; open http://localhost:5173
 make test           # 23 tests, no network needed
 ```
 
+To host it, build the `Dockerfile`: one container serves the screens and the API, and builds the database from `data/`. Set `GEMINI_API_KEY` and `NYC_OPENDATA_APP_TOKEN` in the host's settings. `LIMIT_ANALYZE_PER_HOUR` (default 300) and `LIMIT_CASE_FILES_PER_HOUR` (default 30) cap the calls that cost money. A hosted copy shows only the sample photos in its grid, and can't say whether a building is rent-stabilized, because that list isn't in the repository.
+
 The evaluation:
 
 ```
