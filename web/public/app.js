@@ -106,9 +106,24 @@ async function lookupAddress(text) {
   Object.assign(S, patch, { typing: false, busy: null }); render();
 }
 
+// What the tenant reads while a video is checked, as [seconds waited, line]. A video takes longer than a
+// photo, so the line changes to show the app is still working.
+const VIDEO_WAIT = [[0, 'Watching your video'], [4, 'Looking for problems in it'], [10, 'Checking what I found'],
+  [20, 'Still working. Longer videos take a little more time']];
+
 async function analyse() {
   const mine = run;
-  Object.assign(S, { typing: true, error: null, busy: S.isVideo ? 'Watching your video' : 'Looking at your photo', showKit: false }); render();
+  Object.assign(S, { typing: true, error: null, busy: S.isVideo ? VIDEO_WAIT[0][1] : 'Looking at your photo', showKit: false }); render();
+  const started = Date.now();
+  const waitTimer = S.isVideo ? setInterval(() => {
+    if (mine !== run) return;
+    const waited = (Date.now() - started) / 1000;
+    const line = VIDEO_WAIT.filter((w) => waited >= w[0]).pop()[1];
+    if (line === S.busy) return;
+    S.busy = line;
+    const el = document.getElementById('busy'); // changed in place: a full render would restart the video preview
+    if (el) el.textContent = line + ' ';
+  }, 500) : null;
   const f = new FormData();
   if (S.photoId) f.append('photo_id', S.photoId); else f.append('photo', S.file);
   if (S.building) f.append('address', S.address);
@@ -117,7 +132,7 @@ async function analyse() {
   const note = [S.typedFirst ? S.desc : null].concat(S.notes).filter(Boolean).join(' ');
   if (note) f.append('note', note);
   try {
-    const a = await jfetch('/api/analyze', { method: 'POST', body: f });
+    const a = await jfetch('/api/analyze', { method: 'POST', body: f }).finally(() => clearInterval(waitTimer));
     if (mine !== run) return;
     if (a.photo && !S.isVideo) S.photoId = a.photo.id; // follow-up answers reuse the saved upload
     Object.assign(S, { analysis: a, explained: false, letter: null, typing: false, busy: null, step: Math.max(S.step, 4) }); render();
@@ -528,7 +543,7 @@ function msgHTML(x) {
 function chatView(conv) {
   const { m, chips, kase } = conv;
   const pin = kase ? `<button class="pin" data-act="case"><span class="ic">${ICON.doc}</span><span style="flex:1;min-width:0"><b>${esc(kase.title)}</b><small>${esc(kase.status)}</small></span>${ICON.chev}</button>` : '';
-  const typing = S.typing ? `<div class="row"><div class="bot">${S.busy ? `<span style="color:var(--muted)">${esc(S.busy)} </span>` : ''}<span class="typing"><i></i><i></i><i></i></span></div></div>` : '';
+  const typing = S.typing ? `<div class="row"><div class="bot">${S.busy ? `<span id="busy" style="color:var(--muted)">${esc(S.busy)} </span>` : ''}<span class="typing"><i></i><i></i><i></i></span></div></div>` : '';
   const needAddr = S.type && !S.building && !S.addrSkipped;
   const a0 = S.analysis, q0 = a0 && (((a0.findings[0] || {}).photo_quality) || a0.photo_quality);
   const wantsRetake = a0 && (a0.nothing_found || a0.unclear.length || a0.findings.some((f) => f.retake_request || f.outcome === 'not_landlord_responsibility') || (q0 && !q0.good_for_evidence));

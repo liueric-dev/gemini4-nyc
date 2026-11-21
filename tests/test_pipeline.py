@@ -118,3 +118,22 @@ def test_video_frames_are_spread_and_a_single_odd_frame_is_not_reported(monkeypa
     assert findings[0]["time_range_s"] == [1.5, 10.5] and seen == {"mold": 3, "leak": 1}
     short, _ = video.merge(per_frame[:4][1:2] + per_frame[2:4])        # a 3-frame clip: one frame is enough
     assert sorted(f["problem_type"] for f in short) == ["leak", "mold"]
+
+
+def test_video_frames_are_all_analysed_at_the_same_time(monkeypatch, tmp_path):
+    import threading
+
+    from app import video
+
+    stills = [(float(t), b"jpeg") for t in range(16)]  # the most frames a video is cut into
+    together = threading.Barrier(len(stills), timeout=5)  # breaks unless every frame is in flight at once
+
+    def analyze(data, mime_type, **kwargs):
+        together.wait()
+        return {"findings": [], "photo_quality": None}
+
+    monkeypatch.setattr(video, "frames", lambda path: stills)
+    monkeypatch.setattr(video, "duration", lambda path: 48.0)
+    monkeypatch.setattr(p, "analyze", analyze)
+    result = video.analyze_video(tmp_path / "clip.mp4", with_explanation=False, save_frames=False)
+    assert result["video"]["frames_analysed"] == 16 and result["nothing_found"] is True
