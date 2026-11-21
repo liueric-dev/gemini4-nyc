@@ -106,6 +106,7 @@ def analyze(
     address: Annotated[str | None, Form()] = None,
     answers: Annotated[str | None, Form()] = None,
     explain: Annotated[bool, Form()] = True,
+    note: Annotated[str | None, Form()] = None,
 ) -> dict:
     """A photo to findings. Send an uploaded photo or the id of a test photo, plus an optional address
     and answers (a JSON object of fact name to value) to questions from an earlier response."""
@@ -141,10 +142,11 @@ def analyze(
     found = media.load(photo_id)
     if not found:
         raise HTTPException(404, "No such photo on this machine")
-    key = hashlib.sha256(json.dumps([photo_id, address or "", parsed, explain], sort_keys=True).encode()).hexdigest()[:16]
+    key = hashlib.sha256(json.dumps([photo_id, address or "", parsed, explain, note or ""], sort_keys=True).encode()).hexdigest()[:16]
     saved = config.VAR / "cache" / "analyze" / f"{key}.json"
     try:
-        result = pipeline.analyze(found[0], found[1], address=address or None, answers=parsed, with_explanation=explain)
+        result = pipeline.analyze(found[0], found[1], address=address or None, answers=parsed, with_explanation=explain,
+                                  note=note)
     except Exception as e:  # noqa: BLE001 - the venue network drops calls; fall back to the last good answer if there is one
         if saved.exists():
             return {**json.loads(saved.read_text()), "from_cache": True,
@@ -224,3 +226,19 @@ def diy_kit(rule_id: str) -> dict:
     if rule_id not in shop.KITS:
         raise HTTPException(404, "There is no fix-it-yourself kit for this rule")
     return shop.kit(rule_id)
+
+
+@app.post("/api/ask")
+def ask_question(
+    question: Annotated[str, Body(embed=True)],
+    analysis: Annotated[dict | None, Body(embed=True)] = None,
+) -> dict:
+    """Answer a question typed into the chat, using only the case, its law sections and the escalation steps.
+    Returns answer, citations (quotes checked against the law) and covered (false when there is no source)."""
+    if not question.strip():
+        raise HTTPException(400, "Ask a question")
+    spend("analyze")
+    try:
+        return pipeline.ask(question, analysis)
+    except Exception as e:  # noqa: BLE001
+        raise HTTPException(503, f"The model service did not respond ({type(e).__name__}). Try again.") from None

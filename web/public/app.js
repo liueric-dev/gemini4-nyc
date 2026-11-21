@@ -66,7 +66,7 @@ const FRESH = { type: null, step: 0, desc: null, typedFirst: false,
   photo: null, isVideo: false, file: null, photoId: null,
   address: null, building: null, addrError: null, addrSkipped: false,
   analysis: null, answers: {}, qa: [], explained: false, error: null, busy: null,
-  asked: false, letter: null, diyChoice: null, kit: null, owned: {}, packet: null,
+  asked: false, letter: null, chat: [], notes: [], diyChoice: null, kit: null, owned: {}, packet: null,
   fixed: false, verified: false, awaitVerify: false, afterPhoto: null, insp: null, missed: false, exported: false };
 const S = Object.assign({ view: 'chat', typing: false, samples: null, showKit: false }, FRESH);
 let run = 0; // bumps on every new case, so a slow answer for an old case is dropped
@@ -78,7 +78,7 @@ function set(patch, botDelay) {
   } else { Object.assign(S, patch); render(); }
 }
 const go = (patch) => () => set(patch, 500);
-function reset() { run++; if (pollTimer) clearInterval(pollTimer); set(Object.assign({ view: 'chat' }, FRESH, { answers: {}, qa: [], owned: {} })); }
+function reset() { run++; if (pollTimer) clearInterval(pollTimer); set(Object.assign({ view: 'chat' }, FRESH, { answers: {}, qa: [], owned: {}, chat: [], notes: [] })); }
 
 /* ---------- backend ---------- */
 async function jfetch(url, opts) {
@@ -110,6 +110,8 @@ async function analyse() {
   if (S.building) f.append('address', S.address);
   f.append('answers', JSON.stringify(S.answers));
   f.append('explain', 'false');
+  const note = [S.typedFirst ? S.desc : null].concat(S.notes).filter(Boolean).join(' ');
+  if (note) f.append('note', note);
   try {
     const a = await jfetch('/api/analyze', { method: 'POST', body: f });
     if (mine !== run) return;
@@ -129,6 +131,17 @@ function answer(fact, value, label, question) {
   S.answers[fact] = value;
   S.qa.push({ q: question, a: label });
   analyse();
+}
+
+async function ask(question) {
+  const mine = run, entry = { q: question, a: null, sources: [] };
+  S.chat.push(entry); render();
+  try {
+    const r = await postJSON('/api/ask', { question, analysis: S.analysis });
+    if (mine !== run) return;
+    entry.a = r.answer; entry.sources = [...new Set((r.citations || []).map((c) => c.citation))];
+  } catch (e) { if (mine !== run) return; entry.a = "I couldn't reach the model just now. Try asking again."; }
+  render();
 }
 
 async function fetchLetter() {
@@ -218,6 +231,10 @@ function conversation() {
     court: !!res && S.step >= 13, resolved: !!res && S.verified, fixedOn, vClass, dueDate, filing: !!res && S.step === 8 });
   let fixedOn = null, vClass = '', dueDate = '';
   const done = () => {
+    S.chat.forEach((c) => {
+      user(c.q);
+      if (c.a) bot(c.a + (c.sources.length ? '\n\nSource: ' + c.sources.join('; ') : '')); else m.push({ t: 'thinking', text: 'Checking the law' });
+    });
     chips.push({ label: 'Start over', go: reset });
     return { m, chips, kase: { title, status, res, diy, T: { where }, sent: S.step >= 6, hasEvidence: !!S.photo, stage: stageOf() } };
   };
@@ -253,6 +270,8 @@ function conversation() {
   }
 
   a.findings.forEach((f) => bot(f.description || f.title));
+  const said = Object.entries(a.facts_from_description || {});
+  if (said.length) bot('From what you wrote, I noted: ' + said.map(([k, v]) => k.replace(/_/g, ' ') + ' — ' + (v === true ? 'yes' : v === false ? 'no' : v)).join('; ') + '.');
   S.qa.forEach((x) => { bot(x.q); user(x.a); });
 
   /* a question that changes the answer comes first */
@@ -323,7 +342,8 @@ function conversation() {
   }
   if (S.step >= 5) {
     user('What do I do now?');
-    bot('Step 1: tell your landlord in writing. HPD and Housing Court both expect that first. I drafted it for you. Keep a copy and proof it was delivered.');
+    if ((res.f.next_steps || []).some((s) => s.path === 'Get it fixed')) { bot('Here is the path for this problem, in order:'); m.push({ t: 'steps', f: res.f }); }
+    bot('Start with step 1: tell your landlord in writing. HPD and Housing Court both expect that first. I drafted it for you. Keep a copy and proof it was delivered.');
     m.push({ t: 'draft', title });
     status = res.cls + ' · notice ready';
     if (S.step === 5) chips = [{ label: 'I sent it', go: go({ step: 6 }) }];
@@ -336,7 +356,8 @@ function conversation() {
   }
 
   /* ---------- escalation walk-through: notice → 311 → HPD inspection → violation → HP action ---------- */
-  vClass = res.label === 'Inspector decides' ? 'Class B' : res.cls;
+  const inspector = res.label === 'Inspector decides';
+  vClass = inspector ? 'Class B' : res.cls;
   const vDays = res.label === 'Inspector decides' ? '30 days' : res.days;
   dueDate = { '21 days': 'Jan 8', '30 days': 'Jan 17', '90 days': 'Mar 18' }[vDays] || 'Jan 17';
   const verify = (when) => {
@@ -382,7 +403,8 @@ function conversation() {
   }
   if (S.step >= 11 && S.insp === 'violation') {
     user('They issued a violation');
-    bot('HPD issued a ' + vClass + " violation. It's now public on HPDONLINE, and your landlord's deadline starts today: fix by " + dueDate + '.\n\nThis is the official record a court will look at.');
+    if (inspector) bot("HPD issued a violation, and the inspector set its class. It's now public on HPDONLINE, and your landlord's deadline starts today: 90 days for Class A, 30 days for Class B, 24 hours for Class C. For this walk-through, say it was Class B: fix by " + dueDate + '.\n\nThis is the official record a court will look at.');
+    else bot('HPD issued a ' + vClass + " violation. It's now public on HPDONLINE, and your landlord's deadline starts today: fix by " + dueDate + '.\n\nThis is the official record a court will look at.');
     status = vClass + ' violation · fix by ' + dueDate;
     if (S.step === 11) chips = [{ label: 'Skip to ' + dueDate, dark: true, go: go({ step: 12 }) }];
   }
@@ -483,6 +505,12 @@ function msgHTML(x) {
         <span style="flex:1;display:flex;flex-direction:column;gap:2px;min-width:0"><b style="font-size:14px">Case file${p.markdown ? ' ready' : p.error ? '' : ' in progress'}</b><span class="sub">${sub}</span></span>
         ${p.markdown ? '<button class="chip" style="min-height:36px" data-act="packet">Open</button>' : p.error ? '' : '<span class="typing"><i></i><i></i><i></i></span>'}</div></div>`;
     }
+    case 'steps': {
+      const steps = (x.f.next_steps || []).filter((s) => s.path === 'Get it fixed');
+      return `<div class="row"><div class="card"><div style="padding:10px 12px"><span class="eyebrow">What to do, in order</span></div>
+        ${steps.map((s, i) => `<div class="stepline"><span class="dot">${i + 1}</span><span><b>${esc(s.title)}</b>${s.when ? `<span class="sub">${esc(s.when)}</span>` : ''}</span></div>`).join('')}
+        <div style="padding:8px 12px 10px" class="sub">From the escalation rules for this problem. Ask me about any step.</div></div></div>`;
+    }
     case 'kit': return kitHTML();
   }
   return '';
@@ -495,7 +523,7 @@ function chatView(conv) {
   const typing = S.typing ? `<div class="row"><div class="bot">${S.busy ? `<span style="color:var(--muted)">${esc(S.busy)} </span>` : ''}<span class="typing"><i></i><i></i><i></i></span></div></div>` : '';
   const needAddr = S.type && !S.building && !S.addrSkipped;
   const attachLabel = S.type && !needAddr && !S.photo ? 'Add photo or video' : (S.fixed && !S.verified) ? 'Add photo of the repair' : null;
-  const placeholder = conv.empty ? "Tell us what's wrong at home" : needAddr ? 'Your address, like 122 W 167th St, Bronx' : S.awaitFact ? 'Type a number' : 'Add a photo or video with +';
+  const placeholder = conv.empty ? "Tell us what's wrong at home" : needAddr ? 'Your address, like 122 W 167th St, Bronx' : S.awaitFact ? 'Type a number' : S.analysis ? 'Ask a question about your case' : 'Add a photo, or ask a question';
   return `
     <div class="nav">
       <button class="navbtn" aria-label="Your cases" data-act="cases">${ICON.doc}${kase ? '<span class="count" aria-hidden="true">1</span>' : ''}</button>
@@ -753,8 +781,10 @@ document.addEventListener('submit', (e) => {
   if (!S.building && !S.addrSkipped) { lookupAddress(v); return; }
   if (S.awaitFact) {
     const n = Number(v.replace(/[^0-9.]/g, ''));
-    if (v.replace(/[^0-9.]/g, '') !== '' && Number.isFinite(n)) { const q = S.awaitFact; S.awaitFact = null; answer(q.fact, n, v, q.question); }
+    if (v.replace(/[^0-9.]/g, '') !== '' && Number.isFinite(n)) { const q = S.awaitFact; S.awaitFact = null; answer(q.fact, n, v, q.question); return; }
   }
+  if (!S.analysis) S.notes.push(v); // said before the photo: sent along with it, and read for facts
+  ask(v);
 });
 
 document.getElementById('file').addEventListener('change', (e) => {

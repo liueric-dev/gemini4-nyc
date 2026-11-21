@@ -78,3 +78,13 @@ def test_sections_and_steps(db):
     codes = [s["code"] for s in dbm.steps_for(db, "EO-001")]
     assert {"A1", "A2", "A3", "A4", "A6"} <= set(codes)
     assert dbm.hpd_order(db, "550") is not None
+
+
+def test_steps_have_plain_action_titles(db):
+    steps = dbm.steps_for(db, "EO-008")
+    by_code = {s["code"]: s for s in steps}
+    assert by_code["A1"]["action"] == "Tell your landlord in writing"
+    assert by_code["A1"]["who"] == "Landlord or managing agent"
+    assert by_code["A2"]["when"] and "30 days" in by_code["A2"]["when"]
+    assert all(s["action"] and not s["action"].startswith(s["code"]) for s in steps)
+    assert [s["code"] for s in dbm.general_steps(db, "A")] == [f"A{i}" for i in range(1, 9)]

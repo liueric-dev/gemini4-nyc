@@ -22,6 +22,31 @@ OPS = {
 }
 
 
+# What each escalation step asks the tenant to do, in plain words. Codes are from data/problem-map/escalation.md.
+STEP_ACTIONS = {
+    "A1": "Tell your landlord in writing",
+    "A2": "File a 311 complaint so HPD inspects",
+    "A3": "HPD inspects and issues a violation",
+    "A4": "HPD's Emergency Repair Program makes the repair",
+    "A5": "Challenge a false certification that it was fixed",
+    "A6": "Start an HP action in Housing Court",
+    "A7": "Join with neighbours for a 7-A proceeding",
+    "A8": "File a DHCR complaint (rent-regulated apartments)",
+    "B1": "Keep proof that you notified the landlord",
+    "B2": "Keep your 311 number and the inspection result",
+    "B3": "Gather evidence for court",
+    "B4": "Know the rule on recording conversations",
+    "B5": "Know why the violation record matters later",
+    "C1": "Raise the warranty of habitability in court",
+    "C2": "Ask DHCR for a rent reduction (rent-regulated apartments)",
+    "C3": "Rent-impairing violations",
+    "C4": "Ask the court for a 7-A administrator",
+    "C5": "Spiegel law, for tenants on public assistance",
+    "C6": "Deduct a utility bill you had to pay",
+    "C7": "Section 8 payment abatement",
+}
+
+
 def connect(path: Path | None = None) -> sqlite3.Connection:
     p = path or config.DB_PATH
     if not p.exists():
@@ -117,7 +142,25 @@ def steps_for(db: sqlite3.Connection, rule_id: str) -> list[dict]:
            WHERE rs.rule_id = ? ORDER BY e.code"""
     rows = [dict(r) for r in db.execute(q, (rule_id,))]
     for r in rows:
-        r["detail"] = json.loads(r["detail"])
+        d = r["detail"] = json.loads(r["detail"])
+        # The source tables are laid out for reading, with "who" in the first column. Give each step a plain
+        # action title and named fields, so a screen or an agent doesn't have to guess what a code means.
+        r["action"] = STEP_ACTIONS.get(r["code"], r["summary"])
+        r["who"] = d.get("Who") or d.get("Who qualifies")
+        r["how"] = d.get("Form or letter") or d.get("How") or d.get("What") or d.get("When")
+        r["when"] = d.get("Timeline")
+    return rows
+
+
+def general_steps(db: sqlite3.Connection, path: str = "A") -> list[dict]:
+    """Every step of one path (A is 'get it fixed'), for questions asked before a photo has been checked."""
+    rows = [dict(r) for r in db.execute("SELECT * FROM escalation_steps WHERE path = ? ORDER BY code", (path,))]
+    for r in rows:
+        d = r["detail"] = json.loads(r["detail"])
+        r["action"] = STEP_ACTIONS.get(r["code"], r["summary"])
+        r["who"] = d.get("Who") or d.get("Who qualifies")
+        r["how"] = d.get("Form or letter") or d.get("How") or d.get("What") or d.get("When")
+        r["when"] = d.get("Timeline")
     return rows
 
 

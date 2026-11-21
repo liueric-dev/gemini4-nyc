@@ -498,6 +498,138 @@ def explain(items: list[dict]) -> dict[str, dict]:
     return {f["problem_type"]: f for f in out.get("findings", [])}
 
 
+# ---------------------------------------------------------------- the tenant's own words
+
+NOTE_FACTS = ["child_under_6_resides", "child_10_or_under", "year_built", "owner_occupied_unit", "written_request",
+              "pest", "device", "leak_source", "indoor_temp_f", "water_temp_f", "outside_temp_f", "voucher",
+              "anti_scald_valve", "no_hot_water", "mold_area_sqft"]
+
+
+def facts_from_note(note: str) -> dict:
+    """Read the tenant's description for facts the rules use, such as a child's age or the year built.
+
+    Only facts the tenant states outright are returned. The description is deliberately kept away from the
+    step that decides what the photo shows: several problem types have a low confirmation cut-off, which is
+    safe only while the proposal comes from the photo alone.
+    """
+    conn = dbm.connect()
+    try:
+        defs = dbm.fact_defs(conn)
+    finally:
+        conn.close()
+    props, lines = {}, []
+    for name in NOTE_FACTS:
+        d = defs.get(name)
+        if not d:
+            continue
+        if d["type"] == "bool":
+            props[name] = {"type": "boolean", "nullable": True}
+        elif d["type"] == "number":
+            props[name] = {"type": "number", "nullable": True}
+        else:
+            props[name] = {"type": "string", "nullable": True, "enum": json.loads(d["allowed_values"])}
+        lines.append(f"- {name}: {d['question']}")
+    prompt = (
+        "A tenant wrote this about a problem in their apartment:\n\n\"" + note.strip()[:2000] + "\"\n\n"
+        "Fill in a field only if the tenant states it outright. Leave everything else null. Do not infer or "
+        "guess: a mention of 'my kids' does not tell you their ages.\n\n" + "\n".join(lines)
+    )
+    out = _generate_json(config.MODEL_DESCRIBE, [prompt], {"type": "object", "properties": props}, "LOW")
+    return {k: v for k, v in out.items() if k in props and v is not None}
+
+
+# ---------------------------------------------------------------- questions typed into the chat
+
+ASK_SCHEMA_BASE = {
+    "type": "object",
+    "properties": {
+        "covered": {"type": "boolean"},
+        "answer": {"type": "string"},
+        "citations": {"type": "array", "items": {"type": "object", "properties": {
+            "section_id": {"type": "string"}, "quote": {"type": "string"}, "supports": {"type": "string"}},
+            "required": ["section_id", "quote", "supports"]}},
+    },
+    "required": ["covered", "answer", "citations"],
+}
+GENERAL_SECTIONS = ["st-rpl-223-b", "nyc-hmc-27-2005", "nyc-hmc-27-2115"]
+NO_SOURCE = ("I only answer from housing law and your case, so I won't guess. For a legal question I can't answer, "
+             "a free tenant lawyer can help: Legal Aid Society 212-577-3300, or Legal Services NYC 917-661-4500.")
+
+
+def ask(question: str, analysis: dict | None = None) -> dict:
+    """Answer a typed question from the case, the law sections for it, and the escalation steps. Nothing else.
+
+    Returns {'answer', 'citations', 'covered'}. Quotes are checked the same way as in add_explanations.
+    If the material doesn't cover the question, the answer says so and points to free legal help.
+    """
+    analysis = analysis or {}
+    conn = dbm.connect()
+    try:
+        sections: dict[str, dict] = {}
+        steps: dict[str, dict] = {}
+        facts = []
+        for f in analysis.get("findings", []):
+            d = (f.get("deadline") or {}).get("text")
+            facts.append(f"- {f['title']}: {f.get('description') or ''} Outcome: {f['outcome']}."
+                         + (f" Class {f['class']}." if f.get("class") else "")
+                         + (f" Possible classes: {', '.join(f['class_options'])}; the HPD inspector decides." if f.get("class_options") else "")
+                         + (f" Landlord's deadline: {d} (starts when HPD issues a violation notice)." if d else "")
+                         + (f" Situation matched: {f['scenario']}." if f.get("scenario") else ""))
+            if f.get("rule_id"):
+                for s in dbm.sections_for(conn, f["rule_id"]):
+                    sections[s["id"]] = {**s, "_type": f["problem_type"]}
+                for s in dbm.steps_for(conn, f["rule_id"]):
+                    steps[s["code"]] = s
+        if not steps:
+            steps = {s["code"]: s for s in dbm.general_steps(conn, "A")}
+        for sid in GENERAL_SECTIONS:
+            if sid not in sections:
+                s = dbm.get_section(conn, sid)
+                if s:
+                    sections[sid] = {**s, "_type": ""}
+    finally:
+        conn.close()
+    b = analysis.get("building") or {}
+    building = ""
+    if b:
+        v = b.get("open_violations") or {}
+        building = (f"Building: {b.get('address')}. Built {b.get('year_built')}. {b.get('units_res')} residential units. "
+                    f"Kind: {b.get('building_kind')}. Rent-stabilized: {b.get('rent_stabilized')}. "
+                    f"Open HPD violations: {v.get('total')} {v.get('by_class')}.")
+    law = "\n\n".join(f"<section id=\"{s['id']}\" citation=\"{s['citation']}\">\n{excerpt(s, s['_type'])}\n</section>"
+                       for s in sections.values())
+    step_text = "\n".join(f"- {s['action']}. Who: {s['who'] or 'n/a'}. How: {s['how'] or 'n/a'}. When: {s['when'] or 'n/a'}."
+                          for s in steps.values())
+    schema = json.loads(json.dumps(ASK_SCHEMA_BASE))
+    schema["properties"]["citations"]["items"]["properties"]["section_id"]["enum"] = sorted(sections)
+    prompt = (
+        "You are helping a New York City tenant. Answer their question using ONLY the material below: what the app "
+        "found in their photo, their building's record, the steps they can take, and the law sections.\n\n"
+        "Rules:\n- Two to five plain sentences, written to the tenant.\n"
+        "- If the material answers the question, set covered to true. Add one or two citations where the law "
+        "sections support what you say: each quote copied word for word from a section, with that section's id.\n"
+        "- If the material does not answer it, set covered to false, and say in one sentence what you can't answer. "
+        "Do not use outside knowledge, and do not guess.\n"
+        "- Never change the class or deadline given in the findings.\n\n"
+        f"<question>{question.strip()[:1000]}</question>\n\n"
+        "<findings>\n" + ("\n".join(facts) or "No photo has been checked yet.") + "\n</findings>\n\n"
+        + (f"<building>{building}</building>\n\n" if building else "")
+        + f"<steps>\n{step_text}\n</steps>\n\n{law}"
+    )
+    out = _generate_json(config.MODEL_EXPLAIN, [prompt], schema, config.EXPLAIN_THINKING)
+    if not out.get("covered"):
+        return {"answer": (out.get("answer") or "").strip() + " " + NO_SOURCE, "citations": [], "covered": False}
+    kept, dropped = check_citations(out.get("citations", []), sections)
+    try:
+        support = check_support(kept)
+    except Exception:  # noqa: BLE001
+        support = [None] * len(kept)
+    cut = THRESHOLDS["support"]
+    kept = [{**c, "support": None if p is None else round(p, 2)} for c, p in zip(kept, support, strict=True)
+            if p is None or p >= cut]
+    return {"answer": out.get("answer", "").strip(), "citations": kept, "covered": True, "citations_dropped": dropped}
+
+
 # ---------------------------------------------------------------- the whole thing
 
 def _confidence(p: float) -> str:
@@ -511,8 +643,11 @@ def _now_facts() -> dict:
 
 
 def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = None,
-            answers: dict | None = None, with_explanation: bool = True, building: dict | None = None) -> dict:
-    """building: facts already looked up (video analysis looks the address up once, not once per frame)."""
+            answers: dict | None = None, with_explanation: bool = True, building: dict | None = None,
+            note: str | None = None) -> dict:
+    """building: facts already looked up (video analysis looks the address up once, not once per frame).
+    note: what the tenant typed. It is read for facts only (see facts_from_note); it never reaches the step
+    that decides what the photo shows."""
     t0 = time.perf_counter()
     timings: dict[str, float] = {}
     answers = answers or {}
@@ -527,6 +662,7 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
     bld, bld_error = None, None
     with ThreadPoolExecutor(max_workers=4) as pool:  # detection, description, quality and building side by side
         f_qual = pool.submit(photo_quality, image, mime_type)
+        f_note = pool.submit(facts_from_note, note) if note and note.strip() else None
         f_det = pool.submit(timed, "detect_s", detect, image, mime_type)
         f_desc = pool.submit(timed, "describe_s", propose, image, mime_type)
         f_bld = pool.submit(timed, "building_s", building_mod.lookup, address) if address and not building else None
@@ -540,6 +676,11 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
             quality = f_qual.result()
         except Exception:  # noqa: BLE001 - the quality note is optional; never fail an answer over it
             quality = None
+        try:
+            said = f_note.result() if f_note else {}
+        except Exception:  # noqa: BLE001 - reading the note is a convenience; the answer doesn't depend on it
+            said = {}
+    answers = {**said, **answers}  # what the tenant answered directly wins over what was read from their note
     proposed = [f["problem_type"] for f in desc.get("findings", [])]
     found = confirmed_types(proposed, det["probabilities"])
     # Proposed by the model but not confirmed: not reported as a problem. The tenant is asked for a clearer photo.
@@ -568,7 +709,8 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
             if d["tie"]:
                 rule = pick_by_scenario(image, mime_type, d["tie"])
             used = [{"name": k, "label": FACT_LABELS.get(k, k.replace("_", " ").capitalize()), "value": facts[k],
-                     "source": "answer" if k in answers else "photo" if k in from_photo else defs.get(k, {}).get("source", "building"),
+                     "source": ("your description" if k in said and said[k] == facts[k] else "answer") if k in answers
+                     else "photo" if k in from_photo else defs.get(k, {}).get("source", "building"),
                      **({"confidence": round(from_photo[k][1], 2)} if k in from_photo and k not in answers else {})}
                     for k in facts if rule and any(k == c[0] for alt in rule["conditions"] for c in alt)]
             used.append({"name": "building_kind", "label": "Building type", "value": kind, "source": kind_source})
@@ -601,7 +743,8 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
                                  "starts": "When HPD issues a violation notice after inspecting"},
                     "certainty": rule["certainty"], "hpd_order": rule["hpd_orders"],
                     "needs_judgement": rule["judgement"],
-                    "next_steps": [{"code": s["code"], "path": s["path_title"], "title": s["summary"], "detail": s["detail"]}
+                    "next_steps": [{"code": s["code"], "path": s["path_title"], "title": s["action"], "who": s["who"],
+                                    "how": s["how"], "when": s["when"], "detail": s["detail"]}
                                    for s in dbm.steps_for(conn, rule["id"])],
                 })
                 sections = dbm.sections_for(conn, rule["id"])
@@ -621,6 +764,7 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
         "probabilities": {k: round(v, 3) for k, v in det["probabilities"].items()},
         "proposed": proposed,
         "unclear": unclear,
+        "facts_from_description": said,
         "photo_quality": quality_report(quality, found),
         "building": bld,
         "building_error": bld_error,

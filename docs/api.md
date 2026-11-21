@@ -12,6 +12,7 @@ A filled-in example of the main response is in [sample-response.json](sample-res
 | `GET /api/building?address=...` | Working | Address to building facts: year built, units, building type, rent-stabilized, open HPD violations |
 | `POST /api/analyze` | Working | Photo (plus optional address and answers) to findings. This is the main one |
 | `POST /api/explain` | Working | Adds the written explanation and checked quotes to an analysis made with `explain=false`. Takes `{"analysis": ...}` and returns it filled in |
+| `POST /api/ask` | Working | Answers a question typed into the chat, using only the case, its law sections and the escalation steps. Takes `{"question": ..., "analysis": <optional /api/analyze response>}`; returns `answer`, `citations` and `covered` (false when there is no source, and the answer says so) |
 | `GET /api/test-items` | Working | The held-out test photos, for the "pick a photo" grid. No labels are included |
 | `GET /api/photos/{id}` | Working | The image for a test photo or an upload |
 | `POST /api/case-file` | Working | Starts the case file agent. Returns a `case_id` at once |
@@ -20,6 +21,10 @@ A filled-in example of the main response is in [sample-response.json](sample-res
 | `GET /api/results` | Working | The evaluation numbers for the proof screen |
 
 `POST /api/analyze` takes a form with `photo` (a file) or `photo_id` (a test photo's id), and optionally `address` and `answers` (a JSON object such as `{"child_under_6_resides": true}`).
+
+`POST /api/analyze` also takes `note`: what the tenant typed. It is read for facts the rules use (a child's age, the year built) and returned as `facts_from_description`. It is never used to decide what the photo shows.
+
+Each item in a finding's `next_steps` has `title` (what to do, in plain words), `who`, `how`, `when`, `path` (which goal it serves, such as "Get it fixed") and `code`. Show `title`; the code is only an id.
 
 `POST /api/case-file` takes JSON: `{"analysis": <the whole /api/analyze response>, "apartment": "4B"}`. The analysis must include a building, so the photo has to be analysed with an address first.
 
