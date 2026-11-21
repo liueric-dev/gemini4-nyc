@@ -142,11 +142,14 @@ def get_case_file(case_id: str) -> dict:
 @app.get("/api/results")
 def get_results() -> dict:
     """The evaluation numbers for the proof screen: the frozen test set if it has been run, else the dev run."""
-    for path in (config.ROOT / "eval/results/test-results.json", config.VAR / "eval/test-results.json",
-                 config.VAR / "eval/dev-results.json"):
+    out = {}
+    for name, key in (("test-results.json", "photos"), ("test-video-results.json", "video"), ("test-items.json", "items")):
+        path = config.ROOT / "eval/results" / name
         if path.exists():
-            return json.loads(path.read_text())
-    raise HTTPException(404, "No evaluation has been run yet")
+            out[key] = json.loads(path.read_text())
+    if not out:
+        raise HTTPException(404, "No evaluation has been run yet")
+    return out
 
 
 @app.post("/api/letter")
