@@ -95,3 +95,26 @@ def test_quality_report_asks_for_scale_only_when_size_matters(monkeypatch):
     dark = p.quality_report({**scores, "sharp_and_lit": 0.2}, ["pests"])
     assert dark["good_for_evidence"] is False and "blurry or too dark" in dark["retake_requests"][0]
     assert p.quality_report(scores, []) is None  # nothing reported, nothing to document
+
+
+def test_video_frames_are_spread_and_a_single_odd_frame_is_not_reported(monkeypatch):
+    from app import video
+
+    monkeypatch.setitem(p.THRESHOLDS, "video", {"seconds_per_frame": 3, "max_frames": 16, "min_frames": 4,
+                                                 "min_confirming_frames": 2})
+    assert len(video.frame_times(9)) == 4          # short clip: the minimum
+    assert len(video.frame_times(30)) == 10        # one about every 3 seconds
+    assert len(video.frame_times(385)) == 16       # long clip: capped
+    assert video.frame_times(30)[0] == 1.5 and video.frame_times(30)[-1] == 28.5
+
+    def frame(t, found):
+        return t, {"findings": [{"problem_type": k, "probability": v} for k, v in found.items()]}
+
+    per_frame = [frame(1.5, {"mold": 0.7}), frame(4.5, {"mold": 0.9, "leak": 0.6}), frame(7.5, {}), frame(10.5, {"mold": 0.8}),
+                 frame(13.5, {})]
+    findings, seen = video.merge(per_frame)
+    assert [f["problem_type"] for f in findings] == ["mold"]          # the leak was seen in one frame only
+    assert findings[0]["time_s"] == 4.5 and findings[0]["seen_at_s"] == [1.5, 4.5, 10.5]
+    assert findings[0]["time_range_s"] == [1.5, 10.5] and seen == {"mold": 3, "leak": 1}
+    short, _ = video.merge(per_frame[:4][1:2] + per_frame[2:4])        # a 3-frame clip: one frame is enough
+    assert sorted(f["problem_type"] for f in short) == ["leak", "mold"]

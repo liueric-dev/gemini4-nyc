@@ -45,6 +45,17 @@ Other states the screens need:
 - **A weak photo:** `photo_quality` is present whenever a problem is reported. `good_for_evidence` is false when the photo is blurry or dark, too far away, shows no surroundings, or (for mould) has nothing to show scale. `retake_requests` lists what to fix, in plain words. The problem is still reported; this is advice for the tenant's own records.
 - **Address not found:** the building call returns a 404 with a message.
 
+## Video
+
+`POST /api/analyze` also takes a video in the `photo` field (mp4, mov or webm, up to 100 MB). The app samples a still frame about every 3 seconds (at most 16), runs each through the photo pipeline, and reports a problem only if at least two frames confirm it. Sound is ignored.
+
+The response has the same shape, with these additions:
+- `media_type` is `"video"`, and `video` gives the duration, the frame times, and how many frames saw each problem.
+- Each finding has `time_s` (its clearest moment), `seen_at_s` (every time it was seen), `time_range_s`, and `frame`, a saved still with a `url` you can show beside the finding.
+- `photo_quality` is on each finding, for its clearest frame.
+
+A video takes longer than a photo: roughly 15 to 40 seconds before the explanation, depending on length.
+
 ## Things the backend can't give you
 
 - **Boxes on the photo.** The models describe where a problem is in words. They don't return coordinates.

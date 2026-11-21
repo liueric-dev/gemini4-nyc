@@ -510,7 +510,8 @@ def _now_facts() -> dict:
 
 
 def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = None,
-            answers: dict | None = None, with_explanation: bool = True) -> dict:
+            answers: dict | None = None, with_explanation: bool = True, building: dict | None = None) -> dict:
+    """building: facts already looked up (video analysis looks the address up once, not once per frame)."""
     t0 = time.perf_counter()
     timings: dict[str, float] = {}
     answers = answers or {}
@@ -527,7 +528,7 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
         f_qual = pool.submit(photo_quality, image, mime_type)
         f_det = pool.submit(timed, "detect_s", detect, image, mime_type)
         f_desc = pool.submit(timed, "describe_s", propose, image, mime_type)
-        f_bld = pool.submit(timed, "building_s", building_mod.lookup, address) if address else None
+        f_bld = pool.submit(timed, "building_s", building_mod.lookup, address) if address and not building else None
         det, desc = f_det.result(), f_desc.result()
         if f_bld:
             try:
@@ -546,6 +547,7 @@ def analyze(image: bytes, mime_type: str = "image/jpeg", address: str | None = N
                for f in desc.get("findings", []) if f["problem_type"] not in found]
 
     descriptions = {f["problem_type"]: f for f in desc.get("findings", [])}
+    bld = bld or building
     kind = (bld or {}).get("building_kind") or "multiple_dwelling"
     kind_source = "building" if (bld or {}).get("building_kind") else "assumed"
     conn = dbm.connect()

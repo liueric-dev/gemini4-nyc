@@ -30,5 +30,11 @@
     ]
   },
   "support": 0.5,
-  "quality": 0.5
+  "quality": 0.5,
+  "video": {
+    "seconds_per_frame": 3,
+    "max_frames": 16,
+    "min_frames": 4,
+    "min_confirming_frames": 2
+  }
 }

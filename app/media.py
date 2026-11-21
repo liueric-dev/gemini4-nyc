@@ -59,6 +59,9 @@ def load(photo_id: str) -> tuple[bytes, str] | None:
     return None
 
 
+VIDEO_MIME = {".mp4": "video/mp4", ".mov": "video/quicktime", ".webm": "video/webm", ".m4v": "video/x-m4v"}
+
+
 def save_upload(data: bytes, content_type: str) -> str:
     ext = next((e for e, m in MIME.items() if m == content_type), None)
     if not ext:
@@ -67,3 +70,14 @@ def save_upload(data: bytes, content_type: str) -> str:
     photo_id = f"upload-{uuid.uuid4().hex[:12]}"
     (UPLOADS / f"{photo_id}{ext}").write_bytes(data)
     return photo_id
+
+
+def save_video(data: bytes, content_type: str) -> Path:
+    """Keep an uploaded video for the session and return where it is. The name is generated, never the client's."""
+    ext = next((e for e, m in VIDEO_MIME.items() if m == content_type), None)
+    if not ext:
+        raise ValueError(f"Unsupported video type: {content_type}")
+    UPLOADS.mkdir(parents=True, exist_ok=True)
+    path = UPLOADS / f"video-{uuid.uuid4().hex[:12]}{ext}"
+    path.write_bytes(data)
+    return path

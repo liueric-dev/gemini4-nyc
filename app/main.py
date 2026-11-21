@@ -5,7 +5,7 @@ from typing import Annotated
 
 from fastapi import Body, FastAPI, File, Form, HTTPException, Response, UploadFile
 
-from app import building, case_agent, config, letter, media, pipeline
+from app import building, case_agent, config, letter, media, pipeline, video
 
 app = FastAPI(title="Tenant advocate")
 
@@ -43,6 +43,7 @@ def get_photo(photo_id: str) -> Response:
 
 
 MAX_UPLOAD = 20 * 1024 * 1024
+MAX_VIDEO = 100 * 1024 * 1024
 
 
 @app.post("/api/analyze")
@@ -55,6 +56,23 @@ def analyze(
 ) -> dict:
     """A photo to findings. Send an uploaded photo or the id of a test photo, plus an optional address
     and answers (a JSON object of fact name to value) to questions from an earlier response."""
+    try:
+        parsed = json.loads(answers) if answers else {}
+    except json.JSONDecodeError:
+        raise HTTPException(400, "answers must be a JSON object") from None
+    if not isinstance(parsed, dict):
+        raise HTTPException(400, "answers must be a JSON object")
+    if photo is not None and (photo.content_type or "").startswith("video/"):
+        data = photo.file.read(MAX_VIDEO + 1)
+        if len(data) > MAX_VIDEO:
+            raise HTTPException(413, "Video is larger than 100 MB")
+        try:
+            path = media.save_video(data, photo.content_type)
+            return video.analyze_video(path, address=address or None, answers=parsed, with_explanation=explain)
+        except ValueError as e:
+            raise HTTPException(415, str(e)) from None
+        except Exception as e:  # noqa: BLE001
+            raise HTTPException(503, f"The video could not be analysed ({type(e).__name__}). Try again.") from None
     if photo is not None:
         data = photo.file.read(MAX_UPLOAD + 1)
         if len(data) > MAX_UPLOAD:
@@ -68,12 +86,6 @@ def analyze(
     found = media.load(photo_id)
     if not found:
         raise HTTPException(404, "No such photo on this machine")
-    try:
-        parsed = json.loads(answers) if answers else {}
-    except json.JSONDecodeError:
-        raise HTTPException(400, "answers must be a JSON object") from None
-    if not isinstance(parsed, dict):
-        raise HTTPException(400, "answers must be a JSON object")
     key = hashlib.sha256(json.dumps([photo_id, address or "", parsed, explain], sort_keys=True).encode()).hexdigest()[:16]
     saved = config.VAR / "cache" / "analyze" / f"{key}.json"
     try:
