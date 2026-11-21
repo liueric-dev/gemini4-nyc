@@ -178,8 +178,30 @@
   .sheet-foot .primary-btn { width: 100%; }
   .home { width: 100%; display: flex; align-items: center; gap: 12px; padding: 12px 14px 12px 12px; border: 1px solid #E6E6E6; border-radius: 22px; background: #fff; text-align: left; color: var(--ink); box-shadow: 0 6px 18px -12px rgba(0, 0, 0, .35); }
   .badge { font-size: 12px; font-weight: 600; border: 1px solid var(--ink); border-radius: 6px; padding: 2px 6px; white-space: nowrap; }
+  /* cards in the chat: white, light border, soft shadow */
+  .phone .card { border: 1px solid #E6E6E6; border-radius: 22px; box-shadow: 0 6px 18px -12px rgba(0, 0, 0, .35); }
+  .fcard { padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+  .fhead { display: flex; align-items: center; gap: 12px; }
+  .ftile { background: #F4F4F4; border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; }
+  .frule { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 40px; padding: 0 14px; border: 1.5px solid #D9D9D9; border-radius: 999px; background: #fff; color: #333; font-size: 14px; font-weight: 500; text-align: left; }
+  .frule svg { color: #666; flex-shrink: 0; }
+  .fmeta { gap: 6px; font-size: 14px; }
+  .fmeta > span { display: flex; gap: 8px; } .fmeta .sub { width: 52px; flex-shrink: 0; font-size: 13px; padding-top: 1px; }
+  .fbody { margin: 0 2px; font-size: 15px; line-height: 1.5; color: #333; }
+  .fattach { display: flex; align-items: center; gap: 10px; }
+  .fattach img, .fthumb { width: 40px; height: 40px; border-radius: 10px; object-fit: cover; background: #F0F0F0; }
+  .factions { display: flex; gap: 8px; }
+  .factions .fbtn.primary { flex: 1; }
+  .fbtn { min-height: 40px; padding: 0 14px; white-space: nowrap; border: 1.5px solid #D9D9D9; border-radius: 999px; background: #fff; color: #333; font-size: 15px; font-weight: 500; }
+  .fbtn.primary { border-color: var(--yellow); background: var(--yellow); color: #111; font-weight: 600; }
+  .flist { display: flex; flex-direction: column; }
+  .fitem { display: flex; align-items: center; gap: 10px; min-height: 42px; border-top: 1px solid #F0F0F0; font-size: 14px; }
+  .fcheck { width: 22px; height: 22px; border-radius: 11px; flex-shrink: 0; border: 1.5px solid #CFCFCF; display: flex; align-items: center; justify-content: center; }
+  .fcheck.ok { border: 0; background: var(--yellow); color: #111; }
+  .fadd { border: 0; background: #F2F2F2; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 600; }
   /* reply suggestions: stacked outline pills with an arrow */
   .phone .chips { flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 8px; padding: 6px 16px 12px; }
+  .phone .chips.inline { flex-direction: row; flex-wrap: wrap; }
   .phone .chip { display: inline-flex; align-items: center; gap: 14px; min-height: 40px; padding: 0 16px 0 20px; border: 1.5px solid #D9D9D9; border-radius: 999px; background: #fff; color: #555; font-size: 16px; font-weight: 500; letter-spacing: -.2px; }
   .phone .chip svg { color: #666; flex-shrink: 0; }
   .phone .chip:hover { border-color: #BDBDBD; color: #222; }
@@ -242,6 +264,9 @@
   .stepline { display: flex; gap: 10px; align-items: flex-start; padding: 9px 12px; border-top: 1px solid #EEEEEE; font-size: 14px; }
   .stepline .dot { width: 22px; height: 22px; flex-shrink: 0; border-radius: 11px; background: var(--yellow); color: #111; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
   .stepline b { display: block; font-size: 14px; } .stepline .sub { display: block; font-size: 12px; line-height: 1.35; margin-top: 2px; }
+  .fcard .letter { padding: 0; margin: 0 2px; }
+  a.fbtn { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; flex: 1; }
+  .fcard .ph { flex-shrink: 0; }
 </style>
 </head>
 <body>

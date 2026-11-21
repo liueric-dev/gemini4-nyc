@@ -1,7 +1,11 @@
 /* Tenard: the app's front end. Design, icons and views from the team's prototype (github.com/hey-niia/tenard,
-   commit 03fb082); live logic below. Served as-is; no build step. */
+   commit 0a313b5); live logic below. Served as-is; no build step. */
 const ICON = {
   arrowNE: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M8 7h9v9"/></svg>',
+  scale: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M7 20h10M5 7h14M12 4l-1 3h2z"/><path d="M5 7l-3 6a3 3 0 0 0 6 0zM19 7l-3 6a3 3 0 0 0 6 0z"/></svg>',
+  mail: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5L12 13l8.5-6.5"/></svg>',
+  megaphone: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v4a1 1 0 0 0 1 1h2l6 4V5L7 9H5a1 1 0 0 0-1 1z"/><path d="M8 15l1.5 4.5M17 9a4 4 0 0 1 0 6"/></svg>',
+  list: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 6h10M10 12h10M10 18h10"/><path d="M3.5 6l1.5 1.5L7.5 5M3.5 12l1.5 1.5L7.5 11"/><circle cx="5" cy="18" r="1.3"/></svg>',
   house: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-5.5h-5V20H5a1 1 0 0 1-1-1z"/></svg>',
   mic: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
   arrowUp: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>',
@@ -235,7 +239,6 @@ function conversation() {
       user(c.q);
       if (c.a) bot(c.a + (c.sources.length ? '\n\nSource: ' + c.sources.join('; ') : '')); else m.push({ t: 'thinking', text: 'Checking the law' });
     });
-    chips.push({ label: 'Start over', go: reset });
     return { m, chips, kase: { title, status, res, diy, T: { where }, sent: S.step >= 6, hasEvidence: !!S.photo, stage: stageOf() } };
   };
 
@@ -252,7 +255,7 @@ function conversation() {
   /* evidence */
   bot(T.ask);
   if (S.error) bot("I couldn't reach the model just now (" + S.error + '). Add the photo again.');
-  if (!S.photo) { chips = [{ label: 'Add photo or video', attach: true }, { label: 'Pick a test photo', go: openSamples }]; return done(); }
+  if (!S.photo) { chips = [{ label: 'Pick a test photo', go: openSamples }]; return done(); }
   m.push({ t: 'photo', tag: S.isVideo ? 'Your video' : 'Your photo' });
   status = 'Checking';
   if (!S.analysis) return done();
@@ -260,7 +263,7 @@ function conversation() {
   const a = S.analysis;
   if (a.from_cache) bot(a.cache_note);
   if (a.media_type === 'video') bot('I looked at ' + a.video.frames_analysed + ' moments across your ' + Math.round(a.video.duration_s) + '-second video.');
-  const more = [{ label: 'Add another photo', attach: true }, { label: 'Pick a test photo', go: openSamples }];
+  const more = [{ label: 'Pick a test photo', go: openSamples }];
 
   if (a.nothing_found) {
     if (a.unclear.length) a.unclear.forEach((u) => bot("I might be seeing something here, but I can't confirm it from this photo: " + u.what_was_seen + '\n\n' + u.request));
@@ -283,7 +286,7 @@ function conversation() {
     else if (q.type === 'enum') chips = (q.options || []).map((o) => ({ label: o, go: () => answer(q.fact, o, o, q.question) }));
     else if (q.fact === 'mold_area_sqft') chips = MOULD_SIZES.map(([l, v]) => ({ label: l, go: () => answer(q.fact, v, l, q.question) }));
     else S.awaitFact = { fact: q.fact, question: q.question };
-    if (askF.retake_request) chips.push({ label: 'Add a clearer photo', attach: true });
+    if (askF.retake_request) bot('Or add a clearer photo. ' + askF.retake_request);
     title = askF.title; status = 'One question to answer';
     return done();
   }
@@ -308,7 +311,7 @@ function conversation() {
       }
     }
     if (again && (S.diyChoice === 'no' || S.kit)) bot(again);
-    chips = [{ label: 'Film it again', attach: true }];
+    chips = [];
     return done();
   }
 
@@ -338,7 +341,6 @@ function conversation() {
     chips = [{ label: 'What do I do now?', go: () => { set({ step: 5 }, 500); fetchLetter(); } }];
     if (!S.asked) chips.push({ label: 'Will I get in trouble?', go: go({ asked: true }) });
     if (!S.packet) chips.push({ label: 'Build my case file', dark: true, go: buildPacket });
-    if (q && !q.good_for_evidence) chips.push({ label: 'Add a better photo', attach: true });
   }
   if (S.step >= 5) {
     user('What do I do now?');
@@ -364,7 +366,7 @@ function conversation() {
     fixedOn = when;
     user('Fixed');
     bot('Good news. Send a photo of the repaired spot so your case has proof it was done.');
-    if (!S.verified) chips = [{ label: 'Add photo of the repair', attach: true, verify: true }];
+    if (!S.verified) chips = [];
     else {
       m.push({ t: 'photo', tag: 'Photo · after the repair', after: true });
       bot('Case closed. It stays in your record, so if the problem comes back you can reopen it with the full history.');
@@ -462,54 +464,60 @@ function msgHTML(x) {
     case 'date': return `<div style="text-align:center;padding:10px 0 2px"><span style="font-size:12px;font-weight:600;color:var(--muted);border:1px solid var(--line2);border-radius:999px;padding:3px 10px">${esc(x.text)}</span></div>`;
     case 'finding': {
       const f = x.res.f, c = (f.citations || [])[0];
-      const law = c ? esc(c.citation) : (f.hpd_order ? 'HPD order ' + esc(f.hpd_order) : 'NYC Housing Maintenance Code');
+      const law = c ? c.citation : (f.hpd_order ? 'HPD order ' + f.hpd_order : 'NYC Housing Maintenance Code');
+      const lc = { 'Settled': 'green', 'Inspector decides': 'blue', "From HPD's records": 'grey', 'Not settled': 'orange' }[x.res.label] || 'grey';
       const frame = f.frame ? `<div class="ph" style="height:120px"><img src="${esc(f.frame.url)}" alt=""><span class="tag">Clearest at ${fmtTime(f.frame.time_s)}${f.seen_at_s && f.seen_at_s.length > 1 ? ' · seen ' + f.seen_at_s.length + ' times' : ''}</span></div>` : '';
-      return `<div class="row"><div class="card"><div class="pad">
-        <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><span class="eyebrow">Possible violation · ${esc(f.title)}</span><span class="chip-lbl">${esc(x.res.label)}</span></div>
+      return `<div class="row"><div class="card fcard">
+        <div class="fhead"><span class="sugic">${ICON.scale}</span><span class="sugtxt" style="flex:1"><b>Possible violation</b><span>${esc(f.title)}</span></span></div>
         ${frame}
-        <div class="grid2"><div class="tile"><span class="big">${esc(x.res.cls)}</span><span class="sub">${esc(x.res.sub)}</span></div><div class="tile"><span class="big">${esc(x.res.days)}</span><span class="sub">${esc(x.res.daysSub)}</span></div></div>
-        <span style="font-size:13px">${law} · <a href="#" data-act="rule" style="font-weight:600">See the rule</a></span>
-        <span class="sub" style="line-height:1.4">Not an official finding. Only an HPD inspector can issue a violation.</span></div></div></div>`;
+        <div class="grid2"><div class="ftile"><span class="big">${esc(x.res.cls)}</span><span class="sub">${esc(x.res.sub)}</span></div><div class="ftile"><span class="big">${esc(x.res.days)}</span><span class="sub">${esc(x.res.daysSub)}</span></div></div>
+        <span class="stage ${lc}" style="margin-top:0">${esc(x.res.label)}</span>
+        <button class="frule" data-act="rule"><span>${esc(law)} · See the rule</span>${ICON.arrowNE}</button>
+        <span class="sub" style="line-height:1.4">Not an official finding. Only an HPD inspector can issue a violation.</span></div></div>`;
     }
     case 'draft': {
       const l = S.letter, owner = S.building && S.building.owner ? S.building.owner : '[Landlord / management]';
       const body = !l ? '<span class="typing"><i></i><i></i><i></i></span>' : l.error ? esc("I couldn't draft the letter: " + l.error) : esc(l.letter);
-      return `<div class="row"><div class="card">
-        <div style="padding:10px 12px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:2px;font-size:12px"><span><span style="color:var(--muted)">To: </span>${esc(owner)}</span><span><span style="color:var(--muted)">Subject: </span>Repair request: ${esc(x.title)}</span></div>
-        <div class="letter">${body}</div>
-        <div class="btnrow"><button data-act="copy-letter">Copy</button><button class="primary" data-act="mail">Open in email</button></div></div></div>`;
+      const thumb = !S.isVideo && S.photo;
+      return `<div class="row"><div class="card fcard">
+        <div class="fhead"><span class="sugic">${ICON.mail}</span><span class="sugtxt" style="flex:1"><b>Letter to your landlord</b><span>Draft · you send it</span></span></div>
+        <div class="ftile fmeta"><span><span class="sub">To</span>${esc(owner)}</span><span><span class="sub">Subject</span>Repair request: ${esc(x.title)}</span></div>
+        <div class="letter fbody">${body}</div>
+        ${thumb ? `<div class="fattach"><img src="${esc(thumb)}" alt=""><span class="sub">Photo attached</span></div>` : ''}
+        <div class="factions"><button class="fbtn" data-act="copy-letter">Copy</button><button class="fbtn primary" data-act="mail">Open in email</button></div></div></div>`;
     }
     case 'complaint': {
       const l = S.letter;
-      return `<div class="row"><div class="card">
-        <div style="padding:10px 12px;border-bottom:1px solid var(--line)"><span class="eyebrow">311 complaint · ready to file</span></div>
-        <div class="letter" style="max-height:160px">${l && l.complaint_311 ? esc(l.complaint_311) : esc(x.title)}</div>
-        <div class="btnrow"><button data-act="copy-311">Copy text</button><a class="primary-link" href="https://portal.311.nyc.gov/" target="_blank" rel="noopener noreferrer">Open 311 online</a></div></div></div>`;
+      return `<div class="row"><div class="card fcard">
+        <div class="fhead"><span class="sugic">${ICON.megaphone}</span><span class="sugtxt" style="flex:1"><b>311 complaint</b><span>Ready to file · goes to HPD</span></span></div>
+        <div class="letter fbody" style="max-height:160px">${l && l.complaint_311 ? esc(l.complaint_311) : esc(x.title)}</div>
+        <div class="factions"><button class="fbtn" data-act="copy-311">Copy text</button><a class="fbtn primary" href="https://portal.311.nyc.gov/" target="_blank" rel="noopener noreferrer">Open 311 online</a></div></div></div>`;
     }
     case 'checklist': {
       const items = [['Dated photos and video', true], ['Written notice to landlord · Nov 21', S.step >= 6], ['311 service request number', S.step >= 9],
         ['HPD violation number (HPDONLINE)', S.insp === 'violation'], ["Your building's HPD record", !!(S.packet && S.packet.markdown)], ['Proof the notice was delivered', false],
         ['Lease and rent receipts', false], ['How it affects you, in your words', false]];
       const n = items.filter((i) => i[1]).length;
-      return `<div class="row"><div class="card">
-        <div style="padding:10px 12px;display:flex;justify-content:space-between;align-items:center"><span class="eyebrow">Evidence for court</span><span class="sub">${n} of ${items.length} ready</span></div>
-        ${items.map(([label, ok]) => `<div style="display:flex;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid #EEEEEE;font-size:14px"><span style="width:20px;height:20px;border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;${ok ? 'background:#111111;color:var(--cream)' : 'border:1.5px solid #111111'}">${ok ? ICON.check : ''}</span><span style="flex:1${ok ? '' : ';color:var(--soft)'}">${esc(label)}</span></div>`).join('')}
+      return `<div class="row"><div class="card fcard">
+        <div class="fhead"><span class="sugic">${ICON.list}</span><span class="sugtxt" style="flex:1"><b>Evidence for court</b><span>${n} of ${items.length} ready</span></span></div>
+        <div class="progress"><div style="width:${Math.round(n / items.length * 100)}%;background:var(--yellow)"></div></div>
+        <div class="flist">${items.map(([label, ok]) => `<div class="fitem"><span class="fcheck${ok ? ' ok' : ''}">${ok ? ICON.check : ''}</span><span style="flex:1${ok ? '' : ';color:var(--soft)'}">${esc(label)}</span></div>`).join('')}</div>
       </div></div>`;
     }
     case 'packet': {
       const p = S.packet;
       const secs = p.started ? Math.round((Date.now() - p.started) / 1000) : 0;
-      const sub = p.error ? esc(p.error) : p.markdown ? 'From HPD’s public record · built in ' + Math.round(p.seconds) + ' s' : 'An agent is reading your building’s HPD record · ' + secs + ' s';
-      return `<div class="row"><div class="card" style="display:flex;gap:12px;align-items:center;padding:12px">
-        <span style="width:40px;height:48px;border:1.5px solid #111111;border-radius:4px;flex-shrink:0;display:flex;align-items:center;justify-content:center">${ICON.doc}</span>
-        <span style="flex:1;display:flex;flex-direction:column;gap:2px;min-width:0"><b style="font-size:14px">Case file${p.markdown ? ' ready' : p.error ? '' : ' in progress'}</b><span class="sub">${sub}</span></span>
-        ${p.markdown ? '<button class="chip" style="min-height:36px" data-act="packet">Open</button>' : p.error ? '' : '<span class="typing"><i></i><i></i><i></i></span>'}</div></div>`;
+      const sub = p.error ? p.error : p.markdown ? 'From HPD’s public record · built in ' + Math.round(p.seconds) + ' s' : 'An agent is reading your building’s HPD record · ' + secs + ' s';
+      return `<div class="row"><div class="card fcard">
+        <div class="fhead"><span class="sugic">${ICON.doc}</span><span class="sugtxt" style="flex:1;min-width:0"><b>Case file${p.markdown ? ' ready' : p.error ? '' : ' in progress'}</b><span style="white-space:normal">${esc(sub)}</span></span>${p.markdown || p.error ? '' : '<span class="typing"><i></i><i></i><i></i></span>'}</div>
+        ${p.markdown ? '<div class="factions"><button class="fbtn primary" data-act="packet">Open the case file</button></div>' : ''}</div></div>`;
     }
     case 'steps': {
       const steps = (x.f.next_steps || []).filter((s) => s.path === 'Get it fixed');
-      return `<div class="row"><div class="card"><div style="padding:10px 12px"><span class="eyebrow">What to do, in order</span></div>
-        ${steps.map((s, i) => `<div class="stepline"><span class="dot">${i + 1}</span><span><b>${esc(s.title)}</b>${s.when ? `<span class="sub">${esc(s.when)}</span>` : ''}</span></div>`).join('')}
-        <div style="padding:8px 12px 10px" class="sub">From the escalation rules for this problem. Ask me about any step.</div></div></div>`;
+      return `<div class="row"><div class="card fcard">
+        <div class="fhead"><span class="sugic">${ICON.list}</span><span class="sugtxt" style="flex:1"><b>What to do, in order</b><span>From the rules for this problem</span></span></div>
+        <div class="flist">${steps.map((s, i) => `<div class="fitem" style="align-items:flex-start;padding:9px 0"><span class="fcheck ok" style="font-size:12px;font-weight:700">${i + 1}</span><span style="flex:1"><b style="display:block">${esc(s.title)}</b>${s.when ? `<span class="sub" style="display:block;font-size:12px;line-height:1.35">${esc(s.when)}</span>` : ''}</span></div>`).join('')}</div>
+      </div></div>`;
     }
     case 'kit': return kitHTML();
   }
@@ -522,7 +530,9 @@ function chatView(conv) {
   const pin = kase ? `<button class="pin" data-act="case"><span class="ic">${ICON.doc}</span><span style="flex:1;min-width:0"><b>${esc(kase.title)}</b><small>${esc(kase.status)}</small></span>${ICON.chev}</button>` : '';
   const typing = S.typing ? `<div class="row"><div class="bot">${S.busy ? `<span style="color:var(--muted)">${esc(S.busy)} </span>` : ''}<span class="typing"><i></i><i></i><i></i></span></div></div>` : '';
   const needAddr = S.type && !S.building && !S.addrSkipped;
-  const attachLabel = S.type && !needAddr && !S.photo ? 'Add photo or video' : (S.fixed && !S.verified) ? 'Add photo of the repair' : null;
+  const a0 = S.analysis, q0 = a0 && (((a0.findings[0] || {}).photo_quality) || a0.photo_quality);
+  const wantsRetake = a0 && (a0.nothing_found || a0.unclear.length || a0.findings.some((f) => f.retake_request || f.outcome === 'not_landlord_responsibility') || (q0 && !q0.good_for_evidence));
+  const attachLabel = (S.fixed && !S.verified) ? 'Add photo of the repair' : S.type && !needAddr && !S.photo ? 'Add photo or video' : wantsRetake && S.step <= 4 ? 'Add another photo' : null;
   const placeholder = conv.empty ? "Tell us what's wrong at home" : needAddr ? 'Your address, like 122 W 167th St, Bronx' : S.awaitFact ? 'Type a number' : S.analysis ? 'Ask a question about your case' : 'Add a photo, or ask a question';
   return `
     <div class="nav">
@@ -539,7 +549,7 @@ function chatView(conv) {
       ${pin ? `<div class="pinwrap">${pin}</div>` : ''}
       <div class="scroll${pin ? ' haspin' : ''}" id="scroll">${m.map(msgHTML).join('')}${typing}</div>
     </div>
-    <div class="chips">${S.typing ? '' : chips.map((c, i) => `<button class="chip${c.dark ? ' dark' : ''}" data-chip="${i}"><span>${esc(c.label)}</span>${ICON.arrowNE}</button>`).join('')}</div>`}
+    <div class="chips${chips.every((c) => c.label.length <= 18) ? ' inline' : ''}">${S.typing ? '' : chips.map((c, i) => `<button class="chip${c.dark ? ' dark' : ''}" data-chip="${i}"><span>${esc(c.label)}</span>${ICON.arrowNE}</button>`).join('')}</div>`}
     <form class="composer" id="composer">
       <input type="text" id="msg" aria-label="Message" placeholder="${esc(placeholder)}" autocomplete="off">
       <div class="composer-row">
