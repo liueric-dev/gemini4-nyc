@@ -75,3 +75,14 @@ Things the SDK (google-genai 3.6.1) needs that the docs didn't make obvious:
 - **The Decisions API and agent environments work only on `v1beta`.** Pass `api_version="v1beta"`; the default version returns 404 for decisions and 400 for an agent's `environment`.
 - **Decisions call:** `client.decisions.create(model="gemini-decision-1", api_version="v1beta", input=[{"type": "image", "data": <base64>, "mime_type": "image/jpeg"}], questions={id: {"type": "noul" | "choice" | "score", "instructions": ...}})`. A `choice` question takes `criteria` as a map of option id to description.
 - **Agent run:** `client.interactions.create(agent="antigravity-preview-09-2026", input=..., environment={"type": "remote"}, api_version="v1beta")`. `environment` is required.
+
+Explanation step, one finding, low thinking, structured output with quotes (single samples, Nov 21 about 13:45):
+
+| Model | Time | Quotes found word for word in the cited section |
+|---|---|---|
+| Argon | 10.6 s | 3 of 3 |
+| Hydrogen | 17.2 s | 3 of 3 |
+| Carbon | 103.8 s | 3 of 3 |
+
+**These timings were taken while the venue network was unreliable, so treat them as rough.** On them, the app uses Hydrogen to describe the photo and Argon to explain the law. The choice is one line in `app/config.py` (`MODEL_EXPLAIN`); re-time before the demo and switch back to Carbon if it is comparable.
+The venue network also dropped or stalled some requests (one Decisions call took 33 s against a normal 1 s), so every model call has a time limit and one retry.

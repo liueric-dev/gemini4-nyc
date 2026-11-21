@@ -2,30 +2,9 @@
 
 Builds a throwaway database in a temp folder; never touches var/tenant.db.
 """
-import importlib.util
-from pathlib import Path
-
-import pytest
-
 from app import db as dbm
 
-ROOT = Path(__file__).resolve().parent.parent
 MD = "multiple_dwelling"
-
-
-@pytest.fixture(scope="session")
-def db(tmp_path_factory):
-    spec = importlib.util.spec_from_file_location("build_db", ROOT / "scripts/build_db.py")
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    path = tmp_path_factory.mktemp("db") / "tenant.db"
-    counts = mod.build(path)
-    assert counts["rules"] == 92
-    assert counts["sections"] > 1000
-    assert counts["hpd_orders"] == 400
-    conn = dbm.connect(path)
-    yield conn
-    conn.close()
 
 
 def ids(rows, match="matched"):

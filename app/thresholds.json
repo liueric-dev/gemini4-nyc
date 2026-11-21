@@ -1,0 +1,32 @@
+{
+  "_about": "Cut-offs used by app/pipeline.py. `confirm` is the Decisions API probability a model-proposed problem must reach to be reported; `detect` is the old detector-alone cut-off, kept for comparison. Untuned defaults until eval/tune.py sets them from dev-split photos by a rule fixed in advance.",
+  "detect": {
+    "default": 0.5
+  },
+  "fact": 0.5,
+  "confidence": {
+    "high": 0.8,
+    "medium": 0.6
+  },
+  "max_questions": 3,
+  "confirm": {
+    "default": 0.5,
+    "leak": 0.05,
+    "mold": 0.05,
+    "peeling-paint": 0.65,
+    "wall-ceiling-damage": 0.85,
+    "pests": 0.05,
+    "smoke-co-detector": 0.05,
+    "window": 0.35,
+    "heat-hot-water": 0.05
+  },
+  "_tuned": {
+    "rule": "per-type",
+    "dev_photos": 220,
+    "proposer": "system-gemini-4-argon-p1",
+    "cross_validated_exact_match": [
+      169,
+      220
+    ]
+  }
+}

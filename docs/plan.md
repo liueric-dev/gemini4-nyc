@@ -114,7 +114,7 @@ One function, `analyze(photo, address)`, called by both the app and the evaluati
 | 3 | Describe | Gemini 4 Hydrogen | For each detected problem: what it is, where it is in the frame, how bad it looks. |
 | 4 | Facts | Code, live city data | A typed address gives year built, units, rent-stabilized status and open violations. The tenant is asked a question only when a rule depends on it (for example a child under 6). |
 | 5 | Map to the law | Code, no model | Problem type plus facts selects rows in the problem map: HPD order, class, deadline and section ids. Unsettled rows are shown as "class not settled". |
-| 6 | Explain and draft | Gemini 4 Carbon | Writes rights, duties, next steps and the letter from only the matched sections. Code rejects any citation or quote that isn't in the text it was given. |
+| 6 | Explain and draft | Gemini 4 Argon (Carbon measured at about 100 s per answer on the day) | Writes rights, duties, next steps and the letter from only the matched sections. Code rejects any citation or quote that isn't in the text it was given. |
 | 7 | Case record | Code | Drafting the letter saves the building, problem, class and deadline. |
 | 8 | Follow-up agent | Managed Agents | Takes a case record, checks HPD's records for the building, and drafts the next step. It drafts and never sends. Triggered by hand in the demo. |
 | 9 | Screens | Web page | Findings (evidence, law text, deadline, next step) and proof (numbers against the baseline, failures). |
@@ -144,7 +144,7 @@ Runtime data (building lookups, case records) goes in a separate file, so a rebu
 
 ### Proof
 
-- **Baseline:** one Carbon call with the photo and "what violations are here, cite the law, class and deadline".
+- **Baseline:** one Argon call (the same model the system reasons with) with the photo and "what violations are here, cite the law, class and deadline".
 - **Test set:** the frozen review set in `data/media/review/` (labels frozen at 08:03:23 on Nov 21, before any app code), scored by `scoring-rules.md`, with `freeze-addendum.json` applied.
 - **Headline number:** end to end. Detection right, citation real, class and deadline right.
 - **Tuning** uses dev-split items only. The test set is run once, at the end, for both the system and the baseline.

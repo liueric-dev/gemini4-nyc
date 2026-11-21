@@ -1,0 +1,143 @@
+{
+  "status": "ok",
+  "photo": {
+    "id": "upload-1",
+    "url": "/api/photos/upload-1"
+  },
+  "timings": {
+    "detect_s": 1.2,
+    "describe_s": 5.8,
+    "building_s": 1.9,
+    "explain_s": 6.4,
+    "total_s": 13.6
+  },
+  "nothing_found": false,
+  "building": {
+    "address": "39-06 114 STREET, North Corona, NY, USA",
+    "bbl": "4017720015",
+    "year_built": 1965,
+    "units_res": 70,
+    "building_kind": "multiple_dwelling",
+    "rent_stabilized": true,
+    "hpd_registered": true,
+    "owner": "39-06 114 ST REALTY LLC",
+    "open_violations": {
+      "total": 17,
+      "by_class": {
+        "B": 7,
+        "C": 10
+      },
+      "recent": [
+        {
+          "class": "C",
+          "order": "550",
+          "date": "2026-10-02",
+          "apartment": "4B",
+          "status": "NOV SENT OUT",
+          "description": "\u00a7 27-2017.3 ADM CODE ... VISIBLE MOLD CONDITION ..."
+        }
+      ]
+    }
+  },
+  "findings": [
+    {
+      "problem_type": "mold",
+      "title": "Mould",
+      "probability": 0.88,
+      "confidence": "high",
+      "description": "Dark mould growth across the lower half of the wall beside the window, with staining at the baseboard.",
+      "where": "Lower half of the wall, left of the window",
+      "outcome": "violation",
+      "rule_id": "EO-008",
+      "scenario": "Visible mould, 10 to under 30 square feet in a room",
+      "class": "B",
+      "class_options": null,
+      "class_meaning": "Hazardous",
+      "deadline": {
+        "value": 30,
+        "unit": "days",
+        "text": "30 days from mailing of notice",
+        "starts": "When HPD issues a violation notice after inspecting"
+      },
+      "certainty": "settled",
+      "hpd_order": "550",
+      "facts_used": [
+        {
+          "name": "mold_area_sqft",
+          "label": "Mould area",
+          "value": 12,
+          "source": "photo",
+          "confidence": 0.42
+        },
+        {
+          "name": "building_kind",
+          "label": "Building type",
+          "value": "multiple_dwelling",
+          "source": "building"
+        }
+      ],
+      "questions": [],
+      "citations": [
+        {
+          "section_id": "nyc-hmc-27-2017-3",
+          "citation": "NYC Admin Code \u00a7 27-2017.3",
+          "quote": "the exact words quoted from the section go here",
+          "supports": "The class for mould of this size",
+          "checked": true,
+          "source_url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/..."
+        }
+      ],
+      "explanation": {
+        "summary": "One or two plain sentences on what this is and why it matters.",
+        "landlord_duties": "What the landlord must do and by when.",
+        "tenant_rights": "What the tenant is entitled to.",
+        "tenant_responsibilities": "What the tenant must do, such as allowing access for repairs."
+      },
+      "next_steps": [
+        {
+          "code": "A1",
+          "title": "Tell the landlord in writing",
+          "detail": "Describe the condition; keep a copy and proof of delivery."
+        },
+        {
+          "code": "A2",
+          "title": "File a 311 complaint",
+          "detail": "311 sends it to HPD, which aims to inspect within 30 days."
+        },
+        {
+          "code": "A6",
+          "title": "HP action in Housing Court",
+          "detail": "A judge can order the repair."
+        }
+      ]
+    }
+  ],
+  "unclear": [
+    {
+      "problem_type": "peeling-paint",
+      "probability": 0.31,
+      "what_was_seen": "Some lifting at the edge of the paint near the baseboard.",
+      "request": "Take a closer photo of the paint in good light, at an angle that shows it lifting from the surface."
+    }
+  ],
+  "out_of_scope": null,
+  "_notes_for_designers": {
+    "outcome_values": {
+      "violation": "A class and a deadline are known. Show them.",
+      "inspector_decides": "A violation, but class is null. Show class_options (for example A, B, C) and no single deadline.",
+      "not_landlord_responsibility": "The rule says this is the tenant's own duty, such as surface mould on intact grout. No class or deadline.",
+      "not_settled": "The app found the problem but the sources don't settle the outcome. Show next_steps only.",
+      "needs_answer": "The app can't choose until the tenant answers the items in questions. Show them as a short form, then call again with the answers."
+    },
+    "confidence_values": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "nothing_found": "When true, findings is empty. Say so plainly.",
+    "out_of_scope": "When the photo shows something outside the decision tree, this is {description, tenant_responsibility}. It is where a Shopify suggestion would attach.",
+    "no_boxes": "The models describe where a problem is in words (the where field). They don't return coordinates, so don't design boxes drawn on the photo.",
+    "arrival_order": "Parts arrive at different times: detection at about 1 second, description at about 6, the law explanation at about 13. Design each part to appear when ready.",
+    "unclear": "Problems the app thought it saw but couldn't confirm. Not reported as problems. Show the request and let the tenant add another photo."
+  }
+}
